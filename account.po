@@ -946,7 +946,7 @@ msgstr "（如果你没有选择会计年度，所有打开的会计年度将被
 #: view:account.tax.chart:account.view_account_tax_chart
 msgid ""
 "(If you do not select a specific period, all open periods will be selected)"
-msgstr "（如果你不选择会计期间，所有打开状态的会计期间将被选择）"
+msgstr "（如果你不选择会计期间，所有启用状态的会计期间将被选择）"
 
 #. module: account
 #: view:account.state.open:account.view_account_state_open
@@ -3572,7 +3572,7 @@ msgid ""
 "account if this is a Customer Invoice or Supplier Refund, otherwise a "
 "Partner bank account number."
 msgstr ""
-"发票的收款银行帐号。如果是客户发票或供应商红字发票，这里是本公司的银行账号，"
+"发票的收款银行帐号。如果是客户发票或供应商
 "否则这里是业务伙伴的银行账号。"
 
 #. module: account_payment
@@ -4018,7 +4018,7 @@ msgstr ""
 #: code:addons/account_voucher/account_voucher.py:959
 #, python-format
 msgid "Cannot delete voucher(s) which are already opened or paid."
-msgstr "不能删除已经开启或者支付的单据。"
+msgstr "不能删除未付或者支付的单据。"
 
 #. module: account
 #: code:addons/account/account_invoice.py:453
