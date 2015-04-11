@@ -1800,7 +1800,7 @@ msgstr ""
 "                科目应反映企业自身的业务\n"
 "                成本/收入分析和报表的需要。\n"
 "              </p><p>\n"
-"                它们通常由合约、项目、产品或\n"
+"                它们通常由合同、项目、产品或\n"
 "                部门构成。多数的OpenERP运用程序（发票、\n"
 "                计工单、费用等）会在\n"
 "                相关的帐户生成分析分录。\n"
@@ -4987,7 +4987,7 @@ msgstr "合同"
 #. module: analytic
 #: model:mail.message.subtype,name:analytic.mt_account_closed
 msgid "Contract Finished"
-msgstr "完成的合约"
+msgstr "完成的合同"
 
 #. module: analytic
 #: view:account.analytic.account:analytic.view_account_analytic_account_form
@@ -4997,7 +4997,7 @@ msgstr "合同信息"
 #. module: analytic
 #: model:mail.message.subtype,name:analytic.mt_account_opened
 msgid "Contract Opened"
-msgstr "进行中的合约"
+msgstr "进行中的合同"
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,name:account_analytic_analysis.template_of_contract_action
@@ -5008,7 +5008,7 @@ msgstr "合同模版"
 #. module: analytic
 #: model:mail.message.subtype,description:analytic.mt_account_closed
 msgid "Contract closed"
-msgstr "关闭的合约"
+msgstr "关闭的合同"
 
 #. module: account_analytic_analysis
 #: model:email.template,subject:account_analytic_analysis.account_analytic_cron_email_template
@@ -5018,7 +5018,7 @@ msgstr "Contract expiration reminder ${user.company_id.name}"
 #. module: analytic
 #: model:mail.message.subtype,description:analytic.mt_account_opened
 msgid "Contract opened"
-msgstr "合约已开启"
+msgstr "合同已开启"
 
 #. module: analytic
 #: selection:account.analytic.account,type:0
@@ -5033,13 +5033,13 @@ msgstr "合同待定中"
 #. module: analytic
 #: model:mail.message.subtype,name:analytic.mt_account_pending
 msgid "Contract to Renew"
-msgstr "需续签的合约"
+msgstr "需续签的合同"
 
 #. module: analytic
 #: code:addons/analytic/analytic.py:238
 #, python-format
 msgid "Contract: "
-msgstr "合约： "
+msgstr "合同： "
 
 #. modules: account, account_analytic_analysis
 #: view:res.partner:account.partner_view_button_contracts_count
