@@ -11,7 +11,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-11 05:54+0000\n"
-"PO-Revision-Date: 2015-04-11 19:01+0800\n"
+"PO-Revision-Date: 2015-04-11 21:55+0800\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,12 +34,12 @@ msgstr "# 销售开票"
 #. module: product
 #: field:product.template,product_variant_count:0
 msgid "# of Product Variants"
-msgstr "个产品变体"
+msgstr "# 个产品变体"
 
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_tree
 msgid "#Purchased"
-msgstr "采购"
+msgstr "# 采购"
 
 #. module: product
 #: code:addons/product/product.py:759 code:addons/product/product.py:1131
@@ -1676,14 +1676,14 @@ msgstr "精确的产品描述，仅用于内部备注。"
 #. module: product
 #: model:product.category,name:product.product_category_7
 msgid "Accessories"
-msgstr "配件"
+msgstr "Accessories"
 
 #. module: product
 #: field:product.price.type,active:0 field:product.pricelist,active:0
 #: field:product.pricelist.version,active:0 field:product.product,active:0
 #: field:product.template,active:0 field:product.uom,active:0
 msgid "Active"
-msgstr "可用"
+msgstr "启用"
 
 #. module: product_extended
 #: code:addons/product_extended/wizard/wizard_price.py:44
@@ -1725,17 +1725,17 @@ msgstr "Apple In-Ear Headphones"
 #. module: product
 #: model:product.category,name:product.apple
 msgid "Apple Products"
-msgstr "苹果产品"
+msgstr "Apple Products"
 
 #. module: product
 #: model:product.template,name:product.product_product_9_product_template
 msgid "Apple Wireless Keyboard"
-msgstr "苹果无线键盘"
+msgstr "Apple Wireless Keyboard"
 
 #. module: product
 #: model:product.template,name:product.product_assembly_product_template
 msgid "Assembly Service Cost"
-msgstr "组装服务成本"
+msgstr "Assembly Service Cost"
 
 #. module: product
 #: help:product.supplierinfo,sequence:0
@@ -1794,7 +1794,7 @@ msgstr "客户发票中的平均价格"
 #. module: product_margin
 #: help:product.product,purchase_avg_price:0
 msgid "Avg. Price in Supplier Invoices "
-msgstr "供应商发票平均单价 "
+msgstr "供应商发票中的平均价格"
 
 #. module: product_margin
 #: field:product.product,purchase_avg_price:0
@@ -1851,17 +1851,17 @@ msgstr "物料清单"
 #. module: product
 #: model:product.attribute.value,name:product.product_attribute_value_4
 msgid "Black"
-msgstr "黑色"
+msgstr "Black"
 
 #. module: product
 #: model:product.template,name:product.product_product_35_product_template
 msgid "Blank CD"
-msgstr "空白CD"
+msgstr "Blank CD"
 
 #. module: product
 #: model:product.template,name:product.product_product_36_product_template
 msgid "Blank DVD-RW"
-msgstr "空白 DVD-RW"
+msgstr "Blank DVD-RW"
 
 #. module: product
 #: model:product.template,name:product.product_product_5b_product_template
@@ -1876,7 +1876,7 @@ msgstr "Bose's smallest portable Bluetooth speaker"
 #. module: product
 #: selection:product.ul,type:0
 msgid "Box"
-msgstr "箱子"
+msgstr "Box"
 
 #. module: product
 #: model:product.ul,name:product.product_ul_box
@@ -1891,7 +1891,7 @@ msgstr "Box 30x40x60"
 #. module: product_expiry
 #: model:product.template,name:product_expiry.product_product_pain_product_template
 msgid "Bread"
-msgstr "面包"
+msgstr "Bread"
 
 #. module: product
 #: help:product.uom,active:0
@@ -1937,17 +1937,17 @@ msgstr "箱子"
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_form
 msgid "Catalog Price"
-msgstr "(产品列表价格)标价"
+msgstr "目录价格"
 
 #. module: product
 #: view:product.template:product.product_template_search_view
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: product
 #: field:product.category,type:0
 msgid "Category Type"
-msgstr "类属"
+msgstr "类别类型"
 
 #. module: product_extended
 #: view:wizard.price:product_extended.view_compute_price_wizard
@@ -2058,7 +2058,7 @@ msgstr "电脑"
 #. module: product
 #: view:product.template:product.product_template_form_view
 msgid "Configurations"
-msgstr "Configurations"
+msgstr "配置"
 
 #. module: product
 #: view:product.template:product.product_template_search_view
@@ -2077,7 +2077,7 @@ msgid ""
 "Consumable: Will not imply stock management for this product. \n"
 "Stockable product: Will imply stock management for this product."
 msgstr ""
-"消耗品：不会为该产品进行库存管理\n"
+"可消耗：不会为该产品进行库存管理\n"
 "可库存产品：将为该产品进行库存管理"
 
 #. module: product
@@ -2115,7 +2115,7 @@ msgstr ""
 #. module: product_expiry
 #: model:product.template,name:product_expiry.product_product_lait_product_template
 msgid "Cow milk"
-msgstr "牛奶"
+msgstr "Cow milk"
 
 #. modules: product, product_extended, product_margin
 #: field:pricelist.partnerinfo,create_uid:0
@@ -2169,12 +2169,12 @@ msgstr "币别"
 #. module: product
 #: model:product.template,description:product.product_product_27_product_template
 msgid "Custom Laptop based on customer's requirement."
-msgstr "基于客户要求定制便携式计算机。"
+msgstr "Custom Laptop based on customer's requirement."
 
 #. module: product
 #: model:product.template,description:product.product_product_5_product_template
 msgid "Custom computer assembled on order based on customer's requirement."
-msgstr "根据客户要求定制组装计算机"
+msgstr "Custom computer assembled on order based on customer's requirement."
 
 #. module: product
 #: field:product.product,partner_ref:0
@@ -2184,7 +2184,7 @@ msgstr "客户参考"
 #. module: product
 #: model:product.template,name:product.product_product_46_product_template
 msgid "Datacard"
-msgstr "数据卡"
+msgstr "Datacard"
 
 #. module: product
 #: help:product.product,message_last_post:0
@@ -2201,7 +2201,7 @@ msgstr "日期"
 #. module: product
 #: model:product.uom,name:product.product_uom_day
 msgid "Day(s)"
-msgstr "天"
+msgstr "Day(s)"
 
 #. module: product
 #: model:product.pricelist.version,name:product.ver0
@@ -2228,7 +2228,7 @@ msgstr "采购单默认使用的计量单位。必须与默认计量单位位于
 #. module: product
 #: field:product.supplierinfo,delay:0
 msgid "Delivery Lead Time"
-msgstr "送货周期"
+msgstr "交货提前时间"
 
 #. module: product
 #: field:pricelist.partnerinfo,name:0 field:product.packaging,name:0
@@ -2254,7 +2254,7 @@ msgstr "决定显示顺序"
 #. module: product
 #: model:product.public.category,name:product.devices
 msgid "Devices"
-msgstr "设备"
+msgstr "Devices"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_dozen
@@ -2265,12 +2265,12 @@ msgstr "Dozen(s)"
 #: selection:product.margin,invoice_state:0
 #: selection:product.product,invoice_state:0
 msgid "Draft, Open and Paid"
-msgstr "草稿、待处理和支付"
+msgstr "草稿、开启和已付"
 
 #. module: product
 #: field:product.packaging,ean:0
 msgid "EAN"
-msgstr "条码"
+msgstr "EAN"
 
 #. module: product
 #: field:product.product,ean13:0 field:product.template,ean13:0
@@ -2280,7 +2280,7 @@ msgstr "EAN13 条码"
 #. module: product
 #: field:product.ul,weight:0
 msgid "Empty Package Weight"
-msgstr "空包装重量"
+msgstr "空包裹重量"
 
 #. module: product
 #: field:product.pricelist.version,date_end:0
@@ -2384,17 +2384,17 @@ msgstr "价格表明细的详细规则名称"
 #. module: product
 #: model:product.category,name:product.product_category_6
 msgid "External Devices"
-msgstr "外置设备"
+msgstr "External Devices"
 
 #. module: product
 #: model:product.public.category,name:product.External_Hard_Drive
 msgid "External Hard Drive"
-msgstr "外接硬盘"
+msgstr "External Hard Drive"
 
 #. module: product
 #: model:product.template,name:product.product_product_28_product_template
 msgid "External Hard disk"
-msgstr "外置硬盘"
+msgstr "External Hard disk"
 
 #. module: product
 #: help:product.pricelist.version,date_start:0
@@ -2511,7 +2511,7 @@ msgstr "毛重"
 #. module: product
 #: view:product.template:product.product_template_search_view
 msgid "Group by..."
-msgstr "分组"
+msgstr "Group by..."
 
 #. module: product
 #: model:product.template,name:product.product_product_17_product_template
@@ -2605,7 +2605,7 @@ msgstr ""
 #. module: product
 #: model:product.uom,name:product.product_uom_hour
 msgid "Hour(s)"
-msgstr "小时"
+msgstr "Hour(s)"
 
 #. module: product
 #: help:product.uom,factor_inv:0
@@ -2786,7 +2786,7 @@ msgstr "是产品变体"
 #. module: product
 #: view:product.pricelist.version:product.product_pricelist_version_form_view
 msgid "Item List"
-msgstr "条目列表"
+msgstr "项目列表"
 
 #. module: product
 #: field:product.pricelist.type,key:0
@@ -2907,7 +2907,7 @@ msgstr "Liter(s)"
 #. module: product
 #: model:ir.model,name:product.model_product_ul
 msgid "Logistic Unit"
-msgstr "物流单位"
+msgstr "物流单元"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.product_ul_form_action
@@ -2915,12 +2915,12 @@ msgstr "物流单位"
 #: view:product.ul:product.product_ul_form_view
 #: view:product.ul:product.product_ul_tree
 msgid "Logistic Units"
-msgstr "物流单位"
+msgstr "物流单元"
 
 #. module: product
 #: field:product.template,packaging_ids:0
 msgid "Logistical Units"
-msgstr "逻辑单位"
+msgstr "物流单元"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_production_lot
@@ -2935,7 +2935,7 @@ msgstr "主要供应商"
 #. module: product
 #: help:product.template,seller_id:0
 msgid "Main Supplier who has highest priority in Supplier List."
-msgstr "最优先的主供应商"
+msgstr "主要供应商它在供应商里面具有最高的优先级。"
 
 #. module: product
 #: model:res.groups,name:product.group_uom
@@ -2960,27 +2960,27 @@ msgstr "管理第二个计量单位"
 #. module: product_margin
 #: field:product.product,date_from:0
 msgid "Margin Date From"
-msgstr "盈利开始日"
+msgstr "毛利开始日"
 
 #. module: product_margin
 #: field:product.product,date_to:0
 msgid "Margin Date To"
-msgstr "盈利结束日"
+msgstr "毛利结束日"
 
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_form
 msgid "Margins"
-msgstr "利润"
+msgstr "毛利"
 
 #. module: product
 #: view:product.pricelist.item:product.product_pricelist_item_form_view
 msgid "Max. Margin"
-msgstr "最大利润"
+msgstr "最大毛利"
 
 #. module: product
 #: field:product.pricelist.item,price_max_margin:0
 msgid "Max. Price Margin"
-msgstr "最大的价格上浮金额"
+msgstr "最大的价格毛利"
 
 #. module: product
 #: field:product.template,mes_type:0
@@ -3021,12 +3021,12 @@ msgstr "消息和通信历史"
 #. module: product
 #: view:product.pricelist.item:product.product_pricelist_item_form_view
 msgid "Min. Margin"
-msgstr "最小上浮金额"
+msgstr "最小毛利"
 
 #. module: product
 #: field:product.pricelist.item,price_min_margin:0
 msgid "Min. Price Margin"
-msgstr "最小上浮金额"
+msgstr "最小价格毛利"
 
 #. module: product
 #: field:product.pricelist.item,min_quantity:0
@@ -3358,7 +3358,7 @@ msgstr "价格类型"
 #: model:ir.actions.act_window,name:product.product_price_type_action
 #: model:ir.ui.menu,name:product.menu_product_price_type
 msgid "Price Types"
-msgstr "计价基础"
+msgstr "价格类型"
 
 #. module: product
 #: view:product.product:product.product_kanban_view
@@ -3664,7 +3664,7 @@ msgstr "产品： "
 #. module: product_margin
 #: view:product.margin:product_margin.product_margin_form_view
 msgid "Properties categories"
-msgstr "属性分类"
+msgstr "属性类别"
 
 #. module: product
 #: model:product.price.type,name:product.list_price
@@ -3720,27 +3720,27 @@ msgstr "包装数量"
 #. module: product
 #: field:product.price_list,qty1:0
 msgid "Quantity-1"
-msgstr "数量-1"
+msgstr "Quantity-1"
 
 #. module: product
 #: field:product.price_list,qty2:0
 msgid "Quantity-2"
-msgstr "数量-2"
+msgstr "Quantity-2"
 
 #. module: product
 #: field:product.price_list,qty3:0
 msgid "Quantity-3"
-msgstr "数量-3"
+msgstr ""
 
 #. module: product
 #: field:product.price_list,qty4:0
 msgid "Quantity-4"
-msgstr "数量-4"
+msgstr "Quantity-4"
 
 #. module: product
 #: field:product.price_list,qty5:0
 msgid "Quantity-5"
-msgstr "数量-5"
+msgstr "Quantity-5"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_quant
@@ -4019,7 +4019,7 @@ msgstr "状态"
 #. module: product
 #: selection:product.template,type:0
 msgid "Stockable Product"
-msgstr "库存商品"
+msgstr "可库存产品"
 
 #. module: product_margin
 #: help:product.product,normal_cost:0
@@ -4210,12 +4210,12 @@ msgstr "净重，公斤"
 #. module: product
 #: help:product.packaging,rows:0
 msgid "The number of layers on a pallet or box"
-msgstr "层板或箱子的层数"
+msgstr "托盘或箱子的层数"
 
 #. module: product
 #: help:product.packaging,ul_qty:0
 msgid "The number of packages by layer"
-msgstr "每层包装件数"
+msgstr "每层的包裹数"
 
 #. module: product
 #: code:addons/product/product.py:398
@@ -4257,7 +4257,7 @@ msgstr ""
 #. module: product
 #: help:product.packaging,qty:0
 msgid "The total number of products you can put by pallet or box."
-msgstr "您可以放入货板或箱子的产品数量。"
+msgstr "你能放入托盘或箱子的产品数量。"
 
 #. module: product
 #: help:product.template,volume:0
@@ -4267,12 +4267,12 @@ msgstr "这体积是m3"
 #. module: product
 #: help:product.packaging,weight:0
 msgid "The weight of a full package, pallet or box."
-msgstr "完整包装的重量，指货板或者包装箱"
+msgstr "完整包裹、托盘或者箱子的重量"
 
 #. module: product
 #: help:product.ul,width:0
 msgid "The width of the package"
-msgstr "包装宽度"
+msgstr "包裹的宽度"
 
 #. module: product
 #: sql_constraint:product.attribute.value:0
