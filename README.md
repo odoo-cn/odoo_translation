@@ -1,12 +1,9 @@
-# odoo_translation
-
-#建议使用PO bundle 
 
 
+建议使用PO bundle
 
 
-
-#导出与导入
+#导出与导入翻译
 
 ## 图形方式
 至 导入/导出，选择 导入翻译
