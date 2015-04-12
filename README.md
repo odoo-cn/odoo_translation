@@ -1,5 +1,9 @@
 # odoo_translation
 
+建议使用PO bundle 
+
+
+
 使用下面的命令导出翻译..
 
      # !/bin/bash
