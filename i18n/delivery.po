@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:30+0000\n"
-"PO-Revision-Date: 2015-04-12 06:30+0000\n"
+"POT-Creation-Date: 2015-04-13 01:17+0000\n"
+"PO-Revision-Date: 2015-04-13 01:17+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -106,7 +106,7 @@ msgstr "免费送货的订单金额，以公司本位币显示"
 #. module: delivery
 #: field:delivery.carrier,available:0
 msgid "Available"
-msgstr "Available"
+msgstr "可用"
 
 #. module: delivery
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
@@ -159,14 +159,14 @@ msgstr "国家"
 #: field:delivery.grid,create_uid:0
 #: field:delivery.grid.line,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: delivery
 #: field:delivery.carrier,create_date:0
 #: field:delivery.grid,create_date:0
 #: field:delivery.grid.line,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建时间"
 
 #. module: delivery
 #: code:addons/delivery/delivery.py:163
@@ -219,11 +219,6 @@ msgid "Delivery Product"
 msgstr "送货服务"
 
 #. module: delivery
-#: model:product.template,name:delivery.product_product_delivery_product_template
-msgid "Delivery by Poste"
-msgstr "由post送货"
-
-#. module: delivery
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
 #: view:delivery.grid:delivery.view_delivery_grid_form
 #: view:delivery.grid:delivery.view_delivery_grid_tree
@@ -255,7 +250,7 @@ msgstr "金额高于 %.2f 免费"
 #. module: delivery
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
 msgid "General Information"
-msgstr "General Information"
+msgstr "一般信息"
 
 #. module: delivery
 #: help:delivery.grid.line,sequence:0
@@ -341,14 +336,14 @@ msgstr "默认的运费的价格，如果根据目的地定价，这里留空。
 #: field:delivery.grid,write_uid:0
 #: field:delivery.grid.line,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最近更新者"
 
 #. module: delivery
 #: field:delivery.carrier,write_date:0
 #: field:delivery.grid,write_date:0
 #: field:delivery.grid.line,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最近更新时间"
 
 #. module: delivery
 #: field:delivery.grid.line,max_value:0
@@ -406,12 +401,12 @@ msgstr "Order not in Draft State!"
 #. module: delivery
 #: model:ir.model,name:delivery.model_res_partner
 msgid "Partner"
-msgstr "Partner"
+msgstr "合作伙伴"
 
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking
 msgid "Picking List"
-msgstr "Picking List"
+msgstr "装箱单"
 
 #. module: delivery
 #: model:ir.actions.act_window,name:delivery.action_picking_tree
@@ -482,10 +477,10 @@ msgstr "状态"
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_move
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存调拨"
 
 #. module: delivery
-#: code:addons/delivery/stock.py:91
+#: code:addons/delivery/stock.py:92
 #, python-format
 msgid "The carrier %s (id: %d) has no delivery grid!"
 msgstr "承运方 %s (id: %d) 没有送货网络！"
@@ -557,7 +552,7 @@ msgid "Volume"
 msgstr "体积"
 
 #. module: delivery
-#: code:addons/delivery/stock.py:90
+#: code:addons/delivery/stock.py:91
 #, python-format
 msgid "Warning!"
 msgstr "警告！"

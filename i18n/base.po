@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:40+0000\n"
-"PO-Revision-Date: 2015-04-12 06:40+0000\n"
+"POT-Creation-Date: 2015-04-13 01:27+0000\n"
+"PO-Revision-Date: 2015-04-13 01:27+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -7361,9 +7361,9 @@ msgstr "%p - 等价于 AM 或 PM"
 #. module: base
 #: code:addons/base/ir/ir_filters.py:36
 #: code:addons/base/res/res_partner.py:360
-#: code:addons/base/res/res_users.py:120
-#: code:addons/base/res/res_users.py:371
-#: code:addons/base/res/res_users.py:373
+#: code:addons/base/res/res_users.py:123
+#: code:addons/base/res/res_users.py:376
+#: code:addons/base/res/res_users.py:378
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (副本)"
@@ -7740,7 +7740,7 @@ msgid "A module with dummy methods."
 msgstr "A module with dummy methods."
 
 #. module: base
-#: code:addons/base/ir/ir_qweb.py:890
+#: code:addons/base/ir/ir_qweb.py:892
 #, python-format
 msgid "A unit must be provided to duration widgets"
 msgstr "A unit must be provided to duration widgets"
@@ -7792,7 +7792,7 @@ msgid "Access Controls List"
 msgstr "访问控制列表"
 
 #. module: base
-#: code:addons/base/ir/ir_attachment.py:258
+#: code:addons/base/ir/ir_attachment.py:259
 #, python-format
 msgid "Access Denied"
 msgstr "访问被拒绝"
@@ -7800,7 +7800,7 @@ msgstr "访问被拒绝"
 #. module: base
 #: model:ir.model,name:base.model_res_groups
 msgid "Access Groups"
-msgstr "访问组"
+msgstr "访问用户组"
 
 #. module: base
 #: field:res.groups,menu_access:0
@@ -8423,7 +8423,7 @@ msgid "Applicant Resumes and Letters"
 msgstr "Applicant Resumes and Letters"
 
 #. module: base
-#: code:addons/base/res/res_users.py:742
+#: code:addons/base/res/res_users.py:747
 #: model:ir.model,name:base.model_ir_module_category
 #: field:ir.module.module,application:0
 #: field:res.groups,category_id:0
@@ -8997,11 +8997,6 @@ msgid "British Indian Ocean Territory"
 msgstr "英属印度洋领地"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_6
-msgid "Bronze"
-msgstr "青铜"
-
-#. module: base
 #: model:res.country,name:base.bn
 msgid "Brunei Darussalam"
 msgstr "文莱达鲁萨兰"
@@ -9107,7 +9102,7 @@ msgid "Can not create Many-To-One records indirectly, import the field separatel
 msgstr "不能间接创建 M2O （多对1）记录，分别导入字段。"
 
 #. module: base
-#: code:addons/base/res/res_users.py:347
+#: code:addons/base/res/res_users.py:352
 #, python-format
 msgid "Can not remove root user!"
 msgstr "不能删除根用户！"
@@ -9498,7 +9493,7 @@ msgstr "Click to set your company logo."
 #: view:ir.actions.server:base.view_server_action_form
 #: selection:ir.logging,type:0
 msgid "Client"
-msgstr "Client"
+msgstr "客户"
 
 #. module: base
 #: field:ir.actions.server,action_id:0
@@ -9692,11 +9687,6 @@ msgid "Complete Name"
 msgstr "完整名称"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_9
-msgid "Components Buyer"
-msgstr "部件买家"
-
-#. module: base
 #: field:res.currency,accuracy:0
 msgid "Computational Accuracy"
 msgstr "计算精度"
@@ -9755,7 +9745,7 @@ msgstr "设置向导"
 #. module: base
 #: view:base.module.upgrade:base.view_base_module_upgrade
 msgid "Confirm"
-msgstr "Confirm"
+msgstr "确认"
 
 #. module: base
 #: model:res.country,name:base.cg
@@ -9820,11 +9810,6 @@ msgstr "约束类型"
 #: sql_constraint:ir.model.constraint:0
 msgid "Constraints with the same name are unique per module."
 msgstr "相同名称的约束必须在每个模型上唯一。"
-
-#. module: base
-#: model:res.partner.category,name:base.res_partner_category_8
-msgid "Consultancy Services"
-msgstr "咨询服务"
 
 #. module: base
 #: view:res.partner:base.view_partner_form
@@ -10009,7 +9994,7 @@ msgstr "创建访问权限"
 #: field:ir.ui.view,create_date:0
 #: field:res.partner,create_date:0
 msgid "Create Date"
-msgstr "Create Date"
+msgstr "创建时间"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_project_issue
@@ -10490,7 +10475,7 @@ msgstr "Data for xml conversion tests"
 #. module: base
 #: view:ir.logging:base.ir_logging_search_view
 msgid "Database"
-msgstr "Database"
+msgstr "数据库"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_anonymization
@@ -10589,7 +10574,7 @@ msgstr "销售订单日期"
 #. module: base
 #: view:ir.logging:base.ir_logging_search_view
 msgid "Day"
-msgstr "Day"
+msgstr "日"
 
 #. module: base
 #: view:ir.sequence:base.sequence_view
@@ -10716,7 +10701,7 @@ msgstr "删除访问权限"
 #: code:addons/base/ir/ir_actions.py:827
 #, python-format
 msgid "Deletion of the action record failed."
-msgstr "Deletion of the action record failed."
+msgstr "删除动作记录失败"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_delivery
@@ -10894,11 +10879,6 @@ msgid "Display your network of certified people on your website"
 msgstr "Display your network of certified people on your website"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_13
-msgid "Distributor"
-msgstr "发行版"
-
-#. module: base
 #: model:res.country,name:base.dj
 msgid "Djibouti"
 msgstr "吉布提"
@@ -10997,7 +10977,7 @@ msgid "Duplicating workflows is not possible, please create a new workflow"
 msgstr "Duplicating workflows is not possible, please create a new workflow"
 
 #. module: base
-#: code:addons/base/ir/ir_qweb.py:888
+#: code:addons/base/ir/ir_qweb.py:890
 #, python-format
 msgid "Durations can't be negative"
 msgstr "Durations can't be negative"
@@ -11107,7 +11087,6 @@ msgstr "电子邮件模板"
 #. module: base
 #: model:res.groups,name:base.group_user
 #: field:res.partner,employee:0
-#: model:res.partner.category,name:base.res_partner_category_3
 msgid "Employee"
 msgstr "雇员"
 
@@ -11175,7 +11154,7 @@ msgstr "厄立特里亚"
 #: code:addons/base/ir/ir_model.py:376
 #: code:addons/base/ir/ir_model.py:381
 #: code:addons/base/ir/ir_model.py:384
-#: code:addons/base/ir/ir_translation.py:408
+#: code:addons/base/ir/ir_translation.py:411
 #: code:addons/base/module/module.py:339
 #: code:addons/base/module/module.py:381
 #: code:addons/base/module/module.py:386
@@ -11184,7 +11163,7 @@ msgstr "厄立特里亚"
 #: code:addons/base/module/module.py:549
 #: code:addons/base/module/module.py:563
 #: code:addons/base/res/res_currency.py:230
-#: code:addons/base/res/res_users.py:126
+#: code:addons/base/res/res_users.py:129
 #: code:addons/custom.py:554
 #, python-format
 msgid "Error"
@@ -11666,7 +11645,7 @@ msgstr "过滤器仅一个人可见"
 #. module: base
 #: help:ir.actions.server,copyvalue:0
 msgid "Final placeholder expression, to be copy-pasted in the desired template field."
-msgstr "Final placeholder expression, to be copy-pasted in the desired template field."
+msgstr "生成的占位符表达式，可以复制粘贴到目标模版字段"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_account_accountant
@@ -12033,11 +12012,6 @@ msgstr "Glue module holding mail improvements for website."
 #, python-format
 msgid "Go to the configuration panel"
 msgstr "Go to the configuration panel"
-
-#. module: base
-#: model:res.partner.category,name:base.res_partner_category_4
-msgid "Gold"
-msgstr "黄金"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_analytics
@@ -12612,11 +12586,6 @@ msgid "ISO code"
 msgstr "ISO 国家代码"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_7
-msgid "IT Services"
-msgstr "IT 服务"
-
-#. module: base
 #: model:res.country,name:base.is
 msgid "Iceland"
 msgstr "冰岛"
@@ -13034,13 +13003,13 @@ msgid "Invalid arguments"
 msgstr "无效的参数"
 
 #. module: base
-#: code:addons/base/res/res_users.py:853
+#: code:addons/base/res/res_users.py:858
 #, python-format
 msgid "Invalid context default_groups_ref value (model.name_id) : \"%s\""
 msgstr "Invalid context default_groups_ref value (model.name_id) : \"%s\""
 
 #. module: base
-#: code:addons/base/res/res_users.py:853
+#: code:addons/base/res/res_users.py:858
 #, python-format
 msgid "Invalid context value"
 msgstr "Invalid context value"
@@ -14628,11 +14597,6 @@ msgstr "手动：手动执行。\n"
 "手动执行一次：手动执行后，它执行完成动作。"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_14
-msgid "Manufacturer"
-msgstr "制造商"
-
-#. module: base
 #: model:ir.module.category,name:base.module_category_manufacturing
 #: model:ir.ui.menu,name:base.menu_mrp_config
 #: model:ir.ui.menu,name:base.menu_mrp_root
@@ -15568,11 +15532,6 @@ msgid "Odoo will automatically adds some '0' on the left of the 'Next Number' to
 msgstr "Odoo will automatically adds some '0' on the left of the 'Next Number' to get the required padding size."
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_12
-msgid "Office Supplies"
-msgstr "办公用品"
-
-#. module: base
 #: model:res.groups,name:base.group_hr_user
 msgid "Officer"
 msgstr "经理"
@@ -15727,7 +15686,7 @@ msgid "OpenOffice Report Designer"
 msgstr "OpenOffice 报表设计器"
 
 #. module: base
-#: code:addons/base/res/res_users.py:158
+#: code:addons/base/res/res_users.py:161
 #, python-format
 msgid "Operation Canceled"
 msgstr "操作已经取消"
@@ -15741,7 +15700,7 @@ msgstr "Operation Forbidden"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_crm_config_opportunity
 msgid "Opportunities"
-msgstr "商机列表"
+msgstr "商机"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_crm
@@ -15795,8 +15754,8 @@ msgid "Original View"
 msgstr "原始视图"
 
 #. module: base
-#: code:addons/base/res/res_users.py:753
-#: code:addons/base/res/res_users.py:907
+#: code:addons/base/res/res_users.py:758
+#: code:addons/base/res/res_users.py:912
 #: selection:res.partner,type:0
 #, python-format
 msgid "Other"
@@ -16070,11 +16029,10 @@ msgstr "Parser Class"
 #. module: base
 #: model:ir.model,name:base.model_res_partner
 #: field:res.company,partner_id:0
-#: model:res.partner.category,name:base.res_partner_category_0
 #: selection:res.partner.title,domain:0
 #: model:res.request.link,name:base.req_link_partner
 msgid "Partner"
-msgstr "业务伙伴"
+msgstr "合作伙伴"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_partner_assign
@@ -16310,7 +16268,7 @@ msgstr "皮特克恩岛"
 #. module: base
 #: field:ir.actions.server,copyvalue:0
 msgid "Placeholder Expression"
-msgstr "Placeholder Expression"
+msgstr "占位符表达式"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pt
@@ -16352,7 +16310,7 @@ msgid "Please specify an action to launch!"
 msgstr "Please specify an action to launch!"
 
 #. module: base
-#: code:addons/base/res/res_users.py:158
+#: code:addons/base/res/res_users.py:161
 #, python-format
 msgid "Please use the change password wizard (in User Preferences or User menu) to change your own password."
 msgstr "请使用更改密码向导（在用户首选项或用户菜单中）来更改您的密码。"
@@ -17200,11 +17158,6 @@ msgid "Properties of base fields cannot be altered in this manner! Please modify
 msgstr "基本字段的属性不能这样修改，请通过 Python 代码来修改它们，更好的办法是通过自定义模块来修改。"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_2
-msgid "Prospect"
-msgstr "潜在客户"
-
-#. module: base
 #: help:ir.actions.server,write_expression:0
 msgid "Provide an expression that, applied on the current record, gives the field to update."
 msgstr "Provide an expression that, applied on the current record, gives the field to update."
@@ -17217,7 +17170,7 @@ msgstr "Provide the field where the record id is stored after the operations."
 #. module: base
 #: model:res.groups,name:base.group_public
 msgid "Public"
-msgstr "Public"
+msgstr "公开"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_project
@@ -18164,11 +18117,6 @@ msgid "Restrict to lists"
 msgstr "Restrict to lists"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_16
-msgid "Retailer"
-msgstr "零售商"
-
-#. module: base
 #: model:res.country,name:base.re
 msgid "Reunion (French)"
 msgstr "法属留尼旺岛"
@@ -18602,7 +18550,7 @@ msgstr "销售"
 #. module: base
 #: view:res.partner:base.view_partner_form
 msgid "Sales & Purchases"
-msgstr "销售与采购"
+msgstr "销售&采购"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_analytic_plans
@@ -18802,8 +18750,8 @@ msgstr "选择字段属性"
 #: help:ir.actions.server,model_object_field:0
 msgid "Select target field from the related document model.\n"
 "If it is a relationship field you will be able to select a target field at the destination of the relationship."
-msgstr "Select target field from the related document model.\n"
-"If it is a relationship field you will be able to select a target field at the destination of the relationship."
+msgstr "从相关单据模型中选择目标字段。\n"
+"如果这是个关系型字段，你可以选择关系型字段的目标字段。"
 
 #. module: base
 #: help:ir.actions.server,action_id:0
@@ -18963,11 +18911,6 @@ msgid "Server Actions"
 msgstr "服务器动作"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_11
-msgid "Services"
-msgstr "服务"
-
-#. module: base
 #: selection:ir.model.fields,on_delete:0
 msgid "Set NULL"
 msgstr "设为空（NULL）"
@@ -18989,7 +18932,7 @@ msgid "Set the font into the report header, it will be used as default font in t
 msgstr "Set the font into the report header, it will be used as default font in the RML reports of the user company"
 
 #. module: base
-#: code:addons/base/res/res_users.py:515
+#: code:addons/base/res/res_users.py:520
 #, python-format
 msgid "Setting empty passwords is not allowed for security reasons!"
 msgstr "基于安全上的考虑不允许设置空密码！"
@@ -19056,11 +18999,6 @@ msgstr "签名"
 #: model:ir.module.module,shortdesc:base.module_auth_signup
 msgid "Signup"
 msgstr "注册"
-
-#. module: base
-#: model:res.partner.category,name:base.res_partner_category_5
-msgid "Silver"
-msgstr "白银"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_discount
@@ -19166,7 +19104,7 @@ msgid "Sometimes called BIC or Swift."
 msgstr "有时也叫 BIC 或 Swift。"
 
 #. module: base
-#: code:addons/base/ir/ir_attachment.py:258
+#: code:addons/base/ir/ir_attachment.py:259
 #: code:addons/base/ir/ir_model.py:787
 #, python-format
 msgid "Sorry, you are not allowed to access this document."
@@ -19745,12 +19683,12 @@ msgstr "次要街道"
 #. module: base
 #: field:ir.actions.server,sub_model_object_field:0
 msgid "Sub-field"
-msgstr "Sub-field"
+msgstr "子字段"
 
 #. module: base
 #: field:ir.actions.server,sub_object:0
 msgid "Sub-model"
-msgstr "Sub-model"
+msgstr "子模型"
 
 #. module: base
 #: view:workflow.activity:base.view_workflow_activity_form
@@ -19797,7 +19735,6 @@ msgstr "补充参数"
 
 #. module: base
 #: field:res.partner,supplier:0
-#: model:res.partner.category,name:base.res_partner_category_1
 msgid "Supplier"
 msgstr "供应商"
 
@@ -20124,11 +20061,6 @@ msgid "Technical guide"
 msgstr "技术文档"
 
 #. module: base
-#: model:res.partner.category,name:base.res_partner_category_17
-msgid "Telecom sector"
-msgstr "电信部门"
-
-#. module: base
 #: selection:base.language.install,lang:0
 msgid "Telugu / తెలుగు"
 msgstr "印度安得拉邦泰卢固 / తెలుగు"
@@ -20349,7 +20281,7 @@ msgid "The name of the country must be unique !"
 msgstr "国家名必须唯一"
 
 #. module: base
-#: code:addons/base/res/res_users.py:127
+#: code:addons/base/res/res_users.py:130
 #, python-format
 msgid "The name of the group can not start with \"-\""
 msgstr "用户组的名称不能以“-”开始"
@@ -21027,7 +20959,7 @@ msgid "Translation comments"
 msgstr "翻译备注"
 
 #. module: base
-#: code:addons/base/ir/ir_translation.py:408
+#: code:addons/base/ir/ir_translation.py:411
 #, python-format
 msgid "Translation features are unavailable until you install an extra OpenERP translation."
 msgstr "翻译特性不可用，知道你安装了额外的Openerp翻译语言。"
@@ -21825,7 +21757,7 @@ msgstr "警告消息与预警管理"
 #: code:addons/base/ir/ir_sequence.py:134
 #: code:addons/base/ir/ir_sequence.py:160
 #: code:addons/base/res/res_config.py:471
-#: code:addons/base/res/res_users.py:515
+#: code:addons/base/res/res_users.py:520
 #, python-format
 msgid "Warning!"
 msgstr "警告！"
@@ -21974,12 +21906,12 @@ msgstr "西撒哈拉"
 #. module: base
 #: help:ir.actions.server,sub_model_object_field:0
 msgid "When a relationship field is selected as first field, this field lets you select the target field within the destination document model (sub-model)."
-msgstr "When a relationship field is selected as first field, this field lets you select the target field within the destination document model (sub-model)."
+msgstr "如果首先选择了一个关系型字段，这个字段可用于选择目标单据类型的目标字段。"
 
 #. module: base
 #: help:ir.actions.server,sub_object:0
 msgid "When a relationship field is selected as first field, this field shows the document model the relationship goes to."
-msgstr "When a relationship field is selected as first field, this field shows the document model the relationship goes to."
+msgstr "如果关系型字段被选为第一个字段，这个字段显示这个关系指向的单据类型。"
 
 #. module: base
 #: view:workflow:base.view_workflow_diagram
@@ -22005,11 +21937,6 @@ msgstr "如果转换的操作来源于界面上的一个按钮，信号字段存
 #: help:ir.model.fields,translate:0
 msgid "Whether values for this field can be translated (enables the translation mechanism for that field)"
 msgstr "决定是否能够翻译此字段的各个取值（激活此字段的翻译机制）"
-
-#. module: base
-#: model:res.partner.category,name:base.res_partner_category_15
-msgid "Wholesaler"
-msgstr "批发商"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_action_window
@@ -22185,7 +22112,7 @@ msgid "You can not register two fonts with the same name"
 msgstr "You can not register two fonts with the same name"
 
 #. module: base
-#: code:addons/base/res/res_users.py:347
+#: code:addons/base/res/res_users.py:352
 #, python-format
 msgid "You can not remove the admin user as it is used internally for resources created by Odoo (updates, module installation, ...)"
 msgstr "You can not remove the admin user as it is used internally for resources created by Odoo (updates, module installation, ...)"
@@ -22576,7 +22503,7 @@ msgstr "在"
 #: view:res.users:base.view_users_form_simple_modif
 #: view:wizard.ir.model.menu.create:base.view_model_menu_create
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form

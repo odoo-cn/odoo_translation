@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:31+0000\n"
-"PO-Revision-Date: 2015-04-12 06:31+0000\n"
+"POT-Creation-Date: 2015-04-13 01:19+0000\n"
+"PO-Revision-Date: 2015-04-13 01:19+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -97,22 +97,22 @@ msgstr "会计"
 #: field:hr.timesheet.report,account_id:0
 #: model:ir.model,name:hr_timesheet.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "分析账户"
+msgstr "辅助核算项"
 
 #. module: hr_timesheet
 #: field:hr.employee,journal_id:0
 msgid "Analytic Journal"
-msgstr "分析账户"
+msgstr "辅助核算账薄"
 
 #. module: hr_timesheet
 #: field:hr.analytic.timesheet,line_id:0
 msgid "Analytic Line"
-msgstr "分析明细"
+msgstr "辅助核算明细"
 
 #. module: hr_timesheet
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
 msgid "Analytic account"
-msgstr "分析账户"
+msgstr "辅助核算项目"
 
 #. module: hr_timesheet
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in
@@ -213,7 +213,7 @@ msgstr "时长"
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_hr_employee
 msgid "Employee"
-msgstr "Employee"
+msgstr "员工"
 
 #. module: hr_timesheet
 #: field:hr.sign.in.project,emp_id:0
@@ -237,14 +237,14 @@ msgstr "Employee's Name"
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in_message
 msgid "Employees can encode their time spent on the different projects they are assigned on. A  project is an analytic account and the time spent on a project generates costs on the analytic account. This feature allows to record at the same time the attendance and the timesheet."
 msgstr "员工能记录在不同项目所花费的时间。r\n"
-"一个项目是一个分析账户，而且该项目所花费的时间为这个分析账户的成本。r\n"
+"一个项目是一个辅助核算項，而且该项目所花费的时间为这辅助核算項的成本。r\n"
 "此功能允许记录其考勤和计工单。"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.action_hr_timesheet_sign_in
 msgid "Employees can encode their time spent on the different projects. A project is an analytic account and the time spent on a project generate costs on the analytic account. This feature allows to record at the same time the attendance and the timesheet."
 msgstr "员工能记录在不同项目所花费的时间。r\n"
-"一个项目是一个分析账户，而且该项目所花费的时间为这个分析账户的成本。r\n"
+"一个项目是一个辅助核算項，而且该项目所花费的时间为这辅助核算項的成本。r\n"
 "此功能允许记录其考勤和计工单。"
 
 #. module: hr_timesheet
@@ -319,7 +319,7 @@ msgstr "Last Updated on"
 #. module: hr_timesheet
 #: field:hr.sign.out.project,analytic_amount:0
 msgid "Minimum Analytic Amount"
-msgstr "最低分析金额"
+msgstr "最低辅助核算金额"
 
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
@@ -384,7 +384,7 @@ msgstr "产品"
 #. module: hr_timesheet
 #: field:hr.sign.out.project,account_id:0
 msgid "Project / Analytic Account"
-msgstr "项目 / 分析账户"
+msgstr "项目 / 辅助核算科目"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_hr_sign_in_project

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:34+0000\n"
-"PO-Revision-Date: 2015-04-12 06:34+0000\n"
+"POT-Creation-Date: 2015-04-13 01:22+0000\n"
+"PO-Revision-Date: 2015-04-13 01:22+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,81 +28,6 @@ msgid "%s (copy)"
 msgstr "%s (副本)"
 
 #. module: product
-#: model:product.attribute.value,name:product.product_attribute_value_1
-msgid "16 GB"
-msgstr "16 GB"
-
-#. module: product
-#: model:product.template,description_sale:product.product_product_3_product_template
-msgid "17\" LCD Monitor\n"
-"Processor AMD 8-Core\n"
-"512MB RAM\n"
-"HDD SH-1"
-msgstr "17\" LCD Monitor\n"
-"Processor AMD 8-Core\n"
-"512MB RAM\n"
-"HDD SH-1"
-
-#. module: product
-#: model:product.template,description:product.product_product_25_product_template
-msgid "17\" Monitor\n"
-"4GB RAM\n"
-"Standard-1294P Processor\n"
-"QWERTY keyboard"
-msgstr "17\" Monitor\n"
-"4GB RAM\n"
-"Standard-1294P Processor\n"
-"QWERTY keyboard"
-
-#. module: product
-#: model:product.template,description:product.product_product_26_product_template
-msgid "17\" Monitor\n"
-"6GB RAM\n"
-"Hi-Speed 234Q Processor\n"
-"QWERTY keyboard"
-msgstr "17\" Monitor\n"
-"6GB RAM\n"
-"Hi-Speed 234Q Processor\n"
-"QWERTY keyboard"
-
-#. module: product
-#: model:product.attribute.value,name:product.product_attribute_value_5
-msgid "2.4 GHz"
-msgstr "2.4 GHz"
-
-#. module: product
-#: model:product.template,description_sale:product.product_product_8_product_template
-msgid "2.7GHz quad-core Intel Core i5\n"
-"                Turbo Boost up to 3.2GHz\n"
-"                8GB (two 4GB) memory\n"
-"                1TB hard drive1\n"
-"                Intel Iris Pro graphics\n"
-"            "
-msgstr "2.7GHz quad-core Intel Core i5\n"
-"                Turbo Boost up to 3.2GHz\n"
-"                8GB (two 4GB) memory\n"
-"                1TB hard drive1\n"
-"                Intel Iris Pro graphics\n"
-"            "
-
-#. module: product
-#: model:product.attribute.value,name:product.product_attribute_value_2
-msgid "32 GB"
-msgstr "32 GB"
-
-#. module: product
-#: model:product.template,description_sale:product.product_product_4_product_template
-#: model:product.template,description_sale:product.product_product_4b_product_template
-#: model:product.template,description_sale:product.product_product_4c_product_template
-#: model:product.template,description_sale:product.product_product_4d_product_template
-msgid "7.9‑inch (diagonal) LED-backlit, 128Gb\n"
-"Dual-core A5 with quad-core graphics\n"
-"FaceTime HD Camera, 1.2 MP Photos"
-msgstr "7.9‑inch (diagonal) LED-backlit, 128Gb\n"
-"Dual-core A5 with quad-core graphics\n"
-"FaceTime HD Camera, 1.2 MP Photos"
-
-#. module: product
 #: view:product.template:product.product_template_only_form_view
 msgid ": adding or deleting attributes\n"
 "                            will delete and recreate existing variants and lead\n"
@@ -110,47 +35,6 @@ msgid ": adding or deleting attributes\n"
 msgstr ": adding or deleting attributes\n"
 "                            will delete and recreate existing variants and lead\n"
 "                            to the loss of their possible customizations."
-
-#. module: product
-#: model:product.template,website_description:product.product_product_9_product_template
-msgid "<hr>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-10 col-md-offset-1 mt32 mb32\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/keyboard.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-8 col-md-offset-2 mb32 text-center\">\n"
-"                                <h3>A great Keyboard. Cordless.</h3>\n"
-"                                <p>\n"
-"                                    The incredibly thin Apple Wireless Keyboard uses Bluetooth technology,\n"
-"                                    which makes it compatible with iPad. And you’re free to type wherever\n"
-"                                    you like — with the keyboard in front of your iPad or on your lap.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-msgstr "<hr>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-10 col-md-offset-1 mt32 mb32\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/keyboard.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-8 col-md-offset-2 mb32 text-center\">\n"
-"                                <h3>A great Keyboard. Cordless.</h3>\n"
-"                                <p>\n"
-"                                    The incredibly thin Apple Wireless Keyboard uses Bluetooth technology,\n"
-"                                    which makes it compatible with iPad. And you’re free to type wherever\n"
-"                                    you like — with the keyboard in front of your iPad or on your lap.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
 
 #. module: product
 #: model:ir.actions.act_window,help:product.product_ul_form_action
@@ -327,910 +211,6 @@ msgstr "<p>\n"
 "            "
 
 #. module: product
-#: model:product.template,website_description:product.product_product_11_product_template
-#: model:product.template,website_description:product.product_product_11b_product_template
-msgid "<section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-9 col-md-offset-1 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/overview_hero.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h3>Design. The thinnest iPod ever.</h3>\n"
-"                                <p>\n"
-"                                    About the size of a credit card — and just 5.4 mm thin — iPod nano is the thinnest iPod ever made.\n"
-"                                    The 2.5-inch Multi-Touch display is nearly twice as big as the display on the previous iPod nano,\n"
-"                                    so you can see more of the music, photos, and videos you love.\n"
-"                                </p><p>\n"
-"                                    Buttons let you quickly play, pause, change songs, or adjust the volume.\n"
-"                                    The smooth anodized aluminum design makes iPod nano feel as good as it sounds.\n"
-"                                    And iPod nano wouldn’t be iPod nano without gorgeous, hard-to-choose-from color.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/overview_design_silver.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-10 col-md-offset-1\">\n"
-"                                <h2 class=\"text-center\">Music. It's what beats inside.</h2>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4 mt32 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/purple.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt32\">\n"
-"                                <h3>How to get your groove on.</h3>\n"
-"                                <p>\n"
-"                                    Tap to play your favorite songs. Or entire albums.\n"
-"                                    Or everything by one artist. You can even browse by genres or composers.\n"
-"                                    Flip through your music: Album art looks great on the bigger screen.\n"
-"                                    Or to keep things fresh, give iPod nano a shake and it shuffles to a different song in your music library.\n"
-"                                </p>\n"
-"                                <h3>Genius. Your own personal DJ.</h3>\n"
-"                                <p>\n"
-"                                        Say you’re listening to a song you love and you want to stay in the mood.\n"
-"                                        Just tap Genius. It finds other songs on iPod nano that go great together\n"
-"                                        and makes a Genius playlist for you. For more song combinations\n"
-"                                        you wouldn’t have thought of yourself, create Genius Mixes in iTunes\n"
-"                                        and sync the ones you like to iPod nano. Then tap Genius Mixes and\n"
-"                                        rediscover songs you haven’t heard in a while — or find music you forgot you even had.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-12 text-center mb16\">\n"
-"                                <h2>Playlists. The perfect mix for every mood.</h2>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4\">\n"
-"                                <h3>Sync to your heart’s content.</h3>\n"
-"                                <p>\n"
-"                                        iTunes on your Mac or PC makes it easy to load up\n"
-"                                        your iPod. Just choose the playlists, audiobooks,\n"
-"                                        podcasts, and other audio files you want, then sync.\n"
-"                                </p>\n"
-"                            </div><div class=\"col-md-4\">\n"
-"                                <h3>When one playlist isn’t enough.</h3>\n"
-"                                <p>\n"
-"                                        You probably have multiple playlists in iTunes on your computer.\n"
-"                                        One for your commute. One for the gym. Sync those playlists\n"
-"                                        to iPod, and you can play the perfect mix for whatever\n"
-"                                        mood strikes you. VoiceOver tells you the name of each playlist,\n"
-"                                        so it’s easy to switch between them and find the one you want without looking.\n"
-"                                </p>\n"
-"                            </div><div class=\"col-md-4\">\n"
-"                                <h3>Have Genius call the tunes.</h3>\n"
-"                                <p>\n"
-"                                        There’s another way to get a good mix of music on iPod: Let Genius do the work.\n"
-"                                        Activate Genius in iTunes on your computer, and it automatically finds songs that sound\n"
-"                                        great together. Then it creates Genius Mixes, which you can easily sync to your iPod.\n"
-"                                        It’s the perfect way to rediscover songs you haven’t listened to in forever.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-msgstr "<section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-9 col-md-offset-1 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/overview_hero.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h3>Design. The thinnest iPod ever.</h3>\n"
-"                                <p>\n"
-"                                    About the size of a credit card — and just 5.4 mm thin — iPod nano is the thinnest iPod ever made.\n"
-"                                    The 2.5-inch Multi-Touch display is nearly twice as big as the display on the previous iPod nano,\n"
-"                                    so you can see more of the music, photos, and videos you love.\n"
-"                                </p><p>\n"
-"                                    Buttons let you quickly play, pause, change songs, or adjust the volume.\n"
-"                                    The smooth anodized aluminum design makes iPod nano feel as good as it sounds.\n"
-"                                    And iPod nano wouldn’t be iPod nano without gorgeous, hard-to-choose-from color.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/overview_design_silver.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-10 col-md-offset-1\">\n"
-"                                <h2 class=\"text-center\">Music. It's what beats inside.</h2>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4 mt32 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/purple.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt32\">\n"
-"                                <h3>How to get your groove on.</h3>\n"
-"                                <p>\n"
-"                                    Tap to play your favorite songs. Or entire albums.\n"
-"                                    Or everything by one artist. You can even browse by genres or composers.\n"
-"                                    Flip through your music: Album art looks great on the bigger screen.\n"
-"                                    Or to keep things fresh, give iPod nano a shake and it shuffles to a different song in your music library.\n"
-"                                </p>\n"
-"                                <h3>Genius. Your own personal DJ.</h3>\n"
-"                                <p>\n"
-"                                        Say you’re listening to a song you love and you want to stay in the mood.\n"
-"                                        Just tap Genius. It finds other songs on iPod nano that go great together\n"
-"                                        and makes a Genius playlist for you. For more song combinations\n"
-"                                        you wouldn’t have thought of yourself, create Genius Mixes in iTunes\n"
-"                                        and sync the ones you like to iPod nano. Then tap Genius Mixes and\n"
-"                                        rediscover songs you haven’t heard in a while — or find music you forgot you even had.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-12 text-center mb16\">\n"
-"                                <h2>Playlists. The perfect mix for every mood.</h2>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4\">\n"
-"                                <h3>Sync to your heart’s content.</h3>\n"
-"                                <p>\n"
-"                                        iTunes on your Mac or PC makes it easy to load up\n"
-"                                        your iPod. Just choose the playlists, audiobooks,\n"
-"                                        podcasts, and other audio files you want, then sync.\n"
-"                                </p>\n"
-"                            </div><div class=\"col-md-4\">\n"
-"                                <h3>When one playlist isn’t enough.</h3>\n"
-"                                <p>\n"
-"                                        You probably have multiple playlists in iTunes on your computer.\n"
-"                                        One for your commute. One for the gym. Sync those playlists\n"
-"                                        to iPod, and you can play the perfect mix for whatever\n"
-"                                        mood strikes you. VoiceOver tells you the name of each playlist,\n"
-"                                        so it’s easy to switch between them and find the one you want without looking.\n"
-"                                </p>\n"
-"                            </div><div class=\"col-md-4\">\n"
-"                                <h3>Have Genius call the tunes.</h3>\n"
-"                                <p>\n"
-"                                        There’s another way to get a good mix of music on iPod: Let Genius do the work.\n"
-"                                        Activate Genius in iTunes on your computer, and it automatically finds songs that sound\n"
-"                                        great together. Then it creates Genius Mixes, which you can easily sync to your iPod.\n"
-"                                        It’s the perfect way to rediscover songs you haven’t listened to in forever.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-
-#. module: product
-#: model:product.template,website_description:product.product_product_8_product_template
-msgid "<section data-snippet-id=\"image-text\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 mt32 col-md-offset-1\">\n"
-"                                <h3>Ultrathin design</h3>\n"
-"                                <h3 class=\"text-muted\">The desktop. In its most advanced form ever</h3>\n"
-"                                <p>\n"
-"                                    Creating such a stunningly thin design took some equally stunning feats of technological innovation. We refined,re-imagined,or re-engineered everything about iMac from the inside out. The result is an advanced, elegant all-in-one computer that’s as much a work of art as it is state of the art.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt32\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/imac1.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"text-center col-md-8 col-md-offset-2 mt16\">\n"
-"                                <h2>Beautiful widescreen display.</h2>\n"
-"                                <h3 class=\"text-muted\">Brilliance onscreen. And behind it.</h3>\n"
-"                                <p>\n"
-"                                    How did we make an already gorgeous widescreen display even better? By making it 75 percent less reflective. And by re-architecting the LCD and moving it right up against the cover glass. So you see your photos, games, movies, and everything else in vivid, lifelike detail. \n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-10 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/imac2.png\" width=\"100%\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <p class=\"text-muted\">\n"
-"                                    Powered by fourth-generation Intel Core processors, this iMac is the fastest yet. Every model in the lineup comes standard with a quad-core Intel Core i5 processor, starting at 2.7GHz and topping out at 3.4GHz.\n"
-"                                </p><p class=\"text-muted\">\n"
-"                                    And at the Apple Online Store, you can configure your iMac with an even more powerful Intel Core i7 processor, up to 3.5GHz.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mb32\">\n"
-"                                <h3>Key Features</h3>\n"
-"                                <p>\n"
-"                                        75 percent less reflection.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        Individually calibrated for true-to-life color.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        More energy efficient.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        Friendly to the environment.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        Highly rated designs.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-msgstr "<section data-snippet-id=\"image-text\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 mt32 col-md-offset-1\">\n"
-"                                <h3>Ultrathin design</h3>\n"
-"                                <h3 class=\"text-muted\">The desktop. In its most advanced form ever</h3>\n"
-"                                <p>\n"
-"                                    Creating such a stunningly thin design took some equally stunning feats of technological innovation. We refined,re-imagined,or re-engineered everything about iMac from the inside out. The result is an advanced, elegant all-in-one computer that’s as much a work of art as it is state of the art.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt32\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/imac1.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"text-center col-md-8 col-md-offset-2 mt16\">\n"
-"                                <h2>Beautiful widescreen display.</h2>\n"
-"                                <h3 class=\"text-muted\">Brilliance onscreen. And behind it.</h3>\n"
-"                                <p>\n"
-"                                    How did we make an already gorgeous widescreen display even better? By making it 75 percent less reflective. And by re-architecting the LCD and moving it right up against the cover glass. So you see your photos, games, movies, and everything else in vivid, lifelike detail. \n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-10 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/imac2.png\" width=\"100%\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <p class=\"text-muted\">\n"
-"                                    Powered by fourth-generation Intel Core processors, this iMac is the fastest yet. Every model in the lineup comes standard with a quad-core Intel Core i5 processor, starting at 2.7GHz and topping out at 3.4GHz.\n"
-"                                </p><p class=\"text-muted\">\n"
-"                                    And at the Apple Online Store, you can configure your iMac with an even more powerful Intel Core i7 processor, up to 3.5GHz.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mb32\">\n"
-"                                <h3>Key Features</h3>\n"
-"                                <p>\n"
-"                                        75 percent less reflection.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        Individually calibrated for true-to-life color.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        More energy efficient.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        Friendly to the environment.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                        Highly rated designs.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-
-#. module: product
-#: model:product.template,website_description:product.product_product_6_product_template
-msgid "<section data-snippet-id=\"text-image\" class=\"mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h2>The full iPad experience.</h2>\n"
-"                                <h3 class=\"text-muted\">There's less of it, but no less to it.</h3>\n"
-"                                <p>\n"
-"                                        Everything you love about iPad — the beautiful screen,\n"
-"                                        fast and fluid performance, FaceTime and iSight cameras, \n"
-"                                        thousands of amazing apps, 10-hour battery life* — is everything\n"
-"                                        you’ll love about iPad mini, too. And you can hold it in one hand.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/design.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/mighty.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt32\">\n"
-"                                <h3>Beautiful 7.9‑inch display.</h3>\n"
-"                                <h4 class=\"small text-muted\"> A screen worthy of iPad.</h4>\n"
-"                                <p>\n"
-"                                    Everything you love about iPad — the beautiful\n"
-"                                    screen, fast Colors are vivid and text is sharp on the iPad mini display.\n"
-"                                    But what really makes it stand out is its size. At 7.9 inches,\n"
-"                                    it’s perfectly sized to deliver an experience every bit as big as iPad.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32\">\n"
-"                                <h2>Over 375,000 apps.</h2>\n"
-"                                <h3 class=\"text-muted\">If it's made for iPad, it's made for iPad mini.</h3>\n"
-"                                <p>\n"
-"                                    Right from the start, apps made for iPad also work with iPad mini.\n"
-"                                    They’re immersive, full-screen apps that let you do almost anything\n"
-"                                    you can imagine. And with automatic updates,\n"
-"                                    you're always getting the best experience possible.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/apps.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/ipad_why.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt64\">\n"
-"                                <h3>Why you'll love an iPad.</h3>\n"
-"                                <p>\n"
-"                                   Right from the start, there’s a lot to love about iPad.\n"
-"                                   It’s simple yet powerful. Thin and light yet full-\n"
-"                                   featured. It can do just about everything and be just\n"
-"                                   about anything.And because it’s so easy to use, it’s\n"
-"                                   easy to love.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h2>Ultrafast wireless.</h2>\n"
-"                                <h3 class=\"text-muted\">Fast connections.The world over.</h3>\n"
-"                                <p>\n"
-"                                   With advanced Wi‑Fi that’s up to twice as fast as\n"
-"                                   any previous-generation iPad and access to fast\n"
-"                                   cellular data networks around the world, iPad mini\n"
-"                                   lets you download content, stream video,\n"
-"                                   and browse the web at amazing speeds.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/wireless.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-msgstr "<section data-snippet-id=\"text-image\" class=\"mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h2>The full iPad experience.</h2>\n"
-"                                <h3 class=\"text-muted\">There's less of it, but no less to it.</h3>\n"
-"                                <p>\n"
-"                                        Everything you love about iPad — the beautiful screen,\n"
-"                                        fast and fluid performance, FaceTime and iSight cameras, \n"
-"                                        thousands of amazing apps, 10-hour battery life* — is everything\n"
-"                                        you’ll love about iPad mini, too. And you can hold it in one hand.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/design.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/mighty.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt32\">\n"
-"                                <h3>Beautiful 7.9‑inch display.</h3>\n"
-"                                <h4 class=\"small text-muted\"> A screen worthy of iPad.</h4>\n"
-"                                <p>\n"
-"                                    Everything you love about iPad — the beautiful\n"
-"                                    screen, fast Colors are vivid and text is sharp on the iPad mini display.\n"
-"                                    But what really makes it stand out is its size. At 7.9 inches,\n"
-"                                    it’s perfectly sized to deliver an experience every bit as big as iPad.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32\">\n"
-"                                <h2>Over 375,000 apps.</h2>\n"
-"                                <h3 class=\"text-muted\">If it's made for iPad, it's made for iPad mini.</h3>\n"
-"                                <p>\n"
-"                                    Right from the start, apps made for iPad also work with iPad mini.\n"
-"                                    They’re immersive, full-screen apps that let you do almost anything\n"
-"                                    you can imagine. And with automatic updates,\n"
-"                                    you're always getting the best experience possible.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/apps.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/ipad_why.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt64\">\n"
-"                                <h3>Why you'll love an iPad.</h3>\n"
-"                                <p>\n"
-"                                   Right from the start, there’s a lot to love about iPad.\n"
-"                                   It’s simple yet powerful. Thin and light yet full-\n"
-"                                   featured. It can do just about everything and be just\n"
-"                                   about anything.And because it’s so easy to use, it’s\n"
-"                                   easy to love.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h2>Ultrafast wireless.</h2>\n"
-"                                <h3 class=\"text-muted\">Fast connections.The world over.</h3>\n"
-"                                <p>\n"
-"                                   With advanced Wi‑Fi that’s up to twice as fast as\n"
-"                                   any previous-generation iPad and access to fast\n"
-"                                   cellular data networks around the world, iPad mini\n"
-"                                   lets you download content, stream video,\n"
-"                                   and browse the web at amazing speeds.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/wireless.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-
-#. module: product
-#: model:product.template,website_description:product.product_product_4_product_template
-#: model:product.template,website_description:product.product_product_4b_product_template
-#: model:product.template,website_description:product.product_product_4c_product_template
-#: model:product.template,website_description:product.product_product_4d_product_template
-msgid "<section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h3>Why you'll love an iPad.</h3>\n"
-"                                <p>\n"
-"                                    Right from the start, there’s a lot to love about\n"
-"                                    iPad. It’s simple yet powerful. Thin and light yet\n"
-"                                    full-featured. It can do just about everything and\n"
-"                                    be just about anything.\n"
-"                                </p><p>\n"
-"                                    And because it’s so easy to use, it’s easy to love.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/ipad_why.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/ipad_experience.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt64\">\n"
-"                                <h3>The full iPad experience.</h3>\n"
-"                                <h4 class=\"small\">There is less of it, but no less to it.</h4>\n"
-"                                <p>\n"
-"                                    Everything you love about iPad — the beautiful\n"
-"                                    screen, fast and fluid performance, FaceTime and\n"
-"                                    iSight cameras, thousands of amazing apps, 10-hour\n"
-"                                    battery life* — is everything you’ll love about\n"
-"                                    iPad mini, too. And you can hold it in one hand.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-msgstr "<section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt64\">\n"
-"                                <h3>Why you'll love an iPad.</h3>\n"
-"                                <p>\n"
-"                                    Right from the start, there’s a lot to love about\n"
-"                                    iPad. It’s simple yet powerful. Thin and light yet\n"
-"                                    full-featured. It can do just about everything and\n"
-"                                    be just about anything.\n"
-"                                </p><p>\n"
-"                                    And because it’s so easy to use, it’s easy to love.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/ipad_why.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"image-text\" class=\"mt16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/ipad_experience.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6 mt64\">\n"
-"                                <h3>The full iPad experience.</h3>\n"
-"                                <h4 class=\"small\">There is less of it, but no less to it.</h4>\n"
-"                                <p>\n"
-"                                    Everything you love about iPad — the beautiful\n"
-"                                    screen, fast and fluid performance, FaceTime and\n"
-"                                    iSight cameras, thousands of amazing apps, 10-hour\n"
-"                                    battery life* — is everything you’ll love about\n"
-"                                    iPad mini, too. And you can hold it in one hand.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-
-#. module: product
-#: model:product.template,website_description:product.product_product_5b_product_template
-msgid "<section data-snippet-id=\"text-image\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32\">\n"
-"                                <h3>Bose Mini Bluetooth Speaker.</h3>\n"
-"                                <p>\n"
-"                                    The Bose® SoundLink® mini is Bose's smallest portable Bluetooth speaker. Its ultra-compact size fits in the \n"
-"                                    palm of your hand, yet gives you full, natural sound wirelessly from your iPhone, iPad, or iPod. Grab it and go \n"
-"                                    full-featured. It can do just about everything and\n"
-"                                    experience music just about anywhere.\n"
-"                                </p>\n"
-"\n"
-"                                <div class=\"panel panel-default mt48\" data-snippet-id=\"panel\">\n"
-"                                    <div class=\"panel-heading\">\n"
-"                                        <h3 class=\"panel-title\">Characteristics</h3>\n"
-"                                    </div>\n"
-"                                    <div class=\"panel-body\">\n"
-"                                        <ul>\n"
-"                                            <li>Sleek, compact design</li>\n"
-"                                            <li>Efficient, high-quality audio</li>\n"
-"                                            <li>Remote control for power, volume, track seek</li>\n"
-"                                            <li>Auxiliary input for portable devices</li>\n"
-"                                            <li>Universal iPod docking station fits most iPod/iPhone models</li>\n"
-"                                            <li>Charges iPod/iPhone</li>\n"
-"                                            <li>Volume control on main system</li>\n"
-"                                        </ul>\n"
-"                                    </div>\n"
-"                                </div>\n"
-"\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4 mt16 mb16 col-md-offset1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/play_where_you_play.jpg\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt16\">\n"
-"                                <h2>Plays where you play</h2>\n"
-"                                <p>\n"
-"                                        The SoundLink® Mini speaker is small and light enough\n"
-"                                        to tuck into your bag. It weighs in at just 1.5 pounds.\n"
-"                                        Its low profile lets you place it almost anywhere and\n"
-"                                        provides a low center of gravity that makes it nearly\n"
-"                                        impossible to tip over.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    The rechargeable lithium-ion battery delivers up to seven hours of playtime.\n"
-"                                    And at home, you can listen even longer—the charging cradle lets\n"
-"                                    you listen while it charges.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/more_features.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 col-md-offset-4 text-center mb16 mt16\">\n"
-"                                <h3>Bluetooth connectivity</h3>\n"
-"                                <p>\n"
-"                                    The speaker has a range of about 30 feet, so you can enjoy\n"
-"                                    the sound you want without wires. It pairs easily with your\n"
-"                                    smartphone, iPad® or other Bluetooth device.\n"
-"                                    And it remembers the most recent six devices you've used,\n"
-"                                    so reconnecting is even simpler.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/bluetooth.jpg\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16\">\n"
-"                                <h2>More features.</h2>\n"
-"                                <p>\n"
-"                                    Charging cradle recharges the battery and serves as a convenient\n"
-"                                    home base for your speaker, and it lets you play while it charges.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    Wall charger can be plugged into the cradle or directly into the speaker\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    Auxiliary port lets you connect other audio sources, like an MP3 player\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    USB port allows for software update to ensure ongoing Bluetooth device compatibility\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    Soft covers are available separately in blue, green or orange. Pick a color to match your style.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-msgstr "<section data-snippet-id=\"text-image\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32\">\n"
-"                                <h3>Bose Mini Bluetooth Speaker.</h3>\n"
-"                                <p>\n"
-"                                    The Bose® SoundLink® mini is Bose's smallest portable Bluetooth speaker. Its ultra-compact size fits in the \n"
-"                                    palm of your hand, yet gives you full, natural sound wirelessly from your iPhone, iPad, or iPod. Grab it and go \n"
-"                                    full-featured. It can do just about everything and\n"
-"                                    experience music just about anywhere.\n"
-"                                </p>\n"
-"\n"
-"                                <div class=\"panel panel-default mt48\" data-snippet-id=\"panel\">\n"
-"                                    <div class=\"panel-heading\">\n"
-"                                        <h3 class=\"panel-title\">Characteristics</h3>\n"
-"                                    </div>\n"
-"                                    <div class=\"panel-body\">\n"
-"                                        <ul>\n"
-"                                            <li>Sleek, compact design</li>\n"
-"                                            <li>Efficient, high-quality audio</li>\n"
-"                                            <li>Remote control for power, volume, track seek</li>\n"
-"                                            <li>Auxiliary input for portable devices</li>\n"
-"                                            <li>Universal iPod docking station fits most iPod/iPhone models</li>\n"
-"                                            <li>Charges iPod/iPhone</li>\n"
-"                                            <li>Volume control on main system</li>\n"
-"                                        </ul>\n"
-"                                    </div>\n"
-"                                </div>\n"
-"\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4 mt16 mb16 col-md-offset1\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/play_where_you_play.jpg\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16 oe_dark\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt16\">\n"
-"                                <h2>Plays where you play</h2>\n"
-"                                <p>\n"
-"                                        The SoundLink® Mini speaker is small and light enough\n"
-"                                        to tuck into your bag. It weighs in at just 1.5 pounds.\n"
-"                                        Its low profile lets you place it almost anywhere and\n"
-"                                        provides a low center of gravity that makes it nearly\n"
-"                                        impossible to tip over.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    The rechargeable lithium-ion battery delivers up to seven hours of playtime.\n"
-"                                    And at home, you can listen even longer—the charging cradle lets\n"
-"                                    you listen while it charges.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/more_features.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 col-md-offset-4 text-center mb16 mt16\">\n"
-"                                <h3>Bluetooth connectivity</h3>\n"
-"                                <p>\n"
-"                                    The speaker has a range of about 30 feet, so you can enjoy\n"
-"                                    the sound you want without wires. It pairs easily with your\n"
-"                                    smartphone, iPad® or other Bluetooth device.\n"
-"                                    And it remembers the most recent six devices you've used,\n"
-"                                    so reconnecting is even simpler.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"                <section data-snippet-id=\"text-image\" class=\"mt16 mb16\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-5 col-md-offset-1 mt32 mb16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/bluetooth.jpg\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-5 mt16\">\n"
-"                                <h2>More features.</h2>\n"
-"                                <p>\n"
-"                                    Charging cradle recharges the battery and serves as a convenient\n"
-"                                    home base for your speaker, and it lets you play while it charges.\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    Wall charger can be plugged into the cradle or directly into the speaker\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    Auxiliary port lets you connect other audio sources, like an MP3 player\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    USB port allows for software update to ensure ongoing Bluetooth device compatibility\n"
-"                                </p>\n"
-"                                <p>\n"
-"                                    Soft covers are available separately in blue, green or orange. Pick a color to match your style.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-
-#. module: product
-#: model:product.template,website_description:product.product_product_7_product_template
-msgid "<section data-snippet-id=\"text-image\" class=\"mt32\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-8 col-md-offset-2 text-center\">\n"
-"                                <h3>Two is better than one.</h3>\n"
-"                                <p>\n"
-"                                    Unlike many small headphones, each earpiece of the Apple In-Ear Headphones\n"
-"                                    contains two separate high-performance drivers — a woofer to handle bass and\n"
-"                                    mid-range sounds and a tweeter for high-frequency audio. These dedicated\n"
-"                                    drivers help ensure accurate, detailed sound across the entire sonic spectrum.\n"
-"                                    The result: you’re immersed in the music and hear details you never knew existed.\n"
-"                                    Even when listening to an old favorite, you may feel like you’re hearing it for the first time.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div><div class=\"row mt16\">\n"
-"                            <div class=\"col-md-2 mt16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/promo_headphones.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6\">\n"
-"                                <h3 class=\"mt16\">Hear, hear.</h3>\n"
-"                                <p>\n"
-"                                    The Apple In-Ear Headphones deliver a truly immersive sound experience by drastically\n"
-"                                    reducing unwanted outside noises. The soft, silicone ear tips fit snugly and comfortably\n"
-"                                    in your ear, creating a seal that isolates your music from your surroundings.\n"
-"                                    Three different sizes of ear tips are included so you can find a perfect fit for each ear.\n"
-"                                    Also included are a convenient carrying case for the ear tips and a cable-control case\n"
-"                                    for the headphones themselves.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4\">\n"
-"                                <h3 class=\"mt16\">Keep it clean.</h3>\n"
-"                                <p>\n"
-"                                    Inside each earpiece is a stainless steel mesh cap that protects the precision acoustic\n"
-"                                    components from dust and debris. You can remove the caps for cleaning or replace\n"
-"                                    them with an extra set that’s included in the box.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div><div class=\"row\">\n"
-"                            <div class=\"col-md-2 col-md-offset-5 mt16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/buds_closeup.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-msgstr "<section data-snippet-id=\"text-image\" class=\"mt32\">\n"
-"                    <div class=\"container\">\n"
-"                        <div class=\"row\">\n"
-"                            <div class=\"col-md-8 col-md-offset-2 text-center\">\n"
-"                                <h3>Two is better than one.</h3>\n"
-"                                <p>\n"
-"                                    Unlike many small headphones, each earpiece of the Apple In-Ear Headphones\n"
-"                                    contains two separate high-performance drivers — a woofer to handle bass and\n"
-"                                    mid-range sounds and a tweeter for high-frequency audio. These dedicated\n"
-"                                    drivers help ensure accurate, detailed sound across the entire sonic spectrum.\n"
-"                                    The result: you’re immersed in the music and hear details you never knew existed.\n"
-"                                    Even when listening to an old favorite, you may feel like you’re hearing it for the first time.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div><div class=\"row mt16\">\n"
-"                            <div class=\"col-md-2 mt16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/promo_headphones.png\">\n"
-"                            </div>\n"
-"                            <div class=\"col-md-6\">\n"
-"                                <h3 class=\"mt16\">Hear, hear.</h3>\n"
-"                                <p>\n"
-"                                    The Apple In-Ear Headphones deliver a truly immersive sound experience by drastically\n"
-"                                    reducing unwanted outside noises. The soft, silicone ear tips fit snugly and comfortably\n"
-"                                    in your ear, creating a seal that isolates your music from your surroundings.\n"
-"                                    Three different sizes of ear tips are included so you can find a perfect fit for each ear.\n"
-"                                    Also included are a convenient carrying case for the ear tips and a cable-control case\n"
-"                                    for the headphones themselves.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                            <div class=\"col-md-4\">\n"
-"                                <h3 class=\"mt16\">Keep it clean.</h3>\n"
-"                                <p>\n"
-"                                    Inside each earpiece is a stainless steel mesh cap that protects the precision acoustic\n"
-"                                    components from dust and debris. You can remove the caps for cleaning or replace\n"
-"                                    them with an extra set that’s included in the box.\n"
-"                                </p>\n"
-"                            </div>\n"
-"                        </div><div class=\"row\">\n"
-"                            <div class=\"col-md-2 col-md-offset-5 mt16\">\n"
-"                                <img class=\"img img-responsive\" src=\"/website_sale/static/src/img/buds_closeup.png\">\n"
-"                            </div>\n"
-"                        </div>\n"
-"                    </div>\n"
-"                </section>\n"
-"            "
-
-#. module: product
 #: help:product.category,type:0
 msgid "A category of the view type is a virtual category that can be used as the parent of another category to create a hierarchical structure."
 msgstr "视图类型的分类是一个可视分类，用来做其它分类的上级，以此建立一个分层结构。"
@@ -1251,11 +231,6 @@ msgid "A precise description of the Product, used only for internal information 
 msgstr "精确的产品描述，仅用于内部备注。"
 
 #. module: product
-#: model:product.category,name:product.product_category_7
-msgid "Accessories"
-msgstr "Accessories"
-
-#. module: product
 #: field:product.price.type,active:0
 #: field:product.pricelist,active:0
 #: field:product.pricelist.version,active:0
@@ -1269,36 +244,6 @@ msgstr "启用"
 #: model:product.category,name:product.product_category_all
 msgid "All"
 msgstr "All"
-
-#. module: product
-#: model:product.template,description:product.product_product_37_product_template
-msgid "All in one hi-speed printer with fax and scanner."
-msgstr "高速打印、传真、扫描一体机"
-
-#. module: product
-#: model:product.category,name:product.accessories
-msgid "Apple Accessories"
-msgstr "Apple Accessories"
-
-#. module: product
-#: model:product.template,name:product.product_product_7_product_template
-msgid "Apple In-Ear Headphones"
-msgstr "Apple In-Ear Headphones"
-
-#. module: product
-#: model:product.category,name:product.apple
-msgid "Apple Products"
-msgstr "Apple Products"
-
-#. module: product
-#: model:product.template,name:product.product_product_9_product_template
-msgid "Apple Wireless Keyboard"
-msgstr "Apple Wireless Keyboard"
-
-#. module: product
-#: model:product.template,name:product.product_assembly_product_template
-msgid "Assembly Service Cost"
-msgstr "Assembly Service Cost"
 
 #. module: product
 #: help:product.supplierinfo,sequence:0
@@ -1383,44 +328,9 @@ msgid "Bigger than the reference Unit of Measure"
 msgstr "大于参考单位"
 
 #. module: product
-#: model:product.attribute.value,name:product.product_attribute_value_4
-msgid "Black"
-msgstr "Black"
-
-#. module: product
-#: model:product.template,name:product.product_product_35_product_template
-msgid "Blank CD"
-msgstr "Blank CD"
-
-#. module: product
-#: model:product.template,name:product.product_product_36_product_template
-msgid "Blank DVD-RW"
-msgstr "Blank DVD-RW"
-
-#. module: product
-#: model:product.template,name:product.product_product_5b_product_template
-msgid "Bose Mini Bluetooth Speaker"
-msgstr "Bose Mini Bluetooth Speaker"
-
-#. module: product
-#: model:product.template,description_sale:product.product_product_5b_product_template
-msgid "Bose's smallest portable Bluetooth speaker"
-msgstr "Bose's smallest portable Bluetooth speaker"
-
-#. module: product
 #: selection:product.ul,type:0
 msgid "Box"
 msgstr "Box"
-
-#. module: product
-#: model:product.ul,name:product.product_ul_box
-msgid "Box 20x20x40"
-msgstr "Box 20x20x40"
-
-#. module: product
-#: model:product.ul,name:product.product_ul_big_box
-msgid "Box 30x40x60"
-msgstr "Box 30x40x60"
 
 #. module: product
 #: help:product.uom,active:0
@@ -1455,11 +365,6 @@ msgid "Cannot change the category of existing Unit of Measure '%s'."
 msgstr "不能改变已有的计量单位'%s'的类别"
 
 #. module: product
-#: model:product.public.category,name:product.case
-msgid "Case"
-msgstr "箱子"
-
-#. module: product
 #: view:product.template:product.product_template_search_view
 msgid "Category"
 msgstr "类别"
@@ -1487,33 +392,9 @@ msgstr "从默认计量单位转换（UoM）到销售单位（UoS）的系数。
 "UoS = UoM * 系数"
 
 #. module: product
-#: model:product.attribute,name:product.product_attribute_2
-msgid "Color"
-msgstr "颜色"
-
-#. module: product
 #: field:product.template,color:0
 msgid "Color Index"
 msgstr "颜色索引"
-
-#. module: product
-#: model:product.template,description_sale:product.product_product_6_product_template
-msgid "Color: White\n"
-"Capacity: 16GB\n"
-"Connectivity: Wifi\n"
-"Beautiful 7.9-inch display\n"
-"Over 375,000 apps3\n"
-"Ultrafast wireless\n"
-"iOS7\n"
-"            "
-msgstr "Color: White\n"
-"Capacity: 16GB\n"
-"Connectivity: Wifi\n"
-"Beautiful 7.9-inch display\n"
-"Over 375,000 apps3\n"
-"Ultrafast wireless\n"
-"iOS7\n"
-"            "
 
 #. module: product
 #: field:product.pricelist,company_id:0
@@ -1523,29 +404,6 @@ msgstr "Color: White\n"
 #: field:product.template,company_id:0
 msgid "Company"
 msgstr "公司"
-
-#. module: product
-#: model:product.category,name:product.product_category_8
-#: model:product.public.category,name:product.Components
-msgid "Components"
-msgstr "部件"
-
-#. module: product
-#: model:product.template,name:product.product_product_16_product_template
-msgid "Computer Case"
-msgstr "机箱"
-
-#. module: product
-#: model:product.public.category,name:product.Computer_all_in_one
-msgid "Computer all-in-one"
-msgstr "Computer all-in-one"
-
-#. module: product
-#: model:product.category,name:product.product_category_4
-#: model:product.public.category,name:product.computers
-#: model:product.public.category,name:product.sub_computers
-msgid "Computers"
-msgstr "电脑"
 
 #. module: product
 #: view:product.template:product.product_template_form_view
@@ -1649,24 +507,9 @@ msgid "Currency"
 msgstr "币别"
 
 #. module: product
-#: model:product.template,description:product.product_product_27_product_template
-msgid "Custom Laptop based on customer's requirement."
-msgstr "Custom Laptop based on customer's requirement."
-
-#. module: product
-#: model:product.template,description:product.product_product_5_product_template
-msgid "Custom computer assembled on order based on customer's requirement."
-msgstr "Custom computer assembled on order based on customer's requirement."
-
-#. module: product
 #: field:product.product,partner_ref:0
 msgid "Customer ref"
 msgstr "客户参考"
-
-#. module: product
-#: model:product.template,name:product.product_product_46_product_template
-msgid "Datacard"
-msgstr "Datacard"
 
 #. module: product
 #: help:product.product,message_last_post:0
@@ -1726,11 +569,6 @@ msgstr "供应商说明"
 #: help:product.attribute.value,sequence:0
 msgid "Determine the display order"
 msgstr "决定显示顺序"
-
-#. module: product
-#: model:product.public.category,name:product.devices
-msgid "Devices"
-msgstr "Devices"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_dozen
@@ -1810,21 +648,6 @@ msgid "Explicit rule name for this pricelist line."
 msgstr "价格表明细的详细规则名称"
 
 #. module: product
-#: model:product.category,name:product.product_category_6
-msgid "External Devices"
-msgstr "External Devices"
-
-#. module: product
-#: model:product.public.category,name:product.External_Hard_Drive
-msgid "External Hard Drive"
-msgstr "External Hard Drive"
-
-#. module: product
-#: model:product.template,name:product.product_product_28_product_template
-msgid "External Hard disk"
-msgstr "External Hard disk"
-
-#. module: product
 #: help:product.pricelist.version,date_start:0
 msgid "First valid date for the version."
 msgstr "这个版本的第一个有效期"
@@ -1848,28 +671,6 @@ msgstr "For the rule to apply, bought/sold quantity must be greater than or equa
 "Expressed in the default UoM of the product."
 
 #. module: product
-#: model:product.template,description_sale:product.product_product_7_product_template
-msgid "Frequency: 5Hz to 21kHz\n"
-"Impedance: 23 ohms\n"
-"Sensitivity: 109 dB SPL/mW\n"
-"Drivers: two-way balanced armature\n"
-"Cable length: 1065 mm\n"
-"Weight: 0.4 ounce\n"
-"            "
-msgstr "Frequency: 5Hz to 21kHz\n"
-"Impedance: 23 ohms\n"
-"Sensitivity: 109 dB SPL/mW\n"
-"Drivers: two-way balanced armature\n"
-"Cable length: 1065 mm\n"
-"Weight: 0.4 ounce\n"
-"            "
-
-#. module: product
-#: model:product.template,description_sale:product.product_product_44_product_template
-msgid "Full featured image editing software."
-msgstr "全功能图像编辑软件"
-
-#. module: product
 #: help:product.template,packaging_ids:0
 msgid "Gives the different ways to package the same product. This has no impact on the picking order and is mainly used if you use the EDI module."
 msgstr "指定同一产品的多种包装方式。此处与分拣单并不冲突且主要用于 EDI 模块。"
@@ -1890,17 +691,6 @@ msgid "Gives the sequence order when displaying a list of product categories."
 msgstr "显示产品列表的顺序号"
 
 #. module: product
-#: model:product.template,name:product.product_product_44_product_template
-msgid "GrapWorks Software"
-msgstr "GrapWorks 软件"
-
-#. module: product
-#: model:product.public.category,name:product.graphics_card
-#: model:product.template,name:product.product_product_24_product_template
-msgid "Graphics Card"
-msgstr "显卡"
-
-#. module: product
 #: field:product.template,weight:0
 msgid "Gross Weight"
 msgstr "毛重"
@@ -1911,66 +701,9 @@ msgid "Group by..."
 msgstr "Group by..."
 
 #. module: product
-#: model:product.template,name:product.product_product_17_product_template
-msgid "HDD SH-1"
-msgstr "硬盘 SH-1"
-
-#. module: product
-#: model:product.template,name:product.product_product_18_product_template
-msgid "HDD SH-2"
-msgstr "硬盘 SH-2"
-
-#. module: product
-#: model:product.template,name:product.product_product_19_product_template
-msgid "HDD on Demand"
-msgstr "HDD on Demand"
-
-#. module: product
-#: model:product.template,description:product.product_product_32_product_template
-msgid "Hands free headset for laptop PC with in-line microphone and headphone plug."
-msgstr "用于带有内置麦克风和耳机插孔的便携计算机的免提耳机。"
-
-#. module: product
-#: model:product.public.category,name:product.HDD
-msgid "Hard Drive"
-msgstr "硬盘"
-
-#. module: product
-#: model:product.public.category,name:product.Headset
-msgid "Headset"
-msgstr "耳机"
-
-#. module: product
-#: model:product.template,name:product.product_product_33_product_template
-msgid "Headset USB"
-msgstr "USB 耳机"
-
-#. module: product
-#: model:product.template,description:product.product_product_33_product_template
-msgid "Headset for laptop PC with USB connector."
-msgstr "用户笔记本电脑的USB 连接的耳机"
-
-#. module: product
-#: model:product.template,name:product.product_product_32_product_template
-msgid "Headset standard"
-msgstr "标准耳机"
-
-#. module: product
 #: field:product.ul,height:0
 msgid "Height"
 msgstr "高度"
-
-#. module: product
-#: model:product.template,description_sale:product.product_product_11_product_template
-#: model:product.template,description_sale:product.product_product_11b_product_template
-msgid "Height: 3.01 inches\n"
-"Width:  1.56 inches\n"
-"Depth:  0.21 inch\n"
-"Weight: 1.1 ounces"
-msgstr "Height: 3.01 inches\n"
-"Width:  1.56 inches\n"
-"Depth:  0.21 inch\n"
-"Weight: 1.1 ounces"
 
 #. module: product
 #: field:product.price.history,datetime:0
@@ -2050,11 +783,6 @@ msgid "If unchecked, it will allow you to hide the product without removing it."
 msgstr "如果不选中，允许你隐藏这个产品而无需删除。"
 
 #. module: product
-#: model:product.category,name:product.imac
-msgid "Imac"
-msgstr "Imac"
-
-#. module: product
 #: field:product.template,image:0
 msgid "Image"
 msgstr "图片"
@@ -2090,20 +818,10 @@ msgid "Information about a product supplier"
 msgstr "产品供应商信息"
 
 #. module: product
-#: model:product.template,name:product.product_product_38_product_template
-msgid "Ink Cartridge"
-msgstr "墨盒"
-
-#. module: product
 #: code:addons/product/product.py:398
 #, python-format
 msgid "Integrity Error!"
 msgstr "完整性错误！"
-
-#. module: product
-#: model:product.category,name:product.product_category_2
-msgid "Internal"
-msgstr "内置"
 
 #. module: product
 #: field:product.template,categ_id:0
@@ -2128,16 +846,6 @@ msgid "Inventory"
 msgstr "库存"
 
 #. module: product
-#: model:product.category,name:product.ipad
-msgid "Ipad"
-msgstr "iPad"
-
-#. module: product
-#: model:product.category,name:product.ipod
-msgid "Ipod"
-msgstr "iPod"
-
-#. module: product
 #: field:product.product,message_is_follower:0
 #: field:product.template,message_is_follower:0
 msgid "Is a Follower"
@@ -2158,31 +866,6 @@ msgstr "项目列表"
 #: field:product.pricelist.type,key:0
 msgid "Key"
 msgstr "Key"
-
-#. module: product
-#: model:product.public.category,name:product.Keyboard_Mouse
-msgid "Keyboard / Mouse"
-msgstr "Keyboard / Mouse"
-
-#. module: product
-#: model:product.template,name:product.product_product_27_product_template
-msgid "Laptop Customized"
-msgstr "定制便携计算机"
-
-#. module: product
-#: model:product.template,name:product.product_product_25_product_template
-msgid "Laptop E5023"
-msgstr "便携式电脑 E5023"
-
-#. module: product
-#: model:product.template,name:product.product_product_26_product_template
-msgid "Laptop S3450"
-msgstr "便携计算机 S3450"
-
-#. module: product
-#: model:product.public.category,name:product.laptops
-msgid "Laptops"
-msgstr "笔记本电脑"
 
 #. module: product
 #: field:product.product,message_last_post:0
@@ -2348,12 +1031,6 @@ msgid "Medium-sized image of the product. It is automatically resized as a 128x1
 msgstr "产品的中等尺寸的图片。保持纵横比例，图像超出尺寸后，自动缩放为128x128px ，这字段通常用于看板视图。"
 
 #. module: product
-#: model:product.attribute,name:product.product_attribute_1
-#: model:product.public.category,name:product.Memory
-msgid "Memory"
-msgstr "内存"
-
-#. module: product
 #: field:product.product,message_ids:0
 #: field:product.template,message_ids:0
 msgid "Messages"
@@ -2386,41 +1063,6 @@ msgid "Minimal Quantity"
 msgstr "最少数量"
 
 #. module: product
-#: model:product.public.category,name:product.Modem_Router
-msgid "Modem & Router"
-msgstr "调制解调器与路由器"
-
-#. module: product
-#: model:product.public.category,name:product.motherboard
-msgid "Motherboard"
-msgstr "主板"
-
-#. module: product
-#: model:product.template,name:product.product_product_21_product_template
-msgid "Motherboard A20Z7"
-msgstr "主板 A20Z7"
-
-#. module: product
-#: model:product.template,name:product.product_product_20_product_template
-msgid "Motherboard I9P57"
-msgstr "主板 I9P57"
-
-#. module: product
-#: model:product.template,name:product.product_product_10_product_template
-msgid "Mouse, Optical"
-msgstr "光学鼠标"
-
-#. module: product
-#: model:product.template,name:product.product_product_12_product_template
-msgid "Mouse, Wireless"
-msgstr "无线鼠标"
-
-#. module: product
-#: model:product.template,name:product.product_product_31_product_template
-msgid "Multimedia Speakers"
-msgstr "多媒体喇叭"
-
-#. module: product
 #: field:product.attribute,name:0
 #: field:product.category,complete_name:0
 #: field:product.category,name:0
@@ -2441,11 +1083,6 @@ msgstr "价格种类名称"
 #: field:product.template,weight_net:0
 msgid "Net Weight"
 msgstr "净重"
-
-#. module: product
-#: model:product.public.category,name:product.network
-msgid "Network"
-msgstr "网络"
 
 #. module: product
 #: view:product.pricelist.item:product.product_pricelist_item_form_view
@@ -2475,31 +1112,6 @@ msgid "Obsolete"
 msgstr "作废"
 
 #. module: product
-#: model:product.template,description_sale:product.product_product_42_product_template
-msgid "Office Editing Software with word processing, spreadsheets, presentations, graphics, and databases..."
-msgstr "办公室编辑软件，字处理、电子表格、演示文稿、图片处理和数据库"
-
-#. module: product
-#: model:product.template,name:product.product_product_42_product_template
-msgid "Office Suite"
-msgstr "办公套件"
-
-#. module: product
-#: model:product.template,name:product.product_product_2_product_template
-msgid "On Site Assistance"
-msgstr "现场协助"
-
-#. module: product
-#: model:product.template,name:product.product_product_1_product_template
-msgid "On Site Monitoring"
-msgstr "现成监测"
-
-#. module: product
-#: model:product.template,description:product.product_product_19_product_template
-msgid "On demand hard-disk having capacity based on requirement."
-msgstr "基于需求的硬盘容量要求"
-
-#. module: product
 #: view:product.packaging:product.product_packaging_form_view
 #: view:product.packaging:product.product_packaging_form_view_without_product
 msgid "Other Info"
@@ -2511,21 +1123,6 @@ msgstr "其它信息"
 #, python-format
 msgid "Other Pricelist"
 msgstr "其他价格表"
-
-#. module: product
-#: model:product.category,name:product.product_category_3
-msgid "Other Products"
-msgstr "其他商品"
-
-#. module: product
-#: model:product.template,name:product.product_product_5_product_template
-msgid "PC Assemble + Custom (PC on Demand) "
-msgstr "PC Assemble + Custom (PC on Demand) "
-
-#. module: product
-#: model:product.template,name:product.product_product_3_product_template
-msgid "PC Assemble SC234"
-msgstr "PC Assemble SC234"
 
 #. module: product
 #: selection:product.ul,type:0
@@ -2576,27 +1173,12 @@ msgstr "上级类别"
 #. module: product
 #: model:ir.model,name:product.model_res_partner
 msgid "Partner"
-msgstr "Partner"
+msgstr "合作伙伴"
 
 #. module: product
 #: field:pricelist.partnerinfo,suppinfo_id:0
 msgid "Partner Information"
 msgstr "业务伙伴信息"
-
-#. module: product
-#: model:product.public.category,name:product.Pen_Drive
-msgid "Pen Drive"
-msgstr "Pen Drive"
-
-#. module: product
-#: model:product.template,name:product.product_product_29_product_template
-msgid "Pen drive, SP-2"
-msgstr "Pen drive, SP-2"
-
-#. module: product
-#: model:product.template,name:product.product_product_30_product_template
-msgid "Pen drive, SP-4"
-msgstr "Pen drive, SP-4"
 
 #. module: product
 #: field:product.product,price:0
@@ -2748,31 +1330,6 @@ msgid "Print date"
 msgstr "Print date"
 
 #. module: product
-#: model:product.public.category,name:product.printer
-msgid "Printer"
-msgstr "打印机"
-
-#. module: product
-#: model:product.template,name:product.product_product_37_product_template
-msgid "Printer, All-in-one"
-msgstr "打印机一体机"
-
-#. module: product
-#: model:product.public.category,name:product.processor
-msgid "Processor"
-msgstr "Processor"
-
-#. module: product
-#: model:product.template,name:product.product_product_23_product_template
-msgid "Processor AMD 8-Core"
-msgstr "Processor AMD 8-Core"
-
-#. module: product
-#: model:product.template,name:product.product_product_22_product_template
-msgid "Processor Core i5 2.70 Ghz"
-msgstr "Processor Core i5 2.70 Ghz"
-
-#. module: product
 #: view:product.template:product.product_template_form_view
 msgid "Procurements"
 msgstr "补货"
@@ -2823,7 +1380,7 @@ msgstr "产品类别 & 属性"
 #: model:ir.model,name:product.model_product_category
 #: field:product.pricelist.item,categ_id:0
 msgid "Product Category"
-msgstr "产品类别"
+msgstr "产品分类"
 
 #. module: product
 #: field:product.price.type,field:0
@@ -3004,29 +1561,9 @@ msgid "Quantity-5"
 msgstr "Quantity-5"
 
 #. module: product
-#: model:product.template,name:product.product_product_14_product_template
-msgid "RAM SR2"
-msgstr "内存SR2"
-
-#. module: product
-#: model:product.template,name:product.product_product_15_product_template
-msgid "RAM SR3"
-msgstr "内存Sr3"
-
-#. module: product
-#: model:product.template,name:product.product_product_13_product_template
-msgid "RAM SR5"
-msgstr "内存SR5"
-
-#. module: product
 #: field:product.uom,factor:0
 msgid "Ratio"
 msgstr "比例"
-
-#. module: product
-#: model:product.category,name:product.product_category_10
-msgid "Raw Materials"
-msgstr "原材料"
 
 #. module: product
 #: selection:product.uom,uom_type:0
@@ -3047,11 +1584,6 @@ msgstr "舍入方法"
 #: field:product.uom,rounding:0
 msgid "Rounding Precision"
 msgstr "舍入精度"
-
-#. module: product
-#: model:product.template,name:product.product_product_45_product_template
-msgid "Router R430"
-msgstr "路由器R430"
 
 #. module: product
 #: field:product.pricelist.item,name:0
@@ -3092,17 +1624,12 @@ msgstr "销售"
 #. module: product
 #: view:res.partner:product.view_partner_property_form
 msgid "Sales & Purchases"
-msgstr "销售与采购"
+msgstr "销售&采购"
 
 #. module: product
 #: model:res.groups,name:product.group_sale_pricelist
 msgid "Sales Pricelists"
 msgstr "销售价格表"
-
-#. module: product
-#: model:product.public.category,name:product.Screen
-msgid "Screen"
-msgstr "Screen"
 
 #. module: product
 #: help:product.template,categ_id:0
@@ -3119,19 +1646,12 @@ msgid "Sequence"
 msgstr "序列"
 
 #. module: product
-#: model:product.public.category,name:product.server
-msgid "Server"
-msgstr "Server"
-
-#. module: product
 #: model:product.template,name:product.product_product_consultant_product_template
 #: selection:product.template,type:0
 msgid "Service"
 msgstr "服务"
 
 #. module: product
-#: model:product.category,name:product.product_category_5
-#: model:product.public.category,name:product.services
 #: view:product.template:product.product_template_search_view
 msgid "Services"
 msgstr "服务"
@@ -3159,17 +1679,6 @@ msgstr "产品的小尺寸图片。保持纵横比，自动缩放为64x64px。�
 #: selection:product.uom,uom_type:0
 msgid "Smaller than the reference Unit of Measure"
 msgstr "小于参考计量单位"
-
-#. module: product
-#: model:product.category,name:product.product_category_9
-#: model:product.public.category,name:product.Software
-msgid "Software"
-msgstr "Software"
-
-#. module: product
-#: model:product.public.category,name:product.Speakers
-msgid "Speakers"
-msgstr "Speakers"
 
 #. module: product
 #: help:product.pricelist.item,categ_id:0
@@ -3292,16 +1801,6 @@ msgid "Suppliers"
 msgstr "供应商"
 
 #. module: product
-#: model:product.public.category,name:product.Switch
-msgid "Switch"
-msgstr "Switch"
-
-#. module: product
-#: model:product.template,name:product.product_product_47_product_template
-msgid "Switch, 24 ports"
-msgstr "Switch, 24 ports"
-
-#. module: product
 #: field:product.product,name_template:0
 msgid "Template Name"
 msgstr "模板名称"
@@ -3390,13 +1889,6 @@ msgid "The prices below will only be taken into account when your pricelist is s
 msgstr "当你的价格表被设置为基于供应商价格时，下面的价格将被带进账目中"
 
 #. module: product
-#: model:product.template,description_sale:product.product_product_9_product_template
-msgid "The sleek aluminium Apple Wireless Keyboard.\n"
-"            "
-msgstr "The sleek aluminium Apple Wireless Keyboard.\n"
-"            "
-
-#. module: product
 #: help:product.packaging,qty:0
 msgid "The total number of products you can put by pallet or box."
 msgstr "你能放入托盘或箱子的产品数量。"
@@ -3472,11 +1964,6 @@ msgid "This pricelist will be used, instead of the default one, for sales to the
 msgstr "这价格表将会被使用,取代默认值,用之出售给当前伙伴."
 
 #. module: product
-#: model:product.template,description:product.product_product_9_product_template
-msgid "This product is configured with example of push/pull flows"
-msgstr "此产品已经配置为推/拉流程的例子。"
-
-#. module: product
 #: help:product.supplierinfo,product_code:0
 msgid "This supplier's product code will be used when printing a request for quotation. Keep empty to use the internal one."
 msgstr "这是供应商的产品代码，将用于打印询价单。如果使用内部的代码请保持为空。"
@@ -3485,22 +1972,6 @@ msgstr "这是供应商的产品代码，将用于打印询价单。如果使用
 #: help:product.supplierinfo,product_name:0
 msgid "This supplier's product name will be used when printing a request for quotation. Keep empty to use the internal one."
 msgstr "此供应商产品名称用于打印询价单。为空则使用内部名称。"
-
-#. module: product
-#: model:product.template,description:product.product_product_2_product_template
-msgid "This type of service include assistance for security questions, system configuration requirements, implementation or special needs."
-msgstr "服务类型包括安全问题的辅助，系统配置请求，实施或者特别的需求。"
-
-#. module: product
-#: model:product.template,description:product.product_product_1_product_template
-#: model:product.template,description_sale:product.product_product_1_product_template
-msgid "This type of service include basic monitoring of products."
-msgstr "这种服务类型包括基本的产品监测"
-
-#. module: product
-#: model:product.template,name:product.product_product_39_product_template
-msgid "Toner Cartridge"
-msgstr "碳粉匣"
 
 #. module: product
 #: field:product.packaging,weight:0
@@ -3513,11 +1984,6 @@ msgstr "包装总重量"
 #: field:product.uom,uom_type:0
 msgid "Type"
 msgstr "类型"
-
-#. module: product
-#: model:product.template,name:product.product_product_48_product_template
-msgid "USB Adapter"
-msgstr "USB 适配器"
 
 #. module: product
 #: selection:product.ul,type:0
@@ -3640,11 +2106,6 @@ msgid "Variants"
 msgstr "变体"
 
 #. module: product
-#: model:product.public.category,name:product.video_acquisition
-msgid "Video Acquisition"
-msgstr "Video Acquisition"
-
-#. module: product
 #: selection:product.category,type:0
 msgid "View"
 msgstr "视图"
@@ -3673,11 +2134,6 @@ msgid "Warranty"
 msgstr "质保"
 
 #. module: product
-#: model:product.template,name:product.product_product_34_product_template
-msgid "Webcam"
-msgstr "网络摄像头"
-
-#. module: product
 #: model:product.uom.categ,name:product.product_uom_categ_kgm
 msgid "Weight"
 msgstr "重量"
@@ -3693,29 +2149,9 @@ msgid "When a version is duplicated it is set to non active, so that the dates d
 msgstr "在复制一个版本时它设为不生效. 这样旧版本日期是不重复的. 你应该修改日期并激活这价格表"
 
 #. module: product
-#: model:product.attribute.value,name:product.product_attribute_value_3
-msgid "White"
-msgstr "White"
-
-#. module: product
-#: model:product.attribute,name:product.product_attribute_3
-msgid "Wi-Fi"
-msgstr "Wi-Fi"
-
-#. module: product
 #: field:product.ul,width:0
 msgid "Width"
 msgstr "宽度"
-
-#. module: product
-#: model:product.template,name:product.product_product_40_product_template
-msgid "Windows 7 Professional"
-msgstr "Windows 7 专业版"
-
-#. module: product
-#: model:product.template,name:product.product_product_41_product_template
-msgid "Windows Home Server 2011"
-msgstr "Windows Home Server 2011"
 
 #. module: product
 #: model:product.uom.categ,name:product.uom_categ_wtime
@@ -3731,11 +2167,6 @@ msgstr "您不能拥有两个重复的价格表版本."
 #: constraint:product.product:0
 msgid "You provided an invalid \"EAN13 Barcode\" reference. You may use the \"Internal Reference\" field instead."
 msgstr "你提供了一个错误的  \"EAN13 条码\" 编号。你可能要用 “编号”字段替代。"
-
-#. module: product
-#: model:product.template,name:product.product_product_43_product_template
-msgid "Zed+ Antivirus"
-msgstr "Zed+反病毒"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_cm
@@ -3771,30 +2202,6 @@ msgstr "foot(ft)"
 #: model:product.uom,name:product.product_uom_gal
 msgid "gal(s)"
 msgstr "gal(s)"
-
-#. module: product
-#: model:product.template,name:product.product_product_8_product_template
-msgid "iMac"
-msgstr "iMac"
-
-#. module: product
-#: model:product.template,name:product.product_product_6_product_template
-msgid "iPad Mini"
-msgstr "iPad Mini"
-
-#. module: product
-#: model:product.template,name:product.product_product_4_product_template
-#: model:product.template,name:product.product_product_4b_product_template
-#: model:product.template,name:product.product_product_4c_product_template
-#: model:product.template,name:product.product_product_4d_product_template
-msgid "iPad Retina Display"
-msgstr "iPad Retina Display"
-
-#. module: product
-#: model:product.template,name:product.product_product_11_product_template
-#: model:product.template,name:product.product_product_11b_product_template
-msgid "iPod"
-msgstr "iPod"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_inch

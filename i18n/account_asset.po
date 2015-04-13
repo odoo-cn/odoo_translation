@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:27+0000\n"
-"PO-Revision-Date: 2015-04-12 06:27+0000\n"
+"POT-Creation-Date: 2015-04-13 01:15+0000\n"
+"PO-Revision-Date: 2015-04-13 01:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "资产会计"
 #. module: account_asset
 #: field:account.asset.asset,active:0
 msgid "Active"
-msgstr "激活"
+msgstr "启用"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -71,7 +71,7 @@ msgstr "分析信息"
 #. module: account_asset
 #: field:account.asset.category,account_analytic_id:0
 msgid "Analytic account"
-msgstr "核算科目"
+msgstr "分析账户"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -238,12 +238,12 @@ msgstr "选择要对正在使用的固定资产自动提折旧的期间"
 #: selection:account.asset.asset,state:0
 #: selection:asset.asset.report,state:0
 msgid "Close"
-msgstr "报废"
+msgstr "关闭"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_search
 msgid "Closed"
-msgstr "已报废"
+msgstr "已关闭"
 
 #. module: account_asset
 #: field:account.asset.asset,company_id:0
@@ -300,7 +300,7 @@ msgstr "新建固定资产会计凭证"
 #: field:asset.depreciation.confirmation.wizard,create_uid:0
 #: field:asset.modify,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建"
 
 #. module: account_asset
 #: field:account.asset.asset,create_date:0
@@ -310,12 +310,12 @@ msgstr "Created by"
 #: field:asset.depreciation.confirmation.wizard,create_date:0
 #: field:asset.modify,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建"
 
 #. module: account_asset
 #: field:account.asset.asset,currency_id:0
 msgid "Currency"
-msgstr "币种"
+msgstr "币别"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_search
@@ -449,12 +449,12 @@ msgstr "错误！"
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 msgid "Extended Filters..."
-msgstr "扩展过滤器..."
+msgstr "增加筛选条件"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
 msgid "General"
-msgstr "基本设置"
+msgstr "杂项"
 
 #. module: account_asset
 #: field:asset.asset.report,gross_value:0
@@ -469,7 +469,7 @@ msgstr "总值"
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -491,7 +491,7 @@ msgstr "历史名称"
 #: field:asset.depreciation.confirmation.wizard,id:0
 #: field:asset.modify,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "编号"
 
 #. module: account_asset
 #: help:account.asset.asset,prorata:0
@@ -502,12 +502,12 @@ msgstr "表示这个资产的第一次计提折旧应该是采购日期而不是
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_invoice
 msgid "Invoice"
-msgstr "Invoice"
+msgstr "发票"
 
 #. module: account_asset
 #: model:ir.model,name:account_asset.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: account_asset
 #: help:account.asset.asset,salvage_value:0
@@ -517,14 +517,14 @@ msgstr "折旧后资产的剩余价值金额"
 #. module: account_asset
 #: field:account.asset.category,journal_id:0
 msgid "Journal"
-msgstr "凭证簿"
+msgstr "账簿"
 
 #. module: account_asset
 #: code:addons/account_asset/account_asset.py:348
 #: model:ir.model,name:account_asset.model_account_move_line
 #, python-format
 msgid "Journal Items"
-msgstr "日记帐项目"
+msgstr "账簿项目"
 
 #. module: account_asset
 #: field:account.asset.asset,write_uid:0
@@ -534,7 +534,7 @@ msgstr "日记帐项目"
 #: field:asset.depreciation.confirmation.wizard,write_uid:0
 #: field:asset.modify,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: account_asset
 #: field:account.asset.asset,write_date:0
@@ -544,7 +544,7 @@ msgstr "Last Updated by"
 #: field:asset.depreciation.confirmation.wizard,write_date:0
 #: field:asset.modify,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: account_asset
 #: selection:account.asset.asset,method:0
@@ -620,7 +620,7 @@ msgstr "业务伙伴"
 #. module: account_asset
 #: field:asset.depreciation.confirmation.wizard,period_id:0
 msgid "Period"
-msgstr "期间"
+msgstr "会计期间"
 
 #. module: account_asset
 #: field:account.asset.category,method_period:0
@@ -671,12 +671,12 @@ msgstr "Purchase Month"
 #. module: account_asset
 #: field:asset.modify,name:0
 msgid "Reason"
-msgstr "理由"
+msgstr "原因"
 
 #. module: account_asset
 #: field:account.asset.asset,code:0
 msgid "Reference"
-msgstr "引用"
+msgstr "关联单号"
 
 #. module: account_asset
 #: field:account.asset.asset,value_residual:0
@@ -688,7 +688,7 @@ msgstr "剩余价值"
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 #: selection:asset.asset.report,state:0
 msgid "Running"
-msgstr "运行中"
+msgstr "正在处理"
 
 #. module: account_asset
 #: field:account.asset.asset,salvage_value:0
@@ -703,7 +703,7 @@ msgstr "搜索资产类别"
 #. module: account_asset
 #: field:account.asset.depreciation.line,sequence:0
 msgid "Sequence"
-msgstr "编号"
+msgstr "序列"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:36+0000\n"
-"PO-Revision-Date: 2015-04-12 06:36+0000\n"
+"POT-Creation-Date: 2015-04-13 01:23+0000\n"
+"PO-Revision-Date: 2015-04-13 01:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr "\n"
 #: field:product.product,sales_count:0
 #: field:product.template,sales_count:0
 msgid "# Sales"
-msgstr "笔销售"
+msgstr "笔销售单"
 
 #. module: sale
 #: field:sale.report,nbr:0
@@ -331,11 +331,6 @@ msgid "Addresses in Sales Orders"
 msgstr "在销售订单中的地址"
 
 #. module: sale
-#: model:product.template,name:sale.advance_product_0_product_template
-msgid "Advance"
-msgstr "预付款"
-
-#. module: sale
 #: field:sale.advance.payment.inv,amount:0
 msgid "Advance Amount"
 msgstr "预付款总额"
@@ -470,7 +465,7 @@ msgstr "允许你选择和维护产品的不同计量单位"
 #. module: sale
 #: help:account.config.settings,group_analytic_account_for_sales:0
 msgid "Allows you to specify an analytic account on sales orders."
-msgstr "允许你在销售订单指定一个分析账户"
+msgstr "允许你在销售订单指定一个辅助核算项"
 
 #. module: sale
 #: help:sale.config.settings,group_sale_delivery_address:0
@@ -480,17 +475,17 @@ msgstr "Allows you to specify different delivery and invoice addresses on a sale
 #. module: sale
 #: field:sale.report,analytic_account_id:0
 msgid "Analytic Account"
-msgstr "分析账户"
+msgstr "辅助核算项"
 
 #. module: sale
 #: model:res.groups,name:sale.group_analytic_accounting
 msgid "Analytic Accounting for Sales"
-msgstr "销售的分析会计"
+msgstr "销售辅助核算"
 
 #. module: sale
 #: field:account.config.settings,group_analytic_account_for_sales:0
 msgid "Analytic accounting for sales"
-msgstr "销售的分析会计"
+msgstr "销售辅助核算项"
 
 #. module: sale
 #: selection:sale.order,order_policy:0
@@ -608,7 +603,7 @@ msgstr "承诺延迟"
 #. module: sale
 #: model:ir.model,name:sale.model_res_company
 msgid "Companies"
-msgstr "Companies"
+msgstr "公司"
 
 #. module: sale
 #: field:sale.order,company_id:0
@@ -649,7 +644,7 @@ msgstr "已经确认但是还没有发运的订单行"
 #. module: sale
 #: field:sale.order,project_id:0
 msgid "Contract / Analytic"
-msgstr "合同/分析"
+msgstr "合同/辅助核算"
 
 #. module: sale
 #: view:sale.config.settings:sale.view_sales_config
@@ -673,7 +668,7 @@ msgstr "生成并查看发票"
 #: field:sale.order,order_policy:0
 #: view:sale.order.line:sale.view_order_line_form2
 msgid "Create Invoice"
-msgstr "生成发票"
+msgstr "创建发票"
 
 #. module: sale
 #: view:sale.make.invoice:sale.view_sale_order_make_invoice
@@ -1381,7 +1376,7 @@ msgstr "支付"
 #: model:ir.model,name:sale.model_res_partner
 #: field:sale.report,partner_id:0
 msgid "Partner"
-msgstr "业务伙伴"
+msgstr "合作伙伴"
 
 #. module: sale
 #: field:sale.order,payment_term:0
@@ -1455,17 +1450,17 @@ msgstr "打印"
 #. module: sale
 #: model:ir.model,name:sale.model_procurement_order
 msgid "Procurement"
-msgstr "补货"
+msgstr "需求"
 
 #. module: sale
 #: field:sale.order,procurement_group_id:0
 msgid "Procurement group"
-msgstr "补货组"
+msgstr "Procurement group"
 
 #. module: sale
 #: field:sale.order.line,procurement_ids:0
 msgid "Procurements"
-msgstr "补货"
+msgstr "Procurements"
 
 #. module: sale
 #: model:ir.model,name:sale.model_product_product
@@ -1553,6 +1548,7 @@ msgstr "Quotation Send"
 
 #. module: sale
 #: selection:sale.order,state:0
+#: selection:sale.report,state:0
 msgid "Quotation Sent"
 msgstr "报价单发送"
 
@@ -1791,7 +1787,7 @@ msgstr "Sales Team"
 #. module: sale
 #: model:ir.model,name:sale.model_crm_case_section
 msgid "Sales Teams"
-msgstr "Sales Teams"
+msgstr "销售团队"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_orders_exception
@@ -1914,7 +1910,7 @@ msgstr "Target of invoice revenue for the current month. This is the amount the 
 #: field:sale.order.line,tax_id:0
 #: view:website:sale.report_saleorder_document
 msgid "Taxes"
-msgstr "税金"
+msgstr "税"
 
 #. module: sale
 #: field:sale.order,note:0
@@ -1934,12 +1930,12 @@ msgstr "预付款发票金额"
 #. module: sale
 #: help:sale.order,amount_untaxed:0
 msgid "The amount without tax."
-msgstr "未税总金额"
+msgstr "除税后总额。"
 
 #. module: sale
 #: help:sale.order,project_id:0
 msgid "The analytic account related to a sales order."
-msgstr "销售订单相关的分析账户"
+msgstr "销售订单相关的辅助核算项。"
 
 #. module: sale
 #: field:sale.config.settings,time_unit:0
@@ -1949,7 +1945,7 @@ msgstr "默认的服务工作时间单位是"
 #. module: sale
 #: help:sale.order,amount_tax:0
 msgid "The tax amount."
-msgstr "税金总额"
+msgstr "税额。"
 
 #. module: sale
 #: help:sale.order,amount_total:0
@@ -2067,7 +2063,7 @@ msgstr "含税总金额"
 #. module: sale
 #: view:website:sale.report_saleorder_document
 msgid "Total Without Taxes"
-msgstr "Total Without Taxes"
+msgstr "不含税总计"
 
 #. module: sale
 #: field:sale.config.settings,module_sale_stock:0
@@ -2142,7 +2138,7 @@ msgstr "使用合同管理"
 #. module: sale
 #: field:account.config.settings,module_sale_analytic_plans:0
 msgid "Use multiple analytic accounts on sales"
-msgstr "在销售订单使用多分析账户"
+msgstr "在销售订单使用多重辅助核算项"
 
 #. module: sale
 #: field:sale.config.settings,group_sale_pricelist:0
@@ -2177,16 +2173,6 @@ msgstr "仓库特性"
 #, python-format
 msgid "Warning!"
 msgstr "警告！"
-
-#. module: sale
-#: field:sale.order,website_message_ids:0
-msgid "Website Messages"
-msgstr "Website Messages"
-
-#. module: sale
-#: help:sale.order,website_message_ids:0
-msgid "Website communication history"
-msgstr "Website communication history"
 
 #. module: sale
 #: field:sale.order.line,th_weight:0

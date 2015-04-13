@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:35+0000\n"
-"PO-Revision-Date: 2015-04-12 06:35+0000\n"
+"POT-Creation-Date: 2015-04-13 01:22+0000\n"
+"PO-Revision-Date: 2015-04-13 01:22+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -114,7 +114,7 @@ msgstr "允许直接从邮件收件服务器收到的邮件创建相关问题."
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "分析账户"
+msgstr "辅助核算科目"
 
 #. module: project_issue
 #: field:project.issue,date_open:0
@@ -309,11 +309,6 @@ msgstr "剩余天数"
 #: field:project.issue,date_deadline:0
 msgid "Deadline"
 msgstr "截止日期"
-
-#. module: project_issue
-#: model:project.category,name:project_issue.project_issue_category_03
-msgid "Deadly bug"
-msgstr "致命错误"
 
 #. module: project_issue
 #: model:ir.filters,name:project_issue.filter_issue_report_delay
@@ -545,11 +540,6 @@ msgid "Last Updated on"
 msgstr "Last Updated on"
 
 #. module: project_issue
-#: model:project.category,name:project_issue.project_issue_category_01
-msgid "Little problem"
-msgstr "小问题"
-
-#. module: project_issue
 #: selection:project.issue,priority:0
 #: selection:project.issue.report,priority:0
 msgid "Low"
@@ -611,14 +601,9 @@ msgid "Number of Days to open the project issue."
 msgstr "Number of Days to open the project issue."
 
 #. module: project_issue
-#: model:project.category,name:project_issue.project_issue_category_02
-msgid "PBCK"
-msgstr "PBCK"
-
-#. module: project_issue
 #: model:ir.model,name:project_issue.model_res_partner
 msgid "Partner"
-msgstr "Partner"
+msgstr "合作伙伴"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_feature_tree_view
@@ -711,13 +696,13 @@ msgstr "阶段"
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_issue_stage
 msgid "Stage Changed"
-msgstr "Stage Changed"
+msgstr "阶段变更"
 
 #. module: project_issue
 #: model:mail.message.subtype,description:project_issue.mt_issue_stage
 #: model:mail.message.subtype,description:project_issue.mt_project_issue_stage
 msgid "Stage changed"
-msgstr "Stage changed"
+msgstr "任务阶段已改变"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_form_view

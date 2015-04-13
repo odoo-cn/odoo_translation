@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:28+0000\n"
-"PO-Revision-Date: 2015-04-12 06:28+0000\n"
+"POT-Creation-Date: 2015-04-13 01:15+0000\n"
+"PO-Revision-Date: 2015-04-13 01:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: analytic_contract_hr_expense
 #: model:ir.model,name:analytic_contract_hr_expense.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "分析账户"
+msgstr "辅助核算科目"
 
 #. module: analytic_contract_hr_expense
 #: field:account.analytic.account,charge_expenses:0
@@ -28,7 +28,7 @@ msgstr "收取费用"
 #. module: analytic_contract_hr_expense
 #: field:account.analytic.account,est_expenses:0
 msgid "Estimation of Expenses to Invoice"
-msgstr "预估费用"
+msgstr "预估费用到发票"
 
 #. module: analytic_contract_hr_expense
 #: view:account.analytic.account:analytic_contract_hr_expense.account_analytic_account_form_expense_form
@@ -38,7 +38,7 @@ msgstr "费用"
 #. module: analytic_contract_hr_expense
 #: view:account.analytic.account:analytic_contract_hr_expense.account_analytic_account_form_expense_form
 msgid "Expenses and Timesheet Invoicing Ratio"
-msgstr "费用和工时开票比率"
+msgstr "费用和工时单结账比率"
 
 #. module: analytic_contract_hr_expense
 #: code:addons/analytic_contract_hr_expense/analytic_contract_hr_expense.py:135
@@ -55,7 +55,7 @@ msgstr "%s的费用到发票"
 #. module: analytic_contract_hr_expense
 #: view:account.analytic.account:analytic_contract_hr_expense.account_analytic_account_form_expense_form
 msgid "Nothing to invoice, create"
-msgstr "Nothing to invoice, create"
+msgstr "尚未开票，创建"
 
 #. module: analytic_contract_hr_expense
 #: view:account.analytic.account:analytic_contract_hr_expense.account_analytic_account_form_expense_form
@@ -67,7 +67,7 @@ msgstr "或 视图"
 #: field:account.analytic.account,expense_to_invoice:0
 #: field:account.analytic.account,remaining_expense:0
 msgid "unknown"
-msgstr "未知的"
+msgstr "未知"
 
 #. module: analytic_contract_hr_expense
 #: view:account.analytic.account:analytic_contract_hr_expense.account_analytic_account_form_expense_form

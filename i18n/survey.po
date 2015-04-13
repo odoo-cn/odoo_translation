@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:37+0000\n"
-"PO-Revision-Date: 2015-04-12 06:37+0000\n"
+"POT-Creation-Date: 2015-04-13 01:24+0000\n"
+"PO-Revision-Date: 2015-04-13 01:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -68,18 +68,6 @@ msgstr "<p class=\"oe_view_nocontent_create\">Click to add a survey.</p>\n"
 "            "
 
 #. module: survey
-#: model:survey.page,description:survey.feedback_1
-#: model:survey.page,description:survey.feedback_3
-#: model:survey.survey,thank_you_message:survey.feedback_form
-msgid "<p></p>"
-msgstr "<p></p>"
-
-#. module: survey
-#: model:survey.page,description:survey.feedback_4
-msgid "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
-msgstr "<p>If you do not contribute or develop in Odoo, skip this page.</p>"
-
-#. module: survey
 #: model:ir.actions.act_window,help:survey.action_selected_survey_user_input
 msgid "<p>Nobody has replied to your survey yet.</p>\n"
 "            "
@@ -92,18 +80,6 @@ msgid "<p>Nobody has replied to your surveys yet.</p>\n"
 "            "
 msgstr "<p>Nobody has replied to your surveys yet.</p>\n"
 "            "
-
-#. module: survey
-#: model:survey.page,description:survey.feedback_2
-msgid "<p>These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
-"what have been your difficulties.</p>"
-msgstr "<p>These questions relate to the ergonomy and ease of use of Odoo. Try to remind your firsts days on Odoo and\n"
-"what have been your difficulties.</p>"
-
-#. module: survey
-#: model:survey.survey,description:survey.feedback_form
-msgid "<p>This survey should take less than five minutes.</p>"
-msgstr "<p>This survey should take less than five minutes.</p>"
 
 #. module: survey
 #: constraint:survey.label:0
@@ -131,11 +107,6 @@ msgid "A problem has occured"
 msgstr "A problem has occured"
 
 #. module: survey
-#: model:survey.label,value:survey.frow_2_2_4
-msgid "A process is defined for all enterprise flows"
-msgstr "A process is defined for all enterprise flows"
-
-#. module: survey
 #: constraint:survey.user_input_line:0
 msgid "A question cannot be unanswered and skipped"
 msgstr "A question cannot be unanswered and skipped"
@@ -144,11 +115,6 @@ msgstr "A question cannot be unanswered and skipped"
 #: sql_constraint:survey.user_input:0
 msgid "A token must be unique!"
 msgstr "A token must be unique!"
-
-#. module: survey
-#: model:survey.page,title:survey.feedback_1
-msgid "About your Odoo usage"
-msgstr "About your Odoo usage"
 
 #. module: survey
 #: field:survey.mail.compose.message,active_domain:0
@@ -164,14 +130,6 @@ msgstr "Add list of email of recipients (will not converted in partner), separat
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Add list of existing contacts..."
 msgstr "Add list of existing contacts..."
-
-#. module: survey
-#: model:survey.label,value:survey.fcol_2_1_3
-#: model:survey.label,value:survey.fcol_2_2_3
-#: model:survey.label,value:survey.fcol_2_5_3
-#: model:survey.label,value:survey.fcol_2_7_3
-msgid "Agree"
-msgstr "Agree"
 
 #. module: survey
 #: view:website:survey.result_number
@@ -229,11 +187,6 @@ msgid "Answers do not go in the original document' discussion thread. This has a
 msgstr "Answers do not go in the original document' discussion thread. This has an impact on the generated message-id."
 
 #. module: survey
-#: model:survey.question,question:survey.feedback_1_1
-msgid "Are you using Odoo on a daily basis?"
-msgstr "Are you using Odoo on a daily basis?"
-
-#. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
 msgid "Attachments"
 msgstr "Attachments"
@@ -262,11 +215,6 @@ msgstr "Automatically sanitized HTML contents"
 #: view:website:survey.result_number
 msgid "Average"
 msgstr "Average"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_1_2_4
-msgid "CRM"
-msgstr "CRM"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
@@ -340,11 +288,6 @@ msgid "Comment Message"
 msgstr "Comment Message"
 
 #. module: survey
-#: model:survey.page,title:survey.feedback_3
-msgid "Community and contributors"
-msgstr "Community and contributors"
-
-#. module: survey
 #: view:survey.survey:survey.survey_tree
 #: view:survey.user_input:survey.survey_user_input_search
 #: selection:survey.user_input,state:0
@@ -360,11 +303,6 @@ msgstr "Compose Email"
 #: field:survey.mail.compose.message,composition_mode:0
 msgid "Composition mode"
 msgstr "Composition mode"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_7_2
-msgid "Configuration wizard exists for each important setting"
-msgstr "Configuration wizard exists for each important setting"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
@@ -490,43 +428,15 @@ msgid "Description"
 msgstr "描述"
 
 #. module: survey
-#: model:survey.label,value:survey.frow_2_7_1
-msgid "Descriptions and help tooltips are clear enough"
-msgstr "Descriptions and help tooltips are clear enough"
-
-#. module: survey
 #: view:survey.survey:survey.survey_kanban
 msgid "Design"
 msgstr "Design"
-
-#. module: survey
-#: model:survey.label,value:survey.fcol_2_1_2
-#: model:survey.label,value:survey.fcol_2_2_2
-#: model:survey.label,value:survey.fcol_2_5_2
-#: model:survey.label,value:survey.fcol_2_7_2
-msgid "Disagree"
-msgstr "Disagree"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
 #: field:survey.question,display_mode:0
 msgid "Display mode"
 msgstr "Display mode"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_3_3
-msgid "Do you have a proposition to attract new contributors?"
-msgstr "Do you have a proposition to attract new contributors?"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_3_2
-msgid "Do you have a proposition to help people to contribute?"
-msgstr "Do you have a proposition to help people to contribute?"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_2_3
-msgid "Do you have suggestions on how to improve the process view ?"
-msgstr "Do you have suggestions on how to improve the process view ?"
 
 #. module: survey
 #: model:survey.stage,name:survey.stage_draft
@@ -565,11 +475,6 @@ msgid "Email composition wizard for Survey"
 msgstr "Email composition wizard for Survey"
 
 #. module: survey
-#: model:survey.page,title:survey.feedback_2
-msgid "Ergonomy and ease of use"
-msgstr "Ergonomy and ease of use"
-
-#. module: survey
 #: field:survey.question,constr_error_msg:0
 #: field:survey.question,validation_error_msg:0
 msgid "Error message"
@@ -587,19 +492,9 @@ msgid "Existing contacts"
 msgstr "Existing contacts"
 
 #. module: survey
-#: model:survey.label,value:survey.frow_2_7_3
-msgid "Extra modules proposed are relevant"
-msgstr "Extra modules proposed are relevant"
-
-#. module: survey
 #: view:website:survey.result
 msgid "Filters"
 msgstr "Filters"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_1_2_3
-msgid "Financial Management"
-msgstr "Financial Management"
 
 #. module: survey
 #: view:website:survey.result
@@ -662,66 +557,6 @@ msgid "Holds the Chatter summary (number of messages, ...). This summary is dire
 msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
 
 #. module: survey
-#: model:survey.question,question:survey.feedback_3_1
-msgid "How do you contribute or plan to contribute to Odoo?"
-msgstr "How do you contribute or plan to contribute to Odoo?"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_1_2_6
-msgid "Human Ressources"
-msgstr "Human Ressources"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_3_1_3
-msgid "I develop new features"
-msgstr "I develop new features"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_4_1_4
-msgid "I do not publish my developments"
-msgstr "I do not publish my developments"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_3_1_4
-msgid "I help to translate"
-msgstr "I help to translate"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_4_1_3
-msgid "I host them on my own website"
-msgstr "I host them on my own website"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_3_1_1
-msgid "I participate to discussion and forums"
-msgstr "I participate to discussion and forums"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_4_1_1
-msgid "I use Launchpad, like all official Odoo projects"
-msgstr "I use Launchpad, like all official Odoo projects"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_4_1_2
-msgid "I use another repository system (SourceForge...)"
-msgstr "I use another repository system (SourceForge...)"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_1_3
-msgid "I use the contextual help in Odoo"
-msgstr "I use the contextual help in Odoo"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_3_1_5
-msgid "I write documentations"
-msgstr "I write documentations"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_3_1_2
-msgid "I'd like to contribute but I don't know how?"
-msgstr "I'd like to contribute but I don't know how?"
-
-#. module: survey
 #: field:survey.label,id:0
 #: field:survey.mail.compose.message,id:0
 #: field:survey.page,id:0
@@ -755,19 +590,6 @@ msgstr "If closed, people won't be able to answer to surveys in this column."
 
 #. module: survey
 #: code:addons/survey/survey.py:649
-#: model:survey.question,comments_message:survey.feedback_1_1
-#: model:survey.question,comments_message:survey.feedback_1_2
-#: model:survey.question,comments_message:survey.feedback_2_1
-#: model:survey.question,comments_message:survey.feedback_2_2
-#: model:survey.question,comments_message:survey.feedback_2_3
-#: model:survey.question,comments_message:survey.feedback_2_4
-#: model:survey.question,comments_message:survey.feedback_2_5
-#: model:survey.question,comments_message:survey.feedback_2_6
-#: model:survey.question,comments_message:survey.feedback_2_7
-#: model:survey.question,comments_message:survey.feedback_3_1
-#: model:survey.question,comments_message:survey.feedback_3_2
-#: model:survey.question,comments_message:survey.feedback_3_3
-#: model:survey.question,comments_message:survey.feedback_4_1
 #, python-format
 msgid "If other, precise:"
 msgstr "If other, precise:"
@@ -806,36 +628,6 @@ msgstr "Is a Follower"
 #: field:survey.survey,designed:0
 msgid "Is designed?"
 msgstr "Is designed?"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_2_4_2
-msgid "It can be improved"
-msgstr "It can be improved"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_1_2
-msgid "It helps in the beginning"
-msgstr "It helps in the beginning"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_1_5
-msgid "It is clear"
-msgstr "It is clear"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_1_4
-msgid "It is complete"
-msgstr "It is complete"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_1_1
-msgid "It is up-to-date"
-msgstr "It is up-to-date"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_2_5
-msgid "It's easy to find the process you need"
-msgstr "It's easy to find the process you need"
 
 #. module: survey
 #: field:survey.label,sequence:0
@@ -1065,11 +857,6 @@ msgid "No threading for answers"
 msgstr "No threading for answers"
 
 #. module: survey
-#: model:survey.label,value:survey.choice_1_1_4
-msgid "No, I just tested it"
-msgstr "No, I just tested it"
-
-#. module: survey
 #: view:website:survey.notopen
 msgid "Not open"
 msgstr "Not open"
@@ -1263,11 +1050,6 @@ msgid "Print link"
 msgstr "Print link"
 
 #. module: survey
-#: model:survey.label,value:survey.choice_1_2_5
-msgid "Project Management"
-msgstr "Project Management"
-
-#. module: survey
 #: field:survey.mail.compose.message,public_url_html:0
 msgid "Public HTML web link"
 msgstr "Public HTML web link"
@@ -1298,11 +1080,6 @@ msgid "Public url"
 msgstr "Public url"
 
 #. module: survey
-#: model:survey.label,value:survey.choice_1_2_2
-msgid "Purchases Management"
-msgstr "Purchases Management"
-
-#. module: survey
 #: view:survey.label:survey.survey_label_search
 #: field:survey.label,question_id:0
 #: field:survey.label,question_id_2:0
@@ -1330,11 +1107,6 @@ msgstr "Question name"
 #: field:survey.page,question_ids:0
 msgid "Questions"
 msgstr "问题"
-
-#. module: survey
-#: model:survey.page,title:survey.feedback_4
-msgid "Questions for developers"
-msgstr "Questions for developers"
 
 #. module: survey
 #: field:survey.survey,quizz_mode:0
@@ -1380,16 +1152,6 @@ msgstr "Row answer"
 #: field:survey.question,labels_ids_2:0
 msgid "Rows of the Matrix"
 msgstr "Rows of the Matrix"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_7_4
-msgid "Running the configuration wizards is a good way to spare time"
-msgstr "Running the configuration wizards is a good way to spare time"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_1_2_1
-msgid "Sales Management"
-msgstr "Sales Management"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
@@ -1741,35 +1503,12 @@ msgid "Thank you!"
 msgstr "Thank you!"
 
 #. module: survey
-#: model:survey.label,value:survey.frow_2_5_3
-msgid "The 'Usability/Extended View' group helps in daily work"
-msgstr "The 'Usability/Extended View' group helps in daily work"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_5_4
-msgid "The 'Usability/Extended View' group hides only optional fields"
-msgstr "The 'Usability/Extended View' group hides only optional fields"
-
-#. module: survey
 #: constraint:survey.user_input_line:0
 msgid "The answer must be in the right type"
 msgstr "The answer must be in the right type"
 
 #. module: survey
 #: code:addons/survey/survey.py:647
-#: model:survey.question,validation_error_msg:survey.feedback_1_1
-#: model:survey.question,validation_error_msg:survey.feedback_1_2
-#: model:survey.question,validation_error_msg:survey.feedback_2_1
-#: model:survey.question,validation_error_msg:survey.feedback_2_2
-#: model:survey.question,validation_error_msg:survey.feedback_2_3
-#: model:survey.question,validation_error_msg:survey.feedback_2_4
-#: model:survey.question,validation_error_msg:survey.feedback_2_5
-#: model:survey.question,validation_error_msg:survey.feedback_2_6
-#: model:survey.question,validation_error_msg:survey.feedback_2_7
-#: model:survey.question,validation_error_msg:survey.feedback_3_1
-#: model:survey.question,validation_error_msg:survey.feedback_3_2
-#: model:survey.question,validation_error_msg:survey.feedback_3_3
-#: model:survey.question,validation_error_msg:survey.feedback_4_1
 #, python-format
 msgid "The answer you entered has an invalid format."
 msgstr "The answer you entered has an invalid format."
@@ -1781,59 +1520,9 @@ msgid "The content of the text don't contain '__URL__'.                     __UR
 msgstr "The content of the text don't contain '__URL__'.                     __URL__ is automaticaly converted into the special url of the survey."
 
 #. module: survey
-#: model:survey.label,value:survey.choice_2_4_1
-msgid "The current menu structure is good"
-msgstr "The current menu structure is good"
-
-#. module: survey
 #: sql_constraint:survey.user_input:0
 msgid "The deadline cannot be in the past"
 msgstr "The deadline cannot be in the past"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_5_5
-msgid "The groups set on menu items are relevant"
-msgstr "The groups set on menu items are relevant"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_2_6_3
-msgid "The number of groups is good"
-msgstr "The number of groups is good"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_5_1
-msgid "The security rules defined on groups are useful"
-msgstr "The security rules defined on groups are useful"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_2_6_2
-msgid "There are too few groups defined, security isn't accurate enough"
-msgstr "There are too few groups defined, security isn't accurate enough"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_2_6_1
-msgid "There are too many groups defined, security is too complex to set"
-msgstr "There are too many groups defined, security is too complex to set"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_2_4_3
-msgid "There are too much menus, it's complex to understand"
-msgstr "There are too much menus, it's complex to understand"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_2_2
-msgid "They are clean and correct"
-msgstr "They are clean and correct"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_2_3
-msgid "They are useful on a daily usage"
-msgstr "They are useful on a daily usage"
-
-#. module: survey
-#: model:survey.label,value:survey.frow_2_2_1
-msgid "They help new users to understand Odoo"
-msgstr "They help new users to understand Odoo"
 
 #. module: survey
 #: code:addons/survey/survey.py:700
@@ -1865,19 +1554,6 @@ msgstr "This message will be displayed when survey is completed"
 
 #. module: survey
 #: code:addons/survey/survey.py:646
-#: model:survey.question,constr_error_msg:survey.feedback_1_1
-#: model:survey.question,constr_error_msg:survey.feedback_1_2
-#: model:survey.question,constr_error_msg:survey.feedback_2_1
-#: model:survey.question,constr_error_msg:survey.feedback_2_2
-#: model:survey.question,constr_error_msg:survey.feedback_2_3
-#: model:survey.question,constr_error_msg:survey.feedback_2_4
-#: model:survey.question,constr_error_msg:survey.feedback_2_5
-#: model:survey.question,constr_error_msg:survey.feedback_2_6
-#: model:survey.question,constr_error_msg:survey.feedback_2_7
-#: model:survey.question,constr_error_msg:survey.feedback_3_1
-#: model:survey.question,constr_error_msg:survey.feedback_3_2
-#: model:survey.question,constr_error_msg:survey.feedback_3_3
-#: model:survey.question,constr_error_msg:survey.feedback_4_1
 #, python-format
 msgid "This question requires an answer."
 msgstr "This question requires an answer."
@@ -1898,11 +1574,6 @@ msgid "This survey is open only to registered people. Please"
 msgstr "This survey is open only to registered people. Please"
 
 #. module: survey
-#: model:survey.label,value:survey.frow_2_5_2
-msgid "Those security rules are standard and can be used out-of-the-box in most cases"
-msgstr "Those security rules are standard and can be used out-of-the-box in most cases"
-
-#. module: survey
 #: field:survey.survey,title:0
 msgid "Title"
 msgstr "Title"
@@ -1911,22 +1582,6 @@ msgstr "Title"
 #: field:survey.mail.compose.message,to_read:0
 msgid "To read"
 msgstr "To read"
-
-#. module: survey
-#: model:survey.label,value:survey.fcol_2_1_4
-#: model:survey.label,value:survey.fcol_2_2_4
-#: model:survey.label,value:survey.fcol_2_5_4
-#: model:survey.label,value:survey.fcol_2_7_4
-msgid "Totally agree"
-msgstr "Totally agree"
-
-#. module: survey
-#: model:survey.label,value:survey.fcol_2_1_1
-#: model:survey.label,value:survey.fcol_2_2_1
-#: model:survey.label,value:survey.fcol_2_5_1
-#: model:survey.label,value:survey.fcol_2_7_1
-msgid "Totally disagree"
-msgstr "Totally disagree"
 
 #. module: survey
 #: view:website:survey.page
@@ -1974,11 +1629,6 @@ msgstr "Use template"
 #: help:survey.question,description:0
 msgid "Use this field to add             additional explanations about your question"
 msgstr "Use this field to add             additional explanations about your question"
-
-#. module: survey
-#: model:survey.survey,title:survey.feedback_form
-msgid "User Feedback Form"
-msgstr "User Feedback Form"
 
 #. module: survey
 #: view:survey.user_input_line:survey.survey_response_line_search
@@ -2065,60 +1715,9 @@ msgid "Warning!"
 msgstr "警告！"
 
 #. module: survey
-#: model:survey.question,question:survey.feedback_2_7
-msgid "What do you think about configuration wizards?"
-msgstr "What do you think about configuration wizards?"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_2_1
-msgid "What do you think about the documentation available on doc.openerp.com?"
-msgstr "What do you think about the documentation available on doc.openerp.com?"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_2_5
-msgid "What do you think about the groups of users?"
-msgstr "What do you think about the groups of users?"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_2_2
-msgid "What do you think about the process views of Odoo, available in the web client ?"
-msgstr "What do you think about the process views of Odoo, available in the web client ?"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_2_4
-#: model:survey.question,question:survey.feedback_2_6
-msgid "What do you think about the structure of the menus?"
-msgstr "What do you think about the structure of the menus?"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_4_1
-msgid "Where do you develop your new features?"
-msgstr "Where do you develop your new features?"
-
-#. module: survey
 #: help:survey.mail.compose.message,is_log:0
 msgid "Whether the message is an internal note (comment mode only)"
 msgstr "Whether the message is an internal note (comment mode only)"
-
-#. module: survey
-#: model:survey.question,question:survey.feedback_1_2
-msgid "Which modules are you using/testing?"
-msgstr "Which modules are you using/testing?"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_1_1_1
-msgid "Yes, I use a version < 7.0"
-msgstr "Yes, I use a version < 7.0"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_1_1_2
-msgid "Yes, I use the 7.0 version, installed locally"
-msgstr "Yes, I use the 7.0 version, installed locally"
-
-#. module: survey
-#: model:survey.label,value:survey.choice_1_1_3
-msgid "Yes, I use the online version of Odoo"
-msgstr "Yes, I use the online version of Odoo"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message

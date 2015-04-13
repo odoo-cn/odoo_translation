@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:35+0000\n"
-"PO-Revision-Date: 2015-04-12 06:35+0000\n"
+"POT-Creation-Date: 2015-04-13 01:23+0000\n"
+"PO-Revision-Date: 2015-04-13 01:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -557,23 +557,23 @@ msgstr "允许你选择和维护产品的不同计量单位"
 #: help:account.config.settings,group_analytic_account_for_purchases:0
 #: help:purchase.config.settings,group_analytic_account_for_purchases:0
 msgid "Allows you to specify an analytic account on purchase orders."
-msgstr "允许在采购订单指定一个分析账户"
+msgstr "允许在采购订单指定一个辅助核算科目"
 
 #. module: purchase
 #: field:purchase.order.line,account_analytic_id:0
 msgid "Analytic Account"
-msgstr "分析账户"
+msgstr "辅助核算项"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_analytic_accounting
 msgid "Analytic Accounting for Purchases"
-msgstr "采购的分析会计"
+msgstr "采购的辅助核算"
 
 #. module: purchase
 #: field:account.config.settings,group_analytic_account_for_purchases:0
 #: field:purchase.config.settings,group_analytic_account_for_purchases:0
 msgid "Analytic accounting for purchases"
-msgstr "采购的分析会计"
+msgstr "采购的辅助核算"
 
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
@@ -740,7 +740,7 @@ msgstr "Choose from several bids in a call for bids"
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_company
 msgid "Companies"
-msgstr "Companies"
+msgstr "公司"
 
 #. module: purchase
 #: field:purchase.order,company_id:0
@@ -1119,7 +1119,7 @@ msgstr "非法的动作"
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice
 msgid "Invoice"
-msgstr "Invoice"
+msgstr "发票"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_invoice
@@ -1135,7 +1135,7 @@ msgstr "发票异常"
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: purchase
 #: field:purchase.order.line,invoice_lines:0
@@ -1442,7 +1442,7 @@ msgstr "内部订单编号："
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_mail
 msgid "Outgoing Mails"
-msgstr "Outgoing Mails"
+msgstr "发出邮件"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1381
@@ -1459,7 +1459,7 @@ msgstr "PO_${(object.name or '').replace('/','_')}"
 #: model:ir.model,name:purchase.model_res_partner
 #: field:purchase.order.line,partner_id:0
 msgid "Partner"
-msgstr "业务伙伴"
+msgstr "合作伙伴"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_partner_categories_in_form
@@ -1551,12 +1551,12 @@ msgstr "打印询价单"
 #. module: purchase
 #: model:ir.model,name:purchase.model_procurement_order
 msgid "Procurement"
-msgstr "补货"
+msgstr "需求"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_procurement_rule
 msgid "Procurement Rule"
-msgstr "补货规则"
+msgstr "Procurement Rule"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_product
@@ -1980,7 +1980,7 @@ msgstr "状态"
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_move
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存调拨"
 
 #. module: purchase
 #: view:purchase.order.line:purchase.purchase_order_line_form2
@@ -2037,7 +2037,7 @@ msgstr "供应商单号"
 #: field:purchase.order.line,taxes_id:0
 #: view:website:purchase.report_purchaseorder_document
 msgid "Taxes"
-msgstr "税金"
+msgstr "税"
 
 #. module: purchase
 #: field:purchase.order,notes:0
@@ -2137,7 +2137,7 @@ msgstr "总未完税金额"
 #. module: purchase
 #: view:website:purchase.report_purchaseorder_document
 msgid "Total Without Taxes"
-msgstr "Total Without Taxes"
+msgstr "不含税总计"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_tree
@@ -2206,12 +2206,12 @@ msgstr "Use 'Real Price' or 'Average' costing methods."
 #. module: purchase
 #: field:account.config.settings,module_purchase_analytic_plans:0
 msgid "Use multiple analytic accounts on orders"
-msgstr "在订单上使用多个分析账户"
+msgstr "在订单上使用多个辅助核算科目"
 
 #. module: purchase
 #: field:purchase.config.settings,module_purchase_analytic_plans:0
 msgid "Use multiple analytic accounts on purchase orders"
-msgstr "在采购订单使用多个分析账户"
+msgstr "在采购订单使用多个辅助核算科目"
 
 #. module: purchase
 #: model:res.groups,name:purchase.group_purchase_user
@@ -2232,7 +2232,7 @@ msgstr "审核人"
 #. module: purchase
 #: view:website:purchase.report_purchaseorder_document
 msgid "Validated By:"
-msgstr "Validated By:"
+msgstr "审核人："
 
 #. module: purchase
 #: field:purchase.order,validator:0
@@ -2263,16 +2263,6 @@ msgstr "仓库"
 #, python-format
 msgid "Warning!"
 msgstr "警告！"
-
-#. module: purchase
-#: field:purchase.order,website_message_ids:0
-msgid "Website Messages"
-msgstr "网站消息"
-
-#. module: purchase
-#: help:purchase.order,website_message_ids:0
-msgid "Website communication history"
-msgstr "网站沟通记录"
 
 #. module: purchase
 #: help:stock.warehouse,buy_to_resupply:0

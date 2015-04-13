@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:36+0000\n"
-"PO-Revision-Date: 2015-04-12 06:36+0000\n"
+"POT-Creation-Date: 2015-04-13 01:24+0000\n"
+"PO-Revision-Date: 2015-04-13 01:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -136,11 +136,6 @@ msgid "If the active field is set to true, it will allow you to hide the sales t
 msgstr "If the active field is set to true, it will allow you to hide the sales team without removing it."
 
 #. module: sales_team
-#: model:crm.case.section,name:sales_team.crm_case_section_1
-msgid "Indirect Sales"
-msgstr "Indirect Sales"
-
-#. module: sales_team
 #: field:crm.case.section,message_is_follower:0
 msgid "Is a Follower"
 msgstr "Is a Follower"
@@ -164,11 +159,6 @@ msgstr "Last Updated on"
 #: view:sale.config.settings:sales_team.view_sale_config_settings
 msgid "Manage Sales Teams"
 msgstr "Manage Sales Teams"
-
-#. module: sales_team
-#: model:crm.case.section,name:sales_team.crm_case_section_2
-msgid "Marketing"
-msgstr "Marketing"
 
 #. module: sales_team
 #: field:crm.case.section,message_ids:0
@@ -208,7 +198,7 @@ msgstr "Parent Team"
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_partner
 msgid "Partner"
-msgstr "Partner"
+msgstr "合作伙伴"
 
 #. module: sales_team
 #: field:crm.case.section,change_responsible:0
@@ -235,7 +225,7 @@ msgstr "Sales Team"
 #: model:ir.ui.menu,name:sales_team.menu_sales_team_act
 #: view:sale.config.settings:sales_team.view_sale_config_settings
 msgid "Sales Teams"
-msgstr "Sales Teams"
+msgstr "销售团队"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_view_kanban

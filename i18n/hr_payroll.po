@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:31+0000\n"
-"PO-Revision-Date: 2015-04-12 06:31+0000\n"
+"POT-Creation-Date: 2015-04-13 01:19+0000\n"
+"PO-Revision-Date: 2015-04-13 01:19+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -963,19 +963,19 @@ msgstr "相关单号"
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Refund"
-msgstr "退款"
+msgstr "退还"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:334
 #, python-format
 msgid "Refund Payslip"
-msgstr "工资退款"
+msgstr "收回工资条"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:324
 #, python-format
 msgid "Refund: "
-msgstr "退款"
+msgstr "冲销 "
 
 #. module: hr_payroll
 #: field:hr.contribution.register,register_line_ids:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:31+0000\n"
-"PO-Revision-Date: 2015-04-12 06:31+0000\n"
+"POT-Creation-Date: 2015-04-13 01:18+0000\n"
+"PO-Revision-Date: 2015-04-13 01:18+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -128,7 +128,7 @@ msgstr "应用"
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_new_config
 msgid "Attendance"
-msgstr "考勤"
+msgstr "Attendance"
 
 #. module: hr
 #: field:hr.employee,bank_account_id:0
@@ -503,7 +503,7 @@ msgstr "职务名称"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_job
 msgid "Job Position"
-msgstr "Job Position"
+msgstr "工作职位"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_hr_job
@@ -553,12 +553,12 @@ msgstr "最近连接时间"
 #. module: hr
 #: view:hr.job:hr.view_hr_job_form
 msgid "Launch Recruitment"
-msgstr "Launch Recruitment"
+msgstr "启动招聘"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_config
 msgid "Leaves"
-msgstr "准假"
+msgstr "假期"
 
 #. module: hr
 #: field:hr.employee,login:0
@@ -774,7 +774,7 @@ msgstr "相关的员工"
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
 msgid "Reports"
-msgstr "Reports"
+msgstr "报表"
 
 #. module: hr
 #: field:hr.job,requirements:0

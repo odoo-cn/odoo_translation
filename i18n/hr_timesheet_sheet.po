@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:31+0000\n"
-"PO-Revision-Date: 2015-04-12 06:31+0000\n"
+"POT-Creation-Date: 2015-04-13 01:19+0000\n"
+"PO-Revision-Date: 2015-04-13 01:19+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -102,17 +102,17 @@ msgstr "签入/签出和在一个计工单里的容许的差异小时。如果�
 #. module: hr_timesheet_sheet
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "分析账户"
+msgstr "辅助核算科目"
 
 #. module: hr_timesheet_sheet
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Analytic Line"
+msgstr "辅助核算明细"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,account_ids:0
 msgid "Analytic accounts"
-msgstr "分析账户"
+msgstr "辅助核算项"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
@@ -153,7 +153,7 @@ msgstr "Click to add projects, contracts or analytic accounts."
 #. module: hr_timesheet_sheet
 #: model:ir.model,name:hr_timesheet_sheet.model_res_company
 msgid "Companies"
-msgstr "Companies"
+msgstr "公司"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,company_id:0
@@ -493,7 +493,7 @@ msgstr "出勤"
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet.account,name:0
 msgid "Project / Analytic Account"
-msgstr "项目 / 分析账户"
+msgstr "项目 / 辅助核算科目"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
@@ -725,16 +725,6 @@ msgstr "警告！"
 #, python-format
 msgid "Warning!"
 msgstr "Warning!"
-
-#. module: hr_timesheet_sheet
-#: field:hr_timesheet_sheet.sheet,website_message_ids:0
-msgid "Website Messages"
-msgstr "Website Messages"
-
-#. module: hr_timesheet_sheet
-#: help:hr_timesheet_sheet.sheet,website_message_ids:0
-msgid "Website communication history"
-msgstr "Website communication history"
 
 #. module: hr_timesheet_sheet
 #: selection:hr.config.settings,timesheet_range:0

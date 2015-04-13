@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:36+0000\n"
-"PO-Revision-Date: 2015-04-12 06:36+0000\n"
+"POT-Creation-Date: 2015-04-13 01:23+0000\n"
+"PO-Revision-Date: 2015-04-13 01:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -112,12 +112,12 @@ msgstr "ID"
 #. module: sale_layout
 #: model:ir.model,name:sale_layout.model_account_invoice
 msgid "Invoice"
-msgstr "Invoice"
+msgstr "发票"
 
 #. module: sale_layout
 #: model:ir.model,name:sale_layout.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: sale_layout
 #: field:sale_layout.category,write_uid:0
@@ -204,7 +204,7 @@ msgstr "Subtotal:"
 #: view:website:account.report_invoice_document
 #: view:website:sale.report_saleorder_document
 msgid "Taxes"
-msgstr "税金"
+msgstr "税"
 
 #. module: sale_layout
 #: view:sale_layout.category:sale_layout.report_configuration_search_view

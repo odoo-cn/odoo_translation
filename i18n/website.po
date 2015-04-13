@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:38+0000\n"
-"PO-Revision-Date: 2015-04-12 06:38+0000\n"
+"POT-Creation-Date: 2015-04-13 01:26+0000\n"
+"PO-Revision-Date: 2015-04-13 01:26+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -50,16 +50,16 @@ msgstr "(Youtube, Vimeo, Dailymotion)"
 #. module: website
 #: view:website:website.info
 msgid ",\n"
-"                            updated:"
+"                                updated:"
 msgstr ",\n"
-"                            更新:"
+"                                updated:"
 
 #. module: website
 #: view:website:website.layout
 msgid ",\n"
-"                  an awesome"
+"                the #1"
 msgstr ",\n"
-"                  an awesome"
+"                #1"
 
 #. module: website
 #: view:website:website.info
@@ -601,7 +601,7 @@ msgstr "Color Style"
 #. module: website
 #: model:ir.model,name:website.model_res_company
 msgid "Companies"
-msgstr "Companies"
+msgstr "公司"
 
 #. module: website
 #: field:website,company_id:0
@@ -887,11 +887,6 @@ msgstr "Discard edition"
 #: view:website:website.snippets
 msgid "Discover more about Odoo"
 msgstr "Discover more about Odoo"
-
-#. module: website
-#: view:website:website.template_partner_comment
-msgid "Discuss and Comments"
-msgstr "Discuss and Comments"
 
 #. module: website
 #. openerp-web
@@ -1631,11 +1626,6 @@ msgid "Menu Label"
 msgstr "Menu Label"
 
 #. module: website
-#: view:website:website.template_partner_comment
-msgid "Message"
-msgstr "Message"
-
-#. module: website
 #: field:ir.attachment,mimetype:0
 msgid "Mime Type"
 msgstr "Mime Type"
@@ -1834,14 +1824,14 @@ msgid "Ok"
 msgstr "Ok"
 
 #. module: website
-#: view:website:website.layout
-msgid "Open Source CRM"
-msgstr "Open Source CRM"
-
-#. module: website
 #: view:website:website.info
 msgid "Open Source ERP"
 msgstr "Open Source ERP"
+
+#. module: website
+#: view:website:website.layout
+msgid "Open Source eCommerce"
+msgstr "Open Source eCommerce"
 
 #. module: website
 #. openerp-web
@@ -1973,17 +1963,7 @@ msgstr "Parent Right"
 #. module: website
 #: model:ir.model,name:website.model_res_partner
 msgid "Partner"
-msgstr "Partner"
-
-#. module: website
-#: view:website:website.template_partner_post
-msgid "Partner Detail"
-msgstr "Partner Detail"
-
-#. module: website
-#: view:website:website.template_partner_comment
-msgid "Partners"
-msgstr "Partners"
+msgstr "合作伙伴"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -2123,11 +2103,6 @@ msgstr "Quotes Slider"
 #: view:website:website.themes
 msgid "Readable"
 msgstr "Readable"
-
-#. module: website
-#: view:website:website.template_partner_comment
-msgid "Recipient"
-msgstr "Recipient"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -2299,16 +2274,6 @@ msgstr "Select the parent container to get the global options of the banner."
 #: view:website:website.snippets
 msgid "Sell Online. Easily."
 msgstr "Sell Online. Easily."
-
-#. module: website
-#: view:website:website.template_partner_comment
-msgid "Send"
-msgstr "Send"
-
-#. module: website
-#: view:website:website.template_partner_comment
-msgid "Send a Message to our Partners"
-msgstr "Send a Message to our Partners"
 
 #. module: website
 #: view:website:website.contactus
@@ -2531,11 +2496,6 @@ msgstr "Text Block"
 #: view:website:website.snippets
 msgid "Text-Image"
 msgstr "Text-Image"
-
-#. module: website
-#: view:website:website.template_partner_post
-msgid "Thank you for posting a message !"
-msgstr "Thank you for posting a message !"
 
 #. module: website
 #. openerp-web
@@ -2884,16 +2844,6 @@ msgstr "Website Menu"
 #: field:website.config.settings,website_name:0
 msgid "Website Name"
 msgstr "Website Name"
-
-#. module: website
-#: model:ir.actions.server,name:website.action_partner_post
-msgid "Website Partner Post and Thanks Demo"
-msgstr "Website Partner Post and Thanks Demo"
-
-#. module: website
-#: model:ir.actions.server,name:website.action_partner_comment
-msgid "Website Partners Comment Form"
-msgstr "Website Partners Comment Form"
 
 #. module: website
 #: field:ir.actions.server,website_path:0

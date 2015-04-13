@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:29+0000\n"
-"PO-Revision-Date: 2015-04-12 06:29+0000\n"
+"POT-Creation-Date: 2015-04-13 01:17+0000\n"
+"PO-Revision-Date: 2015-04-13 01:17+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -137,12 +137,12 @@ msgstr "上级客户特征"
 #. module: crm_profiling
 #: model:ir.model,name:crm_profiling.model_res_partner
 msgid "Partner"
-msgstr "Partner"
+msgstr "合作伙伴"
 
 #. module: crm_profiling
 #: model:ir.model,name:crm_profiling.model_crm_segmentation
 msgid "Partner Segmentation"
-msgstr "业务伙伴细分"
+msgstr "合作伙伴细分"
 
 #. module: crm_profiling
 #: view:crm.segmentation:crm_profiling.view_partner_crm_segmentation_tree

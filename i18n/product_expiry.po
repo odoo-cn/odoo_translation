@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:34+0000\n"
-"PO-Revision-Date: 2015-04-12 06:34+0000\n"
+"POT-Creation-Date: 2015-04-13 01:22+0000\n"
+"PO-Revision-Date: 2015-04-13 01:22+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26,16 +26,6 @@ msgid "Best before Date"
 msgstr "Best before Date"
 
 #. module: product_expiry
-#: model:product.template,name:product_expiry.product_product_pain_product_template
-msgid "Bread"
-msgstr "Bread"
-
-#. module: product_expiry
-#: model:product.template,name:product_expiry.product_product_lait_product_template
-msgid "Cow milk"
-msgstr "Cow milk"
-
-#. module: product_expiry
 #: view:product.template:product_expiry.view_product_form_expiry
 #: view:stock.production.lot:product_expiry.view_move_form_expiry
 msgid "Dates"
@@ -45,16 +35,6 @@ msgstr "日期"
 #: field:stock.production.lot,life_date:0
 msgid "End of Life Date"
 msgstr "报废日期"
-
-#. module: product_expiry
-#: model:product.template,name:product_expiry.product_product_jambon_product_template
-msgid "French cheese Camembert"
-msgstr "French cheese Camembert"
-
-#. module: product_expiry
-#: model:product.template,name:product_expiry.product_product_from_product_template
-msgid "Ham"
-msgstr "Ham"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_production_lot
@@ -89,7 +69,7 @@ msgstr "产品启用时间"
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_quant
 msgid "Quants"
-msgstr "Quants"
+msgstr "份"
 
 #. module: product_expiry
 #: field:stock.production.lot,removal_date:0

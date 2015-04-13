@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:33+0000\n"
-"PO-Revision-Date: 2015-04-12 06:33+0000\n"
+"POT-Creation-Date: 2015-04-13 01:20+0000\n"
+"PO-Revision-Date: 2015-04-13 01:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,13 +33,13 @@ msgid "# Manufacturing Orders"
 msgstr "# Manufacturing Orders"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:334
+#: code:addons/mrp/mrp.py:335
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (副本)"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:988
+#: code:addons/mrp/mrp.py:989
 #, python-format
 msgid "%s produced"
 msgstr "%s produced"
@@ -316,7 +316,7 @@ msgstr "运行时间表示方式"
 #. module: mrp
 #: field:mrp.workcenter,costs_journal_id:0
 msgid "Analytic Journal"
-msgstr "分析账簿"
+msgstr "辅助核算账薄"
 
 #. module: mrp
 #: view:mrp.config.settings:mrp.view_mrp_config
@@ -418,13 +418,13 @@ msgid "BoM"
 msgstr "物料清单"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:300
+#: code:addons/mrp/mrp.py:301
 #, python-format
 msgid "BoM \"%s\" contains a BoM line with a product recursion: \"%s\"."
 msgstr "BoM \"%s\" contains a BoM line with a product recursion: \"%s\"."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:326
+#: code:addons/mrp/mrp.py:327
 #, python-format
 msgid "BoM \"%s\" contains a phantom BoM line but the product \"%s\" does not have any BoM defined."
 msgstr "BoM \"%s\" contains a phantom BoM line but the product \"%s\" does not have any BoM defined."
@@ -477,13 +477,13 @@ msgid "Cannot consume a move with negative or zero quantity."
 msgstr "Cannot consume a move with negative or zero quantity."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:617
+#: code:addons/mrp/mrp.py:618
 #, python-format
 msgid "Cannot delete a manufacturing order in state '%s'."
 msgstr "不能删除'%s'状态的生产订单。"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:691
+#: code:addons/mrp/mrp.py:692
 #, python-format
 msgid "Cannot find a bill of material for this product."
 msgstr "找不到这个产品的BOM"
@@ -534,7 +534,7 @@ msgstr "代码"
 #. module: mrp
 #: model:ir.model,name:mrp.model_res_company
 msgid "Companies"
-msgstr "Companies"
+msgstr "公司"
 
 #. module: mrp
 #: field:mrp.bom,company_id:0
@@ -773,7 +773,7 @@ msgid "End Date"
 msgstr "结束日期"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:691
+#: code:addons/mrp/mrp.py:692
 #: code:addons/mrp/stock.py:183
 #: code:addons/mrp/stock.py:259
 #: code:addons/mrp/wizard/change_production_qty.py:83
@@ -791,12 +791,12 @@ msgstr "额外信息"
 #: help:mrp.workcenter,costs_cycle_account_id:0
 #: help:mrp.workcenter,costs_hour_account_id:0
 msgid "Fill this only if you want automatic analytic accounting entries on production orders."
-msgstr "如果你要自动在生产订单进行分析会计，只需填入这里"
+msgstr "如果你要自动在生成订单进行辅助核算，只需填入这里"
 
 #. module: mrp
 #: help:mrp.workcenter,product_id:0
 msgid "Fill this product to easily track your production costs in the analytic accounting."
-msgstr "填入产品将更容易在分析会计中跟踪你的生产成本。"
+msgstr "填入产品将更容易在辅助核算中跟踪你的生产成本。"
 
 #. module: mrp
 #: view:mrp.production:mrp.mrp_production_form_view
@@ -950,9 +950,9 @@ msgid "Internal Reference"
 msgstr "内部单号"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:300
-#: code:addons/mrp/mrp.py:326
-#: code:addons/mrp/mrp.py:617
+#: code:addons/mrp/mrp.py:301
+#: code:addons/mrp/mrp.py:327
+#: code:addons/mrp/mrp.py:618
 #, python-format
 msgid "Invalid Action!"
 msgstr "非法的动作"
@@ -1377,12 +1377,12 @@ msgstr "优先级"
 #. module: mrp
 #: model:ir.model,name:mrp.model_procurement_order
 msgid "Procurement"
-msgstr "补货"
+msgstr "需求"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_procurement_rule
 msgid "Procurement Rule"
-msgstr "补货规则"
+msgstr "Procurement Rule"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.act_mrp_product_produce
@@ -1917,7 +1917,7 @@ msgstr "状态"
 #. module: mrp
 #: model:ir.model,name:mrp.model_stock_move
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存调拨"
 
 #. module: mrp
 #: field:report.mrp.inout,value:0
@@ -1951,8 +1951,8 @@ msgid "Technical field used to make the traceability of produced products"
 msgstr "Technical field used to make the traceability of produced products"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:344
-#: code:addons/mrp/mrp.py:433
+#: code:addons/mrp/mrp.py:345
+#: code:addons/mrp/mrp.py:434
 #, python-format
 msgid "The Product Unit of Measure you chose has a different category than in the product form."
 msgstr "你选择的计量单位跟产品表单的计量单位在不同的类别。"
@@ -2176,34 +2176,20 @@ msgid "Warehouse"
 msgstr "仓库"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:344
-#: code:addons/mrp/mrp.py:433
+#: code:addons/mrp/mrp.py:345
+#: code:addons/mrp/mrp.py:434
 #, python-format
 msgid "Warning"
 msgstr "警告"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:350
+#: code:addons/mrp/mrp.py:351
 #: code:addons/mrp/stock.py:42
 #: code:addons/mrp/stock.py:44
 #: code:addons/mrp/stock.py:169
 #, python-format
 msgid "Warning!"
 msgstr "警告！"
-
-#. module: mrp
-#: field:mrp.bom,website_message_ids:0
-#: field:mrp.production,website_message_ids:0
-#: field:mrp.production.workcenter.line,website_message_ids:0
-msgid "Website Messages"
-msgstr "Website Messages"
-
-#. module: mrp
-#: help:mrp.bom,website_message_ids:0
-#: help:mrp.production,website_message_ids:0
-#: help:mrp.production.workcenter.line,website_message_ids:0
-msgid "Website communication history"
-msgstr "Website communication history"
 
 #. module: mrp
 #: field:report.mrp.inout,date:0
@@ -2355,7 +2341,7 @@ msgstr "You can configure by-products in the bill of material.\n"
 "-This installs the module mrp_byproduct."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:350
+#: code:addons/mrp/mrp.py:351
 #, python-format
 msgid "You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."

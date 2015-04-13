@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:37+0000\n"
-"PO-Revision-Date: 2015-04-12 06:37+0000\n"
+"POT-Creation-Date: 2015-04-13 01:24+0000\n"
+"PO-Revision-Date: 2015-04-13 01:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -107,15 +107,10 @@ msgid "Draft"
 msgstr "草稿"
 
 #. module: stock_picking_wave
-#: model:product.category,name:stock_picking_wave.product_category_dry
-msgid "Dry"
-msgstr "Dry"
-
-#. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:40
 #, python-format
 msgid "Error!"
-msgstr "Error!"
+msgstr "错误！"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
@@ -132,27 +127,6 @@ msgstr "分组"
 #: field:stock.picking.wave,id:0
 msgid "ID"
 msgstr "ID"
-
-#. module: stock_picking_wave
-#: model:product.category,name:stock_picking_wave.product_category_icecream
-msgid "Ice Cream"
-msgstr "Ice Cream"
-
-#. module: stock_picking_wave
-#: model:product.template,name:stock_picking_wave.product_product_ice_cream_choco_product_template
-msgid "Ice Cream Chocolate"
-msgstr "Ice Cream Chocolate"
-
-#. module: stock_picking_wave
-#: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_choco_product_template
-msgid "Ice Cream Chocolate with stucks"
-msgstr "Ice Cream Chocolate with stucks"
-
-#. module: stock_picking_wave
-#: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_vani_product_template
-#: model:product.template,name:stock_picking_wave.product_product_ice_cream_vani_product_template
-msgid "Ice Cream Vanilla"
-msgstr "Ice Cream Vanilla"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
@@ -195,7 +169,7 @@ msgstr "该波次负责人"
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking
 msgid "Picking List"
-msgstr "Picking List"
+msgstr "装箱单"
 
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking_wave
@@ -262,16 +236,6 @@ msgstr "选择一个波次"
 #, python-format
 msgid "Some pickings are still waiting for goods. Please check or force their availability before setting this wave to done."
 msgstr "部分捡货作业还在等待可用，请检查或者强制可用以便完成本次捡货作业。"
-
-#. module: stock_picking_wave
-#: model:product.template,name:stock_picking_wave.product_product_dry_specu_product_template
-msgid "Speculoos"
-msgstr "Speculoos"
-
-#. module: stock_picking_wave
-#: model:product.template,description_sale:stock_picking_wave.product_product_dry_specu_product_template
-msgid "Speculoos - A belgian speciality"
-msgstr "Speculoos - A belgian speciality"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter

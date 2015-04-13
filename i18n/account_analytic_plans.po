@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:27+0000\n"
-"PO-Revision-Date: 2015-04-12 06:27+0000\n"
+"POT-Creation-Date: 2015-04-13 01:15+0000\n"
+"PO-Revision-Date: 2015-04-13 01:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -123,7 +123,7 @@ msgstr "分析账簿"
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Analytic Line"
+msgstr "辅助核算明细"
 
 #. module: account_analytic_plans
 #: view:account.analytic.plan:account_analytic_plans.account_analytic_plan_form
@@ -280,12 +280,12 @@ msgstr "编号"
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_invoice
 msgid "Invoice"
-msgstr "Invoice"
+msgstr "发票"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_journal
@@ -295,7 +295,7 @@ msgstr "账簿"
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_move_line
 msgid "Journal Items"
-msgstr "Journal Items"
+msgstr "会计凭证行"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan,write_uid:0
@@ -315,7 +315,7 @@ msgstr "最后更新"
 #: field:account.crossovered.analytic,write_date:0
 #: field:analytic.plan.create.model,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.line,max_required:0

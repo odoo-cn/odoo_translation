@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:37+0000\n"
-"PO-Revision-Date: 2015-04-12 06:37+0000\n"
+"POT-Creation-Date: 2015-04-13 01:24+0000\n"
+"PO-Revision-Date: 2015-04-13 01:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,8 +16,8 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: stock_landed_costs
-#: code:addons/stock_landed_costs/stock_landed_costs.py:143
-#: code:addons/stock_landed_costs/stock_landed_costs.py:151
+#: code:addons/stock_landed_costs/stock_landed_costs.py:146
+#: code:addons/stock_landed_costs/stock_landed_costs.py:149
 #, python-format
 msgid " already out"
 msgstr " already out"
@@ -168,9 +168,9 @@ msgid "Equal"
 msgstr "Equal"
 
 #. module: stock_landed_costs
-#: code:addons/stock_landed_costs/stock_landed_costs.py:75
-#: code:addons/stock_landed_costs/stock_landed_costs.py:113
-#: code:addons/stock_landed_costs/stock_landed_costs.py:196
+#: code:addons/stock_landed_costs/stock_landed_costs.py:76
+#: code:addons/stock_landed_costs/stock_landed_costs.py:114
+#: code:addons/stock_landed_costs/stock_landed_costs.py:201
 #, python-format
 msgid "Error!"
 msgstr "Error!"
@@ -305,12 +305,18 @@ msgid "Name"
 msgstr "名称"
 
 #. module: stock_landed_costs
+#: code:addons/stock_landed_costs/stock_landed_costs.py:199
+#, python-format
+msgid "Only draft landed costs can be validated"
+msgstr "Only draft landed costs can be validated"
+
+#. module: stock_landed_costs
 #: field:stock.landed.cost,picking_ids:0
 msgid "Pickings"
 msgstr "分拣"
 
 #. module: stock_landed_costs
-#: code:addons/stock_landed_costs/stock_landed_costs.py:113
+#: code:addons/stock_landed_costs/stock_landed_costs.py:114
 #, python-format
 msgid "Please configure Stock Expense Account for product: %s."
 msgstr "Please configure Stock Expense Account for product: %s."
@@ -389,7 +395,7 @@ msgid "Summary"
 msgstr "摘要"
 
 #. module: stock_landed_costs
-#: code:addons/stock_landed_costs/stock_landed_costs.py:75
+#: code:addons/stock_landed_costs/stock_landed_costs.py:76
 #, python-format
 msgid "The selected picking does not contain any move that would be impacted by landed costs. Landed costs are only possible for products configured in real time valuation with real price costing method. Please make sure it is the case, or you selected the correct picking"
 msgstr "The selected picking does not contain any move that would be impacted by landed costs. Landed costs are only possible for products configured in real time valuation with real price costing method. Please make sure it is the case, or you selected the correct picking"
@@ -410,6 +416,12 @@ msgid "Validate"
 msgstr "Validate"
 
 #. module: stock_landed_costs
+#: code:addons/stock_landed_costs/stock_landed_costs.py:229
+#, python-format
+msgid "Validated landed costs cannot be cancelled, but you could create negative landed costs to reverse them"
+msgstr "Validated landed costs cannot be cancelled, but you could create negative landed costs to reverse them"
+
+#. module: stock_landed_costs
 #: view:stock.landed.cost:stock_landed_costs.view_stock_landed_cost_form
 #: field:stock.landed.cost,valuation_adjustment_lines:0
 msgid "Valuation Adjustments"
@@ -421,22 +433,12 @@ msgid "Volume"
 msgstr "体积"
 
 #. module: stock_landed_costs
-#: field:stock.landed.cost,website_message_ids:0
-msgid "Website Messages"
-msgstr "Website Messages"
-
-#. module: stock_landed_costs
-#: help:stock.landed.cost,website_message_ids:0
-msgid "Website communication history"
-msgstr "Website communication history"
-
-#. module: stock_landed_costs
 #: field:stock.valuation.adjustment.lines,weight:0
 msgid "Weight"
-msgstr "Weight"
+msgstr "重量"
 
 #. module: stock_landed_costs
-#: code:addons/stock_landed_costs/stock_landed_costs.py:196
+#: code:addons/stock_landed_costs/stock_landed_costs.py:201
 #, python-format
 msgid "You cannot validate a landed cost which has no valid valuation lines."
 msgstr "You cannot validate a landed cost which has no valid valuation lines."

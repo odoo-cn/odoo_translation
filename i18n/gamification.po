@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:30+0000\n"
-"PO-Revision-Date: 2015-04-12 06:30+0000\n"
+"POT-Creation-Date: 2015-04-13 01:18+0000\n"
+"PO-Revision-Date: 2015-04-13 01:18+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -206,19 +206,19 @@ msgid "<="
 msgstr "<="
 
 #. module: gamification
-#: code:addons/gamification/models/challenge.py:756
+#: code:addons/gamification/models/challenge.py:757
 #, python-format
 msgid "<br/>Nobody has succeeded to reach every goal, no badge is rewared for this challenge."
 msgstr "<br/>Nobody has succeeded to reach every goal, no badge is rewared for this challenge."
 
 #. module: gamification
-#: code:addons/gamification/models/challenge.py:754
+#: code:addons/gamification/models/challenge.py:755
 #, python-format
 msgid "<br/>Reward (badge %s) for every succeeding user was sent to %s."
 msgstr "<br/>Reward (badge %s) for every succeeding user was sent to %s."
 
 #. module: gamification
-#: code:addons/gamification/models/challenge.py:763
+#: code:addons/gamification/models/challenge.py:764
 #, python-format
 msgid "<br/>Special rewards were sent to the top competing users. The ranking for this challenge is :"
 msgstr "<br/>Special rewards were sent to the top competing users. The ranking for this challenge is :"
@@ -334,22 +334,22 @@ msgstr "A selected list of users"
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
 msgid "Accept"
-msgstr "Accept"
+msgstr "同意"
 
 #. module: gamification
 #: field:gamification.goal.definition,action_id:0
 msgid "Action"
-msgstr "Action"
+msgstr "动作"
 
 #. module: gamification
 #: field:gamification.badge,active:0
 msgid "Active"
-msgstr "Active"
+msgstr "有效"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
 msgid "Advanced Options"
-msgstr "Advanced Options"
+msgstr "高级选项"
 
 #. module: gamification
 #: field:gamification.badge,rule_auth:0
@@ -456,7 +456,7 @@ msgstr "Can not modify the configuration of a started goal"
 #: view:gamification.badge.user.wizard:gamification.view_badge_wizard_grant
 #: view:gamification.goal.wizard:gamification.view_goal_wizard_update_current
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "取消"
 
 #. module: gamification
 #: selection:gamification.goal,state:0
@@ -466,7 +466,7 @@ msgstr "Canceled"
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
 msgid "Category"
-msgstr "Category"
+msgstr "分类"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
@@ -532,7 +532,7 @@ msgstr "Closed goal"
 #: field:gamification.badge.user,comment:0
 #: field:gamification.badge.user.wizard,comment:0
 msgid "Comment"
-msgstr "Comment"
+msgstr "备注"
 
 #. module: gamification
 #: model:gamification.challenge,name:gamification.challenge_base_discover
@@ -558,7 +558,7 @@ msgstr "Computation mode"
 #. module: gamification
 #: field:gamification.challenge.line,condition:0
 msgid "Condition"
-msgstr "Condition"
+msgstr "条件"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.action_new_simplified_res_users
@@ -621,7 +621,7 @@ msgstr "Daily"
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
 msgid "Data"
-msgstr "Data"
+msgstr "数据"
 
 #. module: gamification
 #: field:gamification.goal.definition,field_date_id:0
@@ -673,7 +673,7 @@ msgstr "Describe what they did and why it matters (will be public)"
 #: field:gamification.badge,description:0
 #: field:gamification.challenge,description:0
 msgid "Description"
-msgstr "Description"
+msgstr "说明"
 
 #. module: gamification
 #: field:gamification.challenge,visibility_mode:0
@@ -700,7 +700,7 @@ msgstr "Domain for filtering records. General rule, not user depending, e.g. [('
 #: selection:gamification.challenge,state:0
 #: view:gamification.goal:gamification.goal_search_view
 msgid "Done"
-msgstr "Done"
+msgstr "已完成"
 
 #. module: gamification
 #: selection:gamification.challenge,state:0
@@ -714,10 +714,10 @@ msgstr "Draft"
 #: view:gamification.goal:gamification.goal_search_view
 #: field:gamification.goal,end_date:0
 msgid "End Date"
-msgstr "End Date"
+msgstr "结束日期"
 
 #. module: gamification
-#: code:addons/gamification/models/challenge.py:561
+#: code:addons/gamification/models/challenge.py:562
 #: code:addons/gamification/models/goal.py:148
 #: code:addons/gamification/models/goal.py:457
 #, python-format
@@ -768,7 +768,7 @@ msgstr "Filter Domain"
 #: field:gamification.badge,message_follower_ids:0
 #: field:gamification.challenge,message_follower_ids:0
 msgid "Followers"
-msgstr "Followers"
+msgstr "关注者"
 
 #. module: gamification
 #: field:gamification.challenge,reward_first_id:0
@@ -798,7 +798,7 @@ msgstr "Formating Options"
 #. module: gamification
 #: view:gamification.goal:gamification.goal_kanban_view
 msgid "From"
-msgstr "From"
+msgstr "发件人"
 
 #. module: gamification
 #: field:gamification.goal.definition,full_suffix:0
@@ -950,7 +950,7 @@ msgstr "Granting"
 #: view:gamification.goal:gamification.goal_search_view
 #: view:gamification.goal.definition:gamification.goal_definition_search_view
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组"
 
 #. module: gamification
 #: help:gamification.challenge,report_message_group_id:0
@@ -971,7 +971,7 @@ msgstr "Hidden"
 #: help:gamification.badge,message_summary:0
 #: help:gamification.challenge,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "保存聊天摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是HTML格式。"
 
 #. module: gamification
 #: view:gamification.goal.definition:gamification.goal_definition_form_view
@@ -988,7 +988,7 @@ msgstr "How to compute the goal?"
 #: field:gamification.goal.definition,id:0
 #: field:gamification.goal.wizard,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: gamification
 #: field:gamification.goal.definition,res_id_field:0
@@ -1004,7 +1004,7 @@ msgstr "If a maxium is set"
 #: help:gamification.badge,message_unread:0
 #: help:gamification.challenge,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "如果勾选此项，需要你关注新消息。"
 
 #. module: gamification
 #: help:gamification.badge.user,challenge_id:0
@@ -1014,12 +1014,12 @@ msgstr "If this badge was rewarded through a challenge"
 #. module: gamification
 #: field:gamification.badge,image:0
 msgid "Image"
-msgstr "Image"
+msgstr "图像"
 
 #. module: gamification
 #: selection:gamification.challenge,state:0
 msgid "In Progress"
-msgstr "In Progress"
+msgstr "处理中"
 
 #. module: gamification
 #: view:gamification.goal.definition:gamification.goal_definition_form_view
@@ -1078,7 +1078,7 @@ msgstr "Invited Challenges"
 #: field:gamification.badge,message_is_follower:0
 #: field:gamification.challenge,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Is a Follower"
+msgstr "是一个关注者"
 
 #. module: gamification
 #: field:gamification.badge,message_last_post:0
@@ -1164,19 +1164,19 @@ msgstr "经理"
 #: field:gamification.badge,message_ids:0
 #: field:gamification.challenge,message_ids:0
 msgid "Messages"
-msgstr "Messages"
+msgstr "消息"
 
 #. module: gamification
 #: help:gamification.badge,message_ids:0
 #: help:gamification.challenge,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "消息和通信历史"
 
 #. module: gamification
 #: view:gamification.goal.definition:gamification.goal_definition_search_view
 #: field:gamification.goal.definition,model_id:0
 msgid "Model"
-msgstr "Model"
+msgstr "模型"
 
 #. module: gamification
 #: field:gamification.challenge.line,definition_monetary:0
@@ -1227,7 +1227,7 @@ msgstr "My Total"
 #. module: gamification
 #: field:gamification.challenge.line,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "名称"
 
 #. module: gamification
 #: selection:gamification.challenge,report_message_frequency:0
@@ -1255,7 +1255,7 @@ msgid "No one, assigned through challenges"
 msgstr "No one, assigned through challenges"
 
 #. module: gamification
-#: code:addons/gamification/models/challenge.py:766
+#: code:addons/gamification/models/challenge.py:767
 #, python-format
 msgid "Nobody reached the required conditions to receive special badges."
 msgstr "Nobody reached the required conditions to receive special badges."
@@ -1343,7 +1343,7 @@ msgstr "Progressive (using numerical values)"
 #. module: gamification
 #: field:gamification.goal.definition,compute_code:0
 msgid "Python Code"
-msgstr "Python Code"
+msgstr "Python 语言代码"
 
 #. module: gamification
 #: help:gamification.goal.definition,compute_code:0
@@ -1428,10 +1428,10 @@ msgstr "Reset Completion"
 #. module: gamification
 #: field:gamification.challenge,manager_id:0
 msgid "Responsible"
-msgstr "Responsible"
+msgstr "负责人"
 
 #. module: gamification
-#: code:addons/gamification/models/challenge.py:561
+#: code:addons/gamification/models/challenge.py:562
 #, python-format
 msgid "Retrieving progress for personal challenge without user information"
 msgstr "Retrieving progress for personal challenge without user information"
@@ -1520,7 +1520,7 @@ msgstr "Sender"
 #. module: gamification
 #: field:gamification.challenge.line,sequence:0
 msgid "Sequence"
-msgstr "Sequence"
+msgstr "序列"
 
 #. module: gamification
 #: help:gamification.challenge.line,sequence:0
@@ -1561,7 +1561,7 @@ msgstr "Start Challenge"
 #: field:gamification.challenge,start_date:0
 #: field:gamification.goal,start_date:0
 msgid "Start Date"
-msgstr "Start Date"
+msgstr "开始日期"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
@@ -1574,7 +1574,7 @@ msgstr "Start goal"
 #: view:gamification.goal:gamification.goal_search_view
 #: field:gamification.goal,state:0
 msgid "State"
-msgstr "State"
+msgstr "省"
 
 #. module: gamification
 #: view:gamification.badge:gamification.badge_form_view
@@ -1591,7 +1591,7 @@ msgstr "Subscriptions"
 #: field:gamification.goal,definition_suffix:0
 #: field:gamification.goal.definition,suffix:0
 msgid "Suffix"
-msgstr "Suffix"
+msgstr "后缀"
 
 #. module: gamification
 #: field:gamification.challenge,invited_user_ids:0
@@ -1602,7 +1602,7 @@ msgstr "Suggest to users"
 #: field:gamification.badge,message_summary:0
 #: field:gamification.challenge,message_summary:0
 msgid "Summary"
-msgstr "Summary"
+msgstr "摘要"
 
 #. module: gamification
 #: field:gamification.challenge.line,target_goal:0
@@ -1636,7 +1636,7 @@ msgid "The action that will be called to update the goal value."
 msgstr "The action that will be called to update the goal value."
 
 #. module: gamification
-#: code:addons/gamification/models/challenge.py:750
+#: code:addons/gamification/models/challenge.py:751
 #, python-format
 msgid "The challenge %s is finished."
 msgstr "The challenge %s is finished."
@@ -1810,7 +1810,7 @@ msgstr "To update"
 #. module: gamification
 #: field:gamification.badge,stat_count:0
 msgid "Total"
-msgstr "Total"
+msgstr "总计"
 
 #. module: gamification
 #: field:gamification.badge,unique_owner_ids:0
@@ -1826,12 +1826,12 @@ msgstr "Unit"
 #: field:gamification.badge,message_unread:0
 #: field:gamification.challenge,message_unread:0
 msgid "Unread Messages"
-msgstr "Unread Messages"
+msgstr "未读信息"
 
 #. module: gamification
 #: view:gamification.goal.wizard:gamification.view_goal_wizard_update_current
 msgid "Update"
-msgstr "Update"
+msgstr "更新"
 
 #. module: gamification
 #: code:addons/gamification/models/goal.py:491
@@ -1845,7 +1845,7 @@ msgstr "Update %s"
 #: view:gamification.goal:gamification.goal_search_view
 #: field:gamification.goal,user_id:0
 msgid "User"
-msgstr "User"
+msgstr "用户"
 
 #. module: gamification
 #: field:gamification.challenge,user_domain:0
@@ -1972,7 +1972,7 @@ msgstr "more details..."
 #: view:gamification.challenge:gamification.view_challenge_wizard
 #: view:gamification.goal.wizard:gamification.view_goal_wizard_update_current
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view

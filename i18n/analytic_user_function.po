@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:28+0000\n"
-"PO-Revision-Date: 2015-04-12 06:28+0000\n"
+"POT-Creation-Date: 2015-04-13 01:15+0000\n"
+"PO-Revision-Date: 2015-04-13 01:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,22 +19,22 @@ msgstr ""
 #: field:analytic.user.funct.grid,account_id:0
 #: model:ir.model,name:analytic_user_function.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "分析账户"
+msgstr "辅助核算项"
 
 #. module: analytic_user_function
 #: model:ir.model,name:analytic_user_function.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "Analytic Line"
+msgstr "辅助核算明细"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,create_uid:0
 msgid "Created by"
-msgstr "创建"
+msgstr "创建者"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,create_date:0
 msgid "Created on"
-msgstr "创建"
+msgstr "创建于"
 
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit
@@ -54,7 +54,7 @@ msgstr "错误!"
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,id:0
 msgid "ID"
-msgstr "编号"
+msgstr "ID"
 
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit
@@ -70,12 +70,12 @@ msgstr "发票数据"
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,write_uid:0
 msgid "Last Updated by"
-msgstr "最后更新"
+msgstr "Last Updated by"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,write_date:0
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "Last Updated on"
 
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit

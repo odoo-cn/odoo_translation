@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:31+0000\n"
-"PO-Revision-Date: 2015-04-12 06:31+0000\n"
+"POT-Creation-Date: 2015-04-13 01:19+0000\n"
+"PO-Revision-Date: 2015-04-13 01:19+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -939,7 +939,7 @@ msgstr "Job Location"
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_job
 msgid "Job Position"
-msgstr "Job Position"
+msgstr "工作职位"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_job
@@ -1001,7 +1001,7 @@ msgstr "Last Updated on"
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid "Launch Recruitment"
-msgstr "Launch Recruitment"
+msgstr "启动招聘"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.source,name:hr_recruitment.source_linkedin
@@ -1038,7 +1038,7 @@ msgstr "会议"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.act_hr_applicant_to_meeting
 msgid "Meetings"
-msgstr "Meetings"
+msgstr "会议"
 
 #. module: hr_recruitment
 #: field:hr.applicant,message_ids:0
@@ -1404,7 +1404,7 @@ msgstr "阶段"
 #. module: hr_recruitment
 #: model:mail.message.subtype,name:hr_recruitment.mt_applicant_stage_changed
 msgid "Stage Changed"
-msgstr "Stage Changed"
+msgstr "阶段变更"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.stage:hr_recruitment.hr_recruitment_stage_form
@@ -1414,7 +1414,7 @@ msgstr "阶段定义"
 #. module: hr_recruitment
 #: model:mail.message.subtype,description:hr_recruitment.mt_applicant_stage_changed
 msgid "Stage changed"
-msgstr "Stage changed"
+msgstr "任务阶段已改变"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_stage

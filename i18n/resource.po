@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:35+0000\n"
-"PO-Revision-Date: 2015-04-12 06:35+0000\n"
+"POT-Creation-Date: 2015-04-13 01:23+0000\n"
+"PO-Revision-Date: 2015-04-13 01:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -51,7 +51,7 @@ msgstr "休息日"
 #. module: resource
 #: field:resource.resource,code:0
 msgid "Code"
-msgstr "编号"
+msgstr "代码"
 
 #. module: resource
 #: field:resource.calendar,company_id:0
@@ -117,13 +117,13 @@ msgstr "错误！准假的开始日期必须小于结束日期。"
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Friday"
-msgstr "周五"
+msgstr "星期五"
 
 #. module: resource
 #: view:resource.calendar.leaves:resource.view_resource_calendar_leaves_search
 #: view:resource.resource:resource.view_resource_resource_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组"
 
 #. module: resource
 #: view:resource.calendar.attendance:resource.view_resource_calendar_attendance_form
@@ -141,7 +141,7 @@ msgstr "人"
 #: field:resource.calendar.leaves,id:0
 #: field:resource.resource,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: resource
 #: help:resource.calendar.leaves,resource_id:0
@@ -205,7 +205,7 @@ msgstr "物料"
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Monday"
-msgstr "周一"
+msgstr "星期一"
 
 #. module: resource
 #: field:resource.calendar,name:0
@@ -283,7 +283,7 @@ msgstr "资源允许你创建和管理资源参与的特定的计划阶段。你
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Saturday"
-msgstr "周六"
+msgstr "星期六"
 
 #. module: resource
 #: view:resource.resource:resource.view_resource_resource_search
@@ -323,7 +323,7 @@ msgstr "Starting Date of Leave by Month"
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Sunday"
-msgstr "周日"
+msgstr "星期日"
 
 #. module: resource
 #: help:resource.resource,time_efficiency:0
@@ -333,12 +333,12 @@ msgstr "这个字段描述完成任务的资源的效率。比如：例如： �
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Thursday"
-msgstr "周四"
+msgstr "星期四"
 
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Tuesday"
-msgstr "周二"
+msgstr "星期二"
 
 #. module: resource
 #: view:resource.resource:resource.view_resource_resource_search
@@ -354,7 +354,7 @@ msgstr "用户"
 #. module: resource
 #: selection:resource.calendar.attendance,dayofweek:0
 msgid "Wednesday"
-msgstr "周三"
+msgstr "星期三"
 
 #. module: resource
 #: model:ir.model,name:resource.model_resource_calendar_attendance

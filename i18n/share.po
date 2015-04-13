@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:36+0000\n"
-"PO-Revision-Date: 2015-04-12 06:36+0000\n"
+"POT-Creation-Date: 2015-04-13 01:24+0000\n"
+"PO-Revision-Date: 2015-04-13 01:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -50,7 +50,7 @@ msgstr "(已修改)"
 #. module: share
 #: model:ir.model,name:share.model_res_groups
 msgid "Access Groups"
-msgstr "访问组"
+msgstr "访问用户组"
 
 #. module: share
 #: field:share.wizard,access_mode:0
@@ -112,7 +112,7 @@ msgstr "取消"
 #. module: share
 #: view:share.wizard:share.share_step2_form
 msgid "Close"
-msgstr "结束"
+msgstr "关闭"
 
 #. module: share
 #: field:share.wizard,embed_code:0
@@ -251,7 +251,7 @@ msgstr "I've shared %s with you!\n"
 #: field:share.wizard,id:0
 #: field:share.wizard.result.line,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: share
 #: view:share.wizard:share.share_step1_form
@@ -303,7 +303,7 @@ msgstr "Last Updated on"
 #. module: share
 #: field:share.wizard.result.line,login:0
 msgid "Login"
-msgstr "Login"
+msgstr "用户名"
 
 #. module: share
 #: help:share.wizard,share_root_url:0
@@ -523,7 +523,7 @@ msgstr "对不起，你当前的视图和过滤器试图访问当前不支持到
 #: view:share.wizard:share.share_step2_form
 #: field:share.wizard,result_line_ids:0
 msgid "Summary"
-msgstr "简述"
+msgstr "摘要"
 
 #. module: share
 #: help:share.wizard,action_id:0
@@ -639,7 +639,7 @@ msgstr "base.group_user,base.group_portal,share.group_shared"
 #: view:share.wizard:share.share_step0_form
 #: view:share.wizard:share.share_step1_form
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: share
 #: field:share.wizard.result.line,user_id:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 06:35+0000\n"
-"PO-Revision-Date: 2015-04-12 06:35+0000\n"
+"POT-Creation-Date: 2015-04-13 01:23+0000\n"
+"PO-Revision-Date: 2015-04-13 01:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -164,7 +164,7 @@ msgstr "Comm10E 25  105 x 241 mm, U.S. Common 10 Envelope"
 #. module: report
 #: model:ir.model,name:report.model_res_company
 msgid "Companies"
-msgstr "Companies"
+msgstr "公司"
 
 #. module: report
 #: field:report,create_uid:0
@@ -238,7 +238,7 @@ msgstr "Header spacing"
 #: field:report.abstract_report,id:0
 #: field:report.paperformat,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: report
 #: selection:report.paperformat,orientation:0
@@ -280,7 +280,7 @@ msgstr "Letter 2 8.5 x 11 inches, 215.9 x 279.4 mm"
 #. module: report
 #: field:report.paperformat,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "名称"
 
 #. module: report
 #: field:report.paperformat,orientation:0
@@ -310,7 +310,7 @@ msgstr "Page:"
 #. module: report
 #: model:ir.ui.menu,name:report.paper_format_menuitem
 msgid "Paper Format"
-msgstr "Paper Format"
+msgstr "纸张格式"
 
 #. module: report
 #: model:ir.actions.act_window,name:report.paper_format_action
@@ -337,7 +337,7 @@ msgstr "Paper size"
 #. module: report
 #: view:website:report.external_layout_footer
 msgid "Phone:"
-msgstr "Phone:"
+msgstr "电话:"
 
 #. module: report
 #: selection:report.paperformat,orientation:0
@@ -352,7 +352,7 @@ msgstr "Portrait"
 #: model:ir.model,name:report.model_report
 #, python-format
 msgid "Report"
-msgstr "Report"
+msgstr "报表"
 
 #. module: report
 #: code:addons/report/models/report.py:453
@@ -365,7 +365,7 @@ msgstr "Report (PDF)"
 #: model:ir.ui.menu,name:report.reporting_menuitem
 #: model:ir.ui.menu,name:report.reports_menuitem
 msgid "Reports"
-msgstr "Reports"
+msgstr "报表"
 
 #. module: report
 #: field:report.paperformat,margin_right:0
