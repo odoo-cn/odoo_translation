@@ -10,6 +10,8 @@
 
 ![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104782/7e53c2ce-e12a-11e4-85e7-6dd6409ab0d8.png)
 
+*如果你没有看到 导入/导出 ， 那是因为你的账号没有开启‘技术特性’权限*
+
 在弹窗
 
 ![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104785/83be0a1c-e12a-11e4-89a1-ed1cc5c5800a.png)
