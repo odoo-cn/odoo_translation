@@ -1,6 +1,6 @@
 
 
-建议使用PO bundle
+*建议使用PO bundle*
 
 
 #导出与导入翻译
