@@ -1,80 +1,110 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* procurement
+# 	* procurement
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-13 01:22+0000\n"
-"PO-Revision-Date: 2015-04-13 01:22+0000\n"
+"PO-Revision-Date: 2015-04-13 10:11+0800\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_exceptions
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                 Click to create a Procurement.\n"
 "              </p>\n"
 "              <p>\n"
-"                <b>Procurement Orders</b> represent the need for a certain quantity of products, at a given time, in a given location.\n"
+"                <b>Procurement Orders</b> represent the need for a certain "
+"quantity of products, at a given time, in a given location.\n"
 "              </p>\n"
 "              <p>\n"
-"                <b>Sales Orders</b> are one typical source of Procurement Orders (but these are distinct documents). \n"
-"                <br/>Depending on the procurement parameters and the product configuration, the procurement engine will attempt to satisfy the need by reserving products from stock, ordering products from a supplier, or passing a manufacturing order, etc...\n"
+"                <b>Sales Orders</b> are one typical source of Procurement "
+"Orders (but these are distinct documents). \n"
+"                <br/>Depending on the procurement parameters and the product "
+"configuration, the procurement engine will attempt to satisfy the need by "
+"reserving products from stock, ordering products from a supplier, or passing "
+"a manufacturing order, etc...\n"
 "              </p>\n"
 "              <p>\n"
-"                A <b>Procurement Exception</b> occurs when the system cannot find a way to fulfill a procurement. Some exceptions will resolve themselves automatically, but others require manual intervention (those are identified by a specific error message in the chatter).\n"
+"                A <b>Procurement Exception</b> occurs when the system cannot "
+"find a way to fulfill a procurement. Some exceptions will resolve themselves "
+"automatically, but others require manual intervention (those are identified "
+"by a specific error message in the chatter).\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                 Click to create a Procurement.\n"
 "              </p>\n"
 "              <p>\n"
-"                <b>Procurement Orders</b> represent the need for a certain quantity of products, at a given time, in a given location.\n"
+"                <b>Procurement Orders</b> represent the need for a certain "
+"quantity of products, at a given time, in a given location.\n"
 "              </p>\n"
 "              <p>\n"
-"                <b>Sales Orders</b> are one typical source of Procurement Orders (but these are distinct documents). \n"
-"                <br/>Depending on the procurement parameters and the product configuration, the procurement engine will attempt to satisfy the need by reserving products from stock, ordering products from a supplier, or passing a manufacturing order, etc...\n"
+"                <b>Sales Orders</b> are one typical source of Procurement "
+"Orders (but these are distinct documents). \n"
+"                <br/>Depending on the procurement parameters and the product "
+"configuration, the procurement engine will attempt to satisfy the need by "
+"reserving products from stock, ordering products from a supplier, or passing "
+"a manufacturing order, etc...\n"
 "              </p>\n"
 "              <p>\n"
-"                A <b>Procurement Exception</b> occurs when the system cannot find a way to fulfill a procurement. Some exceptions will resolve themselves automatically, but others require manual intervention (those are identified by a specific error message in the chatter).\n"
+"                A <b>Procurement Exception</b> occurs when the system cannot "
+"find a way to fulfill a procurement. Some exceptions will resolve themselves "
+"automatically, but others require manual intervention (those are identified "
+"by a specific error message in the chatter).\n"
 "              </p>\n"
 "            "
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_action
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                 Click to create a procurement order.  \n"
 "              </p>\n"
 "              <p>\n"
-"                A <b>procurement order</b> is used to record a need for a specific\n"
-"                product at a specific location. Procurement orders are usually\n"
-"                created automatically from <i>sales orders, pull logistic rules or\n"
+"                A <b>procurement order</b> is used to record a need for a "
+"specific\n"
+"                product at a specific location. Procurement orders are "
+"usually\n"
+"                created automatically from <i>sales orders, pull logistic "
+"rules or\n"
 "                minimum stock rules.</i>\n"
 "              </p>\n"
 "              <p>\n"
 "                When the procurement order is confirmed, it automatically\n"
-"                creates the necessary operations to fullfil the need: purchase\n"
+"                creates the necessary operations to fullfil the need: "
+"purchase\n"
 "                order proposition, manufacturing order, etc.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                 Click to create a procurement order.  \n"
 "              </p>\n"
 "              <p>\n"
-"                A <b>procurement order</b> is used to record a need for a specific\n"
-"                product at a specific location. Procurement orders are usually\n"
-"                created automatically from <i>sales orders, pull logistic rules or\n"
+"                A <b>procurement order</b> is used to record a need for a "
+"specific\n"
+"                product at a specific location. Procurement orders are "
+"usually\n"
+"                created automatically from <i>sales orders, pull logistic "
+"rules or\n"
 "                minimum stock rules.</i>\n"
 "              </p>\n"
 "              <p>\n"
 "                When the procurement order is confirmed, it automatically\n"
-"                creates the necessary operations to fullfil the need: purchase\n"
+"                creates the necessary operations to fullfil the need: "
+"purchase\n"
 "                order proposition, manufacturing order, etc.\n"
 "              </p>\n"
 "            "
@@ -122,12 +152,15 @@ msgstr "Check Procurement"
 
 #. module: procurement
 #: help:procurement.order,rule_id:0
-msgid "Chosen rule for the procurement resolution. Usually chosen by the system but can be manually set by the procurement manager to force an unusual behavior."
-msgstr "Chosen rule for the procurement resolution. Usually chosen by the system but can be manually set by the procurement manager to force an unusual behavior."
+msgid ""
+"Chosen rule for the procurement resolution. Usually chosen by the system but "
+"can be manually set by the procurement manager to force an unusual behavior."
+msgstr ""
+"Chosen rule for the procurement resolution. Usually chosen by the system but "
+"can be manually set by the procurement manager to force an unusual behavior."
 
 #. module: procurement
-#: field:procurement.order,company_id:0
-#: field:procurement.rule,company_id:0
+#: field:procurement.order,company_id:0 field:procurement.rule,company_id:0
 msgid "Company"
 msgstr "公司"
 
@@ -147,16 +180,14 @@ msgid "Confirmed"
 msgstr "已确认"
 
 #. module: procurement
-#: field:procurement.group,create_uid:0
-#: field:procurement.order,create_uid:0
+#: field:procurement.group,create_uid:0 field:procurement.order,create_uid:0
 #: field:procurement.order.compute.all,create_uid:0
 #: field:procurement.rule,create_uid:0
 msgid "Created by"
 msgstr "创建者"
 
 #. module: procurement
-#: field:procurement.group,create_date:0
-#: field:procurement.order,create_date:0
+#: field:procurement.group,create_date:0 field:procurement.order,create_date:0
 #: field:procurement.order.compute.all,create_date:0
 #: field:procurement.rule,create_date:0
 msgid "Created on"
@@ -235,14 +266,15 @@ msgstr "同组的补货"
 
 #. module: procurement
 #: help:procurement.order,message_summary:0
-msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgid ""
+"Holds the Chatter summary (number of messages, ...). This summary is "
+"directly in html format in order to be inserted in kanban views."
+msgstr ""
+"保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
 
 #. module: procurement
-#: field:procurement.group,id:0
-#: field:procurement.order,id:0
-#: field:procurement.order.compute.all,id:0
-#: field:procurement.rule,id:0
+#: field:procurement.group,id:0 field:procurement.order,id:0
+#: field:procurement.order.compute.all,id:0 field:procurement.rule,id:0
 msgid "ID"
 msgstr "ID"
 
@@ -273,16 +305,14 @@ msgid "Last Message Date"
 msgstr "最新消息日期"
 
 #. module: procurement
-#: field:procurement.group,write_uid:0
-#: field:procurement.order,write_uid:0
+#: field:procurement.group,write_uid:0 field:procurement.order,write_uid:0
 #: field:procurement.order.compute.all,write_uid:0
 #: field:procurement.rule,write_uid:0
 msgid "Last Updated by"
 msgstr "最近更新者"
 
 #. module: procurement
-#: field:procurement.group,write_date:0
-#: field:procurement.order,write_date:0
+#: field:procurement.group,write_date:0 field:procurement.order,write_date:0
 #: field:procurement.order.compute.all,write_date:0
 #: field:procurement.rule,write_date:0
 msgid "Last Updated on"
@@ -296,7 +326,7 @@ msgstr "延迟"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Leave Empty"
-msgstr "Leave Empty"
+msgstr "留空"
 
 #. module: procurement
 #: view:res.company:procurement.mrp_company
@@ -385,7 +415,7 @@ msgstr "补货申请"
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_rule
 msgid "Procurement Rule"
-msgstr "Procurement Rule"
+msgstr "补货规则"
 
 #. module: procurement
 #: view:procurement.group:procurement.procurement_group_form_view
@@ -462,9 +492,11 @@ msgstr "相关单号"
 
 #. module: procurement
 #: help:procurement.order,origin:0
-msgid "Reference of the document that created this Procurement.\n"
+msgid ""
+"Reference of the document that created this Procurement.\n"
 "This is automatically completed by Odoo."
-msgstr "Reference of the document that created this Procurement.\n"
+msgstr ""
+"Reference of the document that created this Procurement.\n"
 "This is automatically completed by Odoo."
 
 #. module: procurement
@@ -481,7 +513,7 @@ msgstr "运行补货"
 #: model:ir.actions.act_window,name:procurement.action_compute_schedulers
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "Run Schedulers"
-msgstr "计划运行"
+msgstr "运行排程"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -573,4 +605,3 @@ msgstr "e.g. SO005"
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "or"
 msgstr "或"
-

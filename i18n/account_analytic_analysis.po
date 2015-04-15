@@ -1,23 +1,26 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* account_analytic_analysis
+# 	* account_analytic_analysis
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-13 01:14+0000\n"
-"PO-Revision-Date: 2015-04-13 01:14+0000\n"
+"PO-Revision-Date: 2015-04-13 10:08+0800\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
+"Language: zh_CN\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. module: account_analytic_analysis
 #: model:email.template,body_html:account_analytic_analysis.account_analytic_cron_email_template
-msgid "\n"
+msgid ""
+"\n"
 "Hello ${object.name},\n"
 "\n"
 "% macro account_table(values):\n"
@@ -33,14 +36,17 @@ msgid "\n"
 "        % for account in accounts:\n"
 "        <tr>\n"
 "            <td>${partner.name}</td>\n"
-"            <td><a href=\"${ctx[\"base_url\"]}/#action=${ctx[\"action_id\"]}&id=${account.id}&view_type=form\">${account.name}</a></td>\n"
-"            <td>${account.date_start} to ${account.date and account.date or '???'}</td>\n"
+"            <td><a href=\"${ctx[\"base_url\"]}/#action=${ctx[\"action_id\"]}"
+"&id=${account.id}&view_type=form\">${account.name}</a></td>\n"
+"            <td>${account.date_start} to ${account.date and account.date or "
+"'???'}</td>\n"
 "            <td>\n"
 "            % if account.quantity_max != 0.0:\n"
 "                ${account.remaining_hours}/${account.quantity_max} units\n"
 "            % endif\n"
 "            </td>\n"
-"            <td>${account.partner_id.phone or ''}, ${account.partner_id.email or ''}</td>\n"
+"            <td>${account.partner_id.phone or ''}, ${account.partner_id."
+"email or ''}</td>\n"
 "        </tr>\n"
 "        % endfor\n"
 "    % endfor\n"
@@ -78,7 +84,8 @@ msgid "\n"
 "</pre>\n"
 "\n"
 "            "
-msgstr "\n"
+msgstr ""
+"\n"
 "您好 ${object.name},\n"
 "\n"
 "% macro account_table(values):\n"
@@ -94,14 +101,17 @@ msgstr "\n"
 "        % for account in accounts:\n"
 "        <tr>\n"
 "            <td>${partner.name}</td>\n"
-"            <td><a href=\"${ctx[\"base_url\"]}/#action=${ctx[\"action_id\"]}&id=${account.id}&view_type=form\">${account.name}</a></td>\n"
-"            <td>${account.date_start} to ${account.date and account.date or '???'}</td>\n"
+"            <td><a href=\"${ctx[\"base_url\"]}/#action=${ctx[\"action_id\"]}"
+"&id=${account.id}&view_type=form\">${account.name}</a></td>\n"
+"            <td>${account.date_start} to ${account.date and account.date or "
+"'???'}</td>\n"
 "            <td>\n"
 "            % if account.quantity_max != 0.0:\n"
 "                ${account.remaining_hours}/${account.quantity_max} units\n"
 "            % endif\n"
 "            </td>\n"
-"            <td>${account.partner_id.phone or ''}, ${account.partner_id.email or ''}</td>\n"
+"            <td>${account.partner_id.phone or ''}, ${account.partner_id."
+"email or ''}</td>\n"
 "        </tr>\n"
 "        % endfor\n"
 "    % endfor\n"
@@ -147,50 +157,63 @@ msgstr " 该合同可以记账项目的汇总。"
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.template_of_contract_action
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                    Click here to create a template of contract.\n"
 "                </p><p>\n"
 "                    Templates are used to prefigure contract/project that \n"
-"                    can be selected by the salespeople to quickly configure the\n"
+"                    can be selected by the salespeople to quickly configure "
+"the\n"
 "                    terms and conditions of the contract.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                    点击创建合同模板。\n"
 "                </p><p>\n"
-"                    模板用于预先规范合同/项目内容，从而销售人员可以快速配置合同条款及条件。\n"
+"                    模板用于预先规范合同/项目内容，从而销售人员可以快速配置合"
+"同条款及条件。\n"
 "                </p>\n"
 "            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_account_analytic_overdue_all
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                    Click to create a new contract.\n"
 "                </p><p>\n"
-"                    Use contracts to follow tasks, issues, timesheets or invoicing based on\n"
-"                    work done, expenses and/or sales orders. Odoo will automatically manage\n"
-"                    the alerts for the renewal of the contracts to the right salesperson.\n"
+"                    Use contracts to follow tasks, issues, timesheets or "
+"invoicing based on\n"
+"                    work done, expenses and/or sales orders. Odoo will "
+"automatically manage\n"
+"                    the alerts for the renewal of the contracts to the right "
+"salesperson.\n"
 "                </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                    点击创建新合同。\n"
 "                </p><p>\n"
-"                    对于日常工作、费用管理、或者销售订单，可以使用合同跟踪目标、问题、工时。\n"
+"                    对于日常工作、费用管理、或者销售订单，可以使用合同跟踪目"
+"标、问题、工时。\n"
 "                    Odoo会自动通知相关销售人员进行合同续约等管理工作。\n"
 "                </p>\n"
 "            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_sales_order
-msgid "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to create a quotation that can be converted into a sales\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create a quotation that can be converted into a "
+"sales\n"
 "                order.\n"
 "              </p><p>\n"
 "                Use sale orders to track everything that should be invoiced\n"
 "                at a fix price on a contract.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                点击创建报价，可以将报价转换成销售订单。\n"
 "              </p><p>\n"
 "                使用销售订单可以跟踪从合同（例如：金额）到开票一系列过程。\n"
@@ -199,42 +222,53 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_account_analytic_overdue
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new contract.\n"
 "              </p><p>\n"
 "                You will find here the contracts to be renewed because the\n"
 "                end date is passed or the working effort is higher than the\n"
 "                maximum authorized one.\n"
 "              </p><p>\n"
-"                Odoo automatically sets contracts to be renewed in a pending\n"
-"                state. After the negociation, the salesman should close or renew\n"
+"                Odoo automatically sets contracts to be renewed in a "
+"pending\n"
+"                state. After the negociation, the salesman should close or "
+"renew\n"
 "                pending contracts.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
+msgstr ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to define a new contract.\n"
 "              </p><p>\n"
 "                You will find here the contracts to be renewed because the\n"
 "                end date is passed or the working effort is higher than the\n"
 "                maximum authorized one.\n"
 "              </p><p>\n"
-"                Odoo automatically sets contracts to be renewed in a pending\n"
-"                state. After the negociation, the salesman should close or renew\n"
+"                Odoo automatically sets contracts to be renewed in a "
+"pending\n"
+"                state. After the negociation, the salesman should close or "
+"renew\n"
 "                pending contracts.\n"
 "              </p>\n"
 "            "
 
 #. module: account_analytic_analysis
 #: model:ir.actions.act_window,help:account_analytic_analysis.action_hr_tree_invoiced_all
-msgid "<p>\n"
+msgid ""
+"<p>\n"
 "                You will find here timesheets and purchases you did for\n"
-"                contracts that can be reinvoiced to the customer.  If you want\n"
-"                to record new activities to invoice, you should use the timesheet\n"
+"                contracts that can be reinvoiced to the customer.  If you "
+"want\n"
+"                to record new activities to invoice, you should use the "
+"timesheet\n"
 "                menu instead.\n"
 "              </p>\n"
 "            "
-msgstr "<p>\n"
-"                此处显示可以根据合同向顾客发单的时间计划及采购项目。若想记录创建新的发单活动，你应该使用时间计划菜单。\n"
+msgstr ""
+"<p>\n"
+"                此处显示可以根据合同向顾客发单的时间计划及采购项目。若想记录"
+"创建新的发单活动，你应该使用时间计划菜单。\n"
 "              </p>\n"
 "            "
 
@@ -250,7 +284,9 @@ msgstr "客户经理"
 
 #. module: account_analytic_analysis
 #: help:sale.config.settings,group_template_required:0
-msgid "Allows you to set the template field as required when creating an analytic account or a contract."
+msgid ""
+"Allows you to set the template field as required when creating an analytic "
+"account or a contract."
 msgstr "创建成本管理分析或合同时，允许按照需要设置模板域。"
 
 #. module: account_analytic_analysis
@@ -263,7 +299,10 @@ msgstr "分析账户"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,ca_theorical:0
-msgid "Based on the costs you had on the project, what would have been the revenue if all these costs have been invoiced at the normal sale price provided by the pricelist."
+msgid ""
+"Based on the costs you had on the project, what would have been the revenue "
+"if all these costs have been invoiced at the normal sale price provided by "
+"the pricelist."
 msgstr "如果所有成本按正常的销售价格开票那这项目的成本基于未来的收入."
 
 #. module: account_analytic_analysis
@@ -288,8 +327,12 @@ msgstr "已到期合同"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,remaining_hours_to_invoice:0
-msgid "Computed using the formula: Expected on timesheets - Total invoiced on timesheets"
-msgstr "Computed using the formula: Expected on timesheets - Total invoiced on timesheets"
+msgid ""
+"Computed using the formula: Expected on timesheets - Total invoiced on "
+"timesheets"
+msgstr ""
+"Computed using the formula: Expected on timesheets - Total invoiced on "
+"timesheets"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,real_margin:0
@@ -443,7 +486,10 @@ msgstr "待开票的预估时数"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,remaining_total:0
-msgid "Expectation of remaining income for this contract. Computed as the sum of remaining subtotals which, in turn, are computed as the maximum between '(Estimation - Invoiced)' and 'To Invoice' amounts"
+msgid ""
+"Expectation of remaining income for this contract. Computed as the sum of "
+"remaining subtotals which, in turn, are computed as the maximum between "
+"'(Estimation - Invoiced)' and 'To Invoice' amounts"
 msgstr "合同预期剩余收入。按照剩余总值，即“预记账”和“应记账”两项的较大者。"
 
 #. module: account_analytic_analysis
@@ -495,7 +541,9 @@ msgstr "编号"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,ca_to_invoice:0
-msgid "If invoice from analytic account, the remaining amount you can invoice to the customer based on the total costs."
+msgid ""
+"If invoice from analytic account, the remaining amount you can invoice to "
+"the customer based on the total costs."
 msgstr "如果是分析账户目的发票, 剩余金额你能给客户开基于总成本的发票"
 
 #. module: account_analytic_analysis
@@ -505,7 +553,9 @@ msgstr "如按实际成本开票，这是最末开票日期"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,last_worked_invoiced_date:0
-msgid "If invoice from the costs, this is the date of the latest work or cost that have been invoiced."
+msgid ""
+"If invoice from the costs, this is the date of the latest work or cost that "
+"have been invoiced."
 msgstr "如果发票来自费用, 这是最近工作日期或已开票的费用"
 
 #. module: account_analytic_analysis
@@ -597,18 +647,26 @@ msgstr "尚未开票，创建"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,hours_qtt_non_invoiced:0
-msgid "Number of time (hours/days) (from journal of type 'general') that can be invoiced if you invoice based on analytic account."
+msgid ""
+"Number of time (hours/days) (from journal of type 'general') that can be "
+"invoiced if you invoice based on analytic account."
 msgstr "如果您按成本科目开票，这里是可以开票的工时。"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,hours_qtt_invoiced:0
-msgid "Number of time (hours/days) that can be invoiced plus those that already have been invoiced."
+msgid ""
+"Number of time (hours/days) that can be invoiced plus those that already "
+"have been invoiced."
 msgstr "可以开发票的工时 加上 已经开发票的工时"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,hours_quantity:0
-msgid "Number of time you spent on the analytic account (from timesheet). It computes quantities on all journal of type 'general'."
-msgstr "你在这个分析账户上花费的时间总数（数据来自计工单）。仅计算类型为“普通”的凭证簿。"
+msgid ""
+"Number of time you spent on the analytic account (from timesheet). It "
+"computes quantities on all journal of type 'general'."
+msgstr ""
+"你在这个分析账户上花费的时间总数（数据来自计工单）。仅计算类型为“普通”的凭证"
+"簿。"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,invoice_on_timesheets:0
@@ -831,7 +889,9 @@ msgstr "这个账户的客户已开票合计"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,total_cost:0
-msgid "Total of costs for this account. It includes real costs (from invoices) and indirect costs, like time spent on timesheets."
+msgid ""
+"Total of costs for this account. It includes real costs (from invoices) and "
+"indirect costs, like time spent on timesheets."
 msgstr "这项的成本合计,它包括实际成本(发票)和间接成本,如花费的时间表"
 
 #. module: account_analytic_analysis
@@ -882,11 +942,13 @@ msgstr "Week(s)"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
-msgid "When reinvoicing costs, Odoo uses the\n"
+msgid ""
+"When reinvoicing costs, Odoo uses the\n"
 "                            pricelist of the contract which uses the price\n"
 "                            defined on the product related (e.g timesheet \n"
 "                            products are defined on each employee)."
-msgstr "When reinvoicing costs, Odoo uses the\n"
+msgstr ""
+"When reinvoicing costs, Odoo uses the\n"
 "                            pricelist of the contract which uses the price\n"
 "                            defined on the product related (e.g timesheet \n"
 "                            products are defined on each employee)."
@@ -909,18 +971,29 @@ msgstr "或 视图"
 
 #. module: account_analytic_analysis
 #: model:res.groups,comment:account_analytic_analysis.group_template_required
-msgid "the field template of the analytic accounts and contracts will be required."
+msgid ""
+"the field template of the analytic accounts and contracts will be required."
 msgstr "这个分析账户和合同的字段模板是必填的"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
-msgid "{'required': [('type','=','contract'),'|','|',('fix_price_invoices','=',True), ('invoice_on_timesheets', '=', True), ('recurring_invoices', '=', True)]}"
-msgstr "{'required': [('type','=','contract'),'|','|',('fix_price_invoices','=',True), ('invoice_on_timesheets', '=', True), ('recurring_invoices', '=', True)]}"
+msgid ""
+"{'required': [('type','=','contract'),'|','|',('fix_price_invoices','=',"
+"True), ('invoice_on_timesheets', '=', True), ('recurring_invoices', '=', "
+"True)]}"
+msgstr ""
+"{'required': [('type','=','contract'),'|','|',('fix_price_invoices','=',"
+"True), ('invoice_on_timesheets', '=', True), ('recurring_invoices', '=', "
+"True)]}"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_template_required
-msgid "{'required': [('type','=','contract')], 'invisible': [('type','in',['view', 'normal','template'])]}"
-msgstr "{'required': [('type','=','contract')], 'invisible': [('type','in',['view', 'normal','template'])]}"
+msgid ""
+"{'required': [('type','=','contract')], 'invisible': [('type','in',['view', "
+"'normal','template'])]}"
+msgstr ""
+"{'required': [('type','=','contract')], 'invisible': [('type','in',['view', "
+"'normal','template'])]}"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
@@ -931,4 +1004,3 @@ msgstr "=> 开票"
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid "⇒ create invoices"
 msgstr "⇒ create invoices"
-
