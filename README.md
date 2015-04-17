@@ -8,6 +8,7 @@ TOC
 *参与翻译*
 
  repo 指库
+ 
  master repo 指主库，即 https://github.com/odoo-cn/odoo_translation.git
 
 
