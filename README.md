@@ -5,21 +5,21 @@ TOC
 
 
 
-*参与翻译*
+# 参与翻译
 
- repo 指库
+ repo 是repository的缩写， 即 库
  
- master repo 指主库，即 https://github.com/odoo-cn/odoo_translation.git
+ master repo 是指主库，即 https://github.com/odoo-cn/odoo_translation.git
  
- fork repo 指你的克隆
+ fork repo 是指你的克隆
 
 
-# 准备工作
+## 准备工作
 
 申请github账号，略
 
 
-## Fork  翻译项目
+### Fork  翻译项目
 
 至master repo.的github页面 https://github.com/odoo-cn/odoo_translation
 
@@ -46,7 +46,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 
-## 将fork repo 克隆到本地
+### 将fork repo 克隆到本地
 
 在github上选择repo的 URL， 最好选择 ssh。 
 因为github上传你的提交需要使用ssh进行无密码验证身份。
@@ -55,7 +55,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 
-### 克隆repo.
+#### 克隆repo.
 
 执行命令 git clone 
 如
@@ -63,7 +63,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194468/34447bb8-e4e2-11e4-9822-3a5acb7f9ccf.png)
 
 
-### 更新repo
+#### 更新repo
 
 因为在你fork   odoo-cn/odoo_translation 之后， master repo.可能已经更新了，为了保持你的repo.为最新，你需要 与master repo.同步
 
@@ -89,7 +89,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 此时，你的本地库与odoo-cn/odoo_translation主库是同步的。
 
-# 翻译工作
+## 进行翻译工作
 
 
 首先为翻译工作建立一个分支，例如 project
@@ -109,7 +109,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 翻译好之后，保存
 
 
-# 提交翻译成果
+## 提交翻译成果
 
 保存翻译之后，如果执行命令 git status
 
@@ -123,7 +123,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194495/a2d535ea-e4e2-11e4-99a1-fe614f3d00a2.png)
 
 
-## 提交修改
+### 提交修改
 
 翻译成果需要提交到repo里面， 使用以下命令提交修改
 
@@ -136,7 +136,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194505/c23d57d2-e4e2-11e4-9bd0-97f096781dd0.png)
 
 
-## 将本地repo 同步到fork repo
+### 将本地repo 同步到fork repo
 
 需要将本地的repo 同步到 fork repo，这样其他协作的人才能看到你的工作成果。
 
@@ -152,7 +152,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 你可以看到你提交的工作成果
 
 
-# 申请合并到master  repo.
+## 申请合并到master  repo.
 
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。
 
@@ -170,15 +170,15 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 填写提交信息，然后 create pull request
 
 
-*使用翻译*
+# 使用翻译
 
 
 *建议使用PO bundle*
 
 
-#导出与导入翻译
+## 导出与导入翻译
 
-## 图形方式
+### 图形方式
 至 导入/导出，选择 导入翻译
 
 ![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104782/7e53c2ce-e12a-11e4-85e7-6dd6409ab0d8.png)
@@ -194,7 +194,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
  field	|  value
-------------- | -------------
+--------| -------------
 语言名	| 	Chinese (CN) / 简体中文
 代码	| 	zh_CN
 	
@@ -232,7 +232,7 @@ Tips：
 选择全部，然后删除。
 
 
-## 命令行方式
+### 命令行方式
 
 使用下面的命令导出翻译..
 
