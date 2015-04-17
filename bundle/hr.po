@@ -2,7 +2,6 @@
 # This file contains the translation of the following modules:
 #	* hr_expense
 #	* hr_applicant_document
-#	* hr_timesheet_invoice
 #	* hr_contract
 #	* hr_timesheet_sheet
 #	* hr
@@ -19,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-12 10:56+0000\n"
-"PO-Revision-Date: 2015-04-12 10:56+0000\n"
+"POT-Creation-Date: 2015-04-17 12:39+0000\n"
+"PO-Revision-Date: 2015-04-17 12:39+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -207,11 +206,6 @@ msgstr "31-40"
 msgid "41-50"
 msgstr "41-50"
 
-#. module: hr_timesheet_invoice
-#: model:hr_timesheet_invoice.factor,name:hr_timesheet_invoice.timesheet_invoice_factor2
-msgid "50%"
-msgstr "50%"
-
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.recruitment_1_3_6
 msgid "51-60"
@@ -226,11 +220,6 @@ msgstr "61-70"
 #: model:survey.label,value:hr_recruitment.recruitment_1_3_8
 msgid "71+"
 msgstr "71+"
-
-#. module: hr_timesheet_invoice
-#: model:hr_timesheet_invoice.factor,name:hr_timesheet_invoice.timesheet_invoice_factor4
-msgid "80%"
-msgstr "80%"
 
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.opinion_1
@@ -390,29 +379,6 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "              单击创建新的员工档案信息。\n"
 "              </p><p>\n"
 "              只需眼睛一扫系统的员工界面你就可以轻松地查找每个人的信息，比如联系方式、工作岗位等等。\n"
-"              </p>\n"
-"            "
-
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,help:hr_timesheet_invoice.action_hr_timesheet_invoice_factor_form
-msgid "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to add a new type of invoicing.\n"
-"              </p><p>\n"
-"                Odoo allows you to create default invoicing types. You might\n"
-"                have to regularly assign discounts because of a specific\n"
-"                contract or agreement with a customer. From this menu, you can\n"
-"                create additional types of invoicing to speed up your\n"
-"                invoicing.\n"
-"              </p>\n"
-"            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to add a new type of invoicing.\n"
-"              </p><p>\n"
-"                Odoo allows you to create default invoicing types. You might\n"
-"                have to regularly assign discounts because of a specific\n"
-"                contract or agreement with a customer. From this menu, you can\n"
-"                create additional types of invoicing to speed up your\n"
-"                invoicing.\n"
 "              </p>\n"
 "            "
 
@@ -907,11 +873,6 @@ msgstr "缺勤"
 msgid "Accepted"
 msgstr "已同意"
 
-#. module: hr_timesheet_invoice
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-msgid "Account"
-msgstr "项"
-
 #. modules: hr_expense, hr_payroll_account, hr_timesheet, hr_payroll
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
@@ -1067,11 +1028,6 @@ msgstr "薪酬"
 msgid "Advantages..."
 msgstr "优点 ..."
 
-#. module: hr_expense
-#: model:product.template,name:hr_expense.air_ticket_product_template
-msgid "Air Ticket"
-msgstr "飞机票"
-
 #. module: hr_recruitment
 #: field:hr.job,alias_id:0
 msgid "Alias"
@@ -1179,13 +1135,12 @@ msgstr "签入/签出和在一个计工单里的容许的差异小时。如果�
 msgid "Always True"
 msgstr "总为真"
 
-#. modules: hr_timesheet_invoice, hr_payroll
+#. module: hr_payroll
 #: field:hr.payslip.input,amount:0
 #: field:hr.payslip.line,amount:0
 #: view:website:hr_payroll.report_contributionregister
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
-#: field:report.account.analytic.line.to.invoice,amount:0
 msgid "Amount"
 msgstr "金额"
 
@@ -1201,74 +1156,37 @@ msgstr "金额类型"
 msgid "Analysis Information"
 msgstr "分析信息"
 
-#. modules: hr_timesheet_sheet, hr_payroll_account, hr_timesheet, hr_timesheet_invoice
+#. modules: hr_timesheet_sheet, hr_payroll_account, hr_timesheet
 #: field:hr.contract,analytic_account_id:0
 #: field:hr.salary.rule,analytic_account_id:0
 #: field:hr.timesheet.report,account_id:0
 #: model:ir.model,name:hr_timesheet.model_account_analytic_account
-#: model:ir.model,name:hr_timesheet_invoice.model_account_analytic_account
-#: field:report.timesheet.line,account_id:0
-#: field:report_timesheet.account,account_id:0
-#: field:report_timesheet.account.date,account_id:0
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_account
 msgid "Analytic Account"
 msgstr "辅助核算项"
 
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:179
-#, python-format
-msgid "Analytic Account Incomplete!"
-msgstr "Analytic Account Incomplete!"
-
 #. module: hr_timesheet
 #: field:hr.employee,journal_id:0
 msgid "Analytic Journal"
-msgstr "分析账户"
+msgstr "辅助核算账薄"
 
-#. modules: hr_timesheet_sheet, hr_timesheet, hr_timesheet_invoice
+#. modules: hr_timesheet_sheet, hr_timesheet
 #: field:hr.analytic.timesheet,line_id:0
-#: model:ir.model,name:hr_timesheet_invoice.model_account_analytic_line
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "分析明细"
+msgstr "辅助核算明细"
 
-#. module: hr_timesheet_invoice
-#: view:report.account.analytic.line.to.invoice:hr_timesheet_invoice.account_analytic_line_to_invoice_view_filter
-msgid "Analytic Lines"
-msgstr "Analytic Lines"
-
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_account_analytic_line_to_invoice
-#: view:report.account.analytic.line.to.invoice:hr_timesheet_invoice.account_analytic_line_to_invoice_view_filter
-#: view:report.account.analytic.line.to.invoice:hr_timesheet_invoice.account_analytic_line_to_invoice_view_form
-#: view:report.account.analytic.line.to.invoice:hr_timesheet_invoice.account_analytic_line_to_invoice_view_graph
-#: view:report.account.analytic.line.to.invoice:hr_timesheet_invoice.account_analytic_line_to_invoice_view_tree
-msgid "Analytic Lines to Invoice"
-msgstr "辅助核算明细的发票"
-
-#. modules: hr_expense, hr_timesheet, hr_timesheet_invoice
+#. modules: hr_expense, hr_timesheet
 #: field:hr.expense.line,analytic_account:0
 #: field:hr.expense.report,analytic_account:0
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
-#: field:report.account.analytic.line.to.invoice,account_id:0
-#: field:report.analytic.account.close,name:0
 msgid "Analytic account"
-msgstr "分析账户"
-
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_report_analytic_account_close
-msgid "Analytic account to close"
-msgstr "关闭分析账户"
+msgstr "辅助核算项"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,account_ids:0
 msgid "Analytic accounts"
-msgstr "分析账户"
-
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_report_account_analytic_line_to_invoice
-msgid "Analytic lines to invoice report"
-msgstr "辅助核算明细开出发票的报表"
+msgstr "辅助核算项"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_11
@@ -1579,15 +1497,6 @@ msgstr "已审批"
 msgid "Approved Expenses"
 msgstr "已批准的报销单"
 
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "April"
-msgstr "4月"
-
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
 msgid "Are you sure you want to create a contact based on this job request ?"
@@ -1658,15 +1567,6 @@ msgstr "考勤的原因"
 msgid "Attendances"
 msgstr "考勤"
 
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "August"
-msgstr "8月"
-
 #. module: hr_payroll
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
@@ -1726,16 +1626,11 @@ msgstr "Badges"
 msgid "Badges are rewards of good work. Give them to people you believe deserve it."
 msgstr "Badges are rewards of good work. Give them to people you believe deserve it."
 
-#. module: hr_timesheet_invoice
-#: field:report.analytic.account.close,balance:0
-msgid "Balance"
-msgstr "余额"
-
 #. module: hr_payroll
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Bank Account"
-msgstr "银行帐号"
+msgstr "银行账号"
 
 #. module: hr
 #: field:hr.employee,bank_account_id:0
@@ -1772,11 +1667,6 @@ msgstr "每两个月"
 #: selection:hr.contract,schedule_pay:0
 msgid "Bi-weekly"
 msgstr "每两周"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-msgid "Billing Data"
-msgstr "开票日期"
 
 #. module: hr
 #: view:hr.employee:hr.view_employee_form
@@ -1854,7 +1744,7 @@ msgstr "计算"
 msgid "Can be Expensed"
 msgstr "可支出"
 
-#. modules: hr_timesheet_invoice, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_recruitment, hr_holidays, hr_gamification, hr_payroll
+#. modules: hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_recruitment, hr_holidays, hr_gamification, hr_payroll
 #: view:hr.config.settings:hr.view_human_resources_configuration
 #: view:hr.attendance.error:hr_attendance.view_hr_attendance_error
 #: view:gamification.badge.user.wizard:hr_gamification.view_badge_wizard_reward
@@ -1865,9 +1755,6 @@ msgstr "可支出"
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in_message
 #: view:hr.sign.out.project:hr_timesheet.view_hr_timesheet_sign_out
-#: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-#: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
 #: view:hr.timesheet.current.open:hr_timesheet_sheet.view_hr_timesheet_current_open
 msgid "Cancel"
 msgstr "取消"
@@ -1876,11 +1763,6 @@ msgstr "取消"
 #: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
 msgid "Cancel Appraisal"
 msgstr "Cancel Appraisal"
-
-#. module: hr_timesheet_invoice
-#: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
-msgid "Cancel Contract"
-msgstr "取消合同"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
@@ -1901,11 +1783,6 @@ msgstr "Cancel Survey"
 #: selection:hr.holidays,state:0
 msgid "Cancelled"
 msgstr "已取消"
-
-#. module: hr_expense
-#: model:product.template,name:hr_expense.car_travel_product_template
-msgid "Car Travel Expenses"
-msgstr "差旅费"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_graph_view_job
@@ -2050,11 +1927,6 @@ msgstr "Click to grant this employee his first badge"
 #: selection:hr.payslip.run,state:0
 msgid "Close"
 msgstr "结束"
-
-#. module: hr_timesheet_invoice
-#: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
-msgid "Close Contract"
-msgstr "结束合同"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,closed:0
@@ -2207,10 +2079,9 @@ msgstr "条件"
 msgid "Configuration"
 msgstr "设置"
 
-#. modules: hr_timesheet_sheet, hr_payroll_account, hr_timesheet_invoice
+#. modules: hr_timesheet_sheet, hr_payroll_account
 #: code:addons/hr_payroll_account/hr_payroll_account.py:152
 #: code:addons/hr_payroll_account/hr_payroll_account.py:168
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:253
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:75
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:91
 #, python-format
@@ -2336,12 +2207,6 @@ msgstr "合同类型"
 msgid "Contract Types"
 msgstr "合同类型"
 
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:180
-#, python-format
-msgid "Contract incomplete. Please fill in the Customer and Pricelist fields."
-msgstr "Contract incomplete. Please fill in the Customer and Pricelist fields."
-
 #. modules: hr, hr_contract
 #: view:hr.config.settings:hr.view_human_resources_configuration
 #: view:hr.contract:hr_contract.hr_contract_view_search
@@ -2386,16 +2251,10 @@ msgstr "捐款记录"
 msgid "Convert To Partner"
 msgstr "转为业务伙伴"
 
-#. modules: hr_timesheet, hr_timesheet_invoice
+#. module: hr_timesheet
 #: field:hr.timesheet.report,cost:0
-#: field:hr.timesheet.invoice.create,price:0
-#: field:hr.timesheet.invoice.create.final,price:0
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_tree
-#: field:report.timesheet.line,cost:0
-#: field:report_timesheet.user,cost:0
-#: view:website:hr_timesheet_invoice.report_analyticprofit
 msgid "Cost"
-msgstr "成本"
+msgstr "Cost"
 
 #. module: hr_timesheet
 #: view:account.analytic.account:hr_timesheet.account_analytic_account_timesheet_form
@@ -2406,12 +2265,6 @@ msgstr "Cost/Revenue"
 #: model:ir.actions.act_window,name:hr_timesheet.act_analytic_cost_revenue
 msgid "Costs & Revenues"
 msgstr "收支情况"
-
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.act_res_users_2_report_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_report_timesheet_invoice
-msgid "Costs to invoice"
-msgstr "成本发票"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
@@ -2430,19 +2283,6 @@ msgstr "创建日期"
 msgid "Create Employee"
 msgstr "新建员工"
 
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-#: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_invoice_create
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_invoice_create_final
-msgid "Create Invoice"
-msgstr "创建发票"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-msgid "Create Invoices"
-msgstr "创建发票"
-
 #. module: hr_expense
 #: view:hr.expense.report:hr_expense.view_hr_expense_report_search
 msgid "Create Month"
@@ -2458,22 +2298,12 @@ msgstr "建立业务伙伴的职位申请"
 msgid "Create Your Departments"
 msgstr "创建您的部门"
 
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_hr_timesheet_invoice_create
-msgid "Create invoice from timesheet"
-msgstr "创建计工单发票"
-
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_hr_timesheet_invoice_create_final
-msgid "Create invoice from timesheet final"
-msgstr "创建最终计工单的发票"
-
 #. module: hr_payroll
 #: help:hr.config.settings,module_hr_payroll_account:0
 msgid "Create journal entries from payslips"
 msgstr "根据工资表创建会计分录"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
 #: field:hr.config.settings,create_uid:0
 #: field:hr.department,create_uid:0
 #: field:hr.employee,create_uid:0
@@ -2515,16 +2345,12 @@ msgstr "根据工资表创建会计分录"
 #: field:hr.analytic.timesheet,create_uid:0
 #: field:hr.sign.in.project,create_uid:0
 #: field:hr.sign.out.project,create_uid:0
-#: field:hr.timesheet.analytic.profit,create_uid:0
-#: field:hr.timesheet.invoice.create,create_uid:0
-#: field:hr.timesheet.invoice.create.final,create_uid:0
-#: field:hr_timesheet_invoice.factor,create_uid:0
 #: field:hr.timesheet.current.open,create_uid:0
 #: field:hr_timesheet_sheet.sheet,create_uid:0
 msgid "Created by"
 msgstr "创建者"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
 #: field:hr.config.settings,create_date:0
 #: field:hr.department,create_date:0
 #: field:hr.employee,create_date:0
@@ -2565,10 +2391,6 @@ msgstr "创建者"
 #: field:hr.analytic.timesheet,create_date:0
 #: field:hr.sign.in.project,create_date:0
 #: field:hr.sign.out.project,create_date:0
-#: field:hr.timesheet.analytic.profit,create_date:0
-#: field:hr.timesheet.invoice.create,create_date:0
-#: field:hr.timesheet.invoice.create.final,create_date:0
-#: field:hr_timesheet_invoice.factor,create_date:0
 #: field:hr.timesheet.current.open,create_date:0
 #: field:hr_timesheet_sheet.sheet,create_date:0
 msgid "Created on"
@@ -2614,11 +2436,6 @@ msgstr "红字发票"
 msgid "Currency"
 msgstr "币种"
 
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Currency:"
-msgstr "Currency:"
-
 #. module: hr_timesheet
 #: field:hr.sign.in.project,server_date:0
 #: field:hr.sign.out.project,server_date:0
@@ -2657,35 +2474,13 @@ msgstr "当前状态"
 msgid "Customer commitment"
 msgstr "Customer commitment"
 
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_timesheet_account_date_stat_all
-msgid "Daily Timesheet by Account"
-msgstr "辅助核算项每日计工单"
-
-#. module: hr_timesheet_invoice
-#: view:report_timesheet.account.date:hr_timesheet_invoice.view_timesheet_account_date_form
-#: view:report_timesheet.account.date:hr_timesheet_invoice.view_timesheet_account_date_search
-msgid "Daily timesheet by account"
-msgstr "辅助核算项每天的计工单"
-
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_report_timesheet_account_date
-#: view:report_timesheet.account.date:hr_timesheet_invoice.view_timesheet_account_date_graph
-#: view:report_timesheet.account.date:hr_timesheet_invoice.view_timesheet_account_date_graph_account
-#: view:report_timesheet.account.date:hr_timesheet_invoice.view_timesheet_account_date_tree
-msgid "Daily timesheet per account"
-msgstr "每天计工单每个辅助核算项"
-
-#. modules: hr_expense, hr_timesheet_invoice, hr_attendance, hr_timesheet, hr_evaluation, hr_timesheet_sheet
+#. modules: hr_timesheet_sheet, hr_attendance, hr_timesheet, hr_evaluation, hr_expense
 #: field:hr.attendance,name:0
 #: model:survey.question,question:hr_evaluation.opinion_1_2
 #: field:hr.expense.expense,date:0
 #: field:hr.expense.line,date_value:0
 #: view:website:hr_expense.report_expense
 #: field:hr.timesheet.report,date:0
-#: field:hr.timesheet.invoice.create,date:0
-#: field:hr.timesheet.invoice.create.final,date:0
-#: field:report.timesheet.line,date:0
 #: field:hr_timesheet_sheet.sheet.day,name:0
 msgid "Date"
 msgstr "日期"
@@ -2780,11 +2575,9 @@ msgstr "日期到"
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "Date:"
-msgstr "Date:"
+msgstr "日期:"
 
-#. modules: hr_timesheet_sheet, hr_timesheet_invoice
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-#: field:report.timesheet.line,day:0
+#. module: hr_timesheet_sheet
 #: selection:hr.config.settings,timesheet_range:0
 #: selection:res.company,timesheet_range:0
 msgid "Day"
@@ -2805,10 +2598,9 @@ msgstr "剩余天数"
 msgid "Days to Open"
 msgstr "开启天数"
 
-#. modules: hr_timesheet_invoice, hr_evaluation
+#. module: hr_evaluation
 #: field:hr.evaluation.interview,deadline:0
 #: field:hr.evaluation.report,deadline:0
-#: field:report.analytic.account.close,date_deadline:0
 msgid "Deadline"
 msgstr "截止日期"
 
@@ -2821,15 +2613,6 @@ msgstr "截止日期"
 #: field:hr.salary.rule,account_debit:0
 msgid "Debit Account"
 msgstr "借方科目"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "December"
-msgstr "12月"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_7
@@ -2987,7 +2770,7 @@ msgstr "部门"
 msgid "Describe what they did and why it matters (will be public)"
 msgstr "Describe what they did and why it matters (will be public)"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_timesheet, hr_recruitment, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_timesheet, hr_recruitment, hr_payroll, hr_holidays
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 #: field:hr.expense.expense,name:0
 #: field:hr.expense.line,description:0
@@ -3005,14 +2788,13 @@ msgstr "Describe what they did and why it matters (will be public)"
 #: field:hr.salary.rule.category,note:0
 #: field:hr.applicant,description:0
 #: field:hr.timesheet.report,name:0
-#: field:hr.timesheet.invoice.create,name:0
 msgid "Description"
 msgstr "说明"
 
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "Description:"
-msgstr "Description:"
+msgstr "说明："
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_payslip
@@ -3058,40 +2840,10 @@ msgstr "差异"
 msgid "Differences"
 msgstr "Differences"
 
-#. module: hr_timesheet_invoice
-#: field:hr_timesheet_invoice.factor,factor:0
-msgid "Discount (%)"
-msgstr "折扣(%)"
-
-#. module: hr_timesheet_invoice
-#: help:hr_timesheet_invoice.factor,factor:0
-msgid "Discount in percentage"
-msgstr "折扣百分比"
-
 #. module: hr
 #: field:res.users,display_employees_suggestions:0
 msgid "Display Employees Suggestions"
 msgstr "显示员工建议"
-
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create.final,price:0
-msgid "Display cost of the item you reinvoice"
-msgstr "在这显示您要重开发票的成本"
-
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create.final,date:0
-msgid "Display date in the history of works"
-msgstr "在这工作日志显示日期"
-
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create.final,name:0
-msgid "Display detail of work in the invoice line."
-msgstr "显示在发票行的工作细节"
-
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create.final,time:0
-msgid "Display time in the history of works"
-msgstr "在工作日志显示时间"
 
 #. module: hr
 #: selection:hr.employee,marital:0
@@ -3102,16 +2854,6 @@ msgstr "离异"
 #: selection:hr_evaluation.evaluation,rating:0
 msgid "Do not meet expectations"
 msgstr "Do not meet expectations"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
-msgid "Do you want to show details of each activity to your customer?"
-msgstr "Do you want to show details of each activity to your customer?"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-msgid "Do you want to show details of work in invoice?"
-msgstr "Do you want to show details of work in invoice?"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_bac5
@@ -3198,12 +2940,11 @@ msgstr "Dress code"
 msgid "Drive engagement with challenges and badges"
 msgstr "用挑战和荣誉来提高业务积极性"
 
-#. modules: hr_timesheet_invoice, hr_holidays, hr_timesheet, hr_contract
+#. modules: hr_holidays, hr_timesheet, hr_contract
 #: view:hr.contract:hr_contract.hr_contract_view_form
 #: view:hr.holidays:hr_holidays.edit_holiday_new
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_form
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_tree
-#: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
 msgid "Duration"
 msgstr "有效期"
 
@@ -3221,11 +2962,6 @@ msgstr "Education"
 #: model:survey.page,title:hr_recruitment.recruitment_2
 msgid "Education and Activities"
 msgstr "Education and Activities"
-
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Eff."
-msgstr "有效"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_3
@@ -3479,7 +3215,7 @@ msgstr "错误！签入（或签出）动作必须在签出（或签入）动作
 msgid "Error ! You cannot create a recursive Salary Structure."
 msgstr "错误!您不能创建递归的薪资结构。"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_holidays, hr_recruitment, hr_timesheet_sheet, hr_payroll
+#. modules: hr_timesheet_sheet, hr_expense, hr_recruitment, hr_payroll, hr_holidays
 #: code:addons/hr_expense/hr_expense.py:167
 #: code:addons/hr_expense/hr_expense.py:230
 #: code:addons/hr_expense/hr_expense.py:232
@@ -3493,7 +3229,6 @@ msgstr "错误!您不能创建递归的薪资结构。"
 #: code:addons/hr_payroll/hr_payroll.py:887
 #: code:addons/hr_recruitment/wizard/hr_recruitment_create_partner_job.py:38
 #: code:addons/hr_recruitment/wizard/hr_recruitment_create_partner_job.py:56
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:140
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:66
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:71
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:73
@@ -3681,24 +3416,15 @@ msgstr "要开票的报销单"
 msgid "Experience"
 msgstr "Experience"
 
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_analytic_account_tree
-#: view:report.analytic.account.close:hr_timesheet_invoice.view_analytic_account_close_form
-#: view:report.analytic.account.close:hr_timesheet_invoice.view_analytic_account_close_tree
-#: view:report.analytic.account.close:hr_timesheet_invoice.view_analytic_account_graph
-msgid "Expired analytic accounts"
-msgstr "过期的辅助核算项"
-
 #. module: hr_recruitment
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Extended Filters"
 msgstr "Extended Filters"
 
-#. modules: hr_expense, hr_timesheet, hr_timesheet_invoice, hr_evaluation
+#. modules: hr_expense, hr_timesheet, hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 #: view:hr.expense.report:hr_expense.view_hr_expense_report_search
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
 msgid "Extended Filters..."
 msgstr "增加筛选条件"
 
@@ -3712,15 +3438,6 @@ msgstr "External Timesheet"
 msgid "Extra advantages..."
 msgstr "Extra advantages..."
 
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "February"
-msgstr "2月"
-
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Feedback of interviews..."
@@ -3731,11 +3448,6 @@ msgstr "Feedback of interviews..."
 #: model:survey.label,value:hr_recruitment.recruitment_1_2_2
 msgid "Female"
 msgstr "女性"
-
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create,product:0
-msgid "Fill this field only if you want to force to use a specific product. Keep empty to use the real product that comes from the cost."
-msgstr "Fill this field only if you want to force to use a specific product. Keep empty to use the real product that comes from the cost."
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
@@ -3833,40 +3545,19 @@ msgstr "强制的账薄"
 msgid "Force Period"
 msgstr "强制会计期间"
 
-#. module: hr_timesheet_invoice
-#: field:hr.timesheet.invoice.create,product:0
-msgid "Force Product"
-msgstr "Force Product"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
-msgid "Force to use a special product"
-msgstr "强制使用特殊产品"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-msgid "Force to use a specific product"
-msgstr "强制使用指定产品"
-
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Free Notes"
 msgstr "Free Notes"
-
-#. module: hr_timesheet_invoice
-#: model:hr_timesheet_invoice.factor,name:hr_timesheet_invoice.timesheet_invoice_factor3
-msgid "Free of charge"
-msgstr "Free of charge"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_8
 msgid "Freebies such as tea, coffee and stationery"
 msgstr "Freebies such as tea, coffee and stationery"
 
-#. modules: hr_holidays, hr_timesheet_invoice
+#. module: hr_holidays
 #: field:hr.holidays.summary.dept,date_from:0
 #: field:hr.holidays.summary.employee,date_from:0
-#: field:hr.timesheet.analytic.profit,date_from:0
 msgid "From"
 msgstr "来自"
 
@@ -3901,11 +3592,10 @@ msgstr "性别"
 msgid "General"
 msgstr "一般"
 
-#. modules: hr_timesheet, hr_timesheet_invoice
+#. module: hr_timesheet
 #: field:hr.timesheet.report,general_account_id:0
-#: field:report.timesheet.line,general_account_id:0
 msgid "General Account"
-msgstr "辅助核算项"
+msgstr "General Account"
 
 #. module: hr_timesheet
 #: view:hr.sign.out.project:hr_timesheet.view_hr_timesheet_sign_out
@@ -4007,7 +3697,7 @@ msgstr "Grant a Badge"
 msgid "Granted Employees"
 msgstr "Granted Employees"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
 #: view:hr.employee:hr.view_employee_filter
 #: view:hr.job:hr.view_job_filter
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
@@ -4025,7 +3715,6 @@ msgstr "Granted Employees"
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Group By"
 msgstr "分组方式"
@@ -4097,11 +3786,6 @@ msgstr "家庭地址"
 #: field:hr.employee,vehicle_distance:0
 msgid "Home-Work Dist."
 msgstr "家里和工作场所的距离"
-
-#. module: hr_expense
-#: model:product.template,name:hr_expense.hotel_rent_product_template
-msgid "Hotel Accommodation"
-msgstr "酒店住宿"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
@@ -4181,7 +3865,7 @@ msgstr "I would prefer to remain with this company even if a comparable job were
 msgid "I'm efficient at work and my achievements are successful"
 msgstr "I'm efficient at work and my achievements are successful"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
 #: field:hr.config.settings,id:0
 #: field:hr.department,id:0
 #: field:hr.employee,id:0
@@ -4232,18 +3916,6 @@ msgstr "I'm efficient at work and my achievements are successful"
 #: field:hr.sign.in.project,id:0
 #: field:hr.sign.out.project,id:0
 #: field:hr.timesheet.report,id:0
-#: field:hr.timesheet.analytic.profit,id:0
-#: field:hr.timesheet.invoice.create,id:0
-#: field:hr.timesheet.invoice.create.final,id:0
-#: field:hr_timesheet_invoice.factor,id:0
-#: field:report.account.analytic.line.to.invoice,id:0
-#: field:report.analytic.account.close,id:0
-#: field:report.hr_timesheet_invoice.report_analyticprofit,id:0
-#: field:report.timesheet.line,id:0
-#: field:report_timesheet.account,id:0
-#: field:report_timesheet.account.date,id:0
-#: field:report_timesheet.invoice,id:0
-#: field:report_timesheet.user,id:0
 #: field:hr.timesheet.current.open,id:0
 #: field:hr_timesheet_sheet.sheet,id:0
 #: field:hr_timesheet_sheet.sheet.account,id:0
@@ -4423,11 +4095,6 @@ msgstr "进行中"
 msgid "In progress Evaluations"
 msgstr "正在进行的评估"
 
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Income"
-msgstr "收入"
-
 #. module: hr_applicant_document
 #: field:hr.applicant,index_content:0
 msgid "Index Content"
@@ -4476,17 +4143,6 @@ msgstr "安装 出勤率特性"
 #: view:hr.config.settings:hr.view_human_resources_configuration
 msgid "Install your country's payroll"
 msgstr "安装你所在国家的工资表"
-
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_analytic_profit.py:59
-#, python-format
-msgid "Insufficient Data!"
-msgstr "Insufficient Data!"
-
-#. module: hr_timesheet_invoice
-#: field:hr_timesheet_invoice.factor,name:0
-msgid "Internal Name"
-msgstr "Internal Name"
 
 #. module: hr_payroll
 #: field:hr.payslip,note:0
@@ -4551,72 +4207,10 @@ msgstr "面试"
 msgid "Invalid Action!"
 msgstr "无效的动作！"
 
-#. module: hr_timesheet_invoice
-#: field:account.analytic.line,invoice_id:0
-#: model:ir.model,name:hr_timesheet_invoice.model_account_invoice
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-msgid "Invoice"
-msgstr "发票"
-
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_hr_timesheet_invoice_factor
-msgid "Invoice Rate"
-msgstr "开票税率"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
-msgid "Invoice contract"
-msgstr "对合同开发票"
-
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_invoice_create.py:56
-#, python-format
-msgid "Invoice is already linked to some of the analytic line(s)!"
-msgstr "部分成本行已开发票"
-
-#. module: hr_timesheet_invoice
-#: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
-msgid "Invoice on Timesheets Options"
-msgstr "基于工单选项开票"
-
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet.account,invoice_rate:0
 msgid "Invoice rate"
 msgstr "发票税率"
-
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Invoice rate by user"
-msgstr "用户的发票税率"
-
-#. module: hr_timesheet_invoice
-#: field:account.analytic.line,to_invoice:0
-msgid "Invoiceable"
-msgstr "可开票"
-
-#. module: hr_timesheet_invoice
-#: view:account.analytic.line:hr_timesheet_invoice.view_account_analytic_line_search_inherit
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.view_hr_timesheet_line_search_to_invoice
-#: field:report.timesheet.line,invoice_id:0
-msgid "Invoiced"
-msgstr "已开票"
-
-#. module: hr_timesheet_invoice
-#: field:account.analytic.account,amount_invoiced:0
-msgid "Invoiced Amount"
-msgstr "已开票金额"
-
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_final_invoice_create.py:58
-#: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_invoice_create.py:68
-#, python-format
-msgid "Invoices"
-msgstr "发票"
-
-#. module: hr_timesheet_invoice
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_form
-msgid "Invoicing"
-msgstr "开发票"
 
 #. modules: hr_expense, hr_holidays, hr, hr_evaluation, hr_recruitment, hr_timesheet_sheet
 #: field:hr.employee,message_is_follower:0
@@ -4634,11 +4228,6 @@ msgstr "是一个关注者"
 #: field:hr.employee,manager:0
 msgid "Is a Manager"
 msgstr "是经理"
-
-#. module: hr_timesheet_invoice
-#: help:account.analytic.line,to_invoice:0
-msgid "It allows to set the discount while making invoice, keep empty if the activities should not be invoiced."
-msgstr "It allows to set the discount while making invoice, keep empty if the activities should not be invoiced."
 
 #. module: hr_payroll
 #: help:hr.salary.rule,quantity:0
@@ -4659,15 +4248,6 @@ msgstr "它将开启您当前计工单"
 #: selection:hr.holidays.status,color_name:0
 msgid "Ivory"
 msgstr "象牙白"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "January"
-msgstr "1月"
 
 #. modules: hr, hr_contract, hr_recruitment
 #: view:hr.employee:hr.view_employee_filter
@@ -4726,40 +4306,15 @@ msgstr "职务"
 msgid "Jobs - Recruitment Form"
 msgstr "职位 - 招聘表"
 
-#. modules: hr_timesheet, hr_timesheet_invoice
+#. module: hr_timesheet
 #: field:hr.timesheet.report,journal_id:0
-#: field:hr.timesheet.analytic.profit,journal_ids:0
 msgid "Journal"
-msgstr "账簿"
+msgstr "Journal"
 
-#. modules: hr_expense, hr_timesheet_invoice
+#. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
-#: model:ir.model,name:hr_timesheet_invoice.model_account_move_line
 msgid "Journal Items"
-msgstr "Journal Items"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "July"
-msgstr "7月"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "June"
-msgstr "6月"
-
-#. module: hr_timesheet_invoice
-#: help:account.analytic.account,amount_max:0
-msgid "Keep empty if this contract is not limited to a total fixed price."
-msgstr "如果这个合同没有限定一个固定总价，留空。"
+msgstr "账簿项"
 
 #. module: hr_payroll_account
 #: help:hr.payslip,period_id:0
@@ -4770,11 +4325,6 @@ msgstr "为空使用这个期间审核(工资单)日期"
 #: model:survey.question,question:hr_recruitment.recruitment_2_1
 msgid "Knowledge"
 msgstr "Knowledge"
-
-#. module: hr_timesheet_invoice
-#: help:hr_timesheet_invoice.factor,customer_name:0
-msgid "Label for the customer"
-msgstr "客户标签"
 
 #. modules: hr_expense, hr_holidays, hr, hr_evaluation, hr_recruitment, hr_timesheet_sheet
 #: field:hr.employee,message_last_post:0
@@ -4806,7 +4356,7 @@ msgstr "Last Stage"
 msgid "Last Stage Update"
 msgstr "Last Stage Update"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
 #: field:hr.config.settings,write_uid:0
 #: field:hr.department,write_uid:0
 #: field:hr.employee,write_uid:0
@@ -4848,16 +4398,12 @@ msgstr "Last Stage Update"
 #: field:hr.analytic.timesheet,write_uid:0
 #: field:hr.sign.in.project,write_uid:0
 #: field:hr.sign.out.project,write_uid:0
-#: field:hr.timesheet.analytic.profit,write_uid:0
-#: field:hr.timesheet.invoice.create,write_uid:0
-#: field:hr.timesheet.invoice.create.final,write_uid:0
-#: field:hr_timesheet_invoice.factor,write_uid:0
 #: field:hr.timesheet.current.open,write_uid:0
 #: field:hr_timesheet_sheet.sheet,write_uid:0
 msgid "Last Updated by"
 msgstr "最近更新者"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
 #: field:hr.config.settings,write_date:0
 #: field:hr.department,write_date:0
 #: field:hr.employee,write_date:0
@@ -4897,10 +4443,6 @@ msgstr "最近更新者"
 #: field:hr.analytic.timesheet,write_date:0
 #: field:hr.sign.in.project,write_date:0
 #: field:hr.sign.out.project,write_date:0
-#: field:hr.timesheet.analytic.profit,write_date:0
-#: field:hr.timesheet.invoice.create,write_date:0
-#: field:hr.timesheet.invoice.create.final,write_date:0
-#: field:hr_timesheet_invoice.factor,write_date:0
 #: field:hr.timesheet.current.open,write_date:0
 #: field:hr_timesheet_sheet.sheet,write_date:0
 msgid "Last Updated on"
@@ -5137,11 +4679,6 @@ msgstr "工资类别的父级类别只用于报表"
 msgid "Listens and takes into account all ideas and do his best to put in place the best of these"
 msgstr "Listens and takes into account all ideas and do his best to put in place the best of these"
 
-#. module: hr_timesheet_invoice
-#: field:hr.timesheet.invoice.create.final,name:0
-msgid "Log of Activity"
-msgstr "Log of Activity"
-
 #. module: hr
 #: field:hr.employee,login:0
 msgid "Login"
@@ -5205,24 +4742,14 @@ msgid "Manage your CV's and motivation letter related to all applicants.\n"
 msgstr "Manage your CV's and motivation letter related to all applicants.\n"
 "-This installs the module document_ftp. This will install the knowledge management  module in order to allow you to search using specific keywords through  the content of all documents (PDF, .DOCx...)"
 
-#. modules: hr, hr_holidays, hr_timesheet_invoice, hr_recruitment
+#. modules: hr, hr_holidays, hr_recruitment
 #: field:hr.department,manager_id:0
 #: view:hr.employee:hr.view_employee_filter
 #: field:hr.employee,parent_id:0
 #: view:hr.holidays:hr_holidays.view_hr_holidays_filter
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_manager
-#: field:report_timesheet.invoice,manager_id:0
 msgid "Manager"
 msgstr "经理"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "March"
-msgstr "3月"
 
 #. module: hr
 #: field:hr.employee,marital:0
@@ -5244,16 +4771,6 @@ msgstr "硕士"
 msgid "Max. Delay (Min)"
 msgstr "Max. Delay (Min)"
 
-#. module: hr_timesheet_invoice
-#: field:account.analytic.account,amount_max:0
-msgid "Max. Invoice Price"
-msgstr "最高开票价"
-
-#. module: hr_timesheet_invoice
-#: field:report.analytic.account.close,quantity_max:0
-msgid "Max. Quantity"
-msgstr "最大数量"
-
 #. module: hr_holidays
 #: field:hr.holidays.status,max_leaves:0
 msgid "Maximum Allowed"
@@ -5274,15 +4791,6 @@ msgstr "Maximum Leaves Allowed - Leaves Already Taken - Leaves Waiting Approval"
 #: field:hr.salary.rule,condition_range_max:0
 msgid "Maximum Range"
 msgstr "最大范围"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "May"
-msgstr "5月"
 
 #. module: hr_contract
 #: view:hr.employee:hr_contract.hr_hr_employee_view_form2
@@ -5324,7 +4832,7 @@ msgstr "会议类型"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.act_hr_applicant_to_meeting
 msgid "Meetings"
-msgstr "Meetings"
+msgstr "会议"
 
 #. module: hr
 #: field:hr.department,member_ids:0
@@ -5363,7 +4871,7 @@ msgstr "最小推延"
 #. module: hr_timesheet
 #: field:hr.sign.out.project,analytic_amount:0
 msgid "Minimum Analytic Amount"
-msgstr "最低分析金额"
+msgstr "最低辅助核算金额"
 
 #. module: hr_payroll
 #: field:hr.payslip.line,condition_range_min:0
@@ -5403,17 +4911,11 @@ msgstr "模式"
 msgid "Monster"
 msgstr "Monster"
 
-#. modules: hr_timesheet_invoice, hr_holidays, hr_attendance, hr_timesheet, hr_evaluation, hr_timesheet_sheet
+#. modules: hr_timesheet_sheet, hr_attendance, hr_timesheet, hr_evaluation, hr_holidays
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 #: xsl:holidays.summary:0
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
-#: field:report.account.analytic.line.to.invoice,month:0
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-#: field:report.timesheet.line,month:0
-#: field:report_timesheet.account,month:0
-#: field:report_timesheet.account.date,month:0
-#: field:report_timesheet.user,month:0
 #: selection:hr.config.settings,timesheet_range:0
 #: selection:res.company,timesheet_range:0
 msgid "Month"
@@ -5486,7 +4988,7 @@ msgstr "My job provides me with a sense of personal accomplishment"
 msgid "My work contributes towards the continuous improvement of the company, our services or products"
 msgstr "My work contributes towards the continuous improvement of the company, our services or products"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr, hr_evaluation, hr_recruitment, hr_payroll
+#. modules: hr, hr_expense, hr_payroll, hr_evaluation, hr_recruitment
 #: field:hr.department,complete_name:0
 #: field:hr.employee,name_related:0
 #: field:hr.employee.category,complete_name:0
@@ -5504,7 +5006,6 @@ msgstr "My work contributes towards the continuous improvement of the company, o
 #: field:hr.applicant_category,name:0
 #: field:hr.recruitment.degree,name:0
 #: field:hr.recruitment.stage,name:0
-#: field:hr_timesheet_invoice.factor,customer_name:0
 msgid "Name"
 msgstr "名称"
 
@@ -5630,22 +5131,11 @@ msgstr "No out of hours working"
 msgid "No purchase account found for the product %s (or for his category), please configure one."
 msgstr "No purchase account found for the product %s (or for his category), please configure one."
 
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_analytic_profit.py:59
-#, python-format
-msgid "No record(s) found for this report."
-msgstr "No record(s) found for this report."
-
 #. module: hr_attendance
 #: code:addons/hr_attendance/wizard/hr_attendance_error.py:50
 #, python-format
 msgid "No records are found for your selection!"
 msgstr "你搜索的结果为空！"
-
-#. module: hr_timesheet_invoice
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-msgid "Non Assigned timesheets to users"
-msgstr "没有给用户分配计工单"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:415
@@ -5673,15 +5163,6 @@ msgstr "备注"
 #: view:hr.salary.rule.category:hr_payroll.hr_salary_rule_category_form
 msgid "Notes"
 msgstr "备注"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "November"
-msgstr "11月"
 
 #. module: hr_recruitment
 #: field:hr.applicant,attachment_number:0
@@ -5735,15 +5216,6 @@ msgstr "您计划招聘的新员工数。"
 #: model:survey.question,question:hr_evaluation.appraisal_2_1
 msgid "Objectives"
 msgstr "Objectives"
-
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "October"
-msgstr "10月"
 
 #. module: hr
 #: field:hr.employee,work_location:0
@@ -5865,11 +5337,10 @@ msgstr "上级员工分类"
 msgid "Parent Salary Rule"
 msgstr "父级工资规则"
 
-#. modules: hr_timesheet, hr_timesheet_invoice, hr_payroll, hr_recruitment
+#. modules: hr_timesheet, hr_payroll, hr_recruitment
 #: field:hr.contribution.register,partner_id:0
 #: field:hr.recruitment.report,partner_id:0
 #: field:hr.analytic.timesheet,partner_id:0
-#: field:report.analytic.account.close,partner_id:0
 msgid "Partner"
 msgstr "业务伙伴"
 
@@ -6063,16 +5534,6 @@ msgstr "百分比基数"
 msgid "Period"
 msgstr "会计周期"
 
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Period from startdate:"
-msgstr "Period from startdate:"
-
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Period to enddate:"
-msgstr "Period to enddate:"
-
 #. module: hr_evaluation
 #: model:ir.ui.menu,name:hr_evaluation.menu_eval_hr_config
 msgid "Periodic Appraisal"
@@ -6162,12 +5623,6 @@ msgstr "请定义此员工的成本单位"
 msgid "Please define employee for your user."
 msgstr "请为你的用户定义员工信息。"
 
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:253
-#, python-format
-msgid "Please define income account for product '%s'."
-msgstr "Please define income account for product '%s'."
-
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:131
 #, python-format
@@ -6197,18 +5652,12 @@ msgstr "出勤"
 msgid "Price"
 msgstr "价格"
 
-#. module: hr_timesheet_invoice
-#: field:account.analytic.account,pricelist_id:0
-msgid "Pricelist"
-msgstr "Pricelist"
-
-#. modules: hr_attendance, hr_recruitment, hr_timesheet_invoice, hr_payroll, hr_holidays
+#. modules: hr_attendance, hr_recruitment, hr_payroll, hr_holidays
 #: view:hr.attendance.error:hr_attendance.view_hr_attendance_error
 #: view:hr.holidays.summary.dept:hr_holidays.view_hr_holidays_summary_dept
 #: view:hr.holidays.summary.employee:hr_holidays.view_hr_holidays_summary_employee
 #: view:payslip.lines.contribution.register:hr_payroll.view_payslip_lines_contribution_register
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
-#: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
 msgid "Print"
 msgstr "打印"
 
@@ -6234,11 +5683,6 @@ msgstr "打印面试结果"
 msgid "Print Survey"
 msgstr "打印问卷"
 
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_hr_timesheet_analytic_profit
-msgid "Print Timesheet Profit"
-msgstr "打印计工单收益"
-
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Print interview report"
@@ -6249,7 +5693,7 @@ msgstr "Print interview report"
 msgid "Probability"
 msgstr "概率"
 
-#. modules: hr_expense, hr_timesheet, hr_timesheet_invoice
+#. modules: hr_expense, hr_timesheet
 #: field:hr.expense.line,product_id:0
 #: view:hr.expense.report:hr_expense.view_hr_expense_report_search
 #: field:hr.expense.report,product_id:0
@@ -6257,10 +5701,6 @@ msgstr "概率"
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
 #: field:hr.employee,product_id:0
 #: field:hr.timesheet.report,product_id:0
-#: field:hr.timesheet.invoice.create.final,product:0
-#: field:report.account.analytic.line.to.invoice,product_id:0
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-#: field:report.timesheet.line,product_id:0
 msgid "Product"
 msgstr "产品"
 
@@ -6272,7 +5712,7 @@ msgstr "Product Quantity"
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_product_template
 msgid "Product Template"
-msgstr "Product Template"
+msgstr "产品模板"
 
 #. module: hr_expense
 #: view:product.product:hr_expense.product_expense_installer_tree_view
@@ -6289,21 +5729,11 @@ msgstr "Professional Development Objectives"
 msgid "Professional Development and Performance Plan"
 msgstr "Professional Development and Performance Plan"
 
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Profit"
-msgstr "利润"
-
-#. module: hr_timesheet_invoice
-#: field:report_timesheet.invoice,account_id:0
-msgid "Project"
-msgstr "项目"
-
 #. modules: hr_timesheet_sheet, hr_timesheet
 #: field:hr.sign.out.project,account_id:0
 #: field:hr_timesheet_sheet.sheet.account,name:0
 msgid "Project / Analytic Account"
-msgstr "项目 / 分析账户"
+msgstr "项目 / 辅助核算科目"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_4_3
@@ -6365,11 +5795,9 @@ msgstr "数量"
 msgid "Quantities"
 msgstr "数量"
 
-#. modules: hr_timesheet_invoice, hr_payroll
+#. module: hr_payroll
 #: field:hr.payslip.line,quantity:0
 #: field:hr.salary.rule,quantity:0
-#: field:report.analytic.account.close,quantity:0
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_tree
 msgid "Quantity"
 msgstr "数量"
 
@@ -6512,13 +5940,13 @@ msgstr "退款"
 #: code:addons/hr_payroll/hr_payroll.py:334
 #, python-format
 msgid "Refund Payslip"
-msgstr "工资退款"
+msgstr "收回工资条"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:324
 #, python-format
 msgid "Refund: "
-msgstr "退款"
+msgstr "冲销 "
 
 #. modules: hr_expense, hr_timesheet_sheet, hr_holidays
 #: view:hr.expense.expense:hr_expense.view_editable_expenses_tree
@@ -6601,7 +6029,7 @@ msgstr "剩余的准假"
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
 msgid "Reports"
-msgstr "Reports"
+msgstr "报表"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,request_id:0
@@ -6856,11 +6284,6 @@ msgstr "工资结构树"
 msgid "Salary and Advantages"
 msgstr "工资和机会"
 
-#. module: hr_timesheet_invoice
-#: field:report.account.analytic.line.to.invoice,sale_price:0
-msgid "Sale price"
-msgstr "售价"
-
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_sales
 msgid "Sales"
@@ -7026,15 +6449,6 @@ msgstr "发送给员工"
 msgid "Send to Managers"
 msgstr "发给经理"
 
-#. module: hr_timesheet_invoice
-#: selection:report.account.analytic.line.to.invoice,month:0
-#: selection:report.timesheet.line,month:0
-#: selection:report_timesheet.account,month:0
-#: selection:report_timesheet.account.date,month:0
-#: selection:report_timesheet.user,month:0
-msgid "September"
-msgstr "9月"
-
 #. modules: hr_expense, hr_payroll, hr_evaluation, hr_recruitment
 #: field:hr_evaluation.plan.phase,sequence:0
 #: field:hr.expense.line,sequence:0
@@ -7046,11 +6460,6 @@ msgstr "9月"
 #: field:hr.recruitment.stage,sequence:0
 msgid "Sequence"
 msgstr "序列"
-
-#. module: hr_timesheet_invoice
-#: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
-msgid "Set In Progress"
-msgstr "Set In Progress"
 
 #. modules: hr_expense, hr_payroll, hr_timesheet_sheet
 #: view:hr.expense.expense:hr_expense.view_expenses_form
@@ -7320,7 +6729,7 @@ msgstr "State of the art technology"
 msgid "States"
 msgstr "状态"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_timesheet_sheet, hr, hr_evaluation, hr_holidays, hr_payroll
+#. modules: hr_expense, hr_holidays, hr, hr_evaluation, hr_timesheet_sheet, hr_payroll
 #: view:hr.employee:hr.view_employee_form
 #: view:hr.job:hr.view_job_filter
 #: field:hr.job,state:0
@@ -7335,7 +6744,6 @@ msgstr "状态"
 #: field:hr.holidays,state:0
 #: field:hr.payslip,state:0
 #: field:hr.payslip.run,state:0
-#: field:report.analytic.account.close,state:0
 #: view:hr.timesheet.report:hr_timesheet_sheet.view_timesheet_report_search
 #: field:hr.timesheet.report,state:0
 #: field:hr_timesheet_sheet.sheet,state:0
@@ -7544,20 +6952,10 @@ msgstr "规则金额的计算方法"
 msgid "The contract for which applied this input"
 msgstr "符合这些输入的合同"
 
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create,price:0
-msgid "The cost of each work done will be displayed on the invoice. You probably don't want to check this"
-msgstr "工作完成的成本将显示在发票上。你可能不想勾选它。"
-
 #. module: hr_evaluation
 #: help:hr.employee,evaluation_date:0
 msgid "The date of the next appraisal is computed by the appraisal plan's dates (first appraisal + periodicity)."
 msgstr "下次评估的日期是按评估计划的日期计算出来的 （首次评估 + 周期）"
-
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create,name:0
-msgid "The detail of each work done will be displayed on the invoice"
-msgstr "每个完成的工作将显示在发票上"
 
 #. module: hr_expense
 #: code:addons/hr_expense/hr_expense.py:230
@@ -7640,21 +7038,6 @@ msgid "The number of remaining leaves is not sufficient for this leave type.\n"
 msgstr "The number of remaining leaves is not sufficient for this leave type.\n"
 "Please verify also the leaves waiting for validation."
 
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create.final,product:0
-msgid "The product that will be used to invoice the remaining amount"
-msgstr "将作为发票的剩余金额"
-
-#. module: hr_timesheet_invoice
-#: help:account.analytic.account,pricelist_id:0
-msgid "The product to invoice is defined on the employee form, the price will be deducted by this pricelist on the product."
-msgstr "The product to invoice is defined on the employee form, the price will be deducted by this pricelist on the product."
-
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create,date:0
-msgid "The real date of each work will be displayed on the invoice"
-msgstr "每个工作实际日期将显示在发票上"
-
 #. module: hr_gamification
 #: constraint:gamification.badge.user:0
 msgid "The selected employee does not correspond to the selected user."
@@ -7679,21 +7062,11 @@ msgstr "请假申请建立后，状态被设置为“待提交”。            
 "如果请假申请被经理拒绝，则状态变为“被拒绝”。            \n"
 "如果请假申通过经理审核，则状态变为“已审核”。"
 
-#. module: hr_timesheet_invoice
-#: help:hr.timesheet.invoice.create,time:0
-msgid "The time of each work done will be displayed on the invoice"
-msgstr "每个工作完成的时间将显示在发票上"
-
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:62
 #, python-format
 msgid "The timesheet cannot be validated as it does not contain an equal number of sign ins and sign outs."
 msgstr "The timesheet cannot be validated as it does not contain an equal number of sign ins and sign outs."
-
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Theorical"
-msgstr "理论"
 
 #. module: hr_recruitment
 #: help:hr.applicant,email_cc:0
@@ -7866,20 +7239,10 @@ msgstr "这个规则将用于计算%字段的值；一般来说是基数，你�
 msgid "This wizard will generate payslips for all selected employee(s) based on the dates and credit note specified on Payslips Run."
 msgstr "向导将根据工资条生成器上输入的日期和付款单号生成所选员工的工资单。"
 
-#. modules: hr_timesheet, hr_timesheet_invoice
+#. module: hr_timesheet
 #: field:hr.timesheet.report,quantity:0
-#: field:report.timesheet.line,quantity:0
-#: field:report_timesheet.account,quantity:0
-#: field:report_timesheet.account.date,quantity:0
-#: field:report_timesheet.invoice,quantity:0
-#: field:report_timesheet.user,quantity:0
 msgid "Time"
 msgstr "Time"
-
-#. module: hr_timesheet_invoice
-#: field:hr.timesheet.invoice.create.final,time:0
-msgid "Time Spent"
-msgstr "Time Spent"
 
 #. modules: hr, hr_attendance
 #: view:hr.config.settings:hr.view_human_resources_configuration
@@ -7891,11 +7254,6 @@ msgstr "考勤跟踪"
 #: model:survey.label,value:hr_evaluation.arow_3_1_15
 msgid "Time management: projects/tasks are completed on time"
 msgstr "Time management: projects/tasks are completed on time"
-
-#. module: hr_timesheet_invoice
-#: field:hr.timesheet.invoice.create,time:0
-msgid "Time spent"
-msgstr "花费的时间"
 
 #. modules: hr_timesheet_sheet, hr_timesheet
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
@@ -7932,18 +7290,8 @@ msgstr "时间表活动"
 msgid "Timesheet Analysis"
 msgstr "Timesheet Analysis"
 
-#. module: hr_timesheet_invoice
-#: field:account.analytic.account,to_invoice:0
-msgid "Timesheet Invoicing Ratio"
-msgstr "Timesheet Invoicing Ratio"
-
-#. modules: hr_timesheet_sheet, hr_timesheet, hr_timesheet_invoice
+#. modules: hr_timesheet_sheet, hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_hr_analytic_timesheet
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_timesheet_line_stat_all
-#: model:ir.model,name:hr_timesheet_invoice.model_hr_analytic_timesheet
-#: model:ir.model,name:hr_timesheet_invoice.model_report_timesheet_line
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_graph
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_tree
 #: model:ir.model,name:hr_timesheet_sheet.model_hr_analytic_timesheet
 msgid "Timesheet Line"
 msgstr "计工单明细"
@@ -7958,21 +7306,12 @@ msgstr "Timesheet Month"
 msgid "Timesheet Period"
 msgstr "Timesheet Period"
 
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_analytic_profit
-#: model:ir.actions.report.xml,name:hr_timesheet_invoice.action_report_analytic_profit
-#: model:ir.ui.menu,name:hr_timesheet_invoice.menu_hr_timesheet_analytic_profit
-msgid "Timesheet Profit"
-msgstr "计工单收益"
-
 #. module: hr_timesheet_sheet
 #: field:res.company,timesheet_max_difference:0
 msgid "Timesheet allowed difference(Hours)"
 msgstr "计工单允许的差异（小时）"
 
-#. modules: hr_timesheet_sheet, hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_timesheet_account_stat_all
+#. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_sheet_by_account
 msgid "Timesheet by Account"
 msgstr "辅助核算项的计工单"
@@ -7988,65 +7327,15 @@ msgstr "辅助核算项计工单"
 msgid "Timesheet by Day"
 msgstr "时间表按天"
 
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_timesheet_invoice_stat_all
-msgid "Timesheet by Invoice"
-msgstr "发票的计工单"
-
 #. module: hr_timesheet
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
 msgid "Timesheet by Month"
 msgstr "Timesheet by Month"
 
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_timesheet_user_stat_all
-msgid "Timesheet by User"
-msgstr "用户计工单"
-
-#. module: hr_timesheet_invoice
-#: view:report_timesheet.account:hr_timesheet_invoice.view_timesheet_account_form
-#: view:report_timesheet.account:hr_timesheet_invoice.view_timesheet_account_search
-#: view:report_timesheet.account.date:hr_timesheet_invoice.view_timesheet_account_date_search
-msgid "Timesheet by account"
-msgstr "辅助核算项的计工单"
-
-#. module: hr_timesheet_invoice
-#: view:report_timesheet.invoice:hr_timesheet_invoice.view_timesheet_invoice_form
-#: view:report_timesheet.invoice:hr_timesheet_invoice.view_timesheet_invoice_graph
-#: view:report_timesheet.invoice:hr_timesheet_invoice.view_timesheet_invoice_search
-msgid "Timesheet by invoice"
-msgstr "计工单发票"
-
-#. module: hr_timesheet_invoice
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-#: view:report_timesheet.user:hr_timesheet_invoice.view_timesheet_user_form
-#: view:report_timesheet.user:hr_timesheet_invoice.view_timesheet_user_graph
-#: view:report_timesheet.user:hr_timesheet_invoice.view_timesheet_user_search
-#: view:report_timesheet.user:hr_timesheet_invoice.view_timesheet_user_tree
-msgid "Timesheet by user"
-msgstr "用户计工单"
-
-#. module: hr_timesheet_invoice
-#: view:report_timesheet.user:hr_timesheet_invoice.view_timesheet_user_search
-msgid "Timesheet by users"
-msgstr "Timesheet by users"
-
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,timesheet_ids:0
 msgid "Timesheet lines"
 msgstr "计工单明细"
-
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_report_timesheet_account
-#: view:report_timesheet.account:hr_timesheet_invoice.view_timesheet_account_graph
-#: view:report_timesheet.account:hr_timesheet_invoice.view_timesheet_account_tree
-msgid "Timesheet per account"
-msgstr "每个辅助核算项的计工单"
-
-#. module: hr_timesheet_invoice
-#: model:ir.model,name:hr_timesheet_invoice.model_report_timesheet_user
-msgid "Timesheet per day"
-msgstr "每天计工单"
 
 #. module: hr_timesheet_sheet
 #: field:res.company,timesheet_range:0
@@ -8071,31 +7360,11 @@ msgstr "计工单"
 msgid "Timesheets by Period"
 msgstr "计工单周期"
 
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.act_res_users_2_report_timehsheet_account
-msgid "Timesheets per account"
-msgstr "每个辅助核算项的计工单"
-
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.act_res_users_2_report_timesheet_user
-msgid "Timesheets per day"
-msgstr "每天计工单"
-
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_form
 #: model:ir.ui.menu,name:hr_timesheet_sheet.menu_act_hr_timesheet_sheet_form
 msgid "Timesheets to Validate"
 msgstr "Timesheets to Validate"
-
-#. module: hr_timesheet_invoice
-#: view:report_timesheet.invoice:hr_timesheet_invoice.view_timesheet_invoice_tree
-msgid "Timesheets to invoice"
-msgstr "给计工单开发票"
-
-#. module: hr_timesheet_invoice
-#: field:hr.timesheet.analytic.profit,date_to:0
-msgid "To"
-msgstr "到"
 
 #. modules: hr_expense, hr_timesheet_sheet, hr_holidays
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
@@ -8122,32 +7391,15 @@ msgstr "到 日期"
 msgid "To Do"
 msgstr "待处理"
 
-#. module: hr_timesheet_invoice
-#: view:account.analytic.line:hr_timesheet_invoice.view_account_analytic_line_search_inherit
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.view_hr_timesheet_line_search_to_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.act_acc_analytic_acc_2_report_acc_analytic_line_to_invoice
-msgid "To Invoice"
-msgstr "待开票"
-
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
 msgid "To Pay"
 msgstr "支付"
 
-#. module: hr_timesheet_invoice
-#: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
-msgid "To Renew"
-msgstr "To Renew"
-
 #. module: hr_holidays
 #: selection:hr.holidays,state:0
 msgid "To Submit"
 msgstr "提交"
-
-#. module: hr_timesheet_invoice
-#: field:report_timesheet.invoice,amount_invoice:0
-msgid "To invoice"
-msgstr "开发票"
 
 #. module: hr_attendance
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
@@ -8240,11 +7492,6 @@ msgstr "总成本"
 msgid "Total holidays by type"
 msgstr "这类型假期的合计"
 
-#. module: hr_timesheet_invoice
-#: help:account.analytic.account,amount_invoiced:0
-msgid "Total invoiced"
-msgstr "已开票合计"
-
 #. module: hr_holidays
 #: help:hr.employee,remaining_leaves:0
 msgid "Total number of legal leaves allocated to this employee, change this value to create allocation/leave request. Total based on all the leave types without overriding limit."
@@ -8259,11 +7506,6 @@ msgstr "Total period"
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_tree
 msgid "Total time"
 msgstr "总时间"
-
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Totals:"
-msgstr "合计:"
 
 #. module: hr_attendance
 #: field:hr.config.settings,group_hr_attendance:0
@@ -8296,23 +7538,6 @@ msgstr "类型"
 msgid "Type of Invoicing"
 msgstr "发票类型"
 
-#. module: hr_timesheet_invoice
-#: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_form
-#: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_search
-msgid "Type of invoicing"
-msgstr "发票类型"
-
-#. module: hr_timesheet_invoice
-#: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_invoice_factor_form
-#: model:ir.ui.menu,name:hr_timesheet_invoice.hr_timesheet_invoice_factor_view
-msgid "Types of Invoicing"
-msgstr "发票类型"
-
-#. module: hr_timesheet_invoice
-#: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_tree
-msgid "Types of invoicing"
-msgstr "发票类型"
-
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
@@ -8330,19 +7555,12 @@ msgstr "取消关注"
 msgid "Unit Price"
 msgstr "单价"
 
-#. modules: hr_expense, hr_timesheet, hr_timesheet_invoice
+#. modules: hr_expense, hr_timesheet
 #: field:hr.expense.line,uom_id:0
 #: view:product.product:hr_expense.product_expense_installer_tree_view
 #: field:hr.employee,uom_id:0
-#: field:report.account.analytic.line.to.invoice,product_uom_id:0
 msgid "Unit of Measure"
 msgstr "计量单位"
-
-#. module: hr_timesheet_invoice
-#: field:report.account.analytic.line.to.invoice,unit_amount:0
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "Units"
-msgstr "单位"
 
 #. module: hr_holidays
 #: model:hr.holidays.status,name:hr_holidays.holiday_status_unpaid
@@ -8405,20 +7623,13 @@ msgstr "使用预定的序列排列"
 msgid "Used to display the salary rule on payslip."
 msgstr "用于显示工资单的工资规则"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_holidays, hr_timesheet, hr_recruitment, hr_timesheet_sheet
+#. modules: hr_timesheet_sheet, hr_expense, hr_timesheet, hr_recruitment, hr_holidays
 #: field:hr.expense.expense,user_id:0
 #: field:hr.holidays,user_id:0
 #: field:hr.holidays.remaining.leaves.user,user_id:0
 #: field:hr.recruitment.report,user_id:0
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
 #: field:hr.timesheet.report,user_id:0
-#: field:hr.timesheet.analytic.profit,employee_ids:0
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-#: field:report.timesheet.line,user_id:0
-#: field:report_timesheet.account,user_id:0
-#: field:report_timesheet.account.date,user_id:0
-#: field:report_timesheet.invoice,user_id:0
-#: field:report_timesheet.user,user_id:0
 #: field:hr_timesheet_sheet.sheet,user_id:0
 msgid "User"
 msgstr "用户"
@@ -8442,11 +7653,6 @@ msgstr "用户电子邮件"
 #, python-format
 msgid "User Error!"
 msgstr "用户错误！"
-
-#. module: hr_timesheet_invoice
-#: view:website:hr_timesheet_invoice.report_analyticprofit
-msgid "User or Journal Name"
-msgstr "用户或者账簿名称"
 
 #. modules: hr, hr_timesheet
 #: model:ir.model,name:hr.model_res_users
@@ -8477,7 +7683,7 @@ msgstr "已生效"
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "Validated By:"
-msgstr "Validated By:"
+msgstr "审核人："
 
 #. module: hr_holidays
 #: view:hr.holidays.status:hr_holidays.edit_holiday_status_form
@@ -8582,7 +7788,7 @@ msgstr "警告"
 msgid "Warning !"
 msgstr "警告！"
 
-#. modules: hr_expense, hr_timesheet_invoice, hr_timesheet_sheet, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_gamification, hr_payroll
+#. modules: hr_expense, hr_timesheet_sheet, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_gamification, hr_payroll
 #: code:addons/hr_evaluation/hr_evaluation.py:239
 #: code:addons/hr_evaluation/hr_evaluation.py:339
 #: code:addons/hr_expense/hr_expense.py:116
@@ -8601,7 +7807,6 @@ msgstr "警告！"
 #: code:addons/hr_timesheet/hr_timesheet.py:158
 #: code:addons/hr_timesheet/hr_timesheet.py:189
 #: code:addons/hr_timesheet/hr_timesheet.py:191
-#: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_invoice_create.py:56
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:131
 #, python-format
 msgid "Warning!"
@@ -8612,21 +7817,17 @@ msgstr "警告！"
 msgid "Watchers Emails"
 msgstr "关注者的电子信箱"
 
-#. modules: hr_expense, hr_timesheet_sheet, hr_evaluation, hr_recruitment
+#. modules: hr_evaluation, hr_recruitment
 #: field:hr.evaluation.interview,website_message_ids:0
 #: field:hr_evaluation.evaluation,website_message_ids:0
-#: field:hr.expense.expense,website_message_ids:0
 #: field:hr.applicant,website_message_ids:0
-#: field:hr_timesheet_sheet.sheet,website_message_ids:0
 msgid "Website Messages"
 msgstr "Website Messages"
 
-#. modules: hr_expense, hr_timesheet_sheet, hr_evaluation, hr_recruitment
+#. modules: hr_evaluation, hr_recruitment
 #: help:hr.evaluation.interview,website_message_ids:0
 #: help:hr_evaluation.evaluation,website_message_ids:0
-#: help:hr.expense.expense,website_message_ids:0
 #: help:hr.applicant,website_message_ids:0
-#: help:hr_timesheet_sheet.sheet,website_message_ids:0
 msgid "Website communication history"
 msgstr "Website communication history"
 
@@ -8677,11 +7878,6 @@ msgstr "What is your gender?"
 #: selection:hr.holidays.status,color_name:0
 msgid "Wheat"
 msgstr "麦黄色"
-
-#. module: hr_timesheet_invoice
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-msgid "When reinvoicing costs, the amount on the invoice lines is given by the sale price of the corresponding product (if any, and if its sale price is not 0). You can use the following field to enforce the use of a single product for all the chosen lines in the future invoices."
-msgstr "When reinvoicing costs, the amount on the invoice lines is given by the sale price of the corresponding product (if any, and if its sale price is not 0). You can use the following field to enforce the use of a single product for all the chosen lines in the future invoices."
 
 #. module: hr_holidays
 #: help:hr.holidays.status,double_validation:0
@@ -8810,21 +8006,10 @@ msgstr "为薪资规则  %s (%s) 定义的数量错误。"
 msgid "Wrong range condition defined for salary rule %s (%s)."
 msgstr "薪资规则%s (%s) 范围条件定义错误。"
 
-#. modules: hr_holidays, hr_timesheet_invoice
+#. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_hr_holidays_filter
-#: field:report.account.analytic.line.to.invoice,name:0
-#: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
-#: field:report.timesheet.line,name:0
-#: field:report_timesheet.account,name:0
-#: field:report_timesheet.account.date,name:0
-#: field:report_timesheet.user,name:0
 msgid "Year"
 msgstr "年"
-
-#. module: hr_timesheet_invoice
-#: model:hr_timesheet_invoice.factor,name:hr_timesheet_invoice.timesheet_invoice_factor1
-msgid "Yes (100%)"
-msgstr "是 (100%)"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:499
@@ -8930,12 +8115,6 @@ msgstr "You cannot modify an entry in a confirmed timesheet"
 msgid "You cannot modify an entry in a confirmed timesheet."
 msgstr "你不能修改已确认的时间表条目"
 
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:141
-#, python-format
-msgid "You cannot modify an invoiced analytic line!"
-msgstr "你不能修改发票的分析明细"
-
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:510
 #, python-format
@@ -8985,11 +8164,6 @@ msgid "You tried to %s with a date anterior to another event !\n"
 "Try to contact the HR Manager to correct attendances."
 msgstr "你试图%s  前面的日期到另外的事件！尝试联系 人力资源主管纠正考勤"
 
-#. module: hr_timesheet_invoice
-#: help:account.analytic.account,to_invoice:0
-msgid "You usually invoice 100% of the timesheets. But if you mix fixed price and timesheet invoicing, you may use another ratio. For instance, if you do a 20% advance invoice (fixed price, based on a sales order), you should invoice the rest on timesheet with a 80% ratio."
-msgstr "You usually invoice 100% of the timesheets. But if you mix fixed price and timesheet invoicing, you may use another ratio. For instance, if you do a 20% advance invoice (fixed price, based on a sales order), you should invoice the rest on timesheet with a 80% ratio."
-
 #. module: hr_timesheet_sheet
 #. openerp-web
 #: code:addons/hr_timesheet_sheet/static/src/xml/timesheet.xml:58
@@ -8998,12 +8172,6 @@ msgid "You will be able to register your working hours and\n"
 "                        activities."
 msgstr "You will be able to register your working hours and\n"
 "                        activities."
-
-#. module: hr_timesheet_invoice
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_form2
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_tree2
-msgid "[('type','in',['normal','contract']),('state', '<>', 'close'),('use_timesheets','=',1)]"
-msgstr "[('type','in',['normal','contract']),('state', '<>', 'close'),('use_timesheets','=',1)]"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
@@ -9067,13 +8235,7 @@ msgstr "oe_kanban_text_red"
 msgid "of the"
 msgstr "of the"
 
-#. module: hr_timesheet_invoice
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_form2
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_tree2
-msgid "on_change_account_id(account_id, user_id)"
-msgstr "on_change_account_id(account_id, user_id)"
-
-#. modules: hr_timesheet_invoice, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_recruitment, hr_holidays, hr_gamification, hr_payroll
+#. modules: hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_recruitment, hr_holidays, hr_gamification, hr_payroll
 #: view:hr.config.settings:hr.view_human_resources_configuration
 #: view:hr.attendance.error:hr_attendance.view_hr_attendance_error
 #: view:gamification.badge.user.wizard:hr_gamification.view_badge_wizard_reward
@@ -9084,9 +8246,6 @@ msgstr "on_change_account_id(account_id, user_id)"
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in_message
 #: view:hr.sign.out.project:hr_timesheet.view_hr_timesheet_sign_out
-#: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
-#: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
-#: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
 #: view:hr.timesheet.current.open:hr_timesheet_sheet.view_hr_timesheet_current_open
 msgid "or"
 msgstr "或"
@@ -9112,10 +8271,4 @@ msgstr "to reward this employee for a good action"
 #: field:hr.holidays,can_reset:0
 msgid "unknown"
 msgstr "unknown"
-
-#. module: hr_timesheet_invoice
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_form2
-#: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_tree2
-msgid "{'default_use_timesheets': 1}"
-msgstr "{'default_use_timesheets': 1}"
 
