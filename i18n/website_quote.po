@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:27+0000\n"
-"PO-Revision-Date: 2015-04-13 01:27+0000\n"
+"POT-Creation-Date: 2015-04-17 11:56+0000\n"
+"PO-Revision-Date: 2015-04-17 11:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -472,7 +472,7 @@ msgstr "Product"
 #. module: website_quote
 #: model:ir.model,name:website_quote.model_product_template
 msgid "Product Template"
-msgstr "Product Template"
+msgstr "产品模板"
 
 #. module: website_quote
 #: view:website:website_quote.so_template
@@ -701,7 +701,7 @@ msgstr "Titles with style"
 #. module: website_quote
 #: view:website:website_quote.pricing
 msgid "Total:"
-msgstr "Total:"
+msgstr "合计："
 
 #. module: website_quote
 #: field:sale.order.option,price_unit:0

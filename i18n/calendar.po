@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:17+0000\n"
-"PO-Revision-Date: 2015-04-13 01:17+0000\n"
+"POT-Creation-Date: 2015-04-17 11:45+0000\n"
+"PO-Revision-Date: 2015-04-17 11:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -919,7 +919,7 @@ msgstr "已确认"
 #. module: calendar
 #: field:calendar.attendee,partner_id:0
 msgid "Contact"
-msgstr "联系人"
+msgstr "联系方式"
 
 #. module: calendar
 #: field:calendar.alarm,create_uid:0
@@ -1037,7 +1037,7 @@ msgstr "被邀请者邮件"
 #. module: calendar
 #: field:calendar.contacts,partner_id:0
 msgid "Employee"
-msgstr "雇员"
+msgstr "Employee"
 
 #. module: calendar
 #: field:calendar.event,stop_date:0
@@ -1178,7 +1178,7 @@ msgstr "小时"
 #: field:calendar.event,id:0
 #: field:calendar.event.type,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: calendar
 #: help:calendar.event,message_unread:0
@@ -1619,7 +1619,7 @@ msgstr "主题"
 #. module: calendar
 #: field:calendar.event,message_summary:0
 msgid "Summary"
-msgstr "摘要"
+msgstr "概要"
 
 #. module: calendar
 #: field:calendar.event,su:0
@@ -1680,7 +1680,7 @@ msgstr "星期二"
 #. module: calendar
 #: field:calendar.alarm,type:0
 msgid "Type"
-msgstr "类型"
+msgstr "Type"
 
 #. module: calendar
 #: selection:calendar.attendee,state:0

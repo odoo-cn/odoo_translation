@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:23+0000\n"
-"PO-Revision-Date: 2015-04-13 01:23+0000\n"
+"POT-Creation-Date: 2015-04-17 11:51+0000\n"
+"PO-Revision-Date: 2015-04-17 11:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "<p>根据合同的条款，项目的计工单可开票给 %s </p>"
 #. module: project_timesheet
 #: view:account.analytic.line:project_timesheet.view_account_analytic_line_form_inherit_account_id
 msgid "Analytic Account/Project"
-msgstr "辅助核算项/项目"
+msgstr "分析账户/项目"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_account_analytic_line
@@ -70,17 +70,17 @@ msgstr "辅助核算明细"
 #: view:account.analytic.line:project_timesheet.view_account_analytic_line_search_account_inherit
 #: view:account.analytic.line:project_timesheet.view_account_analytic_line_tree_inherit_account_id
 msgid "Analytic account/project"
-msgstr "辅助核算项目"
+msgstr "分析账户/项目"
 
 #. module: project_timesheet
 #: selection:report.timesheet.task.user,month:0
 msgid "April"
-msgstr "四月"
+msgstr "4月"
 
 #. module: project_timesheet
 #: selection:report.timesheet.task.user,month:0
 msgid "August"
-msgstr "八月"
+msgstr "8月"
 
 #. module: project_timesheet
 #: code:addons/project_timesheet/project_timesheet.py:82
@@ -249,7 +249,7 @@ msgstr "请在相关的员工上面定义产品和产品分类属性科目。\n"
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_project_project
 msgid "Project"
-msgstr "项目"
+msgstr "Project"
 
 #. module: project_timesheet
 #: model:ir.model,name:project_timesheet.model_project_task_work
@@ -327,5 +327,5 @@ msgstr "你不能删除被指派给项目的合作伙伴，但你能不选中“
 #: code:addons/project_timesheet/project_timesheet.py:324
 #, python-format
 msgid "You cannot select a Analytic Account which is in Close or Cancelled state."
-msgstr "你不能选择关闭或者取消状态的辅助核算项"
+msgstr "你不能选择关闭或者取消状态的分析账户"
 

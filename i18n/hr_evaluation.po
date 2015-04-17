@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:19+0000\n"
-"PO-Revision-Date: 2015-04-13 01:19+0000\n"
+"POT-Creation-Date: 2015-04-17 11:47+0000\n"
+"PO-Revision-Date: 2015-04-17 11:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -589,7 +589,7 @@ msgstr "Date of review"
 #: help:hr.evaluation.interview,message_last_post:0
 #: help:hr_evaluation.evaluation,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,deadline:0
@@ -772,7 +772,7 @@ msgstr "一般"
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 #: view:hr_evaluation.plan:hr_evaluation.view_hr_evaluation_plan_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组方式"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
@@ -783,7 +783,7 @@ msgstr "分组"
 #: help:hr.evaluation.interview,message_summary:0
 #: help:hr_evaluation.evaluation,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保存复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_1_1
@@ -1027,7 +1027,7 @@ msgstr "消息和通信历史"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_6
 msgid "Miscellaneous"
-msgstr "Miscellaneous"
+msgstr "其它"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
@@ -1052,7 +1052,7 @@ msgstr "My work contributes towards the continuous improvement of the company, o
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_1
 msgid "Name"
-msgstr "Name"
+msgstr "名称"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_1_1

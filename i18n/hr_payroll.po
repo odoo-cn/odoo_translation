@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:19+0000\n"
-"PO-Revision-Date: 2015-04-13 01:19+0000\n"
+"POT-Creation-Date: 2015-04-17 11:48+0000\n"
+"PO-Revision-Date: 2015-04-17 11:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -132,7 +132,7 @@ msgstr "Authorized signature"
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Bank Account"
-msgstr "银行帐号"
+msgstr "银行账号"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
@@ -400,7 +400,7 @@ msgstr "按工资规则类别分组的明细"
 #: selection:hr.payslip,state:0
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
 msgid "Done"
-msgstr "已完成"
+msgstr "完成"
 
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
@@ -501,7 +501,7 @@ msgstr "例如，输入50意味着50%"
 #. module: hr_payroll
 #: view:hr.salary.rule:hr_payroll.hr_salary_rule_form
 msgid "General"
-msgstr "基本设置"
+msgstr "一般"
 
 #. module: hr_payroll
 #: view:hr.payslip.employees:hr_payroll.view_hr_payslip_by_employees
@@ -524,7 +524,7 @@ msgstr "为已选的所有员工生成工资单"
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_filter
 #: view:hr.salary.rule:hr_payroll.view_hr_rule_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组方式"
 
 #. module: hr_payroll
 #: field:hr.contribution.register,id:0
@@ -770,7 +770,7 @@ msgstr "工资条名称"
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_root_payroll
 #: model:ir.ui.menu,name:hr_payroll.payroll_configure
 msgid "Payroll"
-msgstr "工资表"
+msgstr "薪酬"
 
 #. module: hr_payroll
 #: view:hr.payroll.structure:hr_payroll.view_hr_payroll_structure_filter
@@ -963,7 +963,7 @@ msgstr "相关单号"
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Refund"
-msgstr "退还"
+msgstr "退款"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:334
@@ -1294,7 +1294,7 @@ msgstr "您必须选择员工以生成工资单。"
 #. module: hr_payroll
 #: view:payslip.lines.contribution.register:hr_payroll.view_payslip_lines_contribution_register
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: hr_payroll
 #: help:hr.payslip.line,amount_percentage_base:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:22+0000\n"
-"PO-Revision-Date: 2015-04-13 01:22+0000\n"
+"POT-Creation-Date: 2015-04-17 11:51+0000\n"
+"PO-Revision-Date: 2015-04-17 11:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "产品移除时间"
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_product_template
 msgid "Product Template"
-msgstr "Product Template"
+msgstr "产品模板"
 
 #. module: product_expiry
 #: field:product.template,use_time:0
@@ -69,7 +69,7 @@ msgstr "产品启用时间"
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_quant
 msgid "Quants"
-msgstr "份"
+msgstr "Quants"
 
 #. module: product_expiry
 #: field:stock.production.lot,removal_date:0

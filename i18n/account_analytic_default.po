@@ -1,31 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* account_analytic_default
+#	* account_analytic_default
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:14+0000\n"
-"PO-Revision-Date: 2015-04-13 10:06+0800\n"
+"POT-Creation-Date: 2015-04-17 11:43+0000\n"
+"PO-Revision-Date: 2015-04-17 11:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 1.6.10\n"
-"Language: zh_CN\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
 
 #. module: account_analytic_default
-#: field:product.product,rules_count:0 field:product.template,rules_count:0
+#: field:product.product,rules_count:0
+#: field:product.template,rules_count:0
 msgid "# Analytic Rules"
 msgstr "# Analytic Rules"
 
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
 msgid "Accounts"
-msgstr "账户"
+msgstr "科目"
 
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
@@ -69,12 +68,12 @@ msgstr "条件"
 #. module: account_analytic_default
 #: field:account.analytic.default,create_uid:0
 msgid "Created by"
-msgstr "创建"
+msgstr "Created by"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,create_date:0
 msgid "Created on"
-msgstr "创建"
+msgstr "Created on"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,date_stop:0
@@ -98,8 +97,7 @@ msgstr "分录"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,sequence:0
-msgid ""
-"Gives the sequence order when displaying a list of analytic distribution"
+msgid "Gives the sequence order when displaying a list of analytic distribution"
 msgstr "按序列显示分析分摊"
 
 #. module: account_analytic_default
@@ -110,7 +108,7 @@ msgstr "分组"
 #. module: account_analytic_default
 #: field:account.analytic.default,id:0
 msgid "ID"
-msgstr "编号"
+msgstr "ID"
 
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_account_invoice_line
@@ -120,12 +118,12 @@ msgstr "发票明细"
 #. module: account_analytic_default
 #: field:account.analytic.default,write_uid:0
 msgid "Last Updated by"
-msgstr "最后更新"
+msgstr "Last Updated by"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,write_date:0
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "Last Updated on"
 
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
@@ -136,7 +134,7 @@ msgstr "业务伙伴"
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_stock_picking
 msgid "Picking List"
-msgstr "分拣明细"
+msgstr "装箱单"
 
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
@@ -157,38 +155,22 @@ msgstr "销售订单明细"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,company_id:0
-msgid ""
-"Select a company which will use analytic account specified in analytic "
-"default (e.g. create new customer invoice or Sales order if we select this "
-"company, it will automatically take this as an analytic account)"
-msgstr ""
-"选择一个公司用于默认分析指定的成本管理分析（例如：根据所选公司创建新客户单据"
-"或销售订单，系统将自动照此进行成本管理分析）"
+msgid "Select a company which will use analytic account specified in analytic default (e.g. create new customer invoice or Sales order if we select this company, it will automatically take this as an analytic account)"
+msgstr "选择一个公司用于默认分析指定的成本管理分析（例如：根据所选公司创建新客户单据或销售订单，系统将自动照此进行成本管理分析）"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,partner_id:0
-msgid ""
-"Select a partner which will use analytic account specified in analytic "
-"default (e.g. create new customer invoice or Sales order if we select this "
-"partner, it will automatically take this as an analytic account)"
-msgstr ""
-"选择一个伙伴用于默认分析指定的成本管理分析（例如：根据所选伙伴创建新客户单据"
-"或销售订单，系统将自动照此进行成本管理分析）"
+msgid "Select a partner which will use analytic account specified in analytic default (e.g. create new customer invoice or Sales order if we select this partner, it will automatically take this as an analytic account)"
+msgstr "选择一个伙伴用于默认分析指定的成本管理分析（例如：根据所选伙伴创建新客户单据或销售订单，系统将自动照此进行成本管理分析）"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,product_id:0
-msgid ""
-"Select a product which will use analytic account specified in analytic "
-"default (e.g. create new customer invoice or Sales order if we select this "
-"product, it will automatically take this as an analytic account)"
-msgstr ""
-"选择一个产品用于默认分析指定的成本管理分析（例如：根据所选产品创建新客户单据"
-"或销售订单，系统将自动照此进行成本管理分析）"
+msgid "Select a product which will use analytic account specified in analytic default (e.g. create new customer invoice or Sales order if we select this product, it will automatically take this as an analytic account)"
+msgstr "选择一个产品用于默认分析指定的成本管理分析（例如：根据所选产品创建新客户单据或销售订单，系统将自动照此进行成本管理分析）"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,user_id:0
-msgid ""
-"Select a user which will use analytic account specified in analytic default."
+msgid "Select a user which will use analytic account specified in analytic default."
 msgstr "选择一个用户用在分析科目指定的默认值"
 
 #. module: account_analytic_default
@@ -206,3 +188,4 @@ msgstr "开始日期"
 #: field:account.analytic.default,user_id:0
 msgid "User"
 msgstr "用户"
+

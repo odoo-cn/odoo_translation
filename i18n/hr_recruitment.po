@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:19+0000\n"
-"PO-Revision-Date: 2015-04-13 01:19+0000\n"
+"POT-Creation-Date: 2015-04-17 11:48+0000\n"
+"PO-Revision-Date: 2015-04-17 11:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -490,7 +490,7 @@ msgstr "Contact:"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Contract"
-msgstr "Contract"
+msgstr "合同"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job4
@@ -561,7 +561,7 @@ msgstr "Creation Week"
 #. module: hr_recruitment
 #: help:hr.applicant,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -762,7 +762,7 @@ msgstr "Feedback of interviews..."
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.recruitment_1_2_2
 msgid "Female"
-msgstr "Female"
+msgstr "女性"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
@@ -839,17 +839,17 @@ msgstr "毕业生"
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组方式"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid "Hired Employees"
-msgstr "Hired Employees"
+msgstr "已雇用员工"
 
 #. module: hr_recruitment
 #: help:hr.applicant,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
 
 #. module: hr_recruitment
 #: field:hr.applicant,id:0
@@ -870,7 +870,7 @@ msgstr "IT"
 #. module: hr_recruitment
 #: help:hr.applicant,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "如果要求你关注新消息，勾选此项"
 
 #. module: hr_recruitment
 #: model:survey.question,comments_message:hr_recruitment.recruitment_1_1
@@ -929,7 +929,7 @@ msgstr "Is a Follower"
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 msgid "Job"
-msgstr "职位"
+msgstr "职务"
 
 #. module: hr_recruitment
 #: field:hr.job,address_id:0
@@ -939,7 +939,7 @@ msgstr "Job Location"
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_job
 msgid "Job Position"
-msgstr "工作职位"
+msgstr "Job Position"
 
 #. module: hr_recruitment
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_job
@@ -1001,7 +1001,7 @@ msgstr "Last Updated on"
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid "Launch Recruitment"
-msgstr "启动招聘"
+msgstr "Launch Recruitment"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.source,name:hr_recruitment.source_linkedin
@@ -1011,7 +1011,7 @@ msgstr "LinkedIn"
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.recruitment_1_2_1
 msgid "Male"
-msgstr "Male"
+msgstr "男性"
 
 #. module: hr_recruitment
 #: help:hr.config.settings,module_document:0
@@ -1023,7 +1023,7 @@ msgstr "Manage your CV's and motivation letter related to all applicants.\n"
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_manager
 msgid "Manager"
-msgstr "Manager"
+msgstr "经理"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_licenced
@@ -1048,7 +1048,7 @@ msgstr "消息"
 #. module: hr_recruitment
 #: help:hr.applicant,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "消息和通信历史"
 
 #. module: hr_recruitment
 #: field:hr.applicant,partner_mobile:0
@@ -1174,7 +1174,7 @@ msgstr "电话"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Print"
-msgstr "Print"
+msgstr "打印"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.hr_job_survey
@@ -1404,7 +1404,7 @@ msgstr "阶段"
 #. module: hr_recruitment
 #: model:mail.message.subtype,name:hr_recruitment.mt_applicant_stage_changed
 msgid "Stage Changed"
-msgstr "阶段变更"
+msgstr "Stage Changed"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.stage:hr_recruitment.hr_recruitment_stage_form
@@ -1414,7 +1414,7 @@ msgstr "阶段定义"
 #. module: hr_recruitment
 #: model:mail.message.subtype,description:hr_recruitment.mt_applicant_stage_changed
 msgid "Stage changed"
-msgstr "任务阶段已改变"
+msgstr "Stage changed"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_stage
@@ -1630,5 +1630,5 @@ msgstr "oe_kanban_text_red"
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
 msgid "or"
-msgstr "or"
+msgstr "或"
 

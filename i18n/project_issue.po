@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:22+0000\n"
-"PO-Revision-Date: 2015-04-13 01:22+0000\n"
+"POT-Creation-Date: 2015-04-17 11:51+0000\n"
+"PO-Revision-Date: 2015-04-17 11:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: project_issue
 #: field:project.issue.report,email:0
 msgid "# Emails"
-msgstr "电子邮件"
+msgstr "# Emails"
 
 #. module: project_issue
 #: field:res.partner,issue_count:0
@@ -28,7 +28,7 @@ msgstr "# Issues"
 #. module: project_issue
 #: field:project.issue.report,nbr:0
 msgid "# of Issues"
-msgstr "问题编号"
+msgstr "# of Issues"
 
 #. module: project_issue
 #: code:addons/project_issue/project_issue.py:299
@@ -114,12 +114,12 @@ msgstr "允许直接从邮件收件服务器收到的邮件创建相关问题."
 #. module: project_issue
 #: model:ir.model,name:project_issue.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "辅助核算科目"
+msgstr "辅助核算项"
 
 #. module: project_issue
 #: field:project.issue,date_open:0
 msgid "Assigned"
-msgstr "Assigned"
+msgstr "已指派"
 
 #. module: project_issue
 #: view:project.issue:project_issue.view_project_issue_filter
@@ -127,7 +127,7 @@ msgstr "Assigned"
 #: view:project.issue.report:project_issue.view_project_issue_report_filter
 #: field:project.issue.report,user_id:0
 msgid "Assigned to"
-msgstr "指派到"
+msgstr "已指派给"
 
 #. module: project_issue
 #: field:project.issue.report,delay_close:0
@@ -224,7 +224,7 @@ msgstr "联系方式"
 #: view:project.issue.report:project_issue.view_project_issue_report_filter
 #: field:project.issue.report,create_date:0
 msgid "Create Date"
-msgstr "Create Date"
+msgstr "创建日期"
 
 #. module: project_issue
 #: view:project.issue:project_issue.view_project_issue_filter
@@ -448,7 +448,7 @@ msgstr "Issue Ready for Next Stage"
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_project_issue_stage
 msgid "Issue Stage Changed"
-msgstr "问题阶段已改变"
+msgstr "问题进程已改变"
 
 #. module: project_issue
 #: view:project.issue:project_issue.view_project_issue_filter
@@ -658,7 +658,7 @@ msgstr "项目:"
 #. module: project_issue
 #: selection:project.issue,kanban_state:0
 msgid "Ready for next stage"
-msgstr "Ready for next stage"
+msgstr "准备好下一个进程"
 
 #. module: project_issue
 #: field:project.issue.report,reviewer_id:0
@@ -691,18 +691,18 @@ msgstr "搜索"
 #: view:project.issue.report:project_issue.view_project_issue_report_filter
 #: field:project.issue.report,stage_id:0
 msgid "Stage"
-msgstr "阶段"
+msgstr "进程"
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_issue_stage
 msgid "Stage Changed"
-msgstr "阶段变更"
+msgstr "Stage Changed"
 
 #. module: project_issue
 #: model:mail.message.subtype,description:project_issue.mt_issue_stage
 #: model:mail.message.subtype,description:project_issue.mt_project_issue_stage
 msgid "Stage changed"
-msgstr "任务阶段已改变"
+msgstr "Stage changed"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_form_view
@@ -717,7 +717,7 @@ msgstr "状态"
 #. module: project_issue
 #: field:project.issue,message_summary:0
 msgid "Summary"
-msgstr "摘要"
+msgstr "总计"
 
 #. module: project_issue
 #: field:project.issue,categ_ids:0
@@ -823,7 +823,7 @@ msgstr "issues"
 #. module: project_issue
 #: field:project.project,issue_ids:0
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知"
 
 #. module: project_issue
 #: view:project.project:project_issue.view_project_form_inherited

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:27+0000\n"
-"PO-Revision-Date: 2015-04-13 01:27+0000\n"
+"POT-Creation-Date: 2015-04-17 11:56+0000\n"
+"PO-Revision-Date: 2015-04-17 11:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -611,7 +611,7 @@ msgstr "Product Product Categories"
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_template
 msgid "Product Template"
-msgstr "Product Template"
+msgstr "产品模板"
 
 #. module: website_sale
 #: view:website:website_sale.product
@@ -977,7 +977,7 @@ msgstr "Total To Pay:"
 #. module: website_sale
 #: view:website:website_sale.total
 msgid "Total:"
-msgstr "Total:"
+msgstr "合计："
 
 #. module: website_sale
 #: field:sale.order,payment_tx_id:0

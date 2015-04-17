@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:27+0000\n"
-"PO-Revision-Date: 2015-04-13 01:27+0000\n"
+"POT-Creation-Date: 2015-04-17 11:57+0000\n"
+"PO-Revision-Date: 2015-04-17 11:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -104,6 +104,37 @@ msgstr "\n"
 " - Hungarian Bank information\n"
 " \n"
 " "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_employee_phone_extension
+msgid "\n"
+"\n"
+"Employee Phone Extension\n"
+"========================\n"
+"This module adds the following to employees :\n"
+"* internal_number\n"
+"* short_number\n"
+"\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"* Sandy Carter (sandy.carter@savoirfairelinux.com)\n"
+"* El Hadji Dem (elhadji.dem@savoirfairelinux.com)\n"
+"    "
+msgstr "\n"
+"\n"
+"Employee Phone Extension\n"
+"========================\n"
+"This module adds the following to employees :\n"
+"* internal_number\n"
+"* short_number\n"
+"\n"
+"\n"
+"Contributors\n"
+"------------\n"
+"* Sandy Carter (sandy.carter@savoirfairelinux.com)\n"
+"* El Hadji Dem (elhadji.dem@savoirfairelinux.com)\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_crm_claim
@@ -286,15 +317,15 @@ msgstr "\n"
 #. module: base
 #: model:ir.module.module,summary:base.module_china_smb_reports
 msgid "\n"
-"        中国中小型企业财务报表\n"
-"        1，资产负债表\n"
-"        2，利润表\n"
-"        3，现金流量表"
+"        中国中小企业财务告\n"
+"        1，资产负债报告\n"
+"        2，损益报告\n"
+"        3，现金流量报告"
 msgstr "\n"
-"        中国中小型企业财务报表\n"
-"        1，资产负债表\n"
-"        2，利润表\n"
-"        3，现金流量表"
+"        中国中小企业财务告\n"
+"        1，资产负债报告\n"
+"        2，损益报告\n"
+"        3，现金流量报告"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_multilang
@@ -542,6 +573,33 @@ msgstr "\n"
 "\n"
 "    keys = ['code', 'info', 'price', 'discount_1', 'discount_2', 'retail',\n"
 "    'pdv1', 'pdv2']\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_skill
+msgid "\n"
+"    This module allows you to manage your company and employees skills.\n"
+"    "
+msgstr "\n"
+"    This module allows you to manage your company and employees skills.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_language
+msgid "\n"
+"    This module allows you to manage your employee languages.\n"
+"    "
+msgstr "\n"
+"    This module allows you to manage your employee languages.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_resume
+msgid "\n"
+"    This module allows you to manage your employee resumes.\n"
+"    "
+msgstr "\n"
+"    This module allows you to manage your employee resumes.\n"
 "    "
 
 #. module: base
@@ -872,6 +930,38 @@ msgstr "\n"
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_accrual
+msgid "\n"
+"Accruals\n"
+"========\n"
+"\n"
+"An Accrual is any benefit (usually time) that accrues on behalf of an employee over an extended\n"
+"period of time. This can be vacation days, sick days, or a simple time bank. The actual policy\n"
+"and mechanics of accrual should be handled by other modules. This module only provides\n"
+"the basic framework for recording the data.\n"
+"    "
+msgstr "\n"
+"Accruals\n"
+"========\n"
+"\n"
+"An Accrual is any benefit (usually time) that accrues on behalf of an employee over an extended\n"
+"period of time. This can be vacation days, sick days, or a simple time bank. The actual policy\n"
+"and mechanics of accrual should be handled by other modules. This module only provides\n"
+"the basic framework for recording the data.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_payslip_amendment
+msgid "\n"
+"Add Amendments to Current and Future Pay Slips\n"
+"==============================================\n"
+"    "
+msgstr "\n"
+"Add Amendments to Current and Future Pay Slips\n"
+"==============================================\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_sale_order_dates
 msgid "\n"
 "Add additional date information to the sales order.\n"
@@ -1150,6 +1240,40 @@ msgstr "\n"
 "in PDF format which can be accessed by Menu Reporting -> Accounting Tests, then select the test \n"
 "and print the report from Print button in header area.\n"
 ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_job_categories
+msgid "\n"
+"Attach Categories (Tags) to Employees Based on Job Position\n"
+"===========================================================\n"
+"\n"
+"This module is useful for tagging employees based on their job positions. For example,\n"
+"all Supervisors could be attached to the Supervisors category. Define which categries\n"
+"a job belongs to in the configuration for the job. When an employee is assigned a particular\n"
+"job the categories attached to that job will be attached to the employee record as well.\n"
+"    "
+msgstr "\n"
+"Attach Categories (Tags) to Employees Based on Job Position\n"
+"===========================================================\n"
+"\n"
+"This module is useful for tagging employees based on their job positions. For example,\n"
+"all Supervisors could be attached to the Supervisors category. Define which categries\n"
+"a job belongs to in the configuration for the job. When an employee is assigned a particular\n"
+"job the categories attached to that job will be attached to the employee record as well.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_report_payroll_attendance_summary
+msgid "\n"
+"Attendance Summary for the purposes of Payroll\n"
+"==============================================\n"
+"\n"
+"    "
+msgstr "\n"
+"Attendance Summary for the purposes of Payroll\n"
+"==============================================\n"
+"\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_base_gengo
@@ -1895,6 +2019,139 @@ msgstr "\n"
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_report_manpower
+msgid "\n"
+"Daily Man Power Report by Department\n"
+"====================================\n"
+"\n"
+"    "
+msgstr "\n"
+"Daily Man Power Report by Department\n"
+"====================================\n"
+"\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_policy_absence
+msgid "\n"
+"Define Absence Policies\n"
+"========================\n"
+"Define properties of an absence policy, such as:\n"
+"    * Type (paid, unpaid)\n"
+"    * Rate (multiplier of base wage)\n"
+"    "
+msgstr "\n"
+"Define Absence Policies\n"
+"========================\n"
+"Define properties of an absence policy, such as:\n"
+"    * Type (paid, unpaid)\n"
+"    * Rate (multiplier of base wage)\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_policy_presence
+msgid "\n"
+"Define Employee Presence Policies\n"
+"=================================\n"
+"Define properties of an employee presence policy, such as:\n"
+"    * The number of regular working hours in a day\n"
+"    * The maximum possible hours\n"
+"    * Rate (multiplier of base wage)\n"
+"    "
+msgstr "\n"
+"Define Employee Presence Policies\n"
+"=================================\n"
+"Define properties of an employee presence policy, such as:\n"
+"    * The number of regular working hours in a day\n"
+"    * The maximum possible hours\n"
+"    * Rate (multiplier of base wage)\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_job_hierarchy
+msgid "\n"
+"Define Hierarchy of Jobs\n"
+"========================\n"
+"\n"
+"    1. Define parent/child relationship for jobs, which is useful for\n"
+"       determining supervisor/subordinate relationships.\n"
+"    2. Provide a knob in Job configuration to specify if the person with that\n"
+"       job should be considered the Department manager.\n"
+"    3. Automatically set the manager of a department based on this knob in job configuration.\n"
+"    4. Automatically set an employee's manager from the department's manager.\n"
+"    "
+msgstr "\n"
+"Define Hierarchy of Jobs\n"
+"========================\n"
+"\n"
+"    1. Define parent/child relationship for jobs, which is useful for\n"
+"       determining supervisor/subordinate relationships.\n"
+"    2. Provide a knob in Job configuration to specify if the person with that\n"
+"       job should be considered the Department manager.\n"
+"    3. Automatically set the manager of a department based on this knob in job configuration.\n"
+"    4. Automatically set an employee's manager from the department's manager.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_contract_init
+msgid "\n"
+"Define Initial Settings on New Contracts\n"
+"========================================\n"
+"    - Starting Wages\n"
+"    - Salary Structure\n"
+"    - Trial Period Length\n"
+"    "
+msgstr "\n"
+"Define Initial Settings on New Contracts\n"
+"========================================\n"
+"    - Starting Wages\n"
+"    - Salary Structure\n"
+"    - Trial Period Length\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_policy_ot
+msgid "\n"
+"Define Overtime Policies\n"
+"========================\n"
+"Define properties of an overtime policy, such as:\n"
+"    * Type (daily, weekly, or holiday)\n"
+"    * Rate (multiplier of base wage)\n"
+"    * Active Hours\n"
+"    "
+msgstr "\n"
+"Define Overtime Policies\n"
+"========================\n"
+"Define properties of an overtime policy, such as:\n"
+"    * Type (daily, weekly, or holiday)\n"
+"    * Rate (multiplier of base wage)\n"
+"    * Active Hours\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_policy_accrual
+msgid "\n"
+"Define Time Accrual Policies\n"
+"============================\n"
+"Define properties of a leave accrual policy. The accrued time is calculated\n"
+"based on the length of service of the employee. An additional premium may be\n"
+"added on the base rate based on additional months of service. This policy is ideal\n"
+"for annual leave accruals. If the type of accrual is 'Standard' time is accrued and\n"
+"withdrawn manually. However, if the type is 'Calendar' the time is accrued (and recorded)\n"
+"at a fixed frequency.\n"
+"    "
+msgstr "\n"
+"Define Time Accrual Policies\n"
+"============================\n"
+"Define properties of a leave accrual policy. The accrued time is calculated\n"
+"based on the length of service of the employee. An additional premium may be\n"
+"added on the base rate based on additional months of service. This policy is ideal\n"
+"for annual leave accruals. If the type of accrual is 'Standard' time is accrued and\n"
+"withdrawn manually. However, if the type is 'Calendar' the time is accrued (and recorded)\n"
+"at a fixed frequency.\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_website_sale_delivery
 msgid "\n"
 "Delivery Costs\n"
@@ -1918,6 +2175,21 @@ msgstr "\n"
 "============================================\n"
 "\n"
 "Creates demo data like leads, campaigns and segments for the module marketing_campaign.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_employee_education
+msgid "\n"
+"Details About and Employee's Education\n"
+"======================================\n"
+"\n"
+"    Add an extra field about an employee's education.\n"
+"    "
+msgstr "\n"
+"Details About and Employee's Education\n"
+"======================================\n"
+"\n"
+"    Add an extra field about an employee's education.\n"
 "    "
 
 #. module: base
@@ -2105,6 +2377,29 @@ msgstr "\n"
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_payroll_period
+msgid "\n"
+"Easy Payroll Management\n"
+"=======================\n"
+"This module implements a more formal payroll cycle. This cycle is based on payroll\n"
+"period schedules configured by the user. An end-of-pay-period wizard guides the\n"
+"HR officer or manager through the payroll process. For each payroll period a specific set\n"
+"of criteria have to be met in order to proceed to the next stage of the process. For\n"
+"example:\n"
+"    - Attendance records are complete\n"
+"    "
+msgstr "\n"
+"Easy Payroll Management\n"
+"=======================\n"
+"This module implements a more formal payroll cycle. This cycle is based on payroll\n"
+"period schedules configured by the user. An end-of-pay-period wizard guides the\n"
+"HR officer or manager through the payroll process. For each payroll period a specific set\n"
+"of criteria have to be met in order to proceed to the next stage of the process. For\n"
+"example:\n"
+"    - Attendance records are complete\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_email_template
 msgid "\n"
 "Email Templating (simplified version of the original Power Email by Openlabs).\n"
@@ -2164,6 +2459,122 @@ msgstr "\n"
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_emergency_contact
+msgid "\n"
+"Emergency Contact information for Employee\n"
+"==========================================\n"
+"    "
+msgstr "\n"
+"Emergency Contact information for Employee\n"
+"==========================================\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_contract_state
+msgid "\n"
+"Employee Contract Workflow and Notifications\n"
+"============================================\n"
+"\n"
+"Easily find and keep track of employees who are nearing the end of their contracts and\n"
+"trial periods.\n"
+"    "
+msgstr "\n"
+"Employee Contract Workflow and Notifications\n"
+"============================================\n"
+"\n"
+"Easily find and keep track of employees who are nearing the end of their contracts and\n"
+"trial periods.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_family
+msgid "\n"
+"Employee Family Information\n"
+"===========================\n"
+"\n"
+"    Enter extra information about employee's family\n"
+"    "
+msgstr "\n"
+"Employee Family Information\n"
+"===========================\n"
+"\n"
+"    Enter extra information about employee's family\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_employee_id
+msgid "\n"
+"Employee Identification Numbers\n"
+"===============================\n"
+"Company wide unique employee ID\n"
+"    "
+msgstr "\n"
+"Employee Identification Numbers\n"
+"===============================\n"
+"Company wide unique employee ID\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_employee_legacy_id
+msgid "\n"
+"Employee Identification Numbers from Previous System\n"
+"====================================================\n"
+"\n"
+"When switching from a legacy HR system to a new one. It may be necessary\n"
+"to have a record of the ID No. used in the previous system.\n"
+"    "
+msgstr "\n"
+"Employee Identification Numbers from Previous System\n"
+"====================================================\n"
+"\n"
+"When switching from a legacy HR system to a new one. It may be necessary\n"
+"to have a record of the ID No. used in the previous system.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_schedule
+msgid "\n"
+"Employee Shift Scheduling\n"
+"=========================\n"
+"\n"
+"Easily create, manage, and track employee schedules.\n"
+"    "
+msgstr "\n"
+"Employee Shift Scheduling\n"
+"=========================\n"
+"\n"
+"Easily create, manage, and track employee schedules.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_report_turnover
+msgid "\n"
+"Employee Turn-over by Department\n"
+"================================\n"
+"\n"
+"    "
+msgstr "\n"
+"Employee Turn-over by Department\n"
+"================================\n"
+"\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_employee_state
+msgid "\n"
+"Employee's Employment Status\n"
+"============================\n"
+"\n"
+"Track the HR status of employees.\n"
+"    "
+msgstr "\n"
+"Employee's Employment Status\n"
+"============================\n"
+"\n"
+"Track the HR status of employees.\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_auth_crypt
 msgid "\n"
 "Encrypted passwords\n"
@@ -2219,6 +2630,68 @@ msgstr "\n"
 "necessarily have to be enabled).\n"
 "\n"
 ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_holidays_extension
+msgid "\n"
+"Extended Capabilities for HR Holidays (Leaves)\n"
+"==============================================\n"
+"\n"
+"    * When calculating the number of leave days take into account the employee's schedule and\n"
+"      public holidays\n"
+"    * The 'Need Action' mechanism assumes the HR Manager approves leave requests\n"
+"    * Rename 'Leave Requests' menu item to 'My Leaves' (which is closer to its intent)\n"
+"    * Add a new menu item: All Leave Requests\n"
+"    * New way of entering leaves based on the number of days requested, rather\n"
+"      than by specifying a start and end date. You tell it how many days to\n"
+"      grant and it calculates the start and end dates based on the employee's schedule.\n"
+"    * Allow a manager to approve the leave requests of subordinates (manager must be\n"
+"      immediate superior of employee or manager of employee's department and have\n"
+"      leave approval rights)\n"
+"    "
+msgstr "\n"
+"Extended Capabilities for HR Holidays (Leaves)\n"
+"==============================================\n"
+"\n"
+"    * When calculating the number of leave days take into account the employee's schedule and\n"
+"      public holidays\n"
+"    * The 'Need Action' mechanism assumes the HR Manager approves leave requests\n"
+"    * Rename 'Leave Requests' menu item to 'My Leaves' (which is closer to its intent)\n"
+"    * Add a new menu item: All Leave Requests\n"
+"    * New way of entering leaves based on the number of days requested, rather\n"
+"      than by specifying a start and end date. You tell it how many days to\n"
+"      grant and it calculates the start and end dates based on the employee's schedule.\n"
+"    * Allow a manager to approve the leave requests of subordinates (manager must be\n"
+"      immediate superior of employee or manager of employee's department and have\n"
+"      leave approval rights)\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_payroll_extension
+msgid "\n"
+"Extended set of Payroll Rules and Structures\n"
+"============================================\n"
+"\n"
+"    - Detailed caclculatation of worked hours, leaves, overtime, etc\n"
+"    - Overtime\n"
+"    - Paid and Unpaid Leaves\n"
+"    - Federal Income Tax Withholding rules\n"
+"    - Provident/Pension Fund contributions\n"
+"    - Various Earnings and Deductions\n"
+"    - Payroll Report\n"
+"    "
+msgstr "\n"
+"Extended set of Payroll Rules and Structures\n"
+"============================================\n"
+"\n"
+"    - Detailed caclculatation of worked hours, leaves, overtime, etc\n"
+"    - Overtime\n"
+"    - Paid and Unpaid Leaves\n"
+"    - Federal Income Tax Withholding rules\n"
+"    - Provident/Pension Fund contributions\n"
+"    - Various Earnings and Deductions\n"
+"    - Payroll Report\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_pos_sale_order
@@ -2455,6 +2928,53 @@ msgstr "\n"
 ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_contract_reference
+msgid "\n"
+"HR Contract Reference\n"
+"=====================\n"
+"This module provides :\n"
+"    - Unique reference number for each employee contract\n"
+"    - Automatically generated\n"
+"    "
+msgstr "\n"
+"HR Contract Reference\n"
+"=====================\n"
+"This module provides :\n"
+"    - Unique reference number for each employee contract\n"
+"    - Automatically generated\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_policy_group
+msgid "\n"
+"HR Policy Groups\n"
+"================\n"
+"\n"
+"Define a collection of policies, such as Overtime, that apply to a contract.\n"
+"    "
+msgstr "\n"
+"HR Policy Groups\n"
+"================\n"
+"\n"
+"Define a collection of policies, such as Overtime, that apply to a contract.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_webcam
+msgid "\n"
+"HR WebCam\n"
+"=========\n"
+"\n"
+"Capture employee pictures with an attached web cam.\n"
+"    "
+msgstr "\n"
+"HR WebCam\n"
+"=========\n"
+"\n"
+"Capture employee pictures with an attached web cam.\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_hw_proxy
 msgid "\n"
 "Hardware Poxy\n"
@@ -2496,6 +3016,19 @@ msgstr "\n"
 "良好工具。这个菜单更适合口头沟通，并不需要\n"
 "和具体的问题相关。选择一个客户，添加日志并\n"
 "用渠道和优先级对问题进行分类。\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_security
+msgid "\n"
+"Human Resource Permission Groups\n"
+"================================\n"
+"\n"
+"    "
+msgstr "\n"
+"Human Resource Permission Groups\n"
+"================================\n"
+"\n"
 "    "
 
 #. module: base
@@ -2754,6 +3287,36 @@ msgstr "\n"
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_employee_seniority
+msgid "\n"
+"Keep Track of Length of Employment\n"
+"==================================\n"
+"    "
+msgstr "\n"
+"Keep Track of Length of Employment\n"
+"==================================\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_labour_union
+msgid "\n"
+"Labour Union\n"
+"=====================\n"
+"\n"
+"This module adds:\n"
+"    * Field on employee record denoting whether the employee is a member of a labour union\n"
+"    * Salary rule for deducting union fee from union members\n"
+"    "
+msgstr "\n"
+"Labour Union\n"
+"=====================\n"
+"\n"
+"This module adds:\n"
+"    * Field on employee record denoting whether the employee is a member of a labour union\n"
+"    * Salary rule for deducting union fee from union members\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_stock_landed_costs
 msgid "\n"
 "Landed Costs Management\n"
@@ -2858,6 +3421,40 @@ msgstr "\n"
 "This module extends mrp_production_add_middle_stuff and\n"
 "mrp_operations_extension to work altogether.\n"
 ""
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_simplify
+msgid "\n"
+"Make Employee Records and Contracts Easier to Work With\n"
+"=======================================================\n"
+"    1. Make the job id in employee object reference job id in latest contract.\n"
+"    2. When moving from employee to contract pre-populate the employee field.\n"
+"    3. In the contract form show only those positions belonging to the\n"
+"       department the employee belongs to.\n"
+"    4. Make country (nationality) default to Ethiopia\n"
+"    5. Make official identification document number unique\n"
+"    "
+msgstr "\n"
+"Make Employee Records and Contracts Easier to Work With\n"
+"=======================================================\n"
+"    1. Make the job id in employee object reference job id in latest contract.\n"
+"    2. When moving from employee to contract pre-populate the employee field.\n"
+"    3. In the contract form show only those positions belonging to the\n"
+"       department the employee belongs to.\n"
+"    4. Make country (nationality) default to Ethiopia\n"
+"    5. Make official identification document number unique\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_public_holidays
+msgid "\n"
+"Manage Public Holidays\n"
+"======================\n"
+"    "
+msgstr "\n"
+"Manage Public Holidays\n"
+"======================\n"
+"    "
 
 #. module: base
 #: model:ir.module.module,description:base.module_stock_dropshipping
@@ -3757,6 +4354,19 @@ msgstr "\n"
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_report_payroll_net
+msgid "\n"
+"Net Payroll Payable by Department\n"
+"=================================\n"
+"\n"
+"    "
+msgstr "\n"
+"Net Payroll Payable by Department\n"
+"=================================\n"
+"\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_base_import
 msgid "\n"
 "New extensible file import for OpenERP\n"
@@ -4132,6 +4742,17 @@ msgstr "\n"
 ""
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_department_sequence
+msgid "\n"
+"Order by Parent-Child Relationship and by Sequence Number\n"
+"=========================================================\n"
+"    "
+msgstr "\n"
+"Order by Parent-Child Relationship and by Sequence Number\n"
+"=========================================================\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_event
 msgid "\n"
 "Organization and management of Events.\n"
@@ -4213,6 +4834,36 @@ msgid "\n"
 msgstr "\n"
 "Partners geolocalization\n"
 "========================\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_payroll_register
+msgid "\n"
+"Payroll Register\n"
+"================\n"
+"    - Process payslips by department\n"
+"    "
+msgstr "\n"
+"Payroll Register\n"
+"================\n"
+"    - Process payslips by department\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_payroll_register_report
+msgid "\n"
+"Payroll Register Report\n"
+"=======================\n"
+"    - Complete list of employees and payroll lines\n"
+"    - Comprehensive report that includes all departments\n"
+"    - Printed Pay Slips\n"
+"    "
+msgstr "\n"
+"Payroll Register Report\n"
+"=======================\n"
+"    - Complete list of employees and payroll lines\n"
+"    - Comprehensive report that includes all departments\n"
+"    - Printed Pay Slips\n"
 "    "
 
 #. module: base
@@ -4473,6 +5124,17 @@ msgstr "\n"
 "------------------------------------------------\n"
 "* Period size (Day, Week, Month)\n"
 "* Maximal difference between timesheet and attendances\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_labour_recruitment
+msgid "\n"
+"Recruitment of New Employees\n"
+"============================\n"
+"    "
+msgstr "\n"
+"Recruitment of New Employees\n"
+"============================\n"
 "    "
 
 #. module: base
@@ -6962,6 +7624,19 @@ msgstr "\n"
 "    "
 
 #. module: base
+#: model:ir.module.module,description:base.module_hr_transfer
+msgid "\n"
+"Transfer Employees between Departments\n"
+"======================================\n"
+"\n"
+"    "
+msgstr "\n"
+"Transfer Employees between Departments\n"
+"======================================\n"
+"\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_l10n_tr
 msgid "\n"
 "Türkiye için Tek düzen hesap planı şablonu OpenERP Modülü.\n"
@@ -7150,6 +7825,34 @@ msgstr "\n"
 "Dashboard / Reports for Warehouse Management includes:\n"
 "------------------------------------------------------\n"
 "* Stock Inventory Value at given date (support dates in the past)\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_wage_increment
+msgid "\n"
+"Wage Increment Handling\n"
+"=======================\n"
+"\n"
+"    This module provides a way to handle wage increments that automatically creates a\n"
+"    new contract for the rest of the duration of the employee's current contract with the new amount.\n"
+"    "
+msgstr "\n"
+"Wage Increment Handling\n"
+"=======================\n"
+"\n"
+"    This module provides a way to handle wage increments that automatically creates a\n"
+"    new contract for the rest of the duration of the employee's current contract with the new amount.\n"
+"    "
+
+#. module: base
+#: model:ir.module.module,description:base.module_hr_infraction
+msgid "\n"
+"Warning/Disciplinary Action Management\n"
+"========================================\n"
+"    "
+msgstr "\n"
+"Warning/Disciplinary Action Management\n"
+"========================================\n"
 "    "
 
 #. module: base
@@ -7761,6 +8464,11 @@ msgid "Abkhazian / аҧсуа"
 msgstr "Abkhazian / аҧсуа"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_policy_absence
+msgid "Absence Policy"
+msgstr "Absence Policy"
+
+#. module: base
 #: field:res.company,user_ids:0
 msgid "Accepted Users"
 msgstr "接受的用户"
@@ -7895,6 +8603,11 @@ msgstr "Accounting Consistency Tests"
 #: model:ir.module.module,shortdesc:base.module_account_accountant
 msgid "Accounting and Finance"
 msgstr "会计与财务"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_accrual
+msgid "Accrual"
+msgstr "Accrual"
 
 #. module: base
 #: view:ir.actions.act_window:base.view_window_action_search
@@ -8576,6 +9289,11 @@ msgid "Attachments"
 msgstr "附件"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_report_payroll_attendance_summary
+msgid "Attendance Summary for Payroll"
+msgstr "Attendance Summary for Payroll"
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_attendance
 #: model:res.groups,name:base.group_hr_attendance
 msgid "Attendances"
@@ -9182,6 +9900,11 @@ msgid "Cape Verde"
 msgstr "佛得角"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_webcam
+msgid "Capture employee picture with webcam"
+msgstr "Capture employee picture with webcam"
+
+#. module: base
 #: selection:ir.model.fields,on_delete:0
 msgid "Cascade"
 msgstr "级联"
@@ -9629,6 +10352,11 @@ msgid "Company Bank Accounts"
 msgstr "公司银行账户"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_generic_modules_company_data
+msgid "Company Data"
+msgstr "Company Data"
+
+#. module: base
 #: model:ir.actions.act_window,name:base.action_inventory_form
 #: model:ir.ui.menu,name:base.menu_action_inventory_form
 msgid "Company Defaults"
@@ -9870,6 +10598,11 @@ msgid "Context dictionary as Python expression, empty by default (Default: {})"
 msgstr "使用 Python 语言表达式的上下文字典，默认为空（默认值：{}）。"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_contract_init
+msgid "Contracts - Initial Settings"
+msgstr "Contracts - Initial Settings"
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_account_analytic_analysis
 msgid "Contracts Management"
 msgstr "合同管理"
@@ -9994,7 +10727,7 @@ msgstr "创建访问权限"
 #: field:ir.ui.view,create_date:0
 #: field:res.partner,create_date:0
 msgid "Create Date"
-msgstr "创建时间"
+msgstr "Create Date"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_project_issue
@@ -10729,6 +11462,16 @@ msgid "Denmark"
 msgstr "丹麦"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_department_sequence
+msgid "Department Sequence"
+msgstr "Department Sequence"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_transfer
+msgid "Departmental Transfer"
+msgstr "Departmental Transfer"
+
+#. module: base
 #: model:ir.module.category,name:base.module_category_hidden_dependecy
 msgid "Dependecy"
 msgstr "Dependecy"
@@ -11106,9 +11849,54 @@ msgid "Employee Directory"
 msgstr "员工目录"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_employee_education
+msgid "Employee Education Records"
+msgstr "Employee Education Records"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_employee_id
+msgid "Employee ID"
+msgstr "Employee ID"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_infraction
+msgid "Employee Infraction Management"
+msgstr "Employee Infraction Management"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_employee_phone_extension
+msgid "Employee Phone Extension"
+msgstr "Employee Phone Extension"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_policy_presence
+msgid "Employee Presence Policy"
+msgstr "Employee Presence Policy"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_employee_seniority
+msgid "Employee Seniority"
+msgstr "Employee Seniority"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_schedule
+msgid "Employee Shift Scheduling"
+msgstr "Employee Shift Scheduling"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_report_turnover
+msgid "Employee Turn-over Report"
+msgstr "Employee Turn-over Report"
+
+#. module: base
 #: model:ir.actions.act_window,name:base.action_partner_employee_form
 msgid "Employees"
 msgstr "员工"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_employee_state
+msgid "Employment Status"
+msgstr "Employment Status"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -11471,6 +12259,11 @@ msgstr "FIX searching product by ref in POS"
 #: model:res.country,name:base.fk
 msgid "Falkland Islands"
 msgstr "福克兰群岛"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_family
+msgid "Family Information"
+msgstr "Family Information"
 
 #. module: base
 #: model:res.country,name:base.fo
@@ -12182,9 +12975,34 @@ msgid "Guyana"
 msgstr "圭亚那"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_contract_reference
+msgid "HR Contract Reference"
+msgstr "HR Contract Reference"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_emergency_contact
+msgid "HR Emergency Contact"
+msgstr "HR Emergency Contact"
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_gamification
 msgid "HR Gamification"
 msgstr "HR Gamification"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_holidays_extension
+msgid "HR Holidays Extension"
+msgstr "HR Holidays Extension"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_security
+msgid "HR Permission Groups"
+msgstr "HR Permission Groups"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_wage_increment
+msgid "HR Wage Increment"
+msgstr "HR Wage Increment"
 
 #. module: base
 #: model:ir.module.module,description:base.module_quality_control_hr
@@ -12425,9 +13243,15 @@ msgid "How many times the method is called,\n"
 msgstr "该方法调用的次数限制，负数表示无限制。"
 
 #. module: base
+#: model:ir.module.category,name:base.module_category_generic_modules_human_resources
 #: model:ir.module.category,name:base.module_category_human_resources
 msgid "Human Resources"
 msgstr "人力资源"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_policy_group
+msgid "Human Resources Policy Groups"
+msgstr "Human Resources Policy Groups"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_hu
@@ -13185,9 +14009,19 @@ msgid "Jersey"
 msgstr "泽西岛"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_job_categories
+msgid "Job Categories"
+msgstr "Job Categories"
+
+#. module: base
 #: model:ir.module.module,summary:base.module_website_hr_recruitment
 msgid "Job Descriptions And Application Forms"
 msgstr "Job Descriptions And Application Forms"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_job_hierarchy
+msgid "Job Hierarchy"
+msgstr "Job Hierarchy"
 
 #. module: base
 #: field:res.partner,function:0
@@ -13318,6 +14152,11 @@ msgid "Labels"
 msgstr "标签打印"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_labour_union
+msgid "Labour Union"
+msgstr "Labour Union"
+
+#. module: base
 #: model:ir.module.module,summary:base.module_stock_landed_costs
 msgid "Landed Costs"
 msgstr "Landed Costs"
@@ -13336,6 +14175,11 @@ msgstr "语言"
 #: model:ir.model,name:base.model_base_language_import
 msgid "Language Import"
 msgstr "语言导入"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_language
+msgid "Language Management"
+msgstr "Language Management"
 
 #. module: base
 #: field:base.language.import,name:0
@@ -13620,6 +14464,11 @@ msgstr "Left parent"
 #: selection:res.lang,direction:0
 msgid "Left-to-Right"
 msgstr "从左到右"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_employee_legacy_id
+msgid "Legacy Employee ID"
+msgstr "Legacy Employee ID"
 
 #. module: base
 #: view:ir.sequence:base.sequence_view
@@ -14487,6 +15336,16 @@ msgid "Malta"
 msgstr "马耳他"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_report_manpower
+msgid "Man Power Report"
+msgstr "Man Power Report"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_contract_state
+msgid "Manage Employee Contracts"
+msgstr "Manage Employee Contracts"
+
+#. module: base
 #: model:res.groups,name:base.group_multi_salesteams
 msgid "Manage Sales Teams"
 msgstr "Manage Sales Teams"
@@ -15228,6 +16087,11 @@ msgid "Nepal"
 msgstr "尼泊尔"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_report_payroll_net
+msgid "Net Payroll Payable"
+msgstr "Net Payroll Payable"
+
+#. module: base
 #: model:res.country,name:base.nl
 msgid "Netherlands"
 msgstr "荷兰"
@@ -15251,6 +16115,11 @@ msgstr "中立区"
 #: model:res.country,name:base.nc
 msgid "New Caledonia (French)"
 msgstr "法属新喀里多尼亚"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_labour_recruitment
+msgid "New Employee Recruitment and Personnel Requests"
+msgstr "New Employee Recruitment and Personnel Requests"
 
 #. module: base
 #: code:addons/base/module/wizard/base_export_language.py:40
@@ -15802,6 +16671,11 @@ msgid "Outgoing Transitions"
 msgstr "传出迁移"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_policy_ot
+msgid "Overtime Policy"
+msgstr "Overtime Policy"
+
+#. module: base
 #: field:base.language.import,overwrite:0
 #: field:base.language.install,overwrite:0
 msgid "Overwrite Existing Terms"
@@ -16125,6 +16999,11 @@ msgid "Path"
 msgstr "Path"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_payslip_amendment
+msgid "Pay Slip Amendment"
+msgstr "Pay Slip Amendment"
+
+#. module: base
 #: model:ir.module.module,shortdesc:base.module_payment
 msgid "Payment Acquirer"
 msgstr "Payment Acquirer"
@@ -16173,7 +17052,7 @@ msgstr "Payment Acquirer: allPay Implementation"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_sales_followup
 msgid "Payment Follow-up"
-msgstr "Payment Follow-up"
+msgstr "付款跟进"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_followup
@@ -16202,6 +17081,26 @@ msgstr "薪酬管理"
 #: model:ir.module.module,shortdesc:base.module_hr_payroll_account
 msgid "Payroll Accounting"
 msgstr "工资表记账"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_payroll_extension
+msgid "Payroll Extension"
+msgstr "Payroll Extension"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_payroll_period
+msgid "Payroll Period"
+msgstr "Payroll Period"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_payroll_register
+msgid "Payroll Register"
+msgstr "Payroll Register"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_payroll_register_report
+msgid "Payroll Register Report"
+msgstr "Payroll Register Report"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_evaluation
@@ -16268,7 +17167,7 @@ msgstr "皮特克恩岛"
 #. module: base
 #: field:ir.actions.server,copyvalue:0
 msgid "Placeholder Expression"
-msgstr "占位符表达式"
+msgstr "Placeholder Expression"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_pt
@@ -17171,6 +18070,11 @@ msgstr "Provide the field where the record id is stored after the operations."
 #: model:res.groups,name:base.group_public
 msgid "Public"
 msgstr "公开"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_public_holidays
+msgid "Public Holidays"
+msgstr "Public Holidays"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_project
@@ -18117,6 +19021,11 @@ msgid "Restrict to lists"
 msgstr "Restrict to lists"
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_resume
+msgid "Resume Management"
+msgstr "Resume Management"
+
+#. module: base
 #: model:res.country,name:base.re
 msgid "Reunion (French)"
 msgstr "法属留尼旺岛"
@@ -19006,6 +19915,11 @@ msgid "Simple Discounts in the Point of Sale "
 msgstr "Simple Discounts in the Point of Sale "
 
 #. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_simplify
+msgid "Simplify Employee Records."
+msgstr "Simplify Employee Records."
+
+#. module: base
 #: model:res.country,name:base.sg
 msgid "Singapore"
 msgstr "新加坡"
@@ -19041,6 +19955,11 @@ msgstr "大小"
 #, python-format
 msgid "Size of the field can never be less than 0 !"
 msgstr "Size of the field can never be less than 0 !"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_skill
+msgid "Skill Management"
+msgstr "Skill Management"
 
 #. module: base
 #: view:res.config.installer:base.res_config_installer
@@ -19683,12 +20602,12 @@ msgstr "次要街道"
 #. module: base
 #: field:ir.actions.server,sub_model_object_field:0
 msgid "Sub-field"
-msgstr "子字段"
+msgstr "Sub-field"
 
 #. module: base
 #: field:ir.actions.server,sub_object:0
 msgid "Sub-model"
-msgstr "子模型"
+msgstr "Sub-model"
 
 #. module: base
 #: view:workflow.activity:base.view_workflow_activity_form
@@ -20632,6 +21551,11 @@ msgstr "This module allows you to search job applications by content\n"
 #: field:res.lang,thousands_sep:0
 msgid "Thousands Separator"
 msgstr "千位分隔符"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_hr_policy_accrual
+msgid "Time Accrual Policy"
+msgstr "Time Accrual Policy"
 
 #. module: base
 #: field:res.lang,time_format:0

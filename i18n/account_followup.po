@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:15+0000\n"
-"PO-Revision-Date: 2015-04-13 01:15+0000\n"
+"POT-Creation-Date: 2015-04-17 11:44+0000\n"
+"PO-Revision-Date: 2015-04-17 11:44+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -322,7 +322,7 @@ msgstr "\n"
 #: code:addons/account_followup/wizard/account_followup_print.py:174
 #, python-format
 msgid " email(s) sent"
-msgstr "邮件发出"
+msgstr " 发出邮件"
 
 #. module: account_followup
 #: code:addons/account_followup/wizard/account_followup_print.py:176
@@ -370,7 +370,7 @@ msgstr "%(company_name)s"
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 msgid "%(date)s"
-msgstr "%(日期）"
+msgstr "%(date)s"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -380,7 +380,7 @@ msgstr "%(partner_name)s"
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 msgid "%(user_signature)s"
-msgstr "%(用户签名)s"
+msgstr "%(user_signature)s"
 
 #. module: account_followup
 #: code:addons/account_followup/wizard/account_followup_print.py:234
@@ -437,12 +437,12 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_followup
 msgid "Account Follow-up"
-msgstr "催款"
+msgstr "科目催款"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Account Move line"
-msgstr "Account Move line"
+msgstr "凭证行"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
@@ -563,7 +563,7 @@ msgstr "Configure your follow-up levels"
 #: field:account_followup.print,create_uid:0
 #: field:account_followup.sending.results,create_uid:0
 msgid "Created by"
-msgstr "创建"
+msgstr "Created by"
 
 #. module: account_followup
 #: field:account_followup.followup,create_date:0
@@ -571,7 +571,7 @@ msgstr "创建"
 #: field:account_followup.print,create_date:0
 #: field:account_followup.sending.results,create_date:0
 msgid "Created on"
-msgstr "创建"
+msgstr "Created on"
 
 #. module: account_followup
 #: field:account_followup.stat,credit:0
@@ -596,7 +596,7 @@ msgstr "Customer ref:"
 #. module: account_followup
 #: view:website:account_followup.report_followup
 msgid "Date:"
-msgstr "Date:"
+msgstr "日期:"
 
 #. module: account_followup
 #: sql_constraint:account_followup.followup.line:0
@@ -640,7 +640,7 @@ msgstr "Download Letters"
 #: code:addons/account_followup/account_followup.py:259
 #, python-format
 msgid "Due Date"
-msgstr "到期日期"
+msgstr "到期日"
 
 #. module: account_followup
 #: field:account_followup.followup.line,delay:0
@@ -817,7 +817,7 @@ msgstr "He said the problem was temporary and promised to pay 50% before 15th of
 #: field:account_followup.stat.by.partner,id:0
 #: field:report.account_followup.report_followup,id:0
 msgid "ID"
-msgstr "编号"
+msgstr "ID"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
@@ -845,7 +845,7 @@ msgstr "发票提醒"
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_move_line
 msgid "Journal Items"
-msgstr "会计凭证行"
+msgstr "账簿项"
 
 #. module: account_followup
 #: field:account_followup.followup,write_uid:0
@@ -853,7 +853,7 @@ msgstr "会计凭证行"
 #: field:account_followup.print,write_uid:0
 #: field:account_followup.sending.results,write_uid:0
 msgid "Last Updated by"
-msgstr "最后更新"
+msgstr "Last Updated by"
 
 #. module: account_followup
 #: field:account_followup.followup,write_date:0
@@ -861,7 +861,7 @@ msgstr "最后更新"
 #: field:account_followup.print,write_date:0
 #: field:account_followup.sending.results,write_date:0
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "Last Updated on"
 
 #. module: account_followup
 #: field:account_followup.stat,date_move_last:0
@@ -980,7 +980,7 @@ msgstr "下次联系日期"
 #. module: account_followup
 #: view:res.partner:account_followup.customer_followup_search_view
 msgid "No Responsible"
-msgstr "没有负责任的"
+msgstr "没有责任人"
 
 #. module: account_followup
 #: view:account_followup.stat:account_followup.view_account_followup_stat_search
@@ -1014,12 +1014,12 @@ msgstr "业务伙伴分录"
 #: view:account_followup.stat.by.partner:account_followup.account_followup_stat_by_partner_search
 #: view:account_followup.stat.by.partner:account_followup.account_followup_stat_by_partner_tree
 msgid "Partner to Remind"
-msgstr "提醒合作伙伴"
+msgstr "带提醒的业务伙伴"
 
 #. module: account_followup
 #: field:account_followup.print,partner_ids:0
 msgid "Partners"
-msgstr "业务伙伴"
+msgstr "业务伙伴列表"
 
 #. module: account_followup
 #: view:res.partner:account_followup.customer_followup_search_view
@@ -1030,17 +1030,17 @@ msgstr "Partners with Overdue Credits"
 #: model:ir.ui.menu,name:account_followup.menu_finance_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Payment Follow-up"
-msgstr "Payment Follow-up"
+msgstr "付款跟进"
 
 #. module: account_followup
 #: model:ir.actions.act_window,name:account_followup.action_account_followup_definition_form
 msgid "Payment Follow-ups"
-msgstr "Payment Follow-ups"
+msgstr "付款跟进"
 
 #. module: account_followup
 #: help:res.partner,payment_note:0
 msgid "Payment Note"
-msgstr "Payment Note"
+msgstr "付款备注"
 
 #. module: account_followup
 #: field:account_followup.stat,period_id:0
@@ -1138,7 +1138,7 @@ msgstr "Send Letters and Emails: Actions Summary"
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Send Overdue Email"
-msgstr "过期邮件发送"
+msgstr "发送过期邮件"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -1170,7 +1170,7 @@ msgstr "序列"
 #. module: account_followup
 #: field:account_followup.print,summary:0
 msgid "Summary"
-msgstr "摘要"
+msgstr "概要"
 
 #. module: account_followup
 #: view:account_followup.sending.results:account_followup.view_account_followup_sending_results
@@ -1279,7 +1279,7 @@ msgstr "借方合计"
 #. module: account_followup
 #: view:website:account_followup.report_followup
 msgid "Total:"
-msgstr "Total:"
+msgstr "合计："
 
 #. module: account_followup
 #: help:account_followup.followup.line,send_letter:0
@@ -1344,7 +1344,7 @@ msgstr "或"
 #: field:account_followup.print,company_id:0
 #: field:res.partner,unreconciled_aml_ids:0
 msgid "unknown"
-msgstr "未知的"
+msgstr "unknown"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:18+0000\n"
-"PO-Revision-Date: 2015-04-13 01:18+0000\n"
+"POT-Creation-Date: 2015-04-17 11:47+0000\n"
+"PO-Revision-Date: 2015-04-17 11:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -193,7 +193,7 @@ msgstr "错误！签入（或签出）动作必须在签出（或签入）动作
 #. module: hr_attendance
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组方式"
 
 #. module: hr_attendance
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
@@ -383,5 +383,5 @@ msgstr "你试图%s  前面的日期到另外的事件！尝试联系 人力资�
 #. module: hr_attendance
 #: view:hr.attendance.error:hr_attendance.view_hr_attendance_error
 msgid "or"
-msgstr "or"
+msgstr "或"
 

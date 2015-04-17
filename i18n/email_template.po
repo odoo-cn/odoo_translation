@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:18+0000\n"
-"PO-Revision-Date: 2015-04-13 01:18+0000\n"
+"POT-Creation-Date: 2015-04-17 11:46+0000\n"
+"PO-Revision-Date: 2015-04-17 11:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -147,7 +147,7 @@ msgstr "Created on"
 #: field:email.template,null_value:0
 #: field:email_template.preview,null_value:0
 msgid "Default Value"
-msgstr "默认价值"
+msgstr "默认值"
 
 #. module: email_template
 #: field:email.template,use_default_to:0
@@ -244,7 +244,7 @@ msgstr "分组"
 #: field:email.template,id:0
 #: field:email_template.preview,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: email_template
 #: help:email.template,user_signature:0
@@ -327,7 +327,7 @@ msgstr "如果目标字段为空则使用这个值"
 #: field:email.template,mail_server_id:0
 #: field:email_template.preview,mail_server_id:0
 msgid "Outgoing Mail Server"
-msgstr "邮件发送服务器"
+msgstr "发送邮件服务器"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -391,7 +391,7 @@ msgstr "Recipients"
 #: field:email.template,model:0
 #: field:email_template.preview,model:0
 msgid "Related Document Model"
-msgstr "相关的文档模型"
+msgstr "相关单据模型"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form

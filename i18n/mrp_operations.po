@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:20+0000\n"
-"PO-Revision-Date: 2015-04-13 01:20+0000\n"
+"POT-Creation-Date: 2015-04-17 11:49+0000\n"
+"PO-Revision-Date: 2015-04-17 11:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -90,7 +90,7 @@ msgstr "日历视图"
 #. module: mrp_operations
 #: view:mrp.production.workcenter.line:mrp_operations.mrp_production_workcenter_form_view_inherit
 msgid "Cancel"
-msgstr "取消(&C)"
+msgstr "取消"
 
 #. module: mrp_operations
 #: view:mrp.production:mrp_operations.mrp_production_form_inherit_view
@@ -123,7 +123,7 @@ msgstr "子调拨"
 #: field:mrp_operations.operation,code_id:0
 #: field:mrp_operations.operation.code,code:0
 msgid "Code"
-msgstr "编号"
+msgstr "代码"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_confirm_action
@@ -160,14 +160,14 @@ msgstr "日期"
 #. module: mrp_operations
 #: field:mrp.workorder,delay:0
 msgid "Delay"
-msgstr "天数"
+msgstr "延迟"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 #: view:mrp.workorder:mrp_operations.view_report_mrp_workorder_filter
 #: selection:mrp_operations.operation.code,start_stop:0
 msgid "Done"
-msgstr "已完成"
+msgstr "完成"
 
 #. module: mrp_operations
 #: view:mrp.production.workcenter.line:mrp_operations.view_mrp_production_workcenter_form_view_filter
@@ -221,7 +221,7 @@ msgstr "自由排序生产"
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_draft_action
 msgid "Future Work Orders"
-msgstr "未开工工票"
+msgstr "未来工单"
 
 #. module: mrp_operations
 #: view:mrp.production.workcenter.line:mrp_operations.view_mrp_production_workcenter_form_view_filter
@@ -318,30 +318,30 @@ msgstr "没有操作被取消"
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_code_action
 msgid "Operation Codes"
-msgstr "工单编号"
+msgstr "作业编号"
 
 #. module: mrp_operations
 #: field:mrp_operations.operation.code,name:0
 msgid "Operation Name"
-msgstr "工单名称"
+msgstr "作业名称"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:441
 #, python-format
 msgid "Operation has already started! You can either Pause/Finish/Cancel the operation."
-msgstr "操作已经开始！你可以 暂停/完成/取消 这个操作。"
+msgstr "作业早已开始！你可以 暂停/完成/取消 这个操作。"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:457
 #, python-format
 msgid "Operation is Already Cancelled!"
-msgstr "工单已经取消"
+msgstr "作业早已取消"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:464
 #, python-format
 msgid "Operation is already finished!"
-msgstr "工单已完成"
+msgstr "作业早已完成"
 
 #. module: mrp_operations
 #: code:addons/mrp_operations/mrp_operations.py:434
@@ -354,7 +354,7 @@ msgstr "Operation is not started yet!"
 #: view:mrp.production.workcenter.line:mrp_operations.workcenter_line_calendar
 #: view:mrp.production.workcenter.line:mrp_operations.workcenter_line_gantt
 msgid "Operations"
-msgstr "工单"
+msgstr "作业"
 
 #. module: mrp_operations
 #: field:mrp_operations.operation,order_date:0
@@ -401,7 +401,7 @@ msgstr "产品"
 #. module: mrp_operations
 #: field:mrp.workorder,product_qty:0
 msgid "Product Qty"
-msgstr "产品数量"
+msgstr "数量"
 
 #. module: mrp_operations
 #: view:mrp.production.workcenter.line:mrp_operations.mrp_production_workcenter_form_view_inherit
@@ -419,13 +419,13 @@ msgstr "生产"
 #. module: mrp_operations
 #: view:mrp_operations.operation:mrp_operations.mrp_production_operation_tree_view
 msgid "Production Operation"
-msgstr "生产工单"
+msgstr "生产作业"
 
 #. module: mrp_operations
 #: view:mrp_operations.operation.code:mrp_operations.mrp_production_code_form_view
 #: view:mrp_operations.operation.code:mrp_operations.mrp_production_code_tree_view
 msgid "Production Operation Code"
-msgstr "工单编号"
+msgstr "生产作业编号"
 
 #. module: mrp_operations
 #: field:mrp.production.workcenter.line,production_state:0
@@ -455,7 +455,7 @@ msgstr "Quantity Produced"
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Ready to Produce"
-msgstr "准备生产"
+msgstr "已准备待生产"
 
 #. module: mrp_operations
 #: view:mrp.production:mrp_operations.mrp_production_form_inherit_view
@@ -473,7 +473,7 @@ msgstr "重启工单"
 #. module: mrp_operations
 #: field:mrp.production.workcenter.line,date_planned:0
 msgid "Scheduled Date"
-msgstr "计划日期"
+msgstr "安排日期"
 
 #. module: mrp_operations
 #: view:mrp.production.workcenter.line:mrp_operations.view_mrp_production_workcenter_form_view_filter
@@ -488,7 +488,7 @@ msgstr "Scheduled Month"
 #. module: mrp_operations
 #: view:mrp.workorder:mrp_operations.view_report_mrp_workorder_filter
 msgid "Search"
-msgstr "查询"
+msgstr "搜索"
 
 #. module: mrp_operations
 #: view:mrp.production.workcenter.line:mrp_operations.view_mrp_production_workcenter_form_view_filter
@@ -538,7 +538,7 @@ msgstr "开始工作"
 #. module: mrp_operations
 #: model:ir.actions.report.xml,name:mrp_operations.report_code_barcode
 msgid "Start/Stop Barcode"
-msgstr "用条码输入开工/完工"
+msgstr "开始/停止 条码"
 
 #. module: mrp_operations
 #: view:mrp.workorder:mrp_operations.view_report_mrp_workorder_filter
@@ -567,12 +567,12 @@ msgstr "工单在这个工作中心从开始到结束的执行周期。"
 #. module: mrp_operations
 #: field:mrp.workorder,total_cycles:0
 msgid "Total Cycles"
-msgstr "总加工次数"
+msgstr "总循环"
 
 #. module: mrp_operations
 #: field:mrp.workorder,total_hours:0
 msgid "Total Hours"
-msgstr "总小时数"
+msgstr "总工时"
 
 #. module: mrp_operations
 #: field:mrp.production.workcenter.line,uom:0
@@ -582,7 +582,7 @@ msgstr "计量单位"
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Waiting Goods"
-msgstr "等待原料"
+msgstr "等待物资"
 
 #. module: mrp_operations
 #: view:mrp.production.workcenter.line:mrp_operations.view_mrp_production_workcenter_form_view_filter
@@ -606,17 +606,17 @@ msgstr "工作中心条码"
 #: model:ir.actions.act_window,name:mrp_operations.action_report_mrp_workorder
 #: model:ir.model,name:mrp_operations.model_mrp_production_workcenter_line
 msgid "Work Order"
-msgstr "工票"
+msgstr "工单"
 
 #. module: mrp_operations
 #: model:ir.ui.menu,name:mrp_operations.menu_report_mrp_workorders_tree
 msgid "Work Order Analysis"
-msgstr "工票分析"
+msgstr "工单分析"
 
 #. module: mrp_operations
 #: model:ir.model,name:mrp_operations.model_mrp_workorder
 msgid "Work Order Report"
-msgstr "工票报表"
+msgstr "工单报表"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_action_form
@@ -626,17 +626,17 @@ msgstr "工票报表"
 #: view:mrp.production.workcenter.line:mrp_operations.view_mrp_production_workcenter_form_view_filter
 #: view:mrp.workorder:mrp_operations.view_report_mrp_workorder_graph
 msgid "Work Orders"
-msgstr "工票"
+msgstr "工单"
 
 #. module: mrp_operations
 #: model:ir.ui.menu,name:mrp_operations.menu_mrp_production_wc_action_planning
 msgid "Work Orders By Resource"
-msgstr "工单通过资源"
+msgstr "工单，按资源"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_action_planning
 msgid "Work Orders Planning"
-msgstr "工票计划"
+msgstr "工单计划"
 
 #. module: mrp_operations
 #: field:mrp.production.workcenter.line,delay:0

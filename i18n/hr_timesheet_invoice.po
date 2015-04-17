@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:19+0000\n"
-"PO-Revision-Date: 2015-04-13 01:19+0000\n"
+"POT-Creation-Date: 2015-04-17 11:48+0000\n"
+"PO-Revision-Date: 2015-04-17 11:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -69,13 +69,7 @@ msgstr "金额"
 #: field:report_timesheet.account,account_id:0
 #: field:report_timesheet.account.date,account_id:0
 msgid "Analytic Account"
-msgstr "辅助核算科目"
-
-#. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:179
-#, python-format
-msgid "Analytic Account Incomplete!"
-msgstr "Analytic Account Incomplete!"
+msgstr "辅助核算项"
 
 #. module: hr_timesheet_invoice
 #: model:ir.model,name:hr_timesheet_invoice.model_account_analytic_line
@@ -105,7 +99,7 @@ msgstr "辅助核算项"
 #. module: hr_timesheet_invoice
 #: model:ir.model,name:hr_timesheet_invoice.model_report_analytic_account_close
 msgid "Analytic account to close"
-msgstr "关闭辅助核算项"
+msgstr "关闭分析账户"
 
 #. module: hr_timesheet_invoice
 #: model:ir.model,name:hr_timesheet_invoice.model_report_account_analytic_line_to_invoice
@@ -150,24 +144,24 @@ msgstr "取消"
 #. module: hr_timesheet_invoice
 #: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
 msgid "Cancel Contract"
-msgstr "Cancel Contract"
+msgstr "取消合同"
 
 #. module: hr_timesheet_invoice
 #: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
 msgid "Close Contract"
-msgstr "Close Contract"
+msgstr "结束合同"
 
 #. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:253
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:222
 #, python-format
 msgid "Configuration Error!"
 msgstr "Configuration Error!"
 
 #. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:180
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:291
 #, python-format
-msgid "Contract incomplete. Please fill in the Customer and Pricelist fields."
-msgstr "Contract incomplete. Please fill in the Customer and Pricelist fields."
+msgid "Contract incomplete. Please fill in the Customer and Pricelist fields for %s."
+msgstr "Contract incomplete. Please fill in the Customer and Pricelist fields for %s."
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.invoice.create,price:0
@@ -227,7 +221,7 @@ msgstr "Created on"
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
 msgid "Currency:"
-msgstr "Currency:"
+msgstr "币别："
 
 #. module: hr_timesheet_invoice
 #: model:ir.actions.act_window,name:hr_timesheet_invoice.action_timesheet_account_date_stat_all
@@ -323,7 +317,7 @@ msgstr "Do you want to show details of work in invoice?"
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
 msgid "Duration"
-msgstr "Duration"
+msgstr "有效期"
 
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
@@ -332,6 +326,9 @@ msgstr "有效"
 
 #. module: hr_timesheet_invoice
 #: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:140
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:222
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:291
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:294
 #, python-format
 msgid "Error!"
 msgstr "Error!"
@@ -391,7 +388,7 @@ msgstr "辅助核算项"
 #. module: hr_timesheet_invoice
 #: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组方式"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,id:0
@@ -451,7 +448,7 @@ msgstr "部分成本行已开发票"
 #. module: hr_timesheet_invoice
 #: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
 msgid "Invoice on Timesheets Options"
-msgstr "Invoice on Timesheets Options"
+msgstr "基于工单选项开票"
 
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
@@ -509,7 +506,7 @@ msgstr "账簿"
 #. module: hr_timesheet_invoice
 #: model:ir.model,name:hr_timesheet_invoice.model_account_move_line
 msgid "Journal Items"
-msgstr "会计凭证行"
+msgstr "账簿项"
 
 #. module: hr_timesheet_invoice
 #: selection:report.account.analytic.line.to.invoice,month:0
@@ -532,7 +529,7 @@ msgstr "6月"
 #. module: hr_timesheet_invoice
 #: help:account.analytic.account,amount_max:0
 msgid "Keep empty if this contract is not limited to a total fixed price."
-msgstr "如果这个合同是开口合同，这个字段留空。"
+msgstr "如果这个合同没有限定一个固定总价，留空。"
 
 #. module: hr_timesheet_invoice
 #: help:hr_timesheet_invoice.factor,customer_name:0
@@ -653,7 +650,7 @@ msgid "Period to enddate:"
 msgstr "Period to enddate:"
 
 #. module: hr_timesheet_invoice
-#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:253
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:222
 #, python-format
 msgid "Please define income account for product '%s'."
 msgstr "Please define income account for product '%s'."
@@ -877,12 +874,12 @@ msgstr "到"
 #: view:hr.analytic.timesheet:hr_timesheet_invoice.view_hr_timesheet_line_search_to_invoice
 #: model:ir.actions.act_window,name:hr_timesheet_invoice.act_acc_analytic_acc_2_report_acc_analytic_line_to_invoice
 msgid "To Invoice"
-msgstr "开票"
+msgstr "待开票"
 
 #. module: hr_timesheet_invoice
 #: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
 msgid "To Renew"
-msgstr "To Renew"
+msgstr "待续约"
 
 #. module: hr_timesheet_invoice
 #: field:report_timesheet.invoice,amount_invoice:0
@@ -898,6 +895,12 @@ msgstr "已开票合计"
 #: view:website:hr_timesheet_invoice.report_analyticprofit
 msgid "Totals:"
 msgstr "合计:"
+
+#. module: hr_timesheet_invoice
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:294
+#, python-format
+msgid "Trying to invoice non invoiceable line for %s."
+msgstr "Trying to invoice non invoiceable line for %s."
 
 #. module: hr_timesheet_invoice
 #: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_form
@@ -973,7 +976,7 @@ msgstr "是 (100%)"
 #: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:141
 #, python-format
 msgid "You cannot modify an invoiced analytic line!"
-msgstr "你不能修改发票的成本行"
+msgstr "你不能修改发票的分析明细"
 
 #. module: hr_timesheet_invoice
 #: help:account.analytic.account,to_invoice:0
@@ -997,7 +1000,7 @@ msgstr "on_change_account_id(account_id, user_id)"
 #: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
 #: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: hr_timesheet_invoice
 #: view:hr.analytic.timesheet:hr_timesheet_invoice.hr_timesheet_line_form2

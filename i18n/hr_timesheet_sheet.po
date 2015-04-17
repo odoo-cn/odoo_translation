@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:19+0000\n"
-"PO-Revision-Date: 2015-04-13 01:19+0000\n"
+"POT-Creation-Date: 2015-04-17 11:48+0000\n"
+"PO-Revision-Date: 2015-04-17 11:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "签入/签出和在一个计工单里的容许的差异小时。如果�
 #. module: hr_timesheet_sheet
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "辅助核算科目"
+msgstr "辅助核算项"
 
 #. module: hr_timesheet_sheet
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_line
@@ -122,7 +122,7 @@ msgstr "审批"
 #. module: hr_timesheet_sheet
 #: selection:hr_timesheet_sheet.sheet,state:0
 msgid "Approved"
-msgstr "已审核通过"
+msgstr "已审批"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet.day,total_attendance:0
@@ -209,7 +209,7 @@ msgstr "日期从"
 #. module: hr_timesheet_sheet
 #: help:hr_timesheet_sheet.sheet,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: hr_timesheet_sheet
 #: field:hr.timesheet.report,date_to:0
@@ -234,7 +234,7 @@ msgstr "部门"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
 msgid "Details"
-msgstr "Details"
+msgstr "详细信息"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,total_difference:0
@@ -304,12 +304,12 @@ msgstr "Followers"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组方式"
 
 #. module: hr_timesheet_sheet
 #: help:hr_timesheet_sheet.sheet,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
@@ -327,7 +327,7 @@ msgstr "ID"
 #. module: hr_timesheet_sheet
 #: help:hr_timesheet_sheet.sheet,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "如果要求你关注新消息，勾选此项"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
@@ -412,7 +412,7 @@ msgstr "消息"
 #. module: hr_timesheet_sheet
 #: help:hr_timesheet_sheet.sheet,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "消息和通信历史"
 
 #. module: hr_timesheet_sheet
 #: selection:hr.config.settings,timesheet_range:0
@@ -441,7 +441,7 @@ msgstr "用\"我的计工单\"菜单开启您的计工单所以您能在系统�
 #: selection:hr.timesheet.report,state:0
 #: selection:hr_timesheet_sheet.sheet,state:0
 msgid "New"
-msgstr "新的"
+msgstr "新建"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,name:0
@@ -465,7 +465,7 @@ msgstr "开始的计工单"
 #: field:hr_timesheet_sheet.sheet,period_ids:0
 #: view:hr_timesheet_sheet.sheet.day:hr_timesheet_sheet.hr_timesheet_day_tree
 msgid "Period"
-msgstr "考勤详情"
+msgstr "会计周期"
 
 #. module: hr_timesheet_sheet
 #: help:hr.config.settings,timesheet_range:0
@@ -549,7 +549,7 @@ msgstr "提交给经理"
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
 #: field:hr_timesheet_sheet.sheet,message_summary:0
 msgid "Summary"
-msgstr "总计"
+msgstr "摘要"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:62
@@ -813,7 +813,7 @@ msgstr "You will be able to register your working hours and\n"
 #. module: hr_timesheet_sheet
 #: view:hr.timesheet.current.open:hr_timesheet_sheet.view_hr_timesheet_current_open
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form

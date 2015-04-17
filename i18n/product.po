@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-13 01:22+0000\n"
-"PO-Revision-Date: 2015-04-13 01:22+0000\n"
+"POT-Creation-Date: 2015-04-17 11:51+0000\n"
+"PO-Revision-Date: 2015-04-17 11:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -21,8 +21,8 @@ msgid "# of Product Variants"
 msgstr "# 个产品变体"
 
 #. module: product
-#: code:addons/product/product.py:759
-#: code:addons/product/product.py:1131
+#: code:addons/product/product.py:776
+#: code:addons/product/product.py:1148
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (副本)"
@@ -818,7 +818,7 @@ msgid "Information about a product supplier"
 msgstr "产品供应商信息"
 
 #. module: product
-#: code:addons/product/product.py:398
+#: code:addons/product/product.py:415
 #, python-format
 msgid "Integrity Error!"
 msgstr "完整性错误！"
@@ -1090,7 +1090,7 @@ msgid "New Price ="
 msgstr "新价格 ="
 
 #. module: product
-#: code:addons/product/product.py:739
+#: code:addons/product/product.py:756
 #, python-format
 msgid "New Unit of Measure '%s' must belong to same Unit of Measure category '%s' as of old Unit of Measure '%s'. If you need to change the unit of measure, you may deactivate this product from the 'Procurements' tab and create a new one."
 msgstr "新的计量单位'%s'的类别 '%s'必须跟老单位 '%s' 相同。如果你要改变计量单位，你要'需求'标签停用这个产品 ，并且创建一个新的。"
@@ -1487,7 +1487,7 @@ msgid "Products by Category"
 msgstr "产品类别"
 
 #. module: product
-#: code:addons/product/product.py:859
+#: code:addons/product/product.py:876
 #, python-format
 msgid "Products: "
 msgstr "产品： "
@@ -1876,7 +1876,7 @@ msgid "The number of packages by layer"
 msgstr "每层的包裹数"
 
 #. module: product
-#: code:addons/product/product.py:398
+#: code:addons/product/product.py:415
 #, python-format
 msgid "The operation cannot be completed:\n"
 "You trying to delete an attribute value with a reference on a product variant."
@@ -2020,7 +2020,7 @@ msgid "Unit of Measure Category"
 msgstr "计量单位类别"
 
 #. module: product
-#: code:addons/product/product.py:739
+#: code:addons/product/product.py:756
 #, python-format
 msgid "Unit of Measure categories Mismatch!"
 msgstr "计量单位类别不一致"
