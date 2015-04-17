@@ -1,15 +1,17 @@
 TOC
 
-2.  参与翻译 [1]
-2.  使用翻译 [2]
+1.  参与翻译 
+2.  使用翻译 
 
 
 
-[1]: *参与翻译*
+*参与翻译*
 
  repo 指库
  
  master repo 指主库，即 https://github.com/odoo-cn/odoo_translation.git
+ 
+ fork repo 指你的克隆
 
 
 # 准备工作
@@ -20,6 +22,7 @@ TOC
 ## Fork  翻译项目
 
 至master repo.的github页面 https://github.com/odoo-cn/odoo_translation
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194463/201e0e56-e4e2-11e4-826b-ae8b9bd90c51.png)
 
 
@@ -30,11 +33,13 @@ Tips:
 你必须有github 账号，才可以fork。 给gihub账号申请，不再累述。
 
 fork需要一定的时间
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194464/263abcd0-e4e2-11e4-8d45-7bd6e46c1a6c.png)
 
 
 
 Fork 好之后，就可以在你的github账号下看到你的fork
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194466/2b7e65de-e4e2-11e4-9057-b2460c49b9d8.png)
 
 
@@ -45,6 +50,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 在github上选择repo的 URL， 最好选择 ssh。 
 因为github上传你的提交需要使用ssh进行无密码验证身份。
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194467/30295710-e4e2-11e4-9614-0d2626fd6766.png)
 
 
@@ -53,6 +59,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 执行命令 git clone 
 如
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194468/34447bb8-e4e2-11e4-9822-3a5acb7f9ccf.png)
 
 
@@ -63,6 +70,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
  git remot add https://github.com/odoo-cn/odoo_translation.git
 
 如
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194470/392c67d0-e4e2-11e4-90cd-3de64f7349c3.png)
 
 
@@ -72,6 +80,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
  git pull master  master    # 后一个master是 分支的名字
 
 如
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194471/3ce42c78-e4e2-11e4-8d74-a3e6c0607e20.png)
 
 
@@ -140,6 +149,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。
 
 在你进行提交的时候，github能识别到你的新分支和提交，它会建议你提交一个pull request， 如
+
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194487/7a2e32a4-e4e2-11e4-8e15-ffc44993fc56.png)
 
 
@@ -152,7 +162,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 填写提交信息，然后 create pull request
 
 
-[2]:  *使用翻译*
+*使用翻译*
 
 
 *建议使用PO bundle*
