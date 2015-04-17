@@ -65,8 +65,10 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 ### 更新repo
 
-因为在你fork   odoo-cn/odoo_translation 之后， master repo.可能已经更新了，为了保持你的repo.为最新，你需要 与maste repo.同步
+因为在你fork   odoo-cn/odoo_translation 之后， master repo.可能已经更新了，为了保持你的repo.为最新，你需要 与master repo.同步
+
 首先，添加master repo. 到你的库里，执行命令
+
  git remot add https://github.com/odoo-cn/odoo_translation.git
 
 如
@@ -77,6 +79,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 同步主库，执行命令
+
  git pull master  master    # 后一个master是 分支的名字
 
 如
@@ -90,6 +93,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 首先为翻译工作建立一个分支，例如 project
+
  git checkout master -b project
 
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194474/42ab2ab2-e4e2-11e4-978e-e037bb534f3c.png)
@@ -108,6 +112,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 # 提交翻译成果
 
 保存翻译之后，如果执行命令 git status
+
 会发现修改的po文件会显示
 
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194477/4b775bde-e4e2-11e4-892c-a9b4af53a132.png)
@@ -121,7 +126,9 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ## 提交修改
 
 翻译成果需要提交到repo里面， 使用以下命令提交修改
+
  git add *.po
+
  git commit  -m ‘提交的消息’    # ‘提交的消息’ 为摘要信息，方便其他人查看，以及备将来自己查看。
 
 例如
@@ -132,6 +139,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ## 将本地repo 同步到fork repo
 
 需要将本地的repo 同步到 fork repo，这样其他协作的人才能看到你的工作成果。
+
 执行命令 git push --all origin 进行同步，如
 
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194482/63acfcc2-e4e2-11e4-91fa-78ede0093951.png)
