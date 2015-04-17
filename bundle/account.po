@@ -21,7 +21,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-12 10:48+0000\n"
-"PO-Revision-Date: 2015-04-15 23:11+0800\n"
+"PO-Revision-Date: 2015-04-16 08:36+0800\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2088,7 +2088,7 @@ msgstr "辅助核算项的的预算报表"
 #: model:ir.actions.act_window,name:account.action_account_central_journal
 #: model:ir.model,name:account.model_account_central_journal
 msgid "Account Central Journal"
-msgstr "汇总分录"
+msgstr "科目集中账簿"
 
 #. module: account
 #: view:account.account:account.view_account_form
@@ -2108,63 +2108,63 @@ msgstr "科目常用账簿报告"
 #. module: account
 #: model:ir.model,name:account.model_account_common_partner_report
 msgid "Account Common Partner Report"
-msgstr "业务伙伴普通报告"
+msgstr "科目共通业务伙伴报告"
 
 #. module: account
 #: model:ir.model,name:account.model_account_common_report
 msgid "Account Common Report"
-msgstr "通用报告"
+msgstr "科目共通报告"
 
 #. module: account
 #: field:account.analytic.line,currency_id:0
 msgid "Account Currency"
-msgstr "币种"
+msgstr "科目币种"
 
 #. module: account
 #: field:account.fiscal.position.account,account_dest_id:0
 #: field:account.fiscal.position.account.template,account_dest_id:0
 msgid "Account Destination"
-msgstr "替代科目"
+msgstr "科目目标"
 
 #. modules: account, account_voucher
 #: view:account.move:account.view_move_form
 #: model:ir.model,name:account.model_account_move
 #: field:account.voucher,move_id:0
 msgid "Account Entry"
-msgstr "账户分录"
+msgstr "科目分录"
 
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_followup
 msgid "Account Follow-up"
-msgstr "催款"
+msgstr "科目催款"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_general_journal
 #: model:ir.model,name:account.model_account_general_journal
 msgid "Account General Journal"
-msgstr "科目总账分录"
+msgstr "科目总账账簿"
 
 #. module: analytic
 #: field:account.analytic.account,child_complete_ids:0
 msgid "Account Hierarchy"
-msgstr "账户层级"
+msgstr "账户层次"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account_ids:0
 msgid "Account Id"
-msgstr "项 ID"
+msgstr "账户 ID"
 
 #. module: account
 #: view:account.journal:account.view_account_journal_form
 #: view:account.journal:account.view_account_journal_tree
 #: field:res.partner.bank,journal_id:0
 msgid "Account Journal"
-msgstr "账簿"
+msgstr "科目账簿"
 
 #. module: account
 #: model:ir.model,name:account.model_account_journal_select
 msgid "Account Journal Select"
-msgstr "选择账簿"
+msgstr "科目账簿选择"
 
 #. module: account
 #: field:account.invoice.report,account_line_id:0
@@ -2198,7 +2198,7 @@ msgstr "科目模型分录"
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Account Move line"
-msgstr "Account Move line"
+msgstr "凭证行"
 
 #. modules: account, account_analytic_plans
 #: view:website:account.report_analyticbalance
@@ -2237,7 +2237,7 @@ msgstr "会计期间"
 #: model:ir.actions.act_window,name:account.action_account_print_journal
 #: model:ir.model,name:account.model_account_print_journal
 msgid "Account Print Journal"
-msgstr "打印分录"
+msgstr "打印账簿"
 
 #. module: account
 #: view:product.category:account.view_category_property_form
@@ -2437,7 +2437,7 @@ msgstr "帐户支付"
 #. module: account
 #: model:ir.model,name:account.model_account_move_line_reconcile
 msgid "Account move line reconcile"
-msgstr "核对凭证明细"
+msgstr "凭证行核对"
 
 #. module: account
 #: model:ir.model,name:account.model_account_move_line_reconcile_writeoff
@@ -3537,7 +3537,7 @@ msgstr "要修改的资产周期"
 #: model:ir.actions.act_window,name:account_asset.action_account_asset_asset_tree
 #: model:ir.ui.menu,name:account_asset.menu_action_account_asset_asset_tree
 msgid "Asset Hierarchy"
-msgstr "固定资产树"
+msgstr "资产层级"
 
 #. module: account_asset
 #: view:account.asset.history:account_asset.view_account_asset_history_form
@@ -3621,7 +3621,7 @@ msgstr "处于运行状态的资产"
 #. module: account
 #: field:account.config.settings,module_account_asset:0
 msgid "Assets management"
-msgstr "固定资产管理"
+msgstr "资产管理"
 
 #. module: account_followup
 #: field:account_followup.followup.line,manual_action_responsible_id:0
@@ -4803,7 +4803,7 @@ msgstr "勾选, 如果您使用的产品和发票价格含税."
 msgid ""
 "Check this if you want to automatically confirm the assets of this category "
 "when created by invoices."
-msgstr "如果你像让这类固定资产在开发票之后自动确认为“运行”状态，勾选这里。"
+msgstr "如果你像让这类资产在开发票之后自动确认为“运行”状态，勾选这里。"
 
 #. module: account
 #: help:account.account.template,reconcile:0
@@ -4924,7 +4924,7 @@ msgstr ""
 msgid ""
 "Choose the period for which you want to automatically post the depreciation "
 "lines of running assets"
-msgstr "选择要对正在使用的固定资产自动提折旧的期间"
+msgstr "选择要对正在使用的资产自动提折旧的期间"
 
 #. module: stock_account
 #: view:wizard.valuation.history:stock_account.view_wizard_valuation_history
@@ -5732,7 +5732,7 @@ msgstr "已创建"
 #: code:addons/account_asset/wizard/wizard_asset_compute.py:49
 #, python-format
 msgid "Created Asset Moves"
-msgstr "新建固定资产会计凭证"
+msgstr "新建资产会计凭证"
 
 #. modules: account, account_analytic_analysis, account_payment, account_followup, account_asset, account_voucher, account_check_writing, analytic, account_analytic_default, account_budget, account_analytic_plans, stock_account
 #: field:account.account,create_uid:0
@@ -7350,7 +7350,7 @@ msgstr "错误！"
 #. module: account_asset
 #: constraint:account.asset.asset:0
 msgid "Error ! You cannot create recursive assets."
-msgstr "错误！你不能创建循环的固定资产."
+msgstr "错误！你不能创建循环的资产."
 
 #. modules: account, account_analytic_analysis, account_payment, account_followup, account_asset, account_voucher, account_check_writing, analytic, account_budget, account_analytic_plans, stock_account
 #: code:addons/account/account.py:422 code:addons/account/account.py:427
@@ -12759,14 +12759,14 @@ msgstr "属性"
 #. module: account_asset
 #: field:account.asset.asset,prorata:0 field:account.asset.category,prorata:0
 msgid "Prorata Temporis"
-msgstr "即时百分比"
+msgstr "即时按比例"
 
 #. module: account_asset
 #: constraint:account.asset.asset:0
 msgid ""
 "Prorata temporis can be applied only for time method \"number of "
 "depreciations\"."
-msgstr "等比折旧仅用于“折旧次数”的计时方式"
+msgstr "即时按比例仅用于“折旧次数”的计时方式"
 
 #. modules: account, account_voucher
 #: selection:account.analytic.journal,type:0
@@ -12797,7 +12797,7 @@ msgstr "采购账簿"
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 msgid "Purchase Month"
-msgstr "Purchase Month"
+msgstr "采购月份"
 
 #. module: purchase_analytic_plans
 #: model:ir.model,name:purchase_analytic_plans.model_purchase_order
@@ -12807,7 +12807,7 @@ msgstr "采购订单"
 #. module: purchase_analytic_plans
 #: model:ir.model,name:purchase_analytic_plans.model_purchase_order_line
 msgid "Purchase Order Line"
-msgstr "Purchase Order Line"
+msgstr "采购订单明细"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
@@ -12875,7 +12875,7 @@ msgstr "采购"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_location_path
 msgid "Pushed Flows"
-msgstr "推流"
+msgstr "推式物流"
 
 #. module: account
 #: view:cash.box.in:account.cash_box_in_form
@@ -13117,17 +13117,17 @@ msgstr "已对账处理"
 #: model:ir.ui.menu,name:account.periodical_processing_reconciliation
 #, python-format
 msgid "Reconciliation"
-msgstr "核对"
+msgstr "对账"
 
 #. module: account
 #: view:account.automatic.reconcile:account.account_automatic_reconcile_view1
 msgid "Reconciliation Result"
-msgstr "核对结果"
+msgstr "对账结果"
 
 #. module: account
 #: view:account.move.line.reconcile:account.view_account_move_line_reconcile_full
 msgid "Reconciliation Transactions"
-msgstr "核对交易"
+msgstr "对账交易"
 
 #. module: account
 #: field:account.entries.report,reconcile_id:0
@@ -13144,7 +13144,7 @@ msgstr "银行账单的核对"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_partner_reconcile
 msgid "Reconciliation: Go to Next Partner"
-msgstr "核对：转到下一个业务伙伴"
+msgstr "对账：转到下一个业务伙伴"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,recurring_rule_type:0
@@ -13341,7 +13341,7 @@ msgstr "其余合作伙伴"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,remaining_ca:0
 msgid "Remaining Revenue"
-msgstr "剩余的收入"
+msgstr "剩余收入"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,fix_price_to_invoice:0
@@ -13374,7 +13374,7 @@ msgstr "重复，每"
 #. module: account_analytic_analysis
 #: help:account.analytic.account,recurring_interval:0
 msgid "Repeat every (Days/Week/Month/Year)"
-msgstr "Repeat every (Days/Week/Month/Year)"
+msgstr "重复，每 (Days/Week/Month/Year)"
 
 #. module: account
 #: field:account.fiscal.position.tax,tax_dest_id:0
@@ -13509,7 +13509,7 @@ msgstr "每小时收入（实际）"
 #. module: account
 #: selection:account.financial.report,sign:0
 msgid "Reverse balance sign"
-msgstr "余额取反"
+msgstr "反向余额符号"
 
 #. modules: account, account_analytic_plans
 #: view:account.chart.template:account.view_account_chart_template_seacrh
@@ -17257,7 +17257,7 @@ msgstr "确认付款"
 #. module: account_budget
 #: field:crossovered.budget,validating_user_id:0
 msgid "Validate User"
-msgstr "审核用户"
+msgstr "确认用户"
 
 #. modules: account, account_budget
 #: model:mail.message.subtype,name:account.mt_invoice_validated
@@ -17601,7 +17601,7 @@ msgstr "哇，太快了！"
 #: field:account.print.journal,amount_currency:0
 #: field:account.report.general.ledger,amount_currency:0
 msgid "With Currency"
-msgstr "以币别"
+msgstr "币别"
 
 #. module: account
 #: selection:account.balance.report,display_account:0
@@ -17688,12 +17688,12 @@ msgstr "勾销"
 #. module: account_voucher
 #: field:account.voucher,analytic_id:0
 msgid "Write-Off Analytic Account"
-msgstr "勾销的分析账户"
+msgstr "勾销分析账户"
 
 #. module: account
 #: field:account.move.line.reconcile.writeoff,journal_id:0
 msgid "Write-Off Journal"
-msgstr "补差额分录"
+msgstr "勾销账簿"
 
 #. module: account
 #: view:account.automatic.reconcile:account.account_automatic_reconcile_view
@@ -17704,12 +17704,12 @@ msgstr "勾销凭证"
 #. module: account
 #: field:account.move.line.reconcile.writeoff,writeoff_acc_id:0
 msgid "Write-Off account"
-msgstr "补差额科目"
+msgstr "勾销科目"
 
 #. module: account
 #: field:account.move.line.reconcile,writeoff:0
 msgid "Write-Off amount"
-msgstr "补差额金额"
+msgstr "勾销金额"
 
 #. module: account
 #: code:addons/account/wizard/account_reconcile.py:115

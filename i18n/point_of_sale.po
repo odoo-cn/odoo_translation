@@ -7,7 +7,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-13 01:21+0000\n"
-"PO-Revision-Date: 2015-04-13 10:12+0800\n"
+"PO-Revision-Date: 2015-04-16 09:07+0800\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -442,7 +442,7 @@ msgstr "条码"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:391
 #, python-format
 msgid "Barcode"
-msgstr "条形码"
+msgstr "条码"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
@@ -479,7 +479,7 @@ msgstr "Bypass browser printing and prints via the hardware proxy"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:616
 #, python-format
 msgid "CHANGE"
-msgstr "CHANGE"
+msgstr "找零"
 
 #. module: point_of_sale
 #. openerp-web
@@ -894,7 +894,7 @@ msgstr "Default Point of Sale"
 #. module: point_of_sale
 #: field:report.pos.order,delay_validation:0
 msgid "Delay Validation"
-msgstr "验证延迟"
+msgstr "延迟验证"
 
 #. module: point_of_sale
 #. openerp-web
@@ -992,7 +992,7 @@ msgstr "折扣(%)"
 #. module: point_of_sale
 #: field:pos.config,barcode_discount:0
 msgid "Discount Barcodes"
-msgstr "Discount Barcodes"
+msgstr "折扣条码"
 
 #. module: point_of_sale
 #: field:pos.order.line,notice:0
@@ -1005,14 +1005,14 @@ msgstr "折扣通告"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:983
 #, python-format
 msgid "Discount:"
-msgstr "Discount:"
+msgstr "折扣："
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:625
 #, python-format
 msgid "Discounts"
-msgstr "Discounts"
+msgstr "折扣："
 
 #. module: point_of_sale
 #: view:pos.open.statement:point_of_sale.view_pos_open_statement
@@ -1357,7 +1357,7 @@ msgstr "只有新的或被取消的销售流水可以删除"
 #: view:pos.config:point_of_sale.view_pos_config_search
 #: selection:pos.config,state:0
 msgid "Inactive"
-msgstr "不活跃的"
+msgstr "Inactive"
 
 #. module: point_of_sale
 #: field:pos.order,note:0
@@ -1463,7 +1463,7 @@ msgstr "POS明细"
 #: code:addons/point_of_sale/wizard/pos_open_statement.py:80
 #, python-format
 msgid "List of Cash Registers"
-msgstr "收款机清单"
+msgstr "收款机列表"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1545,7 +1545,7 @@ msgstr "Mozilla Firefox"
 #. module: point_of_sale
 #: view:report.pos.order:point_of_sale.view_report_pos_order_search
 msgid "My Sales"
-msgstr "我的销售订单"
+msgstr "我的销售"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1693,7 +1693,7 @@ msgstr "Only web-compatible Image formats such as .png or .jpeg are supported"
 #: view:account.bank.statement:point_of_sale.view_pos_open_cash_statement_filter
 #: view:pos.session:point_of_sale.view_pos_session_search
 msgid "Open"
-msgstr "开放"
+msgstr "打开"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_open_statement
@@ -2295,7 +2295,7 @@ msgstr "Put"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_in
 msgid "Put Money In"
-msgstr "现金入库"
+msgstr "放入现金"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2794,7 +2794,7 @@ msgstr "小计"
 #. module: point_of_sale
 #: field:pos.order.line,price_subtotal:0
 msgid "Subtotal w/o Tax"
-msgstr "税额小计w/o"
+msgstr "小计 不含税"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2811,7 +2811,7 @@ msgstr "Sum of opening balance and transactions."
 #. module: point_of_sale
 #: view:pos.order.line:point_of_sale.view_pos_order_line
 msgid "Sum of subtotals"
-msgstr "合计小计"
+msgstr "小计汇总"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_detailsofsales
@@ -2843,7 +2843,7 @@ msgstr "Take"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_out
 msgid "Take Money Out"
-msgstr "取钱"
+msgstr "取出现金"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1192
@@ -3626,7 +3626,7 @@ msgstr "delete"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:788
 #, python-format
 msgid "discount"
-msgstr "discount"
+msgstr "折扣"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:399
