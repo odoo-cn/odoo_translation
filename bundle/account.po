@@ -10186,7 +10186,7 @@ msgstr "最大允许(%)"
 #. module: account
 #: field:account.automatic.reconcile,max_amount:0
 msgid "Maximum write-off amount"
-msgstr "最大补差额金额"
+msgstr "最大勾销金额"
 
 #. module: account
 #: selection:report.account.sales,month:0
@@ -17121,7 +17121,7 @@ msgstr "勾销的分析账户"
 #. module: account
 #: field:account.move.line.reconcile.writeoff,journal_id:0
 msgid "Write-Off Journal"
-msgstr "补差额分录"
+msgstr "勾销分录"
 
 #. module: account
 #: view:account.automatic.reconcile:account.account_automatic_reconcile_view
