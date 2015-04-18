@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 12:39+0000\n"
-"PO-Revision-Date: 2015-04-18 19:52+0800\n"
+"PO-Revision-Date: 2015-04-18 21:51+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -2059,7 +2059,7 @@ msgstr "科目共通报告"
 #. module: account
 #: field:account.analytic.line,currency_id:0
 msgid "Account Currency"
-msgstr "币种"
+msgstr "科目币种"
 
 #. module: account
 #: field:account.fiscal.position.account,account_dest_id:0
@@ -2942,7 +2942,7 @@ msgstr "Amount due"
 #. module: account_payment
 #: field:payment.line,amount:0
 msgid "Amount in Company Currency"
-msgstr "公司币别的金额"
+msgstr "公司本币的金额"
 
 #. module: account_payment
 #: field:payment.line,amount_currency:0
@@ -5948,7 +5948,7 @@ msgstr "货币调整"
 #. module: account_payment
 #: view:payment.line:account_payment.view_payment_line_tree
 msgid "Currency Amount Total"
-msgstr "金额合计"
+msgstr "外币金额合计"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_vendor_payment_form
@@ -6373,7 +6373,7 @@ msgstr "默认类型"
 #. module: account
 #: field:account.config.settings,currency_id:0
 msgid "Default company currency"
-msgstr "公司本位币的默认值"
+msgstr "默认公司本位币"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,date_stop:0
@@ -8551,7 +8551,7 @@ msgid ""
 "should choose 'Round per line' because you certainly want the sum of your "
 "tax-included line subtotals to be equal to the total amount with taxes."
 msgstr ""
-"如果选择“每行轮流”：对于每个税项，税额将首先按每个PO/SO/发票行轮流计算，然后"
+"如果选择“每行舍入”：对于每个税项，税额将首先按每个PO/SO/发票行轮流计算，然后"
 "对这些轮流计算得到的税额进行汇总，从而得到每个税项的总额。"
 
 #. module: account
@@ -11632,7 +11632,7 @@ msgstr "付款填充声明"
 #. module: account_voucher
 #: field:account.voucher,payment_rate_currency_id:0
 msgid "Payment Rate Currency"
-msgstr "付款汇率货币"
+msgstr "付款货币汇率"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
@@ -11684,7 +11684,7 @@ msgstr "付款类型"
 #. module: account_payment
 #: help:payment.line,amount:0
 msgid "Payment amount in the company currency"
-msgstr "公司币别的付款金额"
+msgstr "公司本币的付款金额"
 
 #. module: account_payment
 #: help:payment.line,amount_currency:0
@@ -13118,18 +13118,18 @@ msgstr "重置为草稿"
 #: field:report.invoice.created,residual:0
 #, python-format
 msgid "Residual"
-msgstr "余额"
+msgstr "剩余"
 
 #. module: account
 #: view:account.invoice:account.invoice_tree
 #: field:account.move.line,amount_residual:0
 msgid "Residual Amount"
-msgstr "余额"
+msgstr "剩余金额"
 
 #. module: account
 #: field:account.move.line,amount_residual_currency:0
 msgid "Residual Amount in Currency"
-msgstr "现金结余额"
+msgstr "外币剩余金额"
 
 #. module: account_asset
 #: field:account.asset.asset,value_residual:0
@@ -13523,7 +13523,7 @@ msgstr "搜索税模板"
 #: field:account.account.template,currency_id:0
 #: field:account.bank.accounts.wizard,currency_id:0
 msgid "Secondary Currency"
-msgstr "外币"
+msgstr "第二币种"
 
 #. module: account
 #: help:account.journal,type:0
@@ -13621,7 +13621,7 @@ msgstr "选择一个适合的科目表"
 #. module: account
 #: help:account.change.currency,currency_id:0
 msgid "Select a currency to apply on the invoice"
-msgstr "在发票上选择合适的币别"
+msgstr "选择一个要应用在发票上的币别"
 
 #. module: account_payment
 #: help:payment.order,date_scheduled:0
@@ -14540,7 +14540,7 @@ msgstr "税编码"
 #. module: account
 #: field:account.invoice.tax,tax_amount:0
 msgid "Tax Code Amount"
-msgstr "税金额"
+msgstr "税代码金额"
 
 #. module: account
 #: field:account.tax,tax_sign:0 field:account.tax.template,tax_sign:0
@@ -14589,7 +14589,7 @@ msgstr "税说明"
 #: field:account.tax,price_include:0
 #: field:account.tax.template,price_include:0
 msgid "Tax Included in Price"
-msgstr "含税价"
+msgstr "税金包含在价格中"
 
 #. module: account
 #: field:account.invoice,tax_line:0
@@ -14979,7 +14979,7 @@ msgstr "税金的计算方法"
 #. module: account
 #: help:account.journal,currency:0
 msgid "The currency used to enter statement"
-msgstr "使用的货币"
+msgstr "用来录入对账单的币种"
 
 #. module: account
 #: constraint:account.move.line:0
@@ -16205,13 +16205,13 @@ msgstr "应收款合计"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,remaining_total:0
 msgid "Total Remaining"
-msgstr "总剩余"
+msgstr "剩余合计"
 
 #. module: account
 #: field:account.invoice.report,residual:0
 #: field:account.invoice.report,user_currency_residual:0
 msgid "Total Residual"
-msgstr "总余额"
+msgstr "剩余合计"
 
 #. module: account_analytic_analysis
 #: field:account_analytic_analysis.summary.month,unit_amount:0
@@ -16613,12 +16613,12 @@ msgstr "反核对"
 #. module: account_voucher
 #: field:account.voucher.line,untax_amount:0
 msgid "Untax Amount"
-msgstr "未纳税额"
+msgstr "未税金额"
 
 #. module: account
 #: field:report.invoice.created,amount_untaxed:0
 msgid "Untaxed"
-msgstr "未完税"
+msgstr "未税"
 
 #. module: account
 #: view:account.invoice:account.invoice_tree
@@ -17256,7 +17256,7 @@ msgstr "你不能选择一个或者一组国家"
 #: code:addons/account/wizard/account_change_currency.py:38
 #, python-format
 msgid "You can only change currency for Draft Invoice."
-msgstr "您只能修改发票草稿的币种。"
+msgstr "您只能修改草稿发票的币种。"
 
 #. module: account
 #: constraint:account.move.reconcile:0
