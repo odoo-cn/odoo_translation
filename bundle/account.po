@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 12:39+0000\n"
-"PO-Revision-Date: 2015-04-19 16:02+0800\n"
+"PO-Revision-Date: 2015-04-19 16:10+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1271,10 +1271,10 @@ msgid ""
 "            "
 msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                点击创建一个新的预算单。\n"
+"                点击创建一个新的预算。\n"
 "              </p><p>\n"
-"                预算单是预测你公司未来一个期间里预期的收入和（或）费用.\n"
-"                预算单顶了一些财务科目和（或）分析科目(可能代表项目、\n"
+"                预算是预测你公司未来一个期间里预期的收入和（或）费用.\n"
+"                预算顶了一些财务科目和（或）分析科目(可能代表项目、\n"
 "                部门、产品类别等等）\n"
 "              </p><p>\n"
 "                通过跟踪你资金的去向，你不太可能超支, 并更有可能完成你的理财"
@@ -1962,7 +1962,7 @@ msgstr "科目的试算平衡报告"
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_balance
 msgid "Account Analytic Balance"
-msgstr "科目分析平衡"
+msgstr "科目分析余额"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_chart
@@ -1972,17 +1972,17 @@ msgstr "科目分析表"
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_cost_ledger
 msgid "Account Analytic Cost Ledger"
-msgstr "成本科目明细分析"
+msgstr "科目分析成本总账"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_cost_ledger_journal_report
 msgid "Account Analytic Cost Ledger For Journal Report"
-msgstr "分析本期成本明细账的报告"
+msgstr "账簿报告的科目分析成本总账"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_inverted_balance
 msgid "Account Analytic Inverted Balance"
-msgstr "科目分析反向平衡"
+msgstr "科目分析反向余额"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_journal_report

@@ -1,5 +1,5 @@
 # !/bin/bash
-file=/home/ubuntu/bundle/*.po
+file=/home/ubuntu/bundle/*.csv
 for f in $file 
 do
 echo 'import po file' $f
