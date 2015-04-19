@@ -1,0 +1,147 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_sale_options
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-19 15:28+0000\n"
+"PO-Revision-Date: 2015-04-19 15:28+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_sale_options
+#: code:addons/website_sale_options/models/sale_order.py:46
+#, python-format
+msgid "%s\n"
+"Option for: %s"
+msgstr "%s\n"
+"Option for: %s"
+
+#. module: website_sale_options
+#: view:website:website_sale.cart
+msgid "'optional_product info' if line.linked_line_id else ''"
+msgstr "'optional_product info' if line.linked_line_id else ''"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "1 Item"
+msgstr "1 Item"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "5 Items"
+msgstr "5 Items"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Add to Cart"
+msgstr "Add to Cart"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Checkout"
+msgstr "Checkout"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Continue"
+msgstr "继续"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Continue Shopping"
+msgstr "Continue Shopping"
+
+#. module: website_sale_options
+#: field:sale.order.line,linked_line_id:0
+msgid "Linked Order Line"
+msgstr "Linked Order Line"
+
+#. module: website_sale_options
+#: field:product.template,optional_product_ids:0
+msgid "Optional Products"
+msgstr "Optional Products"
+
+#. module: website_sale_options
+#: field:sale.order.line,option_line_ids:0
+msgid "Options Linked"
+msgstr "Options Linked"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Price"
+msgstr "价格"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Proceed to checkout"
+msgstr "Proceed to checkout"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Product"
+msgstr "产品"
+
+#. module: website_sale_options
+#: model:ir.model,name:website_sale_options.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Product not available"
+msgstr "Product not available"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Product to add in your shopping cart"
+msgstr "Product to add in your shopping cart"
+
+#. module: website_sale_options
+#: help:product.template,optional_product_ids:0
+msgid "Products to propose when add to cart."
+msgstr "Products to propose when add to cart."
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Quantity"
+msgstr "数量"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Remove from cart"
+msgstr "Remove from cart"
+
+#. module: website_sale_options
+#: model:ir.model,name:website_sale_options.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: website_sale_options
+#: model:ir.model,name:website_sale_options.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "销售订单明细"
+
+#. module: website_sale_options
+#: view:website:website_sale_options.modal
+msgid "Select Your Options:"
+msgstr "Select Your Options:"
+
+#. module: website_sale_options
+#. openerp-web
+#: code:addons/website_sale_options/static/src/js/website_sale.test.js:8
+#, python-format
+msgid "click in modal on 'Proceed to checkout' button"
+msgstr "click in modal on 'Proceed to checkout' button"
+
+#. module: website_sale_options
+#: view:website:website_sale.cart
+msgid "not line.linked_line_id"
+msgstr "not line.linked_line_id"
+

@@ -1,0 +1,865 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* website_quote
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-19 15:28+0000\n"
+"PO-Revision-Date: 2015-04-19 15:28+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: website_quote
+#: model:email.template,body_html:website_quote.email_template_edi_sale
+msgid "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"\n"
+"    <p>Hello ${object.partner_id.name},</p>\n"
+"\n"
+"    <p>Here is your ${object.state in ('draft', 'sent') and 'quotation' or 'order confirmation'} from ${object.company_id.name}: </p>\n"
+"\n"
+"    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
+"       &nbsp;&nbsp;<strong>REFERENCES</strong><br />\n"
+"       &nbsp;&nbsp;Order number: <strong>${object.name}</strong><br />\n"
+"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong><br />\n"
+"       &nbsp;&nbsp;Order date: ${object.date_order}<br />\n"
+"       % if object.origin:\n"
+"       &nbsp;&nbsp;Order reference: ${object.origin}<br />\n"
+"       % endif\n"
+"       % if object.client_order_ref:\n"
+"       &nbsp;&nbsp;Your reference: ${object.client_order_ref}<br />\n"
+"       % endif\n"
+"       % if object.user_id:\n"
+"       &nbsp;&nbsp;Your contact: <a href=\"mailto:${object.user_id.email or ''}?subject=Order%20${object.name}\">${object.user_id.name}</a>\n"
+"       % endif\n"
+"    </p>\n"
+"\n"
+"    <% set signup_url = object.get_signup_url() %>\n"
+"    % if signup_url:\n"
+"    <p>\n"
+"    You can access this document and pay online via our Customer Portal:\n"
+"    </p>\n"
+"        <a style=\"display:block; width: 150px; height:20px; margin-left: 120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; text-align: center; text-decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat no-repeat;\"\n"
+"           href=\"${signup_url}\">View ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'}</a>\n"
+"    % endif\n"
+"\n"
+"    % if object.paypal_url:\n"
+"    <br/>\n"
+"    <p>It is also possible to directly pay with Paypal:</p>\n"
+"        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n"
+"            <img class=\"oe_edi_paypal_button\" src=\"/sale/static/img/btn_paynowcc_lg.gif\"/>\n"
+"        </a>\n"
+"    % endif\n"
+"\n"
+"    <br/>\n"
+"    <p>If you have any question, do not hesitate to contact us.</p>\n"
+"    <p>Thank you for choosing ${object.company_id.name or 'us'}!</p>\n"
+"    <br/>\n"
+"    <br/>\n"
+"    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n"
+"        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n"
+"            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n"
+"    </div>\n"
+"    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
+"        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
+"        % if object.company_id.street:\n"
+"            ${object.company_id.street}<br/>\n"
+"        % endif\n"
+"        % if object.company_id.street2:\n"
+"            ${object.company_id.street2}<br/>\n"
+"        % endif\n"
+"        % if object.company_id.city or object.company_id.zip:\n"
+"            ${object.company_id.zip} ${object.company_id.city}<br/>\n"
+"        % endif\n"
+"        % if object.company_id.country_id:\n"
+"            ${object.company_id.state_id and ('%s, ' % object.company_id.state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n"
+"        % endif\n"
+"        </span>\n"
+"        % if object.company_id.phone:\n"
+"            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n"
+"                Phone:&nbsp; ${object.company_id.phone}\n"
+"            </div>\n"
+"        % endif\n"
+"        % if object.company_id.website:\n"
+"            <div>\n"
+"                Web :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n"
+"            </div>\n"
+"        % endif\n"
+"        <p></p>\n"
+"    </div>\n"
+"</div>\n"
+"            "
+msgstr "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
+"\n"
+"    <p>Hello ${object.partner_id.name},</p>\n"
+"\n"
+"    <p>Here is your ${object.state in ('draft', 'sent') and 'quotation' or 'order confirmation'} from ${object.company_id.name}: </p>\n"
+"\n"
+"    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
+"       &nbsp;&nbsp;<strong>REFERENCES</strong><br />\n"
+"       &nbsp;&nbsp;Order number: <strong>${object.name}</strong><br />\n"
+"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong><br />\n"
+"       &nbsp;&nbsp;Order date: ${object.date_order}<br />\n"
+"       % if object.origin:\n"
+"       &nbsp;&nbsp;Order reference: ${object.origin}<br />\n"
+"       % endif\n"
+"       % if object.client_order_ref:\n"
+"       &nbsp;&nbsp;Your reference: ${object.client_order_ref}<br />\n"
+"       % endif\n"
+"       % if object.user_id:\n"
+"       &nbsp;&nbsp;Your contact: <a href=\"mailto:${object.user_id.email or ''}?subject=Order%20${object.name}\">${object.user_id.name}</a>\n"
+"       % endif\n"
+"    </p>\n"
+"\n"
+"    <% set signup_url = object.get_signup_url() %>\n"
+"    % if signup_url:\n"
+"    <p>\n"
+"    You can access this document and pay online via our Customer Portal:\n"
+"    </p>\n"
+"        <a style=\"display:block; width: 150px; height:20px; margin-left: 120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; text-align: center; text-decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat no-repeat;\"\n"
+"           href=\"${signup_url}\">View ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'}</a>\n"
+"    % endif\n"
+"\n"
+"    % if object.paypal_url:\n"
+"    <br/>\n"
+"    <p>It is also possible to directly pay with Paypal:</p>\n"
+"        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n"
+"            <img class=\"oe_edi_paypal_button\" src=\"/sale/static/img/btn_paynowcc_lg.gif\"/>\n"
+"        </a>\n"
+"    % endif\n"
+"\n"
+"    <br/>\n"
+"    <p>If you have any question, do not hesitate to contact us.</p>\n"
+"    <p>Thank you for choosing ${object.company_id.name or 'us'}!</p>\n"
+"    <br/>\n"
+"    <br/>\n"
+"    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n"
+"        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n"
+"            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n"
+"    </div>\n"
+"    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
+"        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
+"        % if object.company_id.street:\n"
+"            ${object.company_id.street}<br/>\n"
+"        % endif\n"
+"        % if object.company_id.street2:\n"
+"            ${object.company_id.street2}<br/>\n"
+"        % endif\n"
+"        % if object.company_id.city or object.company_id.zip:\n"
+"            ${object.company_id.zip} ${object.company_id.city}<br/>\n"
+"        % endif\n"
+"        % if object.company_id.country_id:\n"
+"            ${object.company_id.state_id and ('%s, ' % object.company_id.state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n"
+"        % endif\n"
+"        </span>\n"
+"        % if object.company_id.phone:\n"
+"            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n"
+"                Phone:&nbsp; ${object.company_id.phone}\n"
+"            </div>\n"
+"        % endif\n"
+"        % if object.company_id.website:\n"
+"            <div>\n"
+"                Web :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n"
+"            </div>\n"
+"        % endif\n"
+"        <p></p>\n"
+"    </div>\n"
+"</div>\n"
+"            "
+
+#. module: website_quote
+#: model:email.template,report_name:website_quote.email_template_edi_sale
+msgid "${(object.name or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}"
+msgstr "${(object.name or '').replace('/','_')}_${object.state == 'draft' and '草稿' or ''}"
+
+#. module: website_quote
+#: model:email.template,subject:website_quote.email_template_edi_sale
+msgid "${object.company_id.name|safe} ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'} (Ref ${object.name or 'n/a' })"
+msgstr "${object.company_id.name|safe} ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'} (Ref ${object.name or 'n/a' })"
+
+#. module: website_quote
+#: view:website:website_quote.optional_products
+#: view:website:website_quote.pricing
+msgid "% discount"
+msgstr "% discount"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+#: view:website:website_quote.so_template
+msgid "&times;"
+msgstr "&times;"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid ",\n"
+"                                  for an amount of"
+msgstr ",\n"
+"                                  for an amount of"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid ":\n"
+"                                this content will appear on the quotation only if this\n"
+"                                product is put on the quote."
+msgstr ":\n"
+"                                this content will appear on the quotation only if this\n"
+"                                product is put on the quote."
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid ":\n"
+"                                this content will appear on the quotation only if this\n"
+"                                product is used in the quote."
+msgstr ":\n"
+"                                this content will appear on the quotation only if this\n"
+"                                product is used in the quote."
+
+#. module: website_quote
+#: view:website:website_quote.quotation_toolbar
+msgid "Accept"
+msgstr "Accept"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Accept Order"
+msgstr "Accept Order"
+
+#. module: website_quote
+#: field:sale.order,amount_undiscounted:0
+msgid "Amount Before Discount"
+msgstr "Amount Before Discount"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Ask Changes"
+msgstr "Ask Changes"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Bill To:"
+msgstr "Bill To:"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Cancel"
+msgstr "取消"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Clear"
+msgstr "Clear"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Contact us"
+msgstr "联络我们"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Contact us for new quote."
+msgstr "Contact us for new quote."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Contact us to get a new quote."
+msgstr "Contact us to get a new quote."
+
+#. module: website_quote
+#: field:sale.order.option,create_uid:0
+#: field:sale.quote.line,create_uid:0
+#: field:sale.quote.option,create_uid:0
+#: field:sale.quote.template,create_uid:0
+msgid "Created by"
+msgstr "创建者"
+
+#. module: website_quote
+#: field:sale.order.option,create_date:0
+#: field:sale.quote.line,create_date:0
+#: field:sale.quote.option,create_date:0
+#: field:sale.quote.template,create_date:0
+msgid "Created on"
+msgstr "创建于"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Customer:"
+msgstr "Customer:"
+
+#. module: website_quote
+#: field:sale.order,website_description:0
+#: field:sale.order.option,name:0
+#: field:sale.quote.line,name:0
+#: field:sale.quote.option,name:0
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+#: field:sale.quote.template,website_description:0
+#: view:website:website_quote.optional_products
+msgid "Description"
+msgstr "说明"
+
+#. module: website_quote
+#: field:product.template,quote_description:0
+msgid "Description for the quote"
+msgstr "Description for the quote"
+
+#. module: website_quote
+#: field:product.template,website_description:0
+msgid "Description for the website"
+msgstr "Description for the website"
+
+#. module: website_quote
+#: field:sale.order.option,discount:0
+#: field:sale.quote.line,discount:0
+#: field:sale.quote.option,discount:0
+msgid "Discount (%)"
+msgstr "Discount (%)"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Draw your signature"
+msgstr "Draw your signature"
+
+#. module: website_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+msgid "Edit Template"
+msgstr "Edit Template"
+
+#. module: website_quote
+#: field:sale.order,validity_date:0
+msgid "Expiry Date"
+msgstr "Expiry Date"
+
+#. module: website_quote
+#: view:website:sale.report_saleorder_document
+msgid "Expiry Date:"
+msgstr "Expiry Date:"
+
+#. module: website_quote
+#: view:website:website_quote.quotation_toolbar
+msgid "Feedback"
+msgstr "Feedback"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "Heading 1"
+msgstr "Heading 1"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "Heading 2"
+msgstr "Heading 2"
+
+#. module: website_quote
+#: view:website:website_quote.chatter
+msgid "History"
+msgstr "History"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "I agree that by signing this proposal, I\n"
+"                                  accept it on the behalf of"
+msgstr "I agree that by signing this proposal, I\n"
+"                                  accept it on the behalf of"
+
+#. module: website_quote
+#: field:sale.order.option,id:0
+#: field:sale.quote.line,id:0
+#: field:sale.quote.option,id:0
+#: field:sale.quote.template,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Incl. tax)"
+msgstr "Incl. tax)"
+
+#. module: website_quote
+#: view:website:website_quote.navigation_menu
+msgid "Introduction"
+msgstr "Introduction"
+
+#. module: website_quote
+#: field:sale.order.option,write_uid:0
+#: field:sale.quote.line,write_uid:0
+#: field:sale.quote.option,write_uid:0
+#: field:sale.quote.template,write_uid:0
+msgid "Last Updated by"
+msgstr "Last Updated by"
+
+#. module: website_quote
+#: field:sale.order.option,write_date:0
+#: field:sale.quote.line,write_date:0
+#: field:sale.quote.option,write_date:0
+#: field:sale.quote.template,write_date:0
+msgid "Last Updated on"
+msgstr "Last Updated on"
+
+#. module: website_quote
+#: field:sale.order.line,website_description:0
+#: field:sale.order.option,website_description:0
+#: field:sale.quote.line,website_description:0
+msgid "Line Description"
+msgstr "Line Description"
+
+#. module: website_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+msgid "Lines"
+msgstr "Lines"
+
+#. module: website_quote
+#: help:sale.quote.template,number_of_days:0
+msgid "Number of days for the validaty date computation of the quotation"
+msgstr "Number of days for the validaty date computation of the quotation"
+
+#. module: website_quote
+#: field:sale.quote.option,website_description:0
+msgid "Option Description"
+msgstr "Option Description"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "Optional Product:"
+msgstr "Optional Product:"
+
+#. module: website_quote
+#: view:sale.order:website_quote.sale_order_form_quote
+msgid "Optional Products & Services"
+msgstr "Optional Products & Services"
+
+#. module: website_quote
+#: field:sale.order,options:0
+#: field:sale.order.line,option_line_id:0
+#: field:sale.quote.template,options:0
+msgid "Optional Products Lines"
+msgstr "Optional Products Lines"
+
+#. module: website_quote
+#: view:website:website_quote.optional_products
+msgid "Options"
+msgstr "Options"
+
+#. module: website_quote
+#: code:addons/website_quote/controllers/main.py:69
+#, python-format
+msgid "Order signed by %s"
+msgstr "Order signed by %s"
+
+#. module: website_quote
+#: view:website:website_quote.optional_products
+#: view:website:website_quote.pricing
+msgid "Price"
+msgstr "价格"
+
+#. module: website_quote
+#: view:website:website_quote.pricing
+msgid "Pricing"
+msgstr "Pricing"
+
+#. module: website_quote
+#: field:sale.order.option,product_id:0
+#: field:sale.quote.line,product_id:0
+#: field:sale.quote.option,product_id:0
+msgid "Product"
+msgstr "产品"
+
+#. module: website_quote
+#: model:ir.model,name:website_quote.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "Product:"
+msgstr "Product:"
+
+#. module: website_quote
+#: view:website:website_quote.optional_products
+#: view:website:website_quote.pricing
+msgid "Products"
+msgstr "产品"
+
+#. module: website_quote
+#: field:sale.order.option,quantity:0
+#: field:sale.quote.line,product_uom_qty:0
+#: field:sale.quote.option,quantity:0
+#: view:website:website_quote.pricing
+msgid "Quantity"
+msgstr "数量"
+
+#. module: website_quote
+#: field:sale.quote.template,name:0
+msgid "Quotation Template"
+msgstr "Quotation Template"
+
+#. module: website_quote
+#: model:ir.model,name:website_quote.model_sale_quote_line
+msgid "Quotation Template Lines"
+msgstr "Quotation Template Lines"
+
+#. module: website_quote
+#: field:sale.quote.line,quote_id:0
+#: field:sale.quote.option,template_id:0
+msgid "Quotation Template Reference"
+msgstr "Quotation Template Reference"
+
+#. module: website_quote
+#: model:ir.actions.act_window,name:website_quote.action_sale_quotation_template
+#: model:ir.ui.menu,name:website_quote.menu_sale_quote_template
+msgid "Quotation Templates"
+msgstr "Quotation Templates"
+
+#. module: website_quote
+#: code:addons/website_quote/controllers/main.py:47
+#, python-format
+msgid "Quotation viewed by customer"
+msgstr "Quotation viewed by customer"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Quote Date:"
+msgstr "Quote Date:"
+
+#. module: website_quote
+#: field:sale.quote.template,number_of_days:0
+msgid "Quote Duration"
+msgstr "Quote Duration"
+
+#. module: website_quote
+#: model:ir.model,name:website_quote.model_sale_quote_option
+msgid "Quote Option"
+msgstr "Quote Option"
+
+#. module: website_quote
+#: field:sale.order,template_id:0
+msgid "Quote Template"
+msgstr "Quote Template"
+
+#. module: website_quote
+#: field:sale.quote.template,quote_line:0
+msgid "Quote Template Lines"
+msgstr "Quote Template Lines"
+
+#. module: website_quote
+#: view:website:website_quote.quotation_toolbar
+#: view:website:website_quote.so_quotation
+msgid "Reject"
+msgstr "Reject"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Reject This Quote"
+msgstr "Reject This Quote"
+
+#. module: website_quote
+#: model:ir.model,name:website_quote.model_sale_order_option
+msgid "Sale Options"
+msgstr "Sale Options"
+
+#. module: website_quote
+#: field:sale.order.option,order_id:0
+msgid "Sale Order Reference"
+msgstr "Sale Order Reference"
+
+#. module: website_quote
+#: model:ir.model,name:website_quote.model_sale_quote_template
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+msgid "Sale Quotation Template"
+msgstr "Sale Quotation Template"
+
+#. module: website_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_tree
+msgid "Sale Quote Template"
+msgstr "Sale Quote Template"
+
+#. module: website_quote
+#: model:ir.model,name:website_quote.model_sale_order
+msgid "Sales Order"
+msgstr "销售订单"
+
+#. module: website_quote
+#: model:ir.model,name:website_quote.model_sale_order_line
+msgid "Sales Order Line"
+msgstr "销售订单明细"
+
+#. module: website_quote
+#: view:sale.order:website_quote.sale_order_form_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+msgid "Sales Quote Template Lines"
+msgstr "Sales Quote Template Lines"
+
+#. module: website_quote
+#: field:sale.order,access_token:0
+msgid "Security Token"
+msgstr "Security Token"
+
+#. module: website_quote
+#: view:website:website_quote.chatter
+msgid "Send"
+msgstr "Send"
+
+#. module: website_quote
+#: view:website:website_quote.chatter
+msgid "Send us a note..."
+msgstr "Send us a note..."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Ship To:"
+msgstr "Ship To:"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Sign Order"
+msgstr "Sign Order"
+
+#. module: website_quote
+#: view:website:website_quote.pricing
+msgid "Subtotal:"
+msgstr "Subtotal:"
+
+#. module: website_quote
+#: view:sale.order:website_quote.sale_order_form_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+msgid "Suggested Products"
+msgstr "Suggested Products"
+
+#. module: website_quote
+#: view:website:website_quote.pricing
+msgid "Taxes"
+msgstr "税金"
+
+#. module: website_quote
+#: view:website:website_quote.pricing
+msgid "Taxes:"
+msgstr "Taxes:"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Tell us why you are refusing this quotation, this will help us improve our services."
+msgstr "Tell us why you are refusing this quotation, this will help us improve our services."
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "Template Header:"
+msgstr "Template Header:"
+
+#. module: website_quote
+#: view:website:website_quote.pricing
+#: view:website:website_quote.so_template
+msgid "Terms & Conditions"
+msgstr "Terms & Conditions"
+
+#. module: website_quote
+#: field:sale.quote.template,note:0
+msgid "Terms and conditions"
+msgstr "Terms and conditions"
+
+#. module: website_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+msgid "Terms and conditions..."
+msgstr "Terms and conditions..."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "This offer expired!"
+msgstr "This offer expired!"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "This offer expires in"
+msgstr "This offer expires in"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "This order has been validated. Thanks for your trust\n"
+"                          and do not hesitate to"
+msgstr "This order has been validated. Thanks for your trust\n"
+"                          and do not hesitate to"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "This quotation has been canceled."
+msgstr "This quotation has been canceled."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "This quotation has been rejected."
+msgstr "This quotation has been rejected."
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "Titles with style"
+msgstr "Titles with style"
+
+#. module: website_quote
+#: view:website:website_quote.pricing
+msgid "Total:"
+msgstr "合计："
+
+#. module: website_quote
+#: field:sale.order.option,price_unit:0
+#: field:sale.quote.line,price_unit:0
+#: field:sale.quote.option,price_unit:0
+#: view:website:website_quote.pricing
+msgid "Unit Price"
+msgstr "单价"
+
+#. module: website_quote
+#: field:sale.order.option,uom_id:0
+#: field:sale.quote.line,product_uom_id:0
+#: field:sale.quote.option,uom_id:0
+msgid "Unit of Measure "
+msgstr "Unit of Measure "
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Update Quote"
+msgstr "Update Quote"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Validate Order"
+msgstr "Validate Order"
+
+#. module: website_quote
+#: view:sale.order:website_quote.sale_order_form_quote
+msgid "View Quotation"
+msgstr "View Quotation"
+
+#. module: website_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+msgid "Website Description"
+msgstr "Website Description"
+
+#. module: website_quote
+#: field:sale.order,website_message_ids:0
+msgid "Website Messages"
+msgstr "Website Messages"
+
+#. module: website_quote
+#: help:sale.order,website_message_ids:0
+msgid "Website communication history"
+msgstr "Website communication history"
+
+#. module: website_quote
+#: code:addons/website_quote/controllers/main.py:144
+#, python-format
+msgid "You cannot add options to a confirmed order."
+msgstr "You cannot add options to a confirmed order."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your Contact:"
+msgstr "Your Contact:"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your Name:"
+msgstr "Your Name:"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your Order"
+msgstr "Your Order"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your Quotation"
+msgstr "Your Quotation"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your Reference:"
+msgstr "Your Reference:"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your advantage:"
+msgstr "Your advantage:"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your feedback....."
+msgstr "Your feedback....."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "Your message has been successfully sent!"
+msgstr "Your message has been successfully sent!"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "and"
+msgstr "and"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "contact us"
+msgstr "contact us"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "day"
+msgstr "day"
+
+#. module: website_quote
+#: view:sale.quote.template:website_quote.view_sale_quote_template_form
+#: view:website:website_quote.so_quotation
+msgid "days"
+msgstr "days"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "for\n"
+"                          any question."
+msgstr "for\n"
+"                          any question."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "if you want a new one."
+msgstr "if you want a new one."
+
+#. module: website_quote
+#: view:website:website_quote.chatter
+msgid "on"
+msgstr "on"
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "or"
+msgstr "or"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "this content\n"
+"                                will appear on all quotations using this\n"
+"                                template."
+msgstr "this content\n"
+"                                will appear on all quotations using this\n"
+"                                template."
+
+#. module: website_quote
+#: field:sale.order.option,line_id:0
+msgid "unknown"
+msgstr "unknown"
+
+#. module: website_quote
+#: view:website:website_quote.so_template
+msgid "will be used to generate the\n"
+"                                table of content automatically."
+msgstr "will be used to generate the\n"
+"                                table of content automatically."
+
+#. module: website_quote
+#: view:website:website_quote.so_quotation
+msgid "with payment terms:"
+msgstr "with payment terms:"
+

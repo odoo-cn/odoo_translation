@@ -1,0 +1,74 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* account_anglo_saxon
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-19 15:14+0000\n"
+"PO-Revision-Date: 2015-04-19 15:14+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: account_anglo_saxon
+#: help:account.invoice.line,move_id:0
+msgid "If the invoice was generated from a stock.picking, reference to the related move line."
+msgstr "如果发票是从仓储中产生，请参考关联记录"
+
+#. module: account_anglo_saxon
+#: model:ir.model,name:account_anglo_saxon.model_account_invoice
+msgid "Invoice"
+msgstr "Invoice"
+
+#. module: account_anglo_saxon
+#: model:ir.model,name:account_anglo_saxon.model_account_invoice_line
+msgid "Invoice Line"
+msgstr "Invoice Line"
+
+#. module: account_anglo_saxon
+#: field:account.invoice.line,move_id:0
+msgid "Move line"
+msgstr "记录"
+
+#. module: account_anglo_saxon
+#: model:ir.model,name:account_anglo_saxon.model_stock_picking
+msgid "Picking List"
+msgstr "装箱单"
+
+#. module: account_anglo_saxon
+#: field:product.category,property_account_creditor_price_difference_categ:0
+#: field:product.template,property_account_creditor_price_difference:0
+msgid "Price Difference Account"
+msgstr "价格差异科目"
+
+#. module: account_anglo_saxon
+#: model:ir.model,name:account_anglo_saxon.model_product_category
+msgid "Product Category"
+msgstr "产品分类"
+
+#. module: account_anglo_saxon
+#: model:ir.model,name:account_anglo_saxon.model_product_template
+msgid "Product Template"
+msgstr "产品模板"
+
+#. module: account_anglo_saxon
+#: model:ir.model,name:account_anglo_saxon.model_purchase_order
+msgid "Purchase Order"
+msgstr "采购订单"
+
+#. module: account_anglo_saxon
+#: model:ir.model,name:account_anglo_saxon.model_stock_move
+msgid "Stock Move"
+msgstr "Stock Move"
+
+#. module: account_anglo_saxon
+#: help:product.category,property_account_creditor_price_difference_categ:0
+#: help:product.template,property_account_creditor_price_difference:0
+msgid "This account will be used to value price difference between purchase price and cost price."
+msgstr "这科目将用于采购价格和成本价格之间的差异"
+
