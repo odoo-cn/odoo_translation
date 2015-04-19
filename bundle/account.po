@@ -22,7 +22,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-17 12:39+0000\n"
-"PO-Revision-Date: 2015-04-19 08:58+0800\n"
+"PO-Revision-Date: 2015-04-19 09:03+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1854,7 +1854,7 @@ msgstr "科目币种"
 #: field:account.fiscal.position.account,account_dest_id:0
 #: field:account.fiscal.position.account.template,account_dest_id:0
 msgid "Account Destination"
-msgstr "替代科目"
+msgstr "科目目标"
 
 #. modules: account, account_voucher, account_sequence
 #: view:account.move:account.view_move_form
@@ -1878,7 +1878,7 @@ msgstr "科目总账账簿"
 #. module: analytic
 #: field:account.analytic.account,child_complete_ids:0
 msgid "Account Hierarchy"
-msgstr "树"
+msgstr "科目层级"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account_ids:0
@@ -6178,7 +6178,7 @@ msgstr "目标描述"
 #. module: account_payment
 #: field:payment.line,bank_id:0
 msgid "Destination Bank Account"
-msgstr "收款方银行账号"
+msgstr "目标银行账号"
 
 #. module: account
 #: selection:account.account.type,close_method:0
