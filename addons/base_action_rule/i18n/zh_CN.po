@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:42+0000\n"
-"PO-Revision-Date: 2015-04-20 10:42+0000\n"
+"POT-Creation-Date: 2015-04-20 12:57+0000\n"
+"PO-Revision-Date: 2015-04-20 12:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "Based on Timed Condition"
 #. module: base_action_rule
 #: field:base.action.rule,filter_pre_id:0
 msgid "Before Update Filter"
-msgstr "更新前过滤器"
+msgstr "更新前筛选器"
 
 #. module: base_action_rule
 #: selection:base.action.rule.lead.test,state:0
@@ -318,7 +318,7 @@ msgstr "主题"
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
 msgid "The filter must therefore be available in this page."
-msgstr "过滤器必须是本页存在的。"
+msgstr "筛选器必须是本页存在的。"
 
 #. module: base_action_rule
 #: field:base.action.rule,trg_date_id:0

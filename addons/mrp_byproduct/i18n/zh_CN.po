@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:46+0000\n"
-"PO-Revision-Date: 2015-04-20 10:46+0000\n"
+"POT-Creation-Date: 2015-04-20 13:01+0000\n"
+"PO-Revision-Date: 2015-04-20 13:01+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -79,7 +79,7 @@ msgstr "最后更新"
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_production
 msgid "Manufacturing Order"
-msgstr "生产单"
+msgstr "制造订单"
 
 #. module: mrp_byproduct
 #: field:mrp.subproduct,product_id:0

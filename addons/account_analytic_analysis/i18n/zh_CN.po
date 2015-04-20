@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:40+0000\n"
-"PO-Revision-Date: 2015-04-20 10:40+0000\n"
+"POT-Creation-Date: 2015-04-20 12:55+0000\n"
+"PO-Revision-Date: 2015-04-20 12:55+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -342,7 +342,7 @@ msgstr "Contract expiration reminder ${user.company_id.name}"
 #: model:ir.actions.act_window,name:account_analytic_analysis.action_account_analytic_overdue_all
 #: model:ir.ui.menu,name:account_analytic_analysis.menu_action_account_analytic_overdue_all
 msgid "Contracts"
-msgstr "合同列表"
+msgstr "合同"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -368,7 +368,7 @@ msgstr "没有指派客户经理的合同"
 #: model:ir.actions.act_window,name:account_analytic_analysis.action_account_analytic_overdue
 #: model:ir.ui.menu,name:account_analytic_analysis.menu_action_account_analytic_overdue
 msgid "Contracts to Renew"
-msgstr "要续签的合同"
+msgstr "待续签的合同"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.invoice.line,create_uid:0
@@ -765,7 +765,7 @@ msgstr "理论收入"
 #: model:ir.actions.act_window,name:account_analytic_analysis.action_hr_tree_invoiced_all
 #: model:ir.ui.menu,name:account_analytic_analysis.menu_action_hr_tree_invoiced_all
 msgid "Time & Materials to Invoice"
-msgstr "要开票的工时和材料"
+msgstr "待开票的工时和材料"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form

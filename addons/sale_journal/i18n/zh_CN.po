@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:48+0000\n"
-"PO-Revision-Date: 2015-04-20 10:48+0000\n"
+"POT-Creation-Date: 2015-04-20 13:04+0000\n"
+"PO-Revision-Date: 2015-04-20 13:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -136,7 +136,7 @@ msgstr "销售订单"
 #. module: sale_journal
 #: model:ir.model,name:sale_journal.model_stock_move
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存移动"
 
 #. module: sale_journal
 #: help:res.partner,property_invoice_type:0

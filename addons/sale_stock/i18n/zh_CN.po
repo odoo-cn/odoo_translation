@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:49+0000\n"
-"PO-Revision-Date: 2015-04-20 10:49+0000\n"
+"POT-Creation-Date: 2015-04-20 13:04+0000\n"
+"PO-Revision-Date: 2015-04-20 13:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -101,7 +101,7 @@ msgstr "已送货"
 #: model:ir.actions.act_window,name:sale_stock.outgoing_picking_list_to_invoice
 #: model:ir.ui.menu,name:sale_stock.menu_action_picking_list_to_invoice
 msgid "Deliveries to Invoice"
-msgstr "交货待开票"
+msgstr "待开票的交货"
 
 #. module: sale_stock
 #: model:res.groups,name:sale_stock.group_invoice_deli_orders
@@ -116,7 +116,7 @@ msgstr "Enable Route on Sales Order Line"
 #. module: sale_stock
 #: field:sale.config.settings,group_invoice_deli_orders:0
 msgid "Generate invoices after and based on delivery orders"
-msgstr "基于发运单生产发票"
+msgstr "基于交货单生成发票"
 
 #. module: sale_stock
 #: view:sale.order:sale_stock.view_order_form_inherit
@@ -297,7 +297,7 @@ msgstr "运送方式"
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_move
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存移动"
 
 #. module: sale_stock
 #: field:sale.config.settings,default_order_policy:0

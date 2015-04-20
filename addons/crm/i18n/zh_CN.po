@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:42+0000\n"
-"PO-Revision-Date: 2015-04-20 10:42+0000\n"
+"POT-Creation-Date: 2015-04-20 12:57+0000\n"
+"PO-Revision-Date: 2015-04-20 12:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1232,7 +1232,7 @@ msgstr "来自: %s:%s"
 #. module: crm
 #: model:ir.actions.act_window,help:crm.action_report_crm_phonecall
 msgid "From this report, you can analyse the performance of your sales team, based on their phone calls. You can group or filter the information according to several criteria and drill down the information, by adding more groups in the report."
-msgstr "在这报表中，你能分析你的销售团队在电话访问上的业绩。你能根据几个标准和向下钻取数据组织或过滤信息。它能在报表中加入更多的组。"
+msgstr "在这报表中，你能分析你的销售团队在电话访问上的业绩。你能根据几个标准和向下钻取数据组织或筛选信息。它能在报表中加入更多的组。"
 
 #. module: crm
 #: field:crm.lead,function:0
@@ -2046,7 +2046,7 @@ msgstr "运算符"
 #: view:res.partner:crm.crm_lead_partner_kanban_view
 #: view:res.partner:crm.view_partners_form_crm1
 msgid "Opportunities"
-msgstr "商机列表"
+msgstr "商机"
 
 #. module: crm
 #: view:crm.opportunity.report:crm.view_report_crm_opportunity_filter
@@ -2589,7 +2589,7 @@ msgstr "计划/记录一个呼叫"
 #: model:ir.actions.act_window,name:crm.crm_case_categ_phone_outgoing0
 #: model:ir.ui.menu,name:crm.menu_crm_case_phone_outbound
 msgid "Scheduled Calls"
-msgstr "准备电话呼叫"
+msgstr "安排的电话呼叫"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:1063
@@ -2743,7 +2743,7 @@ msgstr "软件"
 #: model:ir.model,name:crm.model_crm_tracking_source
 #: model:ir.ui.menu,name:crm.menu_crm_tracking_source
 msgid "Source"
-msgstr "原文"
+msgstr "源"
 
 #. module: crm
 #: field:crm.tracking.source,name:0

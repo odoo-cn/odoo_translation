@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:52+0000\n"
-"PO-Revision-Date: 2015-04-20 10:52+0000\n"
+"POT-Creation-Date: 2015-04-20 13:08+0000\n"
+"PO-Revision-Date: 2015-04-20 13:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -10619,7 +10619,7 @@ msgstr "合同管理：hr_expense 链接"
 #. module: base
 #: field:ir.module.module,contributors:0
 msgid "Contributors"
-msgstr "贡献者"
+msgstr "供款者"
 
 #. module: base
 #: selection:ir.actions.report.xml,report_type:0
@@ -11396,7 +11396,7 @@ msgstr "默认价值"
 #. module: base
 #: field:ir.filters,is_default:0
 msgid "Default filter"
-msgstr "默认过滤器"
+msgstr "默认筛选器"
 
 #. module: base
 #: help:ir.actions.act_window,limit:0
@@ -11669,12 +11669,12 @@ msgstr "Documentation examples test"
 #: field:ir.rule,domain_force:0
 #: field:res.partner.title,domain:0
 msgid "Domain"
-msgstr "过滤条件"
+msgstr "筛选条件"
 
 #. module: base
 #: field:ir.actions.act_window,domain:0
 msgid "Domain Value"
-msgstr "过滤条件值"
+msgstr "筛选条件值"
 
 #. module: base
 #: model:res.country,name:base.dm
@@ -12402,17 +12402,17 @@ msgstr "筛选"
 #: view:ir.filters:base.ir_filters_view_search
 #: field:ir.filters,name:0
 msgid "Filter Name"
-msgstr "过滤器名称"
+msgstr "筛选器名称"
 
 #. module: base
 #: sql_constraint:ir.filters:0
 msgid "Filter names must be unique"
-msgstr "过滤器名称必须是唯一的"
+msgstr "筛选器名称必须是唯一的"
 
 #. module: base
 #: view:ir.attachment:base.view_attachment_search
 msgid "Filter on my documents"
-msgstr "用于我的文档的过滤器"
+msgstr "用于我的文档的筛选器"
 
 #. module: base
 #: view:ir.actions.act_window:base.view_window_action_form
@@ -12432,12 +12432,12 @@ msgstr "Filters created by myself"
 #. module: base
 #: view:ir.filters:base.ir_filters_view_search
 msgid "Filters shared with all users"
-msgstr "过滤器被所有用户共享"
+msgstr "筛选器被所有用户共享"
 
 #. module: base
 #: view:ir.filters:base.ir_filters_view_search
 msgid "Filters visible only for one user"
-msgstr "过滤器仅一个人可见"
+msgstr "筛选器仅一个人可见"
 
 #. module: base
 #: help:ir.actions.server,copyvalue:0
@@ -13145,7 +13145,7 @@ msgstr "帮助您管理库存与仓库相关操作：发货单、收货单等"
 #. module: base
 #: model:ir.module.category,description:base.module_category_manufacturing
 msgid "Helps you manage your manufacturing processes and generate reports on those processes."
-msgstr "帮助您管理您的生产和其生成的报表。"
+msgstr "帮助您管理您的制造过程，以及生成相关报表。"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_marketing
@@ -14065,7 +14065,7 @@ msgstr "约旦"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_procurement_jit
 msgid "Just In Time Scheduling"
-msgstr "及时（JIT）生产计划管理"
+msgstr "及时（JIT）排程"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_procurement_jit_stock
@@ -14613,7 +14613,7 @@ msgstr "地区代码"
 #: model:ir.ui.menu,name:base.menu_localisation
 #: view:res.users:base.view_users_form
 msgid "Localization"
-msgstr "本地化"
+msgstr "定位"
 
 #. module: base
 #: view:ir.logging:base.ir_logging_form_view
@@ -14710,7 +14710,7 @@ msgstr "MPS - Sale forecast\n"
 #: model:ir.module.category,name:base.module_category_mrp
 #: model:ir.module.module,shortdesc:base.module_mrp
 msgid "MRP"
-msgstr "生产资源计划模块"
+msgstr "制造资源计划模块"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_bom_state
@@ -15464,12 +15464,12 @@ msgstr "手动：手动执行。\n"
 #: model:ir.ui.menu,name:base.menu_mrp_config
 #: model:ir.ui.menu,name:base.menu_mrp_root
 msgid "Manufacturing"
-msgstr "生产"
+msgstr "制造"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_mrp_operations
 msgid "Manufacturing Operations"
-msgstr "生产工序"
+msgstr "制造作业"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp
@@ -16573,7 +16573,7 @@ msgstr "Operation Forbidden"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_crm_config_opportunity
 msgid "Opportunities"
-msgstr "商机列表"
+msgstr "商机"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_crm
@@ -16583,7 +16583,7 @@ msgstr "商机转为报价单"
 #. module: base
 #: help:ir.actions.act_window,domain:0
 msgid "Optional domain filtering of the destination data, as a Python expression"
-msgstr "一个可选的目标数据过滤条件，使用 Python 表达式表示"
+msgstr "一个可选的目标数据筛选条件，使用 Python 表达式表示"
 
 #. module: base
 #: help:ir.actions.act_url,help:0
@@ -19067,7 +19067,7 @@ msgstr "舍入系数"
 #. module: base
 #: view:ir.rule:base.view_rule_form
 msgid "Rule Definition (Domain Filter)"
-msgstr "规则定义（ Domain  过滤器）"
+msgstr "规则定义（ Domain  筛选器）"
 
 #. module: base
 #: sql_constraint:ir.rule:0
@@ -19563,7 +19563,7 @@ msgstr "Schedule, Promote and Sell Events"
 #. module: base
 #: view:ir.cron:base.ir_cron_view_search
 msgid "Scheduled Action"
-msgstr "定期动作"
+msgstr "安排的动作"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_cron_act
@@ -19573,7 +19573,7 @@ msgstr "定期动作"
 #: view:ir.cron:base.ir_cron_view_tree
 #: model:ir.ui.menu,name:base.menu_ir_cron_act
 msgid "Scheduled Actions"
-msgstr "计划的动作"
+msgstr "安排的动作"
 
 #. module: base
 #: view:ir.ui.view:base.view_view_search
@@ -20054,7 +20054,7 @@ msgstr "对不起，你未被允许修改此单据。"
 #. module: base
 #: field:ir.translation,source:0
 msgid "Source"
-msgstr "原文"
+msgstr "源"
 
 #. module: base
 #: field:workflow.transition,act_from:0
@@ -20339,7 +20339,7 @@ msgstr "Stock Inventory Import from CSV file"
 #. module: base
 #: model:ir.module.category,name:base.module_category_stock_management
 msgid "Stock Management"
-msgstr "Stock Management"
+msgstr "库存管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_picking_wave_delivery
@@ -20384,7 +20384,7 @@ msgstr "Stock extension for quality control\n"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_move_purchase_price
 msgid "Stock move purchase price"
-msgstr "Stock move purchase price"
+msgstr "库存移动采购价格"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_picking_package_info
@@ -20955,13 +20955,13 @@ msgstr "Team Page"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_custom
 msgid "Technical"
-msgstr "技术"
+msgstr "技术性"
 
 #. module: base
 #: view:ir.cron:base.ir_cron_view
 #: view:ir.module.module:base.module_form
 msgid "Technical Data"
-msgstr "技术数据"
+msgstr "技术性数据"
 
 #. module: base
 #: model:res.groups,name:base.group_no_one
@@ -21238,7 +21238,7 @@ msgstr "下一个步骤取决于文件格式："
 #. module: base
 #: help:ir.model.fields,domain:0
 msgid "The optional domain to restrict possible values for relationship fields, specified as a Python expression defining a list of triplets. For example: [('color','=','red')]"
-msgstr "过滤条件这个字段是可选输入的，用于在输入关系型字段时限制可选值的范围。格式为一个python列表，每个列表项由三个字符组成。"
+msgstr "筛选条件这个字段是可选输入的，用于在输入关系型字段时限制可选值的范围。格式为一个python列表，每个列表项由三个字符组成。"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:92
@@ -21323,13 +21323,13 @@ msgstr "该字段所属模型的技术名称"
 #. module: base
 #: help:ir.filters,user_id:0
 msgid "The user this filter is private to. When left empty the filter is public and available to all users."
-msgstr "用户的这个过滤器是私有的。留空的话，这个过滤器是公共，所有用户可用。"
+msgstr "用户的这个筛选器是私有的。留空的话，这个筛选器是公共，所有用户可用。"
 
 #. module: base
 #: code:addons/base/ir/ir_filters.py:97
 #, python-format
 msgid "There is already a shared filter set as default for %(model)s, delete or change it before setting a new default"
-msgstr "这是一个%(model)s的共享过滤，请在上处或者修改前设置一个新的默认值"
+msgstr "这是一个%(model)s的共享筛选，请在上处或者修改前设置一个新的默认值"
 
 #. module: base
 #: help:res.lang,iso_code:0
@@ -22365,7 +22365,7 @@ msgstr "使用格式 '%s'"
 #. module: base
 #: help:ir.actions.act_window,usage:0
 msgid "Used to filter menu and home actions from the user form."
-msgstr "用作过滤器和用户表单的主动作。"
+msgstr "用作筛选器和用户表单的主动作。"
 
 #. module: base
 #: help:res.users,login:0
@@ -22419,7 +22419,7 @@ msgstr "用户定义默认值"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_ir_filters
 msgid "User-defined Filters"
-msgstr "用户自定义过滤器"
+msgstr "用户自定义筛选器"
 
 #. module: base
 #: field:ir.mail_server,smtp_user:0

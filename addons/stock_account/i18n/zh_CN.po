@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:49+0000\n"
-"PO-Revision-Date: 2015-04-20 10:49+0000\n"
+"POT-Creation-Date: 2015-04-20 13:04+0000\n"
+"PO-Revision-Date: 2015-04-20 13:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "- update"
 #. module: stock_account
 #: view:product.category:stock_account.view_category_property_form
 msgid "Account Stock Properties"
-msgstr "Account Stock Properties"
+msgstr "会计库存属性"
 
 #. module: stock_account
 #: view:stock.config.settings:stock_account.view_stock_config_settings_inherit
@@ -480,7 +480,7 @@ msgstr "退货分拣"
 #. module: stock_account
 #: field:stock.history,source:0
 msgid "Source"
-msgstr "原文"
+msgstr "源"
 
 #. module: stock_account
 #: selection:product.template,cost_method:0
@@ -523,7 +523,7 @@ msgstr "Stock Journal"
 #: model:ir.model,name:stock_account.model_stock_move
 #: field:stock.history,move_id:0
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存移动"
 
 #. module: stock_account
 #: field:product.category,property_stock_account_output_categ:0

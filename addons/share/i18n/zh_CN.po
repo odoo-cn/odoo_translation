@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:49+0000\n"
-"PO-Revision-Date: 2015-04-20 10:49+0000\n"
+"POT-Creation-Date: 2015-04-20 13:04+0000\n"
+"PO-Revision-Date: 2015-04-20 13:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -173,7 +173,7 @@ msgstr "显示标题"
 #. module: share
 #: field:share.wizard,domain:0
 msgid "Domain"
-msgstr "过滤条件"
+msgstr "筛选条件"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:820
@@ -262,7 +262,7 @@ msgstr "包括一个可选的个人信息"
 #: code:addons/share/wizard/share_wizard.py:621
 #, python-format
 msgid "Indirect sharing filter created by user %s (%s) for group %s"
-msgstr "创建用户 %s  （%s ）间接共享过滤器，在用户组 %s"
+msgstr "创建用户 %s  （%s ）间接共享筛选器，在用户组 %s"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:802
@@ -355,12 +355,12 @@ msgstr "Odoo is a powerful and user-friendly suite of Business Applications (CRM
 #. module: share
 #: help:share.wizard,domain:0
 msgid "Optional domain for further data filtering"
-msgstr "可选的过滤条件，用于再次过滤数据"
+msgstr "可选的筛选条件，用于再次筛选数据"
 
 #. module: share
 #: view:share.wizard:share.share_step0_form
 msgid "Optionally, you may specify an additional domain restriction that will be applied to the shared data."
-msgstr "可选项，你可以针对于要分享的数据指定一个过滤条件。"
+msgstr "可选项，你可以针对于要分享的数据指定一个筛选条件。"
 
 #. module: share
 #: view:share.wizard:share.share_step2_form
@@ -500,7 +500,7 @@ msgstr "共享访问不能被创建。"
 #: code:addons/share/wizard/share_wizard.py:584
 #, python-format
 msgid "Sharing filter created by user %s (%s) for group %s"
-msgstr "创建用户 %s （%s ）的共享过滤器，在用户组 %s"
+msgstr "创建用户 %s （%s ）的共享筛选器，在用户组 %s"
 
 #. module: share
 #: field:share.wizard,user_type:0
@@ -517,7 +517,7 @@ msgstr "共享：准备"
 #, python-format
 msgid "Sorry, the current screen and filter you are trying to share are not supported at the moment.\n"
 "You may want to try a simpler filter."
-msgstr "对不起，你当前的视图和过滤器试图访问当前不支持到的共享数据，你可能只是要一个简单的过滤器。"
+msgstr "对不起，你当前的视图和筛选器试图访问当前不支持到的共享数据，你可能只是要一个简单的筛选器。"
 
 #. module: share
 #: view:share.wizard:share.share_step2_form

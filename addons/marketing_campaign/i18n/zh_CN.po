@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:45+0000\n"
-"PO-Revision-Date: 2015-04-20 10:45+0000\n"
+"POT-Creation-Date: 2015-04-20 13:00+0000\n"
+"PO-Revision-Date: 2015-04-20 13:00+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -399,7 +399,7 @@ msgstr "筛选"
 #. module: marketing_campaign
 #: help:marketing.campaign.segment,ir_filter_id:0
 msgid "Filter to select the matching resource records that belong to this segment. New filters can be created and saved using the advanced search on the list view of the Resource. If no filter is set, all records are selected without filtering. The synchronization mode may also add a criterion to the filter."
-msgstr "过滤器，选择属于此活动段的匹配的资源记录。可以通过资源的列表视图的高级查询来创建和保存新的过滤器。如果没有设置过滤器，所有的都会被选中。同步模式也可以添加条件到过滤器中。"
+msgstr "筛选器，选择属于此活动段的匹配的资源记录。可以通过资源的列表视图的高级查询来创建和保存新的筛选器。如果没有设置筛选器，所有的都会被选中。同步模式也可以添加条件到筛选器中。"
 
 #. module: marketing_campaign
 #: field:marketing.campaign,fixed_cost:0
@@ -530,7 +530,7 @@ msgstr "手工模式"
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "March"
-msgstr "3"
+msgstr "3月"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_marketing_campaign
@@ -580,7 +580,7 @@ msgstr "模式"
 #. module: marketing_campaign
 #: constraint:marketing.campaign.segment:0
 msgid "Model of filter must be same as resource model of Campaign "
-msgstr "模型的过滤器必须和营销活动的资源模型一致 "
+msgstr "模型的筛选器必须和营销活动的资源模型一致 "
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search

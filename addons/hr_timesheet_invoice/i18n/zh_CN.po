@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:44+0000\n"
-"PO-Revision-Date: 2015-04-20 10:44+0000\n"
+"POT-Creation-Date: 2015-04-20 12:59+0000\n"
+"PO-Revision-Date: 2015-04-20 12:59+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -569,7 +569,7 @@ msgstr "经理"
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "March"
-msgstr "3"
+msgstr "3月"
 
 #. module: hr_timesheet_invoice
 #: field:account.analytic.account,amount_max:0

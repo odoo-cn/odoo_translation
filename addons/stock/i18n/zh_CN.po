@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:49+0000\n"
-"PO-Revision-Date: 2015-04-20 10:49+0000\n"
+"POT-Creation-Date: 2015-04-20 13:04+0000\n"
+"PO-Revision-Date: 2015-04-20 13:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -327,7 +327,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                创建一个库存移动单。\n"
 "              </p><p>\n"
 "                此菜单给你在一个特定产品上面的库存操作的完整的可追溯性。\n"
-"                你能过滤该产品，查看该产品所有已经发生和未发生的移库。\n"
+"                你能筛选该产品，查看该产品所有已经发生和未发生的移库。\n"
 "              </p>\n"
 "            "
 
@@ -1188,7 +1188,7 @@ msgstr "最近盘点时间"
 #. module: stock
 #: field:report.stock.lines.date,move_date:0
 msgid "Date of latest Stock Move"
-msgstr "最近移动时间"
+msgstr "最近库存移动时间"
 
 #. module: stock
 #: help:stock.picking,message_last_post:0
@@ -1902,7 +1902,7 @@ msgstr "内部移动"
 #. module: stock
 #: field:stock.production.lot,ref:0
 msgid "Internal Reference"
-msgstr "内部单号"
+msgstr "内部参考"
 
 #. module: stock
 #: code:addons/stock/stock.py:3323
@@ -2235,7 +2235,7 @@ msgstr "Linked Quant"
 #. module: stock
 #: view:stock.location:stock.view_location_form
 msgid "Localization"
-msgstr "本地化"
+msgstr "定位"
 
 #. module: stock
 #: field:product.product,location_id:0
@@ -3419,7 +3419,7 @@ msgstr "产品批次"
 #. module: stock
 #: view:stock.production.lot:stock.search_product_lot_filter
 msgid "Product Lots Filter"
-msgstr "产品批次过滤器"
+msgstr "产品批次筛选器"
 
 #. module: stock
 #: view:stock.return.picking.line:stock.stock_return_line_tree_in
@@ -4087,13 +4087,13 @@ msgstr "找不到扫描的分拣"
 #. module: stock
 #: view:stock.move:stock.view_move_search
 msgid "Scheduled"
-msgstr "排程"
+msgstr "安排的"
 
 #. module: stock
 #: field:stock.picking,min_date:0
 #: view:website:stock.report_picking
 msgid "Scheduled Date"
-msgstr "预定日期"
+msgstr "安排日期"
 
 #. module: stock
 #: help:stock.move,date_expected:0
@@ -4277,7 +4277,7 @@ msgstr "Show various information on stock availability for this move"
 #: field:stock.move,origin:0
 #: view:website:stock.report_picking
 msgid "Source"
-msgstr "原文"
+msgstr "源"
 
 #. module: stock
 #: field:stock.picking,origin:0
@@ -4390,7 +4390,7 @@ msgstr "库存库位"
 #. module: stock
 #: model:ir.model,name:stock.model_stock_move
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存移动"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_move_form2
@@ -4403,17 +4403,17 @@ msgstr "Stock Move"
 #: view:stock.picking:stock.view_picking_form
 #: view:stock.production.lot:stock.view_production_lot_form
 msgid "Stock Moves"
-msgstr "库存调拨"
+msgstr "库存移动"
 
 #. module: stock
 #: view:stock.move:stock.view_move_graph
 msgid "Stock Moves Analysis"
-msgstr "Stock Moves Analysis"
+msgstr "库存移动分析"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_all
 msgid "Stock Operations"
-msgstr "Stock Operations"
+msgstr "库存作业"
 
 #. module: stock
 #: field:stock.pack.operation,picking_id:0
@@ -4481,7 +4481,7 @@ msgstr "Supplier Address:"
 #: field:res.partner,property_stock_supplier:0
 #: selection:stock.location,usage:0
 msgid "Supplier Location"
-msgstr "供货商库位"
+msgstr "供应商库位"
 
 #. module: stock
 #: view:stock.location:stock.view_location_search

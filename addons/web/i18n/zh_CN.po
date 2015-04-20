@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:50+0000\n"
-"PO-Revision-Date: 2015-04-20 10:50+0000\n"
+"POT-Creation-Date: 2015-04-20 13:05+0000\n"
+"PO-Revision-Date: 2015-04-20 13:05+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -161,7 +161,7 @@ msgstr "（%d 条记录）"
 #: code:addons/web/static/src/xml/base.xml:1617
 #, python-format
 msgid "(Any existing filter with the same name will be replaced)"
-msgstr "（任何已存在的同名过滤器都会被替换）"
+msgstr "（任何已存在的同名筛选器都会被替换）"
 
 #. module: web
 #. openerp-web
@@ -196,7 +196,7 @@ msgstr "-- 动作 --"
 #: code:addons/web/static/src/xml/base.xml:1598
 #, python-format
 msgid "-- Filters --"
-msgstr "-- 过滤器 --"
+msgstr "-- 筛选器 --"
 
 #. module: web
 #. openerp-web
@@ -306,7 +306,7 @@ msgstr "添加"
 #: code:addons/web/static/src/xml/base.xml:1608
 #, python-format
 msgid "Add Advanced Filter"
-msgstr "添加高级过滤器"
+msgstr "添加高级筛选器"
 
 #. module: web
 #. openerp-web
@@ -931,7 +931,7 @@ msgstr "您的文件是否包含标题行？"
 #: code:addons/web/static/src/xml/base.xml:990
 #, python-format
 msgid "Domain:"
-msgstr "过滤条件"
+msgstr "筛选条件"
 
 #. module: web
 #. openerp-web
@@ -1228,14 +1228,14 @@ msgstr "Filter"
 #: code:addons/web/static/src/xml/base.xml:1615
 #, python-format
 msgid "Filter Name:"
-msgstr "过滤器名称："
+msgstr "筛选器名称："
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1745
 #, python-format
 msgid "Filter name"
-msgstr "过滤规则名称"
+msgstr "筛选规则名称"
 
 #. module: web
 #. openerp-web
@@ -1529,7 +1529,7 @@ msgstr "管理数据库"
 #: code:addons/web/static/src/xml/base.xml:1610
 #, python-format
 msgid "Manage Filters"
-msgstr "管理过滤器"
+msgstr "管理筛选器"
 
 #. module: web
 #. openerp-web
@@ -1909,7 +1909,7 @@ msgstr "请注意只有选中的 ID 会被导出"
 #: code:addons/web/static/src/xml/base.xml:1859
 #, python-format
 msgid "Please pay attention that all records matching your search filter will be exported. Not only the selected ids."
-msgstr "请注意将导出所有匹配搜索过滤器的记录而不仅是选中的 ID。"
+msgstr "请注意将导出所有匹配搜索筛选器的记录而不仅是选中的 ID。"
 
 #. module: web
 #. openerp-web
@@ -2054,7 +2054,7 @@ msgstr "另存为..."
 #: code:addons/web/static/src/xml/base.xml:1609
 #, python-format
 msgid "Save Filter"
-msgstr "保存过滤器"
+msgstr "保存筛选器"
 
 #. module: web
 #. openerp-web
@@ -2068,7 +2068,7 @@ msgstr "另存为："
 #: code:addons/web/static/src/xml/base.xml:1743
 #, python-format
 msgid "Save current filter"
-msgstr "保存当前过滤器"
+msgstr "保存当前筛选器"
 
 #. module: web
 #. openerp-web
@@ -2422,7 +2422,7 @@ msgstr "上传文件时发生了问题"
 #: code:addons/web/static/src/js/search.js:1796
 #, python-format
 msgid "This filter is global and will be removed for everybody if you continue."
-msgstr "这是一个所有人都可以使用的全局过滤器，如果继续，将会被移除。"
+msgstr "这是一个所有人都可以使用的全局筛选器，如果继续，将会被移除。"
 
 #. module: web
 #. openerp-web
@@ -2531,7 +2531,7 @@ msgstr "未知"
 #: code:addons/web/static/src/js/view_form.js:1698
 #, python-format
 msgid "Unknown field %s in domain %s"
-msgstr "发现未知字段 %s ，过滤条件 %s 有误"
+msgstr "发现未知字段 %s ，筛选条件 %s 有误"
 
 #. module: web
 #. openerp-web
@@ -2552,7 +2552,7 @@ msgstr "未知的 nonliteral 类型 "
 #: code:addons/web/static/src/js/view_form.js:1690
 #, python-format
 msgid "Unknown operator %s in domain %s"
-msgstr "发现未知操作符 %s ，过滤条件 %s 有误"
+msgstr "发现未知操作符 %s ，筛选条件 %s 有误"
 
 #. module: web
 #. openerp-web
@@ -2566,7 +2566,7 @@ msgstr "无限"
 #: code:addons/web/static/src/js/view_form.js:1736
 #, python-format
 msgid "Unsupported operator %s in domain %s"
-msgstr "有不支持的操作符 %s ，过滤条件 %s 有误"
+msgstr "有不支持的操作符 %s ，筛选条件 %s 有误"
 
 #. module: web
 #. openerp-web

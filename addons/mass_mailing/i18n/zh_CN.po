@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:45+0000\n"
-"PO-Revision-Date: 2015-04-20 10:45+0000\n"
+"POT-Creation-Date: 2015-04-20 13:01+0000\n"
+"PO-Revision-Date: 2015-04-20 13:01+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -295,7 +295,7 @@ msgstr "文档模型"
 #. module: mass_mailing
 #: field:mail.mass_mailing,mailing_domain:0
 msgid "Domain"
-msgstr "过滤条件"
+msgstr "筛选条件"
 
 #. module: mass_mailing
 #: selection:mail.mass_mailing,state:0
@@ -832,12 +832,12 @@ msgstr "Schedule"
 #: field:mail.mass_mailing,scheduled:0
 #: field:mail.mass_mailing.campaign,scheduled:0
 msgid "Scheduled"
-msgstr "排程"
+msgstr "安排的"
 
 #. module: mass_mailing
 #: field:mail.statistics.report,scheduled_date:0
 msgid "Scheduled Date"
-msgstr "预定日期"
+msgstr "安排日期"
 
 #. module: mass_mailing
 #: view:mail.statistics.report:mass_mailing.view_mail_statistics_report_search
