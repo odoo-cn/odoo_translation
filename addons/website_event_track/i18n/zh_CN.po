@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:27+0000\n"
-"PO-Revision-Date: 2015-04-19 15:27+0000\n"
+"POT-Creation-Date: 2015-04-20 10:51+0000\n"
+"PO-Revision-Date: 2015-04-20 10:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "Announced"
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
 msgid "Application"
-msgstr "Application"
+msgstr "应用程序"
 
 #. module: website_event_track
 #: field:event.track,website_published:0
@@ -97,17 +97,17 @@ msgstr "Call for Proposals"
 #. module: website_event_track
 #: field:event.track,color:0
 msgid "Color Index"
-msgstr "Color Index"
+msgstr "颜色索引"
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage5
 msgid "Completed"
-msgstr "Completed"
+msgstr "已完成"
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage2
 msgid "Confirmed"
-msgstr "Confirmed"
+msgstr "已确认"
 
 #. module: website_event_track
 #: field:event.sponsor,create_uid:0
@@ -135,28 +135,28 @@ msgstr "创建于"
 #: view:event.track:website_event_track.view_event_track_search
 #: view:website:website_event_track.track_view
 msgid "Date"
-msgstr "Date"
+msgstr "日期"
 
 #. module: website_event_track
 #: help:event.track,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_kanban
 msgid "Delete"
-msgstr "Delete"
+msgstr "删除"
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
 msgid "Documents"
-msgstr "Documents"
+msgstr "文档"
 
 #. module: website_event_track
 #: field:event.track,duration:0
 #: view:website:website_event_track.track_view
 msgid "Duration"
-msgstr "Duration"
+msgstr "持续时间"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_kanban
@@ -169,7 +169,7 @@ msgstr "Edit Track"
 #: field:event.track,event_id:0
 #: model:ir.model,name:website_event_track.model_event_event
 msgid "Event"
-msgstr "Event"
+msgstr "活动"
 
 #. module: website_event_track
 #: field:event.event,blog_id:0
@@ -271,7 +271,7 @@ msgstr "Find out what people see and say about this event, \n"
 #. module: website_event_track
 #: field:event.track,message_follower_ids:0
 msgid "Followers"
-msgstr "Followers"
+msgstr "关注者"
 
 #. module: website_event_track
 #: view:website:website_event_track.agenda
@@ -286,7 +286,7 @@ msgstr "Gold"
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -301,7 +301,7 @@ msgstr "Highest (***)"
 #. module: website_event_track
 #: help:event.track,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: website_event_track
 #: field:event.sponsor,id:0
@@ -317,7 +317,7 @@ msgstr "ID"
 #. module: website_event_track
 #: help:event.track,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -327,12 +327,12 @@ msgstr "Introduction"
 #. module: website_event_track
 #: field:event.track,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Is a Follower"
+msgstr "是一个关注者"
 
 #. module: website_event_track
 #: field:event.track,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: website_event_track
 #: field:event.sponsor,write_uid:0
@@ -343,7 +343,7 @@ msgstr "Last Message Date"
 #: field:event.track.stage,write_uid:0
 #: field:event.track.tag,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: website_event_track
 #: field:event.sponsor,write_date:0
@@ -354,7 +354,7 @@ msgstr "Last Updated by"
 #: field:event.track.stage,write_date:0
 #: field:event.track.tag,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -370,17 +370,17 @@ msgstr "List of available tags for track proposals."
 #: field:event.track,location_id:0
 #: view:website:website_event_track.track_view
 msgid "Location"
-msgstr "库位"
+msgstr "地点"
 
 #. module: website_event_track
 #: field:event.sponsor,image_medium:0
 msgid "Logo"
-msgstr "Logo"
+msgstr "徽标"
 
 #. module: website_event_track
 #: selection:event.track,priority:0
 msgid "Low"
-msgstr "Low"
+msgstr "低"
 
 #. module: website_event_track
 #: selection:event.track,priority:0
@@ -390,12 +390,12 @@ msgstr "Medium (*)"
 #. module: website_event_track
 #: field:event.track,message_ids:0
 msgid "Messages"
-msgstr "Messages"
+msgstr "消息"
 
 #. module: website_event_track
 #: help:event.track,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "消息和通信历史"
 
 #. module: website_event_track
 #: field:event.event,show_tracks:0
@@ -432,7 +432,7 @@ msgstr "Practical Info"
 #. module: website_event_track
 #: field:event.track,priority:0
 msgid "Priority"
-msgstr "Priority"
+msgstr "优先级(0=紧急)"
 
 #. module: website_event_track
 #: model:event.track.stage,name:website_event_track.event_track_stage1
@@ -467,14 +467,14 @@ msgstr "Regular Talks"
 #: view:event.track:website_event_track.view_event_track_search
 #: field:event.track,user_id:0
 msgid "Responsible"
-msgstr "Responsible"
+msgstr "负责人"
 
 #. module: website_event_track
 #: field:event.sponsor,sequence:0
 #: field:event.sponsor.type,sequence:0
 #: field:event.track.stage,sequence:0
 msgid "Sequence"
-msgstr "Sequence"
+msgstr "序列"
 
 #. module: website_event_track
 #: model:event.sponsor.type,name:website_event_track.event_sponsor_type2
@@ -537,7 +537,7 @@ msgstr "Sponsorships"
 #: view:event.track:website_event_track.view_event_track_search
 #: field:event.track,stage_id:0
 msgid "Stage"
-msgstr "Stage"
+msgstr "阶段"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -552,14 +552,14 @@ msgstr "Submit Proposal"
 #. module: website_event_track
 #: field:event.track,message_summary:0
 msgid "Summary"
-msgstr "Summary"
+msgstr "摘要"
 
 #. module: website_event_track
 #: field:event.event,tag_ids:0
 #: field:event.track,tag_ids:0
 #: view:website:website_event_track.event_track_proposal
 msgid "Tags"
-msgstr "Tags"
+msgstr "标签"
 
 #. module: website_event_track
 #: field:event.event,tracks_tag_ids:0
@@ -662,7 +662,7 @@ msgstr "Tracks"
 #. module: website_event_track
 #: field:event.track,message_unread:0
 msgid "Unread Messages"
-msgstr "Unread Messages"
+msgstr "未读消息"
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
@@ -704,12 +704,12 @@ msgstr "We will evaluate your proposition and get back to you shortly."
 #. module: website_event_track
 #: field:event.track,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
 #. module: website_event_track
 #: help:event.track,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: website_event_track
 #: field:event.track,website_meta_description:0
@@ -770,5 +770,5 @@ msgstr "talks"
 #. module: website_event_track
 #: field:event.track,image:0
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知的"
 

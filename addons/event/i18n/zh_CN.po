@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:17+0000\n"
-"PO-Revision-Date: 2015-04-19 15:17+0000\n"
+"POT-Creation-Date: 2015-04-20 10:43+0000\n"
+"PO-Revision-Date: 2015-04-20 10:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -150,7 +150,7 @@ msgstr "公司"
 #: view:event.registration:event.view_event_registration_form
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Confirm"
-msgstr "确定"
+msgstr "确认"
 
 #. module: event
 #: view:event.confirm:event.view_event_confirm
@@ -199,7 +199,7 @@ msgstr "国家"
 #: field:event.registration,create_uid:0
 #: field:event.type,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: event
 #: field:event.confirm,create_date:0
@@ -207,7 +207,7 @@ msgstr "Created by"
 #: field:event.registration,create_date:0
 #: field:event.type,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -218,7 +218,7 @@ msgstr "当前登记"
 #: help:event.event,message_last_post:0
 #: help:event.registration,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: event
 #: field:event.type,default_registration_max:0
@@ -239,7 +239,7 @@ msgstr "默认回复给"
 #: view:event.event:event.view_event_form
 #: field:event.event,description:0
 msgid "Description"
-msgstr "描述"
+msgstr "说明"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
@@ -426,7 +426,7 @@ msgstr "关注者"
 #: view:event.registration:event.view_registration_search
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: event
 #: model:ir.module.category,description:event.module_category_event_management
@@ -437,7 +437,7 @@ msgstr "帮你管理你的活动"
 #: help:event.event,message_summary:0
 #: help:event.registration,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保存复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: event
 #: field:event.confirm,id:0
@@ -452,7 +452,7 @@ msgstr "ID"
 #: help:event.event,message_unread:0
 #: help:event.registration,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: event
 #: help:event.event,state:0
@@ -494,7 +494,7 @@ msgstr "当你选择这个活动，将选择默认最小值"
 #: field:event.event,message_last_post:0
 #: field:event.registration,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: event
 #: field:event.confirm,write_uid:0
@@ -502,7 +502,7 @@ msgstr "Last Message Date"
 #: field:event.registration,write_uid:0
 #: field:event.type,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: event
 #: field:event.confirm,write_date:0
@@ -510,12 +510,12 @@ msgstr "最近更新者"
 #: field:event.registration,write_date:0
 #: field:event.type,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新于"
+msgstr "最后更新"
 
 #. module: event
 #: field:event.event,address_id:0
 msgid "Location"
-msgstr "位置"
+msgstr "地点"
 
 #. module: event
 #: field:event.registration,log_ids:0
@@ -558,7 +558,7 @@ msgstr "Minimum Reserved Seats"
 #: view:event.event:event.view_event_search
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "My Events"
-msgstr "我的活动"
+msgstr "我的事件"
 
 #. module: event
 #: view:event.registration:event.view_registration_search
@@ -638,7 +638,7 @@ msgstr "组织"
 #. module: event
 #: field:event.event,organizer_id:0
 msgid "Organizer"
-msgstr "Organizer"
+msgstr "个人助理"
 
 #. module: event
 #: view:event.registration:event.view_registration_search
@@ -755,12 +755,12 @@ msgstr "负责人"
 #. module: event
 #: field:event.event,user_id:0
 msgid "Responsible User"
-msgstr "责任用户"
+msgstr "负责人"
 
 #. module: event
 #: view:event.registration:event.view_event_registration_form
 msgid "Send Email"
-msgstr "发送邮件"
+msgstr "发送电子邮件"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -820,7 +820,7 @@ msgstr "已订阅"
 #: field:event.event,message_summary:0
 #: field:event.registration,message_summary:0
 msgid "Summary"
-msgstr "概要"
+msgstr "摘要"
 
 #. module: event
 #: help:event.event,reply_to:0
@@ -845,7 +845,7 @@ msgstr "活动一旦被确认，这个字段包含的模板会自动发送的邮
 #. module: event
 #: field:event.event,date_tz:0
 msgid "Timezone"
-msgstr "Timezone"
+msgstr "时区"
 
 #. module: event
 #: field:event.event,type:0
@@ -907,12 +907,12 @@ msgstr "警告：这活动没有达到最低登记记录的规定，你肯定要
 #. module: event
 #: field:event.event,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
 #. module: event
 #: help:event.event,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: event
 #: help:event.event,seats_min:0
@@ -945,7 +945,7 @@ msgstr "可用."
 #. module: event
 #: view:event.confirm:event.view_event_confirm
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: event
 #: view:event.event:event.view_event_kanban

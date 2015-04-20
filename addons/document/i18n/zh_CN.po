@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:17+0000\n"
-"PO-Revision-Date: 2015-04-19 15:17+0000\n"
+"POT-Creation-Date: 2015-04-20 10:43+0000\n"
+"PO-Revision-Date: 2015-04-20 10:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "%s (%s)"
 #: code:addons/document/document.py:310
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (副本)"
+msgstr "%s (copy)"
 
 #. module: document
 #: model:ir.actions.act_window,help:document.action_document_file_form
@@ -62,7 +62,7 @@ msgstr "用于填充字段内容的python表达式\n"
 #. module: document
 #: field:document.directory.content.type,active:0
 msgid "Active"
-msgstr "生效"
+msgstr "有效"
 
 #. module: document
 #: model:ir.actions.act_window,name:document.action_view_all_document_tree1
@@ -116,7 +116,7 @@ msgstr "如果你想在系统中对选择的对象使用树结构, 请选择这"
 #. module: document
 #: field:document.directory,child_ids:0
 msgid "Children"
-msgstr "子目录"
+msgstr "子科目"
 
 #. module: document
 #: view:document.directory:document.view_document_directory_filter
@@ -157,7 +157,7 @@ msgstr "上下文字段"
 #: field:document.directory.dctx,create_uid:0
 #: field:document.storage,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: document
 #: field:document.configuration,create_date:0
@@ -166,7 +166,7 @@ msgstr "Created by"
 #: field:document.directory.dctx,create_date:0
 #: field:document.storage,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: document
 #: field:document.directory,create_uid:0
@@ -177,7 +177,7 @@ msgstr "创建者"
 #: field:document.directory,create_date:0
 #: field:report.document.user,create_date:0
 msgid "Date Created"
-msgstr "创建日期"
+msgstr "创建时间"
 
 #. module: document
 #: field:document.directory,write_date:0
@@ -342,7 +342,7 @@ msgstr "在资源目录中这字段用作名称。若为空则使用“name”�
 #. module: document
 #: view:document.directory:document.view_document_directory_form
 msgid "Fields"
-msgstr "字段列表"
+msgstr "字段"
 
 #. module: document
 #: field:report.document.user,datas_fname:0
@@ -420,7 +420,7 @@ msgstr "自动生成的文件列表"
 #. module: document
 #: view:document.directory:document.view_document_directory_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: document
 #: field:document.directory,group_ids:0
@@ -463,7 +463,7 @@ msgstr "内容索引"
 #. module: document
 #: selection:report.document.user,month:0
 msgid "January"
-msgstr "1月"
+msgstr "1"
 
 #. module: document
 #: selection:report.document.user,month:0
@@ -492,7 +492,7 @@ msgstr "最近修改用户"
 #: field:document.directory.dctx,write_uid:0
 #: field:document.storage,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: document
 #: field:document.configuration,write_date:0
@@ -501,17 +501,17 @@ msgstr "Last Updated by"
 #: field:document.directory.dctx,write_date:0
 #: field:document.storage,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: document
 #: selection:report.document.user,month:0
 msgid "March"
-msgstr "3月"
+msgstr "3"
 
 #. module: document
 #: selection:report.document.user,month:0
 msgid "May"
-msgstr "5月"
+msgstr "5"
 
 #. module: document
 #: field:document.directory.content.type,mimetype:0
@@ -537,7 +537,7 @@ msgstr "修改日期"
 #: field:report.document.file,month:0
 #: field:report.document.user,month:0
 msgid "Month"
-msgstr "月份"
+msgstr "月"
 
 #. module: document
 #: view:ir.attachment:document.view_attach_filter_inherit0
@@ -618,7 +618,7 @@ msgstr "关联的文档"
 #. module: document
 #: field:document.directory.content,report_id:0
 msgid "Report"
-msgstr "报表"
+msgstr "报告"
 
 #. module: document
 #: field:document.directory,ressource_id:0
@@ -653,7 +653,7 @@ msgstr "在这里选择一个对象并且这资源的每个记录有一个目录
 #. module: document
 #: selection:report.document.user,month:0
 msgid "September"
-msgstr "9月"
+msgstr "九月"
 
 #. module: document
 #: view:document.directory:document.view_document_directory_form
@@ -762,5 +762,5 @@ msgstr "res_config_contents"
 #. module: document
 #: field:report.document.user,user:0
 msgid "unknown"
-msgstr "未知"
+msgstr "未知的"
 

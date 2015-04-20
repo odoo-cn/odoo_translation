@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:16+0000\n"
-"PO-Revision-Date: 2015-04-19 15:16+0000\n"
+"POT-Creation-Date: 2015-04-20 10:42+0000\n"
+"PO-Revision-Date: 2015-04-20 10:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -57,7 +57,7 @@ msgstr "动作"
 #: field:base.action.rule,active:0
 #: field:base.action.rule.lead.test,active:0
 msgid "Active"
-msgstr "激活"
+msgstr "有效"
 
 #. module: base_action_rule
 #: field:base.action.rule,act_followers:0
@@ -98,23 +98,23 @@ msgstr "条件"
 #. module: base_action_rule
 #: field:base.action.rule,create_date:0
 msgid "Create Date"
-msgstr "创建时间"
+msgstr "创建日期"
 
 #. module: base_action_rule
 #: field:base.action.rule,create_uid:0
 #: field:base.action.rule.lead.test,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: base_action_rule
 #: field:base.action.rule.lead.test,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: base_action_rule
 #: selection:base.action.rule,trg_date_range_type:0
 msgid "Days"
-msgstr "天数"
+msgstr "日"
 
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
@@ -149,7 +149,7 @@ msgstr "会更改的字段"
 #. module: base_action_rule
 #: field:base.action.rule,filter_id:0
 msgid "Filter"
-msgstr "过滤"
+msgstr "筛选"
 
 #. module: base_action_rule
 #: help:base.action.rule,sequence:0
@@ -185,7 +185,7 @@ msgstr "If present, this condition must be satisfied before the update of the re
 #. module: base_action_rule
 #: selection:base.action.rule.lead.test,state:0
 msgid "In Progress"
-msgstr "处理中"
+msgstr "进行中"
 
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
@@ -211,13 +211,13 @@ msgstr "最近运行"
 #: field:base.action.rule,write_uid:0
 #: field:base.action.rule.lead.test,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: base_action_rule
 #: field:base.action.rule,write_date:0
 #: field:base.action.rule.lead.test,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: base_action_rule
 #: selection:base.action.rule,trg_date_range_type:0
@@ -262,7 +262,7 @@ msgstr "业务伙伴"
 #. module: base_action_rule
 #: selection:base.action.rule.lead.test,state:0
 msgid "Pending"
-msgstr "待处理"
+msgstr "等待中"
 
 #. module: base_action_rule
 #: field:base.action.rule,model_id:0

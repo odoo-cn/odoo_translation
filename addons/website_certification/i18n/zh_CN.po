@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:26+0000\n"
-"PO-Revision-Date: 2015-04-19 15:26+0000\n"
+"POT-Creation-Date: 2015-04-20 10:51+0000\n"
+"PO-Revision-Date: 2015-04-20 10:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "All"
-msgstr "All"
+msgstr "全部"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -69,7 +69,7 @@ msgstr "创建于"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Date"
-msgstr "Date"
+msgstr "日期"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -94,7 +94,7 @@ msgstr "Granted Certifications"
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: website_certification
 #: field:certification.certification,certification_hidden_score:0
@@ -111,13 +111,13 @@ msgstr "ID"
 #: field:certification.certification,write_uid:0
 #: field:certification.type,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: website_certification
 #: field:certification.certification,write_date:0
 #: field:certification.type,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -138,7 +138,7 @@ msgstr "Odoo Certified Experts"
 #: view:certification.certification:website_certification.certification_certification_search
 #: field:certification.certification,partner_id:0
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -175,5 +175,5 @@ msgstr "Try The Test"
 #: view:certification.certification:website_certification.certification_certification_search
 #: view:website:website_certification.certified_partners
 msgid "Type"
-msgstr "Type"
+msgstr "类型"
 

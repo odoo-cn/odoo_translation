@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:25+0000\n"
-"PO-Revision-Date: 2015-04-19 15:25+0000\n"
+"POT-Creation-Date: 2015-04-20 10:49+0000\n"
+"PO-Revision-Date: 2015-04-20 10:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "\n"
 #. module: survey
 #: view:survey.page:survey.survey_page_tree
 msgid "#Questions"
-msgstr "问题#"
+msgstr "# 问题"
 
 #. module: survey
 #: code:addons/survey/survey.py:246
@@ -49,7 +49,7 @@ msgstr "问题#"
 #: code:addons/survey/survey.py:662
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (副本)"
+msgstr "%s (copy)"
 
 #. module: survey
 #: view:website:survey.page
@@ -189,12 +189,12 @@ msgstr "Answers do not go in the original document' discussion thread. This has 
 #. module: survey
 #: field:survey.mail.compose.message,attachment_ids:0
 msgid "Attachments"
-msgstr "Attachments"
+msgstr "附件"
 
 #. module: survey
 #: field:survey.mail.compose.message,author_id:0
 msgid "Author"
-msgstr "Author"
+msgstr "作者"
 
 #. module: survey
 #: help:survey.mail.compose.message,author_id:0
@@ -209,7 +209,7 @@ msgstr "Author's Avatar"
 #. module: survey
 #: help:survey.mail.compose.message,body:0
 msgid "Automatically sanitized HTML contents"
-msgstr "Automatically sanitized HTML contents"
+msgstr "自动整理HTML内容"
 
 #. module: survey
 #: view:website:survey.result_number
@@ -224,7 +224,7 @@ msgstr "取消"
 #. module: survey
 #: field:survey.survey,res_model:0
 msgid "Category"
-msgstr "Category"
+msgstr "分类"
 
 #. module: survey
 #: field:survey.mail.compose.message,child_ids:0
@@ -258,13 +258,13 @@ msgstr "Click here to take survey"
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 #: view:website:survey.page
 msgid "Close"
-msgstr "结束"
+msgstr "关闭"
 
 #. module: survey
 #: field:survey.stage,closed:0
 #: model:survey.stage,name:survey.stage_closed
 msgid "Closed"
-msgstr "已结束"
+msgstr "已关闭"
 
 #. module: survey
 #: field:survey.survey,color:0
@@ -297,7 +297,7 @@ msgstr "已完成"
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Compose Email"
-msgstr "Compose Email"
+msgstr "撰写电子邮件"
 
 #. module: survey
 #: field:survey.mail.compose.message,composition_mode:0
@@ -312,7 +312,7 @@ msgstr "Constraints"
 #. module: survey
 #: field:survey.mail.compose.message,body:0
 msgid "Contents"
-msgstr "Contents"
+msgstr "内容"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
@@ -339,7 +339,7 @@ msgstr "创建日期"
 #: field:survey.user_input,create_uid:0
 #: field:survey.user_input_line,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: survey
 #: field:survey.label,create_date:0
@@ -351,12 +351,12 @@ msgstr "Created by"
 #: field:survey.user_input,create_date:0
 #: field:survey.user_input_line,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: survey
 #: field:survey.user_input,date_create:0
 msgid "Creation Date"
-msgstr "Creation Date"
+msgstr "创建日期"
 
 #. module: survey
 #: help:survey.mail.compose.message,starred:0
@@ -372,7 +372,7 @@ msgstr "Current user has an unread notification linked to this message"
 #: view:website:survey.result_choice
 #: view:website:survey.result_matrix
 msgid "Data"
-msgstr "Data"
+msgstr "数据"
 
 #. module: survey
 #: field:survey.mail.compose.message,date:0
@@ -398,12 +398,12 @@ msgstr "Date by which the person can open the survey and submit answers"
 #. module: survey
 #: help:survey.survey,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: survey
 #: field:survey.user_input,deadline:0
 msgid "Deadline"
-msgstr "Deadline"
+msgstr "截止日期"
 
 #. module: survey
 #: help:survey.mail.compose.message,date_deadline:0
@@ -425,12 +425,12 @@ msgstr "Delete!"
 #: field:survey.question,description:0
 #: field:survey.survey,description:0
 msgid "Description"
-msgstr "描述"
+msgstr "说明"
 
 #. module: survey
 #: view:survey.survey:survey.survey_kanban
 msgid "Design"
-msgstr "Design"
+msgstr "设计"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
@@ -457,12 +457,12 @@ msgstr "Edit Pages and Questions"
 #: selection:survey.mail.compose.message,type:0
 #: view:survey.user_input:survey.survey_user_input_search
 msgid "Email"
-msgstr "电子邮箱"
+msgstr "电子邮件"
 
 #. module: survey
 #: field:survey.survey,email_template_id:0
 msgid "Email Template"
-msgstr "Email Template"
+msgstr "电子邮件模板"
 
 #. module: survey
 #: help:survey.mail.compose.message,email_from:0
@@ -484,7 +484,7 @@ msgstr "错误消息"
 #: code:addons/survey/survey.py:439
 #, python-format
 msgid "Error!"
-msgstr "错误！"
+msgstr "Error!"
 
 #. module: survey
 #: field:survey.mail.compose.message,partner_ids:0
@@ -494,7 +494,7 @@ msgstr "Existing contacts"
 #. module: survey
 #: view:website:survey.result
 msgid "Filters"
-msgstr "Filters"
+msgstr "筛选"
 
 #. module: survey
 #: view:website:survey.result
@@ -509,7 +509,7 @@ msgstr "Folded in kanban view"
 #. module: survey
 #: field:survey.survey,message_follower_ids:0
 msgid "Followers"
-msgstr "Followers"
+msgstr "关注者"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
@@ -529,7 +529,7 @@ msgstr "Free Text answer"
 #. module: survey
 #: field:survey.mail.compose.message,email_from:0
 msgid "From"
-msgstr "发件人"
+msgstr "从"
 
 #. module: survey
 #: view:website:survey.survey
@@ -541,7 +541,7 @@ msgstr "Go back to surveys"
 #: view:website:survey.result_choice
 #: view:website:survey.result_matrix
 msgid "Graph"
-msgstr "Graph"
+msgstr "图表"
 
 #. module: survey
 #: view:survey.page:survey.survey_page_search
@@ -549,12 +549,12 @@ msgstr "Graph"
 #: view:survey.user_input:survey.survey_user_input_search
 #: view:survey.user_input_line:survey.survey_response_line_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: survey
 #: help:survey.survey,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: survey
 #: field:survey.label,id:0
@@ -566,7 +566,7 @@ msgstr "Holds the Chatter summary (number of messages, ...). This summary is dir
 #: field:survey.user_input,id:0
 #: field:survey.user_input_line,id:0
 msgid "ID"
-msgstr "编号"
+msgstr "ID"
 
 #. module: survey
 #: field:survey.user_input,token:0
@@ -576,7 +576,7 @@ msgstr "Identification token"
 #. module: survey
 #: help:survey.survey,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: survey
 #: help:survey.survey,users_can_go_back:0
@@ -602,7 +602,7 @@ msgstr "If you wish, you can"
 #. module: survey
 #: model:survey.stage,name:survey.stage_in_progress
 msgid "In progress"
-msgstr "In progress"
+msgstr "进行中"
 
 #. module: survey
 #: help:survey.mail.compose.message,parent_id:0
@@ -622,7 +622,7 @@ msgstr "Invitations sent"
 #. module: survey
 #: field:survey.survey,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Is a Follower"
+msgstr "是一个关注者"
 
 #. module: survey
 #: field:survey.survey,designed:0
@@ -638,12 +638,12 @@ msgstr "Label Sequence order"
 #: model:ir.actions.act_window,name:survey.action_survey_label_form
 #: model:ir.ui.menu,name:survey.menu_survey_label_form1
 msgid "Labels"
-msgstr "Labels"
+msgstr "标签打印"
 
 #. module: survey
 #: field:survey.survey,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: survey
 #: field:survey.label,write_uid:0
@@ -655,7 +655,7 @@ msgstr "Last Message Date"
 #: field:survey.user_input,write_uid:0
 #: field:survey.user_input_line,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: survey
 #: field:survey.label,write_date:0
@@ -667,7 +667,7 @@ msgstr "Last Updated by"
 #: field:survey.user_input,write_date:0
 #: field:survey.user_input_line,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: survey
 #: field:survey.user_input,last_displayed_page_id:0
@@ -774,7 +774,7 @@ msgstr "Message type: email for email message, notification for system message, 
 #. module: survey
 #: help:survey.mail.compose.message,message_id:0
 msgid "Message unique identifier"
-msgstr "Message unique identifier"
+msgstr "消息唯一编号"
 
 #. module: survey
 #: field:survey.mail.compose.message,message_id:0
@@ -784,12 +784,12 @@ msgstr "Message-Id"
 #. module: survey
 #: field:survey.survey,message_ids:0
 msgid "Messages"
-msgstr "Messages"
+msgstr "消息"
 
 #. module: survey
 #: help:survey.survey,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "消息和通信历史"
 
 #. module: survey
 #: view:website:survey.result_number
@@ -874,7 +874,7 @@ msgstr "Not started yet"
 #. module: survey
 #: field:survey.mail.compose.message,notification_ids:0
 msgid "Notifications"
-msgstr "Notifications"
+msgstr "通知"
 
 #. module: survey
 #: field:survey.mail.compose.message,notified_partner_ids:0
@@ -894,7 +894,7 @@ msgstr "Notify followers of the document (mass post only)"
 #. module: survey
 #: selection:survey.user_input_line,answer_type:0
 msgid "Number"
-msgstr "数字"
+msgstr "编号"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
@@ -994,7 +994,7 @@ msgstr "Partially completed"
 #: view:survey.user_input:survey.survey_user_input_search
 #: field:survey.user_input,partner_id:0
 msgid "Partner"
-msgstr "伙伴"
+msgstr "业务伙伴"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_partner_survey_mail
@@ -1015,7 +1015,7 @@ msgstr "Permanent"
 #. module: survey
 #: view:website:survey.result_choice
 msgid "Pie Chart"
-msgstr "Pie Chart"
+msgstr "饼图"
 
 #. module: survey
 #: code:addons/survey/wizard/survey_email_compose_message.py:213
@@ -1087,7 +1087,7 @@ msgstr "Public url"
 #: field:survey.user_input_line,question_id:0
 #: view:website:survey.result
 msgid "Question"
-msgstr "疑问"
+msgstr "问题"
 
 #. module: survey
 #: field:survey.question,question:0
@@ -1126,7 +1126,7 @@ msgstr "Related Document ID"
 #. module: survey
 #: field:survey.mail.compose.message,model:0
 msgid "Related Document Model"
-msgstr "Related Document Model"
+msgstr "相关的文档模型"
 
 #. module: survey
 #: help:survey.mail.compose.message,reply_to:0
@@ -1136,7 +1136,7 @@ msgstr "Reply email address. Setting the reply_to bypasses the automatic thread 
 #. module: survey
 #: field:survey.mail.compose.message,reply_to:0
 msgid "Reply-To"
-msgstr "Reply-To"
+msgstr "回复:"
 
 #. module: survey
 #: field:survey.survey,result_url:0
@@ -1156,12 +1156,12 @@ msgstr "Rows of the Matrix"
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Save as a new template"
-msgstr "Save as a new template"
+msgstr "保存新的模版"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Save as new template"
-msgstr "Save as new template"
+msgstr "保存为新的模版"
 
 #. module: survey
 #: field:survey.user_input,quizz_score:0
@@ -1237,7 +1237,7 @@ msgstr "Sent Invitation Again"
 #: field:survey.question,sequence:0
 #: field:survey.stage,sequence:0
 msgid "Sequence"
-msgstr "序号"
+msgstr "序列"
 
 #. module: survey
 #: sql_constraint:survey.stage:0
@@ -1294,12 +1294,12 @@ msgstr "Sorry, No one answered this survey yet"
 #: view:survey.stage:survey.survey_stage_form
 #: field:survey.survey,stage_id:0
 msgid "Stage"
-msgstr "Stage"
+msgstr "阶段"
 
 #. module: survey
 #: field:survey.mail.compose.message,starred:0
 msgid "Starred"
-msgstr "Starred"
+msgstr "加星的邮件"
 
 #. module: survey
 #: view:website:survey.survey_init
@@ -1309,7 +1309,7 @@ msgstr "Start Survey"
 #. module: survey
 #: view:survey.survey:survey.survey_tree
 msgid "Started"
-msgstr "已开始"
+msgstr "开始"
 
 #. module: survey
 #: field:survey.user_input,state:0
@@ -1324,7 +1324,7 @@ msgstr "主题"
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Subject..."
-msgstr "Subject..."
+msgstr "主题..."
 
 #. module: survey
 #: view:website:survey.page
@@ -1334,7 +1334,7 @@ msgstr "Submit survey"
 #. module: survey
 #: field:survey.mail.compose.message,subtype_id:0
 msgid "Subtype"
-msgstr "Subtype"
+msgstr "子类型"
 
 #. module: survey
 #: field:survey.user_input_line,value_suggested:0
@@ -1354,12 +1354,12 @@ msgstr "Suggestion"
 #. module: survey
 #: view:website:survey.result_number
 msgid "Sum"
-msgstr "Sum"
+msgstr "总和"
 
 #. module: survey
 #: field:survey.survey,message_summary:0
 msgid "Summary"
-msgstr "Summary"
+msgstr "摘要"
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_survey
@@ -1375,7 +1375,7 @@ msgstr "Summary"
 #: view:survey.user_input_line:survey.survey_response_line_search
 #: field:survey.user_input_line,survey_id:0
 msgid "Survey"
-msgstr "问卷"
+msgstr "调查"
 
 #. module: survey
 #: view:survey.user_input_line:survey.survey_response_line_tree
@@ -1576,7 +1576,7 @@ msgstr "This survey is open only to registered people. Please"
 #. module: survey
 #: field:survey.survey,title:0
 msgid "Title"
-msgstr "Title"
+msgstr "称谓"
 
 #. module: survey
 #: field:survey.mail.compose.message,to_read:0
@@ -1612,7 +1612,7 @@ msgstr "Types of answers"
 #. module: survey
 #: field:survey.survey,message_unread:0
 msgid "Unread Messages"
-msgstr "Unread Messages"
+msgstr "未读消息"
 
 #. module: survey
 #: field:survey.mail.compose.message,use_active_domain:0
@@ -1623,7 +1623,7 @@ msgstr "Use active domain"
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 #: field:survey.mail.compose.message,template_id:0
 msgid "Use template"
-msgstr "Use template"
+msgstr "使用模版"
 
 #. module: survey
 #: help:survey.question,description:0
@@ -1696,12 +1696,12 @@ msgstr "View results"
 #. module: survey
 #: view:website:survey.result_choice
 msgid "Vote"
-msgstr "Vote"
+msgstr "投票"
 
 #. module: survey
 #: field:survey.mail.compose.message,vote_user_ids:0
 msgid "Votes"
-msgstr "Votes"
+msgstr "投票"
 
 #. module: survey
 #: code:addons/survey/survey.py:444
@@ -1712,7 +1712,7 @@ msgstr "Votes"
 #: code:addons/survey/wizard/survey_email_compose_message.py:213
 #, python-format
 msgid "Warning!"
-msgstr "警告！"
+msgstr "Warning!"
 
 #. module: survey
 #: help:survey.mail.compose.message,is_log:0
@@ -1761,12 +1761,12 @@ msgstr "log in"
 #. module: survey
 #: view:website:survey.page
 msgid "on"
-msgstr "on"
+msgstr "在"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: survey
 #: view:website:survey.sfinished

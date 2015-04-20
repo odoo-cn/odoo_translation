@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:21+0000\n"
-"PO-Revision-Date: 2015-04-19 15:21+0000\n"
+"POT-Creation-Date: 2015-04-20 10:46+0000\n"
+"PO-Revision-Date: 2015-04-20 10:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "% discount"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1143
 #, python-format
 msgid "&nbsp;"
-msgstr "&nbsp;"
+msgstr "不能有空格"
 
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
@@ -211,7 +211,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "= Theoretical Closing Balance"
-msgstr "= Theoretical Closing Balance"
+msgstr "=理论的期末余额"
 
 #. module: point_of_sale
 #. openerp-web
@@ -281,7 +281,7 @@ msgstr "Accounting journal used to post sales entries."
 #: view:pos.config:point_of_sale.view_pos_config_search
 #: selection:pos.config,state:0
 msgid "Active"
-msgstr "Active"
+msgstr "有效"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_discount
@@ -294,7 +294,7 @@ msgstr "增加一个全局折扣"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:450
 #, python-format
 msgid "Address"
-msgstr "Address"
+msgstr "地址"
 
 #. module: point_of_sale
 #. openerp-web
@@ -350,7 +350,7 @@ msgstr "An internal identification of the point of sale"
 #. module: point_of_sale
 #: view:pos.ean_wizard:point_of_sale.pos_ean13_generator
 msgid "Apply"
-msgstr "Apply"
+msgstr "应用"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_discount
@@ -386,7 +386,7 @@ msgstr "平均价格"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:265
 #, python-format
 msgid "Back"
-msgstr "Back"
+msgstr "返回"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_account_bank_statement
@@ -402,7 +402,7 @@ msgstr "银行对账单明细"
 #. module: point_of_sale
 #: help:res.users,ean13:0
 msgid "BarCode"
-msgstr "条码"
+msgstr "条形码"
 
 #. module: point_of_sale
 #. openerp-web
@@ -475,12 +475,12 @@ msgstr "Cannot return change without a cash payment method"
 #: code:addons/point_of_sale/static/src/js/screens.js:1091
 #, python-format
 msgid "Cash"
-msgstr "Cash"
+msgstr "现金"
 
 #. module: point_of_sale
 #: field:pos.session,details_ids:0
 msgid "Cash Control"
-msgstr "Cash Control"
+msgstr "现金控制"
 
 #. module: point_of_sale
 #: field:pos.session,cash_journal_id:0
@@ -642,7 +642,7 @@ msgstr "Closed & Posted"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Closing Cash Control"
-msgstr "关闭现金箱"
+msgstr "关闭现金控制"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:137
@@ -662,7 +662,7 @@ msgstr "结束日期"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Closing Subtotal"
-msgstr "Closing Subtotal"
+msgstr "关闭合计"
 
 #. module: point_of_sale
 #: field:pos.config,company_id:0
@@ -686,7 +686,7 @@ msgstr "设置"
 #: code:addons/point_of_sale/point_of_sale.py:877
 #, python-format
 msgid "Configuration Error!"
-msgstr "设置错误！"
+msgstr "Configuration Error!"
 
 #. module: point_of_sale
 #. openerp-web
@@ -694,7 +694,7 @@ msgstr "设置错误！"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:709
 #, python-format
 msgid "Confirm"
-msgstr "确定"
+msgstr "确认"
 
 #. module: point_of_sale
 #. openerp-web
@@ -727,7 +727,7 @@ msgstr "Could not close the point of sale."
 #: code:addons/point_of_sale/static/src/xml/pos.xml:328
 #, python-format
 msgid "Country"
-msgstr "Country"
+msgstr "国家"
 
 #. module: point_of_sale
 #: field:pos.category,create_uid:0
@@ -743,7 +743,7 @@ msgstr "Country"
 #: field:pos.session,create_uid:0
 #: field:pos.session.opening,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: point_of_sale
 #: field:pos.category,create_date:0
@@ -758,7 +758,7 @@ msgstr "Created by"
 #: field:pos.session,create_date:0
 #: field:pos.session.opening,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: point_of_sale
 #: field:pos.order.line,create_date:0
@@ -769,7 +769,7 @@ msgstr "创建日期"
 #: field:pos.config,currency_id:0
 #: view:website:point_of_sale.report_sessionsummary
 msgid "Currency"
-msgstr "Currency"
+msgstr "币别"
 
 #. module: point_of_sale
 #: field:pos.session,currency_id:0
@@ -904,12 +904,12 @@ msgstr "销售详情"
 #: field:pos.session,cash_register_difference:0
 #: view:website:point_of_sale.report_sessionsummary
 msgid "Difference"
-msgstr "Difference"
+msgstr "差额"
 
 #. module: point_of_sale
 #: help:pos.session,cash_register_difference:0
 msgid "Difference between the theoretical closing balance and the real closing balance."
-msgstr "Difference between the theoretical closing balance and the real closing balance."
+msgstr "理论期末余额和实际期末余额之间的差异"
 
 #. module: point_of_sale
 #. openerp-web
@@ -960,14 +960,14 @@ msgstr "折扣通告"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:983
 #, python-format
 msgid "Discount:"
-msgstr "Discount:"
+msgstr "折扣："
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:625
 #, python-format
 msgid "Discounts"
-msgstr "Discounts"
+msgstr "折扣"
 
 #. module: point_of_sale
 #: view:pos.open.statement:point_of_sale.view_pos_open_statement
@@ -982,7 +982,7 @@ msgstr "完成"
 #. module: point_of_sale
 #: field:res.users,ean13:0
 msgid "EAN13"
-msgstr "EAN13"
+msgstr "条形码（EAN13）"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
@@ -1101,7 +1101,7 @@ msgstr "Enter a reference, it will be converted\n"
 #: code:addons/point_of_sale/static/src/js/screens.js:326
 #, python-format
 msgid "Error"
-msgstr "错误"
+msgstr "Error"
 
 #. module: point_of_sale
 #: constraint:pos.category:0
@@ -1127,7 +1127,7 @@ msgstr "错误！您不能创建循环分类。"
 #: code:addons/point_of_sale/wizard/pos_box.py:22
 #, python-format
 msgid "Error!"
-msgstr "出错！"
+msgstr "Error!"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1152,12 +1152,12 @@ msgstr "Error: The Point of Sale User must belong to the same company as the Poi
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Extra Info"
-msgstr "附加信息"
+msgstr "额外信息"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
 msgid "Features"
-msgstr "Features"
+msgstr "特性"
 
 #. module: point_of_sale
 #: help:pos.config,iface_big_scrollbars:0
@@ -1167,12 +1167,12 @@ msgstr "For imprecise industrial touchscreens"
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "General Information"
-msgstr "常规信息"
+msgstr "一般信息"
 
 #. module: point_of_sale
 #: view:pos.confirm:point_of_sale.view_pos_confirm
 msgid "Generate Entries"
-msgstr "生成凭证"
+msgstr "生成分录"
 
 #. module: point_of_sale
 #: view:pos.confirm:point_of_sale.view_pos_confirm
@@ -1203,7 +1203,7 @@ msgstr "Google Chrome"
 #: view:pos.session:point_of_sale.view_pos_session_search
 #: view:report.pos.order:point_of_sale.view_report_pos_order_search
 msgid "Group By"
-msgstr "分组"
+msgstr "分组于"
 
 #. module: point_of_sale
 #: field:pos.config,group_by:0
@@ -1269,7 +1269,7 @@ msgstr "IP Address"
 #. module: point_of_sale
 #: field:pos.category,image:0
 msgid "Image"
-msgstr "Image"
+msgstr "图像"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:136
@@ -1311,7 +1311,7 @@ msgstr "无效的条码"
 #: field:pos.order,invoice_id:0
 #, python-format
 msgid "Invoice"
-msgstr "发票"
+msgstr "开发票"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,invoice_am:0
@@ -1325,17 +1325,17 @@ msgstr "发票金额"
 #: selection:report.pos.order,state:0
 #: view:website:point_of_sale.report_detailsofsales
 msgid "Invoiced"
-msgstr "已开票"
+msgstr "已开发票"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_invoice
 msgid "Invoices"
-msgstr "发票列表"
+msgstr "发票"
 
 #. module: point_of_sale
 #: field:pos.config,iface_invoicing:0
 msgid "Invoicing"
-msgstr "发票"
+msgstr "开票"
 
 #. module: point_of_sale
 #: view:account.bank.statement:point_of_sale.view_pos_confirm_cash_statement_filter
@@ -1345,17 +1345,17 @@ msgstr "发票"
 #: view:website:point_of_sale.report_sessionsummary
 #: view:website:point_of_sale.report_statement
 msgid "Journal"
-msgstr "账簿"
+msgstr "分类账"
 
 #. module: point_of_sale
 #: field:pos.order,account_move:0
 msgid "Journal Entry"
-msgstr "日记账簿"
+msgstr "分类账分录"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
 msgid "Journals"
-msgstr "日记账"
+msgstr "分类账"
 
 #. module: point_of_sale
 #: field:pos.config,iface_big_scrollbars:0
@@ -1376,7 +1376,7 @@ msgstr "Large Scrollbars"
 #: field:pos.session,write_uid:0
 #: field:pos.session.opening,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: point_of_sale
 #: field:pos.category,write_date:0
@@ -1392,7 +1392,7 @@ msgstr "Last Updated by"
 #: field:pos.session,write_date:0
 #: field:pos.session.opening,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: point_of_sale
 #: field:pos.order.line,name:0
@@ -1417,13 +1417,13 @@ msgstr "收款机清单"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:79
 #, python-format
 msgid "Loading"
-msgstr "Loading"
+msgstr "加载中"
 
 #. module: point_of_sale
 #: field:pos.order,location_id:0
 #: field:report.pos.order,location_id:0
 msgid "Location"
-msgstr "Location"
+msgstr "地点"
 
 #. module: point_of_sale
 #: field:pos.session,login_number:0
@@ -1433,7 +1433,7 @@ msgstr "Login Sequence Number"
 #. module: point_of_sale
 #: view:pos.make.payment:point_of_sale.view_pos_payment
 msgid "Make Payment"
-msgstr "付款"
+msgstr "建立付款"
 
 #. module: point_of_sale
 #: model:res.groups,name:point_of_sale.group_pos_manager
@@ -1443,7 +1443,7 @@ msgstr "经理"
 #. module: point_of_sale
 #: field:pos.category,image_medium:0
 msgid "Medium-sized image"
-msgstr "Medium-sized image"
+msgstr "中等尺寸图片"
 
 #. module: point_of_sale
 #: help:pos.category,image_medium:0
@@ -1573,7 +1573,7 @@ msgstr "条款号"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:330
 #, python-format
 msgid "None"
-msgstr "None"
+msgstr "不结转"
 
 #. module: point_of_sale
 #: view:report.pos.order:point_of_sale.view_report_pos_order_search
@@ -1668,18 +1668,18 @@ msgstr "开启收银机"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Opening Balance"
-msgstr "期初余额"
+msgstr "开帐余额"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 #: field:pos.session,opening_details_ids:0
 msgid "Opening Cash Control"
-msgstr "正在打开钱箱"
+msgstr "开启现金控制"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Opening Cashbox Lines"
-msgstr "正在打开钱箱"
+msgstr "开帐钱箱明细"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:135
@@ -1699,7 +1699,7 @@ msgstr "开启日期"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Opening Subtotal"
-msgstr "小计"
+msgstr "开帐小计"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1707,11 +1707,11 @@ msgstr "小计"
 #: view:website:point_of_sale.report_detailsofsales
 #, python-format
 msgid "Order"
-msgstr "订单"
+msgstr "付款单"
 
 #. module: point_of_sale
 #. openerp-web
-#: code:addons/point_of_sale/static/src/js/models.js:1021
+#: code:addons/point_of_sale/static/src/js/models.js:1024
 #, python-format
 msgid "Order "
 msgstr "Order "
@@ -1721,7 +1721,7 @@ msgstr "Order "
 #: field:report.sales.by.user.pos,date_order:0
 #: field:report.sales.by.user.pos.month,date_order:0
 msgid "Order Date"
-msgstr "订单日期"
+msgstr "单据日期"
 
 #. module: point_of_sale
 #: field:pos.config,sequence_id:0
@@ -1737,7 +1737,7 @@ msgstr "订单明细"
 #: view:pos.order:point_of_sale.view_pos_order_filter
 #: view:report.pos.order:point_of_sale.view_report_pos_order_search
 msgid "Order Month"
-msgstr "Order Month"
+msgstr "订单月份"
 
 #. module: point_of_sale
 #: field:pos.order,name:0
@@ -1761,7 +1761,7 @@ msgstr "单据明细"
 #: model:ir.ui.menu,name:point_of_sale.menu_point_ofsale
 #: field:pos.session,order_ids:0
 msgid "Orders"
-msgstr "Orders"
+msgstr "订单"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_order_all
@@ -1826,7 +1826,7 @@ msgstr "当前年度创建的POS订单"
 #: field:pos.order,amount_paid:0
 #: selection:pos.order,state:0
 msgid "Paid"
-msgstr "付款"
+msgstr "已付"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1838,7 +1838,7 @@ msgstr "已付："
 #. module: point_of_sale
 #: field:pos.category,parent_id:0
 msgid "Parent Category"
-msgstr "上级类别"
+msgstr "上级分类"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_res_partner
@@ -1846,7 +1846,7 @@ msgstr "上级类别"
 #: view:website:point_of_sale.report_sessionsummary
 #: view:website:point_of_sale.report_statement
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: point_of_sale
 #: view:pos.make.payment:point_of_sale.view_pos_payment
@@ -1882,7 +1882,7 @@ msgstr "付款方式"
 #. module: point_of_sale
 #: field:pos.make.payment,payment_name:0
 msgid "Payment Reference"
-msgstr "付款参考"
+msgstr "付款记录"
 
 #. module: point_of_sale
 #: field:pos.config,iface_payment_terminal:0
@@ -1908,7 +1908,7 @@ msgstr "Pending orders will be lost.\n"
 #: view:account.bank.statement:point_of_sale.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale.view_pos_open_cash_statement_filter
 msgid "Period"
-msgstr "会计期间"
+msgstr "期间"
 
 #. module: point_of_sale
 #: help:pos.order,user_id:0
@@ -1940,7 +1940,7 @@ msgstr "领料/提货"
 #: field:pos.config,picking_type_id:0
 #: field:pos.order,picking_type_id:0
 msgid "Picking Type"
-msgstr "Picking Type"
+msgstr "分拣类型"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1166
@@ -1993,7 +1993,7 @@ msgstr "PoS Session Opening"
 #: view:res.users:point_of_sale.res_users_form_view
 #: view:website:point_of_sale.report_sessionsummary
 msgid "Point of Sale"
-msgstr "销售点"
+msgstr "POS"
 
 #. module: point_of_sale
 #: view:report.pos.order:point_of_sale.view_report_pos_order_graph
@@ -2185,7 +2185,7 @@ msgstr "Product Barcodes"
 #: view:report.pos.order:point_of_sale.view_report_pos_order_search
 #: field:report.pos.order,product_categ_id:0
 msgid "Product Category"
-msgstr "Product Category"
+msgstr "产品分类"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,product_nb:0
@@ -2200,7 +2200,7 @@ msgstr "Product Product Categories"
 #. module: point_of_sale
 #: field:report.pos.order,product_qty:0
 msgid "Product Quantity"
-msgstr "Product Quantity"
+msgstr "产品数量"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_product_template
@@ -2228,7 +2228,7 @@ msgstr "Put"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_box_in
 msgid "Put Money In"
-msgstr "现金入库"
+msgstr "把钱放入"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2269,13 +2269,13 @@ msgstr "读取电子秤"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Real Closing Balance"
-msgstr "Real Closing Balance"
+msgstr "实际期末余额"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.action_report_pos_receipt
 #: view:pos.config:point_of_sale.view_pos_config_form
 msgid "Receipt"
-msgstr "收入"
+msgstr "收据"
 
 #. module: point_of_sale
 #: field:pos.config,receipt_footer:0
@@ -2299,7 +2299,7 @@ msgstr "Receipt Ref"
 #: view:website:point_of_sale.report_sessionsummary
 #, python-format
 msgid "Reference"
-msgstr "单号"
+msgstr "参考"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2366,7 +2366,7 @@ msgstr "销售明细"
 #. module: point_of_sale
 #: field:report.transaction.pos,journal_id:0
 msgid "Sales Journal"
-msgstr "销售账簿"
+msgstr "销售分类账"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.pos_lines_report
@@ -2503,7 +2503,7 @@ msgstr "Self Checkout Payment Method"
 #. module: point_of_sale
 #: field:pos.category,sequence:0
 msgid "Sequence"
-msgstr "序号"
+msgstr "序列"
 
 #. module: point_of_sale
 #: field:pos.order,sequence_number:0
@@ -2515,7 +2515,7 @@ msgstr "Sequence Number"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:540
 #, python-format
 msgid "Served by"
-msgstr "Served by"
+msgstr "服务员"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/wizard/pos_session_opening.py:64
@@ -2617,7 +2617,7 @@ msgstr "显示配置"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:83
 #, python-format
 msgid "Skip"
-msgstr "Skip"
+msgstr "跳过"
 
 #. module: point_of_sale
 #: field:pos.category,image_small:0
@@ -2639,7 +2639,7 @@ msgstr "Soda 33cl"
 #. module: point_of_sale
 #: view:website:point_of_sale.report_detailsofsales
 msgid "Start Period"
-msgstr "开始期间"
+msgstr "开始会计期间"
 
 #. module: point_of_sale
 #: model:ir.actions.act_url,name:point_of_sale.action_pos_pos
@@ -2662,7 +2662,7 @@ msgstr "开始日期"
 #: model:ir.actions.report.xml,name:point_of_sale.action_report_account_statement
 #: view:website:point_of_sale.report_statement
 msgid "Statement"
-msgstr "银行单据"
+msgstr "账单"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_sessionsummary
@@ -2682,12 +2682,12 @@ msgstr "Statement Summary"
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Statement lines"
-msgstr "对账单明细"
+msgstr "银行对账单明细"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Statements"
-msgstr "Statements"
+msgstr "报告"
 
 #. module: point_of_sale
 #: view:account.bank.statement:point_of_sale.view_pos_confirm_cash_statement_filter
@@ -2705,7 +2705,7 @@ msgstr "状态"
 #. module: point_of_sale
 #: field:pos.config,stock_location_id:0
 msgid "Stock Location"
-msgstr "Stock Location"
+msgstr "库存库位"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2713,7 +2713,7 @@ msgstr "Stock Location"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:317
 #, python-format
 msgid "Street"
-msgstr "Street"
+msgstr "街道"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2738,7 +2738,7 @@ msgstr "小计:"
 #. module: point_of_sale
 #: help:pos.session,cash_register_balance_end:0
 msgid "Sum of opening balance and transactions."
-msgstr "Sum of opening balance and transactions."
+msgstr "期初余额与交易额的合计"
 
 #. module: point_of_sale
 #: view:pos.order.line:point_of_sale.view_pos_order_line
@@ -2783,7 +2783,7 @@ msgstr "把钱拿出"
 #: view:website:point_of_sale.report_saleslines
 #, python-format
 msgid "Tax"
-msgstr "税"
+msgstr "税金"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2791,7 +2791,7 @@ msgstr "税"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:400
 #, python-format
 msgid "Tax ID"
-msgstr "Tax ID"
+msgstr "税号"
 
 #. module: point_of_sale
 #: field:pos.order,amount_tax:0
@@ -2799,7 +2799,7 @@ msgstr "Tax ID"
 #: view:website:point_of_sale.report_receipt
 #: view:website:point_of_sale.report_saleslines
 msgid "Taxes"
-msgstr "税"
+msgstr "税金"
 
 #. module: point_of_sale
 #. openerp-web
@@ -2813,7 +2813,7 @@ msgstr "税:"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:524
 #, python-format
 msgid "Tel:"
-msgstr "Tel:"
+msgstr "电话:"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1136
@@ -3072,7 +3072,7 @@ msgstr "交易数合计"
 #. module: point_of_sale
 #: view:website:point_of_sale.report_sessionsummary
 msgid "Total Transactions"
-msgstr "Total Transactions"
+msgstr "全部交易"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_saleslines
@@ -3097,7 +3097,7 @@ msgstr "Total of all paid sale orders"
 #. module: point_of_sale
 #: help:pos.session,cash_register_balance_end_real:0
 msgid "Total of closing cash control lines."
-msgstr "Total of closing cash control lines."
+msgstr "关闭现金控制行并合计"
 
 #. module: point_of_sale
 #: help:pos.session,cash_register_balance_start:0
@@ -3125,7 +3125,7 @@ msgstr "总数量"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:989
 #, python-format
 msgid "Total:"
-msgstr "合计:"
+msgstr "合计："
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1232
@@ -3418,7 +3418,7 @@ msgstr "ZIP"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:778
 #, python-format
 msgid "at"
-msgstr "at"
+msgstr "在"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3448,7 +3448,7 @@ msgstr "delete"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:788
 #, python-format
 msgid "discount"
-msgstr "discount"
+msgstr "折扣"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:400
@@ -3474,7 +3474,7 @@ msgstr "未被使用"
 #: view:pos.open.statement:point_of_sale.view_pos_open_statement
 #, python-format
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
@@ -3522,5 +3522,5 @@ msgstr "POS交易"
 #: field:pos.session.opening,pos_session_name:0
 #: field:pos.session.opening,pos_session_username:0
 msgid "unknown"
-msgstr "未知"
+msgstr "未知的"
 

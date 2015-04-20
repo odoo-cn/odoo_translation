@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:20+0000\n"
-"PO-Revision-Date: 2015-04-19 15:20+0000\n"
+"POT-Creation-Date: 2015-04-20 10:46+0000\n"
+"PO-Revision-Date: 2015-04-20 10:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "(Add)"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "(update)"
-msgstr "(update)"
+msgstr "（更新）"
 
 #. module: mrp_repair
 #: model:ir.actions.act_window,help:mrp_repair.action_repair_order_tree
@@ -87,7 +87,7 @@ msgstr "Active ID not Found"
 #. module: mrp_repair
 #: selection:mrp.repair.line,type:0
 msgid "Add"
-msgstr "Add"
+msgstr "添加"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
@@ -154,7 +154,7 @@ msgstr "Confirm Repair"
 #: selection:mrp.repair,state:0
 #: selection:mrp.repair.line,state:0
 msgid "Confirmed"
-msgstr "Confirmed"
+msgstr "已确认"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/mrp_repair.py:541
@@ -169,12 +169,12 @@ msgstr "Couldn't find a pricelist line matching this product and quantity.\n"
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 #: view:mrp.repair.make_invoice:mrp_repair.view_make_invoice
 msgid "Create Invoice"
-msgstr "生成发票"
+msgstr "创建发票"
 
 #. module: mrp_repair
 #: view:mrp.repair.make_invoice:mrp_repair.view_make_invoice
 msgid "Create invoices"
-msgstr "Create invoices"
+msgstr "创建发票"
 
 #. module: mrp_repair
 #: field:mrp.repair,create_uid:0
@@ -183,7 +183,7 @@ msgstr "Create invoices"
 #: field:mrp.repair.line,create_uid:0
 #: field:mrp.repair.make_invoice,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: mrp_repair
 #: field:mrp.repair,create_date:0
@@ -192,7 +192,7 @@ msgstr "Created by"
 #: field:mrp.repair.line,create_date:0
 #: field:mrp.repair.make_invoice,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: mrp_repair
 #: field:mrp.repair,location_id:0
@@ -202,12 +202,12 @@ msgstr "Current Location"
 #. module: mrp_repair
 #: help:mrp.repair,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: mrp_repair
 #: field:mrp.repair,address_id:0
 msgid "Delivery Address"
-msgstr "Delivery Address"
+msgstr "交货地址"
 
 #. module: mrp_repair
 #: field:mrp.repair,location_dest_id:0
@@ -229,7 +229,7 @@ msgstr "Dest. Location"
 #. module: mrp_repair
 #: view:mrp.repair.make_invoice:mrp_repair.view_make_invoice
 msgid "Do you really want to create the invoice(s)?"
-msgstr "Do you really want to create the invoice(s)?"
+msgstr "你真的要生成发票吗 ？"
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,state:0
@@ -252,12 +252,12 @@ msgstr "End Repair"
 #: code:addons/mrp_repair/mrp_repair.py:396
 #, python-format
 msgid "Error!"
-msgstr "错误！"
+msgstr "Error!"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Extra Info"
-msgstr "Extra Info"
+msgstr "额外信息"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
@@ -278,7 +278,7 @@ msgstr "关注者"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: mrp_repair
 #: field:mrp.repair.make_invoice,group:0
@@ -303,12 +303,12 @@ msgstr "Guarantee limit by Month"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "History"
-msgstr "History"
+msgstr "历史"
 
 #. module: mrp_repair
 #: help:mrp.repair,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: mrp_repair
 #: field:mrp.repair,id:0
@@ -322,12 +322,12 @@ msgstr "ID"
 #. module: mrp_repair
 #: help:mrp.repair,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: mrp_repair
 #: field:mrp.repair,internal_notes:0
 msgid "Internal Notes"
-msgstr "Internal Notes"
+msgstr "内部备注"
 
 #. module: mrp_repair
 #: field:mrp.repair.line,move_id:0
@@ -337,7 +337,7 @@ msgstr "Inventory Move"
 #. module: mrp_repair
 #: field:mrp.repair,invoice_id:0
 msgid "Invoice"
-msgstr "Invoice"
+msgstr "开发票"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
@@ -347,13 +347,13 @@ msgstr "Invoice Corrected"
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
 msgid "Invoice Exception"
-msgstr "Invoice Exception"
+msgstr "发票异常"
 
 #. module: mrp_repair
 #: field:mrp.repair.fee,invoice_line_id:0
 #: field:mrp.repair.line,invoice_line_id:0
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: mrp_repair
 #: field:mrp.repair,invoice_method:0
@@ -376,17 +376,17 @@ msgstr "Invoice and shipping address:"
 #: field:mrp.repair.fee,invoiced:0
 #: field:mrp.repair.line,invoiced:0
 msgid "Invoiced"
-msgstr "Invoiced"
+msgstr "已开发票"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Invoicing"
-msgstr "Invoicing"
+msgstr "开票"
 
 #. module: mrp_repair
 #: field:mrp.repair,partner_invoice_id:0
 msgid "Invoicing Address"
-msgstr "Invoicing Address"
+msgstr "开票地址"
 
 #. module: mrp_repair
 #: field:mrp.repair,message_is_follower:0
@@ -396,7 +396,7 @@ msgstr "是一个关注者"
 #. module: mrp_repair
 #: field:mrp.repair,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: mrp_repair
 #: field:mrp.repair,write_uid:0
@@ -405,7 +405,7 @@ msgstr "Last Message Date"
 #: field:mrp.repair.line,write_uid:0
 #: field:mrp.repair.make_invoice,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: mrp_repair
 #: field:mrp.repair,write_date:0
@@ -414,12 +414,12 @@ msgstr "Last Updated by"
 #: field:mrp.repair.line,write_date:0
 #: field:mrp.repair.make_invoice,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: mrp_repair
 #: field:mrp.repair.line,lot_id:0
 msgid "Lot"
-msgstr "Lot"
+msgstr "批次"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
@@ -444,7 +444,7 @@ msgstr "消息和通信历史"
 #. module: mrp_repair
 #: field:mrp.repair,move_id:0
 msgid "Move"
-msgstr "Move"
+msgstr "凭证"
 
 #. module: mrp_repair
 #: help:mrp.repair,move_id:0
@@ -517,7 +517,7 @@ msgstr "作业"
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
 #: field:mrp.repair,partner_id:0
 msgid "Partner"
-msgstr "Partner"
+msgstr "业务伙伴"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
@@ -527,7 +527,7 @@ msgstr "价格"
 #. module: mrp_repair
 #: field:mrp.repair,pricelist_id:0
 msgid "Pricelist"
-msgstr "Pricelist"
+msgstr "价格表"
 
 #. module: mrp_repair
 #: help:mrp.repair,pricelist_id:0
@@ -549,7 +549,7 @@ msgstr "产品"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Product Information"
-msgstr "Product Information"
+msgstr "产品信息"
 
 #. module: mrp_repair
 #: field:mrp.repair,product_qty:0
@@ -589,7 +589,7 @@ msgstr "数量"
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
 msgid "Quotation"
-msgstr "Quotation"
+msgstr "报价单"
 
 #. module: mrp_repair
 #: model:ir.actions.report.xml,name:mrp_repair.action_report_mrp_repair_order
@@ -604,7 +604,7 @@ msgstr "Quotation Notes"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
 msgid "Quotations"
-msgstr "Quotations"
+msgstr "报价单"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
@@ -624,13 +624,13 @@ msgstr "Reair Orders"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Recreate Invoice"
-msgstr "Recreate Invoice"
+msgstr "重新生成发票"
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,type:0
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Remove"
-msgstr "Remove"
+msgstr "删除"
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_fee
@@ -762,7 +762,7 @@ msgstr "摘要"
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Tax"
-msgstr "税"
+msgstr "税金"
 
 #. module: mrp_repair
 #: field:mrp.repair,amount_tax:0
@@ -792,12 +792,12 @@ msgstr "This operation will cancel the Repair process, but will not cancel it's 
 #: field:mrp.repair.fee,to_invoice:0
 #: field:mrp.repair.line,to_invoice:0
 msgid "To Invoice"
-msgstr "To Invoice"
+msgstr "待开票"
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
 msgid "To be Invoiced"
-msgstr "To be Invoiced"
+msgstr "待开票"
 
 #. module: mrp_repair
 #: field:mrp.repair,amount_total:0
@@ -845,12 +845,12 @@ msgstr "未读消息"
 #. module: mrp_repair
 #: field:mrp.repair,amount_untaxed:0
 msgid "Untaxed Amount"
-msgstr "Untaxed Amount"
+msgstr "未税金额"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Untaxed amount"
-msgstr "Untaxed amount"
+msgstr "未税金额"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
@@ -861,7 +861,7 @@ msgstr "VAT:"
 #: code:addons/mrp_repair/mrp_repair.py:224
 #, python-format
 msgid "Warning"
-msgstr "警告"
+msgstr "Warning"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/mrp_repair.py:289
@@ -870,7 +870,7 @@ msgstr "警告"
 #: code:addons/mrp_repair/wizard/cancel_repair.py:49
 #, python-format
 msgid "Warning!"
-msgstr "警告！"
+msgstr "Warning!"
 
 #. module: mrp_repair
 #: field:mrp.repair,guarantee_limit:0
@@ -880,17 +880,17 @@ msgstr "Warranty Expiration"
 #. module: mrp_repair
 #: field:mrp.repair,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
 #. module: mrp_repair
 #: help:mrp.repair,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: mrp_repair
 #: view:mrp.repair.cancel:mrp_repair.view_cancel_repair
 msgid "Yes"
-msgstr "Yes"
+msgstr "是"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/mrp_repair.py:325
@@ -915,5 +915,5 @@ msgstr "或"
 #. module: mrp_repair
 #: field:mrp.repair,default_address_id:0
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知的"
 

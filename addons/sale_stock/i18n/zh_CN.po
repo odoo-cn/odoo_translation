@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:24+0000\n"
-"PO-Revision-Date: 2015-04-19 15:24+0000\n"
+"POT-Creation-Date: 2015-04-20 10:49+0000\n"
+"PO-Revision-Date: 2015-04-20 10:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -65,7 +65,7 @@ msgstr "公司"
 #: code:addons/sale_stock/sale_stock.py:345
 #, python-format
 msgid "Configuration Error!"
-msgstr "设置错误!"
+msgstr "Configuration Error!"
 
 #. module: sale_stock
 #: model:ir.actions.act_window,name:sale_stock.res_partner_rule_children
@@ -126,7 +126,7 @@ msgstr "忽略异常"
 #. module: sale_stock
 #: field:sale.order,incoterm:0
 msgid "Incoterm"
-msgstr "贸易术语"
+msgstr "国际贸易术语"
 
 #. module: sale_stock
 #: help:sale.order,incoterm:0
@@ -180,7 +180,7 @@ msgstr "Only administrators can change the settings"
 #. module: sale_stock
 #: field:sale.order.line,product_packaging:0
 msgid "Packaging"
-msgstr "打包装"
+msgstr "包装"
 
 #. module: sale_stock
 #: help:sale.order,picking_policy:0
@@ -216,7 +216,7 @@ msgstr "产品"
 #. module: sale_stock
 #: field:sale.order.line,product_tmpl_id:0
 msgid "Product Template"
-msgstr "Product Template"
+msgstr "产品模板"
 
 #. module: sale_stock
 #: field:sale.config.settings,group_mrp_properties:0
@@ -236,7 +236,7 @@ msgstr "重建交货单"
 #. module: sale_stock
 #: field:sale.order.line,route_id:0
 msgid "Route"
-msgstr "Route"
+msgstr "路线"
 
 #. module: sale_stock
 #: field:stock.picking,sale_id:0
@@ -307,7 +307,7 @@ msgstr "默认的开票方法"
 #. module: sale_stock
 #: view:stock.picking:sale_stock.view_picking_internal_search_inherit
 msgid "To Invoice"
-msgstr "To Invoice"
+msgstr "待开票"
 
 #. module: sale_stock
 #: help:sale.config.settings,group_invoice_deli_orders:0
@@ -351,7 +351,7 @@ msgstr "你选择了 %d 单位的数量。但它不兼容选定的包装。\n"
 #. module: sale_stock
 #: view:sale.order:sale_stock.view_order_form_inherit
 msgid "days"
-msgstr "天数"
+msgstr "天"
 
 #. module: sale_stock
 #: view:sale.order:sale_stock.view_order_form_inherit

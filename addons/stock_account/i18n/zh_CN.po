@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:24+0000\n"
-"PO-Revision-Date: 2015-04-19 15:24+0000\n"
+"POT-Creation-Date: 2015-04-20 10:49+0000\n"
+"PO-Revision-Date: 2015-04-20 10:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_tree
 msgid "# of Products"
-msgstr "# of Products"
+msgstr "# 产品"
 
 #. module: stock_account
 #: view:product.template:stock_account.view_template_property_form
@@ -33,12 +33,12 @@ msgstr "Account Stock Properties"
 #. module: stock_account
 #: view:stock.config.settings:stock_account.view_stock_config_settings_inherit
 msgid "Accounting"
-msgstr "Accounting"
+msgstr "会计"
 
 #. module: stock_account
 #: view:stock.location:stock_account.view_location_form_inherit
 msgid "Accounting Information"
-msgstr "Accounting Information"
+msgstr "会计信息"
 
 #. module: stock_account
 #: code:addons/stock_account/wizard/stock_change_standard_price.py:76
@@ -54,7 +54,7 @@ msgstr "Allows to configure inventory valuations on products and product categor
 #. module: stock_account
 #: selection:product.template,cost_method:0
 msgid "Average Price"
-msgstr "Average Price"
+msgstr "平均价格"
 
 #. module: stock_account
 #: field:stock.config.settings,module_stock_landed_costs:0
@@ -66,7 +66,7 @@ msgstr "Calculate landed costs on products"
 #: view:stock.invoice.onshipping:stock_account.view_stock_invoice_onshipping
 #: view:wizard.valuation.history:stock_account.view_wizard_valuation_history
 msgid "Cancel"
-msgstr "取消(&C)"
+msgstr "取消"
 
 #. module: stock_account
 #: view:stock.change.standard.price:stock_account.view_change_standard_price
@@ -126,7 +126,7 @@ msgstr "Costing Method"
 #. module: stock_account
 #: view:stock.invoice.onshipping:stock_account.view_stock_invoice_onshipping
 msgid "Create"
-msgstr "Create"
+msgstr "新建"
 
 #. module: stock_account
 #: selection:stock.invoice.onshipping,journal_type:0
@@ -170,7 +170,7 @@ msgstr "创建者"
 #: field:stock.invoice.onshipping,create_date:0
 #: field:wizard.valuation.history,create_date:0
 msgid "Created on"
-msgstr "创建时间"
+msgstr "创建于"
 
 #. module: stock_account
 #: model:ir.actions.act_window,name:stock_account.action_history_tree
@@ -209,7 +209,7 @@ msgstr "Generate accounting entries per stock movement"
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_search
 msgid "Group By"
-msgstr "分组"
+msgstr "分组于"
 
 #. module: stock_account
 #: field:stock.invoice.onshipping,group:0
@@ -244,7 +244,7 @@ msgstr "Install the module that allows to affect landed costs on pickings, and s
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_inventory
 msgid "Inventory"
-msgstr "盘点"
+msgstr "库存"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_location
@@ -267,18 +267,18 @@ msgstr "库存价值"
 #: field:stock.move,invoice_state:0
 #: field:stock.picking,invoice_state:0
 msgid "Invoice Control"
-msgstr "Invoice Control"
+msgstr "发票管理"
 
 #. module: stock_account
 #: field:stock.invoice.onshipping,invoice_date:0
 msgid "Invoice Date"
-msgstr "Invoice Date"
+msgstr "发票日期"
 
 #. module: stock_account
 #: field:procurement.rule,invoice_state:0
 #: field:stock.location.path,invoice_state:0
 msgid "Invoice Status"
-msgstr "Invoice Status"
+msgstr "发票状态"
 
 #. module: stock_account
 #: selection:procurement.order,invoice_state:0
@@ -287,12 +287,12 @@ msgstr "Invoice Status"
 #: selection:stock.move,invoice_state:0
 #: selection:stock.picking,invoice_state:0
 msgid "Invoiced"
-msgstr "Invoiced"
+msgstr "已开发票"
 
 #. module: stock_account
 #: field:stock.return.picking,invoice_state:0
 msgid "Invoicing"
-msgstr "Invoicing"
+msgstr "开票"
 
 #. module: stock_account
 #: field:stock.invoice.onshipping,journal_type:0
@@ -304,20 +304,20 @@ msgstr "Journal Type"
 #: field:stock.invoice.onshipping,write_uid:0
 #: field:wizard.valuation.history,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: stock_account
 #: field:stock.change.standard.price,write_date:0
 #: field:stock.invoice.onshipping,write_date:0
 #: field:wizard.valuation.history,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新时间"
+msgstr "最后更新"
 
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_search
 #: field:stock.history,location_id:0
 msgid "Location"
-msgstr "库位"
+msgstr "地点"
 
 #. module: stock_account
 #: model:res.groups,name:stock_account.group_inventory_valuation
@@ -327,7 +327,7 @@ msgstr "Manage Inventory Valuation and Costing Methods"
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_search
 msgid "Move"
-msgstr "调拨"
+msgstr "凭证"
 
 #. module: stock_account
 #: code:addons/stock_account/product.py:116
@@ -402,12 +402,12 @@ msgstr "价格"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_procurement_order
 msgid "Procurement"
-msgstr "需求单"
+msgstr "补货"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_procurement_rule
 msgid "Procurement Rule"
-msgstr "产品需求规则"
+msgstr "补货规则"
 
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_search
@@ -425,7 +425,7 @@ msgstr "产品分类"
 #. module: stock_account
 #: field:stock.history,quantity:0
 msgid "Product Quantity"
-msgstr "Product Quantity"
+msgstr "产品数量"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_product_template
@@ -480,12 +480,12 @@ msgstr "退货分拣"
 #. module: stock_account
 #: field:stock.history,source:0
 msgid "Source"
-msgstr "源"
+msgstr "原文"
 
 #. module: stock_account
 #: selection:product.template,cost_method:0
 msgid "Standard Price"
-msgstr "Standard Price"
+msgstr "成本价格"
 
 #. module: stock_account
 #: code:addons/stock_account/product.py:137
@@ -600,7 +600,7 @@ msgstr "Used for real-time inventory valuation. When set on a virtual location (
 #. module: stock_account
 #: field:stock.history,price_unit_on_quant:0
 msgid "Value"
-msgstr "Value"
+msgstr "值"
 
 #. module: stock_account
 #: code:addons/stock_account/wizard/stock_invoice_onshipping.py:82

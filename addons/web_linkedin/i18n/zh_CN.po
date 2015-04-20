@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:26+0000\n"
-"PO-Revision-Date: 2015-04-19 15:26+0000\n"
+"POT-Creation-Date: 2015-04-20 10:50+0000\n"
+"PO-Revision-Date: 2015-04-20 10:50+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -131,12 +131,12 @@ msgstr "找不到任何结果"
 #: code:addons/web_linkedin/static/src/js/linkedin.js:62
 #, python-format
 msgid "Ok"
-msgstr "确定"
+msgstr "Ok"
 
 #. module: web_linkedin
 #: model:ir.model,name:web_linkedin.model_res_partner
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: web_linkedin
 #. openerp-web
@@ -157,7 +157,7 @@ msgstr "请要求你的管理员进行一下配置：设置 > 设置 > 销售 > 
 #: code:addons/web_linkedin/static/src/xml/linkedin.xml:45
 #, python-format
 msgid "Search"
-msgstr "Search"
+msgstr "搜索"
 
 #. module: web_linkedin
 #. openerp-web
@@ -211,5 +211,5 @@ msgstr "please click here to logout"
 #. module: web_linkedin
 #: field:sale.config.settings,server_domain:0
 msgid "unknown"
-msgstr "未知"
+msgstr "未知的"
 

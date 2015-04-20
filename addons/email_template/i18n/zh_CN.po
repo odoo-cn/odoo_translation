@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:17+0000\n"
-"PO-Revision-Date: 2015-04-19 15:17+0000\n"
+"POT-Creation-Date: 2015-04-20 10:43+0000\n"
+"PO-Revision-Date: 2015-04-20 10:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,12 +19,12 @@ msgstr ""
 #: code:addons/email_template/email_template.py:365
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (副本)"
+msgstr "%s (copy)"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Add"
-msgstr "新增"
+msgstr "添加"
 
 #. module: email_template
 #: field:email.template,user_signature:0
@@ -35,7 +35,7 @@ msgstr "添加签名"
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Advanced Settings"
-msgstr "Advanced Settings"
+msgstr "高级设置"
 
 #. module: email_template
 #: field:email.template,model_id:0
@@ -124,7 +124,7 @@ msgstr "逗号分隔的收件人地址（可以在这里使用占位符）"
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Content"
-msgstr "Content"
+msgstr "内容"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -135,13 +135,13 @@ msgstr "Context Action"
 #: field:email.template,create_uid:0
 #: field:email_template.preview,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: email_template
 #: field:email.template,create_date:0
 #: field:email_template.preview,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: email_template
 #: field:email.template,null_value:0
@@ -169,7 +169,7 @@ msgstr "Default recipients of the record:\n"
 #: code:addons/email_template/email_template.py:355
 #, python-format
 msgid "Deletion of the action record failed."
-msgstr "删除动作记录失败"
+msgstr "Deletion of the action record failed."
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -214,7 +214,7 @@ msgstr "电子邮件模板"
 #. module: email_template
 #: model:ir.model,name:email_template.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr "邮件向导"
+msgstr "Email撰写向导"
 
 #. module: email_template
 #: field:email.template,model_object_field:0
@@ -233,7 +233,7 @@ msgstr "生成的占位符表达式，可以复制粘贴到目标模版字段"
 #: field:email_template.preview,email_from:0
 #: field:ir.actions.server,email_from:0
 msgid "From"
-msgstr "发件人"
+msgstr "从"
 
 #. module: email_template
 #: view:email.template:email_template.view_email_template_search
@@ -267,13 +267,13 @@ msgstr "语言"
 #: field:email.template,write_uid:0
 #: field:email_template.preview,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: email_template
 #: field:email.template,write_date:0
 #: field:email_template.preview,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: email_template
 #: view:email.template:email_template.view_email_template_search
@@ -297,7 +297,7 @@ msgstr "用于生成报表文件的名称（可以包含占位符）\n"
 #. module: email_template
 #: field:res.partner,opt_out:0
 msgid "Opt-Out"
-msgstr "Opt-Out"
+msgstr "不参与（自动订阅邮件）"
 
 #. module: email_template
 #: help:email.template,mail_server_id:0
@@ -337,7 +337,7 @@ msgstr "Override author's email"
 #. module: email_template
 #: model:ir.model,name:email_template.model_res_partner
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: email_template
 #: view:res.partner:email_template.res_partner_opt_out_search
@@ -385,7 +385,7 @@ msgstr "的预览"
 #. module: email_template
 #: field:email_template.preview,partner_ids:0
 msgid "Recipients"
-msgstr "Recipients"
+msgstr "收件人"
 
 #. module: email_template
 #: field:email.template,model:0
@@ -573,7 +573,7 @@ msgstr "使用模版"
 #: code:addons/email_template/email_template.py:355
 #, python-format
 msgid "Warning"
-msgstr "警告"
+msgstr "Warning"
 
 #. module: email_template
 #: code:addons/email_template/email_template.py:551

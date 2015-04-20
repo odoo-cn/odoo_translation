@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:22+0000\n"
-"PO-Revision-Date: 2015-04-19 15:22+0000\n"
+"POT-Creation-Date: 2015-04-20 10:47+0000\n"
+"PO-Revision-Date: 2015-04-20 10:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,7 +20,7 @@ msgstr ""
 #: code:addons/pos_discount/static/src/xml/discount.xml:5
 #, python-format
 msgid "Discount"
-msgstr "Discount"
+msgstr "折扣"
 
 #. module: pos_discount
 #: field:pos.config,discount_pc:0
@@ -35,7 +35,7 @@ msgstr "Discount Product"
 #. module: pos_discount
 #: view:pos.config:pos_discount.view_pos_config_form
 msgid "Discounts"
-msgstr "Discounts"
+msgstr "折扣"
 
 #. module: pos_discount
 #: help:pos.config,discount_pc:0

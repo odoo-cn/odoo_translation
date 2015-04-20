@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:24+0000\n"
-"PO-Revision-Date: 2015-04-19 15:24+0000\n"
+"POT-Creation-Date: 2015-04-20 10:49+0000\n"
+"PO-Revision-Date: 2015-04-20 10:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -96,12 +96,12 @@ msgstr "一个可选的个人信息，被包含在电子邮件通知。"
 #. module: share
 #: selection:share.wizard,access_mode:0
 msgid "Can edit"
-msgstr "能编辑"
+msgstr "可编辑"
 
 #. module: share
 #: selection:share.wizard,access_mode:0
 msgid "Can view"
-msgstr "能查看"
+msgstr "可查看"
 
 #. module: share
 #: view:share.wizard:share.share_step0_form
@@ -112,12 +112,12 @@ msgstr "取消"
 #. module: share
 #: view:share.wizard:share.share_step2_form
 msgid "Close"
-msgstr "结束"
+msgstr "关闭"
 
 #. module: share
 #: field:share.wizard,embed_code:0
 msgid "Code"
-msgstr "代码"
+msgstr "编码"
 
 #. module: share
 #: view:share.wizard:share.share_step1_form
@@ -134,13 +134,13 @@ msgstr "共享的复制访问"
 #: field:share.wizard,create_uid:0
 #: field:share.wizard.result.line,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: share
 #: field:share.wizard,create_date:0
 #: field:share.wizard.result.line,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: share
 #: field:share.wizard,view_type:0
@@ -187,7 +187,7 @@ msgstr "Email Required"
 #: field:share.wizard,new_users:0
 #, python-format
 msgid "Emails"
-msgstr "Emails"
+msgstr "电子邮件"
 
 #. module: share
 #. openerp-web
@@ -292,18 +292,18 @@ msgstr "Invite users to OpenSocial record"
 #: field:share.wizard,write_uid:0
 #: field:share.wizard.result.line,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: share
 #: field:share.wizard,write_date:0
 #: field:share.wizard.result.line,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: share
 #: field:share.wizard.result.line,login:0
 msgid "Login"
-msgstr "Login"
+msgstr "用户名"
 
 #. module: share
 #: help:share.wizard,share_root_url:0
@@ -523,7 +523,7 @@ msgstr "对不起，你当前的视图和过滤器试图访问当前不支持到
 #: view:share.wizard:share.share_step2_form
 #: field:share.wizard,result_line_ids:0
 msgid "Summary"
-msgstr "简述"
+msgstr "摘要"
 
 #. module: share
 #: help:share.wizard,action_id:0
@@ -644,7 +644,7 @@ msgstr "或"
 #. module: share
 #: field:share.wizard.result.line,user_id:0
 msgid "unknown"
-msgstr "未知"
+msgstr "未知的"
 
 #. module: share
 #: view:res.groups:share.view_groups_form_share

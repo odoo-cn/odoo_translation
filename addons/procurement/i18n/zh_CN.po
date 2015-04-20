@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:22+0000\n"
-"PO-Revision-Date: 2015-04-19 15:22+0000\n"
+"POT-Creation-Date: 2015-04-20 10:47+0000\n"
+"PO-Revision-Date: 2015-04-20 10:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -82,22 +82,22 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: procurement
 #: field:procurement.rule,action:0
 msgid "Action"
-msgstr "Action"
+msgstr "动作"
 
 #. module: procurement
 #: field:procurement.rule,active:0
 msgid "Active"
-msgstr "生效"
+msgstr "有效"
 
 #. module: procurement
 #: selection:procurement.group,move_type:0
 msgid "All at once"
-msgstr "All at once"
+msgstr "一次性全部"
 
 #. module: procurement
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "Cancel"
-msgstr "取消(&C)"
+msgstr "取消"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
@@ -152,7 +152,7 @@ msgstr "已确认"
 #: field:procurement.order.compute.all,create_uid:0
 #: field:procurement.rule,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: procurement
 #: field:procurement.group,create_date:0
@@ -160,27 +160,27 @@ msgstr "Created by"
 #: field:procurement.order.compute.all,create_date:0
 #: field:procurement.rule,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: procurement
 #: help:procurement.order,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: procurement
 #: field:procurement.group,move_type:0
 msgid "Delivery Method"
-msgstr "Delivery Method"
+msgstr "交货方式"
 
 #. module: procurement
 #: field:procurement.order,name:0
 msgid "Description"
-msgstr "描述"
+msgstr "说明"
 
 #. module: procurement
 #: selection:procurement.order,state:0
 msgid "Done"
-msgstr "已完成"
+msgstr "完成"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -205,7 +205,7 @@ msgstr "额外信息"
 #. module: procurement
 #: selection:procurement.rule,group_propagation_option:0
 msgid "Fixed"
-msgstr "Fixed"
+msgstr "固定"
 
 #. module: procurement
 #: field:procurement.rule,group_id:0
@@ -225,7 +225,7 @@ msgstr "一般信息"
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
 msgid "Group By"
-msgstr "分组"
+msgstr "分组于"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.do_view_procurements
@@ -236,7 +236,7 @@ msgstr "同组的补货"
 #. module: procurement
 #: help:procurement.order,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: procurement
 #: field:procurement.group,id:0
@@ -249,7 +249,7 @@ msgstr "ID"
 #. module: procurement
 #: help:procurement.order,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果勾选此项，有新消息会提醒你"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: procurement
 #: help:procurement.rule,active:0
@@ -260,7 +260,7 @@ msgstr "If unchecked, it will allow you to hide the rule without removing it."
 #: code:addons/procurement/procurement.py:155
 #, python-format
 msgid "Invalid Action!"
-msgstr "非法的动作"
+msgstr "Invalid Action!"
 
 #. module: procurement
 #: field:procurement.order,message_is_follower:0
@@ -270,7 +270,7 @@ msgstr "是一个关注者"
 #. module: procurement
 #: field:procurement.order,message_last_post:0
 msgid "Last Message Date"
-msgstr "最新消息日期"
+msgstr "最后信息日期"
 
 #. module: procurement
 #: field:procurement.group,write_uid:0
@@ -278,7 +278,7 @@ msgstr "最新消息日期"
 #: field:procurement.order.compute.all,write_uid:0
 #: field:procurement.rule,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: procurement
 #: field:procurement.group,write_date:0
@@ -286,7 +286,7 @@ msgstr "最近更新者"
 #: field:procurement.order.compute.all,write_date:0
 #: field:procurement.rule,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新时间"
+msgstr "最后更新"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
@@ -327,12 +327,12 @@ msgstr "没有规则匹配到此补货"
 #. module: procurement
 #: selection:procurement.order,priority:0
 msgid "Normal"
-msgstr "一般"
+msgstr "普通"
 
 #. module: procurement
 #: selection:procurement.order,priority:0
 msgid "Not urgent"
-msgstr "非紧急"
+msgstr "不紧急"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
@@ -342,19 +342,19 @@ msgstr "备注"
 #. module: procurement
 #: selection:procurement.group,move_type:0
 msgid "Partial"
-msgstr "Partial"
+msgstr "部分"
 
 #. module: procurement
 #: field:procurement.order,priority:0
 msgid "Priority"
-msgstr "优先级"
+msgstr "优先级(0=紧急)"
 
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_order
 #: view:procurement.order:procurement.procurement_form_view
 #: view:procurement.order:procurement.view_procurement_filter
 msgid "Procurement"
-msgstr "需求单"
+msgstr "补货"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.procurement_action5
@@ -365,7 +365,7 @@ msgstr "补货异常"
 #. module: procurement
 #: field:procurement.order,group_id:0
 msgid "Procurement Group"
-msgstr "Procurement Group"
+msgstr "补货组"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_tree_view
@@ -385,7 +385,7 @@ msgstr "补货申请"
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_rule
 msgid "Procurement Rule"
-msgstr "产品需求规则"
+msgstr "补货规则"
 
 #. module: procurement
 #: view:procurement.group:procurement.procurement_group_form_view
@@ -458,7 +458,7 @@ msgstr "再次确认补货"
 #. module: procurement
 #: field:procurement.group,name:0
 msgid "Reference"
-msgstr "Reference"
+msgstr "参考"
 
 #. module: procurement
 #: help:procurement.order,origin:0
@@ -470,7 +470,7 @@ msgstr "Reference of the document that created this Procurement.\n"
 #. module: procurement
 #: field:procurement.order,rule_id:0
 msgid "Rule"
-msgstr "Rule"
+msgstr "规则"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
@@ -486,12 +486,12 @@ msgstr "运行排程"
 #. module: procurement
 #: selection:procurement.order,state:0
 msgid "Running"
-msgstr "正在处理"
+msgstr "进行中"
 
 #. module: procurement
 #: field:procurement.order,date_planned:0
 msgid "Scheduled Date"
-msgstr "计划日期"
+msgstr "预定日期"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
@@ -516,7 +516,7 @@ msgstr "搜索补货"
 #. module: procurement
 #: field:procurement.rule,sequence:0
 msgid "Sequence"
-msgstr "Sequence"
+msgstr "序列"
 
 #. module: procurement
 #: field:procurement.order,origin:0
@@ -547,7 +547,7 @@ msgstr "计量单位"
 #. module: procurement
 #: field:procurement.order,message_unread:0
 msgid "Unread Messages"
-msgstr "未读信息"
+msgstr "未读消息"
 
 #. module: procurement
 #: field:procurement.order,product_uos_qty:0
@@ -557,7 +557,7 @@ msgstr "销售单位数量"
 #. module: procurement
 #: selection:procurement.order,priority:0
 msgid "Urgent"
-msgstr "紧急的"
+msgstr "紧急"
 
 #. module: procurement
 #: selection:procurement.order,priority:0

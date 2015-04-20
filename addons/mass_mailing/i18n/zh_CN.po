@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:20+0000\n"
-"PO-Revision-Date: 2015-04-19 15:20+0000\n"
+"POT-Creation-Date: 2015-04-20 10:45+0000\n"
+"PO-Revision-Date: 2015-04-20 10:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -96,18 +96,18 @@ msgstr "Add a Newsletter Subscribe Button"
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Attach a file"
-msgstr "Attach a file"
+msgstr "附加文件"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,attachment_ids:0
 msgid "Attachments"
-msgstr "Attachments"
+msgstr "附件"
 
 #. module: mass_mailing
 #: view:email.template:mass_mailing.email_template_form_minimal
 #: field:mail.mass_mailing,body_html:0
 msgid "Body"
-msgstr "Body"
+msgstr "内容"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,bounced:0
@@ -121,7 +121,7 @@ msgstr "Bounced"
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
 msgid "Campaign"
-msgstr "Campaign"
+msgstr "营销活动"
 
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.menu_view_mass_mailing_stages
@@ -137,12 +137,12 @@ msgstr "营销活动"
 #. module: mass_mailing
 #: view:mail.mass_mailing.test:mass_mailing.view_mail_mass_mailing_test_form
 msgid "Cancel"
-msgstr "Cancel"
+msgstr "取消"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.campaign,category_ids:0
 msgid "Categories"
-msgstr "Categories"
+msgstr "分类"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
@@ -163,7 +163,7 @@ msgstr "Click to design your email."
 #: field:mail.mass_mailing,color:0
 #: field:mail.mass_mailing.campaign,color:0
 msgid "Color Index"
-msgstr "Color Index"
+msgstr "颜色索引"
 
 #. module: mass_mailing
 #: help:mail.mass_mailing.test,email_to:0
@@ -188,12 +188,12 @@ msgstr "Contact Lists"
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.menu_email_mass_mailing_contacts
 msgid "Contacts"
-msgstr "Contacts"
+msgstr "联系人"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,create_date:0
 msgid "Create Date"
-msgstr "Create Date"
+msgstr "创建日期"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,create_uid:0
@@ -221,7 +221,7 @@ msgstr "创建于"
 #: field:mail.mass_mailing,create_date:0
 #: view:mail.mass_mailing.contact:mass_mailing.view_mail_mass_mailing_contact_search
 msgid "Creation Date"
-msgstr "Creation Date"
+msgstr "创建日期"
 
 #. module: mass_mailing
 #: help:mail.mail.statistics,exception:0
@@ -231,7 +231,7 @@ msgstr "Date of technical error leading to the email not being sent"
 #. module: mass_mailing
 #: help:mail.mass_mailing.contact,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: mass_mailing
 #: help:mail.mail.statistics,scheduled:0
@@ -263,19 +263,19 @@ msgstr "Date when this email has bounced."
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_kanban
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_kanban
 msgid "Delete"
-msgstr "Delete"
+msgstr "删除"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,delivered:0
 #: field:mail.mass_mailing.campaign,delivered:0
 #: field:mail.statistics.report,delivered:0
 msgid "Delivered"
-msgstr "Delivered"
+msgstr "已送货"
 
 #. module: mass_mailing
 #: model:mail.mass_mailing.stage,name:mass_mailing.campaign_stage_2
 msgid "Design"
-msgstr "Design"
+msgstr "设计"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
@@ -290,28 +290,28 @@ msgstr "Document ID"
 #. module: mass_mailing
 #: field:mail.mail.statistics,model:0
 msgid "Document model"
-msgstr "Document model"
+msgstr "文档模型"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,mailing_domain:0
 msgid "Domain"
-msgstr "Domain"
+msgstr "过滤条件"
 
 #. module: mass_mailing
 #: selection:mail.mass_mailing,state:0
 #: selection:mail.statistics.report,state:0
 msgid "Draft"
-msgstr "Draft"
+msgstr "草稿"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_form
 msgid "Duplicate"
-msgstr "Duplicate"
+msgstr "复制"
 
 #. module: mass_mailing
 #: view:email.template:mass_mailing.view_email_template_kanban
 msgid "Edit"
-msgstr "Edit"
+msgstr "编辑"
 
 #. module: mass_mailing
 #: view:email.template:mass_mailing.email_template_form_minimal
@@ -321,7 +321,7 @@ msgstr "Edit Template"
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,email:0
 msgid "Email"
-msgstr "Email"
+msgstr "电子邮件"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mail_statistics
@@ -336,12 +336,12 @@ msgstr "Email Thread"
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr "邮件向导"
+msgstr "Email撰写向导"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Emails"
-msgstr "Emails"
+msgstr "电子邮件"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,statistics_ids:0
@@ -351,7 +351,7 @@ msgstr "Emails Statistics"
 #. module: mass_mailing
 #: field:mail.mail.statistics,exception:0
 msgid "Exception"
-msgstr "Exception"
+msgstr "异常"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing.contact:mass_mailing.view_mail_mass_mailing_contact_search
@@ -361,41 +361,41 @@ msgstr "Exclude Opt Out"
 #. module: mass_mailing
 #: view:mail.statistics.report:mass_mailing.view_mail_statistics_report_search
 msgid "Extended Filters..."
-msgstr "Extended Filters..."
+msgstr "增加筛选条件"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,failed:0
 #: field:mail.mass_mailing.campaign,failed:0
 msgid "Failed"
-msgstr "Failed"
+msgstr "失败的"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,message_follower_ids:0
 msgid "Followers"
-msgstr "Followers"
+msgstr "关注者"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,email_from:0
 #: field:mail.statistics.report,email_from:0
 msgid "From"
-msgstr "From"
+msgstr "从"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_search
 #: view:mail.mass_mailing.contact:mass_mailing.view_mail_mass_mailing_contact_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: mass_mailing
 #: view:mail.statistics.report:mass_mailing.view_mail_statistics_report_search
 msgid "Group By..."
-msgstr "Group By..."
+msgstr "分组..."
 
 #. module: mass_mailing
 #: help:mail.mass_mailing.contact,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,id:0
@@ -418,7 +418,7 @@ msgstr "ID of the related mail_mail. This field is an integer field becausethe r
 #. module: mass_mailing
 #: help:mail.mass_mailing.contact,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: mass_mailing
 #: help:mail.mass_mailing.campaign,unique_ab_testing:0
@@ -433,12 +433,12 @@ msgstr "In Document"
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Is a Follower"
+msgstr "是一个关注者"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,write_uid:0
@@ -450,7 +450,7 @@ msgstr "Last Message Date"
 #: field:mail.mass_mailing.stage,write_uid:0
 #: field:mail.mass_mailing.test,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,write_date:0
@@ -462,7 +462,7 @@ msgstr "最近更新者"
 #: field:mail.mass_mailing.stage,write_date:0
 #: field:mail.mass_mailing.test,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新于"
+msgstr "最后更新"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,mail_mail_id:0
@@ -472,7 +472,7 @@ msgstr "Mail"
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Mail Body"
-msgstr "Mail Body"
+msgstr "邮件内容"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,mail_mail_id_int:0
@@ -540,7 +540,7 @@ msgstr "Mailing Test"
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_kanban
 msgid "Mailings"
-msgstr "Mailings"
+msgstr "邮件"
 
 #. module: mass_mailing
 #: model:res.groups,name:mass_mailing.group_mass_mailing_campaign
@@ -654,12 +654,12 @@ msgstr "Message-ID"
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,message_ids:0
 msgid "Messages"
-msgstr "Messages"
+msgstr "消息"
 
 #. module: mass_mailing
 #: help:mail.mass_mailing.contact,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "消息和通信历史"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.campaign,name:0
@@ -667,7 +667,7 @@ msgstr "Messages and communication history"
 #: field:mail.mass_mailing.contact,name:0
 #: field:mail.mass_mailing.stage,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "名称"
 
 #. module: mass_mailing
 #. openerp-web
@@ -675,7 +675,7 @@ msgstr "Name"
 #: view:website:website.snippets
 #, python-format
 msgid "Newsletter"
-msgstr "Newsletter"
+msgstr "时事通信"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.list,contact_nbr:0
@@ -704,7 +704,7 @@ msgstr "Open with Visual Editor"
 #: field:mail.mass_mailing.campaign,opened:0
 #: field:mail.statistics.report,opened:0
 msgid "Opened"
-msgstr "Opened"
+msgstr "已开启"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
@@ -725,7 +725,7 @@ msgstr "Opt Out"
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Options"
-msgstr "Options"
+msgstr "选项"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mail
@@ -751,13 +751,13 @@ msgstr "预览"
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_form
 msgid "Received"
-msgstr "Received"
+msgstr "已接收"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,received_ratio:0
 #: field:mail.mass_mailing.campaign,received_ratio:0
 msgid "Received Ratio"
-msgstr "Received Ratio"
+msgstr "已接收比例"
 
 #. module: mass_mailing
 #: model:ir.actions.act_window,name:mass_mailing.action_view_mass_mailing_contacts_from_list
@@ -765,7 +765,7 @@ msgstr "Received Ratio"
 #: view:mail.mass_mailing.list:mass_mailing.view_mail_mass_mailing_list_form
 #: field:mail.mass_mailing.test,email_to:0
 msgid "Recipients"
-msgstr "Recipients"
+msgstr "收件人"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,mailing_model:0
@@ -815,7 +815,7 @@ msgstr "Reply-To Mode"
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_search
 #: field:mail.mass_mailing.campaign,user_id:0
 msgid "Responsible"
-msgstr "Responsible"
+msgstr "负责人"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mass_mailing_test
@@ -832,12 +832,12 @@ msgstr "Schedule"
 #: field:mail.mass_mailing,scheduled:0
 #: field:mail.mass_mailing.campaign,scheduled:0
 msgid "Scheduled"
-msgstr "Scheduled"
+msgstr "排程"
 
 #. module: mass_mailing
 #: field:mail.statistics.report,scheduled_date:0
 msgid "Scheduled Date"
-msgstr "Scheduled Date"
+msgstr "预定日期"
 
 #. module: mass_mailing
 #: view:mail.statistics.report:mass_mailing.view_mail_statistics_report_search
@@ -887,7 +887,7 @@ msgstr "Send to All"
 #: field:mail.statistics.report,sent:0
 #: selection:mail.statistics.report,state:0
 msgid "Sent"
-msgstr "Sent"
+msgstr "已发送"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
@@ -913,12 +913,12 @@ msgstr "Sent Month"
 #. module: mass_mailing
 #: field:mail.mass_mailing.stage,sequence:0
 msgid "Sequence"
-msgstr "Sequence"
+msgstr "序列"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_kanban
 msgid "Settings"
-msgstr "Settings"
+msgstr "设置"
 
 #. module: mass_mailing
 #: selection:mail.mass_mailing,reply_to_mode:0
@@ -929,39 +929,39 @@ msgstr "Specified Email Address"
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_search
 #: field:mail.mass_mailing.campaign,stage_id:0
 msgid "Stage"
-msgstr "Stage"
+msgstr "阶段"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
 #: view:mail.statistics.report:mass_mailing.view_mail_statistics_report_search
 msgid "State"
-msgstr "State"
+msgstr "省"
 
 #. module: mass_mailing
 #: field:mail.mail,statistics_ids:0
 msgid "Statistics"
-msgstr "Statistics"
+msgstr "统计"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,state:0
 #: field:mail.statistics.report,state:0
 msgid "Status"
-msgstr "Status"
+msgstr "状态"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,name:0
 msgid "Subject"
-msgstr "Subject"
+msgstr "主题"
 
 #. module: mass_mailing
 #: view:website:website.snippets
 msgid "Subscribe"
-msgstr "Subscribe"
+msgstr "订阅"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,message_summary:0
 msgid "Summary"
-msgstr "Summary"
+msgstr "摘要"
 
 #. module: mass_mailing
 #: view:email.template:mass_mailing.email_template_form_minimal
@@ -1008,22 +1008,22 @@ msgstr "This option is not available for the recipients you selected.\n"
 #: field:mail.mass_mailing,total:0
 #: field:mail.mass_mailing.campaign,total:0
 msgid "Total"
-msgstr "Total"
+msgstr "合计"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,message_unread:0
 msgid "Unread Messages"
-msgstr "Unread Messages"
+msgstr "未读消息"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
 #. module: mass_mailing
 #: help:mail.mass_mailing.contact,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
@@ -1033,7 +1033,7 @@ msgstr "emails are in queue and will be sent soon."
 #. module: mass_mailing
 #: view:mail.mass_mailing.test:mass_mailing.view_mail_mass_mailing_test_form
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: mass_mailing
 #: view:website:website.snippets

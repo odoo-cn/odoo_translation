@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:21+0000\n"
-"PO-Revision-Date: 2015-04-19 15:21+0000\n"
+"POT-Creation-Date: 2015-04-20 10:46+0000\n"
+"PO-Revision-Date: 2015-04-20 10:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr "有效"
 #. module: note
 #: view:note.note:note.view_note_note_filter
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: note
 #: view:note.note:note.view_note_note_filter
@@ -66,14 +66,14 @@ msgstr "颜色索引"
 #: field:note.stage,create_uid:0
 #: field:note.tag,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: note
 #: field:note.note,create_date:0
 #: field:note.stage,create_date:0
 #: field:note.tag,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: note
 #: field:note.note,date_done:0
@@ -83,12 +83,12 @@ msgstr "完成日期"
 #. module: note
 #: help:note.note,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: note
 #: view:note.note:note.view_note_note_kanban
 msgid "Delete"
-msgstr "刪除"
+msgstr "删除"
 
 #. module: note
 #: field:note.stage,fold:0
@@ -103,12 +103,12 @@ msgstr "关注者"
 #. module: note
 #: view:note.note:note.view_note_note_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: note
 #: help:note.note,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: note
 #: field:note.note,id:0
@@ -120,7 +120,7 @@ msgstr "ID"
 #. module: note
 #: help:note.note,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: note
 #: field:note.note,message_is_follower:0
@@ -130,21 +130,21 @@ msgstr "是一个关注者"
 #. module: note
 #: field:note.note,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: note
 #: field:note.note,write_uid:0
 #: field:note.stage,write_uid:0
 #: field:note.tag,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: note
 #: field:note.note,write_date:0
 #: field:note.stage,write_date:0
 #: field:note.tag,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: note
 #: model:note.stage,name:note.note_stage_03
@@ -164,14 +164,14 @@ msgstr "消息和通信历史"
 #. module: note
 #: model:note.stage,name:note.note_stage_00
 msgid "New"
-msgstr "新增"
+msgstr "新建"
 
 #. module: note
 #: model:ir.model,name:note.model_note_note
 #: view:note.note:note.view_note_note_filter
 #: view:note.note:note.view_note_note_form
 msgid "Note"
-msgstr "便笺"
+msgstr "备注"
 
 #. module: note
 #: field:note.note,memo:0
@@ -200,7 +200,7 @@ msgstr "便签标签"
 #: view:note.note:note.view_note_note_filter
 #: model:note.stage,name:note.note_stage_04
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: note
 #: model:res.groups,name:note.group_note_fancy
@@ -211,7 +211,7 @@ msgstr "便签/拟物化 模式"
 #: field:note.note,user_id:0
 #: field:note.stage,user_id:0
 msgid "Owner"
-msgstr "承办人"
+msgstr "所有者"
 
 #. module: note
 #: help:note.stage,user_id:0
@@ -222,7 +222,7 @@ msgstr "便签阶段的所有者"
 #: field:note.note,sequence:0
 #: field:note.stage,sequence:0
 msgid "Sequence"
-msgstr "序号"
+msgstr "序列"
 
 #. module: note
 #: view:note.note:note.view_note_note_filter
@@ -286,7 +286,7 @@ msgstr "今天"
 #. module: note
 #: field:note.note,message_unread:0
 msgid "Unread Messages"
-msgstr "未读信息"
+msgstr "未读消息"
 
 #. module: note
 #: field:base.config.settings,module_note_pad:0

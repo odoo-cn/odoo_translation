@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:17+0000\n"
-"PO-Revision-Date: 2015-04-19 15:17+0000\n"
+"POT-Creation-Date: 2015-04-20 10:43+0000\n"
+"PO-Revision-Date: 2015-04-20 10:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: fetchmail
 #: view:fetchmail.server:fetchmail.view_email_server_tree
 msgid "# of emails"
-msgstr "电子邮件数量"
+msgstr "# 电子邮件"
 
 #. module: fetchmail
 #: view:fetchmail.server:fetchmail.view_email_server_form
@@ -28,7 +28,7 @@ msgstr "对收到的邮件可执行的动作"
 #. module: fetchmail
 #: field:fetchmail.server,active:0
 msgid "Active"
-msgstr "生效"
+msgstr "有效"
 
 #. module: fetchmail
 #: view:fetchmail.server:fetchmail.view_email_server_form
@@ -44,7 +44,7 @@ msgstr "高级选项"
 #: view:fetchmail.server:fetchmail.view_email_server_form
 #: field:fetchmail.server,configuration:0
 msgid "Configuration"
-msgstr "配置"
+msgstr "设置"
 
 #. module: fetchmail
 #: view:base.config.settings:fetchmail.inherit_view_general_configuration
@@ -76,13 +76,13 @@ msgstr "创建新记录"
 #: field:fetchmail.config.settings,create_uid:0
 #: field:fetchmail.server,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: fetchmail
 #: field:fetchmail.config.settings,create_date:0
 #: field:fetchmail.server,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: fetchmail
 #: help:fetchmail.server,priority:0
@@ -164,13 +164,13 @@ msgstr "上次接收日期"
 #: field:fetchmail.config.settings,write_uid:0
 #: field:fetchmail.server,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: fetchmail
 #: field:fetchmail.config.settings,write_date:0
 #: field:fetchmail.server,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: fetchmail
 #: selection:fetchmail.server,type:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:28+0000\n"
-"PO-Revision-Date: 2015-04-19 15:28+0000\n"
+"POT-Creation-Date: 2015-04-20 10:52+0000\n"
+"PO-Revision-Date: 2015-04-20 10:52+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: view:website:website_sale.cart
 #: view:website:website_sale.products_item
 msgid "&nbsp;"
-msgstr "&nbsp;"
+msgstr "不能有空格"
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -143,7 +143,7 @@ msgstr "Checkout"
 #. module: website_sale
 #: field:product.public.category,child_id:0
 msgid "Children Categories"
-msgstr "Children Categories"
+msgstr "儿童分类"
 
 #. module: website_sale
 #. openerp-web
@@ -155,7 +155,7 @@ msgstr "Choose name"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "City"
-msgstr "City"
+msgstr "城市"
 
 #. module: website_sale
 #. openerp-web
@@ -202,17 +202,17 @@ msgstr "Close Tutorial"
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Color"
-msgstr "Color"
+msgstr "色彩"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Company Name"
-msgstr "Company Name"
+msgstr "公司名称"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Confirm"
-msgstr "Confirm"
+msgstr "确认"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -225,7 +225,7 @@ msgstr "Confirmation"
 #. module: website_sale
 #: view:website:website_sale.confirmation
 msgid "Confirmed"
-msgstr "Confirmed"
+msgstr "已确认"
 
 #. module: website_sale
 #. openerp-web
@@ -257,7 +257,7 @@ msgstr "Continue Shopping"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Country"
-msgstr "Country"
+msgstr "国家"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -367,7 +367,7 @@ msgstr "Enter a name for your new product then click 'Continue'."
 #. module: website_sale
 #: constraint:product.public.category:0
 msgid "Error ! You cannot create recursive categories."
-msgstr "Error ! You cannot create recursive categories."
+msgstr "错误！您不能创建循环分类。"
 
 #. module: website_sale
 #: view:website:website_sale.product
@@ -377,7 +377,7 @@ msgstr "Free Shipping in U.S."
 #. module: website_sale
 #: help:product.public.category,sequence:0
 msgid "Gives the sequence order when displaying a list of product categories."
-msgstr "Gives the sequence order when displaying a list of product categories."
+msgstr "显示产品类别列表的顺序号"
 
 #. module: website_sale
 #: field:product.style,html_class:0
@@ -413,7 +413,7 @@ msgstr "ID"
 #. module: website_sale
 #: field:product.public.category,image:0
 msgid "Image"
-msgstr "Image"
+msgstr "图像"
 
 #. module: website_sale
 #. openerp-web
@@ -426,13 +426,13 @@ msgstr "Insert blocks like text-image, or gallery to fully describe the product.
 #: field:product.public.category,write_uid:0
 #: field:product.style,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: website_sale
 #: field:product.public.category,write_date:0
 #: field:product.style,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: website_sale
 #. openerp-web
@@ -444,7 +444,7 @@ msgstr "Let's select this image."
 #. module: website_sale
 #: field:product.public.category,image_medium:0
 msgid "Medium-sized image"
-msgstr "Medium-sized image"
+msgstr "中等尺寸图片"
 
 #. module: website_sale
 #: help:product.public.category,image_medium:0
@@ -498,12 +498,12 @@ msgstr "Once you click on save, your product is updated."
 #. module: website_sale
 #: view:website:website_sale.products
 msgid "Options"
-msgstr "Options"
+msgstr "选项"
 
 #. module: website_sale
 #: view:website:website_sale.confirmation
 msgid "Order"
-msgstr "订单"
+msgstr "付款单"
 
 #. module: website_sale
 #: field:sale.order,website_order_line:0
@@ -518,12 +518,12 @@ msgstr "Order Lines to be displayed on the website. They should not be used for 
 #. module: website_sale
 #: model:product.public.category,name:website_sale.categ_others
 msgid "Others"
-msgstr "Others"
+msgstr "其它"
 
 #. module: website_sale
 #: field:product.public.category,parent_id:0
 msgid "Parent Category"
-msgstr "Parent Category"
+msgstr "上级分类"
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:658
@@ -558,7 +558,7 @@ msgstr "Payment Transaction"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Phone"
-msgstr "Phone"
+msgstr "电话"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -568,7 +568,7 @@ msgstr "Policies"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Post"
-msgstr "Post"
+msgstr "登帐"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -601,7 +601,7 @@ msgstr "产品属性"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Product Name"
-msgstr "Product Name"
+msgstr "产品名称"
 
 #. module: website_sale
 #: view:product.public.category:website_sale.product_public_category_tree_view
@@ -715,12 +715,12 @@ msgstr "Review Order"
 #. module: website_sale
 #: view:website:website_sale.products_item
 msgid "Sale"
-msgstr "Sale"
+msgstr "销售"
 
 #. module: website_sale
 #: field:payment.transaction,sale_order_id:0
 msgid "Sale Order"
-msgstr "Sale Order"
+msgstr "销售订单"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_sale_order
@@ -754,7 +754,7 @@ msgstr "Secure Payment"
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Select"
-msgstr "Select"
+msgstr "选择"
 
 #. module: website_sale
 #. openerp-web
@@ -774,7 +774,7 @@ msgstr "Select an Image"
 #: field:product.public.category,sequence:0
 #: field:product.template,website_sequence:0
 msgid "Sequence"
-msgstr "Sequence"
+msgstr "序列"
 
 #. module: website_sale
 #: view:website:website_sale.confirmation
@@ -792,7 +792,7 @@ msgstr "Ship to the same address"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Shipping"
-msgstr "Shipping"
+msgstr "发货"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -836,12 +836,12 @@ msgstr "Shopping Cart"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Sign in"
-msgstr "Sign in"
+msgstr "签入"
 
 #. module: website_sale
 #: view:website:website_sale.products
 msgid "Size"
-msgstr "Size"
+msgstr "大小"
 
 #. module: website_sale
 #: field:product.template,website_size_x:0
@@ -895,7 +895,7 @@ msgstr "State / Province..."
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Street"
-msgstr "Street"
+msgstr "街道"
 
 #. module: website_sale
 #: field:product.style,name:0
@@ -911,7 +911,7 @@ msgstr "Styles"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Subtotal:"
-msgstr "Subtotal:"
+msgstr "小计:"
 
 #. module: website_sale
 #: view:website:website_sale.product
@@ -932,7 +932,7 @@ msgstr "Taxes may be updated after providing shipping address"
 #: view:website:website_sale.checkout
 #: view:website:website_sale.total
 msgid "Taxes:"
-msgstr "Taxes:"
+msgstr "税:"
 
 #. module: website_sale
 #: view:website:website_sale.confirmation
@@ -982,12 +982,12 @@ msgstr "合计："
 #. module: website_sale
 #: field:sale.order,payment_tx_id:0
 msgid "Transaction"
-msgstr "Transaction"
+msgstr "交易"
 
 #. module: website_sale
 #: field:product.attribute,type:0
 msgid "Type"
-msgstr "Type"
+msgstr "类型"
 
 #. module: website_sale
 #. openerp-web
@@ -1015,7 +1015,7 @@ msgstr "Validate Order"
 #: model:ir.model,name:website_sale.model_website
 #: view:product.template:website_sale.product_template_form_view
 msgid "Website"
-msgstr "Website"
+msgstr "网站"
 
 #. module: website_sale
 #: field:product.template,website_message_ids:0
@@ -1025,7 +1025,7 @@ msgstr "Website Comments"
 #. module: website_sale
 #: field:payment.transaction,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
 #. module: website_sale
 #: model:ir.actions.act_url,name:website_sale.action_open_website
@@ -1035,7 +1035,7 @@ msgstr "Website Shop"
 #. module: website_sale
 #: help:payment.transaction,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: website_sale
 #: field:product.template,website_meta_description:0
@@ -1118,7 +1118,7 @@ msgstr "Zip / Postal Code"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "change"
-msgstr "change"
+msgstr "改变"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -1148,12 +1148,12 @@ msgstr "comments"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "on"
-msgstr "on"
+msgstr "在"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: website_sale
 #: view:website:website_sale.products

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:15+0000\n"
-"PO-Revision-Date: 2015-04-19 15:15+0000\n"
+"POT-Creation-Date: 2015-04-20 10:41+0000\n"
+"PO-Revision-Date: 2015-04-20 10:41+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -322,7 +322,7 @@ msgstr "\n"
 #: code:addons/account_followup/wizard/account_followup_print.py:174
 #, python-format
 msgid " email(s) sent"
-msgstr " 发出邮件"
+msgstr " 邮件发出"
 
 #. module: account_followup
 #: code:addons/account_followup/wizard/account_followup_print.py:176
@@ -503,7 +503,7 @@ msgstr "指定负责人员"
 #: field:account_followup.stat,balance:0
 #: field:account_followup.stat.by.partner,balance:0
 msgid "Balance"
-msgstr "结转余额"
+msgstr "余额"
 
 #. module: account_followup
 #: view:account_followup.stat.by.partner:account_followup.account_followup_stat_by_partner_search
@@ -563,7 +563,7 @@ msgstr "Configure your follow-up levels"
 #: field:account_followup.print,create_uid:0
 #: field:account_followup.sending.results,create_uid:0
 msgid "Created by"
-msgstr "创建"
+msgstr "创建者"
 
 #. module: account_followup
 #: field:account_followup.followup,create_date:0
@@ -571,7 +571,7 @@ msgstr "创建"
 #: field:account_followup.print,create_date:0
 #: field:account_followup.sending.results,create_date:0
 msgid "Created on"
-msgstr "创建"
+msgstr "创建于"
 
 #. module: account_followup
 #: field:account_followup.stat,credit:0
@@ -660,7 +660,7 @@ msgstr "邮件主题"
 #. module: account_followup
 #: field:account_followup.followup.line,email_template_id:0
 msgid "Email Template"
-msgstr "Email Template"
+msgstr "电子邮件模板"
 
 #. module: account_followup
 #: code:addons/account_followup/account_followup.py:216
@@ -674,7 +674,7 @@ msgstr "邮件未发出，因为合作伙伴的Email地址没填写"
 #: code:addons/account_followup/report/account_followup_print.py:83
 #, python-format
 msgid "Error!"
-msgstr "错误！"
+msgstr "Error!"
 
 #. module: account_followup
 #: field:account_followup.stat,date_move:0
@@ -801,7 +801,7 @@ msgstr "输入序列用于显示催款列表"
 #: view:account_followup.stat:account_followup.view_account_followup_stat_search
 #: view:res.partner:account_followup.customer_followup_search_view
 msgid "Group By"
-msgstr "分组"
+msgstr "分组于"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
@@ -817,7 +817,7 @@ msgstr "He said the problem was temporary and promised to pay 50% before 15th of
 #: field:account_followup.stat.by.partner,id:0
 #: field:report.account_followup.report_followup,id:0
 msgid "ID"
-msgstr "编号"
+msgstr "ID"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
@@ -845,7 +845,7 @@ msgstr "发票提醒"
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_move_line
 msgid "Journal Items"
-msgstr "账簿项目"
+msgstr "分类账项目"
 
 #. module: account_followup
 #: field:account_followup.followup,write_uid:0
@@ -1045,7 +1045,7 @@ msgstr "Payment Note"
 #. module: account_followup
 #: field:account_followup.stat,period_id:0
 msgid "Period"
-msgstr "会计期间"
+msgstr "期间"
 
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_print
@@ -1087,7 +1087,7 @@ msgstr "参考"
 #: code:addons/account_followup/account_followup.py:258
 #, python-format
 msgid "Reference"
-msgstr "关联单号"
+msgstr "参考"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
@@ -1185,7 +1185,7 @@ msgstr "仅打印"
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "The"
-msgstr "The"
+msgstr "这"
 
 #. module: account_followup
 #: code:addons/account_followup/report/account_followup_print.py:83

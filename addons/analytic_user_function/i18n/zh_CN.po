@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:15+0000\n"
-"PO-Revision-Date: 2015-04-19 15:15+0000\n"
+"POT-Creation-Date: 2015-04-20 10:41+0000\n"
+"PO-Revision-Date: 2015-04-20 10:41+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: field:analytic.user.funct.grid,account_id:0
 #: model:ir.model,name:analytic_user_function.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "辅助核算项"
+msgstr "分析账户"
 
 #. module: analytic_user_function
 #: model:ir.model,name:analytic_user_function.model_account_analytic_line
@@ -49,7 +49,7 @@ msgstr "定义为特定用户指定的服务（例如：高级咨询师）\n"
 #: code:addons/analytic_user_function/analytic_user_function.py:137
 #, python-format
 msgid "Error!"
-msgstr "错误!"
+msgstr "Error!"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,id:0
@@ -65,17 +65,17 @@ msgstr "每用户的开票单价"
 #: view:analytic.user.funct.grid:analytic_user_function.analytic_user_funct_grid_form
 #: view:analytic.user.funct.grid:analytic_user_function.analytic_user_funct_grid_tree
 msgid "Invoicing Data"
-msgstr "发票数据"
+msgstr "开票数据"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: analytic_user_function
 #: view:account.analytic.account:analytic_user_function.view_account_analytic_account_form_inherit

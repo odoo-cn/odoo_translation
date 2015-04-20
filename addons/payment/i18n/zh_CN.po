@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:21+0000\n"
-"PO-Revision-Date: 2015-04-19 15:21+0000\n"
+"POT-Creation-Date: 2015-04-20 10:46+0000\n"
+"PO-Revision-Date: 2015-04-20 10:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -48,12 +48,12 @@ msgstr "Acquirer Order Reference"
 #. module: payment
 #: field:payment.transaction,partner_address:0
 msgid "Address"
-msgstr "Address"
+msgstr "地址"
 
 #. module: payment
 #: field:payment.transaction,amount:0
 msgid "Amount"
-msgstr "Amount"
+msgstr "金额"
 
 #. module: payment
 #: help:payment.transaction,amount:0
@@ -63,22 +63,22 @@ msgstr "Amount in cents"
 #. module: payment
 #: selection:payment.acquirer,validation:0
 msgid "Automatic"
-msgstr "Automatic"
+msgstr "自动"
 
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Canceled"
-msgstr "Canceled"
+msgstr "已作废"
 
 #. module: payment
 #: field:payment.transaction,partner_city:0
 msgid "City"
-msgstr "City"
+msgstr "城市"
 
 #. module: payment
 #: field:payment.acquirer,company_id:0
 msgid "Company"
-msgstr "Company"
+msgstr "公司"
 
 #. module: payment
 #: field:payment.acquirer,fees_active:0
@@ -88,7 +88,7 @@ msgstr "Compute fees"
 #. module: payment
 #: field:payment.transaction,partner_country_id:0
 msgid "Country"
-msgstr "Country"
+msgstr "国家"
 
 #. module: payment
 #: field:payment.acquirer,create_uid:0
@@ -105,32 +105,32 @@ msgstr "创建于"
 #. module: payment
 #: field:payment.transaction,date_create:0
 msgid "Creation Date"
-msgstr "Creation Date"
+msgstr "创建日期"
 
 #. module: payment
 #: field:payment.transaction,currency_id:0
 msgid "Currency"
-msgstr "Currency"
+msgstr "币别"
 
 #. module: payment
 #: help:payment.transaction,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Done"
-msgstr "Done"
+msgstr "完成"
 
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Draft"
-msgstr "Draft"
+msgstr "草稿"
 
 #. module: payment
 #: field:payment.transaction,partner_email:0
 msgid "Email"
-msgstr "Email"
+msgstr "电子邮件"
 
 #. module: payment
 #: field:payment.acquirer,environment:0
@@ -140,7 +140,7 @@ msgstr "Environment"
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Error"
-msgstr "Error"
+msgstr "错误！"
 
 #. module: payment
 #: field:payment.transaction,fees:0
@@ -170,12 +170,12 @@ msgstr "Fixed international fees"
 #. module: payment
 #: field:payment.transaction,message_follower_ids:0
 msgid "Followers"
-msgstr "Followers"
+msgstr "关注者"
 
 #. module: payment
 #: selection:payment.transaction,type:0
 msgid "Form"
-msgstr "Form"
+msgstr "表单"
 
 #. module: payment
 #: field:payment.acquirer,view_template_id:0
@@ -185,12 +185,12 @@ msgstr "Form Button Template"
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: payment
 #: help:payment.transaction,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: payment
 #: field:payment.acquirer,id:0
@@ -201,12 +201,12 @@ msgstr "ID"
 #. module: payment
 #: help:payment.transaction,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: payment
 #: field:payment.transaction,message_is_follower:0
 msgid "Is a Follower"
-msgstr "Is a Follower"
+msgstr "是一个关注者"
 
 #. module: payment
 #: field:payment.transaction,partner_lang:0
@@ -216,19 +216,19 @@ msgstr "Lang"
 #. module: payment
 #: field:payment.transaction,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: payment
 #: field:payment.acquirer,write_uid:0
 #: field:payment.transaction,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: payment
 #: field:payment.acquirer,write_date:0
 #: field:payment.transaction,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新于"
+msgstr "最后更新"
 
 #. module: payment
 #: help:payment.acquirer,website_published:0
@@ -258,13 +258,13 @@ msgstr "Manage Payments Using Paypal"
 #. module: payment
 #: selection:payment.acquirer,validation:0
 msgid "Manual"
-msgstr "Manual"
+msgstr "手动"
 
 #. module: payment
 #: field:payment.acquirer,pre_msg:0
 #: field:payment.transaction,state_message:0
 msgid "Message"
-msgstr "Message"
+msgstr "消息"
 
 #. module: payment
 #: help:payment.acquirer,post_msg:0
@@ -279,32 +279,32 @@ msgstr "Message displayed to explain and help the payment process."
 #. module: payment
 #: field:payment.transaction,message_ids:0
 msgid "Messages"
-msgstr "Messages"
+msgstr "消息"
 
 #. module: payment
 #: help:payment.transaction,message_ids:0
 msgid "Messages and communication history"
-msgstr "Messages and communication history"
+msgstr "消息和通信历史"
 
 #. module: payment
 #: field:payment.acquirer,name:0
 msgid "Name"
-msgstr "Name"
+msgstr "名称"
 
 #. module: payment
 #: field:payment.transaction,reference:0
 msgid "Order Reference"
-msgstr "Order Reference"
+msgstr "单号"
 
 #. module: payment
 #: field:payment.transaction,partner_id:0
 msgid "Partner"
-msgstr "Partner"
+msgstr "业务伙伴"
 
 #. module: payment
 #: field:payment.transaction,partner_name:0
 msgid "Partner Name"
-msgstr "Partner Name"
+msgstr "业务伙伴名称"
 
 #. module: payment
 #: field:payment.transaction,partner_reference:0
@@ -346,17 +346,17 @@ msgstr "Payment Transactions"
 #. module: payment
 #: model:ir.ui.menu,name:payment.root_payment_menu
 msgid "Payments"
-msgstr "Payments"
+msgstr "付款"
 
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Pending"
-msgstr "Pending"
+msgstr "等待中"
 
 #. module: payment
 #: field:payment.transaction,partner_phone:0
 msgid "Phone"
-msgstr "Phone"
+msgstr "电话"
 
 #. module: payment
 #: field:payment.acquirer,validation:0
@@ -366,7 +366,7 @@ msgstr "Process Method"
 #. module: payment
 #: selection:payment.acquirer,environment:0
 msgid "Production"
-msgstr "Production"
+msgstr "生产"
 
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_search
@@ -392,7 +392,7 @@ msgstr "Required fields not filled"
 #. module: payment
 #: view:payment.transaction:payment.transaction_form
 msgid "Send a message to the group"
-msgstr "Send a message to the group"
+msgstr "发送信息到该组"
 
 #. module: payment
 #: selection:payment.transaction,type:0
@@ -407,12 +407,12 @@ msgstr "Static payments are payments like transfer, that require manual steps."
 #. module: payment
 #: field:payment.transaction,state:0
 msgid "Status"
-msgstr "Status"
+msgstr "状态"
 
 #. module: payment
 #: field:payment.transaction,message_summary:0
 msgid "Summary"
-msgstr "Summary"
+msgstr "摘要"
 
 #. module: payment
 #: selection:payment.acquirer,environment:0
@@ -439,17 +439,17 @@ msgstr "This template renders the acquirer button with all necessary values.\n"
 #. module: payment
 #: field:payment.transaction,type:0
 msgid "Type"
-msgstr "Type"
+msgstr "类型"
 
 #. module: payment
 #: field:payment.transaction,message_unread:0
 msgid "Unread Messages"
-msgstr "Unread Messages"
+msgstr "未读消息"
 
 #. module: payment
 #: field:payment.transaction,date_validate:0
 msgid "Validation Date"
-msgstr "Validation Date"
+msgstr "审核日期"
 
 #. module: payment
 #: field:payment.acquirer,fees_dom_var:0
@@ -469,7 +469,7 @@ msgstr "Visible in Portal / Website"
 #. module: payment
 #: field:payment.transaction,partner_zip:0
 msgid "Zip"
-msgstr "Zip"
+msgstr "邮编"
 
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_form

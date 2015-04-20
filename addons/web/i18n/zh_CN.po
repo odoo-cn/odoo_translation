@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:25+0000\n"
-"PO-Revision-Date: 2015-04-19 15:25+0000\n"
+"POT-Creation-Date: 2015-04-20 10:50+0000\n"
+"PO-Revision-Date: 2015-04-20 10:50+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -269,7 +269,7 @@ msgstr "关于 Odoo"
 #: code:addons/web/static/src/js/chrome.js:580
 #, python-format
 msgid "Access Denied"
-msgstr "访问被拒绝。（请检查是否输入了正确的　主控密码）"
+msgstr "Access Denied"
 
 #. module: web
 #. openerp-web
@@ -342,7 +342,7 @@ msgstr "添加： "
 #: code:addons/web/static/src/js/search.js:2019
 #, python-format
 msgid "Advanced"
-msgstr "高级选项"
+msgstr "高级"
 
 #. module: web
 #. openerp-web
@@ -479,7 +479,7 @@ msgstr "Bytes,Kb,Mb,Gb,Tb,Pb,Eb,Zb,Yb"
 #: code:addons/web/static/src/xml/base.xml:1929
 #, python-format
 msgid "CSV File:"
-msgstr "CSV 文件："
+msgstr "CSV File:"
 
 #. module: web
 #. openerp-web
@@ -710,7 +710,7 @@ msgstr "不能序列化 XML"
 #: code:addons/web/static/src/xml/base.xml:2009
 #, python-format
 msgid "Create"
-msgstr "创建"
+msgstr "新建"
 
 #. module: web
 #. openerp-web
@@ -859,7 +859,7 @@ msgstr "删除"
 #: code:addons/web/static/src/xml/base.xml:651
 #, python-format
 msgid "Delete this attachment"
-msgstr "删除这个附件"
+msgstr "Delete this attachment"
 
 #. module: web
 #. openerp-web
@@ -882,7 +882,7 @@ msgstr "结束符："
 #: code:addons/web/static/src/xml/base.xml:1532
 #, python-format
 msgid "Discard"
-msgstr "放弃"
+msgstr "取消"
 
 #. module: web
 #. openerp-web
@@ -946,7 +946,7 @@ msgstr "请不要离开，<br />系统仍然在加载中..."
 #: code:addons/web/static/src/js/view_form.js:2684
 #, python-format
 msgid "Done"
-msgstr "已完成"
+msgstr "完成"
 
 #. module: web
 #. openerp-web
@@ -1061,7 +1061,7 @@ msgstr "电子邮件"
 #: code:addons/web/static/src/xml/base.xml:1951
 #, python-format
 msgid "Encoding:"
-msgstr "编码:"
+msgstr "Encoding:"
 
 #. module: web
 #. openerp-web
@@ -1082,7 +1082,7 @@ msgstr "删除当前日期"
 #: code:addons/web/static/src/js/search.js:1886
 #, python-format
 msgid "Error"
-msgstr "错误"
+msgstr "Error"
 
 #. module: web
 #: code:addons/web/controllers/main.py:765
@@ -1221,7 +1221,7 @@ msgstr "请填写此表单以创建数据库。你可以：\n"
 #: code:addons/web/static/src/js/search.js:1147
 #, python-format
 msgid "Filter"
-msgstr "过滤"
+msgstr "Filter"
 
 #. module: web
 #. openerp-web
@@ -1257,7 +1257,7 @@ msgstr "搜索: %s"
 #: code:addons/web/static/src/xml/base.xml:1597
 #, python-format
 msgid "Filters"
-msgstr "过滤"
+msgstr "筛选"
 
 #. module: web
 #. openerp-web
@@ -1335,7 +1335,7 @@ msgstr "这是文件中无法导入部分的预览："
 #: code:addons/web/static/src/js/view_form.js:2680
 #, python-format
 msgid "Hour"
-msgstr "小时"
+msgstr "Hour"
 
 #. module: web
 #. openerp-web
@@ -1356,7 +1356,7 @@ msgstr "图像"
 #: code:addons/web/static/src/xml/base.xml:1918
 #, python-format
 msgid "Import"
-msgstr "导入"
+msgstr "Import"
 
 #. module: web
 #. openerp-web
@@ -1370,7 +1370,7 @@ msgstr "导入选项"
 #: code:addons/web/static/src/xml/base.xml:1821
 #, python-format
 msgid "Import-Compatible Export"
-msgstr "兼容导入格式导出"
+msgstr "导入兼容格式导出"
 
 #. module: web
 #. openerp-web
@@ -1469,7 +1469,7 @@ msgstr "装载演示数据:"
 #: code:addons/web/static/src/js/chrome.js:394
 #, python-format
 msgid "Loading"
-msgstr "加载中"
+msgstr "Loading"
 
 #. module: web
 #. openerp-web
@@ -1785,7 +1785,7 @@ msgstr "Odoo.com"
 #: code:addons/web/static/src/xml/base.xml:1902
 #, python-format
 msgid "Ok"
-msgstr "确定"
+msgstr "Ok"
 
 #. module: web
 #. openerp-web
@@ -2140,7 +2140,7 @@ msgstr "搜索： "
 #: code:addons/web/static/src/js/view_form.js:2682
 #, python-format
 msgid "Second"
-msgstr "秒"
+msgstr "第二"
 
 #. module: web
 #. openerp-web
@@ -2199,7 +2199,7 @@ msgstr "下拉列表："
 #: code:addons/web/static/src/xml/base.xml:1945
 #, python-format
 msgid "Separator:"
-msgstr "分隔符："
+msgstr "Separator:"
 
 #. module: web
 #. openerp-web
@@ -2559,7 +2559,7 @@ msgstr "发现未知操作符 %s ，过滤条件 %s 有误"
 #: code:addons/web/static/src/js/view_list.js:335
 #, python-format
 msgid "Unlimited"
-msgstr "不限"
+msgstr "无限"
 
 #. module: web
 #. openerp-web
@@ -2647,7 +2647,7 @@ msgstr "视图类型 '%s' 在 One2Many 中不支持。"
 #: code:addons/web/static/src/js/views.js:1273
 #, python-format
 msgid "Warning"
-msgstr "警告"
+msgstr "Warning"
 
 #. module: web
 #. openerp-web
@@ -2728,7 +2728,7 @@ msgstr "也许你不相信，<br />但是这个应用真的还在加载...."
 #: code:addons/web/static/src/js/views.js:1273
 #, python-format
 msgid "You must choose at least one record."
-msgstr "您应至少选择一条记录。"
+msgstr "You must choose at least one record."
 
 #. module: web
 #. openerp-web

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:17+0000\n"
-"PO-Revision-Date: 2015-04-19 15:17+0000\n"
+"POT-Creation-Date: 2015-04-20 10:43+0000\n"
+"PO-Revision-Date: 2015-04-20 10:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -90,7 +90,7 @@ msgstr "# 业务"
 #. module: crm_partner_assign
 #: field:crm.partner.report.assign,opp:0
 msgid "# of Opportunity"
-msgstr "商机编号"
+msgstr "# 商机"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_channel_interested.py:48
@@ -141,7 +141,7 @@ msgstr "指定日期"
 #. module: crm_partner_assign
 #: model:crm.case.stage,name:crm_partner_assign.stage_portal_lead_assigned
 msgid "Assigned"
-msgstr "Assigned"
+msgstr "已指派"
 
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
@@ -204,12 +204,12 @@ msgstr "结束日期"
 #. module: crm_partner_assign
 #: field:crm.lead.channel.interested,comment:0
 msgid "Comment"
-msgstr "Comment"
+msgstr "注释"
 
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_form
 msgid "Communication"
-msgstr "Communication"
+msgstr "沟通"
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:crm_partner_assign.view_report_crm_lead_assign_filter
@@ -220,12 +220,12 @@ msgstr "公司"
 #. module: crm_partner_assign
 #: view:crm.lead.channel.interested:crm_partner_assign.crm_lead_channel_interested_form
 msgid "Confirm"
-msgstr "Confirm"
+msgstr "确认"
 
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_form
 msgid "Contact"
-msgstr "Contact"
+msgstr "联系人"
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,body:0
@@ -278,7 +278,7 @@ msgstr "客户"
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_form
 msgid "Customer Name"
-msgstr "Customer Name"
+msgstr "客户名称"
 
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:crm_partner_assign.view_report_crm_partner_assign_filter
@@ -303,7 +303,7 @@ msgstr "延迟关闭"
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_form
 msgid "Details"
-msgstr "Details"
+msgstr "详细信息"
 
 #. module: crm_partner_assign
 #: field:crm.lead.channel.interested,contacted:0
@@ -325,7 +325,7 @@ msgstr "Email Error"
 #. module: crm_partner_assign
 #: view:crm.lead.forward.to.partner:crm_partner_assign.crm_lead_forward_to_partner_form
 msgid "Email Template"
-msgstr "Email Template"
+msgstr "电子邮件模板"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:87
@@ -379,7 +379,7 @@ msgstr "Fwd: Lead: ${ctx['partner_id'].name}"
 #. module: crm_partner_assign
 #: field:crm.lead,partner_latitude:0
 msgid "Geo Latitude"
-msgstr "geolocalization纬度"
+msgstr "地理纬度"
 
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
@@ -394,7 +394,7 @@ msgstr "地理定位"
 #. module: crm_partner_assign
 #: field:crm.lead,partner_longitude:0
 msgid "Geo Longitude"
-msgstr "geolocalization经度"
+msgstr "地理经度"
 
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.view_crm_lead_geo_assign_form
@@ -430,7 +430,7 @@ msgstr "Grade Weight"
 #: view:crm.lead.report.assign:crm_partner_assign.view_report_crm_lead_assign_filter
 #: view:crm.partner.report.assign:crm_partner_assign.view_report_crm_partner_assign_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: crm_partner_assign
 #: selection:crm.lead.report.assign,priority:0
@@ -487,7 +487,7 @@ msgstr "发票期间"
 #: field:res.partner.activation,write_uid:0
 #: field:res.partner.grade,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: crm_partner_assign
 #: field:crm.lead.assignation,write_date:0
@@ -496,7 +496,7 @@ msgstr "最近更新者"
 #: field:res.partner.activation,write_date:0
 #: field:res.partner.grade,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新于"
+msgstr "最后更新"
 
 #. module: crm_partner_assign
 #: help:crm.lead,date_assign:0
@@ -621,7 +621,7 @@ msgstr "商机指定分析"
 #: model:ir.actions.act_window,name:crm_partner_assign.action_portal_opportunities
 #: model:ir.ui.menu,name:crm_partner_assign.openerp_portal_menu_sales_leads_current1
 msgid "Opportunities"
-msgstr "商机"
+msgstr "商机列表"
 
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:crm_partner_assign.view_report_crm_partner_assign_graph
@@ -638,7 +638,7 @@ msgstr "商机"
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,delay_expected:0
 msgid "Overpassed Deadline"
-msgstr "超过截止日期"
+msgstr "超越截止日期"
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,partner_assigned_id:0
@@ -683,7 +683,7 @@ msgstr "Partner Location"
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.crm_lead_portal_form
 msgid "Partner Name"
-msgstr "Partner Name"
+msgstr "业务伙伴名称"
 
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
@@ -727,7 +727,7 @@ msgstr "Portal Group Error"
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_form
 #: field:crm.lead.report.assign,priority:0
 msgid "Priority"
-msgstr "优先级"
+msgstr "优先级(0=紧急)"
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,probable_revenue:0
@@ -782,7 +782,7 @@ msgstr "阶段"
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.crm_lead_portal_tree
 msgid "Subject"
-msgstr "Subject"
+msgstr "主题"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/crm_lead.py:33
@@ -825,7 +825,7 @@ msgstr "类型"
 #. module: crm_partner_assign
 #: help:crm.lead.report.assign,type:0
 msgid "Type is used to separate Leads and Opportunities"
-msgstr "类型用于区分线索和商机"
+msgstr "类型用于区分销售线索和商机"
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,user_id:0

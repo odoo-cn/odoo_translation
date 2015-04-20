@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:22+0000\n"
-"PO-Revision-Date: 2015-04-19 15:22+0000\n"
+"POT-Creation-Date: 2015-04-20 10:47+0000\n"
+"PO-Revision-Date: 2015-04-20 10:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -69,7 +69,7 @@ msgstr "创建者"
 #. module: product_margin
 #: field:product.margin,create_date:0
 msgid "Created on"
-msgstr "创建时间"
+msgstr "创建于"
 
 #. module: product_margin
 #: selection:product.margin,invoice_state:0
@@ -120,7 +120,7 @@ msgstr "一般信息"
 #. module: product_margin
 #: field:product.margin,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: product_margin
 #: field:product.margin,invoice_state:0
@@ -131,12 +131,12 @@ msgstr "发票状态"
 #. module: product_margin
 #: field:product.margin,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: product_margin
 #: field:product.margin,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新时间"
+msgstr "最后更新"
 
 #. module: product_margin
 #: field:product.product,date_from:0
@@ -188,7 +188,7 @@ msgstr "产品"
 #. module: product_margin
 #: model:ir.model,name:product_margin.model_product_margin
 msgid "Product Margin"
-msgstr "产品毛利"
+msgstr "产品利润"
 
 #. module: product_margin
 #: code:addons/product_margin/wizard/product_margin.py:84
@@ -199,12 +199,12 @@ msgstr "产品毛利"
 #: view:product.product:product_margin.view_product_margin_tree
 #, python-format
 msgid "Product Margins"
-msgstr "产品毛利"
+msgstr "产品利润"
 
 #. module: product_margin
 #: view:product.margin:product_margin.product_margin_form_view
 msgid "Properties categories"
-msgstr "属性类别"
+msgstr "属性分类"
 
 #. module: product_margin
 #: field:product.product,purchase_gap:0
@@ -214,7 +214,7 @@ msgstr "采购差额"
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_form
 msgid "Purchases"
-msgstr "采购订单"
+msgstr "采购"
 
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_form

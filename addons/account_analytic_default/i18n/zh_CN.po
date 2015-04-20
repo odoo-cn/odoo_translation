@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:14+0000\n"
-"PO-Revision-Date: 2015-04-19 15:14+0000\n"
+"POT-Creation-Date: 2015-04-20 10:40+0000\n"
+"PO-Revision-Date: 2015-04-20 10:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -68,12 +68,12 @@ msgstr "条件"
 #. module: account_analytic_default
 #: field:account.analytic.default,create_uid:0
 msgid "Created by"
-msgstr "创建"
+msgstr "创建者"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,create_date:0
 msgid "Created on"
-msgstr "创建"
+msgstr "创建于"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,date_stop:0
@@ -103,17 +103,17 @@ msgstr "按序列显示分析分摊"
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
 msgid "Group By"
-msgstr "分组"
+msgstr "分组于"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,id:0
 msgid "ID"
-msgstr "编号"
+msgstr "ID"
 
 #. module: account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: account_analytic_default
 #: field:account.analytic.default,write_uid:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:17+0000\n"
-"PO-Revision-Date: 2015-04-19 15:17+0000\n"
+"POT-Creation-Date: 2015-04-20 10:42+0000\n"
+"PO-Revision-Date: 2015-04-20 10:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "# Claims"
 #. module: crm_claim
 #: field:crm.claim.report,email:0
 msgid "# Emails"
-msgstr "电子邮件"
+msgstr "# 电子邮件"
 
 #. module: crm_claim
 #: field:crm.claim.report,nbr:0
@@ -102,7 +102,7 @@ msgstr "动作"
 #. module: crm_claim
 #: field:crm.claim,active:0
 msgid "Active"
-msgstr "激活"
+msgstr "有效"
 
 #. module: crm_claim
 #: model:ir.model,name:crm_claim.model_crm_claim_report
@@ -213,7 +213,7 @@ msgstr "结束日期"
 #. module: crm_claim
 #: field:crm.claim,date_closed:0
 msgid "Closed"
-msgstr "已结束"
+msgstr "已关闭"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
@@ -252,12 +252,12 @@ msgstr "创建日期"
 #: field:crm.claim,create_uid:0
 #: field:crm.claim.stage,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: crm_claim
 #: field:crm.claim.stage,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: crm_claim
 #: field:crm.claim,create_date:0
@@ -272,7 +272,7 @@ msgstr "结束日期"
 #. module: crm_claim
 #: help:crm.claim,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
@@ -330,7 +330,7 @@ msgstr "关注者"
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: crm_claim
 #: model:ir.actions.act_window,help:crm_claim.action_report_crm_claim
@@ -346,7 +346,7 @@ msgstr "高"
 #. module: crm_claim
 #: help:crm.claim,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保存复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: crm_claim
 #: field:crm.claim,id:0
@@ -358,7 +358,7 @@ msgstr "ID"
 #. module: crm_claim
 #: help:crm.claim,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: crm_claim
 #: help:crm.claim.stage,case_default:0
@@ -378,23 +378,23 @@ msgstr "是一个关注者"
 #. module: crm_claim
 #: field:crm.claim,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: crm_claim
 #: field:crm.claim,write_uid:0
 #: field:crm.claim.stage,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: crm_claim
 #: field:crm.claim.stage,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: crm_claim
 #: help:crm.claim.stage,section_ids:0
 msgid "Link between stages and sales teams. When set, this limitate the current stage to the selected sales teams."
-msgstr "在阶段和邮件地址建连接。设置后，将限制当前的阶段选择的销售团队。"
+msgstr "在阶段和销售团队之间建立链接。设置后将限制此阶段只能用于被选中的销售团队。"
 
 #. module: crm_claim
 #: selection:crm.claim,priority:0
@@ -410,7 +410,7 @@ msgstr "消息"
 #. module: crm_claim
 #: help:crm.claim,message_ids:0
 msgid "Messages and communication history"
-msgstr "消息和通信记录"
+msgstr "消息和通信历史"
 
 #. module: crm_claim
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
@@ -440,18 +440,18 @@ msgstr "新建"
 #. module: crm_claim
 #: field:crm.claim,action_next:0
 msgid "Next Action"
-msgstr "下一动作"
+msgstr "下个行动日期"
 
 #. module: crm_claim
 #: field:crm.claim,date_action_next:0
 msgid "Next Action Date"
-msgstr "下一动作日期"
+msgstr "下次联系日期"
 
 #. module: crm_claim
 #: code:addons/crm_claim/crm_claim.py:183
 #, python-format
 msgid "No Subject"
-msgstr "无主题"
+msgstr "No Subject"
 
 #. module: crm_claim
 #: selection:crm.claim,priority:0
@@ -467,7 +467,7 @@ msgstr "到期天数"
 #. module: crm_claim
 #: field:crm.claim.report,delay_expected:0
 msgid "Overpassed Deadline"
-msgstr "超过截止日期"
+msgstr "超越截止日期"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
@@ -504,12 +504,12 @@ msgstr "预防措施的动作"
 #: field:crm.claim,priority:0
 #: field:crm.claim.report,priority:0
 msgid "Priority"
-msgstr "优先级"
+msgstr "优先级(0=紧急)"
 
 #. module: crm_claim
 #: field:crm.claim,ref:0
 msgid "Reference"
-msgstr "关联"
+msgstr "参考"
 
 #. module: crm_claim
 #: model:crm.claim.stage,name:crm_claim.stage_claim3
@@ -540,7 +540,7 @@ msgstr "负责人"
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 msgid "Responsible User"
-msgstr "负责用户"
+msgstr "负责人"
 
 #. module: crm_claim
 #: help:crm.claim,section_id:0
@@ -581,17 +581,17 @@ msgstr "搜索索赔"
 #. module: crm_claim
 #: field:crm.claim.report,section_id:0
 msgid "Section"
-msgstr "划分"
+msgstr "分类"
 
 #. module: crm_claim
 #: field:crm.claim.stage,section_ids:0
 msgid "Sections"
-msgstr "节"
+msgstr "分类"
 
 #. module: crm_claim
 #: field:crm.claim.stage,sequence:0
 msgid "Sequence"
-msgstr "序号"
+msgstr "序列"
 
 #. module: crm_claim
 #: model:crm.claim.stage,name:crm_claim.stage_claim2
@@ -619,7 +619,7 @@ msgstr "阶段"
 #. module: crm_claim
 #: field:crm.claim,message_summary:0
 msgid "Summary"
-msgstr "总览"
+msgstr "摘要"
 
 #. module: crm_claim
 #: help:crm.claim,email_cc:0
@@ -675,12 +675,12 @@ msgstr "关注者的电子邮件"
 #. module: crm_claim
 #: field:crm.claim,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
 #. module: crm_claim
 #: help:crm.claim,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: crm_claim
 #: model:ir.filters,name:crm_claim.filter_report_crm_claim_workload

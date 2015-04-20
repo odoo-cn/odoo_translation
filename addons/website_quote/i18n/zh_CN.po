@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:28+0000\n"
-"PO-Revision-Date: 2015-04-19 15:28+0000\n"
+"POT-Creation-Date: 2015-04-20 10:52+0000\n"
+"PO-Revision-Date: 2015-04-20 10:52+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -224,7 +224,7 @@ msgstr ":\n"
 #. module: website_quote
 #: view:website:website_quote.quotation_toolbar
 msgid "Accept"
-msgstr "Accept"
+msgstr "同意"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -254,7 +254,7 @@ msgstr "取消"
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Clear"
-msgstr "Clear"
+msgstr "清除"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -318,7 +318,7 @@ msgstr "Description for the website"
 #: field:sale.quote.line,discount:0
 #: field:sale.quote.option,discount:0
 msgid "Discount (%)"
-msgstr "Discount (%)"
+msgstr "折扣(%)"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -358,7 +358,7 @@ msgstr "Heading 2"
 #. module: website_quote
 #: view:website:website_quote.chatter
 msgid "History"
-msgstr "History"
+msgstr "历史"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -391,7 +391,7 @@ msgstr "Introduction"
 #: field:sale.quote.option,write_uid:0
 #: field:sale.quote.template,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: website_quote
 #: field:sale.order.option,write_date:0
@@ -399,7 +399,7 @@ msgstr "Last Updated by"
 #: field:sale.quote.option,write_date:0
 #: field:sale.quote.template,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: website_quote
 #: field:sale.order.line,website_description:0
@@ -411,7 +411,7 @@ msgstr "Line Description"
 #. module: website_quote
 #: view:sale.quote.template:website_quote.view_sale_quote_template_form
 msgid "Lines"
-msgstr "Lines"
+msgstr "明细"
 
 #. module: website_quote
 #: help:sale.quote.template,number_of_days:0
@@ -443,7 +443,7 @@ msgstr "Optional Products Lines"
 #. module: website_quote
 #: view:website:website_quote.optional_products
 msgid "Options"
-msgstr "Options"
+msgstr "选项"
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:69
@@ -602,7 +602,7 @@ msgstr "Security Token"
 #. module: website_quote
 #: view:website:website_quote.chatter
 msgid "Send"
-msgstr "Send"
+msgstr "发送"
 
 #. module: website_quote
 #: view:website:website_quote.chatter
@@ -622,7 +622,7 @@ msgstr "Sign Order"
 #. module: website_quote
 #: view:website:website_quote.pricing
 msgid "Subtotal:"
-msgstr "Subtotal:"
+msgstr "小计:"
 
 #. module: website_quote
 #: view:sale.order:website_quote.sale_order_form_quote
@@ -638,7 +638,7 @@ msgstr "税金"
 #. module: website_quote
 #: view:website:website_quote.pricing
 msgid "Taxes:"
-msgstr "Taxes:"
+msgstr "税:"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -659,12 +659,12 @@ msgstr "Terms & Conditions"
 #. module: website_quote
 #: field:sale.quote.template,note:0
 msgid "Terms and conditions"
-msgstr "Terms and conditions"
+msgstr "条款和条件"
 
 #. module: website_quote
 #: view:sale.quote.template:website_quote.view_sale_quote_template_form
 msgid "Terms and conditions..."
-msgstr "Terms and conditions..."
+msgstr "条款和条件 ..."
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -716,7 +716,7 @@ msgstr "单价"
 #: field:sale.quote.line,product_uom_id:0
 #: field:sale.quote.option,uom_id:0
 msgid "Unit of Measure "
-msgstr "Unit of Measure "
+msgstr "计量单位 "
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -741,12 +741,12 @@ msgstr "Website Description"
 #. module: website_quote
 #: field:sale.order,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
 #. module: website_quote
 #: help:sale.order,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:144
@@ -813,7 +813,7 @@ msgstr "day"
 #: view:sale.quote.template:website_quote.view_sale_quote_template_form
 #: view:website:website_quote.so_quotation
 msgid "days"
-msgstr "days"
+msgstr "天"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -830,12 +830,12 @@ msgstr "if you want a new one."
 #. module: website_quote
 #: view:website:website_quote.chatter
 msgid "on"
-msgstr "on"
+msgstr "在"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: website_quote
 #: view:website:website_quote.so_template
@@ -849,7 +849,7 @@ msgstr "this content\n"
 #. module: website_quote
 #: field:sale.order.option,line_id:0
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知的"
 
 #. module: website_quote
 #: view:website:website_quote.so_template

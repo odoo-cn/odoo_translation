@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:22+0000\n"
-"PO-Revision-Date: 2015-04-19 15:22+0000\n"
+"POT-Creation-Date: 2015-04-20 10:47+0000\n"
+"PO-Revision-Date: 2015-04-20 10:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "Customer related project: visible through portal"
 #. module: portal_project
 #: model:ir.model,name:portal_project.model_project_project
 msgid "Project"
-msgstr "Project"
+msgstr "项目"
 
 #. module: portal_project
 #: model:ir.actions.act_window,name:portal_project.open_view_project

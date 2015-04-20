@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:18+0000\n"
-"PO-Revision-Date: 2015-04-19 15:18+0000\n"
+"POT-Creation-Date: 2015-04-20 10:44+0000\n"
+"PO-Revision-Date: 2015-04-20 10:44+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: code:addons/hr/hr.py:158
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (副本)"
+msgstr "%s (copy)"
 
 #. module: hr
 #: model:ir.actions.act_window,help:hr.open_view_employee_list_my
@@ -133,12 +133,12 @@ msgstr "考勤"
 #. module: hr
 #: field:hr.employee,bank_account_id:0
 msgid "Bank Account Number"
-msgstr "银行账号"
+msgstr "银行账户号码"
 
 #. module: hr
 #: view:hr.employee:hr.view_employee_form
 msgid "Birth"
-msgstr "生日"
+msgstr "出生"
 
 #. module: hr
 #: help:hr.job,state:0
@@ -236,7 +236,7 @@ msgstr "创建者"
 #: field:hr.employee.category,create_date:0
 #: field:hr.job,create_date:0
 msgid "Created on"
-msgstr "创建时间"
+msgstr "创建于"
 
 #. module: hr
 #: field:hr.job,no_of_employee:0
@@ -294,7 +294,7 @@ msgstr "用挑战和荣誉来提高业务积极性"
 #: view:hr.employee:hr.view_employee_form
 #: model:ir.model,name:hr.model_hr_employee
 msgid "Employee"
-msgstr "员工"
+msgstr "雇员"
 
 #. module: hr
 #: view:hr.employee.category:hr.view_employee_category_form
@@ -400,7 +400,7 @@ msgstr "性别"
 #: view:hr.employee:hr.view_employee_filter
 #: view:hr.job:hr.view_job_filter
 msgid "Group By"
-msgstr "分组方式"
+msgstr "分组于"
 
 #. module: hr
 #: view:hr.employee:hr.view_employee_form
@@ -416,7 +416,7 @@ msgstr "已雇用员工"
 #: help:hr.employee,message_summary:0
 #: help:hr.job,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: hr
 #: field:hr.employee,address_home_id:0
@@ -443,7 +443,7 @@ msgstr "人力资源管理"
 #: field:hr.employee.category,id:0
 #: field:hr.job,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: hr
 #: field:hr.employee,identification_id:0
@@ -454,7 +454,7 @@ msgstr "身份证号"
 #: help:hr.employee,message_unread:0
 #: help:hr.job,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: hr
 #: view:hr.job:hr.view_job_filter
@@ -488,7 +488,7 @@ msgstr "是一个关注者"
 #: view:hr.job:hr.view_hr_job_tree
 #: view:hr.job:hr.view_job_filter
 msgid "Job"
-msgstr "职务"
+msgstr "工作"
 
 #. module: hr
 #: field:hr.job,description:0
@@ -503,7 +503,7 @@ msgstr "职务名称"
 #. module: hr
 #: model:ir.model,name:hr.model_hr_job
 msgid "Job Position"
-msgstr "Job Position"
+msgstr "工作岗位"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.action_hr_job
@@ -520,13 +520,13 @@ msgstr "职位"
 #: field:hr.department,jobs_ids:0
 #: view:hr.job:hr.view_job_filter
 msgid "Jobs"
-msgstr "职务"
+msgstr "工作"
 
 #. module: hr
 #: field:hr.employee,message_last_post:0
 #: field:hr.job,message_last_post:0
 msgid "Last Message Date"
-msgstr "最新消息日期"
+msgstr "最后信息日期"
 
 #. module: hr
 #: field:hr.config.settings,write_uid:0
@@ -535,7 +535,7 @@ msgstr "最新消息日期"
 #: field:hr.employee.category,write_uid:0
 #: field:hr.job,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: hr
 #: field:hr.config.settings,write_date:0
@@ -543,7 +543,7 @@ msgstr "最近更新者"
 #: field:hr.employee,write_date:0
 #: field:hr.employee.category,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新时间"
+msgstr "最后更新"
 
 #. module: hr
 #: field:hr.employee,last_login:0
@@ -563,7 +563,7 @@ msgstr "准假"
 #. module: hr
 #: field:hr.employee,login:0
 msgid "Login"
-msgstr "登录名"
+msgstr "用户名"
 
 #. module: hr
 #: selection:hr.employee,gender:0
@@ -724,7 +724,7 @@ msgstr "护照号"
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_payroll_modules
 msgid "Payroll"
-msgstr "薪酬"
+msgstr "薪酬管理"
 
 #. module: hr
 #: view:hr.employee:hr.view_employee_form
@@ -950,7 +950,7 @@ msgstr "取消关注"
 #: field:hr.employee,message_unread:0
 #: field:hr.job,message_unread:0
 msgid "Unread Messages"
-msgstr "未读信息"
+msgstr "未读消息"
 
 #. module: hr
 #: field:hr.job,write_date:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:16+0000\n"
-"PO-Revision-Date: 2015-04-19 15:16+0000\n"
+"POT-Creation-Date: 2015-04-20 10:42+0000\n"
+"PO-Revision-Date: 2015-04-20 10:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -816,7 +816,7 @@ msgstr "AllDay , %s"
 #. module: calendar
 #: field:calendar.alarm,duration:0
 msgid "Amount"
-msgstr "Amount"
+msgstr "金额"
 
 #. module: calendar
 #: code:addons/calendar/calendar.py:1114
@@ -928,7 +928,7 @@ msgstr "联系人"
 #: field:calendar.event,create_uid:0
 #: field:calendar.event.type,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: calendar
 #: field:calendar.alarm,create_date:0
@@ -937,7 +937,7 @@ msgstr "Created by"
 #: field:calendar.event,create_date:0
 #: field:calendar.event.type,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: calendar
 #: model:calendar.event.type,name:calendar.categ_meet1
@@ -959,7 +959,7 @@ msgstr "每月的指定日期"
 #. module: calendar
 #: help:calendar.event,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
@@ -1037,7 +1037,7 @@ msgstr "被邀请者邮件"
 #. module: calendar
 #: field:calendar.contacts,partner_id:0
 msgid "Employee"
-msgstr "Employee"
+msgstr "雇员"
 
 #. module: calendar
 #: field:calendar.event,stop_date:0
@@ -1068,12 +1068,12 @@ msgstr "错误！结束日期不能设置为早于开始日期。"
 #: code:addons/calendar/calendar.py:1278
 #, python-format
 msgid "Error!"
-msgstr "错误！"
+msgstr "Error!"
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event
 msgid "Event"
-msgstr "Event"
+msgstr "活动"
 
 #. module: calendar
 #: field:calendar.event,display_time:0
@@ -1127,7 +1127,7 @@ msgstr "第四"
 #: selection:calendar.attendee,availability:0
 #: selection:calendar.event,show_as:0
 msgid "Free"
-msgstr "空闲"
+msgstr "自由"
 
 #. module: calendar
 #: field:calendar.attendee,availability:0
@@ -1147,7 +1147,7 @@ msgstr "星期五"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_search
 msgid "Group By"
-msgstr "分组"
+msgstr "分组于"
 
 #. module: calendar
 #: code:addons/calendar/calendar.py:1658
@@ -1163,7 +1163,7 @@ msgstr "HTTP routing"
 #. module: calendar
 #: help:calendar.event,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保存聊天摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: calendar
 #: selection:calendar.alarm,interval:0
@@ -1178,12 +1178,12 @@ msgstr "小时"
 #: field:calendar.event,id:0
 #: field:calendar.event.type,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: calendar
 #: help:calendar.event,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果勾选此项，需要你关注新消息。"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: calendar
 #: help:calendar.event,active:0
@@ -1233,7 +1233,7 @@ msgstr "持续"
 #. module: calendar
 #: field:calendar.event,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: calendar
 #: field:calendar.alarm,write_uid:0
@@ -1242,7 +1242,7 @@ msgstr "Last Message Date"
 #: field:calendar.event,write_uid:0
 #: field:calendar.event.type,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: calendar
 #: field:calendar.alarm,write_date:0
@@ -1251,7 +1251,7 @@ msgstr "Last Updated by"
 #: field:calendar.event,write_date:0
 #: field:calendar.event.type,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: calendar
 #: field:res.partner,calendar_last_notif_ack:0
@@ -1324,7 +1324,7 @@ msgstr "会议"
 #. module: calendar
 #: model:ir.model,name:calendar.model_mail_message
 msgid "Message"
-msgstr "Message"
+msgstr "消息"
 
 #. module: calendar
 #: field:calendar.event,message_ids:0
@@ -1344,7 +1344,7 @@ msgstr "分钟"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "Misc"
-msgstr "Misc"
+msgstr "杂项"
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_ir_model
@@ -1398,7 +1398,7 @@ msgstr "No I'm not going."
 #. module: calendar
 #: selection:calendar.alarm,type:0
 msgid "Notification"
-msgstr "Notification"
+msgstr "通知"
 
 #. module: calendar
 #: selection:calendar.event,end_type:0
@@ -1440,7 +1440,7 @@ msgstr "所有者"
 #. module: calendar
 #: model:ir.model,name:calendar.model_res_partner
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_search
@@ -1639,7 +1639,7 @@ msgstr "标签"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "The"
-msgstr "此"
+msgstr "这"
 
 #. module: calendar
 #: code:addons/calendar/calendar.py:1395
@@ -1680,7 +1680,7 @@ msgstr "星期二"
 #. module: calendar
 #: field:calendar.alarm,type:0
 msgid "Type"
-msgstr "Type"
+msgstr "类型"
 
 #. module: calendar
 #: selection:calendar.attendee,state:0
@@ -1697,13 +1697,13 @@ msgstr "未确认"
 #. module: calendar
 #: field:calendar.alarm,interval:0
 msgid "Unit"
-msgstr "Unit"
+msgstr "单件"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_search
 #: field:calendar.event,message_unread:0
 msgid "Unread Messages"
-msgstr "未读信息"
+msgstr "未读消息"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
@@ -1721,7 +1721,7 @@ msgstr "Update only this instance"
 #: code:addons/calendar/calendar.py:1658
 #, python-format
 msgid "Warning!"
-msgstr "警告！"
+msgstr "Warning!"
 
 #. module: calendar
 #: model:mail.message.subtype,description:calendar.subtype_invitation
@@ -1790,7 +1790,7 @@ msgstr "你不能复制日程参与者"
 #. module: calendar
 #: field:calendar.contacts,active:0
 msgid "active"
-msgstr "active"
+msgstr "有效"
 
 #. module: calendar
 #: field:calendar.event,color_partner_id:0

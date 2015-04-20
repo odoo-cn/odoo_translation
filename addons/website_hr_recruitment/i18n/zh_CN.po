@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:27+0000\n"
-"PO-Revision-Date: 2015-04-19 15:27+0000\n"
+"POT-Creation-Date: 2015-04-20 10:51+0000\n"
+"PO-Revision-Date: 2015-04-20 10:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -63,13 +63,13 @@ msgstr "Job Detail"
 #. module: website_hr_recruitment
 #: model:ir.model,name:website_hr_recruitment.model_hr_job
 msgid "Job Position"
-msgstr "Job Position"
+msgstr "工作岗位"
 
 #. module: website_hr_recruitment
 #: view:website:website.layout
 #: model:website.menu,name:website_hr_recruitment.menu_jobs
 msgid "Jobs"
-msgstr "Jobs"
+msgstr "工作"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
@@ -120,7 +120,7 @@ msgstr "Published"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Resume"
-msgstr "Resume"
+msgstr "重新开始"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply

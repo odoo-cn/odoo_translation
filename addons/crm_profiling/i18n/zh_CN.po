@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:17+0000\n"
-"PO-Revision-Date: 2015-04-19 15:17+0000\n"
+"POT-Creation-Date: 2015-04-20 10:43+0000\n"
+"PO-Revision-Date: 2015-04-20 10:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -63,7 +63,7 @@ msgstr "子客户特征"
 #: field:open.questionnaire,create_uid:0
 #: field:open.questionnaire.line,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: crm_profiling
 #: field:crm_profiling.answer,create_date:0
@@ -72,7 +72,7 @@ msgstr "Created by"
 #: field:open.questionnaire,create_date:0
 #: field:open.questionnaire.line,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: crm_profiling
 #: view:crm_profiling.questionnaire:crm_profiling.view_questionnaire_form
@@ -111,7 +111,7 @@ msgstr "包括的答案"
 #: field:open.questionnaire,write_uid:0
 #: field:open.questionnaire.line,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: crm_profiling
 #: field:crm_profiling.answer,write_date:0
@@ -120,7 +120,7 @@ msgstr "Last Updated by"
 #: field:open.questionnaire,write_date:0
 #: field:open.questionnaire.line,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: crm_profiling
 #: model:ir.actions.act_window,name:crm_profiling.action_open_questionnaire
@@ -137,7 +137,7 @@ msgstr "上级客户特征"
 #. module: crm_profiling
 #: model:ir.model,name:crm_profiling.model_res_partner
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: crm_profiling
 #: model:ir.model,name:crm_profiling.model_crm_segmentation
@@ -231,5 +231,5 @@ msgstr "你能创建特定主题的问卷调查去指导你的团队在销售周
 #: view:open.questionnaire:crm_profiling.open_questionnaire_form
 #: view:open.questionnaire:crm_profiling.view_open_questionnaire_form
 msgid "or"
-msgstr "or"
+msgstr "或"
 

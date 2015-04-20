@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:22+0000\n"
-"PO-Revision-Date: 2015-04-19 15:22+0000\n"
+"POT-Creation-Date: 2015-04-20 10:47+0000\n"
+"PO-Revision-Date: 2015-04-20 10:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -25,7 +25,7 @@ msgstr "# 个产品变体"
 #: code:addons/product/product.py:1148
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (副本)"
+msgstr "%s (copy)"
 
 #. module: product
 #: view:product.template:product.product_template_only_form_view
@@ -238,12 +238,12 @@ msgstr "精确的产品描述，仅用于内部备注。"
 #: field:product.template,active:0
 #: field:product.uom,active:0
 msgid "Active"
-msgstr "启用"
+msgstr "有效"
 
 #. module: product
 #: model:product.category,name:product.product_category_all
 msgid "All"
-msgstr "All"
+msgstr "全部"
 
 #. module: product
 #: help:product.supplierinfo,sequence:0
@@ -377,12 +377,12 @@ msgstr "类别类型"
 #. module: product
 #: field:product.category,child_id:0
 msgid "Child Categories"
-msgstr "子类别"
+msgstr "子分类"
 
 #. module: product
 #: field:product.packaging,code:0
 msgid "Code"
-msgstr "代码"
+msgstr "编码"
 
 #. module: product
 #: help:product.template,uos_coeff:0
@@ -443,7 +443,7 @@ msgstr "产品单位 %s 与默认单位 %s 无法转换，二者属于不同的�
 #: model:product.price.type,name:product.standard_price
 #: field:product.template,standard_price:0
 msgid "Cost Price"
-msgstr "成本价格"
+msgstr "成本价"
 
 #. module: product
 #: help:product.template,standard_price:0
@@ -496,7 +496,7 @@ msgstr "创建者"
 #: field:product.uom,create_date:0
 #: field:product.uom.categ,create_date:0
 msgid "Created on"
-msgstr "创建时间"
+msgstr "创建于"
 
 #. module: product
 #: model:ir.model,name:product.model_res_currency
@@ -504,7 +504,7 @@ msgstr "创建时间"
 #: field:product.pricelist,currency_id:0
 #: view:website:product.report_pricelist
 msgid "Currency"
-msgstr "货币"
+msgstr "币别"
 
 #. module: product
 #: field:product.product,partner_ref:0
@@ -515,12 +515,12 @@ msgstr "客户参考"
 #: help:product.product,message_last_post:0
 #: help:product.template,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_day
 msgid "Day(s)"
-msgstr "Day(s)"
+msgstr "天"
 
 #. module: product
 #: model:product.pricelist.version,name:product.ver0
@@ -604,13 +604,13 @@ msgstr "生命周期结束"
 #. module: product
 #: constraint:product.category:0
 msgid "Error ! You cannot create recursive categories."
-msgstr "错误！您不能创建循环的类别。"
+msgstr "错误！您不能创建循环分类。"
 
 #. module: product
 #: code:addons/product/product.py:182
 #, python-format
 msgid "Error!"
-msgstr "错误！"
+msgstr "Error!"
 
 #. module: product
 #: constraint:product.pricelist.item:0
@@ -635,7 +635,7 @@ msgstr "错误，你不能定义 科目的小数位数大于 公司本位币的�
 #. module: product
 #: constraint:product.packaging:0
 msgid "Error: Invalid ean code"
-msgstr "错误：无效的(EAN)条码"
+msgstr "错误：无效的EAN编码"
 
 #. module: product
 #: constraint:product.template:0
@@ -655,7 +655,7 @@ msgstr "这个版本的第一个有效期"
 #. module: product
 #: selection:product.template,mes_type:0
 msgid "Fixed"
-msgstr "固定的"
+msgstr "固定"
 
 #. module: product
 #: field:product.product,message_follower_ids:0
@@ -688,7 +688,7 @@ msgstr "显示包装信息的顺序号"
 #. module: product
 #: help:product.category,sequence:0
 msgid "Gives the sequence order when displaying a list of product categories."
-msgstr "显示产品列表的顺序号"
+msgstr "显示产品类别列表的顺序号"
 
 #. module: product
 #: field:product.template,weight:0
@@ -698,7 +698,7 @@ msgstr "毛重"
 #. module: product
 #: view:product.template:product.product_template_search_view
 msgid "Group by..."
-msgstr "Group by..."
+msgstr "分组"
 
 #. module: product
 #: field:product.ul,height:0
@@ -719,12 +719,12 @@ msgstr "Historized Cost"
 #: help:product.product,message_summary:0
 #: help:product.template,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: product
 #: model:product.uom,name:product.product_uom_hour
 msgid "Hour(s)"
-msgstr "Hour(s)"
+msgstr "小时数"
 
 #. module: product
 #: help:product.uom,factor_inv:0
@@ -763,13 +763,13 @@ msgstr "本计量单位和参考计量单位相比，大或者小的倍数。\n"
 #: field:product.uom.categ,id:0
 #: field:report.product.report_pricelist,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: product
 #: help:product.product,message_unread:0
 #: help:product.template,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: product
 #: help:product.pricelist,active:0
@@ -785,7 +785,7 @@ msgstr "如果不选中，允许你隐藏这个产品而无需删除。"
 #. module: product
 #: field:product.template,image:0
 msgid "Image"
-msgstr "图片"
+msgstr "图像"
 
 #. module: product
 #: help:product.product,image:0
@@ -833,7 +833,7 @@ msgstr "内部分类"
 #: field:product.product,default_code:0
 #: field:product.template,default_code:0
 msgid "Internal Reference"
-msgstr "内部参考"
+msgstr "内部单号"
 
 #. module: product
 #: help:product.product,ean13:0
@@ -865,13 +865,13 @@ msgstr "项目列表"
 #. module: product
 #: field:product.pricelist.type,key:0
 msgid "Key"
-msgstr "Key"
+msgstr "关键字"
 
 #. module: product
 #: field:product.product,message_last_post:0
 #: field:product.template,message_last_post:0
 msgid "Last Message Date"
-msgstr "最新消息日期"
+msgstr "最后信息日期"
 
 #. module: product
 #: field:pricelist.partnerinfo,write_uid:0
@@ -895,7 +895,7 @@ msgstr "最新消息日期"
 #: field:product.uom,write_uid:0
 #: field:product.uom.categ,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: product
 #: field:pricelist.partnerinfo,write_date:0
@@ -919,7 +919,7 @@ msgstr "最近更新者"
 #: field:product.uom,write_date:0
 #: field:product.uom.categ,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新时间"
+msgstr "最后更新"
 
 #. module: product
 #: help:product.pricelist.version,date_end:0
@@ -1099,7 +1099,7 @@ msgstr "新的计量单位'%s'的类别 '%s'必须跟老单位 '%s' 相同。如
 #: selection:product.category,type:0
 #: selection:product.template,state:0
 msgid "Normal"
-msgstr "常规"
+msgstr "普通"
 
 #. module: product
 #: field:product.packaging,rows:0
@@ -1168,12 +1168,12 @@ msgstr "托盘化"
 #. module: product
 #: field:product.category,parent_id:0
 msgid "Parent Category"
-msgstr "上级类别"
+msgstr "上级分类"
 
 #. module: product
 #: model:ir.model,name:product.model_res_partner
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: product
 #: field:pricelist.partnerinfo,suppinfo_id:0
@@ -2053,7 +2053,7 @@ msgstr "计量单位类别"
 #: field:product.product,message_unread:0
 #: field:product.template,message_unread:0
 msgid "Unread Messages"
-msgstr "未读信息"
+msgstr "未读消息"
 
 #. module: product
 #: help:product.pricelist.type,key:0
@@ -2073,7 +2073,7 @@ msgstr "值"
 #. module: product
 #: selection:product.template,mes_type:0
 msgid "Variable"
-msgstr "可变的"
+msgstr "变量"
 
 #. module: product
 #: field:product.product,price_extra:0
@@ -2126,7 +2126,7 @@ msgstr "警告"
 #: code:addons/product/product.py:215
 #, python-format
 msgid "Warning!"
-msgstr "警告！"
+msgstr "Warning!"
 
 #. module: product
 #: field:product.template,warranty:0
@@ -2266,5 +2266,5 @@ msgstr "母公司"
 #. module: product
 #: field:product.price.history,company_id:0
 msgid "unknown"
-msgstr "未知"
+msgstr "未知的"
 

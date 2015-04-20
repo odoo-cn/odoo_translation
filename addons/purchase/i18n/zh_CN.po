@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:23+0000\n"
-"PO-Revision-Date: 2015-04-19 15:23+0000\n"
+"POT-Creation-Date: 2015-04-20 10:48+0000\n"
+"PO-Revision-Date: 2015-04-20 10:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -285,18 +285,18 @@ msgstr " *当采购单在草稿状态时，自动设置为“草稿”。\n"
 #: code:addons/purchase/stock.py:229
 #, python-format
 msgid " Buy"
-msgstr " 买"
+msgstr " 购买"
 
 #. module: purchase
 #: field:product.product,purchase_count:0
 #: field:product.template,purchase_count:0
 msgid "# Purchases"
-msgstr "笔采购单"
+msgstr "#采购"
 
 #. module: purchase
 #: field:res.partner,supplier_invoice_count:0
 msgid "# Supplier Invoices"
-msgstr "笔供应商发票"
+msgstr "#供应商发票"
 
 #. module: purchase
 #: field:purchase.report,nbr:0
@@ -306,7 +306,7 @@ msgstr "# 明细"
 #. module: purchase
 #: field:res.partner,purchase_order_count:0
 msgid "# of Purchase Order"
-msgstr "采购订单号"
+msgstr "# 采购订单"
 
 #. module: purchase
 #: model:email.template,subject:purchase.email_template_edi_purchase
@@ -457,11 +457,11 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "          </p>\n"
 "        "
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"            点击以创建一份发票草稿。\n"
+"            点击以创建一份草稿发票。\n"
 "          </p><p>\n"
-"            此菜单用来控制从供应商那里收到的发票。Odoo会按照你的设置，根据你的采购订单或收货单生成发票草稿。\n"
+"            此菜单用来控制从供应商那里收到的发票。Odoo会按照你的设置，根据你的采购订单或收货单生成草稿发票。\n"
 "          </p><p>\n"
-"            一旦收到了供应商的发票，你可以将它与发票草稿进行对比，从而核准发票草稿。\n"
+"            一旦收到了供应商的发票，你可以将它与草稿发票进行对比，从而核准草稿发票。\n"
 "          </p>\n"
 "        "
 
@@ -501,7 +501,7 @@ msgid "<p>\n"
 "                draft supplier invoice based on the lines from this list.\n"
 "              </p>\n"
 "            "
-msgstr "当开票方式是“基于采购单行”，这里能跟踪采购订单的所有行 ，以及哪些还没有收到供应商发票。你能基于这个列表生成一个供应商发票草稿。\n"
+msgstr "当开票方式是“基于采购单行”，这里能跟踪采购订单的所有行 ，以及哪些还没有收到供应商发票。你能基于这个列表生成一个供应商草稿发票。\n"
 "            "
 
 #. module: purchase
@@ -567,13 +567,13 @@ msgstr "分析账户"
 #. module: purchase
 #: model:res.groups,name:purchase.group_analytic_accounting
 msgid "Analytic Accounting for Purchases"
-msgstr "采购的分析"
+msgstr "采购的分析会计"
 
 #. module: purchase
 #: field:account.config.settings,group_analytic_account_for_purchases:0
 #: field:purchase.config.settings,group_analytic_account_for_purchases:0
 msgid "Analytic accounting for purchases"
-msgstr "采购的分析"
+msgstr "采购的分析会计"
 
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
@@ -609,7 +609,7 @@ msgstr "Average Delivery Time"
 #. module: purchase
 #: field:purchase.report,price_average:0
 msgid "Average Price"
-msgstr "均价"
+msgstr "平均价格"
 
 #. module: purchase
 #: field:stock.warehouse,buy_pull_id:0
@@ -633,7 +633,7 @@ msgstr "Based on Purchase Order lines: place individual lines in 'Invoice Contro
 #. module: purchase
 #: selection:purchase.order,invoice_method:0
 msgid "Based on generated draft invoice"
-msgstr "基于生成的发票草稿"
+msgstr "基于生成的草稿发票"
 
 #. module: purchase
 #: selection:purchase.config.settings,default_invoice_method:0
@@ -672,7 +672,7 @@ msgstr "购买"
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_calendar
 msgid "Calendar View"
-msgstr "日程表视图"
+msgstr "日历视图"
 
 #. module: purchase
 #: help:purchase.config.settings,module_purchase_requisition:0
@@ -687,7 +687,7 @@ msgstr "Calls for bids are used when you want to generate requests for quotation
 #: view:product.template:purchase.product_template_search_view_purchase
 #: field:product.template,purchase_ok:0
 msgid "Can be Purchased"
-msgstr "可被采购"
+msgstr "可采购"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1203
@@ -754,7 +754,7 @@ msgstr "公司"
 #: code:addons/purchase/purchase.py:522
 #, python-format
 msgid "Compose Email"
-msgstr "编辑邮件"
+msgstr "Compose Email"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_config_purchase
@@ -765,7 +765,7 @@ msgstr "设置"
 #: code:addons/purchase/purchase.py:1245
 #, python-format
 msgid "Configuration Error!"
-msgstr "设置错误!"
+msgstr "Configuration Error!"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_purchase_configuration
@@ -799,7 +799,7 @@ msgstr "创建发票"
 #: field:purchase.order.line,create_uid:0
 #: field:purchase.order.line_invoice,create_uid:0
 msgid "Created by"
-msgstr "创建者者"
+msgstr "创建者"
 
 #. module: purchase
 #: field:purchase.config.settings,create_date:0
@@ -808,12 +808,12 @@ msgstr "创建者者"
 #: field:purchase.order.line,create_date:0
 #: field:purchase.order.line_invoice,create_date:0
 msgid "Created on"
-msgstr "创建于时间"
+msgstr "创建于"
 
 #. module: purchase
 #: field:purchase.order,currency_id:0
 msgid "Currency"
-msgstr "币种"
+msgstr "币别"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_form
@@ -823,7 +823,7 @@ msgstr "客户地址"
 #. module: purchase
 #: field:purchase.order,dest_address_id:0
 msgid "Customer Address (Direct Delivery)"
-msgstr "客户地址（直接发运）"
+msgstr "客户地址（直接交货）"
 
 #. module: purchase
 #: field:purchase.order,date_approve:0
@@ -839,7 +839,7 @@ msgstr "要求日期"
 #. module: purchase
 #: help:purchase.order,message_last_post:0
 msgid "Date of the last message posted on the record."
-msgstr "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
 
 #. module: purchase
 #: help:purchase.order,date_approve:0
@@ -896,7 +896,7 @@ msgstr "Define an expense account for this product: \"%s\" (id:%d)."
 #: code:addons/purchase/purchase.py:610
 #, python-format
 msgid "Define purchase journal for this company: \"%s\" (id:%d)."
-msgstr "为公司 \"%s\" (id:%d)  定义采购账簿。"
+msgstr "为公司 \"%s\" (id:%d)  定义采购分类账。"
 
 #. module: purchase
 #: field:purchase.order,picking_type_id:0
@@ -924,7 +924,7 @@ msgstr "说明"
 #: field:purchase.order,location_id:0
 #: field:purchase.report,location_id:0
 msgid "Destination"
-msgstr "目的地"
+msgstr "目标库位"
 
 #. module: purchase
 #: view:purchase.order.line_invoice:purchase.view_purchase_line_invoice
@@ -973,7 +973,7 @@ msgstr "电子邮件模板"
 #. module: purchase
 #: model:ir.model,name:purchase.model_mail_compose_message
 msgid "Email composition wizard"
-msgstr "邮件向导"
+msgstr "Email撰写向导"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:158
@@ -986,7 +986,7 @@ msgstr "邮件向导"
 #: code:addons/purchase/stock.py:226
 #, python-format
 msgid "Error!"
-msgstr "错误!"
+msgstr "Error!"
 
 #. module: purchase
 #: view:purchase.order:purchase.view_purchase_order_filter
@@ -1015,7 +1015,7 @@ msgstr "Extended Filters"
 #. module: purchase
 #: field:purchase.order,fiscal_position:0
 msgid "Fiscal Position"
-msgstr "财务结构"
+msgstr "替换规则"
 
 #. module: purchase
 #: field:purchase.order,message_follower_ids:0
@@ -1033,7 +1033,7 @@ msgstr "强制两级批准"
 #: view:purchase.order.line:purchase.purchase_order_line_search
 #: view:purchase.report:purchase.view_purchase_order_search
 msgid "Group By"
-msgstr "分组方式"
+msgstr "分组于"
 
 #. module: purchase
 #: view:purchase.order.line:purchase.purchase_order_line_search
@@ -1043,7 +1043,7 @@ msgstr "隐藏已取消明细行"
 #. module: purchase
 #: help:purchase.order,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: purchase
 #: field:purchase.config.settings,id:0
@@ -1058,7 +1058,7 @@ msgstr "ID"
 #. module: purchase
 #: help:purchase.order,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_2_stock_picking
@@ -1114,12 +1114,12 @@ msgstr "国际商业条款是一系列预定义的用于国际贸易的商业条
 #: code:addons/purchase/purchase.py:1028
 #, python-format
 msgid "Invalid Action!"
-msgstr "非法的动作"
+msgstr "Invalid Action!"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice
 msgid "Invoice"
-msgstr "Invoice"
+msgstr "开发票"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_invoice
@@ -1135,7 +1135,7 @@ msgstr "发票异常"
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: purchase
 #: field:purchase.order.line,invoice_lines:0
@@ -1168,7 +1168,7 @@ msgstr "Invoiceable on incoming shipment?"
 #: field:purchase.order,invoiced_rate:0
 #: field:purchase.order.line,invoiced:0
 msgid "Invoiced"
-msgstr "已开票"
+msgstr "已开发票"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_2_stock_picking
@@ -1185,7 +1185,7 @@ msgstr "Invoices and Incoming Shipments"
 #. module: purchase
 #: help:purchase.order,invoice_ids:0
 msgid "Invoices generated for a purchase order"
-msgstr "采购订单的发票已开"
+msgstr "采购订单的发票已生成"
 
 #. module: purchase
 #: field:purchase.order,invoice_method:0
@@ -1220,12 +1220,12 @@ msgstr "It indicates that an invoice has been validated"
 #. module: purchase
 #: field:purchase.order,journal_id:0
 msgid "Journal"
-msgstr "凭证簿"
+msgstr "分类账"
 
 #. module: purchase
 #: field:purchase.order,message_last_post:0
 msgid "Last Message Date"
-msgstr "最新消息日期"
+msgstr "最后信息日期"
 
 #. module: purchase
 #: field:purchase.config.settings,write_uid:0
@@ -1234,7 +1234,7 @@ msgstr "最新消息日期"
 #: field:purchase.order.line,write_uid:0
 #: field:purchase.order.line_invoice,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: purchase
 #: field:purchase.config.settings,write_date:0
@@ -1243,7 +1243,7 @@ msgstr "最近更新者"
 #: field:purchase.order.line,write_date:0
 #: field:purchase.order.line_invoice,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新于"
+msgstr "最后更新"
 
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
@@ -1389,7 +1389,7 @@ msgstr "打开采购菜单"
 #: field:purchase.order.line,date_order:0
 #: field:purchase.report,date:0
 msgid "Order Date"
-msgstr "订单日期"
+msgstr "单据日期"
 
 #. module: purchase
 #: view:website:purchase.report_purchaseorder_document
@@ -1459,7 +1459,7 @@ msgstr "PO_${(object.name or '').replace('/','_')}"
 #: model:ir.model,name:purchase.model_res_partner
 #: field:purchase.order.line,partner_id:0
 msgid "Partner"
-msgstr "合作伙伴"
+msgstr "业务伙伴"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_partner_categories_in_form
@@ -1469,7 +1469,7 @@ msgstr "合作伙伴标签"
 #. module: purchase
 #: field:purchase.order,payment_term_id:0
 msgid "Payment Term"
-msgstr "支付条款"
+msgstr "付款条款"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_picking
@@ -1513,7 +1513,7 @@ msgstr "请在此列表中选择多张待合并的订单"
 #. module: purchase
 #: selection:purchase.config.settings,default_invoice_method:0
 msgid "Pre-generate draft invoices based on purchase orders"
-msgstr "基于采购订单预先生成发票草稿"
+msgstr "基于采购订单预先生成草稿发票"
 
 #. module: purchase
 #: model:ir.filters,name:purchase.filter_purchase_order_price_per_supplier
@@ -1551,12 +1551,12 @@ msgstr "打印询价单"
 #. module: purchase
 #: model:ir.model,name:purchase.model_procurement_order
 msgid "Procurement"
-msgstr "需求单"
+msgstr "补货"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_procurement_rule
 msgid "Procurement Rule"
-msgstr "产品需求规则"
+msgstr "补货规则"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_product_product
@@ -1733,7 +1733,7 @@ msgstr "采购 - 标准单价"
 #: view:res.partner:purchase.purchase_partner_kanban_view
 #: view:res.partner:purchase.res_partner_view_purchase_buttons
 msgid "Purchases"
-msgstr "采购订单"
+msgstr "采购"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_purchase_report
@@ -1767,7 +1767,7 @@ msgstr "已在现存采购单明细行上添加数量。"
 #: view:purchase.order:purchase.view_request_for_quotation_filter
 #: view:purchase.report:purchase.view_purchase_order_search
 msgid "Quotations"
-msgstr "询价单"
+msgstr "报价单"
 
 #. module: purchase
 #: selection:purchase.order,state:0
@@ -1846,7 +1846,7 @@ msgstr "已接收比例"
 #: view:purchase.order:purchase.view_purchase_order_filter
 #: view:purchase.order:purchase.view_request_for_quotation_filter
 msgid "Reference"
-msgstr "单号"
+msgstr "参考"
 
 #. module: purchase
 #: field:purchase.report,product_uom:0
@@ -1907,12 +1907,12 @@ msgstr "负责人"
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
 msgid "Routes"
-msgstr "路径"
+msgstr "路线"
 
 #. module: purchase
 #: field:purchase.order.line,date_planned:0
 msgid "Scheduled Date"
-msgstr "计划日期"
+msgstr "预定日期"
 
 #. module: purchase
 #: view:purchase.order:purchase.view_purchase_order_filter
@@ -2037,7 +2037,7 @@ msgstr "供应商单号"
 #: field:purchase.order.line,taxes_id:0
 #: view:website:purchase.report_purchaseorder_document
 msgid "Taxes"
-msgstr "税"
+msgstr "税金"
 
 #. module: purchase
 #: field:purchase.order,notes:0
@@ -2127,7 +2127,7 @@ msgstr "合计"
 #. module: purchase
 #: field:purchase.report,price_total:0
 msgid "Total Price"
-msgstr "总价"
+msgstr "总价格"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_tree
@@ -2142,7 +2142,7 @@ msgstr "Total Without Taxes"
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_tree
 msgid "Total amount"
-msgstr "总金额"
+msgstr "总额合计"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:705
@@ -2186,17 +2186,17 @@ msgstr "计量单位"
 #. module: purchase
 #: field:purchase.order,message_unread:0
 msgid "Unread Messages"
-msgstr "未读信息"
+msgstr "未读消息"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_tree
 msgid "Untaxed"
-msgstr "未完税"
+msgstr "未税"
 
 #. module: purchase
 #: field:purchase.order,amount_untaxed:0
 msgid "Untaxed Amount"
-msgstr "未完税金额"
+msgstr "未税金额"
 
 #. module: purchase
 #: field:purchase.config.settings,group_costing_method:0
@@ -2262,7 +2262,7 @@ msgstr "仓库"
 #: code:addons/purchase/wizard/purchase_order_group.py:44
 #, python-format
 msgid "Warning!"
-msgstr "警告！"
+msgstr "Warning!"
 
 #. module: purchase
 #: help:stock.warehouse,buy_to_resupply:0
@@ -2303,10 +2303,10 @@ msgstr "您的订单"
 #: view:purchase.order.group:purchase.view_purchase_order_group
 #: view:purchase.order.line_invoice:purchase.view_purchase_line_invoice
 msgid "or"
-msgstr "or"
+msgstr "或"
 
 #. module: purchase
 #: field:purchase.order,related_usage:0
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知的"
 

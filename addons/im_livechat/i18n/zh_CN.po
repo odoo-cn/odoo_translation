@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:19+0000\n"
-"PO-Revision-Date: 2015-04-19 15:19+0000\n"
+"POT-Creation-Date: 2015-04-20 10:45+0000\n"
+"PO-Revision-Date: 2015-04-20 10:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -110,17 +110,17 @@ msgstr "Are you inside the matrix?"
 #. module: im_livechat
 #: field:im_chat.session,channel_id:0
 msgid "Channel"
-msgstr "Channel"
+msgstr "途径"
 
 #. module: im_livechat
 #: field:im_livechat.channel,name:0
 msgid "Channel Name"
-msgstr "Channel Name"
+msgstr "渠道名称"
 
 #. module: im_livechat
 #: model:ir.ui.menu,name:im_livechat.support_channels
 msgid "Channels"
-msgstr "Channels"
+msgstr "渠道"
 
 #. module: im_livechat
 #: field:im_livechat.channel,input_placeholder:0
@@ -157,7 +157,7 @@ msgstr "创建于"
 #. module: im_livechat
 #: view:im_chat.message:im_livechat.im_message_search
 msgid "Date"
-msgstr "Date"
+msgstr "日期"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
@@ -167,14 +167,14 @@ msgstr "For website built with Odoo CMS, please install the website_livechat mod
 #. module: im_livechat
 #: view:im_chat.message:im_livechat.im_message_search
 msgid "Group By..."
-msgstr "Group By..."
+msgstr "分组..."
 
 #. module: im_livechat
 #: view:im_chat.message:im_livechat.im_message_form
 #: model:ir.actions.act_window,name:im_livechat.action_history
 #: model:ir.ui.menu,name:im_livechat.history
 msgid "History"
-msgstr "History"
+msgstr "历史"
 
 #. module: im_livechat
 #. openerp-web
@@ -206,12 +206,12 @@ msgstr "Join Channel"
 #. module: im_livechat
 #: field:im_livechat.channel,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. module: im_livechat
 #: field:im_livechat.channel,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新于"
+msgstr "最后更新"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
@@ -251,7 +251,7 @@ msgstr "经理"
 #. module: im_livechat
 #: field:im_livechat.channel,image_medium:0
 msgid "Medium-sized photo"
-msgstr "Medium-sized photo"
+msgstr "中等尺寸图片"
 
 #. module: im_livechat
 #: help:im_livechat.channel,image_medium:0
@@ -283,12 +283,12 @@ msgstr "Operators"
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
 msgid "Options"
-msgstr "Options"
+msgstr "选项"
 
 #. module: im_livechat
 #: field:im_livechat.channel,image:0
 msgid "Photo"
-msgstr "Photo"
+msgstr "相片"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_kanban
@@ -318,7 +318,7 @@ msgstr "Session"
 #. module: im_livechat
 #: field:im_livechat.channel,image_small:0
 msgid "Small-sized photo"
-msgstr "Small-sized photo"
+msgstr "小尺寸照片"
 
 #. module: im_livechat
 #: help:im_livechat.channel,image_small:0
@@ -368,7 +368,7 @@ msgstr "用户"
 #. module: im_livechat
 #: field:im_livechat.channel,user_ids:0
 msgid "Users"
-msgstr "Users"
+msgstr "人员"
 
 #. module: im_livechat
 #. openerp-web

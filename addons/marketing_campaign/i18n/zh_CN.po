@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:20+0000\n"
-"PO-Revision-Date: 2015-04-19 15:20+0000\n"
+"POT-Creation-Date: 2015-04-20 10:45+0000\n"
+"PO-Revision-Date: 2015-04-20 10:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: marketing_campaign
 #: field:campaign.analysis,count:0
 msgid "# of Actions"
-msgstr "活动#"
+msgstr "# 动作"
 
 #. module: marketing_campaign
 #: model:ir.actions.act_window,help:marketing_campaign.action_marketing_campaign_form
@@ -52,7 +52,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,server_action_id:0
 msgid "Action"
-msgstr "操作"
+msgstr "动作"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
@@ -79,7 +79,7 @@ msgstr "在%(interval_nbr)d %(interval_type)s之后"
 #. module: marketing_campaign
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_search
 msgid "All"
-msgstr "全选"
+msgstr "全部"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.segment,sync_mode:0
@@ -94,17 +94,17 @@ msgstr "带信号的活动可以通过编程方式访问。请小心，当信号
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "April"
-msgstr "4"
+msgstr "4月"
 
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "August"
-msgstr "8"
+msgstr "8月"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,trigger:0
 msgid "Automatic"
-msgstr "自动的"
+msgstr "自动"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:500
@@ -215,7 +215,7 @@ msgstr "选择此营销活动需要的资源"
 #. module: marketing_campaign
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Close"
-msgstr "结束"
+msgstr "关闭"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,condition:0
@@ -238,7 +238,7 @@ msgstr "成本"
 #. module: marketing_campaign
 #: field:campaign.analysis,country_id:0
 msgid "Country"
-msgstr "国家/地区"
+msgstr "国家"
 
 #. module: marketing_campaign
 #: field:marketing.campaign,create_uid:0
@@ -247,7 +247,7 @@ msgstr "国家/地区"
 #: field:marketing.campaign.transition,create_uid:0
 #: field:marketing.campaign.workitem,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: marketing_campaign
 #: field:marketing.campaign,create_date:0
@@ -256,7 +256,7 @@ msgstr "Created by"
 #: field:marketing.campaign.transition,create_date:0
 #: field:marketing.campaign.workitem,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.activity,type:0
@@ -281,7 +281,7 @@ msgstr "此部分最近关闭或取消的日期"
 #. module: marketing_campaign
 #: field:campaign.analysis,day:0
 msgid "Day"
-msgstr "天"
+msgstr "日"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
@@ -291,7 +291,7 @@ msgstr "天"
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "December"
-msgstr "12"
+msgstr "12月"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.segment,sync_mode:0
@@ -316,7 +316,7 @@ msgstr "Don't Delete Workitems"
 #: selection:marketing.campaign.segment,state:0
 #: selection:marketing.campaign.workitem,state:0
 msgid "Done"
-msgstr "已完成"
+msgstr "完成"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_search
@@ -327,7 +327,7 @@ msgstr "草稿"
 #. module: marketing_campaign
 #: selection:marketing.campaign.activity,type:0
 msgid "Email"
-msgstr "Email"
+msgstr "电子邮件"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:774
@@ -338,7 +338,7 @@ msgstr "邮件预览"
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,email_template_id:0
 msgid "Email Template"
-msgstr "邮件模板"
+msgstr "电子邮件模板"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_email_template
@@ -348,7 +348,7 @@ msgstr "电子邮件模板"
 #. module: marketing_campaign
 #: field:marketing.campaign.segment,date_done:0
 msgid "End Date"
-msgstr "截止日期"
+msgstr "结束日期"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:111
@@ -356,7 +356,7 @@ msgstr "截止日期"
 #: code:addons/marketing_campaign/marketing_campaign.py:133
 #, python-format
 msgid "Error"
-msgstr "出错"
+msgstr "Error"
 
 #. module: marketing_campaign
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_form
@@ -389,12 +389,12 @@ msgstr "Execution Month"
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "February"
-msgstr "2"
+msgstr "2月"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.segment,ir_filter_id:0
 msgid "Filter"
-msgstr "过滤器"
+msgstr "筛选"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.segment,ir_filter_id:0
@@ -414,7 +414,7 @@ msgstr "开展此营销活动的固定成本。你也可以为每个营销活动
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
 msgid "Follow-Up"
-msgstr "Follow-Up"
+msgstr "后续跟进"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -422,7 +422,7 @@ msgstr "Follow-Up"
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_search
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_search
 msgid "Group By"
-msgstr "Group By"
+msgstr "分组于"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
@@ -482,12 +482,12 @@ msgstr "1"
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "July"
-msgstr "7"
+msgstr "7月"
 
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "June"
-msgstr "6"
+msgstr "6月"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.segment,sync_last_date:0
@@ -501,7 +501,7 @@ msgstr "最近同步"
 #: field:marketing.campaign.transition,write_uid:0
 #: field:marketing.campaign.workitem,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: marketing_campaign
 #: field:marketing.campaign,write_date:0
@@ -510,7 +510,7 @@ msgstr "Last Updated by"
 #: field:marketing.campaign.transition,write_date:0
 #: field:marketing.campaign.workitem,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.segment,date_run:0
@@ -586,7 +586,7 @@ msgstr "模型的过滤器必须和营销活动的资源模型一致 "
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
 #: field:campaign.analysis,month:0
 msgid "Month"
-msgstr "月份"
+msgstr "月"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,interval_type:0
@@ -647,22 +647,22 @@ msgstr "无预览"
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
 msgid "Normal"
-msgstr "正常"
+msgstr "普通"
 
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "November"
-msgstr "11"
+msgstr "11月"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,object_id:0
 msgid "Object"
-msgstr "主题"
+msgstr "对象"
 
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "October"
-msgstr "10"
+msgstr "10月"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.segment,sync_mode:0
@@ -688,7 +688,7 @@ msgstr "操作不支持"
 #. module: marketing_campaign
 #: view:marketing.campaign.activity:marketing_campaign.view_marketing_campaign_activity_form
 msgid "Outgoing Transitions"
-msgstr "输出转换"
+msgstr "传出迁移"
 
 #. module: marketing_campaign
 #: field:campaign.analysis,partner_id:0
@@ -722,7 +722,7 @@ msgstr "前一个活动"
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_form
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_tree
 msgid "Process"
-msgstr "流程"
+msgstr "处理"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,condition:0
@@ -743,12 +743,12 @@ msgstr "由Python表达式决定活动是否被执行的，或者被删除，或
 #: field:marketing.campaign.activity,report_id:0
 #: selection:marketing.campaign.activity,type:0
 msgid "Report"
-msgstr "报表"
+msgstr "报告"
 
 #. module: marketing_campaign
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_form
 msgid "Reset"
-msgstr "重置"
+msgstr "清空"
 
 #. module: marketing_campaign
 #: field:campaign.analysis,res_id:0
@@ -789,7 +789,7 @@ msgstr "执行"
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_search
 #: selection:marketing.campaign.segment,state:0
 msgid "Running"
-msgstr "正在运行"
+msgstr "进行中"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -816,7 +816,7 @@ msgstr "片段"
 #. module: marketing_campaign
 #: selection:campaign.analysis,month:0
 msgid "September"
-msgstr "9月"
+msgstr "九月"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,variable_cost:0
@@ -847,7 +847,7 @@ msgstr "开始"
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
 msgid "Statistics"
-msgstr "Statistics"
+msgstr "统计"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -859,7 +859,7 @@ msgstr "Statistics"
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_search
 #: field:marketing.campaign.workitem,state:0
 msgid "Status"
-msgstr "Status"
+msgstr "状态"
 
 #. module: marketing_campaign
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_search

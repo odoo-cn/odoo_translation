@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:14+0000\n"
-"PO-Revision-Date: 2015-04-19 15:14+0000\n"
+"POT-Creation-Date: 2015-04-20 10:40+0000\n"
+"PO-Revision-Date: 2015-04-20 10:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "这个名称和代码的模型已经存在。"
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account_ids:0
 msgid "Account Id"
-msgstr "项 ID"
+msgstr "账户 ID"
 
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
@@ -34,32 +34,32 @@ msgstr "科目名称"
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account1_ids:0
 msgid "Account1 Id"
-msgstr "项1 ID"
+msgstr "账户1 ID"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account2_ids:0
 msgid "Account2 Id"
-msgstr "项2 ID"
+msgstr "账户2 Id"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account3_ids:0
 msgid "Account3 Id"
-msgstr "项3 ID"
+msgstr "账户3 ID"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account4_ids:0
 msgid "Account4 Id"
-msgstr "项4 ID"
+msgstr "账户4 Id"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account5_ids:0
 msgid "Account5 Id"
-msgstr "项5 ID"
+msgstr "账户5 ID"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,account6_ids:0
 msgid "Account6 Id"
-msgstr "项6 ID"
+msgstr "账户6 ID"
 
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
@@ -75,7 +75,7 @@ msgstr "分析账户"
 #: field:account.crossovered.analytic,ref:0
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
 msgid "Analytic Account Reference"
-msgstr "辅助核算项"
+msgstr "分析账户参考"
 
 #. module: account_analytic_plans
 #. openerp-web
@@ -106,7 +106,7 @@ msgstr "分析分摊明细"
 #. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.account_analytic_plan_instance_action
 msgid "Analytic Distribution's Models"
-msgstr "分析分摊模型"
+msgstr "分析分摊的模型"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_plan_instance_line
@@ -118,7 +118,7 @@ msgstr "分析方案实例明细"
 #: view:account.crossovered.analytic:account_analytic_plans.view_account_crossovered_analytic
 #: field:account.crossovered.analytic,journal_ids:0
 msgid "Analytic Journal"
-msgstr "分析账簿"
+msgstr "分析分类账"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_line
@@ -199,7 +199,7 @@ msgstr "公司："
 #: field:account.crossovered.analytic,create_uid:0
 #: field:analytic.plan.create.model,create_uid:0
 msgid "Created by"
-msgstr "创建"
+msgstr "创建者"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan,create_date:0
@@ -209,7 +209,7 @@ msgstr "创建"
 #: field:account.crossovered.analytic,create_date:0
 #: field:analytic.plan.create.model,create_date:0
 msgid "Created on"
-msgstr "创建"
+msgstr "创建于"
 
 #. module: account_analytic_plans
 #: view:account.crossovered.analytic:account_analytic_plans.view_account_crossovered_analytic
@@ -235,7 +235,7 @@ msgstr "分摊代码"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 #, python-format
 msgid "Distribution Model Saved"
-msgstr "分摊模型保存"
+msgstr "分摊模型已保存"
 
 #. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.account_analytic_instance_model_open
@@ -259,7 +259,7 @@ msgstr "结束日期"
 #: code:addons/account_analytic_plans/wizard/analytic_plan_create_model.py:41
 #, python-format
 msgid "Error!"
-msgstr "错误!"
+msgstr "Error!"
 
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
@@ -275,27 +275,27 @@ msgstr "From Date:"
 #: field:analytic.plan.create.model,id:0
 #: field:report.account_analytic_plans.report_crossoveredanalyticplans,id:0
 msgid "ID"
-msgstr "编号"
+msgstr "ID"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_invoice
 msgid "Invoice"
-msgstr "Invoice"
+msgstr "开发票"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_invoice_line
 msgid "Invoice Line"
-msgstr "Invoice Line"
+msgstr "发票明细"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_journal
 msgid "Journal"
-msgstr "账簿"
+msgstr "分类账"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_move_line
 msgid "Journal Items"
-msgstr "账簿项目"
+msgstr "分类账项目"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan,write_uid:0
@@ -452,7 +452,7 @@ msgstr "To Date:"
 #: code:addons/account_analytic_plans/wizard/account_crossovered_analytic.py:62
 #, python-format
 msgid "User Error!"
-msgstr "用户错误！"
+msgstr "User Error!"
 
 #. module: account_analytic_plans
 #: code:addons/account_analytic_plans/account_analytic_plans.py:335

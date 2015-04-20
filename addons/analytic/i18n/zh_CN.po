@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 15:15+0000\n"
-"PO-Revision-Date: 2015-04-19 15:15+0000\n"
+"POT-Creation-Date: 2015-04-20 10:41+0000\n"
+"PO-Revision-Date: 2015-04-20 10:41+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,12 +19,12 @@ msgstr ""
 #: code:addons/analytic/analytic.py:278
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (副本)"
+msgstr "%s (copy)"
 
 #. module: analytic
 #: field:account.analytic.account,child_complete_ids:0
 msgid "Account Hierarchy"
-msgstr "树"
+msgstr "科目层级"
 
 #. module: analytic
 #: field:account.analytic.account,manager_id:0
@@ -72,7 +72,7 @@ msgstr "分析视图"
 #. module: analytic
 #: field:account.analytic.account,balance:0
 msgid "Balance"
-msgstr "结转余额"
+msgstr "余额"
 
 #. module: analytic
 #: help:account.analytic.line,amount:0
@@ -155,12 +155,12 @@ msgstr "创建日期"
 #: field:account.analytic.account,create_uid:0
 #: field:account.analytic.line,create_uid:0
 msgid "Created by"
-msgstr "创建"
+msgstr "创建者"
 
 #. module: analytic
 #: field:account.analytic.account,create_date:0
 msgid "Created on"
-msgstr "创建"
+msgstr "创建于"
 
 #. module: analytic
 #: field:account.analytic.account,credit:0
@@ -207,7 +207,7 @@ msgstr "结束日期"
 #: code:addons/analytic/analytic.py:160
 #, python-format
 msgid "Error!"
-msgstr "错误！"
+msgstr "Error!"
 
 #. module: analytic
 #: constraint:account.analytic.account:0
@@ -272,24 +272,24 @@ msgstr "进行中"
 #. module: analytic
 #: field:account.analytic.account,message_is_follower:0
 msgid "Is a Follower"
-msgstr "是粉丝。"
+msgstr "是一个关注者"
 
 #. module: analytic
 #: field:account.analytic.account,message_last_post:0
 msgid "Last Message Date"
-msgstr "Last Message Date"
+msgstr "最后信息日期"
 
 #. module: analytic
 #: field:account.analytic.account,write_uid:0
 #: field:account.analytic.line,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: analytic
 #: field:account.analytic.account,write_date:0
 #: field:account.analytic.line,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: analytic
 #: field:account.analytic.account,message_ids:0
@@ -351,7 +351,7 @@ msgstr "不允许快速客户创建"
 #. module: analytic
 #: field:account.analytic.account,code:0
 msgid "Reference"
-msgstr "关联单号"
+msgstr "参考"
 
 #. module: analytic
 #: view:account.analytic.account:analytic.view_account_analytic_account_form
@@ -423,7 +423,7 @@ msgstr "用户"
 #: code:addons/analytic/analytic.py:272
 #, python-format
 msgid "Warning"
-msgstr "警告"
+msgstr "Warning"
 
 #. module: analytic
 #: constraint:account.analytic.line:0
