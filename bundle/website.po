@@ -1,67 +1,59 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-# 	* website_event
-# 	* website_twitter
-# 	* website_quote
-# 	* website_livechat
-# 	* website_customer
-# 	* website_event_track
-# 	* website_google_map
-# 	* website_blog
-# 	* website_crm_partner_assign
-# 	* website_gengo
-# 	* website_partner
-# 	* website_crm
-# 	* website_hr_recruitment
-# 	* website_forum_doc
-# 	* website_membership
-# 	* website_sale_delivery
-# 	* website_project
-# 	* website
-# 	* website_payment
-# 	* website_sale
-# 	* website_hr
-# 	* website_forum
-# 	* website_mail
-# 	* website_report
-# 	* website_mail_group
-# 	* website_sale_options
-# 	* website_certification
-# 	* website_event_sale
+#	* website_event
+#	* website_twitter
+#	* website_quote
+#	* website_livechat
+#	* website_customer
+#	* website_event_track
+#	* website_google_map
+#	* website_blog
+#	* website_crm_partner_assign
+#	* website_partner
+#	* website_crm
+#	* website_hr_recruitment
+#	* website_forum_doc
+#	* website_membership
+#	* website_sale_delivery
+#	* website_project
+#	* website
+#	* website_payment
+#	* website_sale
+#	* website_hr
+#	* website_forum
+#	* website_mail
+#	* website_report
+#	* website_mail_group
+#	* website_sale_options
+#	* website_certification
+#	* website_event_sale
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-19 09:02+0000\n"
-"PO-Revision-Date: 2015-04-19 17:43+0800\n"
-"Last-Translator: \n"
+"POT-Creation-Date: 2015-04-19 12:25+0000\n"
+"PO-Revision-Date: 2015-04-19 12:25+0000\n"
+"Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
-"Plural-Forms: nplurals=1; plural=0;\n"
-"Language: zh_CN\n"
-"X-Generator: Poedit 1.6.10\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
 
 #. module: website_quote
 #: model:email.template,body_html:website_quote.email_template_edi_sale
-msgid ""
-"\n"
-"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-"
-"serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, "
-"255, 255); \">\n"
+msgid "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
 "\n"
 "    <p>Hello ${object.partner_id.name},</p>\n"
 "\n"
-"    <p>Here is your ${object.state in ('draft', 'sent') and 'quotation' or "
-"'order confirmation'} from ${object.company_id.name}: </p>\n"
+"    <p>Here is your ${object.state in ('draft', 'sent') and 'quotation' or 'order confirmation'} from ${object.company_id.name}: </p>\n"
 "\n"
 "    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
 "       &nbsp;&nbsp;<strong>REFERENCES</strong><br />\n"
 "       &nbsp;&nbsp;Order number: <strong>${object.name}</strong><br />\n"
-"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object."
-"pricelist_id.currency_id.name}</strong><br />\n"
+"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong><br />\n"
 "       &nbsp;&nbsp;Order date: ${object.date_order}<br />\n"
 "       % if object.origin:\n"
 "       &nbsp;&nbsp;Order reference: ${object.origin}<br />\n"
@@ -70,8 +62,7 @@ msgid ""
 "       &nbsp;&nbsp;Your reference: ${object.client_order_ref}<br />\n"
 "       % endif\n"
 "       % if object.user_id:\n"
-"       &nbsp;&nbsp;Your contact: <a href=\"mailto:${object.user_id.email or "
-"''}?subject=Order%20${object.name}\">${object.user_id.name}</a>\n"
+"       &nbsp;&nbsp;Your contact: <a href=\"mailto:${object.user_id.email or ''}?subject=Order%20${object.name}\">${object.user_id.name}</a>\n"
 "       % endif\n"
 "    </p>\n"
 "\n"
@@ -80,22 +71,15 @@ msgid ""
 "    <p>\n"
 "    You can access this document and pay online via our Customer Portal:\n"
 "    </p>\n"
-"        <a style=\"display:block; width: 150px; height:20px; margin-left: "
-"120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-"
-"serif; font-size: 13px; font-weight: bold; text-align: center; text-"
-"decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; "
-"background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat "
-"no-repeat;\"\n"
-"           href=\"${signup_url}\">View ${object.state in ('draft', 'sent') "
-"and 'Quotation' or 'Order'}</a>\n"
+"        <a style=\"display:block; width: 150px; height:20px; margin-left: 120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; text-align: center; text-decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat no-repeat;\"\n"
+"           href=\"${signup_url}\">View ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'}</a>\n"
 "    % endif\n"
 "\n"
 "    % if object.paypal_url:\n"
 "    <br/>\n"
 "    <p>It is also possible to directly pay with Paypal:</p>\n"
 "        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n"
-"            <img class=\"oe_edi_paypal_button\" src=\"/sale/static/img/"
-"btn_paynowcc_lg.gif\"/>\n"
+"            <img class=\"oe_edi_paypal_button\" src=\"/sale/static/img/btn_paynowcc_lg.gif\"/>\n"
 "        </a>\n"
 "    % endif\n"
 "\n"
@@ -104,16 +88,11 @@ msgid ""
 "    <p>Thank you for choosing ${object.company_id.name or 'us'}!</p>\n"
 "    <br/>\n"
 "    <br/>\n"
-"    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: "
-"#8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; "
-"background-repeat: repeat no-repeat;\">\n"
-"        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: "
-"#DDD;\">\n"
-"            <strong style=\"text-transform:uppercase;\">${object.company_id."
-"name}</strong></h3>\n"
+"    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n"
+"        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n"
+"            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n"
 "    </div>\n"
-"    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: "
-"16px; background-color: #F2F2F2;\">\n"
+"    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
 "        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
 "        % if object.company_id.street:\n"
 "            ${object.company_id.street}<br/>\n"
@@ -125,43 +104,34 @@ msgid ""
 "            ${object.company_id.zip} ${object.company_id.city}<br/>\n"
 "        % endif\n"
 "        % if object.company_id.country_id:\n"
-"            ${object.company_id.state_id and ('%s, ' % object.company_id."
-"state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n"
+"            ${object.company_id.state_id and ('%s, ' % object.company_id.state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n"
 "        % endif\n"
 "        </span>\n"
 "        % if object.company_id.phone:\n"
-"            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: "
-"0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: "
-"0px; padding-left: 0px; \">\n"
+"            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n"
 "                Phone:&nbsp; ${object.company_id.phone}\n"
 "            </div>\n"
 "        % endif\n"
 "        % if object.company_id.website:\n"
 "            <div>\n"
-"                Web :&nbsp;<a href=\"${object.company_id.website}\">${object."
-"company_id.website}</a>\n"
+"                Web :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n"
 "            </div>\n"
 "        % endif\n"
 "        <p></p>\n"
 "    </div>\n"
 "</div>\n"
 "            "
-msgstr ""
-"\n"
-"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-"
-"serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, "
-"255, 255); \">\n"
+msgstr "\n"
+"<div style=\"font-family: 'Lucica Grande', Ubuntu, Arial, Verdana, sans-serif; font-size: 12px; color: rgb(34, 34, 34); background-color: rgb(255, 255, 255); \">\n"
 "\n"
 "    <p>Hello ${object.partner_id.name},</p>\n"
 "\n"
-"    <p>Here is your ${object.state in ('draft', 'sent') and 'quotation' or "
-"'order confirmation'} from ${object.company_id.name}: </p>\n"
+"    <p>Here is your ${object.state in ('draft', 'sent') and 'quotation' or 'order confirmation'} from ${object.company_id.name}: </p>\n"
 "\n"
 "    <p style=\"border-left: 1px solid #8e0000; margin-left: 30px;\">\n"
 "       &nbsp;&nbsp;<strong>REFERENCES</strong><br />\n"
 "       &nbsp;&nbsp;Order number: <strong>${object.name}</strong><br />\n"
-"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object."
-"pricelist_id.currency_id.name}</strong><br />\n"
+"       &nbsp;&nbsp;Order total: <strong>${object.amount_total} ${object.pricelist_id.currency_id.name}</strong><br />\n"
 "       &nbsp;&nbsp;Order date: ${object.date_order}<br />\n"
 "       % if object.origin:\n"
 "       &nbsp;&nbsp;Order reference: ${object.origin}<br />\n"
@@ -170,8 +140,7 @@ msgstr ""
 "       &nbsp;&nbsp;Your reference: ${object.client_order_ref}<br />\n"
 "       % endif\n"
 "       % if object.user_id:\n"
-"       &nbsp;&nbsp;Your contact: <a href=\"mailto:${object.user_id.email or "
-"''}?subject=Order%20${object.name}\">${object.user_id.name}</a>\n"
+"       &nbsp;&nbsp;Your contact: <a href=\"mailto:${object.user_id.email or ''}?subject=Order%20${object.name}\">${object.user_id.name}</a>\n"
 "       % endif\n"
 "    </p>\n"
 "\n"
@@ -180,22 +149,15 @@ msgstr ""
 "    <p>\n"
 "    You can access this document and pay online via our Customer Portal:\n"
 "    </p>\n"
-"        <a style=\"display:block; width: 150px; height:20px; margin-left: "
-"120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-"
-"serif; font-size: 13px; font-weight: bold; text-align: center; text-"
-"decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; "
-"background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat "
-"no-repeat;\"\n"
-"           href=\"${signup_url}\">View ${object.state in ('draft', 'sent') "
-"and 'Quotation' or 'Order'}</a>\n"
+"        <a style=\"display:block; width: 150px; height:20px; margin-left: 120px; color: #DDD; font-family: 'Lucida Grande', Helvetica, Arial, sans-serif; font-size: 13px; font-weight: bold; text-align: center; text-decoration: none !important; line-height: 1; padding: 5px 0px 0px 0px; background-color: #8E0000; border-radius: 5px 5px; background-repeat: repeat no-repeat;\"\n"
+"           href=\"${signup_url}\">View ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'}</a>\n"
 "    % endif\n"
 "\n"
 "    % if object.paypal_url:\n"
 "    <br/>\n"
 "    <p>It is also possible to directly pay with Paypal:</p>\n"
 "        <a style=\"margin-left: 120px;\" href=\"${object.paypal_url}\">\n"
-"            <img class=\"oe_edi_paypal_button\" src=\"/sale/static/img/"
-"btn_paynowcc_lg.gif\"/>\n"
+"            <img class=\"oe_edi_paypal_button\" src=\"/sale/static/img/btn_paynowcc_lg.gif\"/>\n"
 "        </a>\n"
 "    % endif\n"
 "\n"
@@ -204,16 +166,11 @@ msgstr ""
 "    <p>Thank you for choosing ${object.company_id.name or 'us'}!</p>\n"
 "    <br/>\n"
 "    <br/>\n"
-"    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: "
-"#8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; "
-"background-repeat: repeat no-repeat;\">\n"
-"        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: "
-"#DDD;\">\n"
-"            <strong style=\"text-transform:uppercase;\">${object.company_id."
-"name}</strong></h3>\n"
+"    <div style=\"width: 375px; margin: 0px; padding: 0px; background-color: #8E0000; border-top-left-radius: 5px 5px; border-top-right-radius: 5px 5px; background-repeat: repeat no-repeat;\">\n"
+"        <h3 style=\"margin: 0px; padding: 2px 14px; font-size: 12px; color: #DDD;\">\n"
+"            <strong style=\"text-transform:uppercase;\">${object.company_id.name}</strong></h3>\n"
 "    </div>\n"
-"    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: "
-"16px; background-color: #F2F2F2;\">\n"
+"    <div style=\"width: 347px; margin: 0px; padding: 5px 14px; line-height: 16px; background-color: #F2F2F2;\">\n"
 "        <span style=\"color: #222; margin-bottom: 5px; display: block; \">\n"
 "        % if object.company_id.street:\n"
 "            ${object.company_id.street}<br/>\n"
@@ -225,21 +182,17 @@ msgstr ""
 "            ${object.company_id.zip} ${object.company_id.city}<br/>\n"
 "        % endif\n"
 "        % if object.company_id.country_id:\n"
-"            ${object.company_id.state_id and ('%s, ' % object.company_id."
-"state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n"
+"            ${object.company_id.state_id and ('%s, ' % object.company_id.state_id.name) or ''} ${object.company_id.country_id.name or ''}<br/>\n"
 "        % endif\n"
 "        </span>\n"
 "        % if object.company_id.phone:\n"
-"            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: "
-"0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: "
-"0px; padding-left: 0px; \">\n"
+"            <div style=\"margin-top: 0px; margin-right: 0px; margin-bottom: 0px; margin-left: 0px; padding-top: 0px; padding-right: 0px; padding-bottom: 0px; padding-left: 0px; \">\n"
 "                Phone:&nbsp; ${object.company_id.phone}\n"
 "            </div>\n"
 "        % endif\n"
 "        % if object.company_id.website:\n"
 "            <div>\n"
-"                Web :&nbsp;<a href=\"${object.company_id.website}\">${object."
-"company_id.website}</a>\n"
+"                Web :&nbsp;<a href=\"${object.company_id.website}\">${object.company_id.website}</a>\n"
 "            </div>\n"
 "        % endif\n"
 "        <p></p>\n"
@@ -249,21 +202,18 @@ msgstr ""
 
 #. module: website_forum
 #: model:email.template,body_html:website_forum.validation_email
-msgid ""
-"\n"
+msgid "\n"
 "<p>\n"
 "    Hello ${object.name},\n"
 "</p>\n"
 "<p>\n"
-"    You have been invited to validate your email in order to get access to "
-"\"${object.company_id.name}\" Q/A Forums.\n"
+"    You have been invited to validate your email in order to get access to \"${object.company_id.name}\" Q/A Forums.\n"
 "</p>\n"
 "<p>\n"
 "    To validate your email, please click on the following link:\n"
 "</p>\n"
 "<ul>\n"
-"    <li><a href=\"${ctx.get('token_url')}\">Validate my account for "
-"\"${object.company_id.name}\" Q/A Forums</a></li>\n"
+"    <li><a href=\"${ctx.get('token_url')}\">Validate my account for \"${object.company_id.name}\" Q/A Forums</a></li>\n"
 "</ul>\n"
 "<p>\n"
 "    Thanks,\n"
@@ -274,21 +224,18 @@ msgid ""
 "${object.company_id.email or ''}\n"
 "${object.company_id.phone or ''}\n"
 "</pre>"
-msgstr ""
-"\n"
+msgstr "\n"
 "<p>\n"
 "    Hello ${object.name},\n"
 "</p>\n"
 "<p>\n"
-"    You have been invited to validate your email in order to get access to "
-"\"${object.company_id.name}\" Q/A Forums.\n"
+"    You have been invited to validate your email in order to get access to \"${object.company_id.name}\" Q/A Forums.\n"
 "</p>\n"
 "<p>\n"
 "    To validate your email, please click on the following link:\n"
 "</p>\n"
 "<ul>\n"
-"    <li><a href=\"${ctx.get('token_url')}\">Validate my account for "
-"\"${object.company_id.name}\" Q/A Forums</a></li>\n"
+"    <li><a href=\"${ctx.get('token_url')}\">Validate my account for \"${object.company_id.name}\" Q/A Forums</a></li>\n"
 "</ul>\n"
 "<p>\n"
 "    Thanks,\n"
@@ -307,21 +254,13 @@ msgstr "\"OpenERP\""
 
 #. module: website_quote
 #: model:email.template,report_name:website_quote.email_template_edi_sale
-msgid ""
-"${(object.name or '').replace('/','_')}_${object.state == 'draft' and "
-"'draft' or ''}"
-msgstr ""
-"${(object.name or '').replace('/','_')}_${object.state == 'draft' and '草稿' "
-"or ''}"
+msgid "${(object.name or '').replace('/','_')}_${object.state == 'draft' and 'draft' or ''}"
+msgstr "${(object.name or '').replace('/','_')}_${object.state == 'draft' and '草稿' or ''}"
 
 #. module: website_quote
 #: model:email.template,subject:website_quote.email_template_edi_sale
-msgid ""
-"${object.company_id.name|safe} ${object.state in ('draft', 'sent') and "
-"'Quotation' or 'Order'} (Ref ${object.name or 'n/a' })"
-msgstr ""
-"${object.company_id.name|safe} ${object.state in ('draft', 'sent') and "
-"'Quotation' or 'Order'} (Ref ${object.name or 'n/a' })"
+msgid "${object.company_id.name|safe} ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'} (Ref ${object.name or 'n/a' })"
+msgstr "${object.company_id.name|safe} ${object.state in ('draft', 'sent') and 'Quotation' or 'Order'} (Ref ${object.name or 'n/a' })"
 
 #. module: website_forum
 #: model:email.template,subject:website_forum.validation_email
@@ -337,11 +276,9 @@ msgstr "% discount"
 #. module: website_sale_options
 #: code:addons/website_sale_options/models/sale_order.py:46
 #, python-format
-msgid ""
-"%s\n"
+msgid "%s\n"
 "Option for: %s"
-msgstr ""
-"%s\n"
+msgstr "%s\n"
 "Option for: %s"
 
 #. modules: website, website_sale, website_forum_doc, website_event_sale, website_blog
@@ -354,15 +291,18 @@ msgstr ""
 #: view:website:website_blog.latest_blogs
 #: view:website:website_event.event_description_full
 #: view:website:website_forum_doc.documentation_post
-#: view:website:website_sale.cart view:website:website_sale.products_item
+#: view:website:website_sale.cart
+#: view:website:website_sale.products_item
 #, python-format
 msgid "&nbsp;"
 msgstr "&nbsp;"
 
 #. modules: website, website_forum, website_crm, website_quote, website_forum_doc, website_blog
-#: view:website:website.info view:website:website.themes
+#: view:website:website.info
+#: view:website:website.themes
 #: view:website:website_blog.latest_blogs
-#: view:website:website_crm.contactus_thanks view:website:website_forum.header
+#: view:website:website_crm.contactus_thanks
+#: view:website:website_forum.header
 #: view:website:website_forum.post_description_full
 #: view:website:website_quote.so_quotation
 #: view:website:website_quote.so_template
@@ -375,7 +315,8 @@ msgid "' in the box below if you want to confirm."
 msgstr "' in the box below if you want to confirm."
 
 #. modules: website_sale, website_event
-#: view:website:website_event.index view:website:website_sale.products
+#: view:website:website_event.index
+#: view:website:website_sale.products
 msgid "'Content'"
 msgstr "'Content'"
 
@@ -398,21 +339,24 @@ msgstr "(only one answer per question is allowed)"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
-msgid ""
-",\n"
+msgid ",\n"
 "                                  for an amount of"
-msgstr ""
-",\n"
+msgstr ",\n"
 "                                  for an amount of"
 
 #. module: website
 #: view:website:website.info
-msgid ""
-",\n"
+msgid ",\n"
 "                                updated:"
-msgstr ""
-",\n"
+msgstr ",\n"
 "                                updated:"
+
+#. module: website
+#: view:website:website.layout
+msgid ",\n"
+"                the #1"
+msgstr ",\n"
+"                #1"
 
 #. module: website
 #: view:website:website.info
@@ -428,20 +372,6 @@ msgstr ", referenced in Google."
 #: view:website:website.info
 msgid ", updated:"
 msgstr ", 更新:"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:146
-#, python-format
-msgid "- Enable if you using testing account"
-msgstr "- Enable if you using testing account"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:140
-#, python-format
-msgid "- Jobs are Automatically Approved by Gengo."
-msgstr "- Jobs are Automatically Approved by Gengo."
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
@@ -463,33 +393,18 @@ msgstr "-- Create a new address --"
 msgid "-1"
 msgstr "-1"
 
-#. module: website
-#: view:website:website.layout
-msgid ""
-".\n"
-"            Try the"
-msgstr ""
-".\n"
-"            Try the"
+#. module: website_event_track
+#: view:website:website_event_track.event_track_proposal
+msgid ". These are 30 minutes talks on many\n"
+"                                    different topics. Most topics are accepted in lightning talks."
+msgstr ". These are 30 minutes talks on many\n"
+"                                    different topics. Most topics are accepted in lightning talks."
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid ""
-". These are 30 minutes talks on many\n"
-"                                    different topics. Most topics are "
-"accepted in lightning talks."
-msgstr ""
-". These are 30 minutes talks on many\n"
-"                                    different topics. Most topics are "
-"accepted in lightning talks."
-
-#. module: website_event_track
-#: view:website:website_event_track.event_track_proposal
-msgid ""
-". These are standard talks with slides,\n"
+msgid ". These are standard talks with slides,\n"
 "                                    alocated in slots of 60 minutes."
-msgstr ""
-". These are standard talks with slides,\n"
+msgstr ". These are standard talks with slides,\n"
 "                                    alocated in slots of 60 minutes."
 
 #. module: website
@@ -509,26 +424,12 @@ msgstr "1 Item"
 msgid "1. Define Keywords"
 msgstr "1. 定义关键字"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:120
-#, python-format
-msgid "1. Go To your"
-msgstr "1. Go To your"
-
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:40
 #, python-format
 msgid "2. Reference Your Page"
 msgstr "2. Reference Your Page"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:121
-#, python-format
-msgid "2. Then paste generated keys in given form"
-msgstr "2. Then paste generated keys in given form"
 
 #. module: website
 #. openerp-web
@@ -564,66 +465,50 @@ msgstr "50,000+ companies run Odoo to grow their businesses."
 
 #. module: website_quote
 #: view:website:website_quote.so_template
-msgid ""
-":\n"
-"                                this content will appear on the quotation "
-"only if this\n"
+msgid ":\n"
+"                                this content will appear on the quotation only if this\n"
 "                                product is put on the quote."
-msgstr ""
-":\n"
-"                                this content will appear on the quotation "
-"only if this\n"
+msgstr ":\n"
+"                                this content will appear on the quotation only if this\n"
 "                                product is put on the quote."
 
 #. module: website_quote
 #: view:website:website_quote.so_template
-msgid ""
-":\n"
-"                                this content will appear on the quotation "
-"only if this\n"
+msgid ":\n"
+"                                this content will appear on the quotation only if this\n"
 "                                product is used in the quote."
-msgstr ""
-":\n"
-"                                this content will appear on the quotation "
-"only if this\n"
+msgstr ":\n"
+"                                this content will appear on the quotation only if this\n"
 "                                product is used in the quote."
 
 #. module: website_blog
 #: view:website:website_blog.latest_blogs
-msgid ""
-";\n"
-"                   You can review titles, keywords and descriptions of all "
-"blogs at once."
-msgstr ""
-";\n"
-"                   You can review titles, keywords and descriptions of all "
-"blogs at once."
+msgid ";\n"
+"                   You can review titles, keywords and descriptions of all blogs at once."
+msgstr ";\n"
+"                   You can review titles, keywords and descriptions of all blogs at once."
 
 #. module: website_blog
 #: model:ir.actions.act_window,help:website_blog.action_blog_post
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                    Click to create a new blog post.\n"
 "                </p>\n"
 "            "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                    Click to create a new blog post.\n"
 "                </p>\n"
 "            "
 
 #. module: website_event_track
 #: model:ir.actions.act_window,help:website_event_track.act_event_list_tracks
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                  Click to add a track.\n"
 "              </p><p>\n"
 "                  Tracks define the agenda of your event. These can be\n"
 "                  a talk, a round table, a meeting, etc.\n"
 "              </p>\n"
 "            "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                  Click to add a track.\n"
 "              </p><p>\n"
 "                  Tracks define the agenda of your event. These can be\n"
@@ -633,8 +518,7 @@ msgstr ""
 
 #. module: website_sale
 #: model:ir.actions.act_window,help:website_sale.product_public_category_action
-msgid ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgid "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to define a new category.\n"
 "          </p><p>\n"
 "            Categories are used to browse your products through the\n"
@@ -645,8 +529,7 @@ msgid ""
 "            a photo on categories for small (1024x768) screens.\n"
 "          </p>\n"
 "        "
-msgstr ""
-"<p class=\"oe_view_nocontent_create\">\n"
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "            Click to define a new category.\n"
 "          </p><p>\n"
 "            Categories are used to browse your products through the\n"
@@ -660,43 +543,29 @@ msgstr ""
 
 #. module: website
 #: model:ir.actions.act_window,help:website.action_module_website
-msgid ""
-"<p><b>No website module found!</b></p>\n"
+msgid "<p><b>No website module found!</b></p>\n"
 "              <p>You should try others search criteria.</p>\n"
 "            "
-msgstr ""
-"<p><b>No website module found!</b></p>\n"
+msgstr "<p><b>No website module found!</b></p>\n"
 "              <p>You should try others search criteria.</p>\n"
 "            "
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:378
 #, python-format
-msgid ""
-"<p>A new answer for <i>%s</i> has been posted. <a href=\"%s/forum/%s/"
-"question/%s\">Click here to access the post.</a></p>"
-msgstr ""
-"<p>A new answer for <i>%s</i> has been posted. <a href=\"%s/forum/%s/"
-"question/%s\">Click here to access the post.</a></p>"
+msgid "<p>A new answer for <i>%s</i> has been posted. <a href=\"%s/forum/%s/question/%s\">Click here to access the post.</a></p>"
+msgstr "<p>A new answer for <i>%s</i> has been posted. <a href=\"%s/forum/%s/question/%s\">Click here to access the post.</a></p>"
 
 #. module: website_forum
 #: code:addons/website_forum/models/forum.py:384
 #, python-format
-msgid ""
-"<p>A new question <i>%s</i> has been asked on %s. <a href=\"%s/forum/%s/"
-"question/%s\">Click here to access the question.</a></p>"
-msgstr ""
-"<p>A new question <i>%s</i> has been asked on %s. <a href=\"%s/forum/%s/"
-"question/%s\">Click here to access the question.</a></p>"
+msgid "<p>A new question <i>%s</i> has been asked on %s. <a href=\"%s/forum/%s/question/%s\">Click here to access the question.</a></p>"
+msgstr "<p>A new question <i>%s</i> has been asked on %s. <a href=\"%s/forum/%s/question/%s\">Click here to access the question.</a></p>"
 
 #. module: website_forum
 #: model:forum.forum,description:website_forum.forum_help
-msgid ""
-"<p>This community is for professionals and enthusiasts of our products and "
-"services.</p>"
-msgstr ""
-"<p>This community is for professionals and enthusiasts of our products and "
-"services.</p>"
+msgid "<p>This community is for professionals and enthusiasts of our products and services.</p>"
+msgstr "<p>This community is for professionals and enthusiasts of our products and services.</p>"
 
 #. modules: website, website_mail
 #: view:website:website.snippets
@@ -729,16 +598,8 @@ msgstr "A calm blue sky"
 
 #. module: website
 #: help:ir.actions.server,website_published:0
-msgid ""
-"A code server action can be executed from the website, using a "
-"dedicatedcontroller. The address is <base>/website/action/<website_path>.Set "
-"this field as True to allow users to run this action. If itset to is False "
-"the action cannot be run through the website."
-msgstr ""
-"A code server action can be executed from the website, using a "
-"dedicatedcontroller. The address is <base>/website/action/<website_path>.Set "
-"this field as True to allow users to run this action. If itset to is False "
-"the action cannot be run through the website."
+msgid "A code server action can be executed from the website, using a dedicatedcontroller. The address is <base>/website/action/<website_path>.Set this field as True to allow users to run this action. If itset to is False the action cannot be run through the website."
+msgstr "A code server action can be executed from the website, using a dedicatedcontroller. The address is <base>/website/action/<website_path>.Set this field as True to allow users to run this action. If itset to is False the action cannot be run through the website."
 
 #. module: website
 #: view:website:website.themes
@@ -753,34 +614,22 @@ msgstr "A good subtitle"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid ""
-"A great way to catch your reader's attention is to tell a story.\n"
-"                                    Everything you consider writing can be "
-"told as a story."
-msgstr ""
-"A great way to catch your reader's attention is to tell a story.\n"
-"                                    Everything you consider writing can be "
-"told as a story."
+msgid "A great way to catch your reader's attention is to tell a story.\n"
+"                                    Everything you consider writing can be told as a story."
+msgstr "A great way to catch your reader's attention is to tell a story.\n"
+"                                    Everything you consider writing can be told as a story."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"A great way to catch your reader's attention is to tell a story.\n"
-"                            Everything you consider writing can be told as a "
-"story."
-msgstr ""
-"A great way to catch your reader's attention is to tell a story.\n"
-"                            Everything you consider writing can be told as a "
-"story."
+msgid "A great way to catch your reader's attention is to tell a story.\n"
+"                            Everything you consider writing can be told as a story."
+msgstr "A great way to catch your reader's attention is to tell a story.\n"
+"                            Everything you consider writing can be told as a story."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"A great way to catch your reader's attention is to tell a story. Everything "
-"you consider writing can be told as a story."
-msgstr ""
-"A great way to catch your reader's attention is to tell a story. Everything "
-"you consider writing can be told as a story."
+msgid "A great way to catch your reader's attention is to tell a story. Everything you consider writing can be told as a story."
+msgstr "A great way to catch your reader's attention is to tell a story. Everything you consider writing can be told as a story."
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:223
@@ -795,12 +644,10 @@ msgstr "A small explanation of this great"
 
 #. module: website_forum
 #: view:website:website_forum.tag
-msgid ""
-"A tag is a label that categorizes your question with other,\n"
+msgid "A tag is a label that categorizes your question with other,\n"
 "            similar questions. Using the right tags makes it easier for\n"
 "            others to find and answer your question."
-msgstr ""
-"A tag is a label that categorizes your question with other,\n"
+msgstr "A tag is a label that categorizes your question with other,\n"
 "            similar questions. Using the right tags makes it easier for\n"
 "            others to find and answer your question."
 
@@ -810,7 +657,8 @@ msgid "About This Forum"
 msgstr "About This Forum"
 
 #. modules: website, website_blog
-#: view:website:website.aboutus view:website:website.layout
+#: view:website:website.aboutus
+#: view:website:website.layout
 #: view:website:website_blog.blog_post_short
 msgid "About us"
 msgstr "关于我们"
@@ -862,7 +710,8 @@ msgid "Accessory Products"
 msgstr "Accessory Products"
 
 #. module: website_forum
-#: field:forum.post,active:0 selection:forum.post,state:0
+#: field:forum.post,active:0
+#: selection:forum.post,state:0
 msgid "Active"
 msgstr "Active"
 
@@ -873,18 +722,12 @@ msgstr "Activity"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Adapt these three columns to fit you design need.\n"
-"                            To duplicate, delete or move columns, select "
-"the\n"
-"                            column and use the top icons to perform your "
-"action."
-msgstr ""
-"Adapt these three columns to fit you design need.\n"
-"                            To duplicate, delete or move columns, select "
-"the\n"
-"                            column and use the top icons to perform your "
-"action."
+msgid "Adapt these three columns to fit you design need.\n"
+"                            To duplicate, delete or move columns, select the\n"
+"                            column and use the top icons to perform your action."
+msgstr "Adapt these three columns to fit you design need.\n"
+"                            To duplicate, delete or move columns, select the\n"
+"                            column and use the top icons to perform your action."
 
 #. module: website
 #. openerp-web
@@ -936,7 +779,8 @@ msgid "Add a great slogan"
 msgstr "Add a great slogan"
 
 #. modules: website, website_report
-#: view:website:website.layout view:website:website_report.layout
+#: view:website:website.layout
+#: view:website:website_report.layout
 msgid "Add a language..."
 msgstr "添加一个语言..."
 
@@ -969,7 +813,8 @@ msgid "Add page in menu"
 msgstr "在菜单添加页面"
 
 #. modules: website_sale, website_sale_options
-#: view:website:website_sale.cart view:website:website_sale.product
+#: view:website:website_sale.cart
+#: view:website:website_sale.product
 #: view:website:website_sale_options.modal
 msgid "Add to Cart"
 msgstr "Add to Cart"
@@ -1036,21 +881,15 @@ msgstr "All Tags"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"All these icons are licensed under creative commons so that you can use them."
-msgstr ""
-"All these icons are licensed under creative commons so that you can use them."
+msgid "All these icons are licensed under creative commons so that you can use them."
+msgstr "All these icons are licensed under creative commons so that you can use them."
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid ""
-"Allow video and audio recording of their\n"
-"                                    presentation, for publishing on our "
-"website."
-msgstr ""
-"Allow video and audio recording of their\n"
-"                                    presentation, for publishing on our "
-"website."
+msgid "Allow video and audio recording of their\n"
+"                                    presentation, for publishing on our website."
+msgstr "Allow video and audio recording of their\n"
+"                                    presentation, for publishing on our website."
 
 #. module: website_mail
 #: model:res.groups,comment:website_mail.group_comment
@@ -1061,13 +900,6 @@ msgstr "Allows website visitors to post comments on blogs, etc."
 #: view:website:website_mail_group.mail_groups
 msgid "Alone we can do so little, together we can do so much"
 msgstr "Alone we can do so little, together we can do so much"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:29
-#, python-format
-msgid "Already translated content"
-msgstr "Already translated content"
 
 #. module: website
 #. openerp-web
@@ -1155,7 +987,8 @@ msgid "Answered on"
 msgstr "Answered on"
 
 #. module: website_forum
-#: field:forum.post,child_count:0 field:forum.post,child_ids:0
+#: field:forum.post,child_count:0
+#: field:forum.post,child_ids:0
 #: view:website:website_forum.display_post
 #: view:website:website_forum.user_detail_full
 msgid "Answers"
@@ -1177,9 +1010,11 @@ msgid "Application"
 msgstr "Application"
 
 #. modules: website, website_sale, website_hr_recruitment
-#: view:website:website.themes view:website:website.view_website_form
+#: view:website:website.themes
+#: view:website:website.view_website_form
 #: view:website.config.settings:website.view_website_config_settings
-#: view:website:website_hr_recruitment.detail view:website:website_sale.cart
+#: view:website:website_hr_recruitment.detail
+#: view:website:website_sale.cart
 msgid "Apply"
 msgstr "应用"
 
@@ -1252,7 +1087,8 @@ msgstr "Attachment URL"
 
 #. modules: website_forum, website_event, website_blog
 #: view:blog.post:website_blog.view_blog_post_search
-#: field:blog.post,author_id:0 field:blog.post,create_uid:0
+#: field:blog.post,author_id:0
+#: field:blog.post,create_uid:0
 #: view:website:website_event.index
 #: view:forum.post:website_forum.view_forum_post_search
 msgid "Author"
@@ -1263,26 +1099,12 @@ msgstr "Author"
 msgid "Author of this quote"
 msgstr "Author of this quote"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:139
-#, python-format
-msgid "Auto Approve Translation"
-msgstr "Auto Approve Translation"
-
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.snippets.xml:44
 #, python-format
 msgid "Auto Resize"
 msgstr "自动缩放"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:4
-#, python-format
-msgid "Auto Translate"
-msgstr "Auto Translate"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_p_1
@@ -1297,7 +1119,8 @@ msgid "Autoplay"
 msgstr "自动播放"
 
 #. modules: website_event_track, website_hr, website_sale, website_sale_delivery
-#: field:event.track,website_published:0 field:hr.employee,website_published:0
+#: field:event.track,website_published:0
+#: field:hr.employee,website_published:0
 #: field:product.template,website_published:0
 #: field:delivery.carrier,website_published:0
 msgid "Available in the website"
@@ -1319,7 +1142,8 @@ msgid "Baby Blue"
 msgstr "Baby Blue"
 
 #. modules: website, website_mail
-#: view:website:website.500 view:website:website_mail.email_designer
+#: view:website:website.500
+#: view:website:website_mail.email_designer
 msgid "Back"
 msgstr "Back"
 
@@ -1359,7 +1183,8 @@ msgid "Badge \""
 msgstr "Badge \""
 
 #. module: website_forum
-#: field:res.users,badge_ids:0 view:website:website_forum.badge
+#: field:res.users,badge_ids:0
+#: view:website:website_forum.badge
 #: view:website:website_forum.header
 #: view:website:website_forum.user_detail_full
 msgid "Badges"
@@ -1402,20 +1227,16 @@ msgstr "Battery: 8 hours"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid ""
-"Before submiting the question, help us improve its quality by\n"
+msgid "Before submiting the question, help us improve its quality by\n"
 "                        editing the question and the main answer."
-msgstr ""
-"Before submiting the question, help us improve its quality by\n"
+msgstr "Before submiting the question, help us improve its quality by\n"
 "                        editing the question and the main answer."
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid ""
-"Before trying the certification, you can\n"
+msgid "Before trying the certification, you can\n"
 "                                    assess your skills with the sample test."
-msgstr ""
-"Before trying the certification, you can\n"
+msgstr "Before trying the certification, you can\n"
 "                                    assess your skills with the sample test."
 
 #. modules: website, website_mail
@@ -1431,12 +1252,10 @@ msgstr "Benefits of having done this setup"
 
 #. module: website_forum
 #: view:website:website_forum.badge
-msgid ""
-"Besides gaining reputation with your questions and answers,\n"
+msgid "Besides gaining reputation with your questions and answers,\n"
 "            you receive badges for being especially helpful. Badges\n"
 "            appear on your profile page, and your posts."
-msgstr ""
-"Besides gaining reputation with your questions and answers,\n"
+msgstr "Besides gaining reputation with your questions and answers,\n"
 "            you receive badges for being especially helpful. Badges\n"
 "            appear on your profile page, and your posts."
 
@@ -1459,7 +1278,8 @@ msgstr "Bigger Text"
 
 #. modules: website_sale, website_quote
 #: view:website:website_quote.so_quotation
-#: view:website:website_sale.confirmation view:website:website_sale.payment
+#: view:website:website_sale.confirmation
+#: view:website:website_sale.payment
 msgid "Bill To:"
 msgstr "Bill To:"
 
@@ -1487,7 +1307,8 @@ msgstr "Block style"
 
 #. module: website_blog
 #: view:blog.blog:website_blog.view_blog_blog_form
-#: view:blog.post:website_blog.view_blog_post_search field:blog.post,blog_id:0
+#: view:blog.post:website_blog.view_blog_post_search
+#: field:blog.post,blog_id:0
 msgid "Blog"
 msgstr "Blog"
 
@@ -1533,7 +1354,8 @@ msgid "Blog Posts"
 msgstr "Blog Posts"
 
 #. module: website_blog
-#: field:blog.blog,subtitle:0 view:blog.post:website_blog.view_blog_post_form
+#: field:blog.blog,subtitle:0
+#: view:blog.post:website_blog.view_blog_post_form
 msgid "Blog Subtitle"
 msgstr "Blog Subtitle"
 
@@ -1598,13 +1420,6 @@ msgstr "按钮"
 #: view:website:website_sale.product
 msgid "Buy now, get in 2 days"
 msgstr "Buy now, get in 2 days"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:68
-#, python-format
-msgid "By Machine (Free)"
-msgstr "By Machine (Free)"
 
 #. module: website_mail_group
 #: view:website:website_mail_group.group_message
@@ -1688,16 +1503,15 @@ msgstr "Can Upvote"
 msgid "Can View"
 msgstr "Can View"
 
-#. modules: website, website_gengo, website_quote, website_blog
+#. modules: website, website_quote, website_blog
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:310
 #: code:addons/website/static/src/xml/website.translator.xml:46
-#: code:addons/website/static/src/xml/website.xml:74 view:website:website.500
+#: code:addons/website/static/src/xml/website.xml:74
+#: view:website:website.500
 #: view:website:website.view_website_form
 #: view:website.config.settings:website.view_website_config_settings
 #: view:blog.post.history.show_diff:website_blog.view_wiki_show_diff
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:49
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:78
 #: view:website:website_quote.so_quotation
 #, python-format
 msgid "Cancel"
@@ -1844,7 +1658,8 @@ msgid "Check now and discover more today!"
 msgstr "Check now and discover more today!"
 
 #. modules: website_sale, website_sale_options
-#: view:website:website_sale.cart view:website:website_sale_options.modal
+#: view:website:website_sale.cart
+#: view:website:website_sale_options.modal
 msgid "Checkout"
 msgstr "Checkout"
 
@@ -1871,28 +1686,20 @@ msgstr "Children Table Of Content"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid ""
-"Choose a vibrant image and write an inspiring paragraph\n"
-"                                about it. It does not have to be long, but "
-"it should\n"
+msgid "Choose a vibrant image and write an inspiring paragraph\n"
+"                                about it. It does not have to be long, but it should\n"
 "                                reinforce your image."
-msgstr ""
-"Choose a vibrant image and write an inspiring paragraph\n"
-"                                about it. It does not have to be long, but "
-"it should\n"
+msgstr "Choose a vibrant image and write an inspiring paragraph\n"
+"                                about it. It does not have to be long, but it should\n"
 "                                reinforce your image."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Choose a vibrant image and write an inspiring paragraph\n"
-"                            about it. It does not have to be long, but it "
-"should\n"
+msgid "Choose a vibrant image and write an inspiring paragraph\n"
+"                            about it. It does not have to be long, but it should\n"
 "                            reinforce your image."
-msgstr ""
-"Choose a vibrant image and write an inspiring paragraph\n"
-"                            about it. It does not have to be long, but it "
-"should\n"
+msgstr "Choose a vibrant image and write an inspiring paragraph\n"
+"                            about it. It does not have to be long, but it should\n"
 "                            reinforce your image."
 
 #. module: website_mail
@@ -1923,7 +1730,8 @@ msgid "Circle"
 msgstr "圆形"
 
 #. modules: website_forum, website_sale
-#: view:website:website_forum.edit_profile view:website:website_sale.checkout
+#: view:website:website_forum.edit_profile
+#: view:website:website_sale.checkout
 msgid "City"
 msgstr "City"
 
@@ -1994,12 +1802,8 @@ msgstr "Click here to insert blocks of content in the page."
 
 #. module: website_forum
 #: view:website:website_forum.header
-msgid ""
-"Click here to send a verification email allowing you to participate to the "
-"forum."
-msgstr ""
-"Click here to send a verification email allowing you to participate to the "
-"forum."
+msgid "Click here to send a verification email allowing you to participate to the forum."
+msgstr "Click here to send a verification email allowing you to participate to the forum."
 
 #. module: website_sale
 #. openerp-web
@@ -2022,12 +1826,8 @@ msgstr "Click on \"Content\" on the top menu to write your first blog post."
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
-msgid ""
-"Click on \"Content\" to define a new job offer or \"Help\" for more "
-"informations."
-msgstr ""
-"Click on \"Content\" to define a new job offer or \"Help\" for more "
-"informations."
+msgid "Click on \"Content\" to define a new job offer or \"Help\" for more informations."
+msgstr "Click on \"Content\" to define a new job offer or \"Help\" for more informations."
 
 #. module: website_sale
 #. openerp-web
@@ -2082,7 +1882,7 @@ msgstr "Click to publish your product so your customers can see it."
 msgid "Clickable links (Editor)"
 msgstr "Clickable links (Editor)"
 
-#. modules: website, website_forum, website_gengo
+#. modules: website, website_forum
 #. openerp-web
 #: code:addons/website/static/src/xml/website.ace.xml:11
 #: code:addons/website/static/src/xml/website.seo.xml:13
@@ -2091,12 +1891,6 @@ msgstr "Clickable links (Editor)"
 #: code:addons/website/static/src/xml/website.xml:26
 #: code:addons/website/static/src/xml/website.xml:43
 #: selection:forum.post,state:0
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:14
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:62
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:90
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:104
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:115
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:156
 #, python-format
 msgid "Close"
 msgstr "关闭"
@@ -2141,7 +1935,8 @@ msgid "Color"
 msgstr "Color"
 
 #. modules: website_event_track, website_forum_doc
-#: field:event.track,color:0 field:forum.post,color:0
+#: field:event.track,color:0
+#: field:forum.post,color:0
 msgid "Color Index"
 msgstr "Color Index"
 
@@ -2257,8 +2052,10 @@ msgid "Confirm"
 msgstr "Confirm"
 
 #. module: website_sale
-#: view:website:website_sale.cart view:website:website_sale.checkout
-#: view:website:website_sale.confirmation view:website:website_sale.payment
+#: view:website:website_sale.cart
+#: view:website:website_sale.checkout
+#: view:website:website_sale.confirmation
+#: view:website:website_sale.payment
 msgid "Confirmation"
 msgstr "Confirmation"
 
@@ -2284,12 +2081,8 @@ msgstr "Congratulations! You just created and published your first product."
 
 #. module: website_forum
 #: view:website:website_forum.header
-msgid ""
-"Congratulations! Your email has just been validated. You may now participate "
-"to our forums."
-msgstr ""
-"Congratulations! Your email has just been validated. You may now participate "
-"to our forums."
+msgid "Congratulations! Your email has just been validated. You may now participate to our forums."
+msgstr "Congratulations! Your email has just been validated. You may now participate to our forums."
 
 #. module: website
 #: view:website:website.layout
@@ -2298,58 +2091,37 @@ msgstr "Connect with us"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid ""
-"Consider telling\n"
-"                                    a great story that provides personality. "
-"Writing a story \n"
-"                                    with personality for potential clients "
-"will asist with \n"
-"                                    making a relationship connection. This "
-"shows up in small\n"
-"                                    quirks like word choices or phrases. "
-"Write from your point \n"
-"                                    of view, not from someone else's "
-"experience."
-msgstr ""
-"Consider telling\n"
-"                                    a great story that provides personality. "
-"Writing a story \n"
-"                                    with personality for potential clients "
-"will asist with \n"
-"                                    making a relationship connection. This "
-"shows up in small\n"
-"                                    quirks like word choices or phrases. "
-"Write from your point \n"
-"                                    of view, not from someone else's "
-"experience."
+msgid "Consider telling\n"
+"                                    a great story that provides personality. Writing a story \n"
+"                                    with personality for potential clients will asist with \n"
+"                                    making a relationship connection. This shows up in small\n"
+"                                    quirks like word choices or phrases. Write from your point \n"
+"                                    of view, not from someone else's experience."
+msgstr "Consider telling\n"
+"                                    a great story that provides personality. Writing a story \n"
+"                                    with personality for potential clients will asist with \n"
+"                                    making a relationship connection. This shows up in small\n"
+"                                    quirks like word choices or phrases. Write from your point \n"
+"                                    of view, not from someone else's experience."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Consider telling\n"
-"                            a great story that provides personality. Writing "
-"a story\n"
-"                            with personality for potential clients will "
-"asist with\n"
-"                            making a relationship connection. This shows up "
-"in small\n"
-"                            quirks like word choices or phrases. Write from "
-"your point\n"
+msgid "Consider telling\n"
+"                            a great story that provides personality. Writing a story\n"
+"                            with personality for potential clients will asist with\n"
+"                            making a relationship connection. This shows up in small\n"
+"                            quirks like word choices or phrases. Write from your point\n"
 "                            of view, not from someone else's experience."
-msgstr ""
-"Consider telling\n"
-"                            a great story that provides personality. Writing "
-"a story\n"
-"                            with personality for potential clients will "
-"asist with\n"
-"                            making a relationship connection. This shows up "
-"in small\n"
-"                            quirks like word choices or phrases. Write from "
-"your point\n"
+msgstr "Consider telling\n"
+"                            a great story that provides personality. Writing a story\n"
+"                            with personality for potential clients will asist with\n"
+"                            making a relationship connection. This shows up in small\n"
+"                            quirks like word choices or phrases. Write from your point\n"
 "                            of view, not from someone else's experience."
 
 #. module: website
-#: view:website:website.403 view:website:website.404
+#: view:website:website.403
+#: view:website:website.404
 msgid "Contact Us"
 msgstr "联络我们"
 
@@ -2364,7 +2136,8 @@ msgid "Contact a reseller"
 msgstr "Contact a reseller"
 
 #. modules: website, website_mail, website_quote, website_blog
-#: view:website:website.contactus view:website:website.layout
+#: view:website:website.contactus
+#: view:website:website.layout
 #: view:website:website.snippets
 #: model:website.menu,name:website.menu_contactus
 #: view:website:website_blog.blog_post_short
@@ -2394,8 +2167,10 @@ msgid "Contact us »"
 msgstr "Contact us »"
 
 #. modules: website, website_forum, website_blog
-#: view:website:website.layout view:website:website.snippets
-#: view:blog.post:website_blog.view_blog_post_search field:blog.post,content:0
+#: view:website:website.layout
+#: view:website:website.snippets
+#: view:blog.post:website_blog.view_blog_post_search
+#: field:blog.post,content:0
 #: field:blog.post.history,content:0
 #: view:forum.post:website_forum.view_forum_post_search
 #: field:forum.post,content:0
@@ -2409,13 +2184,6 @@ msgstr "内容"
 msgid "Content to translate"
 msgstr "Content to translate"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:23
-#, python-format
-msgid "Content to translate or you can post them to"
-msgstr "Content to translate or you can post them to"
-
 #. modules: website, website_sale, website_event, website_sale_options, website_blog
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:62
@@ -2425,13 +2193,15 @@ msgstr "Content to translate or you can post them to"
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:40
 #: code:addons/website_event/static/src/js/website.tour.event.js:48
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:48
-#: view:website:website_sale.cart view:website:website_sale_options.modal
+#: view:website:website_sale.cart
+#: view:website:website_sale_options.modal
 #, python-format
 msgid "Continue"
 msgstr "继续"
 
 #. modules: website_sale, website_sale_options
-#: view:website:website_sale.cart view:website:website_sale_options.modal
+#: view:website:website_sale.cart
+#: view:website:website_sale_options.modal
 msgid "Continue Shopping"
 msgstr "Continue Shopping"
 
@@ -2470,20 +2240,15 @@ msgstr "Correct Answer or Answer on this question accepted."
 msgid "Cosmo"
 msgstr "Cosmo"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:7
-#, python-format
-msgid "Count Words"
-msgstr "Count Words"
-
 #. modules: website_forum, website_sale
-#: view:website:website_forum.edit_profile view:website:website_sale.checkout
+#: view:website:website_forum.edit_profile
+#: view:website:website_sale.checkout
 msgid "Country"
 msgstr "Country"
 
 #. modules: website_forum, website_sale
-#: view:website:website_forum.edit_profile view:website:website_sale.checkout
+#: view:website:website_forum.edit_profile
+#: view:website:website_sale.checkout
 msgid "Country..."
 msgstr "Country..."
 
@@ -2534,12 +2299,8 @@ msgstr "Create a blog post"
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:35
 #, python-format
-msgid ""
-"Create a name for your new event and click <em>'Continue'</em>. e.g: "
-"Technical Training"
-msgstr ""
-"Create a name for your new event and click <em>'Continue'</em>. e.g: "
-"Technical Training"
+msgid "Create a name for your new event and click <em>'Continue'</em>. e.g: Technical Training"
+msgstr "Create a name for your new event and click <em>'Continue'</em>. e.g: Technical Training"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
@@ -2596,46 +2357,71 @@ msgid "Create your first product"
 msgstr "Create your first product"
 
 #. modules: website, website_forum, website_twitter, website_quote, website_sale, website_forum_doc, website_event_track, website_certification, website_blog
-#: field:website,create_uid:0 field:website.config.settings,create_uid:0
+#: field:website,create_uid:0
+#: field:website.config.settings,create_uid:0
 #: field:website.converter.test.sub,create_uid:0
-#: field:website.menu,create_uid:0 field:website.seo.metadata,create_uid:0
-#: field:blog.blog,create_uid:0 field:blog.post.history.show_diff,create_uid:0
-#: field:blog.tag,create_uid:0 field:certification.certification,create_uid:0
-#: field:certification.type,create_uid:0 field:event.sponsor,create_uid:0
-#: field:event.sponsor.type,create_uid:0 field:event.tag,create_uid:0
-#: field:event.track,create_uid:0 field:event.track.location,create_uid:0
-#: field:event.track.stage,create_uid:0 field:event.track.tag,create_uid:0
-#: field:forum.forum,create_uid:0 field:forum.post,create_uid:0
-#: field:forum.post.reason,create_uid:0 field:forum.post.vote,create_uid:0
-#: field:forum.tag,create_uid:0 field:forum.documentation.stage,create_uid:0
+#: field:website.menu,create_uid:0
+#: field:website.seo.metadata,create_uid:0
+#: field:blog.blog,create_uid:0
+#: field:blog.post.history.show_diff,create_uid:0
+#: field:blog.tag,create_uid:0
+#: field:certification.certification,create_uid:0
+#: field:certification.type,create_uid:0
+#: field:event.sponsor,create_uid:0
+#: field:event.sponsor.type,create_uid:0
+#: field:event.tag,create_uid:0
+#: field:event.track,create_uid:0
+#: field:event.track.location,create_uid:0
+#: field:event.track.stage,create_uid:0
+#: field:event.track.tag,create_uid:0
+#: field:forum.forum,create_uid:0
+#: field:forum.post,create_uid:0
+#: field:forum.post.reason,create_uid:0
+#: field:forum.post.vote,create_uid:0
+#: field:forum.tag,create_uid:0
+#: field:forum.documentation.stage,create_uid:0
 #: field:forum.documentation.toc,create_uid:0
-#: field:sale.order.option,create_uid:0 field:sale.quote.line,create_uid:0
-#: field:sale.quote.option,create_uid:0 field:sale.quote.template,create_uid:0
-#: field:product.public.category,create_uid:0 field:product.style,create_uid:0
+#: field:sale.order.option,create_uid:0
+#: field:sale.quote.line,create_uid:0
+#: field:sale.quote.option,create_uid:0
+#: field:sale.quote.template,create_uid:0
+#: field:product.public.category,create_uid:0
+#: field:product.style,create_uid:0
 #: field:website.twitter.tweet,create_uid:0
 msgid "Created by"
 msgstr "创建者"
 
 #. modules: website, website_forum, website_twitter, website_quote, website_sale, website_forum_doc, website_event_track, website_certification, website_blog
-#: field:website,create_date:0 field:website.config.settings,create_date:0
+#: field:website,create_date:0
+#: field:website.config.settings,create_date:0
 #: field:website.converter.test.sub,create_date:0
-#: field:website.menu,create_date:0 field:website.seo.metadata,create_date:0
-#: field:blog.blog,create_date:0 field:blog.post,create_date:0
+#: field:website.menu,create_date:0
+#: field:website.seo.metadata,create_date:0
+#: field:blog.blog,create_date:0
+#: field:blog.post,create_date:0
 #: field:blog.post.history.show_diff,create_date:0
 #: field:blog.tag,create_date:0
 #: field:certification.certification,create_date:0
-#: field:certification.type,create_date:0 field:event.sponsor,create_date:0
-#: field:event.sponsor.type,create_date:0 field:event.tag,create_date:0
-#: field:event.track,create_date:0 field:event.track.location,create_date:0
-#: field:event.track.stage,create_date:0 field:event.track.tag,create_date:0
-#: field:forum.forum,create_date:0 field:forum.post.reason,create_date:0
-#: field:forum.tag,create_date:0 field:forum.documentation.stage,create_date:0
+#: field:certification.type,create_date:0
+#: field:event.sponsor,create_date:0
+#: field:event.sponsor.type,create_date:0
+#: field:event.tag,create_date:0
+#: field:event.track,create_date:0
+#: field:event.track.location,create_date:0
+#: field:event.track.stage,create_date:0
+#: field:event.track.tag,create_date:0
+#: field:forum.forum,create_date:0
+#: field:forum.post.reason,create_date:0
+#: field:forum.tag,create_date:0
+#: field:forum.documentation.stage,create_date:0
 #: field:forum.documentation.toc,create_date:0
-#: field:sale.order.option,create_date:0 field:sale.quote.line,create_date:0
+#: field:sale.order.option,create_date:0
+#: field:sale.quote.line,create_date:0
 #: field:sale.quote.option,create_date:0
 #: field:sale.quote.template,create_date:0
 #: field:product.public.category,create_date:0
-#: field:product.style,create_date:0 field:website.twitter.tweet,create_date:0
+#: field:product.style,create_date:0
+#: field:website.twitter.tweet,create_date:0
 msgid "Created on"
 msgstr "创建于"
 
@@ -2681,12 +2467,8 @@ msgstr "定制"
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:61
 #, python-format
-msgid ""
-"Customize any block through this menu. Try to change the background of the "
-"banner."
-msgstr ""
-"Customize any block through this menu. Try to change the background of the "
-"banner."
+msgid "Customize any block through this menu. Try to change the background of the banner."
+msgstr "Customize any block through this menu. Try to change the background of the banner."
 
 #. module: website
 #. openerp-web
@@ -2745,8 +2527,10 @@ msgid "Date"
 msgstr "Date"
 
 #. modules: website_forum, website_event_track, website_blog
-#: help:blog.blog,message_last_post:0 help:blog.post,message_last_post:0
-#: help:event.track,message_last_post:0 help:forum.forum,message_last_post:0
+#: help:blog.blog,message_last_post:0
+#: help:blog.post,message_last_post:0
+#: help:event.track,message_last_post:0
+#: help:forum.forum,message_last_post:0
 #: help:forum.post,message_last_post:0
 msgid "Date of the last message posted on the record."
 msgstr "Date of the last message posted on the record."
@@ -2814,15 +2598,11 @@ msgstr "Delete its own posts"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Delete the above image or replace it with a picture\n"
-"                            that illustrates your message. Click on the "
-"picture to\n"
+msgid "Delete the above image or replace it with a picture\n"
+"                            that illustrates your message. Click on the picture to\n"
 "                            change it's"
-msgstr ""
-"Delete the above image or replace it with a picture\n"
-"                            that illustrates your message. Click on the "
-"picture to\n"
+msgstr "Delete the above image or replace it with a picture\n"
+"                            that illustrates your message. Click on the picture to\n"
 "                            change it's"
 
 #. module: website_blog
@@ -2849,15 +2629,11 @@ msgstr "Delivery:"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Deploy new stores with just an internet connection: no\n"
-"                    installation, no specific hardware required. It works "
-"with any\n"
+msgid "Deploy new stores with just an internet connection: no\n"
+"                    installation, no specific hardware required. It works with any\n"
 "                    iPad, Tablet PC, laptop or industrial POS machine."
-msgstr ""
-"Deploy new stores with just an internet connection: no\n"
-"                    installation, no specific hardware required. It works "
-"with any\n"
+msgstr "Deploy new stores with just an internet connection: no\n"
+"                    installation, no specific hardware required. It works with any\n"
 "                    iPad, Tablet PC, laptop or industrial POS machine."
 
 #. module: website_sale
@@ -2875,9 +2651,12 @@ msgstr "Describe the business solution"
 #. modules: website, website_forum, website_quote, website_blog
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:49
-#: field:blog.blog,description:0 field:forum.forum,description:0
-#: field:sale.order,website_description:0 field:sale.order.option,name:0
-#: field:sale.quote.line,name:0 field:sale.quote.option,name:0
+#: field:blog.blog,description:0
+#: field:forum.forum,description:0
+#: field:sale.order,website_description:0
+#: field:sale.order.option,name:0
+#: field:sale.quote.line,name:0
+#: field:sale.quote.option,name:0
 #: view:sale.quote.template:website_quote.view_sale_quote_template_form
 #: field:sale.quote.template,website_description:0
 #: view:website:website_quote.optional_products
@@ -2957,7 +2736,8 @@ msgid "Disciplined"
 msgstr "Disciplined"
 
 #. module: website_quote
-#: field:sale.order.option,discount:0 field:sale.quote.line,discount:0
+#: field:sale.order.option,discount:0
+#: field:sale.quote.line,discount:0
 #: field:sale.quote.option,discount:0
 msgid "Discount (%)"
 msgstr "Discount (%)"
@@ -2988,12 +2768,11 @@ msgstr "Discussion Path"
 #. module: website_mail_group
 #: model:ir.model,name:website_mail_group.model_mail_group
 msgid "Discussion group"
-msgstr "Discussion group"
+msgstr "讨论群组"
 
-#. modules: website, website_gengo
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.translator.xml:41
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:43
 #, python-format
 msgid "Do not show this dialog later."
 msgstr "Do not show this dialog later."
@@ -3045,7 +2824,8 @@ msgid "Does it works offline?"
 msgstr "Does it works offline?"
 
 #. module: website
-#: view:website:website.view_website_form field:website,name:0
+#: view:website:website.view_website_form
+#: field:website,name:0
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Domain"
 msgstr "Domain"
@@ -3160,7 +2940,8 @@ msgid "Draw your signature"
 msgstr "Draw your signature"
 
 #. modules: website, website_blog
-#: view:website:website.snippets view:website:website_blog.blog_post_complete
+#: view:website:website.snippets
+#: view:website:website_blog.blog_post_complete
 msgid "Duplicate"
 msgstr "Duplicate"
 
@@ -3177,7 +2958,8 @@ msgid "Duplicate blocks to add more features."
 msgstr "Duplicate blocks to add more features."
 
 #. module: website_event_track
-#: field:event.track,duration:0 view:website:website_event_track.track_view
+#: field:event.track,duration:0
+#: view:website:website_event_track.track_view
 msgid "Duration"
 msgstr "Duration"
 
@@ -3187,7 +2969,8 @@ msgid "E-Commerce"
 msgstr "E-Commerce"
 
 #. module: website
-#: view:website:website.layout view:website:website.publish_management
+#: view:website:website.layout
+#: view:website:website.publish_management
 msgid "Edit"
 msgstr "Edit"
 
@@ -3266,12 +3049,8 @@ msgstr "Edit question"
 
 #. module: website
 #: view:website:website.page_404
-msgid ""
-"Edit the content below this line to adapt the default \"page not found\" "
-"page."
-msgstr ""
-"Edit the content below this line to adapt the default \"page not found\" "
-"page."
+msgid "Edit the content below this line to adapt the default \"page not found\" page."
+msgstr "Edit the content below this line to adapt the default \"page not found\" page."
 
 #. module: website_sale
 #. openerp-web
@@ -3310,7 +3089,8 @@ msgid "Effects"
 msgstr "Effects"
 
 #. modules: website_forum, website_crm, website_sale
-#: view:website:website.contactus view:website:website_forum.edit_profile
+#: view:website:website.contactus
+#: view:website:website_forum.edit_profile
 #: view:website:website_sale.checkout
 msgid "Email"
 msgstr "电子邮件"
@@ -3363,12 +3143,8 @@ msgstr "Enter a name for your new product then click 'Continue'."
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
-msgid ""
-"Enter the screen name from which you want to load favorite Tweets (does not "
-"need to be the same as the API keys)"
-msgstr ""
-"Enter the screen name from which you want to load favorite Tweets (does not "
-"need to be the same as the API keys)"
+msgid "Enter the screen name from which you want to load favorite Tweets (does not need to be the same as the API keys)"
+msgstr "Enter the screen name from which you want to load favorite Tweets (does not need to be the same as the API keys)"
 
 #. module: website_forum
 #: view:website:website_forum.ask_question
@@ -3393,7 +3169,8 @@ msgid "Error"
 msgstr "Error"
 
 #. modules: website_sale, website_forum_doc
-#: constraint:forum.documentation.toc:0 constraint:product.public.category:0
+#: constraint:forum.documentation.toc:0
+#: constraint:product.public.category:0
 msgid "Error ! You cannot create recursive categories."
 msgstr "Error ! You cannot create recursive categories."
 
@@ -3550,10 +3327,8 @@ msgstr "Events:"
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:22
 #, python-format
-msgid ""
-"Every page of your website can be modified through the <i>Edit</i> button."
-msgstr ""
-"Every page of your website can be modified through the <i>Edit</i> button."
+msgid "Every page of your website can be modified through the <i>Edit</i> button."
+msgstr "Every page of your website can be modified through the <i>Edit</i> button."
 
 #. modules: website, website_mail
 #: view:website:website.snippets
@@ -3588,11 +3363,9 @@ msgstr "Explain how to implement it in Odoo"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Explain the benefits you offer. Don't write about products or\n"
+msgid "Explain the benefits you offer. Don't write about products or\n"
 "            services here, write about solutions."
-msgstr ""
-"Explain the benefits you offer. Don't write about products or\n"
+msgstr "Explain the benefits you offer. Don't write about products or\n"
 "            services here, write about solutions."
 
 #. module: website
@@ -3745,20 +3518,16 @@ msgstr "Find a business partner"
 
 #. module: website_event
 #: view:website:website_event.event_description_full
-msgid ""
-"Find out what people see and say about this event,\n"
+msgid "Find out what people see and say about this event,\n"
 "                            and join the conversation."
-msgstr ""
-"Find out what people see and say about this event,\n"
+msgstr "Find out what people see and say about this event,\n"
 "                            and join the conversation."
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
-msgid ""
-"Find out what people see and say about this event, \n"
+msgid "Find out what people see and say about this event, \n"
 "                        and join the conversation."
-msgstr ""
-"Find out what people see and say about this event, \n"
+msgstr "Find out what people see and say about this event, \n"
 "                        and join the conversation."
 
 #. module: website
@@ -3835,7 +3604,8 @@ msgstr "Format"
 #. modules: website_forum, website_forum_doc
 #: view:forum.forum:website_forum.view_forum_forum_form
 #: view:forum.post:website_forum.view_forum_post_search
-#: field:forum.post,forum_id:0 field:forum.post.vote,forum_id:0
+#: field:forum.post,forum_id:0
+#: field:forum.post.vote,forum_id:0
 #: field:forum.tag,forum_id:0
 #: model:ir.actions.act_url,name:website_forum.action_open_forum
 #: model:ir.ui.menu,name:website_forum.menu_website_forum
@@ -3871,7 +3641,8 @@ msgstr "Forum Posts"
 #: view:forum.forum:website_forum.view_forum_forum_list
 #: model:ir.actions.act_window,name:website_forum.action_forum_forum
 #: model:ir.model,name:website_forum.model_forum_forum
-#: model:ir.ui.menu,name:website_forum.menu_forum view:website:website.layout
+#: model:ir.ui.menu,name:website_forum.menu_forum
+#: view:website:website.layout
 msgid "Forums"
 msgstr "Forums"
 
@@ -3909,23 +3680,15 @@ msgstr "From"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"From the main container, you can change the background to highlight features."
-msgstr ""
-"From the main container, you can change the background to highlight features."
+msgid "From the main container, you can change the background to highlight features."
+msgstr "From the main container, you can change the background to highlight features."
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:82
 #, python-format
-msgid ""
-"From this toolbar you can move, duplicate or delete the selected zone. Click "
-"on the garbage can image to delete the block. Or click on the Title and "
-"delete it."
-msgstr ""
-"From this toolbar you can move, duplicate or delete the selected zone. Click "
-"on the garbage can image to delete the block. Or click on the Title and "
-"delete it."
+msgid "From this toolbar you can move, duplicate or delete the selected zone. Click on the garbage can image to delete the block. Or click on the Title and delete it."
+msgstr "From this toolbar you can move, duplicate or delete the selected zone. Click on the garbage can image to delete the block. Or click on the Title and delete it."
 
 #. module: website_mail
 #: view:website:website_mail.email_designer
@@ -3941,41 +3704,6 @@ msgstr "Gamification badge"
 #: model:ir.model,name:website_forum.model_gamification_challenge
 msgid "Gamification challenge"
 msgstr "Gamification challenge"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:24
-#, python-format
-msgid "Gengo"
-msgstr "Gengo"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:116
-#, python-format
-msgid "Gengo API is not configured"
-msgstr "Gengo API is not configured"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:96
-#, python-format
-msgid "Gengo Dashboard"
-msgstr "Gengo Dashboard"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:96
-#, python-format
-msgid "Gengo Statistics"
-msgstr "Gengo Statistics"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:120
-#, python-format
-msgid "Gengo account"
-msgstr "Gengo account"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -3999,13 +3727,12 @@ msgstr "Get favorites from this screen name"
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:15
 #, python-format
-msgid ""
-"Get this page efficiently referenced in Google to attract more visitors."
-msgstr ""
-"Get this page efficiently referenced in Google to attract more visitors."
+msgid "Get this page efficiently referenced in Google to attract more visitors."
+msgstr "Get this page efficiently referenced in Google to attract more visitors."
 
 #. module: website
-#: field:website,social_github:0 field:website.config.settings,social_github:0
+#: field:website,social_github:0
+#: field:website.config.settings,social_github:0
 msgid "GitHub Account"
 msgstr "GitHub Account"
 
@@ -4104,20 +3831,16 @@ msgstr "Great products for great people"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid ""
-"Great stories are for everyone even when only written for\n"
+msgid "Great stories are for everyone even when only written for\n"
 "                                    just one person."
-msgstr ""
-"Great stories are for everyone even when only written for\n"
+msgstr "Great stories are for everyone even when only written for\n"
 "                                    just one person."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Great stories are for everyone even when only written for\n"
+msgid "Great stories are for everyone even when only written for\n"
 "                            just one person."
-msgstr ""
-"Great stories are for everyone even when only written for\n"
+msgstr "Great stories are for everyone even when only written for\n"
 "                            just one person."
 
 #. modules: website, website_mail
@@ -4216,26 +3939,22 @@ msgid "Heading 2"
 msgstr "Heading 2"
 
 #. modules: website, website_forum
-#: view:website:website.layout model:forum.forum,name:website_forum.forum_help
+#: view:website:website.layout
+#: model:forum.forum,name:website_forum.forum_help
 msgid "Help"
 msgstr "Help"
 
-#. modules: website, website_gengo
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.translator.xml:19
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:20
 #, python-format
 msgid "Here are the visuals used to help you translate efficiently:"
 msgstr "Here are the visuals used to help you translate efficiently:"
 
 #. module: website_sale
 #: help:product.attribute.value,color:0
-msgid ""
-"Here you can set a specific HTML color index (e.g. #ff0000) to display the "
-"color on the website if the attibute type is 'Color'."
-msgstr ""
-"Here you can set a specific HTML color index (e.g. #ff0000) to display the "
-"color on the website if the attibute type is 'Color'."
+msgid "Here you can set a specific HTML color index (e.g. #ff0000) to display the color on the website if the attibute type is 'Color'."
+msgstr "Here you can set a specific HTML color index (e.g. #ff0000) to display the color on the website if the attibute type is 'Color'."
 
 #. module: website_sale
 #: selection:product.attribute,type:0
@@ -4263,7 +3982,8 @@ msgid "Highest (***)"
 msgstr "Highest (***)"
 
 #. modules: website_quote, website_blog
-#: field:blog.post,history_ids:0 view:website:website_quote.chatter
+#: field:blog.post,history_ids:0
+#: view:website:website_quote.chatter
 msgid "History"
 msgstr "History"
 
@@ -4273,24 +3993,24 @@ msgid "Holder Name"
 msgstr "Holder Name"
 
 #. modules: website_forum, website_event_track, website_blog
-#: help:blog.blog,message_summary:0 help:blog.post,message_summary:0
-#: help:event.track,message_summary:0 help:forum.forum,message_summary:0
+#: help:blog.blog,message_summary:0
+#: help:blog.post,message_summary:0
+#: help:event.track,message_summary:0
+#: help:forum.forum,message_summary:0
 #: help:forum.post,message_summary:0
-msgid ""
-"Holds the Chatter summary (number of messages, ...). This summary is "
-"directly in html format in order to be inserted in kanban views."
-msgstr ""
-"Holds the Chatter summary (number of messages, ...). This summary is "
-"directly in html format in order to be inserted in kanban views."
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
 
 #. module: website
-#: view:website:website.500 view:website:website.layout
+#: view:website:website.500
+#: view:website:website.layout
 #: model:website.menu,name:website.menu_homepage
 msgid "Home"
 msgstr "Home"
 
 #. module: website
-#: view:website:website.403 view:website:website.404
+#: view:website:website.403
+#: view:website:website.404
 #: view:website:website.layout
 msgid "Homepage"
 msgstr "Homepage"
@@ -4319,39 +4039,61 @@ msgstr "How to forecast sales revenues?"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
-msgid ""
-"I agree that by signing this proposal, I\n"
+msgid "I agree that by signing this proposal, I\n"
 "                                  accept it on the behalf of"
-msgstr ""
-"I agree that by signing this proposal, I\n"
+msgstr "I agree that by signing this proposal, I\n"
 "                                  accept it on the behalf of"
 
 #. modules: website, website_forum, website_twitter, website_quote, website_sale, website_forum_doc, website_event_track, website_certification, website_blog
-#: field:website,id:0 field:website.config.settings,id:0
-#: field:website.converter.test.sub,id:0 field:website.menu,id:0
-#: field:website.qweb,id:0 field:website.qweb.field,id:0
-#: field:website.qweb.field.contact,id:0 field:website.qweb.field.date,id:0
+#: field:website,id:0
+#: field:website.config.settings,id:0
+#: field:website.converter.test.sub,id:0
+#: field:website.menu,id:0
+#: field:website.qweb,id:0
+#: field:website.qweb.field,id:0
+#: field:website.qweb.field.contact,id:0
+#: field:website.qweb.field.date,id:0
 #: field:website.qweb.field.datetime,id:0
-#: field:website.qweb.field.duration,id:0 field:website.qweb.field.float,id:0
-#: field:website.qweb.field.html,id:0 field:website.qweb.field.image,id:0
+#: field:website.qweb.field.duration,id:0
+#: field:website.qweb.field.float,id:0
+#: field:website.qweb.field.html,id:0
+#: field:website.qweb.field.image,id:0
 #: field:website.qweb.field.integer,id:0
 #: field:website.qweb.field.many2one,id:0
-#: field:website.qweb.field.monetary,id:0 field:website.qweb.field.qweb,id:0
+#: field:website.qweb.field.monetary,id:0
+#: field:website.qweb.field.qweb,id:0
 #: field:website.qweb.field.relative,id:0
-#: field:website.qweb.field.selection,id:0 field:website.qweb.field.text,id:0
-#: field:website.seo.metadata,id:0 field:blog.blog,id:0 field:blog.post,id:0
-#: field:blog.post.history,id:0 field:blog.post.history.show_diff,id:0
-#: field:blog.tag,id:0 field:certification.certification,id:0
-#: field:certification.type,id:0 field:event.sponsor,id:0
-#: field:event.sponsor.type,id:0 field:event.tag,id:0 field:event.track,id:0
-#: field:event.track.location,id:0 field:event.track.stage,id:0
-#: field:event.track.tag,id:0 field:forum.forum,id:0 field:forum.post,id:0
-#: field:forum.post.reason,id:0 field:forum.post.vote,id:0
-#: field:forum.tag,id:0 field:forum.documentation.stage,id:0
-#: field:forum.documentation.toc,id:0 field:sale.order.option,id:0
-#: field:sale.quote.line,id:0 field:sale.quote.option,id:0
-#: field:sale.quote.template,id:0 field:product.public.category,id:0
-#: field:product.style,id:0 field:website.twitter.tweet,id:0
+#: field:website.qweb.field.selection,id:0
+#: field:website.qweb.field.text,id:0
+#: field:website.seo.metadata,id:0
+#: field:blog.blog,id:0
+#: field:blog.post,id:0
+#: field:blog.post.history,id:0
+#: field:blog.post.history.show_diff,id:0
+#: field:blog.tag,id:0
+#: field:certification.certification,id:0
+#: field:certification.type,id:0
+#: field:event.sponsor,id:0
+#: field:event.sponsor.type,id:0
+#: field:event.tag,id:0
+#: field:event.track,id:0
+#: field:event.track.location,id:0
+#: field:event.track.stage,id:0
+#: field:event.track.tag,id:0
+#: field:forum.forum,id:0
+#: field:forum.post,id:0
+#: field:forum.post.reason,id:0
+#: field:forum.post.vote,id:0
+#: field:forum.tag,id:0
+#: field:forum.documentation.stage,id:0
+#: field:forum.documentation.toc,id:0
+#: field:sale.order.option,id:0
+#: field:sale.quote.line,id:0
+#: field:sale.quote.option,id:0
+#: field:sale.quote.template,id:0
+#: field:product.public.category,id:0
+#: field:product.style,id:0
+#: field:website.twitter.tweet,id:0
 msgid "ID"
 msgstr "ID"
 
@@ -4366,29 +4108,25 @@ msgid "Ideas"
 msgstr "Ideas"
 
 #. modules: website_forum, website_event_track, website_blog
-#: help:blog.blog,message_unread:0 help:blog.post,message_unread:0
-#: help:event.track,message_unread:0 help:forum.forum,message_unread:0
+#: help:blog.blog,message_unread:0
+#: help:blog.post,message_unread:0
+#: help:event.track,message_unread:0
+#: help:forum.forum,message_unread:0
 #: help:forum.post,message_unread:0
 msgid "If checked new messages require your attention."
 msgstr "If checked new messages require your attention."
 
 #. module: website
 #: view:website:website.500
-msgid ""
-"If this error is caused by a change of yours in the templates, you have the "
-"possibility to reset one or more templates to their"
-msgstr ""
-"If this error is caused by a change of yours in the templates, you have the "
-"possibility to reset one or more templates to their"
+msgid "If this error is caused by a change of yours in the templates, you have the possibility to reset one or more templates to their"
+msgstr "If this error is caused by a change of yours in the templates, you have the possibility to reset one or more templates to their"
 
 #. module: website_forum
 #: view:website:website_forum.close_question
-msgid ""
-"If you close this question, it will be hidden for most users. Only\n"
+msgid "If you close this question, it will be hidden for most users. Only\n"
 "            users having a high karma can see closed questions to moderate\n"
 "            them."
-msgstr ""
-"If you close this question, it will be hidden for most users. Only\n"
+msgstr "If you close this question, it will be hidden for most users. Only\n"
 "            users having a high karma can see closed questions to moderate\n"
 "            them."
 
@@ -4406,35 +4144,23 @@ msgstr "If you have an emergency, do not hesitate to contact us by phone:"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid ""
-"If you try to write with a wide general\n"
-"                                    audience in mind, your story will ring "
-"false and be bland. \n"
-"                                    No one will be interested. Write for one "
-"person. If it’s genuine\n"
+msgid "If you try to write with a wide general\n"
+"                                    audience in mind, your story will ring false and be bland. \n"
+"                                    No one will be interested. Write for one person. If it’s genuine\n"
 "                                    for the one, it’s genuine for the rest."
-msgstr ""
-"If you try to write with a wide general\n"
-"                                    audience in mind, your story will ring "
-"false and be bland. \n"
-"                                    No one will be interested. Write for one "
-"person. If it’s genuine\n"
+msgstr "If you try to write with a wide general\n"
+"                                    audience in mind, your story will ring false and be bland. \n"
+"                                    No one will be interested. Write for one person. If it’s genuine\n"
 "                                    for the one, it’s genuine for the rest."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"If you try to write with a wide general\n"
-"                            audience in mind, your story will ring false and "
-"be bland.\n"
-"                            No one will be interested. Write for one person. "
-"If it’s genuine for the one, it’s genuine for the rest."
-msgstr ""
-"If you try to write with a wide general\n"
-"                            audience in mind, your story will ring false and "
-"be bland.\n"
-"                            No one will be interested. Write for one person. "
-"If it’s genuine for the one, it’s genuine for the rest."
+msgid "If you try to write with a wide general\n"
+"                            audience in mind, your story will ring false and be bland.\n"
+"                            No one will be interested. Write for one person. If it’s genuine for the one, it’s genuine for the rest."
+msgstr "If you try to write with a wide general\n"
+"                            audience in mind, your story will ring false and be bland.\n"
+"                            No one will be interested. Write for one person. If it’s genuine for the one, it’s genuine for the rest."
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
@@ -4477,54 +4203,27 @@ msgstr "实现者"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"In case you still feel a bit puzzled about all\n"
-"                            of our yesterday's announcements, here is a "
-"little\n"
+msgid "In case you still feel a bit puzzled about all\n"
+"                            of our yesterday's announcements, here is a little\n"
 "                            summary for you."
-msgstr ""
-"In case you still feel a bit puzzled about all\n"
-"                            of our yesterday's announcements, here is a "
-"little\n"
+msgstr "In case you still feel a bit puzzled about all\n"
+"                            of our yesterday's announcements, here is a little\n"
 "                            summary for you."
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.translator.xml:30
 #, python-format
-msgid ""
-"In this mode, you can only translate texts.  To\n"
-"                            change the structure of the page, you must edit "
-"the\n"
-"                            master page. Each modification on the master "
-"page\n"
+msgid "In this mode, you can only translate texts.  To\n"
+"                            change the structure of the page, you must edit the\n"
+"                            master page. Each modification on the master page\n"
 "                            is automatically applied to all translated\n"
 "                            versions."
-msgstr ""
-"In this mode, you can only translate texts.  To\n"
-"                            change the structure of the page, you must edit "
-"the\n"
-"                            master page. Each modification on the master "
-"page\n"
+msgstr "In this mode, you can only translate texts.  To\n"
+"                            change the structure of the page, you must edit the\n"
+"                            master page. Each modification on the master page\n"
 "                            is automatically applied to all translated\n"
 "                            versions."
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:34
-#, python-format
-msgid ""
-"In this mode, you can translate texts or post texts to Gengo for "
-"translation.\n"
-"                            To change the structure of the page, you must "
-"edit the\n"
-"                            master page."
-msgstr ""
-"In this mode, you can translate texts or post texts to Gengo for "
-"translation.\n"
-"                            To change the structure of the page, you must "
-"edit the\n"
-"                            master page."
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -4561,10 +4260,8 @@ msgstr "Insert another block to your event."
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:83
 #, python-format
-msgid ""
-"Insert blocks like text-image, or gallery to fully describe the product."
-msgstr ""
-"Insert blocks like text-image, or gallery to fully describe the product."
+msgid "Insert blocks like text-image, or gallery to fully describe the product."
+msgstr "Insert blocks like text-image, or gallery to fully describe the product."
 
 #. module: website_event
 #. openerp-web
@@ -4615,7 +4312,8 @@ msgid "Introduction"
 msgstr "Introduction"
 
 #. modules: website_forum, website_event_track, website_blog
-#: field:blog.blog,message_is_follower:0 field:blog.post,message_is_follower:0
+#: field:blog.blog,message_is_follower:0
+#: field:blog.post,message_is_follower:0
 #: field:event.track,message_is_follower:0
 #: field:forum.forum,message_is_follower:0
 #: field:forum.post,message_is_follower:0
@@ -4631,11 +4329,9 @@ msgstr "It appears your email has not been verified."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.xml:35
 #, python-format
-msgid ""
-"It might be possible to edit the relevant items\n"
+msgid "It might be possible to edit the relevant items\n"
 "                                or fix the issue in"
-msgstr ""
-"It might be possible to edit the relevant items\n"
+msgstr "It might be possible to edit the relevant items\n"
 "                                or fix the issue in"
 
 #. module: website
@@ -4681,15 +4377,11 @@ msgstr "Join us and make your company a better place."
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
-msgid ""
-"Join us, we offer you an extraordinary chance to learn, to\n"
-"                                    develop and to be part of an exciting "
-"experience and\n"
+msgid "Join us, we offer you an extraordinary chance to learn, to\n"
+"                                    develop and to be part of an exciting experience and\n"
 "                                    team."
-msgstr ""
-"Join us, we offer you an extraordinary chance to learn, to\n"
-"                                    develop and to be part of an exciting "
-"experience and\n"
+msgstr "Join us, we offer you an extraordinary chance to learn, to\n"
+"                                    develop and to be part of an exciting experience and\n"
 "                                    team."
 
 #. module: website
@@ -4698,7 +4390,8 @@ msgid "Journal"
 msgstr "账簿"
 
 #. module: website_forum
-#: field:res.users,karma:0 view:website:website_forum.user_detail_full
+#: field:res.users,karma:0
+#: view:website:website_forum.user_detail_full
 msgid "Karma"
 msgstr "Karma"
 
@@ -4773,7 +4466,8 @@ msgid "Language"
 msgstr "Language"
 
 #. module: website
-#: field:website,language_ids:0 field:website.config.settings,language_ids:0
+#: field:website,language_ids:0
+#: field:website.config.settings,language_ids:0
 msgid "Languages"
 msgstr "Languages"
 
@@ -4792,8 +4486,10 @@ msgid "Last Contributor"
 msgstr "Last Contributor"
 
 #. modules: website_forum, website_event_track, website_blog
-#: field:blog.blog,message_last_post:0 field:blog.post,message_last_post:0
-#: field:event.track,message_last_post:0 field:forum.forum,message_last_post:0
+#: field:blog.blog,message_last_post:0
+#: field:blog.post,message_last_post:0
+#: field:event.track,message_last_post:0
+#: field:forum.forum,message_last_post:0
 #: field:forum.post,message_last_post:0
 msgid "Last Message Date"
 msgstr "Last Message Date"
@@ -4804,45 +4500,71 @@ msgid "Last Modified on"
 msgstr "Last Modified on"
 
 #. modules: website, website_forum, website_twitter, website_quote, website_sale, website_forum_doc, website_event_track, website_certification, website_blog
-#: field:website,write_uid:0 field:website.config.settings,write_uid:0
-#: field:website.converter.test.sub,write_uid:0 field:website.menu,write_uid:0
-#: field:website.seo.metadata,write_uid:0 field:blog.blog,write_uid:0
+#: field:website,write_uid:0
+#: field:website.config.settings,write_uid:0
+#: field:website.converter.test.sub,write_uid:0
+#: field:website.menu,write_uid:0
+#: field:website.seo.metadata,write_uid:0
+#: field:blog.blog,write_uid:0
 #: field:blog.post.history,write_uid:0
-#: field:blog.post.history.show_diff,write_uid:0 field:blog.tag,write_uid:0
+#: field:blog.post.history.show_diff,write_uid:0
+#: field:blog.tag,write_uid:0
 #: field:certification.certification,write_uid:0
-#: field:certification.type,write_uid:0 field:event.sponsor,write_uid:0
-#: field:event.sponsor.type,write_uid:0 field:event.tag,write_uid:0
-#: field:event.track,write_uid:0 field:event.track.location,write_uid:0
-#: field:event.track.stage,write_uid:0 field:event.track.tag,write_uid:0
-#: field:forum.forum,write_uid:0 field:forum.post.reason,write_uid:0
-#: field:forum.post.vote,write_uid:0 field:forum.tag,write_uid:0
+#: field:certification.type,write_uid:0
+#: field:event.sponsor,write_uid:0
+#: field:event.sponsor.type,write_uid:0
+#: field:event.tag,write_uid:0
+#: field:event.track,write_uid:0
+#: field:event.track.location,write_uid:0
+#: field:event.track.stage,write_uid:0
+#: field:event.track.tag,write_uid:0
+#: field:forum.forum,write_uid:0
+#: field:forum.post.reason,write_uid:0
+#: field:forum.post.vote,write_uid:0
+#: field:forum.tag,write_uid:0
 #: field:forum.documentation.stage,write_uid:0
 #: field:forum.documentation.toc,write_uid:0
-#: field:sale.order.option,write_uid:0 field:sale.quote.line,write_uid:0
-#: field:sale.quote.option,write_uid:0 field:sale.quote.template,write_uid:0
-#: field:product.public.category,write_uid:0 field:product.style,write_uid:0
+#: field:sale.order.option,write_uid:0
+#: field:sale.quote.line,write_uid:0
+#: field:sale.quote.option,write_uid:0
+#: field:sale.quote.template,write_uid:0
+#: field:product.public.category,write_uid:0
+#: field:product.style,write_uid:0
 #: field:website.twitter.tweet,write_uid:0
 msgid "Last Updated by"
 msgstr "Last Updated by"
 
 #. modules: website, website_forum, website_twitter, website_quote, website_sale, website_forum_doc, website_event_track, website_certification, website_blog
-#: field:website,write_date:0 field:website.config.settings,write_date:0
+#: field:website,write_date:0
+#: field:website.config.settings,write_date:0
 #: field:website.converter.test.sub,write_date:0
-#: field:website.menu,write_date:0 field:website.seo.metadata,write_date:0
-#: field:blog.blog,write_date:0 field:blog.post.history,write_date:0
-#: field:blog.post.history.show_diff,write_date:0 field:blog.tag,write_date:0
+#: field:website.menu,write_date:0
+#: field:website.seo.metadata,write_date:0
+#: field:blog.blog,write_date:0
+#: field:blog.post.history,write_date:0
+#: field:blog.post.history.show_diff,write_date:0
+#: field:blog.tag,write_date:0
 #: field:certification.certification,write_date:0
-#: field:certification.type,write_date:0 field:event.sponsor,write_date:0
-#: field:event.sponsor.type,write_date:0 field:event.tag,write_date:0
-#: field:event.track,write_date:0 field:event.track.location,write_date:0
-#: field:event.track.stage,write_date:0 field:event.track.tag,write_date:0
-#: field:forum.forum,write_date:0 field:forum.post.reason,write_date:0
-#: field:forum.post.vote,write_date:0 field:forum.tag,write_date:0
+#: field:certification.type,write_date:0
+#: field:event.sponsor,write_date:0
+#: field:event.sponsor.type,write_date:0
+#: field:event.tag,write_date:0
+#: field:event.track,write_date:0
+#: field:event.track.location,write_date:0
+#: field:event.track.stage,write_date:0
+#: field:event.track.tag,write_date:0
+#: field:forum.forum,write_date:0
+#: field:forum.post.reason,write_date:0
+#: field:forum.post.vote,write_date:0
+#: field:forum.tag,write_date:0
 #: field:forum.documentation.stage,write_date:0
 #: field:forum.documentation.toc,write_date:0
-#: field:sale.order.option,write_date:0 field:sale.quote.line,write_date:0
-#: field:sale.quote.option,write_date:0 field:sale.quote.template,write_date:0
-#: field:product.public.category,write_date:0 field:product.style,write_date:0
+#: field:sale.order.option,write_date:0
+#: field:sale.quote.line,write_date:0
+#: field:sale.quote.option,write_date:0
+#: field:sale.quote.template,write_date:0
+#: field:product.public.category,write_date:0
+#: field:product.style,write_date:0
 #: field:website.twitter.tweet,write_date:0
 msgid "Last Updated on"
 msgstr "Last Updated on"
@@ -5016,7 +4738,8 @@ msgstr "Local Events"
 
 #. modules: website_event_track, website_event, website_membership
 #: code:addons/website_event/models/event.py:45
-#: field:event.track,location_id:0 view:website:website_event_track.track_view
+#: field:event.track,location_id:0
+#: view:website:website_event_track.track_view
 #: view:website:website_membership.index
 #, python-format
 msgid "Location"
@@ -5087,7 +4810,8 @@ msgid "Margin resize"
 msgstr "Margin resize"
 
 #. module: website
-#: view:website:website.403 view:website:website.404
+#: view:website:website.403
+#: view:website:website.404
 msgid "Maybe you were looking for one of these popular pages ?"
 msgstr "Maybe you were looking for one of these popular pages ?"
 
@@ -5108,17 +4832,12 @@ msgstr "Medium-sized image"
 
 #. module: website_sale
 #: help:product.public.category,image_medium:0
-msgid ""
-"Medium-sized image of the category. It is automatically resized as a "
-"128x128px image, with aspect ratio preserved. Use this field in form views "
-"or some kanban views."
-msgstr ""
-"Medium-sized image of the category. It is automatically resized as a "
-"128x128px image, with aspect ratio preserved. Use this field in form views "
-"or some kanban views."
+msgid "Medium-sized image of the category. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
+msgstr "Medium-sized image of the category. It is automatically resized as a 128x128px image, with aspect ratio preserved. Use this field in form views or some kanban views."
 
 #. module: website_membership
-#: view:website:website.layout view:website:website_membership.index
+#: view:website:website.layout
+#: view:website:website_membership.index
 msgid "Members"
 msgstr "Members"
 
@@ -5147,15 +4866,19 @@ msgid "Message description: either the subject, or the beginning of the body"
 msgstr "Message description: either the subject, or the beginning of the body"
 
 #. modules: website_forum, website_event_track, website_blog
-#: field:blog.blog,message_ids:0 field:blog.post,message_ids:0
-#: field:event.track,message_ids:0 field:forum.forum,message_ids:0
+#: field:blog.blog,message_ids:0
+#: field:blog.post,message_ids:0
+#: field:event.track,message_ids:0
+#: field:forum.forum,message_ids:0
 #: field:forum.post,message_ids:0
 msgid "Messages"
 msgstr "Messages"
 
 #. modules: website_forum, website_event_track, website_blog
-#: help:blog.blog,message_ids:0 help:blog.post,message_ids:0
-#: help:event.track,message_ids:0 help:forum.forum,message_ids:0
+#: help:blog.blog,message_ids:0
+#: help:blog.post,message_ids:0
+#: help:event.track,message_ids:0
+#: help:forum.forum,message_ids:0
 #: help:forum.post,message_ids:0
 msgid "Messages and communication history"
 msgstr "Messages and communication history"
@@ -5246,10 +4969,13 @@ msgid "My cart"
 msgstr "My cart"
 
 #. modules: website_forum, website_sale, website_forum_doc, website_certification, website_blog
-#: view:blog.post:website_blog.view_blog_post_form field:blog.tag,name:0
+#: view:blog.post:website_blog.view_blog_post_form
+#: field:blog.tag,name:0
 #: view:website:website_certification.certified_partners
-#: field:forum.forum,name:0 view:forum.post:website_forum.view_forum_post_form
-#: field:forum.tag,name:0 field:forum.documentation.toc,name:0
+#: field:forum.forum,name:0
+#: view:forum.post:website_forum.view_forum_post_form
+#: field:forum.tag,name:0
+#: field:forum.documentation.toc,name:0
 #: field:product.public.category,complete_name:0
 #: field:product.public.category,name:0
 msgid "Name"
@@ -5383,7 +5109,8 @@ msgid "Newest"
 msgstr "Newest"
 
 #. modules: website_event_track, website_blog
-#: view:website:website.layout model:website.menu,name:website_blog.menu_news
+#: view:website:website.layout
+#: model:website.menu,name:website_blog.menu_news
 #: code:addons/website_event_track/models/event.py:170
 #: field:event.event,show_blog:0
 #, python-format
@@ -5391,7 +5118,8 @@ msgid "News"
 msgstr "News"
 
 #. module: website
-#: view:website:website.kanban_contain view:website:website.pager
+#: view:website:website.kanban_contain
+#: view:website:website.pager
 msgid "Next"
 msgstr "Next"
 
@@ -5516,7 +5244,8 @@ msgstr "None"
 #. modules: website, website_blog
 #. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:10
-#: view:website:website.publish_management view:website:website.publish_short
+#: view:website:website.publish_management
+#: view:website:website.publish_short
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:9
 #, python-format
 msgid "Not Published"
@@ -5569,7 +5298,8 @@ msgid "Number of silver badges"
 msgstr "Number of silver badges"
 
 #. module: website
-#: view:website:website.layout view:website:website.snippets
+#: view:website:website.layout
+#: view:website:website.snippets
 msgid "Odoo"
 msgstr "Odoo"
 
@@ -5635,36 +5365,24 @@ msgstr "Odoo image and text block"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Odoo provides essential platform for our project management.\n"
-"                                                    Things are better "
-"organized and more visible with it."
-msgstr ""
-"Odoo provides essential platform for our project management.\n"
-"                                                    Things are better "
-"organized and more visible with it."
+msgid "Odoo provides essential platform for our project management.\n"
+"                                                    Things are better organized and more visible with it."
+msgstr "Odoo provides essential platform for our project management.\n"
+"                                                    Things are better organized and more visible with it."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Odoo provides essential platform for our project management.\n"
-"                                            Things are better organized and "
-"more visible with it."
-msgstr ""
-"Odoo provides essential platform for our project management.\n"
-"                                            Things are better organized and "
-"more visible with it."
+msgid "Odoo provides essential platform for our project management.\n"
+"                                            Things are better organized and more visible with it."
+msgstr "Odoo provides essential platform for our project management.\n"
+"                                            Things are better organized and more visible with it."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Odoo provides essential platform for our project management.\n"
-"                                Things are better organized and more visible "
-"with it."
-msgstr ""
-"Odoo provides essential platform for our project management.\n"
-"                                Things are better organized and more visible "
-"with it."
+msgid "Odoo provides essential platform for our project management.\n"
+"                                Things are better organized and more visible with it."
+msgstr "Odoo provides essential platform for our project management.\n"
+"                                Things are better organized and more visible with it."
 
 #. module: website
 #: view:website:website.snippets
@@ -5673,11 +5391,9 @@ msgstr "Odoo text and image block"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Odoo's POS is a web application that can run on any device that\n"
+msgid "Odoo's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
-msgstr ""
-"Odoo's POS is a web application that can run on any device that\n"
+msgstr "Odoo's POS is a web application that can run on any device that\n"
 "                    can display websites with little to no setup required."
 
 #. module: website_forum
@@ -5685,10 +5401,9 @@ msgstr ""
 msgid "Offensive"
 msgstr "Offensive"
 
-#. modules: website, website_gengo
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.translator.xml:44
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:47
 #, python-format
 msgid "Ok"
 msgstr "Ok"
@@ -5734,6 +5449,11 @@ msgid "Open Source ERP"
 msgstr "Open Source ERP"
 
 #. module: website
+#: view:website:website.layout
+msgid "Open Source eCommerce"
+msgstr "Open Source eCommerce"
+
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:56
 #, python-format
@@ -5771,7 +5491,8 @@ msgid "Optional Products & Services"
 msgstr "Optional Products & Services"
 
 #. module: website_quote
-#: field:sale.order,options:0 field:sale.order.line,option_line_id:0
+#: field:sale.order,options:0
+#: field:sale.order.line,option_line_id:0
 #: field:sale.quote.template,options:0
 msgid "Optional Products Lines"
 msgstr "Optional Products Lines"
@@ -5809,12 +5530,8 @@ msgstr "Order Lines displayed on Website"
 
 #. module: website_sale
 #: help:sale.order,website_order_line:0
-msgid ""
-"Order Lines to be displayed on the website. They should not be used for "
-"computation purpose."
-msgstr ""
-"Order Lines to be displayed on the website. They should not be used for "
-"computation purpose."
+msgid "Order Lines to be displayed on the website. They should not be used for computation purpose."
+msgstr "Order Lines to be displayed on the website. They should not be used for computation purpose."
 
 #. module: website_event_sale
 #: view:website:website_event.event_description_full
@@ -5895,8 +5612,10 @@ msgid "Our Partners"
 msgstr "Our Partners"
 
 #. modules: website, website_customer
-#: view:website:website.snippets view:website:website.layout
-#: view:website:website_customer.details view:website:website_customer.index
+#: view:website:website.snippets
+#: view:website:website.layout
+#: view:website:website_customer.details
+#: view:website:website_customer.index
 msgid "Our References"
 msgstr "Our References"
 
@@ -5906,6 +5625,7 @@ msgid "Our Sponsors"
 msgstr "Our Sponsors"
 
 #. modules: website, website_hr
+#: view:website:website.aboutus
 #: view:website:website.aboutus
 msgid "Our Team"
 msgstr "Our Team"
@@ -5927,30 +5647,22 @@ msgstr "Our products & Services"
 
 #. module: website
 #: view:website:website.aboutus
-msgid ""
-"Our products are designed for small to medium size companies willing to "
-"optimize\n"
+msgid "Our products are designed for small to medium size companies willing to optimize\n"
 "                                      their performance."
-msgstr ""
-"Our products are designed for small to medium size companies willing to "
-"optimize\n"
+msgstr "Our products are designed for small to medium size companies willing to optimize\n"
 "                                      their performance."
 
 #. module: website
 #: view:website:website.layout
-msgid ""
-"Our products are designed for small to medium size companies willing to "
-"optimize\n"
+msgid "Our products are designed for small to medium size companies willing to optimize\n"
 "                            their performance."
-msgstr ""
-"Our products are designed for small to medium size companies willing to "
-"optimize\n"
+msgstr "Our products are designed for small to medium size companies willing to optimize\n"
 "                            their performance."
 
 #. module: website_mail_group
 #: model:ir.model,name:website_mail_group.model_mail_mail
 msgid "Outgoing Mails"
-msgstr "发出邮件"
+msgstr "Outgoing Mails"
 
 #. module: website
 #. openerp-web
@@ -5988,11 +5700,9 @@ msgstr "Panel"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Panels are a great tool to compare offers or to emphasize on\n"
+msgid "Panels are a great tool to compare offers or to emphasize on\n"
 "                key features. To compare products, use the inside columns."
-msgstr ""
-"Panels are a great tool to compare offers or to emphasize on\n"
+msgstr "Panels are a great tool to compare offers or to emphasize on\n"
 "                key features. To compare products, use the inside columns."
 
 #. module: website
@@ -6055,20 +5765,6 @@ msgstr "合作伙伴"
 msgid "Partners"
 msgstr "业务伙伴"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:134
-#, python-format
-msgid "Paste private key here"
-msgstr "Paste private key here"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:127
-#, python-format
-msgid "Paste public key here"
-msgstr "Paste public key here"
-
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:658
 #: view:website:website_sale.payment
@@ -6077,8 +5773,10 @@ msgid "Pay Now"
 msgstr "Pay Now"
 
 #. module: website_sale
-#: view:website:website_sale.cart view:website:website_sale.checkout
-#: view:website:website_sale.confirmation view:website:website_sale.payment
+#: view:website:website_sale.cart
+#: view:website:website_sale.checkout
+#: view:website:website_sale.confirmation
+#: view:website:website_sale.payment
 msgid "Payment"
 msgstr "付款"
 
@@ -6110,7 +5808,8 @@ msgid "Peer Pressure"
 msgstr "Peer Pressure"
 
 #. modules: website, website_forum
-#: view:website:website.snippet_options view:website:website_forum.header
+#: view:website:website.snippet_options
+#: view:website:website_forum.header
 msgid "People"
 msgstr "People"
 
@@ -6154,12 +5853,8 @@ msgstr "Please enter a descriptive question (should finish with a '?')"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
-msgid ""
-"Please enter a valid email address in order to receive notifications from "
-"answers or comments."
-msgstr ""
-"Please enter a valid email address in order to receive notifications from "
-"answers or comments."
+msgid "Please enter a valid email address in order to receive notifications from answers or comments."
+msgstr "Please enter a valid email address in order to receive notifications from answers or comments."
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
@@ -6174,12 +5869,8 @@ msgstr "Please send again your resume."
 #. module: website_twitter
 #: code:addons/website_twitter/controllers/main.py:25
 #, python-format
-msgid ""
-"Please set a Twitter screen name to load favorites from, in the Website "
-"Settings (it does not have to be yours)"
-msgstr ""
-"Please set a Twitter screen name to load favorites from, in the Website "
-"Settings (it does not have to be yours)"
+msgid "Please set a Twitter screen name to load favorites from, in the Website Settings (it does not have to be yours)"
+msgstr "Please set a Twitter screen name to load favorites from, in the Website Settings (it does not have to be yours)"
 
 #. module: website_twitter
 #: code:addons/website_twitter/controllers/main.py:21
@@ -6223,12 +5914,12 @@ msgstr "Popular Question (250)"
 msgid "Popular Question (500)"
 msgstr "Popular Question (500)"
 
-#. modules: website_forum, website_sale, website_gengo, website_blog
+#. modules: website_forum, website_sale, website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:34
 #: view:website:website_blog.blog_post_complete
-#: field:forum.post.vote,post_id:0 view:website:website_forum.post_comment
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:76
+#: field:forum.post.vote,post_id:0
+#: view:website:website_forum.post_comment
 #: view:website:website_sale.product
 #, python-format
 msgid "Post"
@@ -6271,7 +5962,8 @@ msgid "Post to"
 msgstr "Post to"
 
 #. modules: website_forum, website_forum_doc, website_blog
-#: field:blog.tag,post_ids:0 field:forum.tag,post_ids:0
+#: field:blog.tag,post_ids:0
+#: field:forum.tag,post_ids:0
 #: model:ir.ui.menu,name:website_forum.menu_forum_posts
 #: field:forum.documentation.toc,post_ids:0
 msgid "Posts"
@@ -6288,7 +5980,8 @@ msgid "Practical Info"
 msgstr "Practical Info"
 
 #. module: website
-#: view:website:website.kanban_contain view:website:website.pager
+#: view:website:website.kanban_contain
+#: view:website:website.pager
 msgid "Prev"
 msgstr "Prev"
 
@@ -6304,8 +5997,10 @@ msgstr "Preview"
 #. modules: website_sale, website_quote, website_sale_options, website_event_sale
 #: view:website:website_event.event_description_full
 #: view:website:website_quote.optional_products
-#: view:website:website_quote.pricing view:website:website_sale.cart
-#: view:website:website_sale.payment view:website:website_sale_options.modal
+#: view:website:website_quote.pricing
+#: view:website:website_sale.cart
+#: view:website:website_sale.payment
+#: view:website:website_sale_options.modal
 msgid "Price"
 msgstr "价格"
 
@@ -6331,20 +6026,6 @@ msgstr "Primary"
 msgid "Priority"
 msgstr "Priority"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:132
-#, python-format
-msgid "Private key"
-msgstr "Private key"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:70
-#, python-format
-msgid "Pro - $"
-msgstr "Pro - $"
-
 #. module: website_sale_options
 #: view:website:website_sale_options.modal
 msgid "Proceed to checkout"
@@ -6357,10 +6038,12 @@ msgstr "Process Checkout"
 
 #. modules: website_sale, website_quote, website_sale_options, website_event_sale
 #: model:ir.model,name:website_event_sale.model_product_product
-#: field:sale.order.option,product_id:0 field:sale.quote.line,product_id:0
+#: field:sale.order.option,product_id:0
+#: field:sale.quote.line,product_id:0
 #: field:sale.quote.option,product_id:0
 #: model:ir.model,name:website_sale.model_product_product
-#: view:website:website_sale.cart view:website:website_sale.payment
+#: view:website:website_sale.cart
+#: view:website:website_sale.payment
 #: view:website:website_sale_options.modal
 msgid "Product"
 msgstr "产品"
@@ -6389,7 +6072,8 @@ msgid "Product Template"
 msgstr "产品模板"
 
 #. modules: website_sale, website_sale_options
-#: view:website:website_sale.product view:website:website_sale.product_price
+#: view:website:website_sale.product
+#: view:website:website_sale.product_price
 #: view:website:website_sale_options.modal
 msgid "Product not available"
 msgstr "Product not available"
@@ -6411,7 +6095,8 @@ msgstr "Product:"
 
 #. modules: website_sale, website_quote
 #: view:website:website_quote.optional_products
-#: view:website:website_quote.pricing view:website:website_sale.product
+#: view:website:website_quote.pricing
+#: view:website:website_sale.product
 msgid "Products"
 msgstr "产品"
 
@@ -6440,7 +6125,8 @@ msgstr "Project Management Questions"
 #. modules: website, website_sale
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:5
-#: view:website:website.layout view:website:website_sale.products
+#: view:website:website.layout
+#: view:website:website_sale.products
 #, python-format
 msgid "Promote"
 msgstr "Promote"
@@ -6517,20 +6203,14 @@ msgstr "Public Product Categories"
 msgid "Public User"
 msgstr "Public User"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:125
-#, python-format
-msgid "Public key"
-msgstr "Public key"
-
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Public profile"
 msgstr "Public profile"
 
 #. modules: website, website_forum_doc, website_blog, website_partner
-#: view:website:website.publish_management field:blog.post,website_published:0
+#: view:website:website.publish_management
+#: field:blog.post,website_published:0
 #: model:forum.documentation.stage,name:website_forum_doc.stage_publish
 #: field:res.partner,website_published:0
 msgid "Publish"
@@ -6549,7 +6229,8 @@ msgid "Publish in Chapter:"
 msgstr "Publish in Chapter:"
 
 #. modules: website_blog, website_partner
-#: help:blog.post,website_published:0 help:res.partner,website_published:0
+#: help:blog.post,website_published:0
+#: help:res.partner,website_published:0
 msgid "Publish on the website"
 msgstr "Publish on the website"
 
@@ -6577,10 +6258,12 @@ msgstr "Publish your product"
 #. modules: website, website_event_track, website_mail, website_hr_recruitment, website_blog
 #. openerp-web
 #: code:addons/website/static/src/xml/website.backend.xml:11
-#: view:website:website.publish_management view:website:website.publish_short
+#: view:website:website.publish_management
+#: view:website:website.publish_short
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:10
 #: model:event.track.stage,name:website_event_track.event_track_stage3
-#: field:hr.job,website_published:0 field:mail.message,website_published:0
+#: field:hr.job,website_published:0
+#: field:mail.message,website_published:0
 #, python-format
 msgid "Published"
 msgstr "Published"
@@ -6640,12 +6323,10 @@ msgstr "Push up"
 
 #. module: website_event_track
 #: view:website:website_event_track.track_view
-msgid ""
-"Put here the list of documents, like slides of\n"
+msgid "Put here the list of documents, like slides of\n"
 "                            the presentations. Remove the above t-if when\n"
 "                            it's implemented."
-msgstr ""
-"Put here the list of documents, like slides of\n"
+msgstr "Put here the list of documents, like slides of\n"
 "                            the presentations. Remove the above t-if when\n"
 "                            it's implemented."
 
@@ -6661,9 +6342,12 @@ msgstr "QWeb"
 
 #. modules: website_sale, website_quote, website_sale_options, website_event_sale
 #: view:website:website_event.event_description_full
-#: field:sale.order.option,quantity:0 field:sale.quote.line,product_uom_qty:0
-#: field:sale.quote.option,quantity:0 view:website:website_quote.pricing
-#: view:website:website_sale.cart view:website:website_sale.payment
+#: field:sale.order.option,quantity:0
+#: field:sale.quote.line,product_uom_qty:0
+#: field:sale.quote.option,quantity:0
+#: view:website:website_quote.pricing
+#: view:website:website_sale.cart
+#: view:website:website_sale.payment
 #: view:website:website_sale_options.modal
 msgid "Quantity"
 msgstr "数量"
@@ -6708,7 +6392,8 @@ msgid "Question:"
 msgstr "Question:"
 
 #. module: website_forum
-#: view:website:website_forum.forum_index view:website:website_forum.header
+#: view:website:website_forum.forum_index
+#: view:website:website_forum.header
 #: view:website:website_forum.user_detail_full
 msgid "Questions"
 msgstr "Questions"
@@ -6724,7 +6409,8 @@ msgid "Quotation Template Lines"
 msgstr "Quotation Template Lines"
 
 #. module: website_quote
-#: field:sale.quote.line,quote_id:0 field:sale.quote.option,template_id:0
+#: field:sale.quote.line,quote_id:0
+#: field:sale.quote.option,template_id:0
 msgid "Quotation Template Reference"
 msgstr "Quotation Template Reference"
 
@@ -6741,7 +6427,8 @@ msgid "Quotation viewed by customer"
 msgstr "Quotation viewed by customer"
 
 #. module: website
-#: view:website:website.snippet_options view:website:website.snippets
+#: view:website:website.snippet_options
+#: view:website:website.snippets
 msgid "Quote"
 msgstr "Quote"
 
@@ -6829,7 +6516,7 @@ msgstr "Red"
 #. module: website_mail_group
 #: view:website:website_mail_group.group_message
 msgid "Reference"
-msgstr "单号"
+msgstr "关联单号"
 
 #. modules: website, website_crm_partner_assign, website_customer
 #: view:website:website.snippets
@@ -6917,7 +6604,8 @@ msgid "Report"
 msgstr "报表"
 
 #. module: website_crm_partner_assign
-#: view:website:website.layout view:website:website_crm_partner_assign.layout
+#: view:website:website.layout
+#: view:website:website_crm_partner_assign.layout
 msgid "Resellers"
 msgstr "Resellers"
 
@@ -6975,7 +6663,8 @@ msgid "Return to the product list."
 msgstr "Return to the product list."
 
 #. module: website_forum
-#: view:website:website_forum.404 view:website:website_forum.private_profile
+#: view:website:website_forum.404
+#: view:website:website_forum.private_profile
 msgid "Return to the question list."
 msgstr "Return to the question list."
 
@@ -6985,8 +6674,10 @@ msgid "Review"
 msgstr "Review"
 
 #. module: website_sale
-#: view:website:website_sale.cart view:website:website_sale.checkout
-#: view:website:website_sale.confirmation view:website:website_sale.payment
+#: view:website:website_sale.cart
+#: view:website:website_sale.checkout
+#: view:website:website_sale.confirmation
+#: view:website:website_sale.payment
 msgid "Review Order"
 msgstr "Review Order"
 
@@ -7089,13 +6780,6 @@ msgstr "Sample images"
 msgid "Samples"
 msgstr "Samples"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:145
-#, python-format
-msgid "Sandbox"
-msgstr "Sandbox"
-
 #. modules: website, website_forum
 #. openerp-web
 #: code:addons/website/static/src/xml/website.ace.xml:9
@@ -7150,12 +6834,8 @@ msgstr "Screen Name"
 
 #. module: website_twitter
 #: help:website.config.settings,twitter_screen_name:0
-msgid ""
-"Screen Name of the Twitter Account from which you want to load favorites.It "
-"does not have to match the API Key/Secret."
-msgstr ""
-"Screen Name of the Twitter Account from which you want to load favorites.It "
-"does not have to match the API Key/Secret."
+msgid "Screen Name of the Twitter Account from which you want to load favorites.It does not have to match the API Key/Secret."
+msgstr "Screen Name of the Twitter Account from which you want to load favorites.It does not have to match the API Key/Secret."
 
 #. modules: website, website_mail
 #: view:website:website.snippets
@@ -7183,7 +6863,8 @@ msgstr "Scroll to check rendering and then close the mobile preview."
 
 #. modules: website_forum, website_crm_partner_assign, website_customer, website_forum_doc, website_membership
 #: view:website:website_crm_partner_assign.index
-#: view:website:website_customer.index view:website:website_forum.header
+#: view:website:website_customer.index
+#: view:website:website_forum.header
 #: view:website:website_forum_doc.documentation
 #: view:website:website_forum_doc.documentation_post
 #: view:website:website_membership.index
@@ -7253,7 +6934,8 @@ msgid "Seen:"
 msgstr "Seen:"
 
 #. modules: website_sale, website_mail
-#: view:website:website_mail.email_designer selection:product.attribute,type:0
+#: view:website:website_mail.email_designer
+#: selection:product.attribute,type:0
 msgid "Select"
 msgstr "Select"
 
@@ -7261,12 +6943,8 @@ msgstr "Select"
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:27
 #, python-format
-msgid ""
-"Select 'New Product' to create it and manage its properties to boost your "
-"sales."
-msgstr ""
-"Select 'New Product' to create it and manage its properties to boost your "
-"sales."
+msgid "Select 'New Product' to create it and manage its properties to boost your sales."
+msgstr "Select 'New Product' to create it and manage its properties to boost your sales."
 
 #. module: website
 #. openerp-web
@@ -7274,13 +6952,6 @@ msgstr ""
 #, python-format
 msgid "Select Container Block"
 msgstr "Select Container Block"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:63
-#, python-format
-msgid "Select Gengo Translation Service Level"
-msgstr "Select Gengo Translation Service Level"
 
 #. module: website_sale_options
 #: view:website:website_sale_options.modal
@@ -7341,7 +7012,8 @@ msgid "Sell Online. Easily."
 msgstr "Sell Online. Easily."
 
 #. modules: website_crm, website_quote
-#: view:website:website.contactus view:website:website_quote.chatter
+#: view:website:website.contactus
+#: view:website:website_quote.chatter
 msgid "Send"
 msgstr "Send"
 
@@ -7370,8 +7042,10 @@ msgid "Separator"
 msgstr "Separator"
 
 #. modules: website, website_event_track, website_forum_doc, website_sale
-#: field:website.menu,sequence:0 field:event.sponsor,sequence:0
-#: field:event.sponsor.type,sequence:0 field:event.track.stage,sequence:0
+#: field:website.menu,sequence:0
+#: field:event.sponsor,sequence:0
+#: field:event.sponsor.type,sequence:0
+#: field:event.track.stage,sequence:0
 #: field:forum.documentation.stage,sequence:0
 #: field:forum.documentation.toc,sequence:0
 #: field:product.public.category,sequence:0
@@ -7395,12 +7069,8 @@ msgstr "Set a video URL"
 
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
-msgid ""
-"Set your Twitter API access below to be able to use the Twitter Scroller "
-"Website snippet."
-msgstr ""
-"Set your Twitter API access below to be able to use the Twitter Scroller "
-"Website snippet."
+msgid "Set your Twitter API access below to be able to use the Twitter Scroller Website snippet."
+msgstr "Set your Twitter API access below to be able to use the Twitter Scroller Website snippet."
 
 #. module: website
 #: view:website:website.themes
@@ -7419,12 +7089,14 @@ msgstr "Share"
 
 #. modules: website_sale, website_quote
 #: view:website:website_quote.so_quotation
-#: view:website:website_sale.confirmation view:website:website_sale.payment
+#: view:website:website_sale.confirmation
+#: view:website:website_sale.payment
 msgid "Ship To:"
 msgstr "Ship To:"
 
 #. module: website_sale
-#: view:website:website_sale.checkout view:website:website_sale.confirmation
+#: view:website:website_sale.checkout
+#: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship to the same address"
 msgstr "Ship to the same address"
@@ -7435,8 +7107,10 @@ msgid "Shipping"
 msgstr "Shipping"
 
 #. module: website_sale
-#: view:website:website_sale.cart view:website:website_sale.checkout
-#: view:website:website_sale.confirmation view:website:website_sale.payment
+#: view:website:website_sale.cart
+#: view:website:website_sale.checkout
+#: view:website:website_sale.confirmation
+#: view:website:website_sale.payment
 msgid "Shipping & Billing"
 msgstr "Shipping & Billing"
 
@@ -7497,7 +7171,8 @@ msgid "Sign Order"
 msgstr "Sign Order"
 
 #. modules: website, website_sale
-#: view:website:website.layout view:website:website_sale.checkout
+#: view:website:website.layout
+#: view:website:website_sale.checkout
 msgid "Sign in"
 msgstr "Sign in"
 
@@ -7575,14 +7250,8 @@ msgstr "Small"
 
 #. module: website_sale
 #: help:product.public.category,image_small:0
-msgid ""
-"Small-sized image of the category. It is automatically resized as a 64x64px "
-"image, with aspect ratio preserved. Use this field anywhere a small image is "
-"required."
-msgstr ""
-"Small-sized image of the category. It is automatically resized as a 64x64px "
-"image, with aspect ratio preserved. Use this field anywhere a small image is "
-"required."
+msgid "Small-sized image of the category. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
+msgstr "Small-sized image of the category. It is automatically resized as a 64x64px image, with aspect ratio preserved. Use this field anywhere a small image is required."
 
 #. module: website
 #: view:website:website.view_website_form
@@ -7693,13 +7362,6 @@ msgstr "Stage"
 msgid "Stage Name"
 msgstr "Stage Name"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:69
-#, python-format
-msgid "Standard - $"
-msgstr "Standard - $"
-
 #. modules: website, website_sale, website_event, website_blog
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:15
@@ -7712,20 +7374,16 @@ msgstr "Start Tutorial"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid ""
-"Start with the customer – find out what they want\n"
+msgid "Start with the customer – find out what they want\n"
 "                                                    and give it to them."
-msgstr ""
-"Start with the customer – find out what they want\n"
+msgstr "Start with the customer – find out what they want\n"
 "                                                    and give it to them."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Start with the customer – find out what they want\n"
+msgid "Start with the customer – find out what they want\n"
 "                            and give it to them."
-msgstr ""
-"Start with the customer – find out what they want\n"
+msgstr "Start with the customer – find out what they want\n"
 "                            and give it to them."
 
 #. module: website_mail
@@ -7773,13 +7431,6 @@ msgstr "Stay in touch with our Community"
 #: model:gamification.challenge,name:website_forum.challenge_stellar_question_25
 msgid "Stellar Question"
 msgstr "Stellar Question"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:119
-#, python-format
-msgid "Steps for configure Gengo"
-msgstr "Steps for configure Gengo"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -7837,11 +7488,8 @@ msgstr "Subject:"
 msgid "Submission Agreement"
 msgstr "Submission Agreement"
 
-#. modules: website_gengo, website_hr_recruitment
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:154
+#. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
-#, python-format
 msgid "Submit"
 msgstr "Submit"
 
@@ -7851,7 +7499,8 @@ msgid "Submit Proposal"
 msgstr "Submit Proposal"
 
 #. modules: website_mail_group, website_mail
-#: view:website:website_mail.follow view:website:website.snippets
+#: view:website:website_mail.follow
+#: view:website:website.snippets
 msgid "Subscribe"
 msgstr "Subscribe"
 
@@ -7880,7 +7529,8 @@ msgid "Subtitle 3"
 msgstr "Subtitle 3"
 
 #. modules: website_sale, website_quote
-#: view:website:website_quote.pricing view:website:website_sale.checkout
+#: view:website:website_quote.pricing
+#: view:website:website_sale.checkout
 msgid "Subtotal:"
 msgstr "Subtotal:"
 
@@ -7908,9 +7558,12 @@ msgid "Suggested products:"
 msgstr "Suggested products:"
 
 #. modules: website_forum, website_event_track, website_blog
-#: field:blog.blog,message_summary:0 field:blog.post,message_summary:0
-#: field:blog.post.history,summary:0 field:event.track,message_summary:0
-#: field:forum.forum,message_summary:0 field:forum.post,message_summary:0
+#: field:blog.blog,message_summary:0
+#: field:blog.post,message_summary:0
+#: field:blog.post.history,summary:0
+#: field:event.track,message_summary:0
+#: field:forum.forum,message_summary:0
+#: field:forum.post,message_summary:0
 msgid "Summary"
 msgstr "Summary"
 
@@ -7952,12 +7605,17 @@ msgid "Tag List"
 msgstr "Tag List"
 
 #. modules: website_forum, website_event_track, website_blog
-#: field:blog.post,tag_ids:0 view:website:website_blog.blog_post_short
-#: field:event.event,tag_ids:0 field:event.track,tag_ids:0
+#: field:blog.post,tag_ids:0
+#: view:website:website_blog.blog_post_short
+#: field:event.event,tag_ids:0
+#: field:event.track,tag_ids:0
 #: view:website:website_event_track.event_track_proposal
-#: field:forum.post,tag_ids:0 view:website:website_forum.ask_question
-#: view:website:website_forum.edit_post view:website:website_forum.forum_index
-#: view:website:website_forum.header view:website:website_forum.tag
+#: field:forum.post,tag_ids:0
+#: view:website:website_forum.ask_question
+#: view:website:website_forum.edit_post
+#: view:website:website_forum.forum_index
+#: view:website:website_forum.header
+#: view:website:website_forum.tag
 msgid "Tags"
 msgstr "Tags"
 
@@ -8006,7 +7664,7 @@ msgstr "任务"
 #. module: website_quote
 #: view:website:website_quote.pricing
 msgid "Taxes"
-msgstr "税"
+msgstr "税金"
 
 #. module: website_sale
 #: view:website:website_sale.total
@@ -8014,7 +7672,8 @@ msgid "Taxes may be updated after providing shipping address"
 msgstr "Taxes may be updated after providing shipping address"
 
 #. modules: website_sale, website_quote
-#: view:website:website_quote.pricing view:website:website_sale.checkout
+#: view:website:website_quote.pricing
+#: view:website:website_sale.checkout
 #: view:website:website_sale.total
 msgid "Taxes:"
 msgstr "Taxes:"
@@ -8045,19 +7704,13 @@ msgstr "Technical name:"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Tell features the visitor would like to know, not what you'd like to say."
-msgstr ""
-"Tell features the visitor would like to know, not what you'd like to say."
+msgid "Tell features the visitor would like to know, not what you'd like to say."
+msgstr "Tell features the visitor would like to know, not what you'd like to say."
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
-msgid ""
-"Tell us why you are refusing this quotation, this will help us improve our "
-"services."
-msgstr ""
-"Tell us why you are refusing this quotation, this will help us improve our "
-"services."
+msgid "Tell us why you are refusing this quotation, this will help us improve our services."
+msgstr "Tell us why you are refusing this quotation, this will help us improve our services."
 
 #. module: website
 #: view:website:website.snippets
@@ -8082,7 +7735,8 @@ msgid "Template fallback"
 msgstr "Template fallback"
 
 #. module: website_quote
-#: view:website:website_quote.pricing view:website:website_quote.so_template
+#: view:website:website_quote.pricing
+#: view:website:website_quote.so_template
 msgid "Terms & Conditions"
 msgstr "Terms & Conditions"
 
@@ -8151,39 +7805,27 @@ msgstr "The 'Content' menu allows you to add pages or add the top menu."
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:20
 #, python-format
-msgid ""
-"The <em>Content</em> menu allows you to create new pages, events, menus, etc."
-msgstr ""
-"The <em>Content</em> menu allows you to create new pages, events, menus, etc."
+msgid "The <em>Content</em> menu allows you to create new pages, events, menus, etc."
+msgstr "The <em>Content</em> menu allows you to create new pages, events, menus, etc."
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid ""
-"The Odoo certification program allows companies\n"
-"                                    to identify certified professionals and "
-"get\n"
-"                                    the guarantee that their contractors "
-"are\n"
+msgid "The Odoo certification program allows companies\n"
+"                                    to identify certified professionals and get\n"
+"                                    the guarantee that their contractors are\n"
 "                                    qualified to offer Odoo services."
-msgstr ""
-"The Odoo certification program allows companies\n"
-"                                    to identify certified professionals and "
-"get\n"
-"                                    the guarantee that their contractors "
-"are\n"
+msgstr "The Odoo certification program allows companies\n"
+"                                    to identify certified professionals and get\n"
+"                                    the guarantee that their contractors are\n"
 "                                    qualified to offer Odoo services."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"The Point of Sale works perfectly on any kind of touch enabled\n"
-"                    device, whether it's multi-touch tablets like an iPad "
-"or\n"
+msgid "The Point of Sale works perfectly on any kind of touch enabled\n"
+"                    device, whether it's multi-touch tablets like an iPad or\n"
 "                    keyboardless resistive touchscreen terminals."
-msgstr ""
-"The Point of Sale works perfectly on any kind of touch enabled\n"
-"                    device, whether it's multi-touch tablets like an iPad "
-"or\n"
+msgstr "The Point of Sale works perfectly on any kind of touch enabled\n"
+"                    device, whether it's multi-touch tablets like an iPad or\n"
 "                    keyboardless resistive touchscreen terminals."
 
 #. module: website_sale_delivery
@@ -8215,11 +7857,9 @@ msgstr "The full URL to access the server action through the website."
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:268
 #, python-format
-msgid ""
-"The image could not be deleted because it is used in the\n"
+msgid "The image could not be deleted because it is used in the\n"
 "               following pages or views:"
-msgstr ""
-"The image could not be deleted because it is used in the\n"
+msgstr "The image could not be deleted because it is used in the\n"
 "               following pages or views:"
 
 #. module: website
@@ -8229,15 +7869,11 @@ msgstr "The page you were looking for could not be authorized."
 
 #. module: website
 #: view:website:website.404
-msgid ""
-"The page you were looking for could not be found; it is possible you have\n"
-"                        typed the address incorrectly, but it has most "
-"probably been removed due\n"
+msgid "The page you were looking for could not be found; it is possible you have\n"
+"                        typed the address incorrectly, but it has most probably been removed due\n"
 "                        to the recent website reorganisation."
-msgstr ""
-"The page you were looking for could not be found; it is possible you have\n"
-"                        typed the address incorrectly, but it has most "
-"probably been removed due\n"
+msgstr "The page you were looking for could not be found; it is possible you have\n"
+"                        typed the address incorrectly, but it has most probably been removed due\n"
 "                        to the recent website reorganisation."
 
 #. module: website_sale
@@ -8264,14 +7900,10 @@ msgstr "The question title is short and descriptive"
 #. module: website_mail
 #: code:addons/website_mail/models/mail_message.py:88
 #, python-format
-msgid ""
-"The requested operation cannot be completed due to security restrictions. "
-"Please contact your system administrator.\n"
+msgid "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
 "\n"
 "(Document type: %s, Operation: %s)"
-msgstr ""
-"The requested operation cannot be completed due to security restrictions. "
-"Please contact your system administrator.\n"
+msgstr "The requested operation cannot be completed due to security restrictions. Please contact your system administrator.\n"
 "\n"
 "(Document type: %s, Operation: %s)"
 
@@ -8345,12 +7977,10 @@ msgstr "This box will not be visible to your visitors."
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.documentation_post
-msgid ""
-"This documentation page has been extracted\n"
+msgid "This documentation page has been extracted\n"
 "                                        from the Q&A section where you can\n"
 "                                        discuss it and get feedback."
-msgstr ""
-"This documentation page has been extracted\n"
+msgstr "This documentation page has been extracted\n"
 "                                        from the Q&A section where you can\n"
 "                                        discuss it and get feedback."
 
@@ -8361,12 +7991,8 @@ msgstr "This event does not accept proposals."
 
 #. module: website_sale
 #: help:product.public.category,image:0
-msgid ""
-"This field holds the image used as image for the category, limited to "
-"1024x1024px."
-msgstr ""
-"This field holds the image used as image for the category, limited to "
-"1024x1024px."
+msgid "This field holds the image used as image for the category, limited to 1024x1024px."
+msgstr "This field holds the image used as image for the category, limited to 1024x1024px."
 
 #. module: website_blog
 #. openerp-web
@@ -8400,11 +8026,9 @@ msgstr "This offer expires in"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
-msgid ""
-"This order has been validated. Thanks for your trust\n"
+msgid "This order has been validated. Thanks for your trust\n"
 "                          and do not hesitate to"
-msgstr ""
-"This order has been validated. Thanks for your trust\n"
+msgstr "This order has been validated. Thanks for your trust\n"
 "                          and do not hesitate to"
 
 #. module: website_sale
@@ -8416,12 +8040,8 @@ msgstr "This page contains all the information related to the new product."
 
 #. module: website
 #: view:website:website.page_404
-msgid ""
-"This page does not exists, but you can create it as you are administrator of "
-"this site."
-msgstr ""
-"This page does not exists, but you can create it as you are administrator of "
-"this site."
+msgid "This page does not exists, but you can create it as you are administrator of this site."
+msgstr "This page does not exists, but you can create it as you are administrator of this site."
 
 #. module: website_blog
 #: view:website:website_blog.latest_blogs
@@ -8452,23 +8072,15 @@ msgstr "This quotation has been rejected."
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:102
 #, python-format
-msgid ""
-"This tutorial is finished. To discover more features, improve the content of "
-"this page and try the <em>Promote</em> button in the top right menu."
-msgstr ""
-"This tutorial is finished. To discover more features, improve the content of "
-"this page and try the <em>Promote</em> button in the top right menu."
+msgid "This tutorial is finished. To discover more features, improve the content of this page and try the <em>Promote</em> button in the top right menu."
+msgstr "This tutorial is finished. To discover more features, improve the content of this page and try the <em>Promote</em> button in the top right menu."
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:14
 #, python-format
-msgid ""
-"This tutorial will guide you to build your home page. We will start by "
-"adding a banner."
-msgstr ""
-"This tutorial will guide you to build your home page. We will start by "
-"adding a banner."
+msgid "This tutorial will guide you to build your home page. We will start by adding a banner."
+msgstr "This tutorial will guide you to build your home page. We will start by adding a banner."
 
 #. module: website_sale
 #: help:product.template,public_categ_ids:0
@@ -8488,17 +8100,16 @@ msgstr "Ticket Type"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid ""
-"Timely release of presentation material (slides),\n"
+msgid "Timely release of presentation material (slides),\n"
 "                                    for publishing on our website."
-msgstr ""
-"Timely release of presentation material (slides),\n"
+msgstr "Timely release of presentation material (slides),\n"
 "                                    for publishing on our website."
 
 #. modules: website, website_forum, website_blog
 #. openerp-web
 #: code:addons/website/static/src/xml/website.seo.xml:43
-#: view:website:website.snippets field:blog.post,name:0
+#: view:website:website.snippets
+#: field:blog.post,name:0
 #: field:forum.post,name:0
 #, python-format
 msgid "Title"
@@ -8516,28 +8127,20 @@ msgstr "To"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"To add a fourth column, reduce the size of these\n"
-"                            three columns using the right icon of each "
-"block.\n"
-"                            Then, duplicate one of the column to create a "
-"new\n"
+msgid "To add a fourth column, reduce the size of these\n"
+"                            three columns using the right icon of each block.\n"
+"                            Then, duplicate one of the column to create a new\n"
 "                            one as a copy."
-msgstr ""
-"To add a fourth column, reduce the size of these\n"
-"                            three columns using the right icon of each "
-"block.\n"
-"                            Then, duplicate one of the column to create a "
-"new\n"
+msgstr "To add a fourth column, reduce the size of these\n"
+"                            three columns using the right icon of each block.\n"
+"                            Then, duplicate one of the column to create a new\n"
 "                            one as a copy."
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
-msgid ""
-"To be promoted in the official documentation the question\n"
+msgid "To be promoted in the official documentation the question\n"
 "                        and answer must satisfy the following criteria:"
-msgstr ""
-"To be promoted in the official documentation the question\n"
+msgstr "To be promoted in the official documentation the question\n"
 "                        and answer must satisfy the following criteria:"
 
 #. module: website_event
@@ -8547,7 +8150,8 @@ msgid "Today"
 msgstr "Today"
 
 #. modules: website, website_forum
-#: view:website:website.layout view:website:website_forum.header
+#: view:website:website.layout
+#: view:website:website_forum.header
 msgid "Toggle navigation"
 msgstr "Toggle navigation"
 
@@ -8562,7 +8166,8 @@ msgid "Total To Pay:"
 msgstr "Total To Pay:"
 
 #. modules: website_sale, website_quote
-#: view:website:website_quote.pricing view:website:website_sale.total
+#: view:website:website_quote.pricing
+#: view:website:website_sale.total
 msgid "Total:"
 msgstr "合计："
 
@@ -8609,7 +8214,8 @@ msgstr "Track Title"
 
 #. module: website_event_track
 #: view:event.event:website_event_track.view_event_form
-#: field:event.event,count_tracks:0 field:event.event,track_ids:0
+#: field:event.event,count_tracks:0
+#: field:event.event,track_ids:0
 #: view:event.track:website_event_track.view_event_track_graph
 msgid "Tracks"
 msgstr "Tracks"
@@ -8624,10 +8230,9 @@ msgstr "Transaction"
 msgid "Transform"
 msgstr "Transform"
 
-#. modules: website, website_gengo
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.translator.xml:12
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:15
 #, python-format
 msgid "Translate this page"
 msgstr "Translate this page"
@@ -8638,34 +8243,6 @@ msgstr "Translate this page"
 #, python-format
 msgid "Translated content"
 msgstr "Translated content"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:100
-#, python-format
-msgid "Translated words"
-msgstr "Translated words"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:6
-#, python-format
-msgid "Translation in Progress"
-msgstr "Translation in Progress"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:26
-#, python-format
-msgid "Translation in process (Gengo)"
-msgstr "Translation in process (Gengo)"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:91
-#, python-format
-msgid "Translator statistics for this page"
-msgstr "Translator statistics for this page"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete
@@ -8737,8 +8314,7 @@ msgstr "Twitter API secret"
 #. module: website_twitter
 #: help:website.config.settings,twitter_api_secret:0
 msgid "Twitter API secret you can get it from https://apps.twitter.com/app/new"
-msgstr ""
-"Twitter API secret you can get it from https://apps.twitter.com/app/new"
+msgstr "Twitter API secret you can get it from https://apps.twitter.com/app/new"
 
 #. module: website
 #: field:website,social_twitter:0
@@ -8777,12 +8353,8 @@ msgstr "Twitter authorization error!"
 #. module: website_twitter
 #: code:addons/website_twitter/controllers/main.py:36
 #, python-format
-msgid ""
-"Twitter user @%(username)s has less than 12 favorite tweets. Please add more "
-"or choose a different screen name."
-msgstr ""
-"Twitter user @%(username)s has less than 12 favorite tweets. Please add more "
-"or choose a different screen name."
+msgid "Twitter user @%(username)s has less than 12 favorite tweets. Please add more or choose a different screen name."
+msgstr "Twitter user @%(username)s has less than 12 favorite tweets. Please add more or choose a different screen name."
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
@@ -8819,13 +8391,6 @@ msgstr "URL or Email Address"
 msgid "Ubuntu orange and unique font"
 msgstr "Ubuntu orange and unique font"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:71
-#, python-format
-msgid "Ultra - $"
-msgstr "Ultra - $"
-
 #. module: website_forum
 #: view:website:website_forum.forum_index
 msgid "Unanswered"
@@ -8837,13 +8402,16 @@ msgid "Uniform Color"
 msgstr "Uniform Color"
 
 #. module: website_quote
-#: field:sale.order.option,price_unit:0 field:sale.quote.line,price_unit:0
-#: field:sale.quote.option,price_unit:0 view:website:website_quote.pricing
+#: field:sale.order.option,price_unit:0
+#: field:sale.quote.line,price_unit:0
+#: field:sale.quote.option,price_unit:0
+#: view:website:website_quote.pricing
 msgid "Unit Price"
 msgstr "单价"
 
 #. module: website_quote
-#: field:sale.order.option,uom_id:0 field:sale.quote.line,product_uom_id:0
+#: field:sale.order.option,uom_id:0
+#: field:sale.quote.line,product_uom_id:0
 #: field:sale.quote.option,uom_id:0
 msgid "Unit of Measure "
 msgstr "Unit of Measure "
@@ -8875,8 +8443,10 @@ msgid "Unpublish"
 msgstr "Unpublish"
 
 #. modules: website_forum, website_event_track, website_blog
-#: field:blog.blog,message_unread:0 field:blog.post,message_unread:0
-#: field:event.track,message_unread:0 field:forum.forum,message_unread:0
+#: field:blog.blog,message_unread:0
+#: field:blog.post,message_unread:0
+#: field:event.track,message_unread:0
+#: field:forum.forum,message_unread:0
 #: field:forum.post,message_unread:0
 msgid "Unread Messages"
 msgstr "Unread Messages"
@@ -8985,12 +8555,8 @@ msgstr "Use the top menu"
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:20
 #, python-format
-msgid ""
-"Use this <em>'Content'</em> menu to create a new blog post like any other "
-"document (page, menu, products, event, ...)."
-msgstr ""
-"Use this <em>'Content'</em> menu to create a new blog post like any other "
-"document (page, menu, products, event, ...)."
+msgid "Use this <em>'Content'</em> menu to create a new blog post like any other document (page, menu, products, event, ...)."
+msgstr "Use this <em>'Content'</em> menu to create a new blog post like any other document (page, menu, products, event, ...)."
 
 #. modules: website_event_track, website_event
 #: view:website:website_event.event_description_full
@@ -9002,12 +8568,8 @@ msgstr "Use this tag:"
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:54
 #, python-format
-msgid ""
-"Use well designed building blocks to structure the content of your blog. "
-"Click 'Insert Blocks' to add new content."
-msgstr ""
-"Use well designed building blocks to structure the content of your blog. "
-"Click 'Insert Blocks' to add new content."
+msgid "Use well designed building blocks to structure the content of your blog. Click 'Insert Blocks' to add new content."
+msgstr "Use well designed building blocks to structure the content of your blog. Click 'Insert Blocks' to add new content."
 
 #. module: website_blog
 #: view:blog.tag:website_blog.blog_tag_form
@@ -9016,10 +8578,8 @@ msgstr "Used in:"
 
 #. module: website_blog
 #: help:mail.message,path:0
-msgid ""
-"Used to display messages in a paragraph-based chatter using a unique path;"
-msgstr ""
-"Used to display messages in a paragraph-based chatter using a unique path;"
+msgid "Used to display messages in a paragraph-based chatter using a unique path;"
+msgstr "Used to display messages in a paragraph-based chatter using a unique path;"
 
 #. module: website_forum
 #: field:forum.post.vote,user_id:0
@@ -9029,7 +8589,7 @@ msgstr "User"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_res_users
 msgid "Users"
-msgstr "用户"
+msgstr "人员"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -9042,7 +8602,8 @@ msgid "Valid Answer"
 msgstr "Valid Answer"
 
 #. modules: website_sale, website_quote
-#: view:website:website_quote.so_quotation view:website:website_sale.payment
+#: view:website:website_quote.so_quotation
+#: view:website:website_sale.payment
 msgid "Validate Order"
 msgstr "Validate Order"
 
@@ -9129,17 +8690,11 @@ msgid "Vote"
 msgstr "Vote"
 
 #. module: website_forum
-#: field:forum.post,vote_count:0 field:forum.post,vote_ids:0
+#: field:forum.post,vote_count:0
+#: field:forum.post,vote_ids:0
 #: view:website:website_forum.user_detail_full
 msgid "Votes"
 msgstr "Votes"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:5
-#, python-format
-msgid "Wait"
-msgstr "Wait"
 
 #. module: website
 #. openerp-web
@@ -9157,37 +8712,27 @@ msgstr "Warning!"
 
 #. module: website
 #: view:website:website.aboutus
-msgid ""
-"We are a team of passionate people whose goal is to improve everyone's\n"
-"                                      life through disruptive products. We "
-"build great products to solve your\n"
+msgid "We are a team of passionate people whose goal is to improve everyone's\n"
+"                                      life through disruptive products. We build great products to solve your\n"
 "                                      business problems."
-msgstr ""
-"We are a team of passionate people whose goal is to improve everyone's\n"
-"                                      life through disruptive products. We "
-"build great products to solve your\n"
+msgstr "We are a team of passionate people whose goal is to improve everyone's\n"
+"                                      life through disruptive products. We build great products to solve your\n"
 "                                      business problems."
 
 #. module: website
 #: view:website:website.layout
-msgid ""
-"We are a team of passionate people whose goal is to improve everyone's\n"
-"                            life through disruptive products. We build great "
-"products to solve your\n"
+msgid "We are a team of passionate people whose goal is to improve everyone's\n"
+"                            life through disruptive products. We build great products to solve your\n"
 "                            business problems."
-msgstr ""
-"We are a team of passionate people whose goal is to improve everyone's\n"
-"                            life through disruptive products. We build great "
-"products to solve your\n"
+msgstr "We are a team of passionate people whose goal is to improve everyone's\n"
+"                            life through disruptive products. We build great products to solve your\n"
 "                            business problems."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"We have decided to change the\n"
+msgid "We have decided to change the\n"
 "                            name because"
-msgstr ""
-"We have decided to change the\n"
+msgstr "We have decided to change the\n"
 "                            name because"
 
 #. module: website_event_track
@@ -9197,16 +8742,14 @@ msgstr "We require speakers to accept an agreement in which they commit to:"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
-msgid ""
-"We will accept a broad range of\n"
+msgid "We will accept a broad range of\n"
 "                                presentations, from reports on academic and\n"
 "                                commercial projects to tutorials and case\n"
 "                                studies. As long as the presentation is\n"
 "                                interesting and potentially useful to the\n"
 "                                audience, it will be considered for\n"
 "                                inclusion in the programme."
-msgstr ""
-"We will accept a broad range of\n"
+msgstr "We will accept a broad range of\n"
 "                                presentations, from reports on academic and\n"
 "                                commercial projects to tutorials and case\n"
 "                                studies. As long as the presentation is\n"
@@ -9235,7 +8778,8 @@ msgstr "We'll do our best to get back to you as soon as possible."
 #: model:ir.actions.act_url,name:website.action_website
 #: view:ir.actions.server:website.view_server_action_search_website
 #: model:ir.model,name:website.model_website
-#: model:ir.ui.menu,name:website.menu_website view:website:website.layout
+#: model:ir.ui.menu,name:website.menu_website
+#: view:website:website.layout
 #: field:website.menu,website_id:0
 #: model:ir.model,name:website_event_sale.model_website
 #: view:website:website_forum.edit_profile
@@ -9296,7 +8840,8 @@ msgid "Website Menu"
 msgstr "Website Menu"
 
 #. modules: website_forum, website_mail, website_quote, website_sale, website_event_track, website_blog
-#: field:blog.blog,website_message_ids:0 field:blog.post,website_message_ids:0
+#: field:blog.blog,website_message_ids:0
+#: field:blog.post,website_message_ids:0
 #: field:event.track,website_message_ids:0
 #: field:forum.forum,website_message_ids:0
 #: field:mail.thread,website_message_ids:0
@@ -9348,7 +8893,8 @@ msgid "Website Shop"
 msgstr "Website Shop"
 
 #. modules: website, website_hr_recruitment
-#: field:ir.actions.server,website_url:0 field:hr.job,website_url:0
+#: field:ir.actions.server,website_url:0
+#: field:hr.job,website_url:0
 msgid "Website URL"
 msgstr "Website URL"
 
@@ -9358,7 +8904,8 @@ msgid "Website With Tutorial"
 msgstr "Website With Tutorial"
 
 #. modules: website_forum, website_mail, website_quote, website_sale, website_event_track, website_blog
-#: help:blog.blog,website_message_ids:0 help:blog.post,website_message_ids:0
+#: help:blog.blog,website_message_ids:0
+#: help:blog.post,website_message_ids:0
 #: help:event.track,website_message_ids:0
 #: help:forum.forum,website_message_ids:0
 #: help:mail.thread,website_message_ids:0
@@ -9420,13 +8967,17 @@ msgstr "Website meta keywords"
 #. modules: website, website_forum, website_event, website_partner, website_hr_recruitment, website_sale, website_forum_doc, website_event_track, website_project, website_blog
 #: field:ir.ui.view,website_meta_title:0
 #: field:website.seo.metadata,website_meta_title:0
-#: field:blog.blog,website_meta_title:0 field:blog.post,website_meta_title:0
-#: field:blog.tag,website_meta_title:0 field:event.event,website_meta_title:0
+#: field:blog.blog,website_meta_title:0
+#: field:blog.post,website_meta_title:0
+#: field:blog.tag,website_meta_title:0
+#: field:event.event,website_meta_title:0
 #: field:event.track,website_meta_title:0
 #: field:forum.forum,website_meta_title:0
-#: field:forum.post,website_meta_title:0 field:forum.tag,website_meta_title:0
+#: field:forum.post,website_meta_title:0
+#: field:forum.tag,website_meta_title:0
 #: field:forum.documentation.toc,website_meta_title:0
-#: field:hr.job,website_meta_title:0 field:res.partner,website_meta_title:0
+#: field:hr.job,website_meta_title:0
+#: field:res.partner,website_meta_title:0
 #: field:project.project,website_meta_title:0
 #: field:project.task,website_meta_title:0
 #: field:product.template,website_meta_title:0
@@ -9434,8 +8985,10 @@ msgid "Website meta title"
 msgstr "Website meta title"
 
 #. modules: website_event_track, website_event, website_sale
-#: field:event.event,website_url:0 field:event.track,website_url:0
-#: field:product.product,website_url:0 field:product.template,website_url:0
+#: field:event.event,website_url:0
+#: field:event.track,website_url:0
+#: field:product.product,website_url:0
+#: field:product.template,website_url:0
 msgid "Website url"
 msgstr "Website url"
 
@@ -9529,75 +9082,39 @@ msgstr "Which hardware does Odoo POS support?"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"While an internet connection is required to start the Point of\n"
-"                    Sale, it will stay operational even after a complete "
-"disconnection."
-msgstr ""
-"While an internet connection is required to start the Point of\n"
-"                    Sale, it will stay operational even after a complete "
-"disconnection."
+msgid "While an internet connection is required to start the Point of\n"
+"                    Sale, it will stay operational even after a complete disconnection."
+msgstr "While an internet connection is required to start the Point of\n"
+"                    Sale, it will stay operational even after a complete disconnection."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"With Odoo's fully integrated software, you can easily manage your\n"
-"                            meetings, schedule business calls, create "
-"recurring meetings,\n"
-"                            synchronize your agenda and easily keep in touch "
-"with your colleagues,\n"
-"                            partners and other people involved in projects "
-"or business discussions."
-msgstr ""
-"With Odoo's fully integrated software, you can easily manage your\n"
-"                            meetings, schedule business calls, create "
-"recurring meetings,\n"
-"                            synchronize your agenda and easily keep in touch "
-"with your colleagues,\n"
-"                            partners and other people involved in projects "
-"or business discussions."
+msgid "With Odoo's fully integrated software, you can easily manage your\n"
+"                            meetings, schedule business calls, create recurring meetings,\n"
+"                            synchronize your agenda and easily keep in touch with your colleagues,\n"
+"                            partners and other people involved in projects or business discussions."
+msgstr "With Odoo's fully integrated software, you can easily manage your\n"
+"                            meetings, schedule business calls, create recurring meetings,\n"
+"                            synchronize your agenda and easily keep in touch with your colleagues,\n"
+"                            partners and other people involved in projects or business discussions."
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
-msgid ""
-"With a small team of smart people, we released the most\n"
-"                                    disruptive enterprise management "
-"software in the world.\n"
-"                                    Odoo is fully open source, super easy, "
-"full featured\n"
-"                                    (3000+ apps) and its online offer is 3 "
-"times cheaper than\n"
-"                                    traditional competitors like SAP and Ms "
-"Dynamics."
-msgstr ""
-"With a small team of smart people, we released the most\n"
-"                                    disruptive enterprise management "
-"software in the world.\n"
-"                                    Odoo is fully open source, super easy, "
-"full featured\n"
-"                                    (3000+ apps) and its online offer is 3 "
-"times cheaper than\n"
-"                                    traditional competitors like SAP and Ms "
-"Dynamics."
+msgid "With a small team of smart people, we released the most\n"
+"                                    disruptive enterprise management software in the world.\n"
+"                                    Odoo is fully open source, super easy, full featured\n"
+"                                    (3000+ apps) and its online offer is 3 times cheaper than\n"
+"                                    traditional competitors like SAP and Ms Dynamics."
+msgstr "With a small team of smart people, we released the most\n"
+"                                    disruptive enterprise management software in the world.\n"
+"                                    Odoo is fully open source, super easy, full featured\n"
+"                                    (3000+ apps) and its online offer is 3 times cheaper than\n"
+"                                    traditional competitors like SAP and Ms Dynamics."
 
 #. module: website
 #: view:website:website.snippet_options
 msgid "Wood"
 msgstr "Wood"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:99
-#, python-format
-msgid "Words in progress"
-msgstr "Words in progress"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:98
-#, python-format
-msgid "Words posted for translate"
-msgstr "Words posted for translate"
 
 #. modules: website_crm_partner_assign, website_customer, website_membership, website_google_map
 #: view:website:website_crm_partner_assign.index
@@ -9618,44 +9135,30 @@ msgstr "Write a comment..."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Write a quote here from one of your customers. Quotes are a\n"
-"                                                    great way to build "
-"confidence in your products or services."
-msgstr ""
-"Write a quote here from one of your customers. Quotes are a\n"
-"                                                    great way to build "
-"confidence in your products or services."
+msgid "Write a quote here from one of your customers. Quotes are a\n"
+"                                                    great way to build confidence in your products or services."
+msgstr "Write a quote here from one of your customers. Quotes are a\n"
+"                                                    great way to build confidence in your products or services."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Write a quote here from one of your customers. Quotes are a\n"
-"                                            great way to build confidence in "
-"your products or services."
-msgstr ""
-"Write a quote here from one of your customers. Quotes are a\n"
-"                                            great way to build confidence in "
-"your products or services."
+msgid "Write a quote here from one of your customers. Quotes are a\n"
+"                                            great way to build confidence in your products or services."
+msgstr "Write a quote here from one of your customers. Quotes are a\n"
+"                                            great way to build confidence in your products or services."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Write a quote here from one of your customers. Quotes are a\n"
-"                                great way to build confidence in your "
-"products or services."
-msgstr ""
-"Write a quote here from one of your customers. Quotes are a\n"
-"                                great way to build confidence in your "
-"products or services."
+msgid "Write a quote here from one of your customers. Quotes are a\n"
+"                                great way to build confidence in your products or services."
+msgstr "Write a quote here from one of your customers. Quotes are a\n"
+"                                great way to build confidence in your products or services."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Write a quote here from one of your customers. Quotes are a\n"
+msgid "Write a quote here from one of your customers. Quotes are a\n"
 "                great way to build confidence in your products or services."
-msgstr ""
-"Write a quote here from one of your customers. Quotes are a\n"
+msgstr "Write a quote here from one of your customers. Quotes are a\n"
 "                great way to build confidence in your products or services."
 
 #. module: website_blog
@@ -9665,54 +9168,38 @@ msgstr "Write a small text here for when"
 
 #. module: website_event
 #: view:website:website_event.index
-msgid ""
-"Write here a quote from one of your attendees.\n"
+msgid "Write here a quote from one of your attendees.\n"
 "                        It gives confidence in your\n"
 "                        events."
-msgstr ""
-"Write here a quote from one of your attendees.\n"
+msgstr "Write here a quote from one of your attendees.\n"
 "                        It gives confidence in your\n"
 "                        events."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Write one or two paragraphs describing your product or\n"
-"                            services. To be successful your content needs to "
-"be\n"
+msgid "Write one or two paragraphs describing your product or\n"
+"                            services. To be successful your content needs to be\n"
 "                            useful to your readers."
-msgstr ""
-"Write one or two paragraphs describing your product or\n"
-"                            services. To be successful your content needs to "
-"be\n"
+msgstr "Write one or two paragraphs describing your product or\n"
+"                            services. To be successful your content needs to be\n"
 "                            useful to your readers."
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
-msgid ""
-"Write one or two paragraphs describing your product,\n"
-"                                                    services or a specific "
-"feature. To be successful\n"
-"                                                    your content needs to be "
-"useful to your readers."
-msgstr ""
-"Write one or two paragraphs describing your product,\n"
-"                                                    services or a specific "
-"feature. To be successful\n"
-"                                                    your content needs to be "
-"useful to your readers."
+msgid "Write one or two paragraphs describing your product,\n"
+"                                                    services or a specific feature. To be successful\n"
+"                                                    your content needs to be useful to your readers."
+msgstr "Write one or two paragraphs describing your product,\n"
+"                                                    services or a specific feature. To be successful\n"
+"                                                    your content needs to be useful to your readers."
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"Write one or two paragraphs describing your product,\n"
-"                            services or a specific feature. To be "
-"successful\n"
+msgid "Write one or two paragraphs describing your product,\n"
+"                            services or a specific feature. To be successful\n"
 "                            your content needs to be useful to your readers."
-msgstr ""
-"Write one or two paragraphs describing your product,\n"
-"                            services or a specific feature. To be "
-"successful\n"
+msgstr "Write one or two paragraphs describing your product,\n"
+"                            services or a specific feature. To be successful\n"
 "                            your content needs to be useful to your readers."
 
 #. modules: website, website_mail
@@ -9741,10 +9228,9 @@ msgstr "Yes."
 msgid "Yeti"
 msgstr "Yeti"
 
-#. modules: website, website_gengo
+#. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.translator.xml:16
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:19
 #, python-format
 msgid "You are about to enter the translation mode."
 msgstr "You are about to enter the translation mode."
@@ -9782,12 +9268,8 @@ msgstr "You should"
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:13
 #, python-format
-msgid ""
-"You successfully installed the e-commerce. This guide will help you to "
-"create your product and promote your sales."
-msgstr ""
-"You successfully installed the e-commerce. This guide will help you to "
-"create your product and promote your sales."
+msgid "You successfully installed the e-commerce. This guide will help you to create your product and promote your sales."
+msgstr "You successfully installed the e-commerce. This guide will help you to create your product and promote your sales."
 
 #. module: website
 #: view:website:website.themes
@@ -9844,7 +9326,8 @@ msgid "Your Name:"
 msgstr "Your Name:"
 
 #. modules: website_sale, website_quote
-#: view:website:website_quote.so_quotation view:website:website_sale.checkout
+#: view:website:website_quote.so_quotation
+#: view:website:website_sale.checkout
 msgid "Your Order"
 msgstr "Your Order"
 
@@ -9888,12 +9371,8 @@ msgstr "Your answer"
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:97
 #, python-format
-msgid ""
-"Your blog post is not yet published. You can update this draft version and "
-"publish it once you are ready."
-msgstr ""
-"Your blog post is not yet published. You can update this draft version and "
-"publish it once you are ready."
+msgid "Your blog post is not yet published. You can update this draft version and publish it once you are ready."
+msgstr "Your blog post is not yet published. You can update this draft version and publish it once you are ready."
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -9907,11 +9386,9 @@ msgstr "Your feedback....."
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.thankyou
-msgid ""
-"Your job application has been successfully registered,\n"
+msgid "Your job application has been successfully registered,\n"
 "                        we will get back to you soon."
-msgstr ""
-"Your job application has been successfully registered,\n"
+msgstr "Your job application has been successfully registered,\n"
 "                        we will get back to you soon."
 
 #. module: website_crm
@@ -9990,13 +9467,6 @@ msgstr "and"
 msgid "and evaluating the following expression:"
 msgstr "and evaluating the following expression:"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:120
-#, python-format
-msgid "and generate API Keys."
-msgstr "and generate API Keys."
-
 #. module: website_forum
 #: view:website:website_forum.display_post
 msgid "answers"
@@ -10018,7 +9488,8 @@ msgid "attachments"
 msgstr "attachments"
 
 #. module: website_forum
-#: view:website:website_forum.badge view:website:website_forum.user_badges
+#: view:website:website_forum.badge
+#: view:website:website_forum.user_badges
 msgid "awarded users"
 msgstr "awarded users"
 
@@ -10034,10 +9505,8 @@ msgstr "badges:"
 
 #. module: website_forum
 #: view:website:website_forum.ask_question
-msgid ""
-"be clear and concise, avoid unnecessary introductions (Hi, ... Thanks...)"
-msgstr ""
-"be clear and concise, avoid unnecessary introductions (Hi, ... Thanks...)"
+msgid "be clear and concise, avoid unnecessary introductions (Hi, ... Thanks...)"
+msgstr "be clear and concise, avoid unnecessary introductions (Hi, ... Thanks...)"
 
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
@@ -10152,13 +9621,15 @@ msgstr "col-sm-8"
 
 #. modules: website_sale, website_blog
 #: view:website:website_blog.blog_post_short
-#: view:website:website_blog.latest_blogs view:website:website_sale.product
+#: view:website:website_blog.latest_blogs
+#: view:website:website_sale.product
 msgid "comment"
 msgstr "comment"
 
 #. modules: website_sale, website_blog
 #: view:website:website_blog.blog_post_short
-#: view:website:website_blog.latest_blogs view:website:website_sale.product
+#: view:website:website_blog.latest_blogs
+#: view:website:website_sale.product
 msgid "comments"
 msgstr "comments"
 
@@ -10222,16 +9693,12 @@ msgstr "describing your page content"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"didn't reflect the offering\n"
-"                            of the company anymore. With our newest apps, "
-"such\n"
+msgid "didn't reflect the offering\n"
+"                            of the company anymore. With our newest apps, such\n"
 "                            as Website Builder, PoS or eCommerce, we have\n"
 "                            moved beyond the ERP territory."
-msgstr ""
-"didn't reflect the offering\n"
-"                            of the company anymore. With our newest apps, "
-"such\n"
+msgstr "didn't reflect the offering\n"
+"                            of the company anymore. With our newest apps, such\n"
 "                            as Website Builder, PoS or eCommerce, we have\n"
 "                            moved beyond the ERP territory."
 
@@ -10277,11 +9744,9 @@ msgstr "feature, in clear words."
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
-msgid ""
-"find your website\n"
+msgid "find your website\n"
 "            through your"
-msgstr ""
-"find your website\n"
+msgstr "find your website\n"
 "            through your"
 
 #. module: website_forum
@@ -10291,24 +9756,15 @@ msgstr "follower(s)"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
-msgid ""
-"for\n"
+msgid "for\n"
 "                          any question."
-msgstr ""
-"for\n"
+msgstr "for\n"
 "                          any question."
 
 #. module: website_forum
 #: view:website:website_forum.post_description_full
 msgid "for reason:"
 msgstr "for reason:"
-
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:24
-#, python-format
-msgid "for translation."
-msgstr "for translation."
 
 #. module: website_forum
 #: selection:gamification.badge,level:0
@@ -10425,19 +9881,13 @@ msgstr "instance of Odoo, the"
 
 #. module: website
 #: view:website:website.snippets
-msgid ""
-"is and always will be\n"
-"                            fully open source. You can read more about the "
-"new name here.\n"
-"                            We have also prepared a short FAQ to explain all "
-"these changes\n"
+msgid "is and always will be\n"
+"                            fully open source. You can read more about the new name here.\n"
+"                            We have also prepared a short FAQ to explain all these changes\n"
 "                            to all of you."
-msgstr ""
-"is and always will be\n"
-"                            fully open source. You can read more about the "
-"new name here.\n"
-"                            We have also prepared a short FAQ to explain all "
-"these changes\n"
+msgstr "is and always will be\n"
+"                            fully open source. You can read more about the new name here.\n"
+"                            We have also prepared a short FAQ to explain all these changes\n"
 "                            to all of you."
 
 #. module: website_blog
@@ -10501,13 +9951,6 @@ msgstr "more replies"
 msgid "new visitors"
 msgstr "new visitors"
 
-#. module: website_gengo
-#. openerp-web
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:95
-#, python-format
-msgid "new words found on this page."
-msgstr "new words found on this page."
-
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_4
 msgid "not a real question"
@@ -10519,7 +9962,8 @@ msgid "not line.linked_line_id"
 msgstr "not line.linked_line_id"
 
 #. modules: website_event_track, website_event, website_hr_recruitment, website_blog
-#: view:website:website_blog.blog_post_short view:website:website_event.index
+#: view:website:website_blog.blog_post_short
+#: view:website:website_event.index
 #: view:website:website_event_track.tracks
 #: view:website:website_hr_recruitment.index
 msgid "not published"
@@ -10550,7 +9994,8 @@ msgstr "official documentation"
 #: view:website:website_forum.display_post
 #: view:website:website_forum.post_comment
 #: view:website:website_forum.post_description_full
-#: view:website:website_quote.chatter view:website:website_sale.product
+#: view:website:website_quote.chatter
+#: view:website:website_sale.product
 msgid "on"
 msgstr "on"
 
@@ -10559,12 +10004,7 @@ msgstr "on"
 msgid "open positions"
 msgstr "open positions"
 
-#. module: website
-#: view:website:website.layout
-msgid "open source website builder"
-msgstr "open source website builder"
-
-#. modules: website, website_forum, website_gengo, website_quote, website_sale, website_forum_doc
+#. modules: website, website_forum, website_forum_doc, website_quote, website_sale
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:9
 #: code:addons/website/static/src/xml/website.editor.xml:28
@@ -10576,10 +10016,8 @@ msgstr "open source website builder"
 #: view:website.config.settings:website.view_website_config_settings
 #: view:website:website_forum.close_question
 #: view:website:website_forum_doc.promote_question
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:47
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:76
-#: code:addons/website_gengo/static/src/xml/website.gengo.xml:154
-#: view:website:website_quote.so_quotation view:website:website_sale.checkout
+#: view:website:website_quote.so_quotation
+#: view:website:website_sale.checkout
 #, python-format
 msgid "or"
 msgstr "or"
@@ -10640,7 +10078,8 @@ msgstr "pull-left"
 
 #. modules: website_sale, website_event, website_blog
 #: view:website:website_blog.blog_post_short
-#: view:website:website_blog.latest_blogs view:website:website_event.index
+#: view:website:website_blog.latest_blogs
+#: view:website:website_event.index
 #: view:website:website_sale.product
 msgid "pull-right"
 msgstr "pull-right"
@@ -10739,12 +10178,10 @@ msgstr "the classic Odoo interface"
 
 #. module: website_quote
 #: view:website:website_quote.so_template
-msgid ""
-"this content\n"
+msgid "this content\n"
 "                                will appear on all quotations using this\n"
 "                                template."
-msgstr ""
-"this content\n"
+msgstr "this content\n"
 "                                will appear on all quotations using this\n"
 "                                template."
 
@@ -10759,7 +10196,8 @@ msgid "times"
 msgstr "times"
 
 #. module: website_event
-#: view:website:website_event.event_details view:website:website_event.index
+#: view:website:website_event.event_details
+#: view:website:website_event.index
 msgid "to"
 msgstr "到"
 
@@ -10789,9 +10227,12 @@ msgid "top menu to create a new product."
 msgstr "top menu to create a new product."
 
 #. modules: website, website_forum, website_mail, website_partner, website_quote, website_event_track
-#: field:website.converter.test.sub,name:0 field:event.track,image:0
-#: field:forum.post,self_reply:0 field:mail.message,description:0
-#: field:res.partner,self:0 field:sale.order.option,line_id:0
+#: field:website.converter.test.sub,name:0
+#: field:event.track,image:0
+#: field:forum.post,self_reply:0
+#: field:mail.message,description:0
+#: field:res.partner,self:0
+#: field:sale.order.option,line_id:0
 msgid "unknown"
 msgstr "unknown"
 
@@ -10835,13 +10276,15 @@ msgid "views"
 msgstr "views"
 
 #. module: website_forum
-#: view:website:website_forum.display_post view:website:website_forum.vote
+#: view:website:website_forum.display_post
+#: view:website:website_forum.vote
 msgid "vote"
 msgstr "vote"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
-#: view:website:website_forum.user_detail_full view:website:website_forum.vote
+#: view:website:website_forum.user_detail_full
+#: view:website:website_forum.vote
 msgid "votes"
 msgstr "votes"
 
@@ -10863,11 +10306,9 @@ msgstr "website_report.layout"
 
 #. module: website_quote
 #: view:website:website_quote.so_template
-msgid ""
-"will be used to generate the\n"
+msgid "will be used to generate the\n"
 "                                table of content automatically."
-msgstr ""
-"will be used to generate the\n"
+msgstr "will be used to generate the\n"
 "                                table of content automatically."
 
 #. module: website_forum
@@ -10891,7 +10332,8 @@ msgid "yes"
 msgstr "yes"
 
 #. modules: website_mail_group, website_mail
-#: view:website:website_mail.follow view:website:website.snippets
+#: view:website:website_mail.follow
+#: view:website:website.snippets
 msgid "your email..."
 msgstr "your email..."
 
@@ -10934,3 +10376,4 @@ msgstr "☑ Invoice sent by e-Mail"
 #: view:website:website_sale.cart
 msgid "☑ Processed by Ogone"
 msgstr "☑ Processed by Ogone"
+

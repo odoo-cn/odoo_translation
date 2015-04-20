@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-17 12:39+0000\n"
-"PO-Revision-Date: 2015-04-17 12:39+0000\n"
+"POT-Creation-Date: 2015-04-20 10:20+0000\n"
+"PO-Revision-Date: 2015-04-20 10:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -112,7 +112,7 @@ msgstr "# 要求"
 #: code:addons/hr_payroll/hr_payroll.py:77
 #, python-format
 msgid "%s (copy)"
-msgstr "%s (副本)"
+msgstr "%s (copy)"
 
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
@@ -871,7 +871,7 @@ msgstr "缺勤"
 #. module: hr_expense
 #: selection:hr.expense.report,state:0
 msgid "Accepted"
-msgstr "已同意"
+msgstr "已接受"
 
 #. modules: hr_expense, hr_payroll_account, hr_timesheet, hr_payroll
 #: view:hr.expense.expense:hr_expense.view_expenses_form
@@ -885,12 +885,12 @@ msgstr "会计"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Accounting Data"
-msgstr "财务日期"
+msgstr "会计数据"
 
 #. module: hr_payroll_account
 #: field:hr.payslip,move_id:0
 msgid "Accounting Entry"
-msgstr "会计凭证"
+msgstr "会计分录"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
@@ -902,7 +902,7 @@ msgstr "会计信息"
 #: selection:hr.attendance,action:0
 #: field:hr_evaluation.plan.phase,action:0
 msgid "Action"
-msgstr "操作"
+msgstr "动作"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.evaluation,note_action:0
@@ -918,12 +918,12 @@ msgstr "Action Plan..."
 #: field:hr.attendance,action_desc:0
 #: model:ir.model,name:hr_attendance.model_hr_action_reason
 msgid "Action Reason"
-msgstr "操作原因"
+msgstr "动作原因"
 
 #. module: hr_contract
 #: model:ir.model,name:hr_contract.model_base_action_rule
 msgid "Action Rules"
-msgstr "Action Rules"
+msgstr "动作规则"
 
 #. module: hr_attendance
 #: field:hr.action.reason,action_type:0
@@ -948,12 +948,12 @@ msgstr "Actions by Executive management show genuine interest in the well-being 
 #: field:hr.salary.rule,active:0
 #: field:hr.applicant,active:0
 msgid "Active"
-msgstr "生效"
+msgstr "有效"
 
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_2_4
 msgid "Activities"
-msgstr "Activities"
+msgstr "活动"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_13
@@ -965,7 +965,7 @@ msgstr "Adaptability: Ability to adapt oneself to organizational changes while k
 #: code:addons/hr_timesheet_sheet/static/src/xml/timesheet.xml:33
 #, python-format
 msgid "Add"
-msgstr "Add"
+msgstr "添加"
 
 #. module: hr_timesheet_sheet
 #. openerp-web
@@ -983,7 +983,7 @@ msgstr "Add a reason..."
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Add an internal note..."
-msgstr "Add an internal note..."
+msgstr "添加一个内部备注..."
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_2_3
@@ -1021,7 +1021,7 @@ msgstr "调整凭证"
 #. module: hr_contract
 #: field:hr.contract,advantages:0
 msgid "Advantages"
-msgstr "薪酬"
+msgstr "优点 ..."
 
 #. module: hr_contract
 #: view:hr.contract:hr_contract.hr_contract_view_form
@@ -1031,12 +1031,12 @@ msgstr "优点 ..."
 #. module: hr_recruitment
 #: field:hr.job,alias_id:0
 msgid "Alias"
-msgstr "Alias"
+msgstr "别名"
 
 #. module: hr_recruitment
 #: field:hr.config.settings,alias_domain:0
 msgid "Alias Domain"
-msgstr "Alias Domain"
+msgstr "别名域"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,send_answer_employee:0
@@ -1163,30 +1163,30 @@ msgstr "分析信息"
 #: model:ir.model,name:hr_timesheet.model_account_analytic_account
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "辅助核算项"
+msgstr "分析账户"
 
 #. module: hr_timesheet
 #: field:hr.employee,journal_id:0
 msgid "Analytic Journal"
-msgstr "辅助核算账薄"
+msgstr "分析分类账"
 
 #. modules: hr_timesheet_sheet, hr_timesheet
 #: field:hr.analytic.timesheet,line_id:0
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_line
 msgid "Analytic Line"
-msgstr "辅助核算明细"
+msgstr "分析明细"
 
 #. modules: hr_expense, hr_timesheet
 #: field:hr.expense.line,analytic_account:0
 #: field:hr.expense.report,analytic_account:0
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
 msgid "Analytic account"
-msgstr "辅助核算项"
+msgstr "分析账户"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,account_ids:0
 msgid "Analytic accounts"
-msgstr "辅助核算项"
+msgstr "分析账户"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_11
@@ -1224,7 +1224,7 @@ msgstr "Answer related job question"
 #: field:hr.payslip.line,appears_on_payslip:0
 #: field:hr.salary.rule,appears_on_payslip:0
 msgid "Appears on Payslip"
-msgstr "在工资条上显示"
+msgstr "在工资单上显示"
 
 #. modules: hr_applicant_document, hr_recruitment
 #: model:ir.model,name:hr_applicant_document.model_hr_applicant
@@ -1319,7 +1319,7 @@ msgstr "应用"
 #: field:hr.holidays,double_validation:0
 #: field:hr.holidays.status,double_validation:0
 msgid "Apply Double Validation"
-msgstr "要两次生效"
+msgstr "应用双重确认"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
@@ -1359,12 +1359,12 @@ msgstr "评估表"
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_interview
 msgid "Appraisal Interview"
-msgstr "评估面谈"
+msgstr "评估面试"
 
 #. module: hr_evaluation
 #: field:hr.employee,appraisal_count:0
 msgid "Appraisal Interviews"
-msgstr "评估面谈"
+msgstr "评估面试"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,phase_id:0
@@ -1477,7 +1477,7 @@ msgstr "考评"
 #: view:hr.holidays:hr_holidays.edit_holiday_new
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
 msgid "Approve"
-msgstr "审批"
+msgstr "批准"
 
 #. modules: hr_expense, hr_timesheet_sheet, hr_holidays
 #: selection:hr.expense.expense,state:0
@@ -1510,7 +1510,7 @@ msgstr "分配休假"
 #. module: hr_recruitment
 #: field:hr.applicant,date_open:0
 msgid "Assigned"
-msgstr "Assigned"
+msgstr "已指派"
 
 #. modules: hr, hr_attendance, hr_timesheet_sheet
 #: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_new_config
@@ -1565,7 +1565,7 @@ msgstr "考勤的原因"
 #: field:hr_timesheet_sheet.sheet,attendances_ids:0
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_sheet_2_hr_attendance
 msgid "Attendances"
-msgstr "考勤"
+msgstr "考勤管理"
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_payslip
@@ -1577,7 +1577,7 @@ msgstr "Authorized signature"
 #: field:hr.applicant,availability:0
 #: field:hr.recruitment.report,available:0
 msgid "Availability"
-msgstr "有效"
+msgstr "可用"
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0
@@ -1588,7 +1588,7 @@ msgstr "Average"
 #. module: hr_expense
 #: field:hr.expense.report,price_average:0
 msgid "Average Price"
-msgstr "均价"
+msgstr "平均价格"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,delay_close:0
@@ -1630,12 +1630,12 @@ msgstr "Badges are rewards of good work. Give them to people you believe deserve
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Bank Account"
-msgstr "银行账号"
+msgstr "银行账户"
 
 #. module: hr
 #: field:hr.employee,bank_account_id:0
 msgid "Bank Account Number"
-msgstr "银行账号"
+msgstr "银行账户号码"
 
 #. module: hr_contract
 #: help:hr.contract,wage:0
@@ -1661,7 +1661,7 @@ msgstr "Below Average"
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
 msgid "Bi-monthly"
-msgstr "每两个月"
+msgstr "每两月"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
@@ -1671,7 +1671,7 @@ msgstr "每两周"
 #. module: hr
 #: view:hr.employee:hr.view_employee_form
 msgid "Birth"
-msgstr "生日"
+msgstr "出生"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -1874,7 +1874,7 @@ msgstr "子工资规则"
 #: field:hr.payroll.structure,children_ids:0
 #: field:hr.salary.rule.category,children_ids:0
 msgid "Children"
-msgstr "下级"
+msgstr "子科目"
 
 #. module: hr_payroll
 #: view:hr.salary.rule:hr_payroll.hr_salary_rule_form
@@ -1926,12 +1926,12 @@ msgstr "Click to grant this employee his first badge"
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_form
 #: selection:hr.payslip.run,state:0
 msgid "Close"
-msgstr "结束"
+msgstr "关闭"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,closed:0
 msgid "Close Date"
-msgstr "Close Date"
+msgstr "结束日期"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.partner.create,close:0
@@ -1942,7 +1942,7 @@ msgstr "结束职位申请"
 #: field:hr.applicant,date_closed:0
 #: field:hr.recruitment.report,date_closed:0
 msgid "Closed"
-msgstr "已结束"
+msgstr "已关闭"
 
 #. module: hr_timesheet
 #: field:hr.sign.out.project,date:0
@@ -2086,7 +2086,7 @@ msgstr "设置"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:91
 #, python-format
 msgid "Configuration Error!"
-msgstr "设置错误!"
+msgstr "Configuration Error!"
 
 #. module: hr
 #: view:hr.config.settings:hr.view_human_resources_configuration
@@ -2135,7 +2135,7 @@ msgstr "已确认的计工单"
 #: field:hr.applicant,partner_id:0
 #, python-format
 msgid "Contact"
-msgstr "联系方式"
+msgstr "联系人"
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/hr_recruitment.py:383
@@ -2236,7 +2236,7 @@ msgstr "捐款记录"
 #. module: hr_payroll
 #: view:payslip.lines.contribution.register:hr_payroll.view_payslip_lines_contribution_register
 msgid "Contribution Register's Payslip Lines"
-msgstr "贡献者的工资条明细"
+msgstr "贡献者的工资单明细"
 
 #. module: hr_payroll
 #: view:hr.contribution.register:hr_payroll.hr_contribution_register_filter
@@ -2254,7 +2254,7 @@ msgstr "转为业务伙伴"
 #. module: hr_timesheet
 #: field:hr.timesheet.report,cost:0
 msgid "Cost"
-msgstr "Cost"
+msgstr "成本"
 
 #. module: hr_timesheet
 #: view:account.analytic.account:hr_timesheet.account_analytic_account_timesheet_form
@@ -2394,7 +2394,7 @@ msgstr "创建者"
 #: field:hr.timesheet.current.open,create_date:0
 #: field:hr_timesheet_sheet.sheet,create_date:0
 msgid "Created on"
-msgstr "创建时间"
+msgstr "创建于"
 
 #. modules: hr_expense, hr_recruitment
 #: view:hr.expense.report:hr_expense.view_hr_expense_report_search
@@ -2407,7 +2407,7 @@ msgstr "创建日期"
 #. module: hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
 msgid "Creation Month"
-msgstr "Creation Month"
+msgstr "创建月份"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
@@ -2428,13 +2428,13 @@ msgstr "贷方科目"
 #: field:hr.payslip,credit_note:0
 #: field:hr.payslip.run,credit_note:0
 msgid "Credit Note"
-msgstr "红字发票"
+msgstr "信用证"
 
 #. module: hr_expense
 #: field:hr.expense.expense,currency_id:0
 #: field:hr.expense.report,currency_id:0
 msgid "Currency"
-msgstr "币种"
+msgstr "币别"
 
 #. module: hr_timesheet
 #: field:hr.sign.in.project,server_date:0
@@ -2575,23 +2575,23 @@ msgstr "日期到"
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "Date:"
-msgstr "日期:"
+msgstr "Date:"
 
 #. module: hr_timesheet_sheet
 #: selection:hr.config.settings,timesheet_range:0
 #: selection:res.company,timesheet_range:0
 msgid "Day"
-msgstr "天"
+msgstr "日"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Day(s)"
-msgstr "Day(s)"
+msgstr "天"
 
 #. module: hr_recruitment
 #: field:hr.applicant,day_close:0
 msgid "Days to Close"
-msgstr "剩余天数"
+msgstr "结束日期"
 
 #. module: hr_recruitment
 #: field:hr.applicant,day_open:0
@@ -2652,7 +2652,7 @@ msgstr "设置分析结构"
 #. module: hr_payroll
 #: help:hr.payslip,struct_id:0
 msgid "Defines the rules that have to be applied to this payslip, accordingly to the contract chosen. If you let empty the field contract, this field isn't mandatory anymore and thus the rules applied will be all the rules set on the structure of all contracts of the employee valid for the chosen period"
-msgstr "设置依据所选合同在这个工资条上适用的规则。如果合同字段为空，这个字段也不是必输的，这样所有在所选期间内的所有设置在员工合同结构上的规则都生效。"
+msgstr "设置依据所选合同在这个工资单上适用的规则。如果合同字段为空，这个字段也不是必输的，这样所有在所选期间内的所有设置在员工合同结构上的规则都生效。"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -2683,7 +2683,7 @@ msgstr "学历"
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
 msgid "Delay"
-msgstr "推延"
+msgstr "延期"
 
 #. module: hr_expense
 #: field:hr.expense.report,delay_confirm:0
@@ -2833,7 +2833,7 @@ msgstr "没有达到预期"
 #: field:hr_timesheet_sheet.sheet,total_difference:0
 #: field:hr_timesheet_sheet.sheet.day,total_difference:0
 msgid "Difference"
-msgstr "差异"
+msgstr "差额"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
@@ -2863,7 +2863,7 @@ msgstr "博士"
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid "Document"
-msgstr "Document"
+msgstr "单据"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -2872,7 +2872,7 @@ msgstr "Document"
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 #: field:hr.job,documents_count:0
 msgid "Documents"
-msgstr "Documents"
+msgstr "文档"
 
 #. modules: hr_expense, hr_payroll, hr_evaluation, hr_timesheet_sheet
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
@@ -2900,12 +2900,12 @@ msgstr "Done Expenses"
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
 msgid "Done Payslip Batches"
-msgstr "已完成的工资条批次"
+msgstr "已完成的工资单批次"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_filter
 msgid "Done Slip"
-msgstr "已付款的工资条"
+msgstr "已付款的工资单"
 
 #. modules: hr_expense, hr_payroll, hr_evaluation, hr_timesheet_sheet
 #: selection:hr.evaluation.interview,state:0
@@ -2923,12 +2923,12 @@ msgstr "草稿"
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
 msgid "Draft Payslip Batches"
-msgstr "工资条批次草稿"
+msgstr "工资单批次草稿"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_filter
 msgid "Draft Slip"
-msgstr "工资条草稿"
+msgstr "工资单草稿"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_11
@@ -2946,12 +2946,12 @@ msgstr "用挑战和荣誉来提高业务积极性"
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_form
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_tree
 msgid "Duration"
-msgstr "有效期"
+msgstr "持续时间"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid "Edit..."
-msgstr "Edit..."
+msgstr "编辑..."
 
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_2_2
@@ -3018,7 +3018,7 @@ msgstr "Email alias for this job position. New emails will automatically create 
 #: field:hr_timesheet_sheet.sheet,employee_id:0
 #: model:ir.model,name:hr_timesheet_sheet.model_hr_employee
 msgid "Employee"
-msgstr "员工"
+msgstr "雇员"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_evaluation
@@ -3073,7 +3073,7 @@ msgstr "Employee Opinion Form"
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payslip_form
 #: model:ir.ui.menu,name:hr_payroll.menu_department_tree
 msgid "Employee Payslips"
-msgstr "员工工资条"
+msgstr "员工工资单"
 
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_3
@@ -3241,7 +3241,7 @@ msgstr "错误!您不能创建递归的薪资结构。"
 #: code:addons/hr_timesheet_sheet/wizard/hr_timesheet_current.py:38
 #, python-format
 msgid "Error!"
-msgstr "错误！"
+msgstr "Error!"
 
 #. module: hr_contract
 #: constraint:hr.contract:0
@@ -3462,7 +3462,7 @@ msgstr "Filters only on allocations and requests that belong to an holiday type 
 #. module: hr_evaluation
 #: selection:hr_evaluation.plan.phase,action:0
 msgid "Final Interview"
-msgstr "最后面谈"
+msgstr "最后面试"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
@@ -3559,7 +3559,7 @@ msgstr "Freebies such as tea, coffee and stationery"
 #: field:hr.holidays.summary.dept,date_from:0
 #: field:hr.holidays.summary.employee,date_from:0
 msgid "From"
-msgstr "来自"
+msgstr "从"
 
 #. module: hr_holidays
 #: field:hr.employee,leave_date_from:0
@@ -3595,7 +3595,7 @@ msgstr "一般"
 #. module: hr_timesheet
 #: field:hr.timesheet.report,general_account_id:0
 msgid "General Account"
-msgstr "General Account"
+msgstr "总账"
 
 #. module: hr_timesheet
 #: view:hr.sign.out.project:hr_timesheet.view_hr_timesheet_sign_out
@@ -3616,7 +3616,7 @@ msgstr "Generate Accounting Entries"
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_form
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payslip_by_employees
 msgid "Generate Payslips"
-msgstr "生成工资条"
+msgstr "生成工资单"
 
 #. modules: hr_payroll_account, hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_employees
@@ -3717,12 +3717,12 @@ msgstr "Granted Employees"
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Group By"
-msgstr "分组方式"
+msgstr "分组于"
 
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
 msgid "Group by month of date"
-msgstr "Group by month of date"
+msgstr "按月分组"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
@@ -3775,7 +3775,7 @@ msgstr "已雇用员工"
 #: help:hr.applicant,message_summary:0
 #: help:hr_timesheet_sheet.sheet,message_summary:0
 msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "保留复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
 
 #. module: hr
 #: field:hr.employee,address_home_id:0
@@ -3790,7 +3790,7 @@ msgstr "家里和工作场所的距离"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
 msgid "Hours"
-msgstr "小时数"
+msgstr "小时"
 
 #. module: hr_attendance
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
@@ -3921,7 +3921,7 @@ msgstr "I'm efficient at work and my achievements are successful"
 #: field:hr_timesheet_sheet.sheet.account,id:0
 #: field:hr_timesheet_sheet.sheet.day,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_it
@@ -3945,12 +3945,12 @@ msgstr "身份证号"
 #: help:hr.applicant,message_unread:0
 #: help:hr_timesheet_sheet.sheet,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "如果要求你关注新消息，勾选此项"
+msgstr "查看是否有需要留意的新信息。"
 
 #. module: hr_payroll
 #: help:hr.payslip.run,credit_note:0
 msgid "If its checked, indicates that all payslips generated from here are refund payslips."
-msgstr "如果勾选了这一项，表示这里生成的工资条是退还的工资条。"
+msgstr "如果勾选了这一项，表示这里生成的工资单是退还的工资单。"
 
 #. modules: hr_evaluation, hr_recruitment
 #: model:survey.question,comments_message:hr_evaluation.appraisal_1_1
@@ -4103,7 +4103,7 @@ msgstr "Index Content"
 #. module: hr_payroll
 #: help:hr.payslip,credit_note:0
 msgid "Indicates this payslip has a refund of another"
-msgstr "指定这张工资条和另一张退还的工资条相关"
+msgstr "指定这张工资单和另一张退还的工资单相关"
 
 #. modules: hr_timesheet, hr_contract
 #: view:hr.contract:hr_contract.hr_contract_view_form
@@ -4147,7 +4147,7 @@ msgstr "安装你所在国家的工资表"
 #. module: hr_payroll
 #: field:hr.payslip,note:0
 msgid "Internal Note"
-msgstr "Internal Note"
+msgstr "内部备注"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
@@ -4163,13 +4163,13 @@ msgstr "Internal Timesheet"
 #: model:calendar.event.type,name:hr_recruitment.categ_meet_interview
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Interview"
-msgstr "面谈"
+msgstr "面试"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Interview Appraisal"
-msgstr "面谈测评"
+msgstr "面试测评"
 
 #. module: hr_recruitment
 #: field:hr.job,survey_id:0
@@ -4179,13 +4179,13 @@ msgstr "面试表格"
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_evaluation_calendar
 msgid "Interview Request"
-msgstr "面谈要求"
+msgstr "面试要求"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,name:hr_evaluation.action_hr_evaluation_interview_tree
 #: model:ir.ui.menu,name:hr_evaluation.menu_open_hr_evaluation_interview_requests
 msgid "Interview Requests"
-msgstr "面谈要求"
+msgstr "面试要求"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
@@ -4193,7 +4193,7 @@ msgstr "面谈要求"
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
 #: field:hr.evaluation.interview,user_id:0
 msgid "Interviewer"
-msgstr "面谈主持"
+msgstr "面试主持"
 
 #. module: hr_evaluation
 #: model:ir.actions.act_window,name:hr_evaluation.act_hr_employee_2_hr__evaluation_interview
@@ -4205,7 +4205,7 @@ msgstr "面试"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:258
 #, python-format
 msgid "Invalid Action!"
-msgstr "无效的动作！"
+msgstr "Invalid Action!"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet.account,invoice_rate:0
@@ -4258,7 +4258,7 @@ msgstr "象牙白"
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 msgid "Job"
-msgstr "职务"
+msgstr "工作"
 
 #. module: hr
 #: field:hr.job,description:0
@@ -4279,7 +4279,7 @@ msgstr "职务名称"
 #: model:ir.model,name:hr.model_hr_job
 #: model:ir.model,name:hr_recruitment.model_hr_job
 msgid "Job Position"
-msgstr "Job Position"
+msgstr "工作岗位"
 
 #. modules: hr, hr_recruitment
 #: model:ir.actions.act_window,name:hr.action_hr_job
@@ -4299,7 +4299,7 @@ msgstr "职位"
 #: view:hr.job:hr.view_job_filter
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Jobs"
-msgstr "职务"
+msgstr "工作"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -4309,12 +4309,12 @@ msgstr "职位 - 招聘表"
 #. module: hr_timesheet
 #: field:hr.timesheet.report,journal_id:0
 msgid "Journal"
-msgstr "Journal"
+msgstr "分类账"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Items"
-msgstr "账簿项"
+msgstr "分类账项目"
 
 #. module: hr_payroll_account
 #: help:hr.payslip,period_id:0
@@ -4324,7 +4324,7 @@ msgstr "为空使用这个期间审核(工资单)日期"
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_2_1
 msgid "Knowledge"
-msgstr "Knowledge"
+msgstr "知识管理"
 
 #. modules: hr_expense, hr_holidays, hr, hr_evaluation, hr_recruitment, hr_timesheet_sheet
 #: field:hr.employee,message_last_post:0
@@ -4336,7 +4336,7 @@ msgstr "Knowledge"
 #: field:hr.applicant,message_last_post:0
 #: field:hr_timesheet_sheet.sheet,message_last_post:0
 msgid "Last Message Date"
-msgstr "最新消息日期"
+msgstr "最后信息日期"
 
 #. module: hr_attendance
 #: field:hr.employee,last_sign:0
@@ -4401,7 +4401,7 @@ msgstr "Last Stage Update"
 #: field:hr.timesheet.current.open,write_uid:0
 #: field:hr_timesheet_sheet.sheet,write_uid:0
 msgid "Last Updated by"
-msgstr "最近更新者"
+msgstr "最后更新"
 
 #. modules: hr_expense, hr_contract, hr_timesheet_sheet, hr, hr_attendance, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_payroll
 #: field:hr.config.settings,write_date:0
@@ -4446,7 +4446,7 @@ msgstr "最近更新者"
 #: field:hr.timesheet.current.open,write_date:0
 #: field:hr_timesheet_sheet.sheet,write_date:0
 msgid "Last Updated on"
-msgstr "最近更新时间"
+msgstr "最后更新"
 
 #. module: hr_attendance
 #. openerp-web
@@ -4682,7 +4682,7 @@ msgstr "Listens and takes into account all ideas and do his best to put in place
 #. module: hr
 #: field:hr.employee,login:0
 msgid "Login"
-msgstr "登录名"
+msgstr "用户名"
 
 #. module: hr_payroll
 #: field:hr.payslip,paid:0
@@ -4866,7 +4866,7 @@ msgstr "消息和通信历史"
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
 msgid "Min Delay"
-msgstr "最小推延"
+msgstr "最小延迟"
 
 #. module: hr_timesheet
 #: field:hr.sign.out.project,analytic_amount:0
@@ -4882,18 +4882,18 @@ msgstr "最小范围"
 #. module: hr_holidays
 #: view:hr.holidays.status:hr_holidays.edit_holiday_status_form
 msgid "Misc"
-msgstr "其他"
+msgstr "杂项"
 
 #. modules: hr_payroll, hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_6
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Miscellaneous"
-msgstr "其它"
+msgstr "杂项"
 
 #. module: hr_recruitment
 #: field:hr.applicant,partner_mobile:0
 msgid "Mobile"
-msgstr "移动电话"
+msgstr "手机"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.hr_kanban_view_applicant
@@ -4919,7 +4919,7 @@ msgstr "Monster"
 #: selection:hr.config.settings,timesheet_range:0
 #: selection:res.company,timesheet_range:0
 msgid "Month"
-msgstr "月份"
+msgstr "月"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
@@ -5049,7 +5049,7 @@ msgstr "新建报销单"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 msgid "New Mail"
-msgstr "New Mail"
+msgstr "新邮件"
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/hr_recruitment.py:425
@@ -5061,12 +5061,12 @@ msgstr "New application from %s"
 #. module: hr_recruitment
 #: field:hr.applicant,title_action:0
 msgid "Next Action"
-msgstr "下一操作"
+msgstr "下个行动日期"
 
 #. module: hr_recruitment
 #: field:hr.applicant,date_action:0
 msgid "Next Action Date"
-msgstr "下一操作日期"
+msgstr "下次联系日期"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
@@ -5096,7 +5096,7 @@ msgstr "No Data Available!"
 #: code:addons/hr_recruitment/hr_recruitment.py:395
 #, python-format
 msgid "No Subject"
-msgstr "无主题"
+msgstr "No Subject"
 
 #. module: hr_timesheet
 #: code:addons/hr_timesheet/hr_timesheet.py:191
@@ -5241,7 +5241,7 @@ msgstr "Once a leave is validated, Odoo will create a corresponding meeting of t
 #: view:hr.timesheet.current.open:hr_timesheet_sheet.view_hr_timesheet_current_open
 #: selection:hr_timesheet_sheet.sheet,state:0
 msgid "Open"
-msgstr "开始"
+msgstr "打开"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
@@ -5307,19 +5307,19 @@ msgstr "Overall, I believe the quality of products and/or services my workgroup 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,overpass_delay:0
 msgid "Overpassed Deadline"
-msgstr "超过截止日期"
+msgstr "超越截止日期"
 
 #. module: hr_expense
 #: selection:hr.expense.expense,state:0
 msgid "Paid"
-msgstr "Paid"
+msgstr "已付"
 
 #. modules: hr_holidays, hr_payroll
 #: field:hr.holidays,parent_id:0
 #: field:hr.payroll.structure,parent_id:0
 #: field:hr.salary.rule.category,parent_id:0
 msgid "Parent"
-msgstr "上一级"
+msgstr "上级科目"
 
 #. module: hr
 #: field:hr.department,parent_id:0
@@ -5363,12 +5363,12 @@ msgstr "工资单"
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_filter
 msgid "PaySlip Batch"
-msgstr "工资条批处理"
+msgstr "工资单批处理"
 
 #. module: hr_payroll
 #: model:ir.actions.report.xml,name:hr_payroll.payslip_details_report
 msgid "PaySlip Details"
-msgstr "工资条明细"
+msgstr "工资单明细"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_payslip_lines_contribution_register
@@ -5378,22 +5378,22 @@ msgstr "工资单明细"
 #. module: hr_payroll
 #: model:ir.actions.report.xml,name:hr_payroll.action_contribution_register
 msgid "PaySlip Lines By Conribution Register"
-msgstr "按贡献者的工资条明细"
+msgstr "按贡献者的工资单明细"
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_contributionregister
 msgid "PaySlip Lines by Contribution Register"
-msgstr "按贡献者的工资条明细"
+msgstr "按贡献者的工资单明细"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_payslip_lines_contribution_register
 msgid "PaySlip Lines by Contribution Registers"
-msgstr "按贡献者分组的工资条明细"
+msgstr "按贡献者分组的工资单明细"
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_contributionregister
 msgid "PaySlip Name"
-msgstr "工资条名称"
+msgstr "工资单名称"
 
 #. modules: hr, hr_payroll
 #: model:ir.actions.act_window,name:hr.open_payroll_modules
@@ -5401,7 +5401,7 @@ msgstr "工资条名称"
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_root_payroll
 #: model:ir.ui.menu,name:hr_payroll.payroll_configure
 msgid "Payroll"
-msgstr "薪酬"
+msgstr "薪酬管理"
 
 #. module: hr_payroll
 #: view:hr.payroll.structure:hr_payroll.view_hr_payroll_structure_filter
@@ -5417,7 +5417,7 @@ msgstr "工资单"
 #. module: hr_payroll
 #: constraint:hr.payslip:0
 msgid "Payslip 'Date From' must be before 'Date To'."
-msgstr "工资条的开始日期必须在结束日期之前"
+msgstr "工资单的开始日期必须在结束日期之前"
 
 #. modules: hr_payroll_account, hr_payroll
 #: field:hr.payslip,payslip_run_id:0
@@ -5425,24 +5425,24 @@ msgstr "工资条的开始日期必须在结束日期之前"
 #: model:ir.model,name:hr_payroll.model_hr_payslip_run
 #: model:ir.model,name:hr_payroll_account.model_hr_payslip_run
 msgid "Payslip Batches"
-msgstr "工资条批处理"
+msgstr "工资单批处理"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 #: field:hr.payslip,payslip_count:0
 #: model:ir.actions.act_window,name:hr_payroll.act_payslip_lines
 msgid "Payslip Computation Details"
-msgstr "工资条计算明细"
+msgstr "工资单计算明细"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_input
 msgid "Payslip Input"
-msgstr "工资条输入"
+msgstr "工资单输入"
 
 #. module: hr_payroll
 #: field:hr.payslip,input_line_ids:0
 msgid "Payslip Inputs"
-msgstr "工资条输入"
+msgstr "工资单输入"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
@@ -5457,7 +5457,7 @@ msgstr "工资单明细"
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_filter
 #: model:ir.actions.act_window,name:hr_payroll.act_contribution_reg_payslip_lines
 msgid "Payslip Lines"
-msgstr "工资条明细"
+msgstr "工资单明细"
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_payslipdetails
@@ -5473,13 +5473,13 @@ msgstr "Payslip Name"
 #: field:hr.payslip,worked_days_line_ids:0
 #: model:ir.model,name:hr_payroll.model_hr_payslip_worked_days
 msgid "Payslip Worked Days"
-msgstr "工资条工作日数"
+msgstr "工资单工作日数"
 
 #. module: hr_payroll_account
 #: code:addons/hr_payroll_account/hr_payroll_account.py:97
 #, python-format
 msgid "Payslip of %s"
-msgstr "%s 的工资条"
+msgstr "%s 的工资单"
 
 #. module: hr_payroll
 #: view:hr.employee:hr_payroll.payroll_hr_employee_view_form
@@ -5499,17 +5499,17 @@ msgstr "工资单"
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_payslip_run_tree
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payslip_run
 msgid "Payslips Batches"
-msgstr "工资条批次"
+msgstr "工资单批次"
 
 #. module: hr_payroll
 #: view:hr.payslip.employees:hr_payroll.view_hr_payslip_by_employees
 msgid "Payslips by Employees"
-msgstr "按员工分组的工资条"
+msgstr "按员工分组的工资单"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.evaluation_search
 msgid "Pending"
-msgstr "暂停"
+msgstr "等待中"
 
 #. module: hr_payroll
 #: field:hr.payslip.line,amount_percentage:0
@@ -5532,7 +5532,7 @@ msgstr "百分比基数"
 #: field:hr_timesheet_sheet.sheet,period_ids:0
 #: view:hr_timesheet_sheet.sheet.day:hr_timesheet_sheet.hr_timesheet_day_tree
 msgid "Period"
-msgstr "会计周期"
+msgstr "期间"
 
 #. module: hr_evaluation
 #: model:ir.ui.menu,name:hr_evaluation.menu_eval_hr_config
@@ -5597,7 +5597,7 @@ msgstr "计划"
 #: selection:hr.evaluation.report,state:0
 #: selection:hr_evaluation.evaluation,state:0
 msgid "Plan In Progress"
-msgstr "计划进度"
+msgstr "进行中的计划"
 
 #. module: hr_expense
 #: code:addons/hr_expense/hr_expense.py:348
@@ -5707,7 +5707,7 @@ msgstr "产品"
 #. module: hr_expense
 #: field:hr.expense.report,product_qty:0
 msgid "Product Quantity"
-msgstr "Product Quantity"
+msgstr "产品数量"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_product_template
@@ -5733,7 +5733,7 @@ msgstr "Professional Development and Performance Plan"
 #: field:hr.sign.out.project,account_id:0
 #: field:hr_timesheet_sheet.sheet.account,name:0
 msgid "Project / Analytic Account"
-msgstr "项目 / 辅助核算科目"
+msgstr "项目 / 分析账户"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_4_3
@@ -5924,12 +5924,12 @@ msgstr "单号"
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Reference"
-msgstr "单号"
+msgstr "参考"
 
 #. module: hr_recruitment
 #: field:hr.applicant,reference:0
 msgid "Referred By"
-msgstr "Referred By"
+msgstr "参考来自"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
@@ -5940,13 +5940,13 @@ msgstr "退款"
 #: code:addons/hr_payroll/hr_payroll.py:334
 #, python-format
 msgid "Refund Payslip"
-msgstr "收回工资条"
+msgstr "工资退款"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:324
 #, python-format
 msgid "Refund: "
-msgstr "冲销 "
+msgstr "退款"
 
 #. modules: hr_expense, hr_timesheet_sheet, hr_holidays
 #: view:hr.expense.expense:hr_expense.view_editable_expenses_tree
@@ -5991,7 +5991,7 @@ msgstr "Regular meetings"
 #. module: hr_payroll
 #: selection:hr.payslip,state:0
 msgid "Rejected"
-msgstr "否决"
+msgstr "已拒绝"
 
 #. module: hr
 #: view:hr.employee:hr.view_employee_form
@@ -6195,7 +6195,7 @@ msgstr "应聘者的期望薪酬"
 #: field:hr.payslip,journal_id:0
 #: field:hr.payslip.run,journal_id:0
 msgid "Salary Journal"
-msgstr "工资账簿"
+msgstr "工资分类账"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,salary_prop:0
@@ -6256,7 +6256,7 @@ msgstr "工资规则"
 #: code:addons/hr_payroll/hr_payroll.py:658
 #, python-format
 msgid "Salary Slip of %s for %s"
-msgstr "工资条：%s %s"
+msgstr "工资单：%s %s"
 
 #. module: hr_payroll
 #: field:hr.contract,struct_id:0
@@ -6287,7 +6287,7 @@ msgstr "工资和机会"
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_sales
 msgid "Sales"
-msgstr "Sales"
+msgstr "销售"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -6312,7 +6312,7 @@ msgstr "已安排的付款"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet.account:hr_timesheet_sheet.hr_timesheet_account_filter
 msgid "Search Account"
-msgstr "查找辅助核算项"
+msgstr "查找分析账户"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
@@ -6348,12 +6348,12 @@ msgstr "查找准假类型"
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
 msgid "Search Payslip Batches"
-msgstr "搜索工资条批量"
+msgstr "搜索工资单批量"
 
 #. module: hr_payroll
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_filter
 msgid "Search Payslip Lines"
-msgstr "搜索工资条明细"
+msgstr "搜索工资单明细"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_filter
@@ -6379,7 +6379,7 @@ msgstr "第二次审批"
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job3
 msgid "Second Interview"
-msgstr "第二次面谈"
+msgstr "第二次面试"
 
 #. module: hr_holidays
 #: field:hr.holidays.summary.employee,holiday_type:0
@@ -6590,7 +6590,7 @@ msgstr "Somewhat important"
 #. module: hr_recruitment
 #: field:hr.applicant,source_id:0
 msgid "Source"
-msgstr "来源"
+msgstr "原文"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.source,name:0
@@ -6684,7 +6684,7 @@ msgstr "Stages of the recruitment process may be different per department. If th
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Start"
-msgstr "Start"
+msgstr "开始"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
@@ -6717,7 +6717,7 @@ msgstr "开始日期"
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,state:0
 msgid "State"
-msgstr "状态"
+msgstr "省"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_5
@@ -6769,7 +6769,7 @@ msgstr "结构"
 #: field:hr_evaluation.plan.phase,email_subject:0
 #: model:survey.question,question:hr_evaluation.appraisal_3_1
 msgid "Subject"
-msgstr "Subject"
+msgstr "主题"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
@@ -6837,7 +6837,7 @@ msgstr "Supervisors only"
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
 #: field:hr.applicant,survey:0
 msgid "Survey"
-msgstr "问卷"
+msgstr "调查"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,request_id:0
@@ -6863,7 +6863,7 @@ msgstr "人才管理"
 #. module: hr_payroll_account
 #: field:hr.salary.rule,account_tax_id:0
 msgid "Tax Code"
-msgstr "税代码"
+msgstr "税编码"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_4
@@ -6879,13 +6879,13 @@ msgstr "Technical skills regarding to the job requirements"
 #: code:addons/hr_payroll_account/hr_payroll_account.py:152
 #, python-format
 msgid "The Expense Journal \"%s\" has not properly configured the Credit Account!"
-msgstr "费用账簿 \"%s\"未配置正确的贷方科目"
+msgstr "费用分类账 \"%s\"未配置正确的贷方科目"
 
 #. module: hr_payroll_account
 #: code:addons/hr_payroll_account/hr_payroll_account.py:168
 #, python-format
 msgid "The Expense Journal \"%s\" has not properly configured the Debit Account!"
-msgstr "费用账簿 \"%s\"未配置正确的借方科目"
+msgstr "费用分类账 \"%s\"未配置正确的借方科目"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,help:hr_attendance.open_view_attendance
@@ -7071,7 +7071,7 @@ msgstr "The timesheet cannot be validated as it does not contain an equal number
 #. module: hr_recruitment
 #: help:hr.applicant,email_cc:0
 msgid "These email addresses will be added to the CC field of all inbound and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
-msgstr "这些邮箱地址将添加到所有接收的发送邮件的抄送字段，用逗号分隔多个邮件地址。"
+msgstr "这些邮件地址将添加到之前发送记录的发送和接收邮件的抄送字段，分隔多个邮件地址有逗号。"
 
 #. module: hr_recruitment
 #: help:hr.applicant,email_from:0
@@ -7086,7 +7086,7 @@ msgstr "This Month"
 #. module: hr_recruitment
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "This Year"
-msgstr "This Year"
+msgstr "本年度"
 
 #. module: hr_holidays
 #: help:hr.holidays,manager_id:0
@@ -7237,12 +7237,12 @@ msgstr "这个规则将用于计算%字段的值；一般来说是基数，你�
 #. module: hr_payroll
 #: view:hr.payslip.employees:hr_payroll.view_hr_payslip_by_employees
 msgid "This wizard will generate payslips for all selected employee(s) based on the dates and credit note specified on Payslips Run."
-msgstr "向导将根据工资条生成器上输入的日期和付款单号生成所选员工的工资单。"
+msgstr "向导将根据工资单生成器上输入的日期和付款单号生成所选员工的工资单。"
 
 #. module: hr_timesheet
 #: field:hr.timesheet.report,quantity:0
 msgid "Time"
-msgstr "Time"
+msgstr "时间"
 
 #. modules: hr, hr_attendance
 #: view:hr.config.settings:hr.view_human_resources_configuration
@@ -7314,13 +7314,13 @@ msgstr "计工单允许的差异（小时）"
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_sheet_by_account
 msgid "Timesheet by Account"
-msgstr "辅助核算项的计工单"
+msgstr "分析账户的计工单"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet.account:hr_timesheet_sheet.hr_timesheet_account_form
 #: view:hr_timesheet_sheet.sheet.account:hr_timesheet_sheet.hr_timesheet_account_tree
 msgid "Timesheet by Accounts"
-msgstr "辅助核算项计工单"
+msgstr "分析账户计工单"
 
 #. module: hr_timesheet_sheet
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_sheet_by_day
@@ -7389,7 +7389,7 @@ msgstr "到 日期"
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_search
 msgid "To Do"
-msgstr "待处理"
+msgstr "待办"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
@@ -7433,7 +7433,7 @@ msgstr "合计"
 #: view:hr.expense.expense:hr_expense.view_expenses_tree
 #: field:hr.expense.expense,amount:0
 msgid "Total Amount"
-msgstr "总金额"
+msgstr "金额合计"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,total_attendance:0
@@ -7536,13 +7536,13 @@ msgstr "类型"
 #: view:hr.timesheet.report:hr_timesheet_sheet.view_timesheet_report_search
 #: field:hr.timesheet.report,to_invoice:0
 msgid "Type of Invoicing"
-msgstr "发票类型"
+msgstr "开票类型"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Unassigned"
-msgstr "Unassigned"
+msgstr "未分配"
 
 #. module: hr
 #: view:hr.employee:hr.hr_kanban_view_employees
@@ -7578,7 +7578,7 @@ msgstr "未付"
 #: view:hr.job:hr_recruitment.view_job_filter_recruitment
 #: field:hr_timesheet_sheet.sheet,message_unread:0
 msgid "Unread Messages"
-msgstr "未读信息"
+msgstr "未读消息"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
@@ -7599,7 +7599,7 @@ msgstr "Use employee work schedule"
 #. module: hr_recruitment
 #: field:hr.recruitment.stage,template_id:0
 msgid "Use template"
-msgstr "Use template"
+msgstr "使用模版"
 
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_5_1
@@ -7652,18 +7652,18 @@ msgstr "用户电子邮件"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:518
 #, python-format
 msgid "User Error!"
-msgstr "用户错误！"
+msgstr "User Error!"
 
 #. modules: hr, hr_timesheet
 #: model:ir.model,name:hr.model_res_users
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
 msgid "Users"
-msgstr "用户"
+msgstr "人员"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.edit_holiday_new
 msgid "Validate"
-msgstr "生效"
+msgstr "确认"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.evaluation:hr_evaluation.view_hr_evaluation_form
@@ -7678,7 +7678,7 @@ msgstr "Validate timesheets every"
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_hr_holidays_filter
 msgid "Validated"
-msgstr "已生效"
+msgstr "已确认"
 
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
@@ -7780,13 +7780,13 @@ msgstr "等待确认"
 #: code:addons/hr_expense/hr_expense.py:446
 #, python-format
 msgid "Warning"
-msgstr "警告"
+msgstr "Warning"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:100
 #, python-format
 msgid "Warning !"
-msgstr "警告！"
+msgstr "Warning !"
 
 #. modules: hr_expense, hr_timesheet_sheet, hr_timesheet, hr_evaluation, hr_recruitment, hr_holidays, hr_gamification, hr_payroll
 #: code:addons/hr_evaluation/hr_evaluation.py:239
@@ -7810,26 +7810,30 @@ msgstr "警告！"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:131
 #, python-format
 msgid "Warning!"
-msgstr "警告！"
+msgstr "Warning!"
 
 #. module: hr_recruitment
 #: field:hr.applicant,email_cc:0
 msgid "Watchers Emails"
-msgstr "关注者的电子信箱"
+msgstr "关注者的电子邮件"
 
-#. modules: hr_evaluation, hr_recruitment
+#. modules: hr_expense, hr_timesheet_sheet, hr_evaluation, hr_recruitment
 #: field:hr.evaluation.interview,website_message_ids:0
 #: field:hr_evaluation.evaluation,website_message_ids:0
+#: field:hr.expense.expense,website_message_ids:0
 #: field:hr.applicant,website_message_ids:0
+#: field:hr_timesheet_sheet.sheet,website_message_ids:0
 msgid "Website Messages"
-msgstr "Website Messages"
+msgstr "网站消息"
 
-#. modules: hr_evaluation, hr_recruitment
+#. modules: hr_expense, hr_timesheet_sheet, hr_evaluation, hr_recruitment
 #: help:hr.evaluation.interview,website_message_ids:0
 #: help:hr_evaluation.evaluation,website_message_ids:0
+#: help:hr.expense.expense,website_message_ids:0
 #: help:hr.applicant,website_message_ids:0
+#: help:hr_timesheet_sheet.sheet,website_message_ids:0
 msgid "Website communication history"
-msgstr "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: hr_timesheet_sheet
 #: selection:hr.config.settings,timesheet_range:0
@@ -8213,7 +8217,7 @@ msgstr "leaves."
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
 msgid "month"
-msgstr "month"
+msgstr "月"
 
 #. module: hr
 #: view:hr.job:hr.view_hr_job_form
@@ -8270,5 +8274,5 @@ msgstr "to reward this employee for a good action"
 #. module: hr_holidays
 #: field:hr.holidays,can_reset:0
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知的"
 
