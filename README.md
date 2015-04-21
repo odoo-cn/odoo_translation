@@ -6,7 +6,7 @@ TOC
 # 使用翻译
 
 
-	建议使用PO bundle
+	建议使用po bundle，即所有模块的翻译合并在一起的po文件
 
 	bundle目录，主要应用的翻译，包含po格式和csv格式
 
@@ -17,7 +17,7 @@ TOC
 
 ## 使用po文件
 
-### 覆盖PO文件
+### 覆盖po文件
 
 *addons目录，和openerp目录包含了常用的i18n 中文翻译包，可以直接直接覆盖系自带的翻译*
 
@@ -25,7 +25,14 @@ TOC
 
 使用 openerp 目录覆盖 odoo/openerp目录
 
-### 同步已翻译术语
+### 同步术语
+
+至菜单 翻译 - 应用程序术语 - 同步术语 
+
+
+![image](https://cloud.githubusercontent.com/assets/1404460/7243590/7e900788-e801-11e4-9294-10a0f21a450e.png)
+
+选择语言 简体中文， 点击按钮 更新
 
 
 
