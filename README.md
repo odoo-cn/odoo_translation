@@ -1,7 +1,107 @@
 TOC
+ 
+1.  使用翻译 
+2.  参与翻译 
 
-1.  参与翻译 
-2.  使用翻译 
+# 使用翻译
+
+
+	建议使用PO bundle
+
+	bundle目录，主要应用的翻译，包含po格式和csv格式
+
+	zh_CN.po 常用模块的中文翻译，po格式
+
+	zh_CN.csv 常用模块的中文翻译，csv格式
+
+
+## 使用po文件
+
+### 覆盖PO文件
+
+*addons目录，和openerp目录包含了常用的i18n 中文翻译包，可以直接直接覆盖系自带的翻译*
+
+使用 addons 目录 覆盖 odoo/addons目录
+
+使用 openerp 目录覆盖 odoo/openerp目录
+
+### 同步已翻译术语
+
+
+
+## 导入翻译
+
+### 图形方式
+至 导入/导出，选择 导入翻译
+
+![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104782/7e53c2ce-e12a-11e4-85e7-6dd6409ab0d8.png)
+
+*如果你没有看到 导入/导出 ， 那是因为你的账号没有开启‘技术特性’权限*
+
+在弹窗
+
+![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104785/83be0a1c-e12a-11e4-89a1-ed1cc5c5800a.png)
+
+输入 语言名 以及代码， 并选择下载的 po 文件
+勾选 覆盖已存在的术语
+
+
+ field	|  value
+--------| -------------
+语言名	| 	Chinese (CN) / 简体中文
+代码	| 	zh_CN
+	
+
+
+
+
+Tips：
+>导入翻译之前，最好先删除旧有的翻译, odoo 翻译导入的overwrite选项似乎不起作用
+
+
+
+>参考下面
+
+>![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104786/872b23a6-e12a-11e4-9a2b-39bd84d5a672.png)
+
+>至菜单 "已翻译术语"
+
+>设置筛选器
+>语言，比如 Chinese (CN) / 简体中文
+
+>![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104788/8a4a9558-e12a-11e4-9163-dbde20ec246e.png)
+
+
+>以及相关模块，比如 account
+
+>![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104789/8e0553b8-e12a-11e4-9312-a93962feed98.png)
+
+
+
+>这样会列出全部与account模块相关的已翻译术语
+
+>![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104790/91d3e6c6-e12a-11e4-9b31-2d027bccf2a5.png)
+
+
+
+>可以修改 列表显示数量，以便可以列出全部的与account模块相关的已翻译术语
+
+>选择全部，然后删除。
+
+
+### 命令行方式
+
+  
+
+
+使用下面的命令导入翻译.
+
+     # !/bin/bash
+     python openerp-server -c $openerp.conf --stop-after-init -d $database -l zh_CN --i18n-import=$po_file --overwrite
+   
+   
+   
+
 
 
 
@@ -168,87 +268,4 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 填写提交信息，然后 create pull request
-
-
-# 使用翻译
-
-
-*建议使用PO bundle*
-
-
-## 导出与导入翻译
-
-### 图形方式
-至 导入/导出，选择 导入翻译
-
-![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104782/7e53c2ce-e12a-11e4-85e7-6dd6409ab0d8.png)
-
-*如果你没有看到 导入/导出 ， 那是因为你的账号没有开启‘技术特性’权限*
-
-在弹窗
-
-![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104785/83be0a1c-e12a-11e4-89a1-ed1cc5c5800a.png)
-
-输入 语言名 以及代码， 并选择下载的 po 文件
-勾选 覆盖已存在的术语
-
-
- field	|  value
---------| -------------
-语言名	| 	Chinese (CN) / 简体中文
-代码	| 	zh_CN
-	
-
-Tips：
-导入翻译之前，最好先删除旧有的翻译
-
-
-参考下面
-
-![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104786/872b23a6-e12a-11e4-9a2b-39bd84d5a672.png)
-
-至菜单 "已翻译术语"
-
-设置筛选器
-语言，比如 Chinese (CN) / 简体中文
-
-![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104788/8a4a9558-e12a-11e4-9163-dbde20ec246e.png)
-
-
-以及相关模块，比如 account
-
-![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104789/8e0553b8-e12a-11e4-9312-a93962feed98.png)
-
-
-
-这样会列出全部与account模块相关的已翻译术语
-
-![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104790/91d3e6c6-e12a-11e4-9b31-2d027bccf2a5.png)
-
-
-
-可以修改 列表显示数量，以便可以列出全部的与account模块相关的已翻译术语
-
-选择全部，然后删除。
-
-
-### 命令行方式
-
-使用下面的命令导出翻译..
-
-     # !/bin/bash
-     python openerp-server -c $openerp.conf --stop-after-init -d $database -l zh_CN --i18n-export=$po_file --modules=$module_list
-   
-   
-   
-
-
-使用下面的命令导入翻译.
-
-     # !/bin/bash
-     python openerp-server -c $openerp.conf --stop-after-init -d $database -l zh_CN --i18n-import=$po_file --overwrite
-   
-   
-   
-
 
