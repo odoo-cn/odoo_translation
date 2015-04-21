@@ -6,13 +6,15 @@ TOC
 # 使用翻译
 
 
-	建议使用po bundle，即所有模块的翻译合并在一起的po文件
+建议使用po bundle，即所有模块的翻译合并在一起的po文件
 
-	bundle目录，主要应用的翻译，包含po格式和csv格式
+bundle目录，包含
 
-	zh_CN.po 常用模块的中文翻译，po格式
+1. 主要应用的翻译，包含po格式和csv格式，例如account, stock, mrp, project 
 
-	zh_CN.csv 常用模块的中文翻译，csv格式
+2. 全部模块的中文翻译，po格式，zh_CN.po 
+
+3. 全部模块的中文翻译，csv格式，zh_CN.csv 
 
 
 ## 使用po文件
@@ -21,9 +23,9 @@ TOC
 
 *addons目录，和openerp目录包含了常用的i18n 中文翻译包，可以直接直接覆盖系自带的翻译*
 
-使用 addons 目录 覆盖 odoo/addons目录
+使用 build/addons 目录 覆盖 odoo/addons目录
 
-使用 openerp 目录覆盖 odoo/openerp目录
+使用 build/openerp 目录覆盖 odoo/openerp目录
 
 ### 同步术语
 
