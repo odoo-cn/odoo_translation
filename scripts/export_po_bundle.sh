@@ -1,5 +1,12 @@
 # !/bin/bash
 
+HOME_DIR=`pwd ~`
+
+
+if [ ! -d $HOME_DIR/bundle ]; then
+    mkdir $HOME_DIR/bundle
+fi
+
 python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=account.csv -l zh_CN --modules=account,account_accountant,account_analytic_analysis,account_analytic_default,account_analytic_plans,account_anglo_saxon,account_asset,account_bank_statement_extensions,account_budget,account_cancel,account_chart,account_check_writing,account_followup,account_payment,account_sequence,account_test,account_voucher,analytic,purchase_analytic_plans,sale_analytic_plans
 
 python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=product.csv -l zh_CN --modules=product,product_email_template,product_expiry,product_extended,product_margin,product_visible_discount
@@ -14,7 +21,9 @@ python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=mrp.csv 
 
 python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=base.csv -l zh_CN --modules=base,web,web_analytics,web_api,web_calendar,web_diagram,web_gantt,web_graph,web_kanban,web_kanban_gauge,web_kanban_sparkline
 
-mv *.csv /home/ubuntu/bundle/
+python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=zh_CN.csv -l zh_CN
+
+mv *.csv $HOME_DIR/bundle/
 
 python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=account.po -l zh_CN --modules=account,account_accountant,account_analytic_analysis,account_analytic_default,account_analytic_plans,account_anglo_saxon,account_asset,account_bank_statement_extensions,account_budget,account_cancel,account_chart,account_check_writing,account_followup,account_payment,account_sequence,account_test,account_voucher,analytic,purchase_analytic_plans,sale_analytic_plans
 
@@ -30,9 +39,11 @@ python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=mrp.po -
 
 python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=base.po -l zh_CN --modules=base,web,web_analytics,web_api,web_calendar,web_diagram,web_gantt,web_graph,web_kanban,web_kanban_gauge,web_kanban_sparkline
 
-mv *.po /home/ubuntu/bundle
+python openerp-server -c t.conf --stop-after-init -d i18n --i18n-export=zh_CN.po -l zh_CN
+
+mv *.po $HOME_DIR/bundle
 
 
-cd /home/ubuntu/bundle
+cd $HOME_DIR
 
 tar -cf bundle.tar bundle/
