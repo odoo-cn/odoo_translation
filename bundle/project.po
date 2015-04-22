@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:20+0000\n"
-"PO-Revision-Date: 2015-04-20 10:20+0000\n"
+"POT-Creation-Date: 2015-04-22 19:37+0000\n"
+"PO-Revision-Date: 2015-04-22 19:37+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                  创建一个新项目\n"
 "                </p><p>\n"
-"                  项目是组织活动，计划任务，跟踪问题，记录人力资源成本的组织形式。项目可以分为内部项目（研发活动，加快销售进度），私有项目或者客户参与的项目。\n"
+"                  项目是组织活动，计划任务，跟踪议题，记录人力资源成本的组织形式。项目可以分为内部项目（研发活动，加快销售进度），私有项目或者客户参与的项目。\n"
 "                </p><p>\n"
 "                内部用户以项目成员的方式参与到项目中，也可以邀请客户加入到项目中分享项目活动。\n"
 "                </p>\n"
@@ -587,12 +587,12 @@ msgstr "Computed as difference between planned hours by the project manager and 
 #. module: project
 #: help:project.task,total_hours:0
 msgid "Computed as: Time Spent + Remaining Time."
-msgstr "Computed as: Time Spent + Remaining Time."
+msgstr "计算公式为：花费时间 + 剩余时间"
 
 #. module: project_issue
 #: help:project.issue,progress:0
 msgid "Computed as: Time Spent / Total Time."
-msgstr "计算方式：花费时间 / 总时间"
+msgstr "计算公式为：花费时间 / 总时间"
 
 #. module: project
 #: help:project.task,effective_hours:0
@@ -602,7 +602,7 @@ msgstr "Computed using the sum of the task work done."
 #. module: project_issue
 #: view:project.config.settings:project_issue.view_config_settings
 msgid "Configure"
-msgstr "设置"
+msgstr "配置"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_config_settings
@@ -627,7 +627,7 @@ msgstr "Contract/Analytic"
 #. module: project_timesheet
 #: model:ir.ui.menu,name:project_timesheet.menu_invoicing_contracts
 msgid "Contracts to Renew"
-msgstr "要续签的合同"
+msgstr "待续签的合同"
 
 #. modules: project, project_issue
 #: field:project.task,create_date:0
@@ -1422,7 +1422,7 @@ msgstr "经理"
 #. module: project_timesheet
 #: selection:report.timesheet.task.user,month:0
 msgid "March"
-msgstr "3"
+msgstr "3月"
 
 #. module: project_timesheet
 #: selection:report.timesheet.task.user,month:0
@@ -1659,7 +1659,7 @@ msgstr "Percent of tasks closed according to the total of tasks todo."
 #: field:project.task.delegate,planned_hours:0
 #: field:report.project.task.user,hours_planned:0
 msgid "Planned Hours"
-msgstr "Planned Hours"
+msgstr "计划时数"
 
 #. module: project
 #: field:project.project,planned_hours:0
@@ -1780,12 +1780,12 @@ msgstr "项目提升"
 #: view:project.issue.report:project_issue.view_project_issue_report_graph
 #: model:ir.model,name:project_issue_sheet.model_project_issue
 msgid "Project Issue"
-msgstr "项目问题"
+msgstr "项目议题"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_graph_view
 msgid "Project Issues"
-msgstr "Project Issues"
+msgstr "项目议题"
 
 #. module: project
 #: view:project.config.settings:project.view_config_settings
@@ -1798,7 +1798,7 @@ msgstr "项目管理"
 #: view:project.project:project.view_project_project_filter
 #: field:project.task,manager_id:0
 msgid "Project Manager"
-msgstr "项目主管"
+msgstr "项目经理"
 
 #. module: project
 #: field:project.project,members:0
@@ -1820,19 +1820,19 @@ msgstr "项目设置"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Project Stages"
-msgstr "Project Stages"
+msgstr "项目进程"
 
 #. module: project
 #: model:ir.actions.act_window,name:project.action_project_task_delegate
 #: view:project.task.delegate:project.view_project_task_delegate
 msgid "Project Task Delegate"
-msgstr "任务分派"
+msgstr "项目任务委托"
 
 #. modules: project, project_timesheet
 #: model:ir.model,name:project.model_project_task_work
 #: model:ir.model,name:project_timesheet.model_project_task_work
 msgid "Project Task Work"
-msgstr "任务进度"
+msgstr "项目任务工作"
 
 #. module: project
 #: view:project.task:project.view_project_task_graph
@@ -2614,7 +2614,7 @@ msgstr "年"
 #: code:addons/project_timesheet/project_timesheet.py:297
 #, python-format
 msgid "You cannot delete a partner which is assigned to project, but you can uncheck the active box."
-msgstr "你不能删除被指派给项目的合作伙伴，但你能不选中“可用”。"
+msgstr "你不能删除被指派给项目的业务伙伴，但你能不选中“可用”。"
 
 #. module: project
 #: code:addons/project/project.py:172

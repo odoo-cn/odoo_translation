@@ -357,9 +357,9 @@ product,view,product.template,product.product_template_form_view,Information,信
 product,model,"ir.model,name",product.model_product_supplierinfo,Information about a product supplier,产品供应商信息
 product,code,addons/product/product.py,415,Integrity Error!,完整性错误！
 product,field,"product.template,categ_id",0,Internal Category,内部分类
-product,field,"product.product,code",0,Internal Reference,内部单号
-product,field,"product.product,default_code",0,Internal Reference,内部单号
-product,field,"product.template,default_code",0,Internal Reference,内部单号
+product,field,"product.product,code",0,Internal Reference,内部参考
+product,field,"product.product,default_code",0,Internal Reference,内部参考
+product,field,"product.template,default_code",0,Internal Reference,内部参考
 product,help,"product.product,ean13",0,International Article Number used for product identification.,国际物品编码用于产品标识
 product,view,product.template,product.product_template_form_view,Inventory,库存
 product,field,"product.product,message_is_follower",0,Is a Follower,是一个关注者
@@ -579,8 +579,8 @@ product,view,product.pricelist,product.product_pricelist_view,Products Price Lis
 product,view,product.pricelist,product.product_pricelist_view_tree,Products Price List,产品价格表
 product,view,product.pricelist,product.product_pricelist_view_search,Products Price Search,产品价格搜索
 product,view,product.price.type,product.product_price_type_view,Products Price Type,产品价格类型
-product,model,"ir.actions.act_window,name",product.product_category_action,Products by Category,产品类别
-product,model,"ir.ui.menu,name",product.menu_products_category,Products by Category,产品类别
+product,model,"ir.actions.act_window,name",product.product_category_action,Products by Category,产品，按类别
+product,model,"ir.ui.menu,name",product.menu_products_category,Products by Category,产品，按类别
 product,code,addons/product/product.py,876,Products: ,产品： 
 product,model,"product.price.type,name",product.list_price,Public Price,公开价格
 product,field,"product.product,lst_price",0,Public Price,公开价格
@@ -794,98 +794,3 @@ product_expiry,help,"product.template,alert_time",0,"When a new a Serial Number 
 product_expiry,help,"product.template,life_time",0,"When a new a Serial Number is issued, this is the number of days before the goods may become dangerous and must not be consumed.","此处表明当新序列号生成时，商品变危险以至于不能使用前的天数。When a new a Serial Number is issued, this is the number of days before the goods may become dangerous and must not be consumed."
 product_expiry,help,"product.template,removal_time",0,"When a new a Serial Number is issued, this is the number of days before the goods should be removed from the stock.",此处表明当新序列号生成时，商品需要提前多少天从库存移除。
 product_expiry,help,"product.template,use_time",0,"When a new a Serial Number is issued, this is the number of days before the goods starts deteriorating, without being dangerous yet.",此处表明当新序列号生成时，商品变质前（未变危险）的天数。
-product_extended,code,addons/product_extended/wizard/wizard_price.py,44,Active ID is not set in Context.,Active ID is not set in Context.
-product_extended,code,addons/product_extended/wizard/wizard_price.py,56,Active ID is not set in Context.,Active ID is not set in Context.
-product_extended,model,"ir.model,name",product_extended.model_mrp_bom,Bill of Material,物料清单
-product_extended,view,wizard.price,product_extended.view_compute_price_wizard,Cancel,取消
-product_extended,view,wizard.price,product_extended.view_compute_price_wizard,Change Price,Change Price
-product_extended,view,wizard.price,product_extended.view_compute_price_wizard,Change Standard Price,Change Standard Price
-product_extended,field,"wizard.price,recursive",0,Change prices of child BoMs too,Change prices of child BoMs too
-product_extended,model,"ir.actions.act_window,name",product_extended.action_view_compute_price_wizard,Compute Price Wizard,Compute Price Wizard
-product_extended,model,"ir.model,name",product_extended.model_wizard_price,Compute price wizard,Compute price wizard
-product_extended,field,"wizard.price,create_uid",0,Created by,创建者
-product_extended,field,"wizard.price,create_date",0,Created on,创建于
-product_extended,field,"wizard.price,real_time_accounting",0,Generate accounting entries when real-time,Generate accounting entries when real-time
-product_extended,field,"wizard.price,id",0,ID,ID
-product_extended,field,"wizard.price,info_field",0,Info,Info
-product_extended,field,"wizard.price,write_uid",0,Last Updated by,最后更新
-product_extended,field,"wizard.price,write_date",0,Last Updated on,最后更新
-product_extended,model,"ir.model,name",product_extended.model_product_template,Product Template,产品模板
-product_extended,view,product.template,product_extended.product_product_ext_form_view2,Recompute price from BoM,Recompute price from BoM
-product_extended,view,wizard.price,product_extended.view_compute_price_wizard,Set price on BoM,Set price on BoM
-product_extended,field,"mrp.bom,standard_price",0,Standard Price,成本价格
-product_extended,view,wizard.price,product_extended.view_compute_price_wizard,The price is computed from the bill of material lines which are not variant specific,The price is computed from the bill of material lines which are not variant specific
-product_extended,code,addons/product_extended/wizard/wizard_price.py,54,"This wizard is build for product templates, while you are currently running it from a product variant.","This wizard is build for product templates, while you are currently running it from a product variant."
-product_extended,code,addons/product_extended/wizard/wizard_price.py,54,Wrong model!,Wrong model!
-product_extended,view,wizard.price,product_extended.view_compute_price_wizard,or,或
-product_margin,field,"product.product,purchase_num_invoiced",0,# Invoiced in Purchase,# 采购开票
-product_margin,field,"product.product,sale_num_invoiced",0,# Invoiced in Sale,# 销售开票
-product_margin,view,product.product,product_margin.view_product_margin_tree,#Purchased,# 采购
-product_margin,view,product.product,product_margin.view_product_margin_form,Analysis Criteria,分析准则
-product_margin,help,"product.product,sale_avg_price",0,Avg. Price in Customer Invoices.,客户发票中的平均价格
-product_margin,help,"product.product,purchase_avg_price",0,Avg. Price in Supplier Invoices ,供应商发票中的平均价格
-product_margin,field,"product.product,purchase_avg_price",0,Avg. Unit Price,平均单价
-product_margin,field,"product.product,sale_avg_price",0,Avg. Unit Price,平均单价
-product_margin,view,product.margin,product_margin.product_margin_form_view,Cancel,取消
-product_margin,view,product.product,product_margin.view_product_margin_form,Catalog Price,目录价格
-product_margin,field,"product.margin,create_uid",0,Created by,创建者
-product_margin,field,"product.margin,create_date",0,Created on,创建于
-product_margin,selection,"product.margin,invoice_state",0,"Draft, Open and Paid",草稿、开启和已付
-product_margin,selection,"product.product,invoice_state",0,"Draft, Open and Paid",草稿、开启和已付
-product_margin,field,"product.product,expected_margin",0,Expected Margin,预计利润
-product_margin,field,"product.product,expected_margin_rate",0,Expected Margin (%),预计利润(%)
-product_margin,field,"product.product,sale_expected",0,Expected Sale,预计销售
-product_margin,help,"product.product,expected_margin",0,Expected Sale - Normal Cost,预计销售 - 标准成本
-product_margin,help,"product.product,sales_gap",0,Expected Sale - Turn Over,预计售价 - 订单价格
-product_margin,help,"product.product,expected_margin_rate",0,Expected margin * 100 / Expected Sale,预计利润 / 预计销售 * 100
-product_margin,field,"product.margin,from_date",0,From,从
-product_margin,view,product.margin,product_margin.product_margin_form_view,General Information,一般信息
-product_margin,field,"product.margin,id",0,ID,ID
-product_margin,field,"product.margin,invoice_state",0,Invoice State,发票状态
-product_margin,field,"product.product,invoice_state",0,Invoice State,发票状态
-product_margin,field,"product.margin,write_uid",0,Last Updated by,最后更新
-product_margin,field,"product.margin,write_date",0,Last Updated on,最后更新
-product_margin,field,"product.product,date_from",0,Margin Date From,毛利开始日
-product_margin,field,"product.product,date_to",0,Margin Date To,毛利结束日
-product_margin,view,product.product,product_margin.view_product_margin_form,Margins,毛利
-product_margin,field,"product.product,normal_cost",0,Normal Cost,正常成本
-product_margin,help,"product.product,purchase_gap",0,Normal Cost - Total Cost,正常成本 - 总成本
-product_margin,view,product.margin,product_margin.product_margin_form_view,Open Margins,待处理利润
-product_margin,selection,"product.margin,invoice_state",0,Open and Paid,待处理和支付
-product_margin,selection,"product.product,invoice_state",0,Open and Paid,待处理和支付
-product_margin,selection,"product.margin,invoice_state",0,Paid,已付
-product_margin,selection,"product.product,invoice_state",0,Paid,已付
-product_margin,model,"ir.model,name",product_margin.model_product_product,Product,产品
-product_margin,model,"ir.model,name",product_margin.model_product_margin,Product Margin,产品利润
-product_margin,code,addons/product_margin/wizard/product_margin.py,84,Product Margins,产品利润
-product_margin,model,"ir.actions.act_window,name",product_margin.product_margin_act_window,Product Margins,产品利润
-product_margin,model,"ir.ui.menu,name",product_margin.menu_action_product_margin,Product Margins,产品利润
-product_margin,view,product.product,product_margin.view_product_margin_form,Product Margins,产品利润
-product_margin,view,product.product,product_margin.view_product_margin_graph,Product Margins,产品利润
-product_margin,view,product.product,product_margin.view_product_margin_tree,Product Margins,产品利润
-product_margin,view,product.margin,product_margin.product_margin_form_view,Properties categories,属性分类
-product_margin,field,"product.product,purchase_gap",0,Purchase Gap,采购差额
-product_margin,view,product.product,product_margin.view_product_margin_form,Purchases,采购
-product_margin,view,product.product,product_margin.view_product_margin_form,Sales,销售
-product_margin,view,product.product,product_margin.view_product_margin_tree,Sales Gap,销售差额
-product_margin,field,"product.product,sales_gap",0,Sales Gap,销售差额
-product_margin,view,product.product,product_margin.view_product_margin_form,Standard Price,成本价格
-product_margin,help,"product.product,normal_cost",0,Sum of Multiplication of Cost price and quantity of Supplier Invoices,供应商发票的成本价格和数量相乘的合计
-product_margin,help,"product.product,turnover",0,Sum of Multiplication of Invoice price and quantity of Customer Invoices,客户发票的开票价格和数量相乘的汇总
-product_margin,help,"product.product,total_cost",0,Sum of Multiplication of Invoice price and quantity of Supplier Invoices ,供应商发票的开票价格和数量相乘的合计 
-product_margin,help,"product.product,sale_expected",0,Sum of Multiplication of Sale Catalog price and quantity of Customer Invoices,客户发票的销售分类价格和数量相乘的汇总
-product_margin,help,"product.product,sale_num_invoiced",0,Sum of Quantity in Customer Invoices,客户发票数量合计
-product_margin,help,"product.product,purchase_num_invoiced",0,Sum of Quantity in Supplier Invoices,供应商发票数量合计
-product_margin,field,"product.margin,to_date",0,To,到
-product_margin,view,product.product,product_margin.view_product_margin_tree,Total Cost,总成本
-product_margin,field,"product.product,total_cost",0,Total Cost,总成本
-product_margin,field,"product.product,total_margin",0,Total Margin,总毛利
-product_margin,field,"product.product,total_margin_rate",0,Total Margin Rate(%),总毛利率(%)
-product_margin,help,"product.product,total_margin_rate",0,Total margin * 100 / Turnover,总毛利 / 营业额 * 100
-product_margin,view,product.product,product_margin.view_product_margin_tree,Turnover,营业额
-product_margin,field,"product.product,turnover",0,Turnover,营业额
-product_margin,help,"product.product,total_margin",0,Turnover - Standard price,营业额-标准价格
-product_margin,view,product.margin,product_margin.product_margin_form_view,or,或
-product_visible_discount,model,"ir.model,name",product_visible_discount.model_product_pricelist,Pricelist,价格表
-product_visible_discount,model,"ir.model,name",product_visible_discount.model_sale_order_line,Sales Order Line,销售订单明细
-product_visible_discount,field,"product.pricelist,visible_discount",0,Visible Discount,可见的折扣

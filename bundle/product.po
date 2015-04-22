@@ -1,18 +1,15 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* product
-#	* product_margin
-#	* product_visible_discount
-#	* product_extended
-#	* product_email_template
 #	* product_expiry
+#	* product_email_template
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:20+0000\n"
-"PO-Revision-Date: 2015-04-20 10:20+0000\n"
+"POT-Creation-Date: 2015-04-22 19:36+0000\n"
+"PO-Revision-Date: 2015-04-22 19:36+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -20,25 +17,10 @@ msgstr ""
 "Content-Transfer-Encoding: \n"
 "Plural-Forms: \n"
 
-#. module: product_margin
-#: field:product.product,purchase_num_invoiced:0
-msgid "# Invoiced in Purchase"
-msgstr "# 采购开票"
-
-#. module: product_margin
-#: field:product.product,sale_num_invoiced:0
-msgid "# Invoiced in Sale"
-msgstr "# 销售开票"
-
 #. module: product
 #: field:product.template,product_variant_count:0
 msgid "# of Product Variants"
 msgstr "# 个产品变体"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_tree
-msgid "#Purchased"
-msgstr "# 采购"
 
 #. module: product
 #: code:addons/product/product.py:776
@@ -260,13 +242,6 @@ msgstr "精确的产品描述，仅用于内部备注。"
 msgid "Active"
 msgstr "有效"
 
-#. module: product_extended
-#: code:addons/product_extended/wizard/wizard_price.py:44
-#: code:addons/product_extended/wizard/wizard_price.py:56
-#, python-format
-msgid "Active ID is not set in Context."
-msgstr "Active ID is not set in Context."
-
 #. module: product_expiry
 #: field:stock.production.lot,alert_date:0
 msgid "Alert Date"
@@ -276,11 +251,6 @@ msgstr "警告日期"
 #: model:product.category,name:product.product_category_all
 msgid "All"
 msgstr "全部"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_form
-msgid "Analysis Criteria"
-msgstr "分析准则"
 
 #. module: product
 #: help:product.supplierinfo,sequence:0
@@ -329,22 +299,6 @@ msgstr "属性值"
 msgid "Attributes"
 msgstr "属性"
 
-#. module: product_margin
-#: help:product.product,sale_avg_price:0
-msgid "Avg. Price in Customer Invoices."
-msgstr "客户发票中的平均价格"
-
-#. module: product_margin
-#: help:product.product,purchase_avg_price:0
-msgid "Avg. Price in Supplier Invoices "
-msgstr "供应商发票中的平均价格"
-
-#. module: product_margin
-#: field:product.product,purchase_avg_price:0
-#: field:product.product,sale_avg_price:0
-msgid "Avg. Unit Price"
-msgstr "平均单价"
-
 #. module: product
 #: view:product.pricelist.item:product.product_pricelist_item_form_view
 msgid "Base Price"
@@ -385,11 +339,6 @@ msgstr "更大比率"
 msgid "Bigger than the reference Unit of Measure"
 msgstr "大于参考单位"
 
-#. module: product_extended
-#: model:ir.model,name:product_extended.model_mrp_bom
-msgid "Bill of Material"
-msgstr "物料清单"
-
 #. module: product_email_template
 #: view:email.template:product_email_template.email_template_form_simplified
 msgid "Body"
@@ -421,10 +370,8 @@ msgstr "可出租"
 msgid "Can be Sold"
 msgstr "可销售"
 
-#. modules: product, product_extended, product_margin
+#. module: product
 #: view:product.price_list:product.view_product_price_list
-#: view:wizard.price:product_extended.view_compute_price_wizard
-#: view:product.margin:product_margin.product_margin_form_view
 msgid "Cancel"
 msgstr "取消"
 
@@ -433,11 +380,6 @@ msgstr "取消"
 #, python-format
 msgid "Cannot change the category of existing Unit of Measure '%s'."
 msgstr "不能改变已有的计量单位'%s'的类别"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_form
-msgid "Catalog Price"
-msgstr "目录价格"
 
 #. module: product
 #: view:product.template:product.product_template_search_view
@@ -448,21 +390,6 @@ msgstr "分类"
 #: field:product.category,type:0
 msgid "Category Type"
 msgstr "类别类型"
-
-#. module: product_extended
-#: view:wizard.price:product_extended.view_compute_price_wizard
-msgid "Change Price"
-msgstr "Change Price"
-
-#. module: product_extended
-#: view:wizard.price:product_extended.view_compute_price_wizard
-msgid "Change Standard Price"
-msgstr "Change Standard Price"
-
-#. module: product_extended
-#: field:wizard.price,recursive:0
-msgid "Change prices of child BoMs too"
-msgstr "Change prices of child BoMs too"
 
 #. module: product
 #: field:product.category,child_id:0
@@ -494,16 +421,6 @@ msgstr "颜色索引"
 #: field:product.template,company_id:0
 msgid "Company"
 msgstr "公司"
-
-#. module: product_extended
-#: model:ir.actions.act_window,name:product_extended.action_view_compute_price_wizard
-msgid "Compute Price Wizard"
-msgstr "Compute Price Wizard"
-
-#. module: product_extended
-#: model:ir.model,name:product_extended.model_wizard_price
-msgid "Compute price wizard"
-msgstr "Compute price wizard"
 
 #. module: product
 #: view:product.template:product.product_template_form_view
@@ -550,7 +467,7 @@ msgstr "成本价"
 msgid "Cost price of the product template used for standard stock valuation in accounting and used as a base price on purchase orders. Expressed in the default unit of measure of the product."
 msgstr "Cost price of the product template used for standard stock valuation in accounting and used as a base price on purchase orders. Expressed in the default unit of measure of the product."
 
-#. modules: product, product_extended, product_margin
+#. module: product
 #: field:pricelist.partnerinfo,create_uid:0
 #: field:product.attribute,create_uid:0
 #: field:product.attribute.line,create_uid:0
@@ -571,12 +488,10 @@ msgstr "Cost price of the product template used for standard stock valuation in 
 #: field:product.ul,create_uid:0
 #: field:product.uom,create_uid:0
 #: field:product.uom.categ,create_uid:0
-#: field:wizard.price,create_uid:0
-#: field:product.margin,create_uid:0
 msgid "Created by"
 msgstr "创建者"
 
-#. modules: product, product_extended, product_margin
+#. module: product
 #: field:pricelist.partnerinfo,create_date:0
 #: field:product.attribute,create_date:0
 #: field:product.attribute.line,create_date:0
@@ -597,8 +512,6 @@ msgstr "创建者"
 #: field:product.ul,create_date:0
 #: field:product.uom,create_date:0
 #: field:product.uom.categ,create_date:0
-#: field:wizard.price,create_date:0
-#: field:product.margin,create_date:0
 msgid "Created on"
 msgstr "创建于"
 
@@ -685,12 +598,6 @@ msgstr "决定显示顺序"
 msgid "Dozen(s)"
 msgstr "Dozen(s)"
 
-#. module: product_margin
-#: selection:product.margin,invoice_state:0
-#: selection:product.product,invoice_state:0
-msgid "Draft, Open and Paid"
-msgstr "草稿、开启和已付"
-
 #. module: product
 #: field:product.packaging,ean:0
 msgid "EAN"
@@ -768,36 +675,6 @@ msgstr "错误：无效的EAN编码"
 msgid "Error: The default Unit of Measure and the purchase Unit of Measure must be in the same category."
 msgstr "错误：默认的计量单位和采购计量单位必须是相同的类别"
 
-#. module: product_margin
-#: field:product.product,expected_margin:0
-msgid "Expected Margin"
-msgstr "预计利润"
-
-#. module: product_margin
-#: field:product.product,expected_margin_rate:0
-msgid "Expected Margin (%)"
-msgstr "预计利润(%)"
-
-#. module: product_margin
-#: field:product.product,sale_expected:0
-msgid "Expected Sale"
-msgstr "预计销售"
-
-#. module: product_margin
-#: help:product.product,expected_margin:0
-msgid "Expected Sale - Normal Cost"
-msgstr "预计销售 - 标准成本"
-
-#. module: product_margin
-#: help:product.product,sales_gap:0
-msgid "Expected Sale - Turn Over"
-msgstr "预计售价 - 订单价格"
-
-#. module: product_margin
-#: help:product.product,expected_margin_rate:0
-msgid "Expected margin * 100 / Expected Sale"
-msgstr "预计利润 / 预计销售 * 100"
-
 #. module: product
 #: help:product.pricelist.item,name:0
 msgid "Explicit rule name for this pricelist line."
@@ -825,21 +702,6 @@ msgid "For the rule to apply, bought/sold quantity must be greater than or equal
 "Expressed in the default UoM of the product."
 msgstr "For the rule to apply, bought/sold quantity must be greater than or equal to the minimum quantity specified in this field.\n"
 "Expressed in the default UoM of the product."
-
-#. module: product_margin
-#: field:product.margin,from_date:0
-msgid "From"
-msgstr "从"
-
-#. module: product_margin
-#: view:product.margin:product_margin.product_margin_form_view
-msgid "General Information"
-msgstr "一般信息"
-
-#. module: product_extended
-#: field:wizard.price,real_time_accounting:0
-msgid "Generate accounting entries when real-time"
-msgstr "Generate accounting entries when real-time"
 
 #. module: product
 #: help:product.template,packaging_ids:0
@@ -911,7 +773,7 @@ msgid "How much bigger or smaller this unit is compared to the reference Unit of
 msgstr "本计量单位和参考计量单位相比，大或者小的倍数。\n"
 "1*（参考单位=比率*（本单位）"
 
-#. modules: product, product_extended, product_margin
+#. module: product
 #: field:pricelist.partnerinfo,id:0
 #: field:product.attribute,id:0
 #: field:product.attribute.line,id:0
@@ -933,8 +795,6 @@ msgstr "本计量单位和参考计量单位相比，大或者小的倍数。\n"
 #: field:product.uom,id:0
 #: field:product.uom.categ,id:0
 #: field:report.product.report_pricelist,id:0
-#: field:wizard.price,id:0
-#: field:product.margin,id:0
 msgid "ID"
 msgstr "ID"
 
@@ -980,11 +840,6 @@ msgstr "Image of the product variant (Small-sized image of product template if f
 msgid "In Development"
 msgstr "开发中"
 
-#. module: product_extended
-#: field:wizard.price,info_field:0
-msgid "Info"
-msgstr "Info"
-
 #. module: product
 #: view:product.template:product.product_template_form_view
 msgid "Information"
@@ -1011,7 +866,7 @@ msgstr "内部分类"
 #: field:product.product,default_code:0
 #: field:product.template,default_code:0
 msgid "Internal Reference"
-msgstr "内部单号"
+msgstr "内部参考"
 
 #. module: product
 #: help:product.product,ean13:0
@@ -1027,12 +882,6 @@ msgstr "库存"
 #: model:ir.model,name:product_email_template.model_account_invoice
 msgid "Invoice"
 msgstr "开发票"
-
-#. module: product_margin
-#: field:product.margin,invoice_state:0
-#: field:product.product,invoice_state:0
-msgid "Invoice State"
-msgstr "发票状态"
 
 #. module: product
 #: field:product.product,message_is_follower:0
@@ -1062,7 +911,7 @@ msgstr "关键字"
 msgid "Last Message Date"
 msgstr "最后信息日期"
 
-#. modules: product, product_extended, product_margin
+#. module: product
 #: field:pricelist.partnerinfo,write_uid:0
 #: field:product.attribute,write_uid:0
 #: field:product.attribute.line,write_uid:0
@@ -1083,12 +932,10 @@ msgstr "最后信息日期"
 #: field:product.ul,write_uid:0
 #: field:product.uom,write_uid:0
 #: field:product.uom.categ,write_uid:0
-#: field:wizard.price,write_uid:0
-#: field:product.margin,write_uid:0
 msgid "Last Updated by"
 msgstr "最后更新"
 
-#. modules: product, product_extended, product_margin
+#. module: product
 #: field:pricelist.partnerinfo,write_date:0
 #: field:product.attribute,write_date:0
 #: field:product.attribute.line,write_date:0
@@ -1109,8 +956,6 @@ msgstr "最后更新"
 #: field:product.ul,write_date:0
 #: field:product.uom,write_date:0
 #: field:product.uom.categ,write_date:0
-#: field:wizard.price,write_date:0
-#: field:product.margin,write_date:0
 msgid "Last Updated on"
 msgstr "最后更新"
 
@@ -1201,21 +1046,6 @@ msgstr "管理产品的属性"
 #: model:res.groups,name:product.group_uos
 msgid "Manage Secondary Unit of Measure"
 msgstr "管理第二个计量单位"
-
-#. module: product_margin
-#: field:product.product,date_from:0
-msgid "Margin Date From"
-msgstr "毛利开始日"
-
-#. module: product_margin
-#: field:product.product,date_to:0
-msgid "Margin Date To"
-msgstr "毛利结束日"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_form
-msgid "Margins"
-msgstr "毛利"
 
 #. module: product
 #: view:product.pricelist.item:product.product_pricelist_item_form_view
@@ -1314,16 +1144,6 @@ msgstr "新的计量单位'%s'的类别 '%s'必须跟老单位 '%s' 相同。如
 msgid "Normal"
 msgstr "普通"
 
-#. module: product_margin
-#: field:product.product,normal_cost:0
-msgid "Normal Cost"
-msgstr "正常成本"
-
-#. module: product_margin
-#: help:product.product,purchase_gap:0
-msgid "Normal Cost - Total Cost"
-msgstr "正常成本 - 总成本"
-
 #. module: product
 #: field:product.packaging,rows:0
 msgid "Number of Layers"
@@ -1333,17 +1153,6 @@ msgstr "层数"
 #: selection:product.template,state:0
 msgid "Obsolete"
 msgstr "作废"
-
-#. module: product_margin
-#: view:product.margin:product_margin.product_margin_form_view
-msgid "Open Margins"
-msgstr "待处理利润"
-
-#. module: product_margin
-#: selection:product.margin,invoice_state:0
-#: selection:product.product,invoice_state:0
-msgid "Open and Paid"
-msgstr "待处理和支付"
 
 #. module: product
 #: view:product.packaging:product.product_packaging_form_view
@@ -1382,12 +1191,6 @@ msgstr "每层的包裹数"
 #: view:product.template:product.product_template_form_view
 msgid "Packaging"
 msgstr "包装"
-
-#. module: product_margin
-#: selection:product.margin,invoice_state:0
-#: selection:product.product,invoice_state:0
-msgid "Paid"
-msgstr "已付"
 
 #. module: product
 #: selection:product.ul,type:0
@@ -1507,12 +1310,11 @@ msgstr "价格:"
 msgid "PriceList"
 msgstr "价格表"
 
-#. modules: product_visible_discount, product
+#. module: product
 #: model:ir.actions.report.xml,name:product.action_report_pricelist
 #: model:ir.model,name:product.model_product_pricelist
 #: view:product.supplierinfo:product.product_supplierinfo_form_view
 #: field:product.template,pricelist_id:0
-#: model:ir.model,name:product_visible_discount.model_product_pricelist
 msgid "Pricelist"
 msgstr "价格表"
 
@@ -1575,7 +1377,7 @@ msgstr "Print date"
 msgid "Procurements"
 msgstr "补货"
 
-#. modules: product, product_margin
+#. module: product
 #: model:ir.model,name:product.model_product_product
 #: field:product.packaging,product_tmpl_id:0
 #: field:product.pricelist.item,product_id:0
@@ -1583,7 +1385,6 @@ msgstr "补货"
 #: view:product.template:product.product_template_search_view
 #: view:product.template:product.product_template_tree_view
 #: model:res.request.link,name:product.req_link_product
-#: model:ir.model,name:product_margin.model_product_product
 msgid "Product"
 msgstr "产品"
 
@@ -1649,22 +1450,6 @@ msgstr "产品寿命时间"
 msgid "Product Manager"
 msgstr "产品经理"
 
-#. module: product_margin
-#: model:ir.model,name:product_margin.model_product_margin
-msgid "Product Margin"
-msgstr "产品利润"
-
-#. module: product_margin
-#: code:addons/product_margin/wizard/product_margin.py:84
-#: model:ir.actions.act_window,name:product_margin.product_margin_act_window
-#: model:ir.ui.menu,name:product_margin.menu_action_product_margin
-#: view:product.product:product_margin.view_product_margin_form
-#: view:product.product:product_margin.view_product_margin_graph
-#: view:product.product:product_margin.view_product_margin_tree
-#, python-format
-msgid "Product Margins"
-msgstr "产品利润"
-
 #. module: product
 #: view:product.template:product.product_template_form_view
 msgid "Product Name"
@@ -1675,7 +1460,7 @@ msgstr "产品名称"
 msgid "Product Removal Time"
 msgstr "产品移除时间"
 
-#. modules: product_extended, product, product_expiry, product_email_template
+#. modules: product, product_expiry, product_email_template
 #: model:ir.model,name:product.model_product_template
 #: field:product.attribute.line,product_tmpl_id:0
 #: field:product.attribute.price,product_tmpl_id:0
@@ -1687,7 +1472,6 @@ msgstr "产品移除时间"
 #: view:product.template:product.product_template_only_form_view
 #: model:ir.model,name:product_email_template.model_product_template
 #: model:ir.model,name:product_expiry.model_product_template
-#: model:ir.model,name:product_extended.model_product_template
 msgid "Product Template"
 msgstr "产品模板"
 
@@ -1770,18 +1554,13 @@ msgstr "产品价格类型"
 #: model:ir.actions.act_window,name:product.product_category_action
 #: model:ir.ui.menu,name:product.menu_products_category
 msgid "Products by Category"
-msgstr "产品类别"
+msgstr "产品，按类别"
 
 #. module: product
 #: code:addons/product/product.py:876
 #, python-format
 msgid "Products: "
 msgstr "产品： "
-
-#. module: product_margin
-#: view:product.margin:product_margin.product_margin_form_view
-msgid "Properties categories"
-msgstr "属性分类"
 
 #. module: product
 #: model:product.price.type,name:product.list_price
@@ -1805,11 +1584,6 @@ msgstr "采购"
 msgid "Purchase Description"
 msgstr "采购说明"
 
-#. module: product_margin
-#: field:product.product,purchase_gap:0
-msgid "Purchase Gap"
-msgstr "采购差额"
-
 #. module: product
 #: model:res.groups,name:product.group_purchase_pricelist
 msgid "Purchase Pricelists"
@@ -1819,11 +1593,6 @@ msgstr "采购价格表"
 #: field:product.template,uom_po_id:0
 msgid "Purchase Unit of Measure"
 msgstr "采购计量单位"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_form
-msgid "Purchases"
-msgstr "采购"
 
 #. module: product
 #: field:pricelist.partnerinfo,min_quantity:0
@@ -1870,11 +1639,6 @@ msgstr "份"
 #: field:product.uom,factor:0
 msgid "Ratio"
 msgstr "比例"
-
-#. module: product_extended
-#: view:product.template:product_extended.product_product_ext_form_view2
-msgid "Recompute price from BoM"
-msgstr "Recompute price from BoM"
 
 #. module: product
 #: selection:product.uom,uom_type:0
@@ -1933,9 +1697,8 @@ msgstr "销售价格表"
 msgid "Saleable"
 msgstr "可销售"
 
-#. modules: product, product_margin
+#. module: product
 #: view:product.template:product.product_template_form_view
-#: view:product.product:product_margin.view_product_margin_form
 msgid "Sales"
 msgstr "销售"
 
@@ -1943,17 +1706,6 @@ msgstr "销售"
 #: view:res.partner:product.view_partner_property_form
 msgid "Sales & Purchases"
 msgstr "销售&采购"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_tree
-#: field:product.product,sales_gap:0
-msgid "Sales Gap"
-msgstr "销售差额"
-
-#. module: product_visible_discount
-#: model:ir.model,name:product_visible_discount.model_sale_order_line
-msgid "Sales Order Line"
-msgstr "销售订单明细"
 
 #. module: product
 #: model:res.groups,name:product.group_sale_pricelist
@@ -1984,11 +1736,6 @@ msgstr "服务"
 #: view:product.template:product.product_template_search_view
 msgid "Services"
 msgstr "服务"
-
-#. module: product_extended
-#: view:wizard.price:product_extended.view_compute_price_wizard
-msgid "Set price on BoM"
-msgstr "Set price on BoM"
 
 #. module: product
 #: help:product.pricelist.item,price_round:0
@@ -2054,12 +1801,6 @@ msgstr "指定基于基准价格的最大利润"
 msgid "Specify the minimum amount of margin over the base price."
 msgstr "指定基于基准价格的最大利润"
 
-#. modules: product_extended, product_margin
-#: field:mrp.bom,standard_price:0
-#: view:product.product:product_margin.view_product_margin_form
-msgid "Standard Price"
-msgstr "成本价格"
-
 #. module: product
 #: field:product.pricelist.version,date_start:0
 msgid "Start Date"
@@ -2075,36 +1816,6 @@ msgstr "状态"
 #: selection:product.template,type:0
 msgid "Stockable Product"
 msgstr "可库存产品"
-
-#. module: product_margin
-#: help:product.product,normal_cost:0
-msgid "Sum of Multiplication of Cost price and quantity of Supplier Invoices"
-msgstr "供应商发票的成本价格和数量相乘的合计"
-
-#. module: product_margin
-#: help:product.product,turnover:0
-msgid "Sum of Multiplication of Invoice price and quantity of Customer Invoices"
-msgstr "客户发票的开票价格和数量相乘的汇总"
-
-#. module: product_margin
-#: help:product.product,total_cost:0
-msgid "Sum of Multiplication of Invoice price and quantity of Supplier Invoices "
-msgstr "供应商发票的开票价格和数量相乘的合计 "
-
-#. module: product_margin
-#: help:product.product,sale_expected:0
-msgid "Sum of Multiplication of Sale Catalog price and quantity of Customer Invoices"
-msgstr "客户发票的销售分类价格和数量相乘的汇总"
-
-#. module: product_margin
-#: help:product.product,sale_num_invoiced:0
-msgid "Sum of Quantity in Customer Invoices"
-msgstr "客户发票数量合计"
-
-#. module: product_margin
-#: help:product.product,purchase_num_invoiced:0
-msgid "Sum of Quantity in Supplier Invoices"
-msgstr "供应商发票数量合计"
 
 #. module: product
 #: field:product.product,message_summary:0
@@ -2253,11 +1964,6 @@ msgid "The operation cannot be completed:\n"
 msgstr "The operation cannot be completed:\n"
 "You trying to delete an attribute value with a reference on a product variant."
 
-#. module: product_extended
-#: view:wizard.price:product_extended.view_compute_price_wizard
-msgid "The price is computed from the bill of material lines which are not variant specific"
-msgstr "The price is computed from the bill of material lines which are not variant specific"
-
 #. module: product
 #: view:product.supplierinfo:product.product_supplierinfo_form_view
 msgid "The prices below will only be taken into account when your pricelist is set as based on supplier prices."
@@ -2368,53 +2074,10 @@ msgstr "这是供应商的产品代码，将用于打印询价单。如果使用
 msgid "This supplier's product name will be used when printing a request for quotation. Keep empty to use the internal one."
 msgstr "此供应商产品名称用于打印询价单。为空则使用内部名称。"
 
-#. module: product_extended
-#: code:addons/product_extended/wizard/wizard_price.py:54
-#, python-format
-msgid "This wizard is build for product templates, while you are currently running it from a product variant."
-msgstr "This wizard is build for product templates, while you are currently running it from a product variant."
-
-#. module: product_margin
-#: field:product.margin,to_date:0
-msgid "To"
-msgstr "到"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_tree
-#: field:product.product,total_cost:0
-msgid "Total Cost"
-msgstr "总成本"
-
-#. module: product_margin
-#: field:product.product,total_margin:0
-msgid "Total Margin"
-msgstr "总毛利"
-
-#. module: product_margin
-#: field:product.product,total_margin_rate:0
-msgid "Total Margin Rate(%)"
-msgstr "总毛利率(%)"
-
 #. module: product
 #: field:product.packaging,weight:0
 msgid "Total Package Weight"
 msgstr "包装总重量"
-
-#. module: product_margin
-#: help:product.product,total_margin_rate:0
-msgid "Total margin * 100 / Turnover"
-msgstr "总毛利 / 营业额 * 100"
-
-#. module: product_margin
-#: view:product.product:product_margin.view_product_margin_tree
-#: field:product.product,turnover:0
-msgid "Turnover"
-msgstr "营业额"
-
-#. module: product_margin
-#: help:product.product,total_margin:0
-msgid "Turnover - Standard price"
-msgstr "营业额-标准价格"
 
 #. module: product
 #: view:product.template:product.product_template_search_view
@@ -2548,11 +2211,6 @@ msgstr "变体"
 msgid "View"
 msgstr "视图"
 
-#. module: product_visible_discount
-#: field:product.pricelist,visible_discount:0
-msgid "Visible Discount"
-msgstr "可见的折扣"
-
 #. module: product
 #: field:product.template,volume:0
 #: model:product.uom.categ,name:product.product_uom_categ_vol
@@ -2625,12 +2283,6 @@ msgstr "宽度"
 #: model:product.uom.categ,name:product.uom_categ_wtime
 msgid "Working Time"
 msgstr "工作时间"
-
-#. module: product_extended
-#: code:addons/product_extended/wizard/wizard_price.py:54
-#, python-format
-msgid "Wrong model!"
-msgstr "Wrong model!"
 
 #. module: product
 #: constraint:product.pricelist.version:0
@@ -2717,10 +2369,8 @@ msgstr "月"
 msgid "note to be displayed on quotations..."
 msgstr "被显示在报价单的备注 ..."
 
-#. modules: product, product_extended, product_margin
+#. module: product
 #: view:product.price_list:product.view_product_price_list
-#: view:wizard.price:product_extended.view_compute_price_wizard
-#: view:product.margin:product_margin.product_margin_form_view
 msgid "or"
 msgstr "或"
 

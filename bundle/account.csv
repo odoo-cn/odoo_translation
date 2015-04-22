@@ -876,7 +876,7 @@ account,view,account.tax.template,account.view_account_tax_template_form,Applica
 account,field,"account.tax.template,applicable_type",0,Applicable Type,适用类型
 account,view,account.config.settings,account.view_account_config_settings,Apply,应用
 account,help,"account.fiscal.position,auto_apply",0,Apply automatically this fiscal position if the conditions match.,Apply automatically this fiscal position if the conditions match.
-account,help,"account.fiscal.position,vat_required",0,Apply only if partner has a VAT number.,仅应用于有增值税编码的合作伙伴
+account,help,"account.fiscal.position,vat_required",0,Apply only if partner has a VAT number.,仅应用于有增值税编码的业务伙伴
 account,help,"account.fiscal.position,country_group_id",0,"Apply when the shipping or invoicing country is in this country group, and no position matches the country directly.","Apply when the shipping or invoicing country is in this country group, and no position matches the country directly."
 account,help,"account.fiscal.position,country_id",0,Apply when the shipping or invoicing country matches. Takes precedence over positions matching on a country group.,Apply when the shipping or invoicing country matches. Takes precedence over positions matching on a country group.
 account,view,validate.account.move,account.validate_account_move_view,Approve,批准
@@ -929,6 +929,7 @@ account,view,website,account.report_analyticcostledger,Balance,余额
 account,view,website,account.report_centraljournal,Balance,余额
 account,view,website,account.report_financial,Balance,余额
 account,view,website,account.report_generaljournal,Balance,余额
+account,view,website,account.report_generalledger,Balance,余额
 account,view,website,account.report_invertedanalyticbalance,Balance,余额
 account,view,website,account.report_partnerbalance,Balance,余额
 account,view,website,account.report_partnerledger,Balance,余额
@@ -1169,7 +1170,7 @@ account,model,"res.groups,name",account.group_supplier_inv_check_total,Check Tot
 account,help,"account.analytic.balance,empty_acc",0,Check if you want to display Accounts with 0 balance too.,"检查,如果你想显示平衡科目"
 account,field,"account.config.settings,group_check_supplier_invoice_total",0,Check the total of supplier invoices,检查供应商发票的总额
 account,field,"account.period.close,sure",0,Check this box,勾选此项
-account,help,"res.partner,vat_subjected",0,Check this box if the partner is subjected to the VAT. It will be used for the VAT legal statement.,如果合作伙伴是隶属于增值税，选中此复选框。它将被用于增值税报表。
+account,help,"res.partner,vat_subjected",0,Check this box if the partner is subjected to the VAT. It will be used for the VAT legal statement.,如果业务伙伴是隶属于增值税，选中此复选框。它将被用于增值税报表。
 account,help,"account.account,reconcile",0,Check this box if this account allows reconciliation of journal items.,如果此会计科目需要对账，勾选这里
 account,help,"account.config.settings,expects_chart_of_accounts",0,Check this box if this company is a legal entity.,如该公司合法，请勾选。
 account,help,"account.move,to_check",0,Check this box if you are unsure of that journal entry and if you want to note it as 'to be reviewed' by an accounting expert.,勾选这里，如果您不确定凭证是否正确，您可以把它标注为“待审核”状态交由会计师来确定。
@@ -1297,7 +1298,7 @@ account,view,account.payment.term,account.view_payment_term_form,Computation,计
 account,field,"account.payment.term.line,value",0,Computation,计算
 account,view,account.subscription,account.view_subscription_form,Compute,计算
 account,view,account.tax.template,account.view_account_tax_template_form,Compute Code (if type=code),计算代码(如果类型=代码)
-account,view,account.tax.template,account.view_account_tax_template_form,Compute Code for Taxes Included Prices,含税价格计算代码
+account,view,account.tax.template,account.view_account_tax_template_form,Compute Code for Taxes Included Prices,税金包含在价格中的计算代码
 account,field,"account.bank.statement,balance_end",0,Computed Balance,计算余额
 account,help,"account.bank.statement,balance_end_real",0,Computed using the cash control lines,使用现金控制明细计算
 account,view,account.config.settings,account.view_account_config_settings,Configuration,设置
@@ -1316,9 +1317,9 @@ You cannot select an account type with a deferral method different of ""Unreconc
 account,constraint,account.journal,0,"Configuration error!
 The currency chosen should be shared by the default accounts too.","配置错误!
 选择的币种也被默认帐户共享。"
-account,view,account.config.settings,account.view_account_config_settings,Configure Accounting,设置会计模块
-account,model,"ir.actions.act_window,name",account.action_account_config,Configure Accounting,设置会计模块
-account,model,"ir.actions.act_window,name",account.action_account_configuration_installer,Configure Accounting Data,设置会计数据
+account,view,account.config.settings,account.view_account_config_settings,Configure Accounting,配置会计模块
+account,model,"ir.actions.act_window,name",account.action_account_config,Configure Accounting,配置会计模块
+account,model,"ir.actions.act_window,name",account.action_account_configuration_installer,Configure Accounting Data,配置会计数据
 account,view,account.installer,account.view_account_configuration_installer,Configure your Fiscal Year,配置你的财务年度
 account,view,account.config.settings,account.view_account_config_settings,Configure your company bank accounts,配置你公司的银行账户
 account,view,account.invoice.confirm,account.account_invoice_confirm_view,Confirm Draft Invoices,确认草稿发票
@@ -1333,9 +1334,9 @@ account,selection,"account.account,type",0,Consolidation,合并
 account,selection,"account.account.template,type",0,Consolidation,合并
 account,selection,"account.entries.report,type",0,Consolidation,合并
 account,view,account.installer,account.view_account_configuration_installer,Continue,继续
-account,view,res.partner,account.partner_view_button_contracts_count,Contracts,合同列表
-account,field,"res.partner,contract_ids",0,Contracts,合同列表
-account,field,"res.partner,contracts_count",0,Contracts,合同列表
+account,view,res.partner,account.partner_view_button_contracts_count,Contracts,合同
+account,field,"res.partner,contract_ids",0,Contracts,合同
+account,field,"res.partner,contracts_count",0,Contracts,合同
 account,model,"ir.actions.act_window,name",account.action_open_partner_analytic_accounts,Contracts/Analytic Accounts,合同/分析账户
 account,model,"ir.actions.act_window,name",account.action_account_analytic_cost,Cost Ledger,成本总账
 account,model,"ir.actions.report.xml,name",account.action_report_cost_ledger,Cost Ledger,成本总账
@@ -1347,7 +1348,7 @@ account,view,account.analytic.cost.ledger.journal.report,account.account_analyti
 account,view,website,account.report_generalledger,Counterpart,对方
 account,field,"account.fiscal.position,country_id",0,Country,国家
 account,field,"account.fiscal.position,country_group_id",0,Country Group,国家组
-account,field,"account.invoice.report,country_id",0,Country of the Partner Company,合作伙伴公司的国家
+account,field,"account.invoice.report,country_id",0,Country of the Partner Company,业务伙伴公司的国家
 account,view,account.fiscalyear.close,account.view_account_fiscalyear_close,Create,新建
 account,view,account.fiscalyear,account.view_account_fiscalyear_form,Create 3 Months Periods,创建季度会计期间
 account,view,account.addtmpl.wizard,account.view_account_addtmpl_wizard_form,Create Account,创建科目
@@ -1776,8 +1777,8 @@ account,selection,"account.financial.report,display_detail",0,Display children w
 account,field,"account.financial.report,display_detail",0,Display details,显示详细信息
 account,xsl,account.transfer,0,Document,单据
 account,view,website,account.report_overdue_document,Document: Customer account statement,Document: Customer account statement
-account,field,"account.tax,domain",0,Domain,过滤条件
-account,field,"account.tax.template,domain",0,Domain,过滤条件
+account,field,"account.tax,domain",0,Domain,筛选条件
+account,field,"account.tax.template,domain",0,Domain,筛选条件
 account,selection,"account.invoice.report,state",0,Done,完成
 account,selection,"account.journal.period,state",0,Done,完成
 account,selection,"account.subscription,state",0,Done,完成
@@ -2154,7 +2155,7 @@ account,code,addons/account/account_invoice.py,105,Free Reference,无限制的�
 account,field,"account.analytic.chart,from_date",0,From,从
 account,field,"project.account.analytic.line,from_date",0,From,从
 account,model,"ir.actions.act_window,help",account.action_account_invoice_report_all,"From this report, you can have an overview of the amount invoiced to your customer. The tool search can also be used to personalise your Invoices reports and so, match this analysis to your needs.","From this report, you can have an overview of the amount invoiced to your customer. The tool search can also be used to personalise your Invoices reports and so, match this analysis to your needs."
-account,model,"ir.actions.act_window,help",account.action_analytic_entries_report,"From this view, have an analysis of your different analytic entries following the analytic account you defined matching your business need. Use the tool search to analyse information about analytic entries generated in the system.",这视图用于分析贵公司分析账户的发生额。用查找功能可以过滤系统生成的分析分录。
+account,model,"ir.actions.act_window,help",account.action_analytic_entries_report,"From this view, have an analysis of your different analytic entries following the analytic account you defined matching your business need. Use the tool search to analyse information about analytic entries generated in the system.",这视图用于分析贵公司分析账户的发生额。用查找功能可以筛选系统生成的分析分录。
 account,model,"ir.actions.act_window,help",account.action_account_entries_report_all,"From this view, have an analysis of your different financial accounts. The document shows your debit and credit taking in consideration some criteria you can choose by using the search tool.",在这个界面上，你可以对不同的科目做分析。按照您输入的条件出具报告显示这些科目的借贷方发生额。
 account,model,"ir.actions.act_window,help",account.action_account_treasury_report_all,"From this view, have an analysis of your treasury. It sums the balance of every accounting entries made on liquidity accounts per period.",在这里分析贵公司的资金。这里汇总了每个期间在流动资产科目上的会计凭证。
 account,field,"account.config.settings,module_account_accountant",0,"Full accounting features: journals, legal statements, chart of accounts, etc.",全部会计特性：分类账，税务报告，会计科目表 等等
@@ -2169,9 +2170,9 @@ account,view,analytic.entries.report,account.view_analytic_entries_report_search
 account,field,"analytic.entries.report,general_account_id",0,General Account,总账
 account,view,account.analytic.line,account.view_account_analytic_line_form,General Accounting,总账会计
 account,view,account.move.line,account.view_move_line_form2,General Information,一般信息
-account,model,"ir.actions.report.xml,name",account.action_report_general_journal,General Journal,一般日记帐
-account,view,website,account.report_generaljournal,General Journal,一般日记帐
-account,model,"ir.ui.menu,name",account.menu_account_general_journal,General Journals,一般日记帐
+account,model,"ir.actions.report.xml,name",account.action_report_general_journal,General Journal,一般分类账
+account,view,website,account.report_generaljournal,General Journal,一般分类账
+account,model,"ir.ui.menu,name",account.menu_account_general_journal,General Journals,一般分类账
 account,model,"ir.actions.act_window,name",account.action_account_general_ledger_menu,General Ledger,总账
 account,model,"ir.actions.report.xml,name",account.action_report_general_ledger,General Ledger,总账
 account,model,"ir.ui.menu,name",account.menu_general_ledger,General Ledger,总账
@@ -2181,8 +2182,8 @@ account,model,"ir.actions.act_window,name",account.action_account_subscription_g
 account,model,"ir.ui.menu,name",account.menu_generate_subscription,Generate Entries,生成分录
 account,field,"account.subscription.generate,date",0,Generate Entries Before,生成指定日期之前的分录
 account,view,account.fiscalyear.close,account.view_account_fiscalyear_close,Generate Fiscal Year Opening Entries,生成会计年度开账分录
-account,model,"ir.actions.act_window,name",account.action_account_fiscalyear_close,Generate Opening Entries,产生开帐分录
-account,model,"ir.ui.menu,name",account.menu_wizard_fy_close,Generate Opening Entries,产生开帐分录
+account,model,"ir.actions.act_window,name",account.action_account_fiscalyear_close,Generate Opening Entries,生成开帐分录
+account,model,"ir.ui.menu,name",account.menu_wizard_fy_close,Generate Opening Entries,生成开帐分录
 account,model,"ir.ui.menu,name",account.menu_finance_generic_reporting,Generic Reporting,通用报表
 account,help,"account.fiscalyear.close,report_name",0,Give name of the new entries,Give name of the new entries
 account,selection,"account.tax,applicable_type",0,Given by Python Code,Python代码
@@ -2591,9 +2592,9 @@ account,field,"res.partner,journal_item_count",0,Journal Items,分类账项目
 account,model,"ir.model,name",account.model_account_entries_report,Journal Items Analysis,分类账项目分析
 account,view,account.move.line,account.view_move_line_tree_reconcile,Journal Items to Reconcile,待调节的分类账项目
 account,model,"ir.actions.act_window,name",account.action_account_manual_reconcile,Journal Items to Reconcile,待调节的分类账项目
-account,field,"account.analytic.journal,name",0,Journal Name,分录名称
-account,field,"account.journal,name",0,Journal Name,分录名称
-account,view,website,account.report_generaljournal,Journal Name,分录名称
+account,field,"account.analytic.journal,name",0,Journal Name,分类账名称
+account,field,"account.journal,name",0,Journal Name,分类账名称
+account,view,website,account.report_generaljournal,Journal Name,分类账名称
 account,model,"ir.model,name",account.model_account_journal_period,Journal Period,分类账会计期间
 account,view,account.journal.select,account.open_journal_button_view,Journal Select,分类账选择
 account,help,"account.journal,analytic_journal_id",0,Journal for analytic entries,分析分录的分类账
@@ -2887,8 +2888,8 @@ account,view,account.invoice.tax,account.view_invoice_tax_form,Manual Invoice Ta
 account,view,account.invoice.tax,account.view_invoice_tax_tree,Manual Invoice Taxes,手动的发票税(非主营业务纳税)
 account,model,"ir.ui.menu,name",account.menu_manual_reconcile,Manual Reconciliation,手动调节
 account,model,"ir.actions.act_window,name",account.action_account_use_model_create_entry,Manual Recurring,手动周期
-account,selection,"report.account.sales,month",0,March,3
-account,selection,"report.account_type.sales,month",0,March,3
+account,selection,"report.account.sales,month",0,March,3月
+account,selection,"report.account_type.sales,month",0,March,3月
 account,view,website,account.report_overdue_document,Maturity,成熟
 account,field,"account.model.line,date_maturity",0,Maturity Date,到期日期
 account,view,website,account.report_overdue_document,Maturity Date,到期日期
@@ -3027,8 +3028,8 @@ account,field,"account.fiscal.position.template,note",0,Notes,备注
 account,code,addons/account/static/src/xml/account_move_reconciliation.xml,31,Nothing more to reconcile,退出
 account,selection,"report.account.sales,month",0,November,11月
 account,selection,"report.account_type.sales,month",0,November,11月
-account,field,"account.invoice,number",0,Number,编号
-account,field,"account.move,name",0,Number,编号
+account,field,"account.invoice,number",0,Number,号码
+account,field,"account.move,name",0,Number,号码
 account,view,account.move.line,account.view_account_move_line_filter,Number (Move),号码（凭证）
 account,field,"account.payment.term.line,days",0,Number of Days,天数
 account,field,"account.subscription,period_total",0,Number of Periods,周期次数
@@ -3112,7 +3113,7 @@ account,view,website,account.report_invoice_document,PRO-FORMA,形式
 account,selection,"account.invoice,state",0,Paid,已付
 account,model,"mail.message.subtype,name",account.mt_invoice_paid,Paid,已付
 account,view,website,account.report_overdue_document,Paid,已付
-account,field,"account.invoice,reconciled",0,Paid/Reconciled,已付/已对账
+account,field,"account.invoice,reconciled",0,Paid/Reconciled,已付/已调节
 account,field,"account.account,parent_id",0,Parent,上级科目
 account,field,"account.financial.report,parent_id",0,Parent,上级科目
 account,view,account.account,account.view_account_search,Parent Account,父级科目
@@ -3158,7 +3159,7 @@ account,model,"ir.actions.act_window,name",account.action_account_partner_balanc
 account,model,"ir.actions.report.xml,name",account.action_account_3rdparty_account_balance,Partner Balance,业务伙伴余额
 account,model,"ir.ui.menu,name",account.menu_account_partner_balance_report,Partner Balance,业务伙伴余额
 account,view,website,account.report_partnerbalance,Partner Balance,业务伙伴余额
-account,field,"account.invoice.report,commercial_partner_id",0,Partner Company,合作伙伴公司
+account,field,"account.invoice.report,commercial_partner_id",0,Partner Company,业务伙伴公司
 account,xsl,account.transfer,0,Partner ID,业务伙伴 ID
 account,model,"ir.actions.act_window,name",account.action_account_partner_ledger,Partner Ledger,业务伙伴分类账
 account,model,"ir.actions.report.xml,name",account.action_report_partner_ledger,Partner Ledger,业务伙伴分类账
@@ -3186,8 +3187,8 @@ account,selection,"account.account,type",0,Payable,应付
 account,selection,"account.account.template,type",0,Payable,应付
 account,model,"account.account.type,name",account.data_account_type_payable,Payable,应付
 account,selection,"account.entries.report,type",0,Payable,应付
-account,view,account.chart.template,account.view_account_chart_template_seacrh,Payable Account,应付款科目
-account,field,"account.chart.template,property_account_payable",0,Payable Account,应付款科目
+account,view,account.chart.template,account.view_account_chart_template_seacrh,Payable Account,应付科目
+account,field,"account.chart.template,property_account_payable",0,Payable Account,应付科目
 account,view,account.account,account.view_account_search,Payable Accounts,应付科目
 account,view,account.account.template,account.view_account_template_search,Payable Accounts,应付科目
 account,selection,"account.aged.trial.balance,result_selection",0,Payable Accounts,应付科目
@@ -3197,10 +3198,10 @@ account,selection,"account.partner.ledger,result_selection",0,Payable Accounts,�
 account,code,addons/account/report/account_partner_balance.py,253,Payable Accounts,应付科目
 account,code,addons/account/report/account_partner_ledger.py,282,Payable Accounts,应付科目
 account,view,website,account.report_agedpartnerbalance,Payable Accounts,应付科目
-account,field,"res.partner,debit_limit",0,Payable Limit,应付款限额
+account,field,"res.partner,debit_limit",0,Payable Limit,应付限额
 account,view,account.statement.from.invoice.lines,account.view_account_statement_from_invoice_lines,Payable and Receivables,应收和应付
 account,view,account.invoice,account.invoice_supplier_form,Payment Date,付款日期
-account,field,"account.invoice,reference_type",0,Payment Reference,付款记录
+account,field,"account.invoice,reference_type",0,Payment Reference,付款参考
 account,field,"account.invoice.report,payment_term",0,Payment Term,付款条款
 account,view,account.payment.term,account.view_payment_term_form,Payment Term,付款条款
 account,view,account.payment.term,account.view_payment_term_search,Payment Term,付款条款
@@ -3210,7 +3211,7 @@ account,view,account.payment.term.line,account.view_payment_term_line_tree,Payme
 account,field,"account.payment.term.line,payment_id",0,Payment Term,付款条款
 account,model,"ir.model,name",account.model_account_payment_term,Payment Term,付款条款
 account,model,"ir.model,name",account.model_account_payment_term_line,Payment Term Line,付款条款明细
-account,view,website,account.report_invoice_document,Payment Term:,Payment Term:
+account,view,website,account.report_invoice_document,Payment Term:,付款条款：
 account,field,"account.invoice,payment_term",0,Payment Terms,付款条款
 account,model,"ir.actions.act_window,name",account.action_payment_term_form,Payment Terms,付款条款
 account,model,"ir.ui.menu,name",account.menu_action_payment_term_form,Payment Terms,付款条款
@@ -3377,7 +3378,6 @@ account,view,account.invoice,account.view_account_invoice_filter,Proforma,形式
 account,view,account.invoice,account.view_account_invoice_filter,Proforma Invoices,形式发票
 account,view,account.invoice,account.view_account_invoice_filter,Proforma/Open/Paid Invoices,形式/未结/已付发票
 account,field,"account.partner.reconcile.process,progress",0,Progress,进度
-account,view,website,account.report_generalledger,Progress,进度
 account,view,account.analytic.line,account.account_analytic_line_extended_form,Project line,项目明细
 account,view,account.chart.template,account.view_account_chart_template_form,Properties,属性
 account,selection,"account.analytic.journal,type",0,Purchase,采购
@@ -3450,7 +3450,7 @@ account,code,addons/account/report/account_partner_ledger.py,284,Receivable and 
 account,view,website,account.report_agedpartnerbalance,Receivable and Payable Accounts,应收款与应付款科目
 account,view,account.invoice,account.invoice_form,Recompute taxes and total,重新计算税金和总额
 account,view,account.invoice,account.invoice_supplier_form,Recompute taxes and total,重新计算税金和总额
-account,model,"ir.model,name",account.model_account_partner_reconcile_process,Reconcilation Process partner by partner,调节过程的合作伙伴，按合作伙伴
+account,model,"ir.model,name",account.model_account_partner_reconcile_process,Reconcilation Process partner by partner,调节过程的业务伙伴，按业务伙伴
 account,view,account.automatic.reconcile,account.account_automatic_reconcile_view,Reconcile,调节
 account,view,account.bank.statement,account.view_bank_statement_form,Reconcile,调节
 account,view,account.bank.statement,account.view_bank_statement_form2,Reconcile,调节
@@ -3532,7 +3532,7 @@ account,view,account.tax,account.view_tax_form,Refunds,退款
 account,selection,"account.account,type",0,Regular,常规科目
 account,selection,"account.account.template,type",0,Regular,常规科目
 account,selection,"account.entries.report,type",0,Regular,常规科目
-account,field,"account.partner.reconcile.process,to_reconcile",0,Remaining Partners,其余合作伙伴
+account,field,"account.partner.reconcile.process,to_reconcile",0,Remaining Partners,其余业务伙伴
 account,help,"account.invoice,residual",0,Remaining amount due.,剩余的欠款
 account,view,account.subscription,account.view_subscription_form,Remove Lines,删除行
 account,field,"account.fiscal.position.tax,tax_dest_id",0,Replacement Tax,替代税
@@ -3918,8 +3918,8 @@ account,view,website,account.report_salepurchasejournal,Tax Declaration,税申�
 account,view,account.tax,account.view_tax_form,Tax Definition,税定义
 account,view,account.tax.template,account.view_account_tax_template_form,Tax Definition,税定义
 account,field,"account.invoice.tax,name",0,Tax Description,税说明
-account,field,"account.tax,price_include",0,Tax Included in Price,含税价
-account,field,"account.tax.template,price_include",0,Tax Included in Price,含税价
+account,field,"account.tax,price_include",0,Tax Included in Price,税金包含在价格中
+account,field,"account.tax.template,price_include",0,Tax Included in Price,税金包含在价格中
 account,field,"account.invoice,tax_line",0,Tax Lines,税明细
 account,view,account.fiscal.position,account.view_account_position_form,Tax Mapping,税映射
 account,field,"account.fiscal.position,tax_ids",0,Tax Mapping,税映射
@@ -4121,7 +4121,7 @@ account,help,"account.tax,domain",0,This field is only used if you develop your 
 account,help,"account.tax.template,domain",0,This field is only used if you develop your own module allowing developers to create specific taxes in a custom domain.,这字段只用于，如果您开发自己的模块允许开发者在自定义域创建特定的税
 account,help,"account.move.line,date_maturity",0,This field is used for payable and receivable journal entries. You can put the limit date for the payment of this line.,此字段是用于应付账款和应收账款的会计分录。您可以用它设置付款明细的最后限期。
 account,help,"account.account.type,report_type",0,"This field is used to generate legal reports: profit and loss, balance sheet.",这个字段用于生成法定的会计报告：损益表 和 资产负债表
-account,help,"account.bank.statement.line,partner_name",0,"This field is used to record the third party name when importing bank statement in electronic format, when the partner doesn't exist yet in the database (or cannot be found).",当合作伙伴在系统中尚不存在，电子数据导入系统时候，这个字段用于记录第三方名称。
+account,help,"account.bank.statement.line,partner_name",0,"This field is used to record the third party name when importing bank statement in electronic format, when the partner doesn't exist yet in the database (or cannot be found).",当业务伙伴在系统中尚不存在，电子数据导入系统时候，这个字段用于记录第三方名称。
 account,help,"account.partner.reconcile.process,next_partner_id",0,"This field shows you the next partner that will be automatically chosen by the system to go through the reconciliation process, based on the latest day it have been reconciled.",这字段显示被系统自动挑选要去进行对账处理的下一个业务伙伴，因为他最近进行过对账。
 account,help,"account.partner.reconcile.process,today_reconciled",0,This figure depicts the total number of partners that have gone throught the reconciliation process today. The current partner is counted as already processed.,这数字描述了该业务伙伴到今天为止进行的对账处理的总数，当前业务伙伴算是已处理完。
 account,help,"account.config.settings,module_account_voucher",0,"This includes all the basic requirements of voucher entries for bank, cash, sales, purchase, expense, contra, etc.
@@ -4133,7 +4133,7 @@ account,help,"account.partner.reconcile.process,to_reconcile",0,This is the rema
 account,code,addons/account/account.py,1067,"This journal already contains items for this period, therefore you cannot modify its company field.",分录已经包含了这个会计区间的项目，因此你不嫩修改它的公司字段
 account,code,addons/account/account.py,799,"This journal already contains items, therefore you cannot modify its company field.",这个分类账已经包含了项目，因此不能修改他的公司字段
 account,help,"res.partner.bank,journal_id",0,This journal will be created automatically for this bank account when you save the record,当保存数据时，系统会自动为此银行账户创建像相应的凭证.
-account,help,"accounting.report,label_filter",0,This label will be displayed on report to show the balance computed for the given comparison filter.,这个标签将放在报告上用来显示根据比较过滤条件计算出来的余额
+account,help,"accounting.report,label_filter",0,This label will be displayed on report to show the balance computed for the given comparison filter.,这个标签将放在报告上用来显示根据比较筛选条件计算出来的余额
 account,view,account.vat.declaration,account.view_account_vat_declaration,"This menu prints a tax declaration based on invoices or payments. Select one or several periods of the fiscal year. The information required for a tax declaration is automatically generated by Odoo from invoices (or payments, in some countries). This data is updated in real time. That’s very useful because it enables you to preview at any time the tax that you owe at the start and end of the month or quarter.","这个菜单基于发票或者支付打印一个纳税申报。选择财务年度的一个或几个会计期间。
 纳税申报需要的信息由Odoo自动从发票（或者在有些国家是付款单）生成。数据是实时更新的。
 这非常有用，他使你任何时间可预览 在月份（或季度）的开始和结束欠了多少税。"
@@ -4806,15 +4806,15 @@ account_analytic_analysis,view,account.analytic.account,account_analytic_analysi
 account_analytic_analysis,model,"ir.actions.act_window,name",account_analytic_analysis.template_of_contract_action,Contract Template,合同模版
 account_analytic_analysis,model,"ir.ui.menu,name",account_analytic_analysis.menu_template_of_contract_action,Contract Template,合同模版
 account_analytic_analysis,model,"email.template,subject",account_analytic_analysis.account_analytic_cron_email_template,Contract expiration reminder ${user.company_id.name},Contract expiration reminder ${user.company_id.name}
-account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,Contracts,合同列表
-account_analytic_analysis,model,"ir.actions.act_window,name",account_analytic_analysis.action_account_analytic_overdue_all,Contracts,合同列表
-account_analytic_analysis,model,"ir.ui.menu,name",account_analytic_analysis.menu_action_account_analytic_overdue_all,Contracts,合同列表
+account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,Contracts,合同
+account_analytic_analysis,model,"ir.actions.act_window,name",account_analytic_analysis.action_account_analytic_overdue_all,Contracts,合同
+account_analytic_analysis,model,"ir.ui.menu,name",account_analytic_analysis.menu_action_account_analytic_overdue_all,Contracts,合同
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,Contracts assigned to a customer.,Contracts assigned to a customer.
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,"Contracts in progress (open, draft)","Contracts in progress (open, draft)"
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,Contracts not assigned,合同没指定
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,Contracts that are not assigned to an account manager.,没有指派客户经理的合同
-account_analytic_analysis,model,"ir.actions.act_window,name",account_analytic_analysis.action_account_analytic_overdue,Contracts to Renew,要续签的合同
-account_analytic_analysis,model,"ir.ui.menu,name",account_analytic_analysis.menu_action_account_analytic_overdue,Contracts to Renew,要续签的合同
+account_analytic_analysis,model,"ir.actions.act_window,name",account_analytic_analysis.action_account_analytic_overdue,Contracts to Renew,待续签的合同
+account_analytic_analysis,model,"ir.ui.menu,name",account_analytic_analysis.menu_action_account_analytic_overdue,Contracts to Renew,待续签的合同
 account_analytic_analysis,field,"account.analytic.invoice.line,create_uid",0,Created by,创建者
 account_analytic_analysis,field,"account.analytic.invoice.line,create_date",0,Created on,创建于
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,Customer Contracts,客户合同
@@ -4898,8 +4898,8 @@ account_analytic_analysis,help,"account.analytic.account,timesheet_ca_invoiced",
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.view_account_analytic_account_overdue_search,Template,模板
 account_analytic_analysis,field,"account.analytic.account,theorical_margin",0,Theoretical Margin,理论的利润
 account_analytic_analysis,field,"account.analytic.account,ca_theorical",0,Theoretical Revenue,理论收入
-account_analytic_analysis,model,"ir.actions.act_window,name",account_analytic_analysis.action_hr_tree_invoiced_all,Time & Materials to Invoice,要开票的工时和材料
-account_analytic_analysis,model,"ir.ui.menu,name",account_analytic_analysis.menu_action_hr_tree_invoiced_all,Time & Materials to Invoice,要开票的工时和材料
+account_analytic_analysis,model,"ir.actions.act_window,name",account_analytic_analysis.action_hr_tree_invoiced_all,Time & Materials to Invoice,待开票的工时和材料
+account_analytic_analysis,model,"ir.ui.menu,name",account_analytic_analysis.menu_action_hr_tree_invoiced_all,Time & Materials to Invoice,待开票的工时和材料
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.account_analytic_account_form_form,Timesheets,计工单
 account_analytic_analysis,code,addons/account_analytic_analysis/account_analytic_analysis.py,659,Timesheets to Invoice of %s,Timesheets to Invoice of %s
 account_analytic_analysis,view,account.analytic.account,account_analytic_analysis.account_analytic_account_form_form,To Invoice,待开票
@@ -4971,7 +4971,7 @@ account_analytic_default,field,"account.analytic.default,write_uid",0,Last Updat
 account_analytic_default,field,"account.analytic.default,write_date",0,Last Updated on,最后更新
 account_analytic_default,view,account.analytic.default,account_analytic_default.view_account_analytic_default_form_search,Partner,业务伙伴
 account_analytic_default,field,"account.analytic.default,partner_id",0,Partner,业务伙伴
-account_analytic_default,model,"ir.model,name",account_analytic_default.model_stock_picking,Picking List,装箱单
+account_analytic_default,model,"ir.model,name",account_analytic_default.model_stock_picking,Picking List,分拣清单
 account_analytic_default,view,account.analytic.default,account_analytic_default.view_account_analytic_default_form_search,Product,产品
 account_analytic_default,field,"account.analytic.default,product_id",0,Product,产品
 account_analytic_default,model,"ir.model,name",account_analytic_default.model_product_product,Product,产品
@@ -5126,13 +5126,13 @@ account_anglo_saxon,help,"account.invoice.line,move_id",0,"If the invoice was ge
 account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_account_invoice,Invoice,开发票
 account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_account_invoice_line,Invoice Line,发票明细
 account_anglo_saxon,field,"account.invoice.line,move_id",0,Move line,记录
-account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_stock_picking,Picking List,装箱单
+account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_stock_picking,Picking List,分拣清单
 account_anglo_saxon,field,"product.category,property_account_creditor_price_difference_categ",0,Price Difference Account,价格差异科目
 account_anglo_saxon,field,"product.template,property_account_creditor_price_difference",0,Price Difference Account,价格差异科目
 account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_product_category,Product Category,产品分类
 account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_product_template,Product Template,产品模板
 account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_purchase_order,Purchase Order,采购订单
-account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_stock_move,Stock Move,Stock Move
+account_anglo_saxon,model,"ir.model,name",account_anglo_saxon.model_stock_move,Stock Move,库存移动
 account_anglo_saxon,help,"product.category,property_account_creditor_price_difference_categ",0,This account will be used to value price difference between purchase price and cost price.,这科目将用于采购价格和成本价格之间的差异
 account_anglo_saxon,help,"product.template,property_account_creditor_price_difference",0,This account will be used to value price difference between purchase price and cost price.,这科目将用于采购价格和成本价格之间的差异
 account_asset,field,"account.asset.asset,entry_count",0,# Asset Entries,# Asset Entries
@@ -5359,8 +5359,8 @@ account_asset,view,asset.asset.report,account_asset.view_asset_asset_report_sear
 account_asset,field,"asset.asset.report,move_check",0,Posted,已登帐
 account_asset,field,"asset.asset.report,posted_value",0,Posted Amount,已登帐金额
 account_asset,view,asset.asset.report,account_asset.view_asset_asset_report_search,Posted depreciation lines,已登帐明细
-account_asset,field,"account.asset.asset,prorata",0,Prorata Temporis,年限百分比
-account_asset,field,"account.asset.category,prorata",0,Prorata Temporis,年限百分比
+account_asset,field,"account.asset.asset,prorata",0,Prorata Temporis,即时按比例
+account_asset,field,"account.asset.category,prorata",0,Prorata Temporis,即时按比例
 account_asset,constraint,account.asset.asset,0,"Prorata temporis can be applied only for time method ""number of depreciations"".",即时按比例仅用于“折旧次数”的计时方式
 account_asset,field,"account.asset.asset,purchase_date",0,Purchase Date,采购日期
 account_asset,field,"asset.asset.report,purchase_date",0,Purchase Date,采购日期
@@ -6046,7 +6046,7 @@ account_followup,field,"account_followup.sending.results,description",0,Descript
 account_followup,code,addons/account_followup/account_followup.py,257,Description,说明
 account_followup,view,website,account_followup.report_followup,Description,说明
 account_followup,model,"ir.ui.menu,name",account_followup.account_followup_s,Do Manual Follow-Ups,手工催款
-account_followup,help,"account_followup.print,partner_lang",0,"Do not change message text, if you want to send email in partner language, or configure from company",如果你想按合作伙伴语言发送电子邮件，请配置公司语言不要改变消息的文本.
+account_followup,help,"account_followup.print,partner_lang",0,"Do not change message text, if you want to send email in partner language, or configure from company",如果你想按业务伙伴语言发送电子邮件，请配置公司语言不要改变消息的文本.
 account_followup,view,website,account_followup.report_followup,Document: Customer account statement,Document: Customer account statement
 account_followup,view,account_followup.sending.results,account_followup.view_account_followup_sending_results,Download Letters,Download Letters
 account_followup,code,addons/account_followup/account_followup.py,259,Due Date,到期日期
@@ -6054,7 +6054,7 @@ account_followup,field,"account_followup.followup.line,delay",0,Due Days,截止�
 account_followup,field,"account_followup.print,email_body",0,Email Body,电子邮件正文
 account_followup,field,"account_followup.print,email_subject",0,Email Subject,邮件主题
 account_followup,field,"account_followup.followup.line,email_template_id",0,Email Template,电子邮件模板
-account_followup,code,addons/account_followup/account_followup.py,216,Email not sent because of email address of partner not filled in,邮件未发出，因为合作伙伴的Email地址没填写
+account_followup,code,addons/account_followup/account_followup.py,216,Email not sent because of email address of partner not filled in,邮件未发出，因为业务伙伴的Email地址没填写
 account_followup,code,addons/account_followup/account_followup.py,314,Error!,Error!
 account_followup,code,addons/account_followup/account_followup.py,320,Error!,Error!
 account_followup,code,addons/account_followup/report/account_followup_print.py,83,Error!,Error!
@@ -6080,7 +6080,7 @@ account_followup,view,res.partner,account_followup.customer_followup_search_view
 account_followup,field,"res.partner,payment_responsible_id",0,Follow-up Responsible,Follow-up Responsible
 account_followup,field,"account_followup.print,date",0,Follow-up Sending Date,催款发送日期
 account_followup,model,"ir.model,name",account_followup.model_account_followup_stat,Follow-up Statistics,催款统计
-account_followup,model,"ir.model,name",account_followup.model_account_followup_stat_by_partner,Follow-up Statistics by Partner,按合作伙伴的催款统计
+account_followup,model,"ir.model,name",account_followup.model_account_followup_stat_by_partner,Follow-up Statistics by Partner,按业务伙伴的催款统计
 account_followup,view,account_followup.followup.line,account_followup.view_account_followup_followup_line_form,Follow-up Steps,催款步骤
 account_followup,view,account_followup.followup.line,account_followup.view_account_followup_followup_line_tree,Follow-up Steps,催款步骤
 account_followup,code,addons/account_followup/wizard/account_followup_print.py,171,Follow-up letter of ,Follow-up letter of 
@@ -6155,7 +6155,7 @@ account_followup,view,res.partner,account_followup.customer_followup_search_view
 account_followup,model,"ir.ui.menu,name",account_followup.menu_finance_followup,Payment Follow-up,付款跟进
 account_followup,view,res.partner,account_followup.view_partner_inherit_followup_form,Payment Follow-up,付款跟进
 account_followup,model,"ir.actions.act_window,name",account_followup.action_account_followup_definition_form,Payment Follow-ups,付款跟进
-account_followup,help,"res.partner,payment_note",0,Payment Note,Payment Note
+account_followup,help,"res.partner,payment_note",0,Payment Note,付款备注
 account_followup,field,"account_followup.stat,period_id",0,Period,期间
 account_followup,model,"ir.model,name",account_followup.model_account_followup_print,Print Follow-up & Send Mail to Customers,打印催款并发送邮件给客户
 account_followup,view,res.partner,account_followup.view_partner_inherit_followup_form,Print Overdue Payments,打印逾期支付
@@ -6367,10 +6367,10 @@ account_payment,view,payment.order,account_payment.view_payment_order_form,Make 
 account_payment,help,"payment.mode,name",0,Mode of Payment,付款方式
 account_payment,field,"payment.mode,name",0,Name,名称
 account_payment,model,"ir.actions.act_window,name",account_payment.action_payment_order_tree_new,New Payment Order,新付款单
-account_payment,field,"payment.line,order_id",0,Order,付款单
-account_payment,view,payment.line,account_payment.view_payment_line_form,Owner Account,所有者描述
-account_payment,field,"payment.line,info_owner",0,Owner Account,所有者描述
-account_payment,view,payment.order,account_payment.view_payment_order_form,Owner Account,所有者描述
+account_payment,field,"payment.line,order_id",0,Order,订单
+account_payment,view,payment.line,account_payment.view_payment_line_form,Owner Account,所有者账户
+account_payment,field,"payment.line,info_owner",0,Owner Account,所有者账户
+account_payment,view,payment.order,account_payment.view_payment_order_form,Owner Account,所有者账户
 account_payment,field,"payment.line,partner_id",0,Partner,业务伙伴
 account_payment,field,"payment.mode,partner_id",0,Partner,业务伙伴
 account_payment,view,website,account_payment.report_paymentorder,Partner,业务伙伴
@@ -6414,7 +6414,7 @@ account_payment,field,"payment.order,date_prefered",0,Preferred Date,计划时�
 account_payment,field,"payment.order,reference",0,Reference,参考
 account_payment,view,website,account_payment.report_paymentorder,Reference,参考
 account_payment,field,"payment.order,user_id",0,Responsible,负责人
-account_payment,field,"payment.order,date_scheduled",0,Scheduled Date,预定日期
+account_payment,field,"payment.order,date_scheduled",0,Scheduled Date,安排日期
 account_payment,view,payment.order.create,account_payment.view_create_payment_order,Search,搜索
 account_payment,view,payment.order,account_payment.view_payment_order_search,Search Payment Orders,搜索付款单
 account_payment,view,payment.order.create,account_payment.view_create_payment_order,Search Payment lines,搜索付款明细
@@ -6428,7 +6428,7 @@ account_payment,selection,"payment.line,state",0,Structured,已安排
 account_payment,help,"payment.line,partner_id",0,The Ordering Customer,订购的客户
 account_payment,sql_constraint,payment.line,0,The payment line name must be unique!,付款明细名称必须是唯一的！
 account_payment,help,"payment.line,communication2",0,The successor message of Communication.,讯息的跟进消息
-account_payment,code,addons/account_payment/account_move_line.py,97,There is no partner defined on the entry line.,这个凭证行没有定义合作伙伴
+account_payment,code,addons/account_payment/account_move_line.py,97,There is no partner defined on the entry line.,这个凭证行没有定义业务伙伴
 account_payment,help,"payment.line,move_line_id",0,This Entry Line will be referred for the information of the ordering customer.,这凭证明细将与客户订单关联
 account_payment,field,"payment.order,total",0,Total,合计
 account_payment,view,website,account_payment.report_paymentorder,Total,合计
@@ -6452,38 +6452,6 @@ account_payment,view,account.payment.make.payment,account_payment.account_paymen
 account_payment,view,account.payment.populate.statement,account_payment.account_payment_populate_statement_view,or,或
 account_payment,view,payment.order.create,account_payment.view_create_payment_order,or,或
 account_payment,view,payment.order.create,account_payment.view_create_payment_order_lines,or,或
-account_sequence,model,"ir.model,name",account_sequence.model_account_move,Account Entry,科目分录
-account_sequence,view,account.sequence.installer,account_sequence.view_account_sequence_installer,Account Sequence Application Configuration,序列模块设置
-account_sequence,model,"ir.actions.act_window,name",account_sequence.action_account_seq_installer,Account Sequence Application Configuration,序列模块设置
-account_sequence,field,"account.sequence.installer,company_id",0,Company,公司
-account_sequence,view,account.sequence.installer,account_sequence.view_account_sequence_installer,Configure,设置
-account_sequence,view,account.sequence.installer,account_sequence.view_account_sequence_installer,Configure Your Account Sequence Application,设置序列模块
-account_sequence,field,"account.sequence.installer,create_uid",0,Created by,创建者
-account_sequence,field,"account.sequence.installer,create_date",0,Created on,创建于
-account_sequence,field,"account.sequence.installer,id",0,ID,ID
-account_sequence,field,"account.sequence.installer,number_increment",0,Increment Number,编号增量
-account_sequence,field,"account.move,internal_sequence_number",0,Internal Number,凭证号
-account_sequence,field,"account.move.line,internal_sequence_number",0,Internal Number,凭证号
-account_sequence,field,"account.journal,internal_sequence_id",0,Internal Sequence,内部序列
-account_sequence,help,"account.move,internal_sequence_number",0,Internal Sequence Number,内部序列号
-account_sequence,help,"account.move.line,internal_sequence_number",0,Internal Sequence Number,内部序列号
-account_sequence,model,"ir.model,name",account_sequence.model_account_journal,Journal,分类账
-account_sequence,model,"ir.model,name",account_sequence.model_account_move_line,Journal Items,分类账项目
-account_sequence,field,"account.sequence.installer,write_uid",0,Last Updated by,最后更新
-account_sequence,field,"account.sequence.installer,write_date",0,Last Updated on,最后更新
-account_sequence,field,"account.sequence.installer,name",0,Name,名称
-account_sequence,field,"account.sequence.installer,number_next",0,Next Number,下一编号
-account_sequence,help,"account.sequence.installer,number_next",0,Next number of this sequence,这序列的下一编号
-account_sequence,field,"account.sequence.installer,padding",0,Number padding,数字填充
-account_sequence,help,"account.sequence.installer,padding",0,Odoo will automatically adds some '0' on the left of the 'Next Number' to get the required padding size.,Odoo will automatically adds some '0' on the left of the 'Next Number' to get the required padding size.
-account_sequence,field,"account.sequence.installer,prefix",0,Prefix,前缀
-account_sequence,help,"account.sequence.installer,prefix",0,Prefix value of the record for the sequence,序列的前缀
-account_sequence,field,"account.sequence.installer,suffix",0,Suffix,后缀
-account_sequence,help,"account.sequence.installer,suffix",0,Suffix value of the record for the sequence,序列的后缀
-account_sequence,help,"account.sequence.installer,number_increment",0,The next number of the sequence will be incremented by this number,这序列的下一编号将以此数增加.
-account_sequence,help,"account.journal,internal_sequence_id",0,This sequence will be used to maintain the internal number for the journal entries related to this journal.,此序列用于当前分类账的所有会计凭证
-account_sequence,view,account.sequence.installer,account_sequence.view_account_sequence_installer,You can enhance the Account Sequence Application by installing .,你可以自定义安装模块的序列
-account_sequence,view,account.sequence.installer,account_sequence.view_account_sequence_installer,title,标题
 account_voucher,help,"account.voucher,state",0," * The 'Draft' status is used when a user is encoding a new and unconfirmed Voucher.                         
 * The 'Pro-forma' when voucher is in Pro-forma status,voucher does not have an voucher number.                         
 * The 'Posted' status is used when user create voucher,a voucher number is generated and voucher entries are created in account                         
@@ -6600,7 +6568,7 @@ account_voucher,field,"account.voucher,company_id",0,Company,公司
 account_voucher,field,"account.voucher.line,company_id",0,Company,公司
 account_voucher,view,sale.receipt.report,account_voucher.view_sale_receipt_report_search,Company,公司
 account_voucher,field,"sale.receipt.report,company_id",0,Company,公司
-account_voucher,help,"account.voucher,writeoff_amount",0,Computed as the difference between the amount stated in the voucher and the sum of allocation on the voucher lines.,计算公式 ： 凭证上输入的金额 - 凭证行的金额合计
+account_voucher,help,"account.voucher,writeoff_amount",0,Computed as the difference between the amount stated in the voucher and the sum of allocation on the voucher lines.,Computed as the difference between the amount stated in the voucher and the sum of allocation on the voucher lines.
 account_voucher,code,addons/account_voucher/account_voucher.py,1057,Configuration Error !,设置错误!
 account_voucher,field,"account.voucher,writeoff_acc_id",0,Counterpart Account,对方科目
 account_voucher,field,"account.voucher,comment",0,Counterpart Comment,对方备注
@@ -6715,7 +6683,7 @@ account_voucher,field,"account.voucher,message_ids",0,Messages,消息
 account_voucher,help,"account.voucher,message_ids",0,Messages and communication history,消息和通信历史
 account_voucher,field,"account.voucher,is_multi_currency",0,Multi Currency Voucher,多币种凭证
 account_voucher,field,"account.voucher,narration",0,Notes,备注
-account_voucher,field,"account.voucher,number",0,Number,编号
+account_voucher,field,"account.voucher,number",0,Number,号码
 account_voucher,help,"account.voucher,tax_id",0,Only for tax excluded from price,仅针对价外税
 account_voucher,field,"account.voucher.line,amount_unreconciled",0,Open Balance,期初余额
 account_voucher,view,account.voucher,account_voucher.view_low_priority_payment_form,Open Customer Journal Entries,未调节客户分类账分录
@@ -6961,7 +6929,7 @@ analytic,code,addons/analytic/analytic.py,160,Error!,Error!
 analytic,constraint,account.analytic.account,0,Error! You cannot create recursive analytic accounts.,错误！你不能创建循环分析账户
 analytic,field,"account.analytic.account,date",0,Expiration Date,过期日期
 analytic,field,"account.analytic.account,message_follower_ids",0,Followers,关注者
-analytic,field,"account.analytic.account,complete_name",0,Full Name,完整姓名
+analytic,field,"account.analytic.account,complete_name",0,Full Name,完整名称
 analytic,help,"account.analytic.account,message_summary",0,"Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views.",记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。
 analytic,field,"account.analytic.account,id",0,ID,ID
 analytic,field,"account.analytic.line,id",0,ID,ID
@@ -6999,7 +6967,7 @@ analytic,view,account.analytic.account,analytic.view_account_analytic_account_fo
                                         customer."
 analytic,field,"account.analytic.account,parent_id",0,Parent Analytic Account,上级辅助核算项
 analytic,field,"account.analytic.account,quantity_max",0,Prepaid Service Units,预付的服务单元
-analytic,field,"account.analytic.account,user_id",0,Project Manager,项目主管
+analytic,field,"account.analytic.account,user_id",0,Project Manager,项目经理
 analytic,field,"account.analytic.account,quantity",0,Quantity,数量
 analytic,field,"account.analytic.line,unit_amount",0,Quantity,数量
 analytic,code,addons/analytic/analytic.py,272,Quick account creation disallowed.,不允许快速客户创建

@@ -89,7 +89,7 @@ hr,model,"ir.ui.menu,name",hr.menu_hr_configuration,Configuration,设置
 hr,view,hr.config.settings,hr.view_human_resources_configuration,Configure Human Resources,配置人力资源
 hr,model,"ir.actions.act_window,name",hr.action_human_resources_configuration,Configure Human Resources,配置人力资源
 hr,view,hr.employee,hr.view_employee_form,Contact Information,联系信息
-hr,view,hr.config.settings,hr.view_human_resources_configuration,Contracts,合同列表
+hr,view,hr.config.settings,hr.view_human_resources_configuration,Contracts,合同
 hr,model,"ir.actions.act_window,name",hr.view_department_form_installer,Create Your Departments,创建您的部门
 hr,field,"hr.config.settings,create_uid",0,Created by,创建者
 hr,field,"hr.department,create_uid",0,Created by,创建者
@@ -238,7 +238,7 @@ hr,view,hr.employee,hr.view_employee_form,Other Information ...,其它信息...
 hr,field,"hr.department,parent_id",0,Parent Department,上级部门
 hr,field,"hr.employee.category,parent_id",0,Parent Employee Tag,上级员工分类
 hr,field,"hr.employee,passport_id",0,Passport No,护照号
-hr,model,"ir.actions.act_window,name",hr.open_payroll_modules,Payroll,薪酬管理
+hr,model,"ir.actions.act_window,name",hr.open_payroll_modules,Payroll,薪酬
 hr,view,hr.employee,hr.view_employee_form,Personal Information,个人信息
 hr,field,"hr.employee,image",0,Photo,相片
 hr,view,hr.employee,hr.view_employee_form,Position,职位
@@ -381,8 +381,8 @@ hr_attendance,view,hr.attendance,hr_attendance.view_hr_attendance_filter,Month,�
 hr_attendance,view,hr.attendance,hr_attendance.view_hr_attendance_filter,My Attendance,我的签到记录
 hr_attendance,code,addons/hr_attendance/wizard/hr_attendance_error.py,50,No Data Available!,No Data Available!
 hr_attendance,code,addons/hr_attendance/wizard/hr_attendance_error.py,50,No records are found for your selection!,你搜索的结果为空！
-hr_attendance,view,website,hr_attendance.report_attendanceerrors,Operation,操作
-hr_attendance,selection,"hr.employee,state",0,Present,出勤
+hr_attendance,view,website,hr_attendance.report_attendanceerrors,Operation,作业
+hr_attendance,selection,"hr.employee,state",0,Present,出席
 hr_attendance,view,hr.attendance.error,hr_attendance.view_hr_attendance_error,Print,打印
 hr_attendance,view,hr.attendance.error,hr_attendance.view_hr_attendance_error,Print Attendance Report Error,打印考勤报表错误
 hr_attendance,model,"ir.model,name",hr_attendance.model_hr_attendance_error,Print Error Attendance Report,打印错误考勤报表
@@ -429,14 +429,14 @@ hr_contract,field,"hr.contract.type,name",0,Contract Type,合同类型
 hr_contract,model,"ir.model,name",hr_contract.model_hr_contract_type,Contract Type,合同类型
 hr_contract,model,"ir.actions.act_window,name",hr_contract.action_hr_contract_type,Contract Types,合同类型
 hr_contract,model,"ir.ui.menu,name",hr_contract.hr_menu_contract_type,Contract Types,合同类型
-hr_contract,view,hr.contract,hr_contract.hr_contract_view_search,Contracts,合同列表
-hr_contract,view,hr.contract,hr_contract.hr_contract_view_tree,Contracts,合同列表
-hr_contract,view,hr.employee,hr_contract.hr_hr_employee_view_form2,Contracts,合同列表
-hr_contract,field,"hr.employee,contract_ids",0,Contracts,合同列表
-hr_contract,field,"hr.employee,contracts_count",0,Contracts,合同列表
-hr_contract,model,"ir.actions.act_window,name",hr_contract.act_hr_employee_2_hr_contract,Contracts,合同列表
-hr_contract,model,"ir.actions.act_window,name",hr_contract.action_hr_contract,Contracts,合同列表
-hr_contract,model,"ir.ui.menu,name",hr_contract.hr_menu_contract,Contracts,合同列表
+hr_contract,view,hr.contract,hr_contract.hr_contract_view_search,Contracts,合同
+hr_contract,view,hr.contract,hr_contract.hr_contract_view_tree,Contracts,合同
+hr_contract,view,hr.employee,hr_contract.hr_hr_employee_view_form2,Contracts,合同
+hr_contract,field,"hr.employee,contract_ids",0,Contracts,合同
+hr_contract,field,"hr.employee,contracts_count",0,Contracts,合同
+hr_contract,model,"ir.actions.act_window,name",hr_contract.act_hr_employee_2_hr_contract,Contracts,合同
+hr_contract,model,"ir.actions.act_window,name",hr_contract.action_hr_contract,Contracts,合同
+hr_contract,model,"ir.ui.menu,name",hr_contract.hr_menu_contract,Contracts,合同
 hr_contract,field,"hr.contract,create_uid",0,Created by,创建者
 hr_contract,field,"hr.contract.type,create_uid",0,Created by,创建者
 hr_contract,field,"hr.contract,create_date",0,Created on,创建于
@@ -519,8 +519,7 @@ hr_evaluation,model,"survey.page,description",hr_evaluation.opinion_1,"<h2>At th
 <p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>
 <p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>
 <p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below
-</p><ol>
-<li>Significantly exceeds standards and expectations required of the position</li>
+</p><ol><li>Significantly exceeds standards and expectations required of the position</li>
 <li>Exceeds standards and expectations</li>
 <li>Meet standards and expectations</li>
 <li>Did not meet standards and expectations</li>
@@ -529,8 +528,7 @@ hr_evaluation,model,"survey.page,description",hr_evaluation.opinion_1,"<h2>At th
 <p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>
 <p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>
 <p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below
-</p><ol>
-<li>Significantly exceeds standards and expectations required of the position</li>
+</p><ol><li>Significantly exceeds standards and expectations required of the position</li>
 <li>Exceeds standards and expectations</li>
 <li>Meet standards and expectations</li>
 <li>Did not meet standards and expectations</li>
@@ -539,13 +537,11 @@ hr_evaluation,model,"survey.page,description",hr_evaluation.opinion_1,"<h2>At th
 hr_evaluation,model,"survey.page,description",hr_evaluation.appraisal_1,"<h2>Overall Purpose Of Employee Appraisal</h2>
 <ul><li>To initiate a clear and open communication of performance expectations
 </li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for
-development</li></ul>
-<h2>At the outset of the appraisal time period</h2>
+development</li></ul><h2>At the outset of the appraisal time period</h2>
 <ul><li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the
 coming year, including major employee responsibilities and corresponding benchmarks against which results will be
 evaluated.
-</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul>
-<h2>At the conclusion of the appraisal time period</h2>
+</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul><h2>At the conclusion of the appraisal time period</h2>
 <ul><li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting
 point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.
 Once the form had been filled, the employee send it to his supervisor.
@@ -558,13 +554,11 @@ hoc fields.
 </li><li>The supervisor send the form to the HR department in India and in Belgium</li></ul>","<h2>Overall Purpose Of Employee Appraisal</h2>
 <ul><li>To initiate a clear and open communication of performance expectations
 </li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for
-development</li></ul>
-<h2>At the outset of the appraisal time period</h2>
+development</li></ul><h2>At the outset of the appraisal time period</h2>
 <ul><li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the
 coming year, including major employee responsibilities and corresponding benchmarks against which results will be
 evaluated.
-</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul>
-<h2>At the conclusion of the appraisal time period</h2>
+</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul><h2>At the conclusion of the appraisal time period</h2>
 <ul><li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting
 point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.
 Once the form had been filled, the employee send it to his supervisor.
@@ -641,14 +635,12 @@ hr_evaluation,model,"survey.page,description",hr_evaluation.appraisal_4,"<p>Iden
 over the coming year.</p>","<p>Identify professional, performance, or project objectives you recommend for employee’s continued career development
 over the coming year.</p>"
 hr_evaluation,model,"survey.page,description",hr_evaluation.appraisal_3,"<p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided
-below:</p><ol>
-<li> Significantly exceeds standards and expectations required of the position
+below:</p><ol><li> Significantly exceeds standards and expectations required of the position
 </li><li> Exceeds standards and expectations
 </li><li> Meet standards and expectations
 </li><li> Did not meet standards and expectations
 </li><li> Significantly below standards and expectations</li></ol>","<p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided
-below:</p><ol>
-<li> Significantly exceeds standards and expectations required of the position
+below:</p><ol><li> Significantly exceeds standards and expectations required of the position
 </li><li> Exceeds standards and expectations
 </li><li> Meet standards and expectations
 </li><li> Did not meet standards and expectations
@@ -914,7 +906,7 @@ hr_evaluation,view,hr_evaluation.evaluation,hr_evaluation.evaluation_search,Plan
 hr_evaluation,field,"hr_evaluation.evaluation,plan_id",0,Plan,计划
 hr_evaluation,selection,"hr.evaluation.report,state",0,Plan In Progress,进行中的计划
 hr_evaluation,selection,"hr_evaluation.evaluation,state",0,Plan In Progress,进行中的计划
-hr_evaluation,model,"survey.question,question",hr_evaluation.appraisal_1_2,Position Title,Position Title
+hr_evaluation,model,"survey.question,question",hr_evaluation.appraisal_1_2,Position Title,职位头衔
 hr_evaluation,view,hr.evaluation.interview,hr_evaluation.view_hr_evaluation_interview_form,Print Survey,打印问卷
 hr_evaluation,view,hr.evaluation.interview,hr_evaluation.view_hr_evaluation_interview_tree,Print Survey,打印问卷
 hr_evaluation,model,"survey.question,question",hr_evaluation.appraisal_4_1,Professional Development Objectives,Professional Development Objectives
@@ -1160,7 +1152,7 @@ hr_expense,field,"hr.expense.expense,message_follower_ids",0,Followers,关注者
 hr_expense,field,"hr.expense.expense,journal_id",0,Force Journal,强制的账薄
 hr_expense,field,"hr.expense.report,journal_id",0,Force Journal,强制的账薄
 hr_expense,view,hr.expense.expense,hr_expense.view_expenses_form,Free Notes,Free Notes
-hr_expense,view,hr.expense.expense,hr_expense.view_expenses_form,Generate Accounting Entries,Generate Accounting Entries
+hr_expense,view,hr.expense.expense,hr_expense.view_expenses_form,Generate Accounting Entries,生成会计分录
 hr_expense,help,"hr.expense.line,sequence",0,Gives the sequence order when displaying a list of expense lines.,当显示费用明细时指定一个序列顺序。
 hr_expense,view,hr.expense.expense,hr_expense.view_hr_expense_filter,Group By,分组于
 hr_expense,view,hr.expense.report,hr_expense.view_hr_expense_report_search,Group By,分组于
@@ -1722,11 +1714,11 @@ hr_payroll,field,"hr.payslip,company_id",0,Company,公司
 hr_payroll,field,"hr.payslip.line,company_id",0,Company,公司
 hr_payroll,field,"hr.salary.rule,company_id",0,Company,公司
 hr_payroll,field,"hr.salary.rule.category,company_id",0,Company,公司
-hr_payroll,view,hr.salary.rule,hr_payroll.hr_salary_rule_form,Company Contribution,公司捐款
+hr_payroll,view,hr.salary.rule,hr_payroll.hr_salary_rule_form,Company Contribution,公司供款
 hr_payroll,view,hr.salary.rule,hr_payroll.hr_salary_rule_form,Computation,计算
-hr_payroll,view,hr.payslip,hr_payroll.view_hr_payslip_form,Compute Sheet,计算
-hr_payroll,field,"hr.payslip.line,condition_select",0,Condition Based on,选择条件
-hr_payroll,field,"hr.salary.rule,condition_select",0,Condition Based on,选择条件
+hr_payroll,view,hr.payslip,hr_payroll.view_hr_payslip_form,Compute Sheet,计算表
+hr_payroll,field,"hr.payslip.line,condition_select",0,Condition Based on,条件基于
+hr_payroll,field,"hr.salary.rule,condition_select",0,Condition Based on,条件基于
 hr_payroll,view,hr.salary.rule,hr_payroll.hr_salary_rule_form,Conditions,条件
 hr_payroll,view,hr.payslip,hr_payroll.view_hr_payslip_form,Confirm,确认
 hr_payroll,field,"hr.payslip,contract_id",0,Contract,合同
@@ -1734,16 +1726,16 @@ hr_payroll,field,"hr.payslip.input,contract_id",0,Contract,合同
 hr_payroll,field,"hr.payslip.line,contract_id",0,Contract,合同
 hr_payroll,field,"hr.payslip.worked_days,contract_id",0,Contract,合同
 hr_payroll,model,"ir.model,name",hr_payroll.model_hr_contract,Contract,合同
-hr_payroll,view,hr.contribution.register,hr_payroll.hr_contribution_register_form,Contribution,捐款
-hr_payroll,view,hr.payslip.line,hr_payroll.view_hr_payslip_line_filter,Contribution Register,捐款记录
-hr_payroll,field,"hr.payslip.line,register_id",0,Contribution Register,捐款记录
-hr_payroll,field,"hr.salary.rule,register_id",0,Contribution Register,捐款记录
-hr_payroll,model,"ir.model,name",hr_payroll.model_hr_contribution_register,Contribution Register,捐款记录
-hr_payroll,view,payslip.lines.contribution.register,hr_payroll.view_payslip_lines_contribution_register,Contribution Register's Payslip Lines,贡献者的工资单明细
-hr_payroll,view,hr.contribution.register,hr_payroll.hr_contribution_register_filter,Contribution Registers,捐款记录
-hr_payroll,view,hr.contribution.register,hr_payroll.hr_contribution_register_tree,Contribution Registers,捐款记录
-hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_contribution_register_form,Contribution Registers,捐款记录
-hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_action_hr_contribution_register_form,Contribution Registers,捐款记录
+hr_payroll,view,hr.contribution.register,hr_payroll.hr_contribution_register_form,Contribution,供款
+hr_payroll,view,hr.payslip.line,hr_payroll.view_hr_payslip_line_filter,Contribution Register,供款记录
+hr_payroll,field,"hr.payslip.line,register_id",0,Contribution Register,供款记录
+hr_payroll,field,"hr.salary.rule,register_id",0,Contribution Register,供款记录
+hr_payroll,model,"ir.model,name",hr_payroll.model_hr_contribution_register,Contribution Register,供款记录
+hr_payroll,view,payslip.lines.contribution.register,hr_payroll.view_payslip_lines_contribution_register,Contribution Register's Payslip Lines,供款者的工资单明细
+hr_payroll,view,hr.contribution.register,hr_payroll.hr_contribution_register_filter,Contribution Registers,供款记录
+hr_payroll,view,hr.contribution.register,hr_payroll.hr_contribution_register_tree,Contribution Registers,供款记录
+hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_contribution_register_form,Contribution Registers,供款记录
+hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_action_hr_contribution_register_form,Contribution Registers,供款记录
 hr_payroll,help,"hr.config.settings,module_hr_payroll_account",0,Create journal entries from payslips,根据工资表创建会计分录
 hr_payroll,field,"hr.contribution.register,create_uid",0,Created by,创建者
 hr_payroll,field,"hr.payroll.structure,create_uid",0,Created by,创建者
@@ -1935,14 +1927,14 @@ hr_payroll,view,website,hr_payroll.report_payslipdetails,Pay Slip,工资单
 hr_payroll,view,hr.payslip,hr_payroll.view_hr_payslip_filter,PaySlip Batch,工资单批处理
 hr_payroll,model,"ir.actions.report.xml,name",hr_payroll.payslip_details_report,PaySlip Details,工资单明细
 hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_payslip_lines_contribution_register,PaySlip Lines,工资单明细
-hr_payroll,model,"ir.actions.report.xml,name",hr_payroll.action_contribution_register,PaySlip Lines By Conribution Register,按贡献者的工资单明细
-hr_payroll,view,website,hr_payroll.report_contributionregister,PaySlip Lines by Contribution Register,按贡献者的工资单明细
-hr_payroll,model,"ir.model,name",hr_payroll.model_payslip_lines_contribution_register,PaySlip Lines by Contribution Registers,按贡献者分组的工资单明细
+hr_payroll,model,"ir.actions.report.xml,name",hr_payroll.action_contribution_register,PaySlip Lines By Conribution Register,按供款者的工资单明细
+hr_payroll,view,website,hr_payroll.report_contributionregister,PaySlip Lines by Contribution Register,按供款者的工资单明细
+hr_payroll,model,"ir.model,name",hr_payroll.model_payslip_lines_contribution_register,PaySlip Lines by Contribution Registers,按供款者分组的工资单明细
 hr_payroll,view,website,hr_payroll.report_contributionregister,PaySlip Name,工资单名称
-hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_payroll_reporting,Payroll,薪酬管理
-hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_root_payroll,Payroll,薪酬管理
-hr_payroll,model,"ir.ui.menu,name",hr_payroll.payroll_configure,Payroll,薪酬管理
-hr_payroll,view,hr.payroll.structure,hr_payroll.view_hr_payroll_structure_filter,Payroll Structures,付薪结构
+hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_payroll_reporting,Payroll,薪酬
+hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_root_payroll,Payroll,薪酬
+hr_payroll,model,"ir.ui.menu,name",hr_payroll.payroll_configure,Payroll,薪酬
+hr_payroll,view,hr.payroll.structure,hr_payroll.view_hr_payroll_structure_filter,Payroll Structures,薪酬结构
 hr_payroll,view,hr.payslip,hr_payroll.view_hr_payslip_form,Payslip,工资单
 hr_payroll,model,"ir.actions.report.xml,name",hr_payroll.action_report_payslip,Payslip,工资单
 hr_payroll,constraint,hr.payslip,0,Payslip 'Date From' must be before 'Date To'.,工资单的开始日期必须在结束日期之前
@@ -1962,7 +1954,7 @@ hr_payroll,field,"hr.payslip,line_ids",0,Payslip Lines,工资单明细
 hr_payroll,view,hr.payslip.line,hr_payroll.view_hr_payslip_line_filter,Payslip Lines,工资单明细
 hr_payroll,model,"ir.actions.act_window,name",hr_payroll.act_contribution_reg_payslip_lines,Payslip Lines,工资单明细
 hr_payroll,view,website,hr_payroll.report_payslipdetails,Payslip Lines by Contribution Register,Payslip Lines by Contribution Register
-hr_payroll,field,"hr.payslip,name",0,Payslip Name,Payslip Name
+hr_payroll,field,"hr.payslip,name",0,Payslip Name,工资单名称
 hr_payroll,field,"hr.payslip,worked_days_line_ids",0,Payslip Worked Days,工资单工作日数
 hr_payroll,model,"ir.model,name",hr_payroll.model_hr_payslip_worked_days,Payslip Worked Days,工资单工作日数
 hr_payroll,view,hr.employee,hr_payroll.payroll_hr_employee_view_form,Payslips,工资单
@@ -2024,8 +2016,8 @@ hr_payroll,view,hr.salary.rule.category,hr_payroll.hr_salary_rule_category_tree_
 hr_payroll,view,hr.salary.rule.category,hr_payroll.view_hr_salary_rule_category_filter,Salary Rule Categories,工资规则分类
 hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_hr_salary_rule_category,Salary Rule Categories,工资规则分类
 hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_salary_rule_category,Salary Rule Categories,工资规则分类
-hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_hr_salary_rule_category_tree_view,Salary Rule Categories Hierarchy,工资规则类别树
-hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_salary_rule_category_tree_view,Salary Rule Categories Hierarchy,工资规则类别树
+hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_hr_salary_rule_category_tree_view,Salary Rule Categories Hierarchy,工资规则类别层级
+hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_salary_rule_category_tree_view,Salary Rule Categories Hierarchy,工资规则类别层级
 hr_payroll,view,hr.payslip.line,hr_payroll.view_hr_payslip_line_filter,Salary Rule Category,工资规则分类
 hr_payroll,model,"ir.model,name",hr_payroll.model_hr_salary_rule_category,Salary Rule Category,工资规则分类
 hr_payroll,view,website,hr_payroll.report_payslipdetails,Salary Rule Category,工资规则分类
@@ -2047,8 +2039,8 @@ hr_payroll,view,hr.payslip.line,hr_payroll.view_hr_payslip_line_tree,Salary Stru
 hr_payroll,model,"ir.model,name",hr_payroll.model_hr_payroll_structure,Salary Structure,薪酬结构
 hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_view_hr_payroll_structure_list_form,Salary Structures,工资结构
 hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_payroll_structure_view,Salary Structures,工资结构
-hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_view_hr_payroll_structure_tree,Salary Structures Hierarchy,工资结构树
-hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_payroll_structure_tree,Salary Structures Hierarchy,工资结构树
+hr_payroll,model,"ir.actions.act_window,name",hr_payroll.action_view_hr_payroll_structure_tree,Salary Structures Hierarchy,工资结构层级
+hr_payroll,model,"ir.ui.menu,name",hr_payroll.menu_hr_payroll_structure_tree,Salary Structures Hierarchy,工资结构层级
 hr_payroll,field,"hr.contract,schedule_pay",0,Scheduled Pay,已安排的付款
 hr_payroll,view,hr.payslip.run,hr_payroll.hr_payslip_run_filter,Search Payslip Batches,搜索工资单批量
 hr_payroll,view,hr.payslip.line,hr_payroll.view_hr_payslip_line_filter,Search Payslip Lines,搜索工资单明细
@@ -2109,30 +2101,6 @@ hr_payroll,code,addons/hr_payroll/wizard/hr_payroll_payslips_by_employees.py,52,
 hr_payroll,view,payslip.lines.contribution.register,hr_payroll.view_payslip_lines_contribution_register,or,或
 hr_payroll,help,"hr.payslip.line,amount_percentage_base",0,result will be affected to a variable,结果将影响一个变量
 hr_payroll,help,"hr.salary.rule,amount_percentage_base",0,result will be affected to a variable,结果将影响一个变量
-hr_payroll_account,view,hr.contract,hr_payroll_account.hr_contract_form_inherit,Accounting,会计
-hr_payroll_account,view,hr.salary.rule,hr_payroll_account.hr_salary_rule_form_inherit,Accounting,会计
-hr_payroll_account,field,"hr.payslip,move_id",0,Accounting Entry,会计分录
-hr_payroll_account,code,addons/hr_payroll_account/hr_payroll_account.py,154,Adjustment Entry,调整凭证
-hr_payroll_account,code,addons/hr_payroll_account/hr_payroll_account.py,170,Adjustment Entry,调整凭证
-hr_payroll_account,field,"hr.contract,analytic_account_id",0,Analytic Account,分析账户
-hr_payroll_account,field,"hr.salary.rule,analytic_account_id",0,Analytic Account,分析账户
-hr_payroll_account,code,addons/hr_payroll_account/hr_payroll_account.py,152,Configuration Error!,Configuration Error!
-hr_payroll_account,code,addons/hr_payroll_account/hr_payroll_account.py,168,Configuration Error!,Configuration Error!
-hr_payroll_account,model,"ir.model,name",hr_payroll_account.model_hr_contract,Contract,合同
-hr_payroll_account,field,"hr.salary.rule,account_credit",0,Credit Account,贷方科目
-hr_payroll_account,field,"hr.salary.rule,account_debit",0,Debit Account,借方科目
-hr_payroll_account,field,"hr.payslip,period_id",0,Force Period,强制会计期间
-hr_payroll_account,model,"ir.model,name",hr_payroll_account.model_hr_payslip_employees,Generate payslips for all selected employees,为已选的所有员工生成工资单
-hr_payroll_account,help,"hr.payslip,period_id",0,Keep empty to use the period of the validation(Payslip) date.,为空使用这个期间审核(工资单)日期
-hr_payroll_account,model,"ir.model,name",hr_payroll_account.model_hr_payslip,Pay Slip,工资单
-hr_payroll_account,model,"ir.model,name",hr_payroll_account.model_hr_payslip_run,Payslip Batches,工资单批处理
-hr_payroll_account,code,addons/hr_payroll_account/hr_payroll_account.py,97,Payslip of %s,%s 的工资单
-hr_payroll_account,field,"hr.contract,journal_id",0,Salary Journal,工资分类账
-hr_payroll_account,field,"hr.payslip,journal_id",0,Salary Journal,工资分类账
-hr_payroll_account,field,"hr.payslip.run,journal_id",0,Salary Journal,工资分类账
-hr_payroll_account,field,"hr.salary.rule,account_tax_id",0,Tax Code,税编码
-hr_payroll_account,code,addons/hr_payroll_account/hr_payroll_account.py,152,"The Expense Journal ""%s"" has not properly configured the Credit Account!","费用分类账 ""%s""未配置正确的贷方科目"
-hr_payroll_account,code,addons/hr_payroll_account/hr_payroll_account.py,168,"The Expense Journal ""%s"" has not properly configured the Debit Account!","费用分类账 ""%s""未配置正确的借方科目"
 hr_recruitment,view,hr.job,hr_recruitment.hr_job_survey,(empty = remote work),(empty = remote work)
 hr_recruitment,view,hr.job,hr_recruitment.view_hr_job_kanban,", To start the recruitment",", To start the recruitment"
 hr_recruitment,model,"survey.label,value",hr_recruitment.recruitment_1_3_1,0-15,0-15
@@ -2552,7 +2520,7 @@ hr_recruitment,model,"hr.recruitment.stage,name",hr_recruitment.stage_job3,Secon
 hr_recruitment,field,"hr.recruitment.degree,sequence",0,Sequence,序列
 hr_recruitment,field,"hr.recruitment.stage,sequence",0,Sequence,序列
 hr_recruitment,model,"survey.label,value",hr_recruitment.rcol_3_1_2,Somewhat important,Somewhat important
-hr_recruitment,field,"hr.applicant,source_id",0,Source,原文
+hr_recruitment,field,"hr.applicant,source_id",0,Source,源
 hr_recruitment,field,"hr.recruitment.source,name",0,Source Name,源名称
 hr_recruitment,model,"ir.model,name",hr_recruitment.model_hr_recruitment_source,Source of Applicants,应聘者来源
 hr_recruitment,view,hr.recruitment.source,hr_recruitment.hr_recruitment_source_form,Sources of Applicants,应聘者来源
@@ -2758,8 +2726,8 @@ You should assign an analytic journal on the employee form.","没有定义分析
 hr_timesheet,field,"hr.analytic.timesheet,partner_id",0,Partner,业务伙伴
 hr_timesheet,code,addons/hr_timesheet/wizard/hr_timesheet_sign_in_out.py,77,Please define cost unit for this employee.,请定义此员工的成本单位
 hr_timesheet,code,addons/hr_timesheet/wizard/hr_timesheet_sign_in_out.py,131,Please define employee for your user.,请为你的用户定义员工信息。
-hr_timesheet,selection,"hr.sign.in.project,state",0,Present,出勤
-hr_timesheet,selection,"hr.sign.out.project,state",0,Present,出勤
+hr_timesheet,selection,"hr.sign.in.project,state",0,Present,出席
+hr_timesheet,selection,"hr.sign.out.project,state",0,Present,出席
 hr_timesheet,view,hr.analytic.timesheet,hr_timesheet.hr_timesheet_line_form,Product,产品
 hr_timesheet,view,hr.analytic.timesheet,hr_timesheet.hr_timesheet_line_search,Product,产品
 hr_timesheet,field,"hr.employee,product_id",0,Product,产品
@@ -2963,7 +2931,7 @@ hr_timesheet_sheet,help,"hr.config.settings,timesheet_range",0,Periodicity on wh
 hr_timesheet_sheet,help,"res.company,timesheet_range",0,Periodicity on which you validate your timesheets.,提交计工单的周期
 hr_timesheet_sheet,code,addons/hr_timesheet_sheet/wizard/hr_timesheet_current.py,38,Please create an employee and associate it with this user.,请创建员工信息并关联到此用户
 hr_timesheet_sheet,code,addons/hr_timesheet_sheet/hr_timesheet_sheet.py,131,Please verify that the total difference of the sheet is lower than %.2f.,Please verify that the total difference of the sheet is lower than %.2f.
-hr_timesheet_sheet,selection,"hr_timesheet_sheet.sheet,state_attendance",0,Present,出勤
+hr_timesheet_sheet,selection,"hr_timesheet_sheet.sheet,state_attendance",0,Present,出席
 hr_timesheet_sheet,field,"hr_timesheet_sheet.sheet.account,name",0,Project / Analytic Account,项目 / 分析账户
 hr_timesheet_sheet,view,hr_timesheet_sheet.sheet,hr_timesheet_sheet.hr_timesheet_sheet_form,Refuse,拒绝
 hr_timesheet_sheet,view,hr_timesheet_sheet.sheet.account,hr_timesheet_sheet.hr_timesheet_account_filter,Search Account,查找分析账户

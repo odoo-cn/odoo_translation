@@ -67,7 +67,7 @@ procurement,help,"procurement.order,rule_id",0,Chosen rule for the procurement r
 procurement,field,"procurement.order,company_id",0,Company,公司
 procurement,field,"procurement.rule,company_id",0,Company,公司
 procurement,view,procurement.order.compute.all,procurement.view_compute_schedulers_wizard,Compute all procurements in the background.,Compute all procurements in the background.
-procurement,model,"ir.model,name",procurement.model_procurement_order_compute_all,Compute all schedulers,计算所有排程
+procurement,model,"ir.model,name",procurement.model_procurement_order_compute_all,Compute all schedulers,计算所有排程器
 procurement,selection,"procurement.order,state",0,Confirmed,已确认
 procurement,field,"procurement.group,create_uid",0,Created by,创建者
 procurement,field,"procurement.order,create_uid",0,Created by,创建者
@@ -133,7 +133,7 @@ procurement,model,"ir.actions.act_window,name",procurement.procurement_action,Pr
 procurement,model,"ir.model,name",procurement.model_procurement_group,Procurement Requisition,补货申请
 procurement,model,"ir.model,name",procurement.model_procurement_rule,Procurement Rule,补货规则
 procurement,view,procurement.group,procurement.procurement_group_form_view,Procurement group,补货组
-procurement,view,procurement.order,procurement.view_procurement_filter,Procurement started late,没有如期开始的补货
+procurement,view,procurement.order,procurement.view_procurement_filter,Procurement started late,延期开始的补货
 procurement,model,"ir.actions.act_window,name",procurement.procurement_exceptions,Procurements,补货
 procurement,view,procurement.group,procurement.procurement_group_form_view,Procurements,补货
 procurement,field,"procurement.group,procurement_ids",0,Procurements,补货
@@ -157,7 +157,7 @@ procurement,view,procurement.order,procurement.procurement_form_view,Run Procure
 procurement,model,"ir.actions.act_window,name",procurement.action_compute_schedulers,Run Schedulers,运行排程
 procurement,view,procurement.order.compute.all,procurement.view_compute_schedulers_wizard,Run Schedulers,运行排程
 procurement,selection,"procurement.order,state",0,Running,进行中
-procurement,field,"procurement.order,date_planned",0,Scheduled Date,预定日期
+procurement,field,"procurement.order,date_planned",0,Scheduled Date,安排日期
 procurement,view,procurement.order,procurement.view_procurement_filter,Scheduled Month,Scheduled Month
 procurement,view,procurement.order.compute.all,procurement.view_compute_schedulers_wizard,Scheduler Parameters,排程参数
 procurement,view,procurement.order,procurement.procurement_form_view,Scheduling,排程
@@ -197,11 +197,11 @@ sale_stock,field,"sale.config.settings,default_picking_policy",0,Deliver all at 
 sale_stock,selection,"sale.order,picking_policy",0,Deliver all products at once,一次性交货
 sale_stock,selection,"sale.order,picking_policy",0,Deliver each product when available,可以分批交货
 sale_stock,field,"sale.order,shipped",0,Delivered,已送货
-sale_stock,model,"ir.actions.act_window,name",sale_stock.outgoing_picking_list_to_invoice,Deliveries to Invoice,交货待开票
-sale_stock,model,"ir.ui.menu,name",sale_stock.menu_action_picking_list_to_invoice,Deliveries to Invoice,交货待开票
+sale_stock,model,"ir.actions.act_window,name",sale_stock.outgoing_picking_list_to_invoice,Deliveries to Invoice,待开票的交货
+sale_stock,model,"ir.ui.menu,name",sale_stock.menu_action_picking_list_to_invoice,Deliveries to Invoice,待开票的交货
 sale_stock,model,"res.groups,name",sale_stock.group_invoice_deli_orders,Enable Invoicing Delivery orders,允许开发运单
 sale_stock,model,"res.groups,name",sale_stock.group_route_so_lines,Enable Route on Sales Order Line,Enable Route on Sales Order Line
-sale_stock,field,"sale.config.settings,group_invoice_deli_orders",0,Generate invoices after and based on delivery orders,基于发运单生产发票
+sale_stock,field,"sale.config.settings,group_invoice_deli_orders",0,Generate invoices after and based on delivery orders,基于交货单生成发票
 sale_stock,view,sale.order,sale_stock.view_order_form_inherit,Ignore Exception,忽略异常
 sale_stock,field,"sale.order,incoterm",0,Incoterm,国际贸易术语
 sale_stock,help,"sale.order,incoterm",0,International Commercial Terms are a series of predefined commercial terms used in international transactions.,国际商业条款是一系列预定义的用于国际贸易的商业条款。
@@ -217,8 +217,8 @@ sale_stock,field,"sale.order.line,number_packages",0,Number Packages,包装数
 sale_stock,code,addons/sale_stock/res_config.py,78,Only administrators can change the settings,Only administrators can change the settings
 sale_stock,field,"sale.order.line,product_packaging",0,Packaging,包装
 sale_stock,help,"sale.order,picking_policy",0,Pick 'Deliver each product when available' if you allow partial delivery.,如果你允许部分交付， 选择‘每个产品可用时发运’
-sale_stock,code,addons/sale_stock/sale_stock.py,260,Picking Information ! : ,装箱信息！： 
-sale_stock,model,"ir.model,name",sale_stock.model_stock_picking,Picking List,装箱单
+sale_stock,code,addons/sale_stock/sale_stock.py,260,Picking Information ! : ,分拣信息！： 
+sale_stock,model,"ir.model,name",sale_stock.model_stock_picking,Picking List,分拣清单
 sale_stock,field,"sale.order,picking_ids",0,Picking associated to this sale,Picking associated to this sale
 sale_stock,field,"sale.config.settings,task_work",0,Prepare invoices based on task's activities,基于任务的进展准备发票
 sale_stock,model,"ir.model,name",sale_stock.model_product_product,Product,产品
@@ -239,7 +239,7 @@ sale_stock,field,"stock.location.route,sale_selectable",0,Selectable on Sales Or
 sale_stock,field,"sale.report,shipped",0,Shipped,已送货
 sale_stock,field,"sale.report,shipped_qty_1",0,Shipped,已送货
 sale_stock,field,"sale.order,picking_policy",0,Shipping Policy,运送方式
-sale_stock,model,"ir.model,name",sale_stock.model_stock_move,Stock Move,Stock Move
+sale_stock,model,"ir.model,name",sale_stock.model_stock_move,Stock Move,库存移动
 sale_stock,field,"sale.config.settings,default_order_policy",0,The default invoicing method is,默认的开票方法
 sale_stock,view,stock.picking,sale_stock.view_picking_internal_search_inherit,To Invoice,待开票
 sale_stock,help,"sale.config.settings,group_invoice_deli_orders",0,To allow your salesman to make invoices for Delivery Orders using the menu 'Deliveries to Invoice'.,允许销售员 使用菜单“按已交付数量开票”  根据发运单开发票
@@ -291,7 +291,7 @@ stock,code,addons/stock/stock.py,1677, (%s reserved), (%s 保留)
 stock,code,addons/stock/stock.py,1680, (reserved), (已保留)
 stock,code,addons/stock/stock.py,3131, MTO, MTO
 stock,code,addons/stock/product.py,218, On Hand, 在手
-stock,code,addons/stock/product.py,368, On Hand, 在手
+stock,code,addons/stock/product.py,370, On Hand, 在手
 stock,code,addons/stock/stock.py,3265, Sequence in, Sequence in
 stock,code,addons/stock/stock.py,3539, Sequence in, Sequence in
 stock,code,addons/stock/stock.py,3269, Sequence internal, Sequence internal
@@ -456,7 +456,7 @@ stock,model,"ir.actions.act_window,help",stock.action_move_form2,"<p class=""oe_
                 创建一个库存移动单。
               </p><p>
                 此菜单给你在一个特定产品上面的库存操作的完整的可追溯性。
-                你能过滤该产品，查看该产品所有已经发生和未发生的移库。
+                你能筛选该产品，查看该产品所有已经发生和未发生的移库。
               </p>
             "
 stock,model,"ir.actions.act_window,help",stock.action_picking_tree,"<p class=""oe_view_nocontent_create"">
@@ -774,7 +774,7 @@ stock,view,stock.move,stock.stock_move_tree,Date Expected,预计日期
 stock,help,"stock.picking,date_done",0,Date of Completion,完成日期
 stock,field,"stock.picking,date_done",0,Date of Transfer,转移日期
 stock,field,"report.stock.lines.date,date",0,Date of latest Inventory,最近盘点时间
-stock,field,"report.stock.lines.date,move_date",0,Date of latest Stock Move,最近移动时间
+stock,field,"report.stock.lines.date,move_date",0,Date of latest Stock Move,最近库存移动时间
 stock,help,"stock.picking,message_last_post",0,Date of the last message posted on the record.,发布到记录上的最后信息的日期
 stock,help,"stock.production.lot,message_last_post",0,Date of the last message posted on the record.,发布到记录上的最后信息的日期
 stock,view,report.stock.lines.date,stock.report_stock_lines_date_tree,Dates of Inventories,盘点日期
@@ -796,7 +796,7 @@ stock,view,procurement.rule,stock.view_procurement_rule_form_stock_inherit,Delay
 stock,view,stock.location.path,stock.stock_location_path_form,Delay,延期
 stock,field,"stock.location.path,delay",0,Delay (days),延期（天）
 stock,view,stock.picking.type,stock.stock_picking_type_kanban,Delete,删除
-stock,code,addons/stock/product.py,303,Delivered Qty,已交货数量
+stock,code,addons/stock/product.py,305,Delivered Qty,已交货数量
 stock,model,"ir.actions.act_window,name",stock.action_deliver_move,Deliveries,交货
 stock,view,product.product,stock.product_kanban_stock_view,Deliveries,交货
 stock,view,product.product,stock.product_kanban_stock_view,Delivery,交货
@@ -879,14 +879,14 @@ Otherwise, this includes goods stored in any Stock Location with 'internal' type
 stock,view,product.template,stock.product_template_kanban_stock_view,Forecasted:,预测：
 stock,code,addons/stock/static/src/xml/picking.xml,124,From,从
 stock,field,"product.template,track_all",0,Full Lots Traceability,完全批次跟踪
-stock,code,addons/stock/product.py,301,Future Deliveries,未来送货
-stock,code,addons/stock/product.py,307,Future P&L,Future P&L
-stock,code,addons/stock/product.py,319,Future Productions,未来生产
-stock,code,addons/stock/product.py,313,Future Qty,未来数量
-stock,code,addons/stock/product.py,291,Future Receipts,未来收货
-stock,code,addons/stock/product.py,297,Future Stock,未来库存
+stock,code,addons/stock/product.py,303,Future Deliveries,未来送货
+stock,code,addons/stock/product.py,309,Future P&L,Future P&L
+stock,code,addons/stock/product.py,321,Future Productions,未来生产
+stock,code,addons/stock/product.py,315,Future Qty,未来数量
+stock,code,addons/stock/product.py,293,Future Receipts,未来收货
+stock,code,addons/stock/product.py,299,Future Stock,未来库存
 stock,view,stock.picking,stock.view_picking_form,General Informations,一般信息
-stock,field,"stock.config.settings,module_procurement_jit",0,Generate procurement in real time,实时产生补货
+stock,field,"stock.config.settings,module_procurement_jit",0,Generate procurement in real time,实时生成补货
 stock,help,"stock.fixed.putaway.strat,sequence",0,"Give to the more specialized category, a higher priority to have them in top of the list.","Give to the more specialized category, a higher priority to have them in top of the list."
 stock,help,"stock.warehouse,default_resupply_wh_id",0,Goods will always be resupplied from this warehouse,货品总是由此仓库重新供货
 stock,view,stock.inventory,stock.view_inventory_filter,Group By,分组于
@@ -975,7 +975,7 @@ stock,selection,"stock.location,usage",0,Internal Location,内部库位
 stock,view,stock.location,stock.view_location_search,Internal Locations,内部库位
 stock,view,stock.quant,stock.quant_search_view,Internal Locations,内部库位
 stock,field,"stock.picking,move_lines",0,Internal Moves,内部移动
-stock,field,"stock.production.lot,ref",0,Internal Reference,内部单号
+stock,field,"stock.production.lot,ref",0,Internal Reference,内部参考
 stock,code,addons/stock/stock.py,3323,Internal Transfers,内部转移
 stock,model,"stock.picking.type,name",stock.picking_type_internal,Internal Transfers,内部转移
 stock,field,"res.company,internal_transit_location_id",0,Internal Transit Location,内部交通库位
@@ -1098,7 +1098,7 @@ stock,model,"ir.model,name",stock.model_stock_move_operation_link,Link between s
 stock,field,"stock.pack.operation,linked_move_operation_ids",0,Linked Moves,链接的移动
 stock,field,"stock.move,linked_move_operation_ids",0,Linked Operations,链接的作业
 stock,field,"stock.quant,propagated_from_id",0,Linked Quant,Linked Quant
-stock,view,stock.location,stock.view_location_form,Localization,本地化
+stock,view,stock.location,stock.view_location_form,Localization,定位
 stock,field,"product.product,location_id",0,Location,地点
 stock,field,"stock.change.product.qty,location_id",0,Location,地点
 stock,field,"stock.fixed.putaway.strat,fixed_location_id",0,Location,地点
@@ -1241,8 +1241,8 @@ stock,code,addons/stock/stock.py,2578,One owner only,One owner only
 stock,code,addons/stock/stock.py,2579,One product for a specific owner,One product for a specific owner
 stock,code,addons/stock/stock.py,2569,One product only,One product only
 stock,model,"ir.actions.client,name",stock.action_client_warehouse_menu,Open Warehouse Menu,打开仓库菜单
-stock,field,"stock.move.operation.link,operation_id",0,Operation,操作
-stock,field,"stock.transfer_details_items,packop_id",0,Operation,操作
+stock,field,"stock.move.operation.link,operation_id",0,Operation,作业
+stock,field,"stock.transfer_details_items,packop_id",0,Operation,作业
 stock,code,addons/stock/stock.py,1854,Operation Forbidden!,作业禁止！
 stock,code,addons/stock/stock.py,1929,Operation Forbidden!,作业禁止！
 stock,code,addons/stock/stock.py,2268,Operation Forbidden!,作业禁止！
@@ -1263,8 +1263,8 @@ stock,view,website,stock.report_picking,Order (Origin),Order (Origin)
 stock,view,stock.picking,stock.view_picking_internal_search,Order Date,单据日期
 stock,selection,"stock.warehouse.orderpoint,logic",0,Order to Max,Order to Max
 stock,view,stock.move,stock.view_move_search,Orders processed Today or planned for Today,今天处理或计划处理的单据
-stock,view,stock.move,stock.view_move_form,Origin,Origin
-stock,view,stock.picking,stock.view_picking_internal_search,Origin,Origin
+stock,view,stock.move,stock.view_move_form,Origin,原始
+stock,view,stock.picking,stock.view_picking_internal_search,Origin,原始
 stock,field,"stock.move,origin_returned_move_id",0,Origin return move,Origin return move
 stock,field,"stock.move,move_orig_ids",0,Original Move,Original Move
 stock,field,"stock.warehouse,out_type_id",0,Out Type,Out Type
@@ -1286,7 +1286,7 @@ stock,field,"stock.move,restrict_partner_id",0,Owner ,所有者
 stock,help,"stock.location,partner_id",0,Owner of the location if not internal,如果不是内部库位，则填写库位所有者
 stock,help,"stock.pack.operation,owner_id",0,Owner of the quants,份的所有者
 stock,help,"stock.transfer_details_items,owner_id",0,Owner of the quants,份的所有者
-stock,code,addons/stock/product.py,309,P&L Qty,P&L Qty
+stock,code,addons/stock/product.py,311,P&L Qty,P&L Qty
 stock,code,addons/stock/stock.py,3333,Pack,包裹
 stock,field,"stock.inventory.line,package_id",0,Pack,包裹
 stock,view,stock.transfer_details,stock.view_stock_enter_transfer_details,Pack,包裹
@@ -1336,11 +1336,11 @@ stock,code,addons/stock/stock.py,3343,Pick,分拣
 stock,code,addons/stock/stock.py,3436,Pick + Pack + Ship,分拣+包装+运货
 stock,code,addons/stock/stock.py,3435,Pick + Ship,分拣+运货
 stock,field,"stock.warehouse,pick_type_id",0,Pick Type,分拣类型
-stock,model,"ir.actions.report.xml,name",stock.action_report_picking,Picking,领料/提货
-stock,view,stock.move,stock.view_move_search,Picking,领料/提货
-stock,field,"stock.transfer_details,picking_id",0,Picking,领料/提货
-stock,model,"ir.model,name",stock.model_stock_picking,Picking List,装箱单
-stock,view,stock.picking,stock.view_picking_internal_search,Picking List,装箱单
+stock,model,"ir.actions.report.xml,name",stock.action_report_picking,Picking,分拣
+stock,view,stock.move,stock.view_move_search,Picking,分拣
+stock,field,"stock.transfer_details,picking_id",0,Picking,分拣
+stock,model,"ir.model,name",stock.model_stock_picking,Picking List,分拣清单
+stock,view,stock.picking,stock.view_picking_internal_search,Picking List,分拣清单
 stock,view,stock.picking,stock.view_picking_internal_search,Picking Lists,分拣清单
 stock,field,"procurement.rule,picking_type_id",0,Picking Type,分拣类型
 stock,field,"stock.move,picking_type_id",0,Picking Type,分拣类型
@@ -1359,7 +1359,7 @@ stock,model,"ir.model,name",stock.model_stock_transfer_details,Picking wizard,�
 stock,model,"ir.model,name",stock.model_stock_transfer_details_items,Picking wizard items,分拣向导项目
 stock,view,procurement.group,stock.procurement_group_form_view_herited,Pickings,分拣
 stock,view,stock.picking,stock.view_picking_internal_search,Pickings already processed,已处理的分拣
-stock,model,"ir.actions.act_window,name",stock.do_view_pickings,Pickings for Groups,要分组的分拣
+stock,model,"ir.actions.act_window,name",stock.do_view_pickings,Pickings for Groups,待分组的分拣
 stock,view,stock.picking,stock.view_picking_internal_search,Pickings that are late on scheduled time,Pickings that are late on scheduled time
 stock,field,"make.procurement,date_planned",0,Planned Date,计划日期
 stock,code,addons/stock/stock.py,2441,Please provide a positive quantity to scrap.,请提供一个正数给报废库位。
@@ -1379,7 +1379,7 @@ stock,field,"stock.picking,priority",0,Priority,优先级(0=紧急)
 stock,help,"stock.picking,priority",0,Priority for this picking. Setting manually a value here would set it as priority for all the moves,Priority for this picking. Setting manually a value here would set it as priority for all the moves
 stock,view,stock.move,stock.view_move_tree,Process,处理
 stock,view,stock.move,stock.view_move_form,Process Entirely,全部处理
-stock,view,stock.move,stock.view_move_form,Process Later,稍候处理
+stock,view,stock.move,stock.view_move_form,Process Later,稍后处理
 stock,model,"ir.model,name",stock.model_procurement_order,Procurement,补货
 stock,selection,"stock.location,usage",0,Procurement,补货
 stock,field,"stock.move,procurement_id",0,Procurement,补货
@@ -1399,7 +1399,7 @@ stock,field,"stock.move,rule_id",0,Procurement Rule,补货规则
 stock,model,"ir.ui.menu,name",stock.menu_procurement_rules,Procurement Rules,补货规则
 stock,model,"ir.ui.menu,name",stock.menu_stock_procurement_action,Procurements,补货
 stock,model,"stock.location,name",stock.location_procurement,Procurements,补货
-stock,code,addons/stock/product.py,321,Produced Qty,产品数量
+stock,code,addons/stock/product.py,323,Produced Qty,产品数量
 stock,code,addons/stock/static/src/xml/picking.xml,121,Product,产品
 stock,model,"ir.model,name",stock.model_product_product,Product,产品
 stock,field,"make.procurement,product_id",0,Product,产品
@@ -1428,7 +1428,7 @@ stock,model,"ir.model,name",stock.model_product_category,Product Category,产品
 stock,field,"stock.fixed.putaway.strat,category_id",0,Product Category,产品分类
 stock,field,"stock.inventory.line,product_code",0,Product Code,Product Code
 stock,view,stock.production.lot,stock.search_product_lot_filter,Product Lots,产品批次
-stock,view,stock.production.lot,stock.search_product_lot_filter,Product Lots Filter,产品批次过滤器
+stock,view,stock.production.lot,stock.search_product_lot_filter,Product Lots Filter,产品批次筛选器
 stock,view,stock.return.picking.line,stock.stock_return_line_tree_in,Product Moves,产品移动
 stock,field,"stock.inventory.line,product_name",0,Product Name,产品名称
 stock,model,"ir.model,name",stock.model_product_template,Product Template,产品模板
@@ -1456,7 +1456,7 @@ stock,view,stock.location.route,stock.stock_location_route_form_view,Products,�
 stock,view,stock.picking,stock.view_picking_form,Products,产品
 stock,view,stock.production.lot,stock.view_production_lot_form,Products,产品
 stock,view,stock.transfer_details,stock.view_stock_enter_transfer_details,Products To Move,Products To Move
-stock,model,"ir.ui.menu,name",stock.menu_product_by_category_stock_form,Products by Category,产品类别
+stock,model,"ir.ui.menu,name",stock.menu_product_by_category_stock_form,Products by Category,产品，按类别
 stock,code,addons/stock/product.py,60,Products: ,Products: 
 stock,code,addons/stock/stock.py,1709,Programming Error!,Programming Error!
 stock,field,"procurement.rule,propagate",0,Propagate cancel and split,Propagate cancel and split
@@ -1551,7 +1551,7 @@ stock,model,"ir.actions.act_window,name",stock.action_receive_move,Receipts,Rece
 stock,view,product.product,stock.product_kanban_stock_view,Receipts,Receipts
 stock,model,"stock.picking.type,name",stock.picking_type_in,Receipts,Receipts
 stock,selection,"stock.warehouse,reception_steps",0,Receive goods directly in stock (1 step),Receive goods directly in stock (1 step)
-stock,code,addons/stock/product.py,293,Received Qty,已接收数量
+stock,code,addons/stock/product.py,295,Received Qty,已接收数量
 stock,view,stock.picking,stock.view_picking_form,Recheck Availability,Recheck Availability
 stock,code,addons/stock/static/src/xml/picking.xml,269,Recompute,Recompute
 stock,field,"stock.picking,recompute_pack_op",0,Recompute pack operation?,Recompute pack operation?
@@ -1626,9 +1626,9 @@ stock,code,addons/stock/static/src/xml/picking.xml,14,Scan a location or select 
 stock,code,addons/stock/static/src/xml/picking.xml,38,Scan a lot or type it below (leave empty to generate one automatically),Scan a lot or type it below (leave empty to generate one automatically)
 stock,code,addons/stock/static/src/xml/picking.xml,122,Scanned,Scanned
 stock,code,addons/stock/static/src/xml/picking.xml,226,Scanned picking could not be found,找不到扫描的分拣
-stock,view,stock.move,stock.view_move_search,Scheduled,排程
-stock,field,"stock.picking,min_date",0,Scheduled Date,预定日期
-stock,view,website,stock.report_picking,Scheduled Date,预定日期
+stock,view,stock.move,stock.view_move_search,Scheduled,安排的
+stock,field,"stock.picking,min_date",0,Scheduled Date,安排日期
+stock,view,website,stock.report_picking,Scheduled Date,安排日期
 stock,help,"stock.move,date_expected",0,Scheduled date for the processing of this move,此库存移动处理的日程表日期
 stock,help,"stock.picking,min_date",0,Scheduled time for the first part of the shipment to be processed. Setting manually a value here would set it as expected date for all the stock moves.,Scheduled time for the first part of the shipment to be processed. Setting manually a value here would set it as expected date for all the stock moves.
 stock,help,"stock.picking,max_date",0,Scheduled time for the last part of the shipment to be processed,Scheduled time for the last part of the shipment to be processed
@@ -1679,9 +1679,9 @@ stock,selection,"stock.warehouse,delivery_steps",0,Ship directly from stock (Shi
 stock,field,"stock.warehouse,code",0,Short Name,Short Name
 stock,help,"stock.warehouse,code",0,Short name used to identify your warehouse,Short name used to identify your warehouse
 stock,help,"stock.move,string_availability_info",0,Show various information on stock availability for this move,Show various information on stock availability for this move
-stock,view,stock.move,stock.view_move_search,Source,原文
-stock,field,"stock.move,origin",0,Source,原文
-stock,view,website,stock.report_picking,Source,原文
+stock,view,stock.move,stock.view_move_search,Source,源
+stock,field,"stock.move,origin",0,Source,源
+stock,view,website,stock.report_picking,Source,源
 stock,field,"stock.picking,origin",0,Source Document,源单据
 stock,field,"procurement.rule,location_src_id",0,Source Location,源库位
 stock,field,"stock.location.path,location_from_id",0,Source Location,源库位
@@ -1713,18 +1713,18 @@ stock,model,"ir.actions.report.xml,name",stock.report_product_history,Stock Leve
 stock,view,stock.location,stock.view_location_form,Stock Location,库存库位
 stock,view,stock.location,stock.view_location_tree2,Stock Location,库存库位
 stock,view,stock.location,stock.view_location_search,Stock Locations,库存库位
-stock,model,"ir.model,name",stock.model_stock_move,Stock Move,Stock Move
-stock,model,"ir.actions.act_window,name",stock.action_move_form2,Stock Moves,库存调拨
-stock,model,"ir.ui.menu,name",stock.menu_action_move_form2,Stock Moves,库存调拨
-stock,view,stock.inventory,stock.view_inventory_form,Stock Moves,库存调拨
-stock,view,stock.move,stock.view_move_form,Stock Moves,库存调拨
-stock,view,stock.move,stock.view_move_picking_form,Stock Moves,库存调拨
-stock,view,stock.move,stock.view_move_picking_tree,Stock Moves,库存调拨
-stock,view,stock.move,stock.view_move_search,Stock Moves,库存调拨
-stock,view,stock.picking,stock.view_picking_form,Stock Moves,库存调拨
-stock,view,stock.production.lot,stock.view_production_lot_form,Stock Moves,库存调拨
-stock,view,stock.move,stock.view_move_graph,Stock Moves Analysis,Stock Moves Analysis
-stock,model,"ir.actions.act_window,name",stock.action_picking_tree_all,Stock Operations,Stock Operations
+stock,model,"ir.model,name",stock.model_stock_move,Stock Move,库存移动
+stock,model,"ir.actions.act_window,name",stock.action_move_form2,Stock Moves,库存移动
+stock,model,"ir.ui.menu,name",stock.menu_action_move_form2,Stock Moves,库存移动
+stock,view,stock.inventory,stock.view_inventory_form,Stock Moves,库存移动
+stock,view,stock.move,stock.view_move_form,Stock Moves,库存移动
+stock,view,stock.move,stock.view_move_picking_form,Stock Moves,库存移动
+stock,view,stock.move,stock.view_move_picking_tree,Stock Moves,库存移动
+stock,view,stock.move,stock.view_move_search,Stock Moves,库存移动
+stock,view,stock.picking,stock.view_picking_form,Stock Moves,库存移动
+stock,view,stock.production.lot,stock.view_production_lot_form,Stock Moves,库存移动
+stock,view,stock.move,stock.view_move_graph,Stock Moves Analysis,库存移动分析
+stock,model,"ir.actions.act_window,name",stock.action_picking_tree_all,Stock Operations,库存作业
 stock,field,"stock.pack.operation,picking_id",0,Stock Picking,库存分拣
 stock,view,product.template,stock.view_template_property_form,Stock and Expected Variations,库存和预期的变动
 stock,view,stock.move,stock.view_move_search,Stock moves that are Available (Ready to process),库存移动可用（已准备好）
@@ -1739,8 +1739,8 @@ stock,field,"stock.location.route,supplied_wh_id",0,Supplied Warehouse,Supplied 
 stock,view,stock.location,stock.view_location_search,Supplier,供应商
 stock,view,stock.move,stock.view_move_tree_receipt_picking,Supplier,供应商
 stock,view,website,stock.report_picking,Supplier Address:,Supplier Address:
-stock,field,"res.partner,property_stock_supplier",0,Supplier Location,供货商库位
-stock,selection,"stock.location,usage",0,Supplier Location,供货商库位
+stock,field,"res.partner,property_stock_supplier",0,Supplier Location,供应商库位
+stock,selection,"stock.location,usage",0,Supplier Location,供应商库位
 stock,view,stock.location,stock.view_location_search,Supplier Locations,供应商库位
 stock,field,"stock.location.route,supplier_wh_id",0,Supplier Warehouse,Supplier Warehouse
 stock,model,"stock.location,name",stock.stock_location_suppliers,Suppliers,供应商
@@ -1873,7 +1873,7 @@ stock,code,addons/stock/stock.py,3782,Unknown Pack,Unknown Pack
 stock,selection,"stock.warehouse,reception_steps",0,Unload in input location then go to stock (2 steps),卸货在收货库位然后进入库存（2布）
 stock,selection,"stock.warehouse,reception_steps",0,"Unload in input location, go through a quality control before being admitted in stock (3 steps)","Unload in input location, go through a quality control before being admitted in stock (3 steps)"
 stock,view,stock.quant.package,stock.view_quant_package_form,Unpack,Unpack
-stock,code,addons/stock/product.py,315,Unplanned Qty,计划外数量
+stock,code,addons/stock/product.py,317,Unplanned Qty,计划外数量
 stock,field,"stock.picking,message_unread",0,Unread Messages,未读消息
 stock,field,"stock.production.lot,message_unread",0,Unread Messages,未读消息
 stock,view,stock.picking,stock.view_picking_form,Unreserve,Unreserve
@@ -2016,7 +2016,7 @@ stock,view,stock.inventory,stock.view_inventory_form,⇒ Set quantities to 0,⇒
 stock,view,product.template,stock.view_template_property_form,⇒ Update,⇒ Update
 stock_account,view,stock.history,stock_account.view_stock_history_report_tree,# of Products,# 产品
 stock_account,view,product.template,stock_account.view_template_property_form,- update,- update
-stock_account,view,product.category,stock_account.view_category_property_form,Account Stock Properties,Account Stock Properties
+stock_account,view,product.category,stock_account.view_category_property_form,Account Stock Properties,会计库存属性
 stock_account,view,stock.config.settings,stock_account.view_stock_config_settings_inherit,Accounting,会计
 stock_account,view,stock.location,stock_account.view_location_form_inherit,Accounting Information,会计信息
 stock_account,code,addons/stock_account/wizard/stock_change_standard_price.py,76,Active ID is not set in Context.,Active ID is not set in Context.
@@ -2130,7 +2130,7 @@ stock_account,code,addons/stock_account/product.py,83,"One of the following info
     "
 stock_account,field,"stock.history,date",0,Operation Date,作业日期
 stock_account,selection,"product.template,valuation",0,Periodical (manual),Periodical (manual)
-stock_account,model,"ir.model,name",stock_account.model_stock_picking,Picking List,装箱单
+stock_account,model,"ir.model,name",stock_account.model_stock_picking,Picking List,分拣清单
 stock_account,field,"stock.change.standard.price,new_price",0,Price,价格
 stock_account,model,"ir.model,name",stock_account.model_procurement_order,Procurement,补货
 stock_account,model,"ir.model,name",stock_account.model_procurement_rule,Procurement Rule,补货规则
@@ -2150,7 +2150,7 @@ stock_account,selection,"stock.invoice.onshipping,journal_type",0,Refund Sale,Re
 stock_account,view,wizard.valuation.history,stock_account.view_wizard_valuation_history,Retrieve the Inventory Value,Retrieve the Inventory Value
 stock_account,view,wizard.valuation.history,stock_account.view_wizard_valuation_history,Retrieve the stock valuation of your products at current day,Retrieve the stock valuation of your products at current day
 stock_account,model,"ir.model,name",stock_account.model_stock_return_picking,Return Picking,退货分拣
-stock_account,field,"stock.history,source",0,Source,原文
+stock_account,field,"stock.history,source",0,Source,源
 stock_account,selection,"product.template,cost_method",0,Standard Price,成本价格
 stock_account,code,addons/stock_account/product.py,137,Standard Price changed,Standard Price changed
 stock_account,code,addons/stock_account/product.py,144,Standard Price changed,Standard Price changed
@@ -2163,8 +2163,8 @@ stock_account,field,"product.category,property_stock_account_input_categ",0,Stoc
 stock_account,field,"product.template,property_stock_account_input",0,Stock Input Account,Stock Input Account
 stock_account,model,"ir.model,name",stock_account.model_stock_invoice_onshipping,Stock Invoice Onshipping,Stock Invoice Onshipping
 stock_account,field,"product.category,property_stock_journal",0,Stock Journal,Stock Journal
-stock_account,model,"ir.model,name",stock_account.model_stock_move,Stock Move,Stock Move
-stock_account,field,"stock.history,move_id",0,Stock Move,Stock Move
+stock_account,model,"ir.model,name",stock_account.model_stock_move,Stock Move,库存移动
+stock_account,field,"stock.history,move_id",0,Stock Move,库存移动
 stock_account,field,"product.category,property_stock_account_output_categ",0,Stock Output Account,Stock Output Account
 stock_account,field,"product.template,property_stock_account_output",0,Stock Output Account,Stock Output Account
 stock_account,model,"ir.actions.act_window,name",stock_account.action_wizard_stock_valuation_history,Stock Valuation,Stock Valuation
@@ -2205,7 +2205,7 @@ stock_account,view,stock.picking,stock_account.view_picking_inherit_form2,"{'def
 stock_dropshipping,model,"stock.picking.type,name",stock_dropshipping.picking_type_dropship,Dropship,Dropship
 stock_dropshipping,model,"ir.model,name",stock_dropshipping.model_stock_invoice_onshipping,Stock Invoice Onshipping,Stock Invoice Onshipping
 stock_invoice_directly,code,addons/stock_invoice_directly/stock_invoice_directly.py,42,Create Invoice,创建发票
-stock_invoice_directly,model,"ir.model,name",stock_invoice_directly.model_stock_picking,Picking List,装箱单
+stock_invoice_directly,model,"ir.model,name",stock_invoice_directly.model_stock_picking,Picking List,分拣清单
 stock_landed_costs,code,addons/stock_landed_costs/stock_landed_costs.py,146, already out, already out
 stock_landed_costs,code,addons/stock_landed_costs/stock_landed_costs.py,149, already out, already out
 stock_landed_costs,model,"ir.actions.act_window,help",stock_landed_costs.action_stock_landed_cost,"<p class=""oe_view_nocontent_create"">
@@ -2314,7 +2314,7 @@ stock_landed_costs,field,"stock.landed.cost,state",0,State,省
 stock_landed_costs,view,stock.landed.cost,stock_landed_costs.view_stock_landed_cost_search,Status,状态
 stock_landed_costs,model,"ir.model,name",stock_landed_costs.model_stock_landed_cost,Stock Landed Cost,Stock Landed Cost
 stock_landed_costs,model,"ir.model,name",stock_landed_costs.model_stock_landed_cost_lines,Stock Landed Cost Lines,Stock Landed Cost Lines
-stock_landed_costs,field,"stock.valuation.adjustment.lines,move_id",0,Stock Move,Stock Move
+stock_landed_costs,field,"stock.valuation.adjustment.lines,move_id",0,Stock Move,库存移动
 stock_landed_costs,model,"ir.model,name",stock_landed_costs.model_stock_valuation_adjustment_lines,Stock Valuation Adjustment Lines,Stock Valuation Adjustment Lines
 stock_landed_costs,field,"stock.landed.cost,message_summary",0,Summary,摘要
 stock_landed_costs,code,addons/stock_landed_costs/stock_landed_costs.py,76,"The selected picking does not contain any move that would be impacted by landed costs. Landed costs are only possible for products configured in real time valuation with real price costing method. Please make sure it is the case, or you selected the correct picking","The selected picking does not contain any move that would be impacted by landed costs. Landed costs are only possible for products configured in real time valuation with real price costing method. Please make sure it is the case, or you selected the correct picking"
@@ -2379,7 +2379,7 @@ stock_picking_wave,help,"stock.picking.wave,picking_ids",0,List of picking assoc
 stock_picking_wave,help,"stock.picking.wave,name",0,Name of the picking wave,分拣波次名称
 stock_picking_wave,code,addons/stock_picking_wave/stock_picking_wave.py,40,Nothing to print.,没有需要打印的项目
 stock_picking_wave,help,"stock.picking.wave,user_id",0,Person responsible for this wave,该波次负责人
-stock_picking_wave,model,"ir.model,name",stock_picking_wave.model_stock_picking,Picking List,装箱单
+stock_picking_wave,model,"ir.model,name",stock_picking_wave.model_stock_picking,Picking List,分拣清单
 stock_picking_wave,model,"ir.model,name",stock_picking_wave.model_stock_picking_wave,Picking Wave,分拣波次
 stock_picking_wave,field,"stock.picking,wave_id",0,Picking Wave,分拣波次
 stock_picking_wave,field,"stock.picking.to.wave,wave_id",0,Picking Wave,分拣波次
@@ -2388,7 +2388,7 @@ stock_picking_wave,field,"stock.picking.wave,name",0,Picking Wave Name,分拣波
 stock_picking_wave,model,"ir.actions.act_window,name",stock_picking_wave.action_picking_wave,Picking Waves,分拣波次
 stock_picking_wave,model,"ir.ui.menu,name",stock_picking_wave.menu_action_picking_wave,Picking Waves,分拣波次
 stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_filter,Picking Waves not finished,分拣波次没有完成
-stock_picking_wave,help,"stock.picking,wave_id",0,Picking wave associated to this picking,Picking wave associated to this picking
+stock_picking_wave,help,"stock.picking,wave_id",0,Picking wave associated to this picking,关联到此分拣的分拣波次
 stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_form,Pickings,分拣
 stock_picking_wave,field,"stock.picking.wave,picking_ids",0,Pickings,分拣
 stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_form,Print all pickings,打印所有分拣
@@ -2399,8 +2399,8 @@ stock_picking_wave,view,stock.picking.to.wave,stock_picking_wave.picking_to_wave
 stock_picking_wave,code,addons/stock_picking_wave/stock_picking_wave.py,57,Some pickings are still waiting for goods. Please check or force their availability before setting this wave to done.,部分捡货作业还在等待可用，请检查或者强制可用以便完成本次捡货作业。
 stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_filter,State,省
 stock_picking_wave,field,"stock.picking.wave,state",0,State,省
-stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_form,Stock Picking Waves,Stock Picking Waves
-stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_tree,Stock Picking Waves,Stock Picking Waves
+stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_form,Stock Picking Waves,库存分拣波次
+stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_tree,Stock Picking Waves,库存分拣波次
 stock_picking_wave,view,stock.picking.wave,stock_picking_wave.view_picking_wave_filter,User,用户
 stock_picking_wave,code,addons/stock_picking_wave/stock_picking_wave.py,57,Warning,Warning
 stock_picking_wave,view,stock.picking,stock_picking_wave.view_stock_picking_wave_search_inherit,Wave,波次

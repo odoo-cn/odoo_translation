@@ -11,15 +11,14 @@
 #	* hr_recruitment
 #	* hr_holidays
 #	* hr_gamification
-#	* hr_payroll_account
 #	* hr_payroll
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:20+0000\n"
-"PO-Revision-Date: 2015-04-20 10:20+0000\n"
+"POT-Creation-Date: 2015-04-22 19:38+0000\n"
+"PO-Revision-Date: 2015-04-22 19:38+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -227,8 +226,7 @@ msgid "<h2>At the supervisor's appraisal date</h2>\n"
 "<p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
 "<p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
 "<p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below\n"
-"</p><ol>\n"
-"<li>Significantly exceeds standards and expectations required of the position</li>\n"
+"</p><ol><li>Significantly exceeds standards and expectations required of the position</li>\n"
 "<li>Exceeds standards and expectations</li>\n"
 "<li>Meet standards and expectations</li>\n"
 "<li>Did not meet standards and expectations</li>\n"
@@ -238,8 +236,7 @@ msgstr "<h2>At the supervisor's appraisal date</h2>\n"
 "<p>His direct reports will be invited through Odoo to express a feedback on their supervisor's leadership and to give their opinion about their own engagement and effectiveness, the continuous improvement and openness in action in thecompany...</p>\n"
 "<p>The employees will send back their anonymous answers to Odoo. The data will be handled by the HR manager and a brief summary of the data will be sent to the concerned supervisor, to his team and to the supervisor's supervisor.</p>\n"
 "<p>The appraiser should rate the employee's major work accomplishments and performance according to the metric provided below\n"
-"</p><ol>\n"
-"<li>Significantly exceeds standards and expectations required of the position</li>\n"
+"</p><ol><li>Significantly exceeds standards and expectations required of the position</li>\n"
 "<li>Exceeds standards and expectations</li>\n"
 "<li>Meet standards and expectations</li>\n"
 "<li>Did not meet standards and expectations</li>\n"
@@ -251,13 +248,11 @@ msgstr "<h2>At the supervisor's appraisal date</h2>\n"
 msgid "<h2>Overall Purpose Of Employee Appraisal</h2>\n"
 "<ul><li>To initiate a clear and open communication of performance expectations\n"
 "</li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for\n"
-"development</li></ul>\n"
-"<h2>At the outset of the appraisal time period</h2>\n"
+"development</li></ul><h2>At the outset of the appraisal time period</h2>\n"
 "<ul><li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the\n"
 "coming year, including major employee responsibilities and corresponding benchmarks against which results will be\n"
 "evaluated.\n"
-"</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul>\n"
-"<h2>At the conclusion of the appraisal time period</h2>\n"
+"</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul><h2>At the conclusion of the appraisal time period</h2>\n"
 "<ul><li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting\n"
 "point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\n"
 "Once the form had been filled, the employee send it to his supervisor.\n"
@@ -271,13 +266,11 @@ msgid "<h2>Overall Purpose Of Employee Appraisal</h2>\n"
 msgstr "<h2>Overall Purpose Of Employee Appraisal</h2>\n"
 "<ul><li>To initiate a clear and open communication of performance expectations\n"
 "</li><li>To assist employees in their professional growth, through the identification of strengths and opportunities for\n"
-"development</li></ul>\n"
-"<h2>At the outset of the appraisal time period</h2>\n"
+"development</li></ul><h2>At the outset of the appraisal time period</h2>\n"
 "<ul><li>It is the joint responsibility of the employee and the supervisor (appraiser) to establish a feasible work plan for the\n"
 "coming year, including major employee responsibilities and corresponding benchmarks against which results will be\n"
 "evaluated.\n"
-"</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul>\n"
-"<h2>At the conclusion of the appraisal time period</h2>\n"
+"</li><li>Critical or key elements of performance and professional development needs (if any), should also be noted at this time</li></ul><h2>At the conclusion of the appraisal time period</h2>\n"
 "<ul><li>The employee will be responsible for completing a draft of the Appraisal Form as a tool for self-appraisal and a starting\n"
 "point for the supervisor’s evaluation. The employee can add examples of achievements for each criterion.\n"
 "Once the form had been filled, the employee send it to his supervisor.\n"
@@ -814,15 +807,13 @@ msgstr "<p>Identify professional, performance, or project objectives you recomme
 #. module: hr_evaluation
 #: model:survey.page,description:hr_evaluation.appraisal_3
 msgid "<p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided\n"
-"below:</p><ol>\n"
-"<li> Significantly exceeds standards and expectations required of the position\n"
+"below:</p><ol><li> Significantly exceeds standards and expectations required of the position\n"
 "</li><li> Exceeds standards and expectations\n"
 "</li><li> Meet standards and expectations\n"
 "</li><li> Did not meet standards and expectations\n"
 "</li><li> Significantly below standards and expectations</li></ol>"
 msgstr "<p>The appraiser should rate the employee’s major work accomplishments and performance according to the metric provided\n"
-"below:</p><ol>\n"
-"<li> Significantly exceeds standards and expectations required of the position\n"
+"below:</p><ol><li> Significantly exceeds standards and expectations required of the position\n"
 "</li><li> Exceeds standards and expectations\n"
 "</li><li> Meet standards and expectations\n"
 "</li><li> Did not meet standards and expectations\n"
@@ -873,11 +864,9 @@ msgstr "缺勤"
 msgid "Accepted"
 msgstr "已接受"
 
-#. modules: hr_expense, hr_payroll_account, hr_timesheet, hr_payroll
+#. modules: hr_expense, hr_timesheet, hr_payroll
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
-#: view:hr.contract:hr_payroll_account.hr_contract_form_inherit
-#: view:hr.salary.rule:hr_payroll_account.hr_salary_rule_form_inherit
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_form
 msgid "Accounting"
 msgstr "会计"
@@ -886,11 +875,6 @@ msgstr "会计"
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Accounting Data"
 msgstr "会计数据"
-
-#. module: hr_payroll_account
-#: field:hr.payslip,move_id:0
-msgid "Accounting Entry"
-msgstr "会计分录"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
@@ -1010,13 +994,6 @@ msgstr "地址"
 #: help:hr.job,address_id:0
 msgid "Address where employees are working"
 msgstr "Address where employees are working"
-
-#. module: hr_payroll_account
-#: code:addons/hr_payroll_account/hr_payroll_account.py:154
-#: code:addons/hr_payroll_account/hr_payroll_account.py:170
-#, python-format
-msgid "Adjustment Entry"
-msgstr "调整凭证"
 
 #. module: hr_contract
 #: field:hr.contract,advantages:0
@@ -1156,9 +1133,7 @@ msgstr "金额类型"
 msgid "Analysis Information"
 msgstr "分析信息"
 
-#. modules: hr_timesheet_sheet, hr_payroll_account, hr_timesheet
-#: field:hr.contract,analytic_account_id:0
-#: field:hr.salary.rule,analytic_account_id:0
+#. modules: hr_timesheet_sheet, hr_timesheet
 #: field:hr.timesheet.report,account_id:0
 #: model:ir.model,name:hr_timesheet.model_account_analytic_account
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_account
@@ -2026,7 +2001,7 @@ msgstr "公司"
 #. module: hr_payroll
 #: view:hr.salary.rule:hr_payroll.hr_salary_rule_form
 msgid "Company Contribution"
-msgstr "公司捐款"
+msgstr "公司供款"
 
 #. module: hr_contract
 #: field:hr.employee,vehicle:0
@@ -2061,13 +2036,13 @@ msgstr "计算"
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Compute Sheet"
-msgstr "计算"
+msgstr "计算表"
 
 #. module: hr_payroll
 #: field:hr.payslip.line,condition_select:0
 #: field:hr.salary.rule,condition_select:0
 msgid "Condition Based on"
-msgstr "选择条件"
+msgstr "条件基于"
 
 #. module: hr_payroll
 #: view:hr.salary.rule:hr_payroll.hr_salary_rule_form
@@ -2079,9 +2054,7 @@ msgstr "条件"
 msgid "Configuration"
 msgstr "设置"
 
-#. modules: hr_timesheet_sheet, hr_payroll_account
-#: code:addons/hr_payroll_account/hr_payroll_account.py:152
-#: code:addons/hr_payroll_account/hr_payroll_account.py:168
+#. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:75
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:91
 #, python-format
@@ -2158,7 +2131,7 @@ msgstr "Contact:"
 msgid "Continuous Improvement"
 msgstr "Continuous Improvement"
 
-#. modules: hr_payroll_account, hr_contract, hr_payroll, hr_recruitment
+#. modules: hr_contract, hr_payroll, hr_recruitment
 #: view:hr.contract:hr_contract.hr_contract_view_form
 #: view:hr.employee:hr_contract.hr_hr_employee_view_form2
 #: field:hr.employee,contract_id:0
@@ -2169,7 +2142,6 @@ msgstr "Continuous Improvement"
 #: field:hr.payslip.line,contract_id:0
 #: field:hr.payslip.worked_days,contract_id:0
 #: model:ir.model,name:hr_payroll.model_hr_contract
-#: model:ir.model,name:hr_payroll_account.model_hr_contract
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Contract"
 msgstr "合同"
@@ -2218,12 +2190,12 @@ msgstr "合同类型"
 #: model:ir.actions.act_window,name:hr_contract.action_hr_contract
 #: model:ir.ui.menu,name:hr_contract.hr_menu_contract
 msgid "Contracts"
-msgstr "合同列表"
+msgstr "合同"
 
 #. module: hr_payroll
 #: view:hr.contribution.register:hr_payroll.hr_contribution_register_form
 msgid "Contribution"
-msgstr "捐款"
+msgstr "供款"
 
 #. module: hr_payroll
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_filter
@@ -2231,12 +2203,12 @@ msgstr "捐款"
 #: field:hr.salary.rule,register_id:0
 #: model:ir.model,name:hr_payroll.model_hr_contribution_register
 msgid "Contribution Register"
-msgstr "捐款记录"
+msgstr "供款记录"
 
 #. module: hr_payroll
 #: view:payslip.lines.contribution.register:hr_payroll.view_payslip_lines_contribution_register
 msgid "Contribution Register's Payslip Lines"
-msgstr "贡献者的工资单明细"
+msgstr "供款者的工资单明细"
 
 #. module: hr_payroll
 #: view:hr.contribution.register:hr_payroll.hr_contribution_register_filter
@@ -2244,7 +2216,7 @@ msgstr "贡献者的工资单明细"
 #: model:ir.actions.act_window,name:hr_payroll.action_contribution_register_form
 #: model:ir.ui.menu,name:hr_payroll.menu_action_hr_contribution_register_form
 msgid "Contribution Registers"
-msgstr "捐款记录"
+msgstr "供款记录"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
@@ -2418,11 +2390,6 @@ msgstr "Creation Week"
 #: model:survey.label,value:hr_evaluation.arow_3_1_14
 msgid "Creativity and forward looking aptitude"
 msgstr "Creativity and forward looking aptitude"
-
-#. module: hr_payroll_account
-#: field:hr.salary.rule,account_credit:0
-msgid "Credit Account"
-msgstr "贷方科目"
 
 #. module: hr_payroll
 #: field:hr.payslip,credit_note:0
@@ -2608,11 +2575,6 @@ msgstr "截止日期"
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_tree
 msgid "Deadline Date"
 msgstr "截止日期"
-
-#. module: hr_payroll_account
-#: field:hr.salary.rule,account_debit:0
-msgid "Debit Account"
-msgstr "借方科目"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_7
@@ -3540,11 +3502,6 @@ msgstr "例如，输入50意味着50%"
 msgid "Force Journal"
 msgstr "强制的账薄"
 
-#. module: hr_payroll_account
-#: field:hr.payslip,period_id:0
-msgid "Force Period"
-msgstr "强制会计期间"
-
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Free Notes"
@@ -3610,7 +3567,7 @@ msgstr "生成"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Generate Accounting Entries"
-msgstr "Generate Accounting Entries"
+msgstr "生成会计分录"
 
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_form
@@ -3618,9 +3575,8 @@ msgstr "Generate Accounting Entries"
 msgid "Generate Payslips"
 msgstr "生成工资单"
 
-#. modules: hr_payroll_account, hr_payroll
+#. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_hr_payslip_employees
-#: model:ir.model,name:hr_payroll_account.model_hr_payslip_employees
 msgid "Generate payslips for all selected employees"
 msgstr "为已选的所有员工生成工资单"
 
@@ -4315,11 +4271,6 @@ msgstr "分类账"
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Items"
 msgstr "分类账项目"
-
-#. module: hr_payroll_account
-#: help:hr.payslip,period_id:0
-msgid "Keep empty to use the period of the validation(Payslip) date."
-msgstr "为空使用这个期间审核(工资单)日期"
 
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_2_1
@@ -5267,7 +5218,7 @@ msgstr "Openness"
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
 msgid "Operation"
-msgstr "操作"
+msgstr "作业"
 
 #. module: hr
 #: field:hr.config.settings,module_hr_evaluation:0
@@ -5349,14 +5300,13 @@ msgstr "业务伙伴"
 msgid "Passport No"
 msgstr "护照号"
 
-#. modules: hr_payroll_account, hr_payroll
+#. module: hr_payroll
 #: field:hr.payslip.input,payslip_id:0
 #: field:hr.payslip.line,slip_id:0
 #: field:hr.payslip.worked_days,payslip_id:0
 #: model:ir.model,name:hr_payroll.model_hr_payslip
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
-#: model:ir.model,name:hr_payroll_account.model_hr_payslip
 msgid "Pay Slip"
 msgstr "工资单"
 
@@ -5378,17 +5328,17 @@ msgstr "工资单明细"
 #. module: hr_payroll
 #: model:ir.actions.report.xml,name:hr_payroll.action_contribution_register
 msgid "PaySlip Lines By Conribution Register"
-msgstr "按贡献者的工资单明细"
+msgstr "按供款者的工资单明细"
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_contributionregister
 msgid "PaySlip Lines by Contribution Register"
-msgstr "按贡献者的工资单明细"
+msgstr "按供款者的工资单明细"
 
 #. module: hr_payroll
 #: model:ir.model,name:hr_payroll.model_payslip_lines_contribution_register
 msgid "PaySlip Lines by Contribution Registers"
-msgstr "按贡献者分组的工资单明细"
+msgstr "按供款者分组的工资单明细"
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_contributionregister
@@ -5401,12 +5351,12 @@ msgstr "工资单名称"
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_root_payroll
 #: model:ir.ui.menu,name:hr_payroll.payroll_configure
 msgid "Payroll"
-msgstr "薪酬管理"
+msgstr "薪酬"
 
 #. module: hr_payroll
 #: view:hr.payroll.structure:hr_payroll.view_hr_payroll_structure_filter
 msgid "Payroll Structures"
-msgstr "付薪结构"
+msgstr "薪酬结构"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
@@ -5419,11 +5369,10 @@ msgstr "工资单"
 msgid "Payslip 'Date From' must be before 'Date To'."
 msgstr "工资单的开始日期必须在结束日期之前"
 
-#. modules: hr_payroll_account, hr_payroll
+#. module: hr_payroll
 #: field:hr.payslip,payslip_run_id:0
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
 #: model:ir.model,name:hr_payroll.model_hr_payslip_run
-#: model:ir.model,name:hr_payroll_account.model_hr_payslip_run
 msgid "Payslip Batches"
 msgstr "工资单批处理"
 
@@ -5467,19 +5416,13 @@ msgstr "Payslip Lines by Contribution Register"
 #. module: hr_payroll
 #: field:hr.payslip,name:0
 msgid "Payslip Name"
-msgstr "Payslip Name"
+msgstr "工资单名称"
 
 #. module: hr_payroll
 #: field:hr.payslip,worked_days_line_ids:0
 #: model:ir.model,name:hr_payroll.model_hr_payslip_worked_days
 msgid "Payslip Worked Days"
 msgstr "工资单工作日数"
-
-#. module: hr_payroll_account
-#: code:addons/hr_payroll_account/hr_payroll_account.py:97
-#, python-format
-msgid "Payslip of %s"
-msgstr "%s 的工资单"
 
 #. module: hr_payroll
 #: view:hr.employee:hr_payroll.payroll_hr_employee_view_form
@@ -5637,7 +5580,7 @@ msgstr "职位"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.appraisal_1_2
 msgid "Position Title"
-msgstr "Position Title"
+msgstr "职位头衔"
 
 #. modules: hr_attendance, hr_timesheet, hr_timesheet_sheet
 #: selection:hr.employee,state:0
@@ -5645,7 +5588,7 @@ msgstr "Position Title"
 #: selection:hr.sign.out.project,state:0
 #: selection:hr_timesheet_sheet.sheet,state_attendance:0
 msgid "Present"
-msgstr "出勤"
+msgstr "出席"
 
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
@@ -6190,13 +6133,6 @@ msgstr "申请人要求的薪酬"
 msgid "Salary Expected by Applicant, extra advantages"
 msgstr "应聘者的期望薪酬"
 
-#. module: hr_payroll_account
-#: field:hr.contract,journal_id:0
-#: field:hr.payslip,journal_id:0
-#: field:hr.payslip.run,journal_id:0
-msgid "Salary Journal"
-msgstr "工资分类账"
-
 #. module: hr_recruitment
 #: field:hr.recruitment.report,salary_prop:0
 msgid "Salary Proposed"
@@ -6225,7 +6161,7 @@ msgstr "工资规则分类"
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_salary_rule_category_tree_view
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_salary_rule_category_tree_view
 msgid "Salary Rule Categories Hierarchy"
-msgstr "工资规则类别树"
+msgstr "工资规则类别层级"
 
 #. module: hr_payroll
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_filter
@@ -6277,7 +6213,7 @@ msgstr "工资结构"
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_tree
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_structure_tree
 msgid "Salary Structures Hierarchy"
-msgstr "工资结构树"
+msgstr "工资结构层级"
 
 #. module: hr_contract
 #: view:hr.contract:hr_contract.hr_contract_view_form
@@ -6590,7 +6526,7 @@ msgstr "Somewhat important"
 #. module: hr_recruitment
 #: field:hr.applicant,source_id:0
 msgid "Source"
-msgstr "原文"
+msgstr "源"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.source,name:0
@@ -6860,11 +6796,6 @@ msgstr "Taking everything into account, how satisfied are you with your current 
 msgid "Talent Management"
 msgstr "人才管理"
 
-#. module: hr_payroll_account
-#: field:hr.salary.rule,account_tax_id:0
-msgid "Tax Code"
-msgstr "税编码"
-
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_4
 msgid "Team spirit: ability to work efficiently with peers, manage the conflicts with diplomacy"
@@ -6874,18 +6805,6 @@ msgstr "Team spirit: ability to work efficiently with peers, manage the conflict
 #: model:survey.label,value:hr_evaluation.arow_3_1_10
 msgid "Technical skills regarding to the job requirements"
 msgstr "Technical skills regarding to the job requirements"
-
-#. module: hr_payroll_account
-#: code:addons/hr_payroll_account/hr_payroll_account.py:152
-#, python-format
-msgid "The Expense Journal \"%s\" has not properly configured the Credit Account!"
-msgstr "费用分类账 \"%s\"未配置正确的贷方科目"
-
-#. module: hr_payroll_account
-#: code:addons/hr_payroll_account/hr_payroll_account.py:168
-#, python-format
-msgid "The Expense Journal \"%s\" has not properly configured the Debit Account!"
-msgstr "费用分类账 \"%s\"未配置正确的借方科目"
 
 #. module: hr_attendance
 #: model:ir.actions.act_window,help:hr_attendance.open_view_attendance

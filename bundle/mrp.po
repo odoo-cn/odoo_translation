@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 10:20+0000\n"
-"PO-Revision-Date: 2015-04-20 10:20+0000\n"
+"POT-Creation-Date: 2015-04-22 19:38+0000\n"
+"PO-Revision-Date: 2015-04-22 19:38+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -141,7 +141,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "               单击增加一个工作中心\n"
 "              </p><p>\n"
-"                工作中心允许建立建立和关联一个生产单元。他们可以是工人和（或）机\n"
+"                工作中心允许建立建立和关联一个制造单元。他们可以是工人和（或）机\n"
 "                 器，被作为任务分配以及能力和计划规划的单元\n"
 "              </p>\n"
 "            "
@@ -295,7 +295,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "               单击 创建工艺路线.\n"
 "              </p><p>\n"
-"                工艺路线允许你建立和管理为生产产品而在工作中心进行的 生产操作. \n"
+"                工艺路线允许你建立和管理为生产产品而在工作中心进行的制造作业. \n"
 "                他们附加在定义了所需原材料的BOM中。\n"
 "              </p>\n"
 "            "
@@ -362,8 +362,8 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "            单击创建一个新的工单。\n"
 "          </p><p>\n"
-"           工单是每个生产订单要被执行的操作的列表。\n"
-"            一旦你的启动生产订单的第一个工单，生产订单将被自动标记为启动。\n"
+"           工单是每个制造订单要被执行的操作的列表。\n"
+"            一旦你的启动制造订单的第一个工单，制造订单将被自动标记为启动。\n"
 "            一旦你完成了生成订单最后的操作，生成订单被自动完成。\n"
 "            并且相关的产品被制造完成。\n"
 "          </p>\n"
@@ -693,7 +693,7 @@ msgstr "Cannot consume a move with negative or zero quantity."
 #: code:addons/mrp/mrp.py:618
 #, python-format
 msgid "Cannot delete a manufacturing order in state '%s'."
-msgstr "不能删除'%s'状态的生产订单。"
+msgstr "不能删除'%s'状态的制造订单。"
 
 #. module: mrp
 #: code:addons/mrp/mrp.py:692
@@ -716,7 +716,7 @@ msgstr "能力信息"
 #. module: mrp
 #: field:mrp.workcenter,capacity_per_cycle:0
 msgid "Capacity per Cycle"
-msgstr "每循环生产能力"
+msgstr "每循环能力"
 
 #. module: mrp
 #: view:change.production.qty:mrp.view_change_production_qty_wizard
@@ -815,7 +815,7 @@ msgstr "设置"
 #: model:ir.actions.act_window,name:mrp.action_mrp_configuration
 #: view:mrp.config.settings:mrp.view_mrp_config
 msgid "Configure Manufacturing"
-msgstr "配置生产"
+msgstr "配置制造"
 
 #. module: mrp
 #: view:mrp.product.produce:mrp.view_mrp_product_produce_wizard
@@ -1048,7 +1048,7 @@ msgstr "Define how the quantity of byproducts will be set on the production orde
 #. module: mrp
 #: field:mrp.config.settings,module_product_manufacturer:0
 msgid "Define manufacturers on products "
-msgstr "定义产品的生产商 "
+msgstr "定义产品的制造商 "
 
 #. module: mrp_operations
 #: field:mrp.workorder,delay:0
@@ -1238,7 +1238,7 @@ msgstr "Forces to specify a Serial Number for all moves containing this product 
 #. module: mrp_operations
 #: field:mrp.production,allow_reorder:0
 msgid "Free Serialisation"
-msgstr "自由排序生产"
+msgstr "自由排序"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_draft_action
@@ -1457,7 +1457,7 @@ msgstr "内部备注"
 #. module: mrp
 #: field:mrp.bom,position:0
 msgid "Internal Reference"
-msgstr "内部单号"
+msgstr "内部参考"
 
 #. module: mrp
 #: code:addons/mrp/mrp.py:301
@@ -1687,19 +1687,19 @@ msgstr "Manufacture in this Warehouse"
 #: view:product.product:mrp.product_product_form_view_bom_button
 #: view:product.template:mrp.product_template_form_view_bom_button
 msgid "Manufacturing"
-msgstr "生产"
+msgstr "制造"
 
 #. module: mrp
 #: field:mrp.bom,product_efficiency:0
 #: field:mrp.bom.line,product_efficiency:0
 msgid "Manufacturing Efficiency"
-msgstr "生产效率"
+msgstr "制造效率"
 
 #. module: mrp
 #: field:product.template,produce_delay:0
 #: field:res.company,manufacturing_lead:0
 msgid "Manufacturing Lead Time"
-msgstr "生产提前期"
+msgstr "制造提前期"
 
 #. modules: sale_mrp, mrp, mrp_operations, mrp_byproduct
 #: model:ir.model,name:mrp.model_mrp_production
@@ -1711,13 +1711,13 @@ msgstr "生产提前期"
 #: model:ir.model,name:mrp_operations.model_mrp_production
 #: model:ir.model,name:sale_mrp.model_mrp_production
 msgid "Manufacturing Order"
-msgstr "生产单"
+msgstr "制造订单"
 
 #. module: mrp
 #: code:addons/mrp/procurement.py:131
 #, python-format
 msgid "Manufacturing Order <em>%s</em> created."
-msgstr "生产订单 <em>%s</em>  创建。"
+msgstr "制造订单 <em>%s</em>  创建。"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.act_product_mrp_production
@@ -1729,22 +1729,22 @@ msgstr "生产订单 <em>%s</em>  创建。"
 #: view:mrp.production:mrp.view_production_calendar
 #: view:mrp.production:mrp.view_production_graph
 msgid "Manufacturing Orders"
-msgstr "生产订单"
+msgstr "制造订单"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_production_action2
 msgid "Manufacturing Orders To Start"
-msgstr "未开始的生产订单"
+msgstr "待开始的制造订单"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_production_action4
 msgid "Manufacturing Orders Waiting Products"
-msgstr "等待原材料的生产订单"
+msgstr "等待产品的制造订单"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.mrp_production_action3
 msgid "Manufacturing Orders in Progress"
-msgstr "未完成的生产订单"
+msgstr "进行中的制造订单"
 
 #. module: mrp
 #: view:mrp.production:mrp.view_mrp_production_filter
@@ -1958,7 +1958,7 @@ msgstr "打开MRP 菜单"
 #. module: mrp
 #: view:mrp.routing:mrp.mrp_routing_form_view
 msgid "Operation"
-msgstr "操作"
+msgstr "作业"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_code_action
@@ -2015,7 +2015,7 @@ msgstr "作业"
 #. module: mrp
 #: view:mrp.config.settings:mrp.view_mrp_config
 msgid "Order"
-msgstr "付款单"
+msgstr "订单"
 
 #. module: mrp_operations
 #: field:mrp_operations.operation,order_date:0
@@ -2025,7 +2025,7 @@ msgstr "单据日期"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_production_order_action
 msgid "Order Planning"
-msgstr "制造单计划"
+msgstr "订单计划"
 
 #. module: mrp
 #: constraint:mrp.production:0
@@ -2177,13 +2177,13 @@ msgstr "生产"
 #. module: mrp
 #: field:mrp.config.settings,module_mrp_byproduct:0
 msgid "Produce several products from one manufacturing order"
-msgstr "从一个生产订单生产几个产品"
+msgstr "从一个制造订单生产几个产品"
 
 #. module: mrp
 #: view:mrp.production:mrp.mrp_production_form_view
 #: field:mrp.production,move_created_ids2:0
 msgid "Produced Products"
-msgstr "产出的产品"
+msgstr "生产的产品"
 
 #. modules: mrp_repair, mrp, mrp_operations, mrp_byproduct
 #: model:ir.model,name:mrp.model_product_product
@@ -2243,7 +2243,7 @@ msgstr "Product Produce Consume lines"
 #: field:mrp.subproduct,product_qty:0
 #: field:mrp.workorder,product_qty:0
 msgid "Product Qty"
-msgstr "数量"
+msgstr "产品数量"
 
 #. modules: mrp_repair, mrp
 #: field:mrp.bom,product_qty:0
@@ -2358,7 +2358,7 @@ msgstr "生产作业"
 #: view:mrp_operations.operation.code:mrp_operations.mrp_production_code_form_view
 #: view:mrp_operations.operation.code:mrp_operations.mrp_production_code_tree_view
 msgid "Production Operation Code"
-msgstr "生产作业编号"
+msgstr "生产作业代码"
 
 #. module: mrp
 #: model:ir.actions.report.xml,name:mrp.action_report_production_order
@@ -2384,12 +2384,12 @@ msgstr "Production Order for Raw Materials"
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_product_line
 msgid "Production Scheduled Product"
-msgstr "要生产的产品"
+msgstr "生产安排的产品"
 
 #. module: mrp
 #: selection:mrp.production,state:0
 msgid "Production Started"
-msgstr "生产已开始"
+msgstr "已开始的生产"
 
 #. module: mrp_operations
 #: field:mrp.production.workcenter.line,production_state:0
@@ -2409,13 +2409,13 @@ msgstr "生成工作中心"
 #. module: mrp
 #: field:mrp.production,progress:0
 msgid "Production progress"
-msgstr "Production progress"
+msgstr "生产进度"
 
 #. modules: mrp, mrp_operations
 #: view:mrp.production:mrp.view_mrp_production_filter
 #: view:mrp.production.workcenter.line:mrp_operations.view_mrp_production_workcenter_form_view_filter
 msgid "Production started late"
-msgstr "未准时开始生产"
+msgstr "延迟的生产"
 
 #. module: mrp
 #: view:mrp.production:mrp.view_production_gantt
@@ -2580,7 +2580,7 @@ msgstr "Ready To Repair"
 #: selection:mrp.production,state:0
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Ready to Produce"
-msgstr "已准备待生产"
+msgstr "已准备生产"
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
@@ -2802,7 +2802,7 @@ msgstr "销售订单明细"
 #: field:mrp.production,date_planned:0
 #: field:mrp.production.workcenter.line,date_planned:0
 msgid "Scheduled Date"
-msgstr "预定日期"
+msgstr "安排日期"
 
 #. modules: mrp, mrp_operations
 #: view:mrp.production:mrp.view_mrp_production_filter
@@ -2877,7 +2877,7 @@ msgstr "工作中心列表"
 #. module: mrp
 #: help:res.company,manufacturing_lead:0
 msgid "Security days for each manufacturing operation."
-msgstr "每个生产活动的确保天数"
+msgstr "每个制造作业的确保天数"
 
 #. module: mrp
 #: field:mrp.product.produce,product_qty:0
@@ -3031,7 +3031,7 @@ msgstr "状态"
 #: model:ir.model,name:mrp_operations.model_stock_move
 #: model:ir.model,name:sale_mrp.model_stock_move
 msgid "Stock Move"
-msgstr "Stock Move"
+msgstr "库存移动"
 
 #. module: mrp
 #: field:report.mrp.inout,value:0
@@ -3334,7 +3334,7 @@ msgstr "VAT:"
 #: field:mrp.bom,date_start:0
 #: field:mrp.bom.line,date_start:0
 msgid "Valid From"
-msgstr "有效从"
+msgstr "有效自"
 
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
@@ -3352,7 +3352,7 @@ msgstr "Valid From Month"
 #: field:mrp.bom,date_stop:0
 #: field:mrp.bom.line,date_stop:0
 msgid "Valid Until"
-msgstr "有效到"
+msgstr "有效至"
 
 #. module: mrp
 #: help:mrp.bom.line,date_start:0
@@ -3598,7 +3598,7 @@ msgstr "工单"
 #. module: mrp_operations
 #: model:ir.ui.menu,name:mrp_operations.menu_mrp_production_wc_action_planning
 msgid "Work Orders By Resource"
-msgstr "工单，按资源"
+msgstr "工单"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_wc_action_planning

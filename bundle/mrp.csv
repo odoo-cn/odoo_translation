@@ -33,7 +33,7 @@ mrp,model,"ir.actions.act_window,help",mrp.mrp_workcenter_action,"<p class=""oe_
             ","<p class=""oe_view_nocontent_create"">
                单击增加一个工作中心
               </p><p>
-                工作中心允许建立建立和关联一个生产单元。他们可以是工人和（或）机
+                工作中心允许建立建立和关联一个制造单元。他们可以是工人和（或）机
                  器，被作为任务分配以及能力和计划规划的单元
               </p>
             "
@@ -140,7 +140,7 @@ mrp,model,"ir.actions.act_window,help",mrp.mrp_routing_action,"<p class=""oe_vie
             ","<p class=""oe_view_nocontent_create"">
                单击 创建工艺路线.
               </p><p>
-                工艺路线允许你建立和管理为生产产品而在工作中心进行的 生产操作. 
+                工艺路线允许你建立和管理为生产产品而在工作中心进行的制造作业. 
                 他们附加在定义了所需原材料的BOM中。
               </p>
             "
@@ -239,12 +239,12 @@ mrp,view,stock.move.consume,mrp.view_stock_move_consume_wizard,Cancel,取消
 mrp,view,mrp.production,mrp.mrp_production_form_view,Cancel Production,取消生产
 mrp,selection,"mrp.production,state",0,Cancelled,已取消
 mrp,code,addons/mrp/stock.py,183,Cannot consume a move with negative or zero quantity.,Cannot consume a move with negative or zero quantity.
-mrp,code,addons/mrp/mrp.py,618,Cannot delete a manufacturing order in state '%s'.,不能删除'%s'状态的生产订单。
+mrp,code,addons/mrp/mrp.py,618,Cannot delete a manufacturing order in state '%s'.,不能删除'%s'状态的制造订单。
 mrp,code,addons/mrp/mrp.py,692,Cannot find a bill of material for this product.,找不到这个产品的BOM
 mrp,code,addons/mrp/wizard/change_production_qty.py,83,Cannot find bill of material for this product.,不能找到这个产品的BOM
 mrp,code,addons/mrp/wizard/change_production_qty.py,88,Cannot find bill of material for this product.,不能找到这个产品的BOM
 mrp,view,mrp.workcenter,mrp.mrp_workcenter_view,Capacity Information,能力信息
-mrp,field,"mrp.workcenter,capacity_per_cycle",0,Capacity per Cycle,每循环生产能力
+mrp,field,"mrp.workcenter,capacity_per_cycle",0,Capacity per Cycle,每循环能力
 mrp,view,change.production.qty,mrp.view_change_production_qty_wizard,Change Product Qty,改变产品数量
 mrp,model,"ir.actions.act_window,name",mrp.action_change_production_qty,Change Product Qty,改变产品数量
 mrp,view,change.production.qty,mrp.view_change_production_qty_wizard,Change Quantity,修改数量
@@ -267,8 +267,8 @@ mrp,code,addons/mrp/report/price.py,189,Components Cost of %s %s,部件成本：
 mrp,code,addons/mrp/report/price.py,141,Components suppliers,部件供应商
 mrp,view,mrp.production,mrp.mrp_production_form_view,Compute Data,计算数据
 mrp,model,"ir.ui.menu,name",mrp.menu_mrp_configuration,Configuration,设置
-mrp,model,"ir.actions.act_window,name",mrp.action_mrp_configuration,Configure Manufacturing,配置生产
-mrp,view,mrp.config.settings,mrp.view_mrp_config,Configure Manufacturing,配置生产
+mrp,model,"ir.actions.act_window,name",mrp.action_mrp_configuration,Configure Manufacturing,配置制造
+mrp,view,mrp.config.settings,mrp.view_mrp_config,Configure Manufacturing,配置制造
 mrp,view,mrp.product.produce,mrp.view_mrp_product_produce_wizard,Confirm,确认
 mrp,view,mrp.production,mrp.mrp_production_form_view,Confirm Production,确认生产
 mrp,selection,"mrp.product.produce,mode",0,Consume & Produce,投料并产出
@@ -331,7 +331,7 @@ mrp,help,"mrp.production.workcenter.line,message_last_post",0,Date of the last m
 mrp,selection,"mrp.workcenter.load,time_unit",0,Day by day,逐日
 mrp,view,mrp.bom,mrp.view_mrp_bom_filter,Default Unit of Measure,默认计量单位
 mrp,view,mrp.bom.line,mrp.view_mrp_bom_line_filter,Default Unit of Measure,默认计量单位
-mrp,field,"mrp.config.settings,module_product_manufacturer",0,Define manufacturers on products ,定义产品的生产商 
+mrp,field,"mrp.config.settings,module_product_manufacturer",0,Define manufacturers on products ,定义产品的制造商 
 mrp,field,"mrp.property,description",0,Description,说明
 mrp,field,"mrp.property.group,description",0,Description,说明
 mrp,field,"mrp.routing,note",0,Description,说明
@@ -404,7 +404,7 @@ mrp,help,"mrp.routing,active",0,"If the active field is set to False, it will al
 mrp,view,mrp.production,mrp.view_mrp_production_filter,In Production,生产中
 mrp,view,mrp.routing,mrp.mrp_routing_search_view,Inactive,不活跃的
 mrp,view,mrp.workcenter,mrp.view_mrp_workcenter_search,Inactive,不活跃的
-mrp,field,"mrp.bom,position",0,Internal Reference,内部单号
+mrp,field,"mrp.bom,position",0,Internal Reference,内部参考
 mrp,code,addons/mrp/mrp.py,301,Invalid Action!,Invalid Action!
 mrp,code,addons/mrp/mrp.py,327,Invalid Action!,Invalid Action!
 mrp,code,addons/mrp/mrp.py,618,Invalid Action!,Invalid Action!
@@ -464,31 +464,31 @@ mrp,code,addons/mrp/procurement.py,33,Manufacture,Manufacture
 mrp,code,addons/mrp/stock.py,256,Manufacture,Manufacture
 mrp,field,"stock.warehouse,manufacture_pull_id",0,Manufacture Rule,Manufacture Rule
 mrp,field,"stock.warehouse,manufacture_to_resupply",0,Manufacture in this Warehouse,Manufacture in this Warehouse
-mrp,model,"ir.ui.menu,name",mrp.menu_mrp_manufacturing,Manufacturing,生产
-mrp,model,"ir.ui.menu,name",mrp.next_id_77,Manufacturing,生产
-mrp,view,product.product,mrp.product_product_form_view_bom_button,Manufacturing,生产
-mrp,view,product.template,mrp.product_template_form_view_bom_button,Manufacturing,生产
-mrp,field,"mrp.bom,product_efficiency",0,Manufacturing Efficiency,生产效率
-mrp,field,"mrp.bom.line,product_efficiency",0,Manufacturing Efficiency,生产效率
-mrp,field,"product.template,produce_delay",0,Manufacturing Lead Time,生产提前期
-mrp,field,"res.company,manufacturing_lead",0,Manufacturing Lead Time,生产提前期
-mrp,model,"ir.model,name",mrp.model_mrp_production,Manufacturing Order,生产单
-mrp,view,mrp.config.settings,mrp.view_mrp_config,Manufacturing Order,生产单
-mrp,view,mrp.production,mrp.mrp_production_form_view,Manufacturing Order,生产单
-mrp,field,"mrp.production.workcenter.line,production_id",0,Manufacturing Order,生产单
-mrp,field,"procurement.order,production_id",0,Manufacturing Order,生产单
-mrp,code,addons/mrp/procurement.py,131,Manufacturing Order <em>%s</em> created.,生产订单 <em>%s</em>  创建。
-mrp,model,"ir.actions.act_window,name",mrp.act_product_mrp_production,Manufacturing Orders,生产订单
-mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action,Manufacturing Orders,生产订单
-mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action_planning,Manufacturing Orders,生产订单
-mrp,model,"ir.ui.menu,name",mrp.menu_mrp_production_action,Manufacturing Orders,生产订单
-mrp,view,mrp.production,mrp.mrp_production_form_view,Manufacturing Orders,生产订单
-mrp,view,mrp.production,mrp.mrp_production_tree_view,Manufacturing Orders,生产订单
-mrp,view,mrp.production,mrp.view_production_calendar,Manufacturing Orders,生产订单
-mrp,view,mrp.production,mrp.view_production_graph,Manufacturing Orders,生产订单
-mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action2,Manufacturing Orders To Start,未开始的生产订单
-mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action4,Manufacturing Orders Waiting Products,等待原材料的生产订单
-mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action3,Manufacturing Orders in Progress,未完成的生产订单
+mrp,model,"ir.ui.menu,name",mrp.menu_mrp_manufacturing,Manufacturing,制造
+mrp,model,"ir.ui.menu,name",mrp.next_id_77,Manufacturing,制造
+mrp,view,product.product,mrp.product_product_form_view_bom_button,Manufacturing,制造
+mrp,view,product.template,mrp.product_template_form_view_bom_button,Manufacturing,制造
+mrp,field,"mrp.bom,product_efficiency",0,Manufacturing Efficiency,制造效率
+mrp,field,"mrp.bom.line,product_efficiency",0,Manufacturing Efficiency,制造效率
+mrp,field,"product.template,produce_delay",0,Manufacturing Lead Time,制造提前期
+mrp,field,"res.company,manufacturing_lead",0,Manufacturing Lead Time,制造提前期
+mrp,model,"ir.model,name",mrp.model_mrp_production,Manufacturing Order,制造订单
+mrp,view,mrp.config.settings,mrp.view_mrp_config,Manufacturing Order,制造订单
+mrp,view,mrp.production,mrp.mrp_production_form_view,Manufacturing Order,制造订单
+mrp,field,"mrp.production.workcenter.line,production_id",0,Manufacturing Order,制造订单
+mrp,field,"procurement.order,production_id",0,Manufacturing Order,制造订单
+mrp,code,addons/mrp/procurement.py,131,Manufacturing Order <em>%s</em> created.,制造订单 <em>%s</em>  创建。
+mrp,model,"ir.actions.act_window,name",mrp.act_product_mrp_production,Manufacturing Orders,制造订单
+mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action,Manufacturing Orders,制造订单
+mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action_planning,Manufacturing Orders,制造订单
+mrp,model,"ir.ui.menu,name",mrp.menu_mrp_production_action,Manufacturing Orders,制造订单
+mrp,view,mrp.production,mrp.mrp_production_form_view,Manufacturing Orders,制造订单
+mrp,view,mrp.production,mrp.mrp_production_tree_view,Manufacturing Orders,制造订单
+mrp,view,mrp.production,mrp.view_production_calendar,Manufacturing Orders,制造订单
+mrp,view,mrp.production,mrp.view_production_graph,Manufacturing Orders,制造订单
+mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action2,Manufacturing Orders To Start,待开始的制造订单
+mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action4,Manufacturing Orders Waiting Products,等待产品的制造订单
+mrp,model,"ir.actions.act_window,name",mrp.mrp_production_action3,Manufacturing Orders in Progress,进行中的制造订单
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Manufacturing Orders which are currently in production.,正在生产过程中的制造订单
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Manufacturing Orders which are ready to start production.,可以开始生产的制造订单
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Manufacturing Orders which are waiting for raw materials.,等待原材料的制造订单
@@ -529,9 +529,9 @@ mrp,field,"report.workcenter.load,hour",0,Number of Hours,工时数
 mrp,help,"mrp.routing.workcenter,cycle_nbr",0,Number of iterations this work center has to do in the specified operation of the routing.,工作中心完成这道工序需要执行的次数
 mrp,help,"mrp.workcenter,capacity_per_cycle",0,"Number of operations this Work Center can do in parallel. If this Work Center represents a team of 5 workers, the capacity per cycle is 5.",此工作中心可以并行操作的数量。如果这个工作中心是5个工人的工作组，那么每循环的能力是5。
 mrp,model,"ir.actions.client,name",mrp.action_client_mrp_menu,Open MRP Menu,打开MRP 菜单
-mrp,view,mrp.routing,mrp.mrp_routing_form_view,Operation,操作
-mrp,view,mrp.config.settings,mrp.view_mrp_config,Order,付款单
-mrp,model,"ir.ui.menu,name",mrp.menu_mrp_production_order_action,Order Planning,制造单计划
+mrp,view,mrp.routing,mrp.mrp_routing_form_view,Operation,作业
+mrp,view,mrp.config.settings,mrp.view_mrp_config,Order,订单
+mrp,model,"ir.ui.menu,name",mrp.menu_mrp_production_order_action,Order Planning,订单计划
 mrp,constraint,mrp.production,0,Order quantity cannot be negative or zero!,订单数量不能是负数或者0！
 mrp,field,"mrp.bom.line,bom_id",0,Parent BoM,上级物料清单
 mrp,field,"mrp.routing.workcenter,routing_id",0,Parent Routing,上级工艺路线
@@ -554,9 +554,9 @@ mrp,model,"ir.model,name",mrp.model_procurement_rule,Procurement Rule,补货规�
 mrp,model,"ir.actions.act_window,name",mrp.act_mrp_product_produce,Produce,生产
 mrp,view,mrp.product.produce,mrp.view_mrp_product_produce_wizard,Produce,生产
 mrp,view,mrp.production,mrp.mrp_production_form_view,Produce,生产
-mrp,field,"mrp.config.settings,module_mrp_byproduct",0,Produce several products from one manufacturing order,从一个生产订单生产几个产品
-mrp,view,mrp.production,mrp.mrp_production_form_view,Produced Products,产出的产品
-mrp,field,"mrp.production,move_created_ids2",0,Produced Products,产出的产品
+mrp,field,"mrp.config.settings,module_mrp_byproduct",0,Produce several products from one manufacturing order,从一个制造订单生产几个产品
+mrp,view,mrp.production,mrp.mrp_production_form_view,Produced Products,生产的产品
+mrp,field,"mrp.production,move_created_ids2",0,Produced Products,生产的产品
 mrp,model,"ir.model,name",mrp.model_product_product,Product,产品
 mrp,view,mrp.bom,mrp.view_mrp_bom_filter,Product,产品
 mrp,field,"mrp.bom,product_tmpl_id",0,Product,产品
@@ -574,7 +574,7 @@ mrp,field,"mrp.production,move_prod_id",0,Product Move,产品移动
 mrp,model,"ir.model,name",mrp.model_mrp_product_price,Product Price,产品价格
 mrp,model,"ir.model,name",mrp.model_mrp_product_produce,Product Produce,产品生产
 mrp,model,"ir.model,name",mrp.model_mrp_product_produce_line,Product Produce Consume lines,Product Produce Consume lines
-mrp,field,"change.production.qty,product_qty",0,Product Qty,数量
+mrp,field,"change.production.qty,product_qty",0,Product Qty,产品数量
 mrp,field,"mrp.bom,product_qty",0,Product Quantity,产品数量
 mrp,field,"mrp.bom.line,product_qty",0,Product Quantity,产品数量
 mrp,field,"mrp.production,product_qty",0,Product Quantity,产品数量
@@ -604,11 +604,11 @@ mrp,field,"mrp.production.product.line,production_id",0,Production Order,生产�
 mrp,view,website,mrp.report_mrporder,Production Order N° :,生产单号:
 mrp,field,"stock.move,production_id",0,Production Order for Produced Products,Production Order for Produced Products
 mrp,field,"stock.move,raw_material_production_id",0,Production Order for Raw Materials,Production Order for Raw Materials
-mrp,model,"ir.model,name",mrp.model_mrp_production_product_line,Production Scheduled Product,要生产的产品
-mrp,selection,"mrp.production,state",0,Production Started,生产已开始
+mrp,model,"ir.model,name",mrp.model_mrp_production_product_line,Production Scheduled Product,生产安排的产品
+mrp,selection,"mrp.production,state",0,Production Started,已开始的生产
 mrp,view,mrp.production,mrp.mrp_production_form_view,Production Work Centers,生产工作中心
-mrp,field,"mrp.production,progress",0,Production progress,Production progress
-mrp,view,mrp.production,mrp.view_mrp_production_filter,Production started late,未准时开始生产
+mrp,field,"mrp.production,progress",0,Production progress,生产进度
+mrp,view,mrp.production,mrp.view_mrp_production_filter,Production started late,延迟的生产
 mrp,view,mrp.production,mrp.view_production_gantt,Productions,生产
 mrp,model,"ir.actions.act_window,name",mrp.product_template_action,Products,产品
 mrp,model,"ir.ui.menu,name",mrp.menu_mrp_bom,Products,产品
@@ -649,7 +649,7 @@ mrp,field,"mrp.product.produce.line,product_qty",0,Quantity (in default UoM),Qua
 mrp,view,website,mrp.report_mrporder,Quantity:,Quantity:
 mrp,field,"mrp.production,location_src_id",0,Raw Materials Location,原材料库位
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Ready,准备好
-mrp,selection,"mrp.production,state",0,Ready to Produce,已准备待生产
+mrp,selection,"mrp.production,state",0,Ready to Produce,已准备生产
 mrp,view,mrp.bom,mrp.mrp_bom_form_view,Reference,参考
 mrp,field,"mrp.bom,code",0,Reference,参考
 mrp,field,"mrp.production,name",0,Reference,参考
@@ -679,7 +679,7 @@ mrp,model,"ir.actions.act_window,name",mrp.mrp_routing_action,Routings,工艺路
 mrp,model,"ir.ui.menu,name",mrp.menu_mrp_routing_action,Routings,工艺路线
 mrp,help,"mrp.config.settings,group_mrp_routings",0,Routings allow you to create and manage the manufacturing operations that should be followed within your work centers in order to produce a product. They are attached to bills of materials that will define the required raw materials.,工艺允许创建或管理在工作中心上要执行的操作。它被指定给物料清单。
 mrp,view,website,mrp.report_mrporder,SO Number:,SO Number:
-mrp,field,"mrp.production,date_planned",0,Scheduled Date,预定日期
+mrp,field,"mrp.production,date_planned",0,Scheduled Date,安排日期
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Scheduled Date by Month,Scheduled Date by Month
 mrp,view,website,mrp.report_mrporder,Scheduled Date:,Scheduled Date:
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Scheduled Month,Scheduled Month
@@ -693,7 +693,7 @@ mrp,view,mrp.bom,mrp.view_mrp_bom_filter,Search Bill Of Material,搜索物料清
 mrp,view,mrp.bom.line,mrp.view_mrp_bom_line_filter,Search Bill Of Material Components,Search Bill Of Material Components
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Search Production,搜索产品
 mrp,view,mrp.workcenter,mrp.view_mrp_workcenter_search,Search for mrp workcenter,工作中心列表
-mrp,help,"res.company,manufacturing_lead",0,Security days for each manufacturing operation.,每个生产活动的确保天数
+mrp,help,"res.company,manufacturing_lead",0,Security days for each manufacturing operation.,每个制造作业的确保天数
 mrp,field,"mrp.product.produce,product_qty",0,Select Quantity,选择数量
 mrp,view,mrp.workcenter.load,mrp.view_mrp_workcenter_load_wizard,Select time unit,选择时间单位
 mrp,field,"mrp.bom,sequence",0,Sequence,序列
@@ -712,7 +712,7 @@ mrp,help,"mrp.product_price,number",0,Specify quantity of products to produce or
 mrp,field,"mrp.production,date_start",0,Start Date,开始日期
 mrp,view,mrp.production,mrp.view_mrp_production_filter,Status,状态
 mrp,field,"mrp.production,state",0,Status,状态
-mrp,model,"ir.model,name",mrp.model_stock_move,Stock Move,Stock Move
+mrp,model,"ir.model,name",mrp.model_stock_move,Stock Move,库存移动
 mrp,field,"report.mrp.inout,value",0,Stock value,库存值
 mrp,model,"ir.model,name",mrp.model_report_mrp_inout,Stock value variation,库存值变化
 mrp,view,report.mrp.inout,mrp.view_report_in_out_picking_form,Stock value variation,库存值变化
@@ -774,14 +774,14 @@ mrp,field,"mrp.production.workcenter.line,message_unread",0,Unread Messages,未�
 mrp,view,mrp.production,mrp.mrp_production_form_view,Update,更新
 mrp,selection,"mrp.production,priority",0,Urgent,紧急
 mrp,model,"res.groups,name",mrp.group_mrp_user,User,用户
-mrp,field,"mrp.bom,date_start",0,Valid From,有效从
-mrp,field,"mrp.bom.line,date_start",0,Valid From,有效从
+mrp,field,"mrp.bom,date_start",0,Valid From,有效自
+mrp,field,"mrp.bom.line,date_start",0,Valid From,有效自
 mrp,view,mrp.bom,mrp.view_mrp_bom_filter,Valid From Date by Month,Valid From Date by Month
 mrp,view,mrp.bom.line,mrp.view_mrp_bom_line_filter,Valid From Date by Month,Valid From Date by Month
 mrp,view,mrp.bom,mrp.view_mrp_bom_filter,Valid From Month,Valid From Month
 mrp,view,mrp.bom.line,mrp.view_mrp_bom_line_filter,Valid From Month,Valid From Month
-mrp,field,"mrp.bom,date_stop",0,Valid Until,有效到
-mrp,field,"mrp.bom.line,date_stop",0,Valid Until,有效到
+mrp,field,"mrp.bom,date_stop",0,Valid Until,有效至
+mrp,field,"mrp.bom.line,date_stop",0,Valid Until,有效至
 mrp,help,"mrp.bom.line,date_start",0,Validity of component. Keep empty if it's always valid.,Validity of component. Keep empty if it's always valid.
 mrp,help,"mrp.bom.line,date_stop",0,Validity of component. Keep empty if it's always valid.,Validity of component. Keep empty if it's always valid.
 mrp,help,"mrp.bom,date_start",0,Validity of this BoM. Keep empty if it's always valid.,Validity of this BoM. Keep empty if it's always valid.
@@ -887,9 +887,9 @@ mrp_byproduct,selection,"mrp.subproduct,subproduct_type",0,Fixed,固定
 mrp_byproduct,field,"mrp.subproduct,id",0,ID,ID
 mrp_byproduct,field,"mrp.subproduct,write_uid",0,Last Updated by,最后更新
 mrp_byproduct,field,"mrp.subproduct,write_date",0,Last Updated on,最后更新
-mrp_byproduct,model,"ir.model,name",mrp_byproduct.model_mrp_production,Manufacturing Order,生产单
+mrp_byproduct,model,"ir.model,name",mrp_byproduct.model_mrp_production,Manufacturing Order,制造订单
 mrp_byproduct,field,"mrp.subproduct,product_id",0,Product,产品
-mrp_byproduct,field,"mrp.subproduct,product_qty",0,Product Qty,数量
+mrp_byproduct,field,"mrp.subproduct,product_qty",0,Product Qty,产品数量
 mrp_byproduct,field,"mrp.subproduct,product_uom",0,Product Unit of Measure,产品计量单位
 mrp_byproduct,field,"mrp.subproduct,subproduct_type",0,Quantity Type,Quantity Type
 mrp_byproduct,code,addons/mrp_byproduct/mrp_byproduct.py,63,The Product Unit of Measure you chose has a different category than in the product form.,The Product Unit of Measure you chose has a different category than in the product form.
@@ -935,8 +935,8 @@ mrp_operations,model,"ir.actions.act_window,help",mrp_operations.mrp_production_
         ","<p class=""oe_view_nocontent_create"">
             单击创建一个新的工单。
           </p><p>
-           工单是每个生产订单要被执行的操作的列表。
-            一旦你的启动生产订单的第一个工单，生产订单将被自动标记为启动。
+           工单是每个制造订单要被执行的操作的列表。
+            一旦你的启动制造订单的第一个工单，制造订单将被自动标记为启动。
             一旦你完成了生成订单最后的操作，生成订单被自动完成。
             并且相关的产品被制造完成。
           </p>
@@ -984,7 +984,7 @@ mrp_operations,view,mrp.production,mrp_operations.mrp_production_form_inherit_vi
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.mrp_production_workcenter_form_view_inherit,Finished,已完成
 mrp_operations,selection,"mrp.production.workcenter.line,state",0,Finished,已完成
 mrp_operations,selection,"mrp.workorder,state",0,Finished,已完成
-mrp_operations,field,"mrp.production,allow_reorder",0,Free Serialisation,自由排序生产
+mrp_operations,field,"mrp.production,allow_reorder",0,Free Serialisation,自由排序
 mrp_operations,model,"ir.actions.act_window,name",mrp_operations.mrp_production_wc_draft_action,Future Work Orders,未来工单
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Group By,分组于
 mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_filter,Group By,分组于
@@ -1005,7 +1005,7 @@ mrp_operations,field,"mrp_operations.operation.code,write_uid",0,Last Updated by
 mrp_operations,field,"mrp_operations.operation,write_date",0,Last Updated on,最后更新
 mrp_operations,field,"mrp_operations.operation.code,write_date",0,Last Updated on,最后更新
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Late,延迟
-mrp_operations,model,"ir.model,name",mrp_operations.model_mrp_production,Manufacturing Order,生产单
+mrp_operations,model,"ir.model,name",mrp_operations.model_mrp_production,Manufacturing Order,制造订单
 mrp_operations,code,addons/mrp_operations/mrp_operations.py,122,"Manufacturing order cannot be started in state ""%s""!","Manufacturing order cannot be started in state ""%s""!"
 mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_filter,Month Planned,Month Planned
 mrp_operations,code,addons/mrp_operations/mrp_operations.py,461,No operation to cancel.,没有操作被取消
@@ -1032,27 +1032,27 @@ mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_filte
 mrp_operations,field,"mrp.production.workcenter.line,product",0,Product,产品
 mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_filter,Product,产品
 mrp_operations,field,"mrp.workorder,product_id",0,Product,产品
-mrp_operations,field,"mrp.workorder,product_qty",0,Product Qty,数量
+mrp_operations,field,"mrp.workorder,product_qty",0,Product Qty,产品数量
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.mrp_production_workcenter_form_view_inherit,Product to Produce,待生产的产品
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Production,生产
 mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_filter,Production,生产
 mrp_operations,field,"mrp.workorder,production_id",0,Production,生产
 mrp_operations,field,"mrp_operations.operation,production_id",0,Production,生产
 mrp_operations,view,mrp_operations.operation,mrp_operations.mrp_production_operation_tree_view,Production Operation,生产作业
-mrp_operations,view,mrp_operations.operation.code,mrp_operations.mrp_production_code_form_view,Production Operation Code,生产作业编号
-mrp_operations,view,mrp_operations.operation.code,mrp_operations.mrp_production_code_tree_view,Production Operation Code,生产作业编号
+mrp_operations,view,mrp_operations.operation.code,mrp_operations.mrp_production_code_form_view,Production Operation Code,生产作业代码
+mrp_operations,view,mrp_operations.operation.code,mrp_operations.mrp_production_code_tree_view,Production Operation Code,生产作业代码
 mrp_operations,field,"mrp.production.workcenter.line,production_state",0,Production Status,生产状态
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.mrp_production_workcenter_form_view_inherit,Production Workcenter,生成工作中心
-mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Production started late,未准时开始生产
+mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Production started late,延迟的生产
 mrp_operations,field,"mrp.production.workcenter.line,qty",0,Qty,数量
 mrp_operations,model,"ir.filters,name",mrp_operations.filter_mrp_workorder_quantity_produced,Quantity Produced,Quantity Produced
-mrp_operations,selection,"mrp.production.workcenter.line,production_state",0,Ready to Produce,已准备待生产
+mrp_operations,selection,"mrp.production.workcenter.line,production_state",0,Ready to Produce,已准备生产
 mrp_operations,view,mrp.production,mrp_operations.mrp_production_form_inherit_view,Resume,重新开始
 mrp_operations,view,mrp.production,mrp_operations.mrp_production_form_inherit_view2,Resume,重新开始
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.mrp_production_workcenter_form_view_inherit,Resume,重新开始
 mrp_operations,selection,"mrp_operations.operation.code,start_stop",0,Resume,重新开始
 mrp_operations,view,mrp.production,mrp_operations.mrp_production_form_inherit_view,Resume Work Order,重启工单
-mrp_operations,field,"mrp.production.workcenter.line,date_planned",0,Scheduled Date,预定日期
+mrp_operations,field,"mrp.production.workcenter.line,date_planned",0,Scheduled Date,安排日期
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Scheduled Date by Month,Scheduled Date by Month
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Scheduled Month,Scheduled Month
 mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_filter,Search,搜索
@@ -1079,7 +1079,7 @@ mrp_operations,field,"mrp.production.workcenter.line,state",0,Status,状态
 mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_filter,Status,状态
 mrp_operations,field,"mrp.workorder,state",0,Status,状态
 mrp_operations,field,"mrp_operations.operation.code,start_stop",0,Status,状态
-mrp_operations,model,"ir.model,name",mrp_operations.model_stock_move,Stock Move,Stock Move
+mrp_operations,model,"ir.model,name",mrp_operations.model_stock_move,Stock Move,库存移动
 mrp_operations,help,"mrp.production.workcenter.line,delay",0,The elapsed time between operation start and stop in this Work Center,工单在这个工作中心从开始到结束的执行周期。
 mrp_operations,field,"mrp.workorder,total_cycles",0,Total Cycles,总循环
 mrp_operations,field,"mrp.workorder,total_hours",0,Total Hours,总工时
@@ -1101,7 +1101,7 @@ mrp_operations,view,mrp.production.workcenter.line,mrp_operations.mrp_production
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.mrp_production_workcenter_tree_view_inherit,Work Orders,工单
 mrp_operations,view,mrp.production.workcenter.line,mrp_operations.view_mrp_production_workcenter_form_view_filter,Work Orders,工单
 mrp_operations,view,mrp.workorder,mrp_operations.view_report_mrp_workorder_graph,Work Orders,工单
-mrp_operations,model,"ir.ui.menu,name",mrp_operations.menu_mrp_production_wc_action_planning,Work Orders By Resource,工单，按资源
+mrp_operations,model,"ir.ui.menu,name",mrp_operations.menu_mrp_production_wc_action_planning,Work Orders By Resource,工单
 mrp_operations,model,"ir.actions.act_window,name",mrp_operations.mrp_production_wc_action_planning,Work Orders Planning,工单计划
 mrp_operations,field,"mrp.production.workcenter.line,delay",0,Working Hours,工时
 mrp_operations,model,"ir.filters,name",mrp_operations.filter_mrp_workorder_workload,Workload,Workload
@@ -1372,10 +1372,10 @@ mrp_repair,view,mrp.repair.make_invoice,mrp_repair.view_make_invoice,or,或
 mrp_repair,field,"mrp.repair,default_address_id",0,unknown,未知的
 sale_mrp,help,"mrp.production,sale_ref",0,Indicate the Customer Reference from sales order.,在销售订单中标识出相关客户
 sale_mrp,help,"mrp.production,sale_name",0,Indicate the name of sales order.,在销售订单中标识出这名称
-sale_mrp,model,"ir.model,name",sale_mrp.model_mrp_production,Manufacturing Order,生产单
+sale_mrp,model,"ir.model,name",sale_mrp.model_mrp_production,Manufacturing Order,制造订单
 sale_mrp,field,"sale.order.line,property_ids",0,Properties,属性
 sale_mrp,field,"mrp.production,sale_name",0,Sale Name,销售名称
 sale_mrp,field,"mrp.production,sale_ref",0,Sale Reference,销售单号
 sale_mrp,model,"ir.model,name",sale_mrp.model_sale_order,Sales Order,销售订单
 sale_mrp,model,"ir.model,name",sale_mrp.model_sale_order_line,Sales Order Line,销售订单明细
-sale_mrp,model,"ir.model,name",sale_mrp.model_stock_move,Stock Move,Stock Move
+sale_mrp,model,"ir.model,name",sale_mrp.model_stock_move,Stock Move,库存移动

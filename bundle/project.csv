@@ -20,7 +20,7 @@ project,model,"ir.actions.act_window,help",project.open_view_project_all,"<p cla
             ","<p class=""oe_view_nocontent_create"">
                   创建一个新项目
                 </p><p>
-                  项目是组织活动，计划任务，跟踪问题，记录人力资源成本的组织形式。项目可以分为内部项目（研发活动，加快销售进度），私有项目或者客户参与的项目。
+                  项目是组织活动，计划任务，跟踪议题，记录人力资源成本的组织形式。项目可以分为内部项目（研发活动，加快销售进度），私有项目或者客户参与的项目。
                 </p><p>
                 内部用户以项目成员的方式参与到项目中，也可以邀请客户加入到项目中分享项目活动。
                 </p>
@@ -138,7 +138,7 @@ project,field,"project.task.work,company_id",0,Company,公司
 project,view,report.project.task.user,project.view_task_project_user_search,Company,公司
 project,field,"report.project.task.user,company_id",0,Company,公司
 project,help,"project.task,delay_hours",0,Computed as difference between planned hours by the project manager and the total hours of the task.,Computed as difference between planned hours by the project manager and the total hours of the task.
-project,help,"project.task,total_hours",0,Computed as: Time Spent + Remaining Time.,Computed as: Time Spent + Remaining Time.
+project,help,"project.task,total_hours",0,Computed as: Time Spent + Remaining Time.,计算公式为：花费时间 + 剩余时间
 project,help,"project.task,effective_hours",0,Computed using the sum of the task work done.,Computed using the sum of the task work done.
 project,model,"ir.actions.act_window,name",project.action_config_settings,Configure Project,配置项目
 project,view,project.config.settings,project.view_config_settings,Configure Project,配置项目
@@ -364,8 +364,8 @@ project,view,project.project,project.view_project_project_filter,Pending,等待�
 project,selection,"project.project,state",0,Pending,等待中
 project,selection,"project.task.delegate,state",0,Pending,等待中
 project,help,"project.project,progress_rate",0,Percent of tasks closed according to the total of tasks todo.,Percent of tasks closed according to the total of tasks todo.
-project,field,"project.task.delegate,planned_hours",0,Planned Hours,Planned Hours
-project,field,"report.project.task.user,hours_planned",0,Planned Hours,Planned Hours
+project,field,"project.task.delegate,planned_hours",0,Planned Hours,计划时数
+project,field,"report.project.task.user,hours_planned",0,Planned Hours,计划时数
 project,field,"project.project,planned_hours",0,Planned Time,Planned Time
 project,field,"project.task.history,planned_hours",0,Planned Time,Planned Time
 project,field,"project.task.history.cumulative,planned_hours",0,Planned Time,Planned Time
@@ -390,19 +390,19 @@ project,view,report.project.task.user,project.view_task_project_user_search,Proj
 project,field,"report.project.task.user,project_id",0,Project,项目
 project,model,"res.request.link,name",project.req_link_project,Project,项目
 project,view,project.config.settings,project.view_config_settings,Project Management,项目管理
-project,view,project.project,project.edit_project,Project Manager,项目主管
-project,view,project.project,project.view_project,Project Manager,项目主管
-project,view,project.project,project.view_project_project_filter,Project Manager,项目主管
-project,field,"project.task,manager_id",0,Project Manager,项目主管
+project,view,project.project,project.edit_project,Project Manager,项目经理
+project,view,project.project,project.view_project,Project Manager,项目经理
+project,view,project.project,project.view_project_project_filter,Project Manager,项目经理
+project,field,"project.task,manager_id",0,Project Manager,项目经理
 project,field,"project.project,members",0,Project Members,项目成员
 project,view,project.project,project.edit_project,Project Name,项目名称
 project,view,project.project,project.view_project,Project Name,项目名称
 project,view,project.project,project.view_project_project_filter,Project Name,项目名称
 project,view,project.project,project.view_project_kanban,Project Settings,项目设置
-project,view,project.project,project.edit_project,Project Stages,Project Stages
-project,model,"ir.actions.act_window,name",project.action_project_task_delegate,Project Task Delegate,任务分派
-project,view,project.task.delegate,project.view_project_task_delegate,Project Task Delegate,任务分派
-project,model,"ir.model,name",project.model_project_task_work,Project Task Work,任务进度
+project,view,project.project,project.edit_project,Project Stages,项目进程
+project,model,"ir.actions.act_window,name",project.action_project_task_delegate,Project Task Delegate,项目任务委托
+project,view,project.task.delegate,project.view_project_task_delegate,Project Task Delegate,项目任务委托
+project,model,"ir.model,name",project.model_project_task_work,Project Task Work,项目任务工作
 project,view,project.task,project.view_project_task_graph,Project Tasks,项目任务列表
 project,view,project.task.history.cumulative,project.view_task_history_graph,Project Tasks,项目任务列表
 project,field,"res.company,project_time_mode_id",0,Project Time Unit,项目时间单位
@@ -685,8 +685,8 @@ project_issue,view,project.issue,project_issue.view_project_issue_filter,Company
 project_issue,field,"project.issue,company_id",0,Company,公司
 project_issue,view,project.issue.report,project_issue.view_project_issue_report_filter,Company,公司
 project_issue,field,"project.issue.report,company_id",0,Company,公司
-project_issue,help,"project.issue,progress",0,Computed as: Time Spent / Total Time.,计算方式：花费时间 / 总时间
-project_issue,view,project.config.settings,project_issue.view_config_settings,Configure,设置
+project_issue,help,"project.issue,progress",0,Computed as: Time Spent / Total Time.,计算公式为：花费时间 / 总时间
+project_issue,view,project.config.settings,project_issue.view_config_settings,Configure,配置
 project_issue,field,"project.issue,partner_id",0,Contact,联系人
 project_issue,field,"project.issue.report,partner_id",0,Contact,联系人
 project_issue,view,project.issue,project_issue.view_project_issue_filter,Create Date,创建日期
@@ -806,9 +806,9 @@ project_issue,field,"project.issue,project_id",0,Project,项目
 project_issue,view,project.issue.report,project_issue.view_project_issue_report_filter,Project,项目
 project_issue,field,"project.issue.report,project_id",0,Project,项目
 project_issue,field,"project.project,project_escalation_id",0,Project Escalation,项目提升
-project_issue,model,"ir.model,name",project_issue.model_project_issue,Project Issue,项目问题
-project_issue,view,project.issue.report,project_issue.view_project_issue_report_graph,Project Issue,项目问题
-project_issue,view,project.issue,project_issue.project_issue_graph_view,Project Issues,Project Issues
+project_issue,model,"ir.model,name",project_issue.model_project_issue,Project Issue,项目议题
+project_issue,view,project.issue.report,project_issue.view_project_issue_report_graph,Project Issue,项目议题
+project_issue,view,project.issue,project_issue.project_issue_graph_view,Project Issues,项目议题
 project_issue,view,project.issue,project_issue.project_issue_kanban_view,Project:,项目:
 project_issue,selection,"project.issue,kanban_state",0,Ready for next stage,准备好下一个进程
 project_issue,field,"project.issue.report,reviewer_id",0,Reviewer,Reviewer
@@ -860,7 +860,7 @@ project_issue_sheet,code,addons/project_issue_sheet/project_issue_sheet.py,57,An
 project_issue_sheet,field,"project.issue,analytic_account_id",0,Analytic Account,分析账户
 project_issue_sheet,model,"ir.model,name",project_issue_sheet.model_account_analytic_line,Analytic Line,分析明细
 project_issue_sheet,field,"hr.analytic.timesheet,issue_id",0,Issue,议题
-project_issue_sheet,model,"ir.model,name",project_issue_sheet.model_project_issue,Project Issue,项目问题
+project_issue_sheet,model,"ir.model,name",project_issue_sheet.model_project_issue,Project Issue,项目议题
 project_issue_sheet,code,addons/project_issue_sheet/project_issue_sheet.py,57,The Analytic Account is pending !,这个辅助核算项 被挂起的
 project_issue_sheet,model,"ir.model,name",project_issue_sheet.model_hr_analytic_timesheet,Timesheet Line,计工单明细
 project_issue_sheet,view,project.issue,project_issue_sheet.project_issue_form_view,Timesheets,计工单
@@ -901,7 +901,7 @@ project_timesheet,code,addons/project_timesheet/project_timesheet.py,86,Bad Conf
 project_timesheet,code,addons/project_timesheet/project_timesheet.py,90,Bad Configuration!,Bad Configuration!
 project_timesheet,code,addons/project_timesheet/project_timesheet.py,97,Bad Configuration!,Bad Configuration!
 project_timesheet,view,project.project,project_timesheet.project_invoice_search,Billable,应记账
-project_timesheet,model,"ir.ui.menu,name",project_timesheet.menu_invoicing_contracts,Contracts to Renew,要续签的合同
+project_timesheet,model,"ir.ui.menu,name",project_timesheet.menu_invoicing_contracts,Contracts to Renew,待续签的合同
 project_timesheet,model,"ir.actions.act_window,name",project_timesheet.action_account_analytic_overdue,Customer Projects,客户项目
 project_timesheet,view,report.timesheet.task.user,project_timesheet.view_report_timesheet_task_user_search,Date,日期
 project_timesheet,field,"report.timesheet.task.user,name",0,Date,日期
@@ -920,7 +920,7 @@ project_timesheet,model,"ir.ui.menu,name",project_timesheet.menu_project_billing
 project_timesheet,selection,"report.timesheet.task.user,month",0,January,1
 project_timesheet,selection,"report.timesheet.task.user,month",0,July,7月
 project_timesheet,selection,"report.timesheet.task.user,month",0,June,6月
-project_timesheet,selection,"report.timesheet.task.user,month",0,March,3
+project_timesheet,selection,"report.timesheet.task.user,month",0,March,3月
 project_timesheet,selection,"report.timesheet.task.user,month",0,May,5
 project_timesheet,view,report.timesheet.task.user,project_timesheet.view_report_timesheet_task_user_search,Month,月
 project_timesheet,field,"report.timesheet.task.user,month",0,Month,月
@@ -938,7 +938,7 @@ project_timesheet,code,addons/project_timesheet/project_timesheet.py,87,"Please 
 Fill in the HR Settings tab of the employee form.","请在相关的员工上面定义产品和产品分类属性科目。
 填在员工表单的人力资源标签。"
 project_timesheet,model,"ir.model,name",project_timesheet.model_project_project,Project,项目
-project_timesheet,model,"ir.model,name",project_timesheet.model_project_task_work,Project Task Work,任务进度
+project_timesheet,model,"ir.model,name",project_timesheet.model_project_task_work,Project Task Work,项目任务工作
 project_timesheet,field,"project.task.work,hr_analytic_timesheet_id",0,Related Timeline Id,有关的时间ID
 project_timesheet,selection,"report.timesheet.task.user,month",0,September,九月
 project_timesheet,model,"ir.ui.menu,name",project_timesheet.menu_hr_timesheet_sign_in,Sign in / Sign out by Project,Sign in / Sign out by Project
@@ -955,5 +955,5 @@ project_timesheet,view,report.timesheet.task.user,project_timesheet.view_report_
 project_timesheet,field,"report.timesheet.task.user,user_id",0,User,用户
 project_timesheet,view,report.timesheet.task.user,project_timesheet.view_report_timesheet_task_user_search,Year,年
 project_timesheet,field,"report.timesheet.task.user,year",0,Year,年
-project_timesheet,code,addons/project_timesheet/project_timesheet.py,297,"You cannot delete a partner which is assigned to project, but you can uncheck the active box.",你不能删除被指派给项目的合作伙伴，但你能不选中“可用”。
+project_timesheet,code,addons/project_timesheet/project_timesheet.py,297,"You cannot delete a partner which is assigned to project, but you can uncheck the active box.",你不能删除被指派给项目的业务伙伴，但你能不选中“可用”。
 project_timesheet,code,addons/project_timesheet/project_timesheet.py,324,You cannot select a Analytic Account which is in Close or Cancelled state.,你不能选择关闭或者取消状态的分析账户
