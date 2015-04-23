@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:03+0000\n"
-"PO-Revision-Date: 2015-04-20 13:03+0000\n"
+"POT-Creation-Date: 2015-04-23 13:20+0000\n"
+"PO-Revision-Date: 2015-04-23 13:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "# Issues"
 #. module: project_issue
 #: field:project.issue.report,nbr:0
 msgid "# of Issues"
-msgstr "# of Issues"
+msgstr "# 议题"
 
 #. module: project_issue
 #: code:addons/project_issue/project_issue.py:299
@@ -206,12 +206,12 @@ msgstr "公司"
 #. module: project_issue
 #: help:project.issue,progress:0
 msgid "Computed as: Time Spent / Total Time."
-msgstr "计算方式：花费时间 / 总时间"
+msgstr "计算公式为：花费时间 / 总时间"
 
 #. module: project_issue
 #: view:project.config.settings:project_issue.view_config_settings
 msgid "Configure"
-msgstr "设置"
+msgstr "配置"
 
 #. module: project_issue
 #: field:project.issue,partner_id:0
@@ -353,7 +353,7 @@ msgstr "电子邮件"
 #. module: project_issue
 #: constraint:project.project:0
 msgid "Error! You cannot assign escalation to the same project!"
-msgstr "不能升级到相同的项目"
+msgstr "错误！不能升级到相同的项目"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_form_view
@@ -397,7 +397,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:project.issue.report,id:0
 #: field:project.issue.version,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: project_issue
 #: help:project.project,project_escalation_id:0
@@ -643,12 +643,12 @@ msgstr "项目提升"
 #: model:ir.model,name:project_issue.model_project_issue
 #: view:project.issue.report:project_issue.view_project_issue_report_graph
 msgid "Project Issue"
-msgstr "项目问题"
+msgstr "项目议题"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_graph_view
 msgid "Project Issues"
-msgstr "Project Issues"
+msgstr "项目议题"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_kanban_view
@@ -745,7 +745,7 @@ msgstr "这些人将收到电子邮件。"
 #. module: project_issue
 #: model:ir.actions.act_window,help:project_issue.action_project_issue_report
 msgid "This report on the project issues allows you to analyse the quality of your support or after-sales services. You can track the issues per age. You can analyse the time required to open or close an issue, the number of email to exchange and the time spent on average by issues."
-msgstr "缺陷报表用于分析你的支持或售后服务的数量。报表自动分页。可以分析开始处理或关闭一个缺陷需要的时间，邮件的数量和处理缺陷的平均时间。"
+msgstr "缺陷报告用于分析你的支持或售后服务的数量。报告自动分页。可以分析开始处理或关闭一个缺陷需要的时间，邮件的数量和处理缺陷的平均时间。"
 
 #. module: project_issue
 #: view:project.issue:project_issue.view_project_issue_filter

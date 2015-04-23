@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:02+0000\n"
-"PO-Revision-Date: 2015-04-20 13:02+0000\n"
+"POT-Creation-Date: 2015-04-23 13:18+0000\n"
+"PO-Revision-Date: 2015-04-23 13:18+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -139,7 +139,7 @@ msgstr "Compute all procurements in the background."
 #. module: procurement
 #: model:ir.model,name:procurement.model_procurement_order_compute_all
 msgid "Compute all schedulers"
-msgstr "计算所有排程"
+msgstr "计算所有排程器"
 
 #. module: procurement
 #: selection:procurement.order,state:0
@@ -220,7 +220,7 @@ msgstr "关注者"
 #. module: procurement
 #: view:procurement.rule:procurement.view_procurement_rule_form
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
@@ -244,7 +244,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:procurement.order.compute.all,id:0
 #: field:procurement.rule,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: procurement
 #: help:procurement.order,message_unread:0
@@ -395,7 +395,7 @@ msgstr "补货组"
 #. module: procurement
 #: view:procurement.order:procurement.view_procurement_filter
 msgid "Procurement started late"
-msgstr "没有如期开始的补货"
+msgstr "延期开始的补货"
 
 #. module: procurement
 #: model:ir.actions.act_window,name:procurement.procurement_exceptions
@@ -481,12 +481,12 @@ msgstr "运行补货"
 #: model:ir.actions.act_window,name:procurement.action_compute_schedulers
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "Run Schedulers"
-msgstr "运行排程"
+msgstr "运行排程器"
 
 #. module: procurement
 #: selection:procurement.order,state:0
 msgid "Running"
-msgstr "进行中"
+msgstr "运行中"
 
 #. module: procurement
 #: field:procurement.order,date_planned:0

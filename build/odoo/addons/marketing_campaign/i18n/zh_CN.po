@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:00+0000\n"
-"PO-Revision-Date: 2015-04-20 13:00+0000\n"
+"POT-Creation-Date: 2015-04-23 13:09+0000\n"
+"PO-Revision-Date: 2015-04-23 13:09+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -409,12 +409,12 @@ msgstr "固定成本"
 #. module: marketing_campaign
 #: help:marketing.campaign,fixed_cost:0
 msgid "Fixed cost for running this campaign. You may also specify variable cost and revenue on each campaign activity. Cost and Revenue statistics are included in Campaign Reporting."
-msgstr "开展此营销活动的固定成本。你也可以为每个营销活动指定可变成本和收入。成本和收入统计包含在营销活动报表中。"
+msgstr "开展此营销活动的固定成本。你也可以为每个营销活动指定可变成本和收入。成本和收入统计包含在营销活动报告中。"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
 msgid "Follow-Up"
-msgstr "后续跟进"
+msgstr "跟进"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -442,7 +442,7 @@ msgstr "如何触发目标工作项"
 #: field:marketing.campaign.transition,id:0
 #: field:marketing.campaign.workitem,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.workitem,date:0
@@ -683,7 +683,7 @@ msgstr "Open Marketing Menu"
 #: code:addons/marketing_campaign/marketing_campaign.py:189
 #, python-format
 msgid "Operation not supported"
-msgstr "操作不支持"
+msgstr "作业不支持"
 
 #. module: marketing_campaign
 #: view:marketing.campaign.activity:marketing_campaign.view_marketing_campaign_activity_form
@@ -716,7 +716,7 @@ msgstr "前面的活动"
 #. module: marketing_campaign
 #: field:marketing.campaign.transition,activity_from_id:0
 msgid "Previous Activity"
-msgstr "前一个活动"
+msgstr "上一个活动"
 
 #. module: marketing_campaign
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_form
@@ -781,7 +781,7 @@ msgstr "收入"
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Run"
-msgstr "执行"
+msgstr "运行"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_search
@@ -789,7 +789,7 @@ msgstr "执行"
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_search
 #: selection:marketing.campaign.segment,state:0
 msgid "Running"
-msgstr "进行中"
+msgstr "运行中"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -821,12 +821,12 @@ msgstr "九月"
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,variable_cost:0
 msgid "Set a variable cost if you consider that every campaign item that has reached this point has entailed a certain cost. You can get cost statistics in the Reporting section"
-msgstr "设置一个可变成本，如果你认为每项到达这个点的营销活动项就会需要一定的成本。你可以在报表栏查看成本统计分析结果。"
+msgstr "设置一个可变成本，如果你认为每项到达这个点的营销活动项就会需要一定的成本。你可以在报告栏查看成本统计分析结果。"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,revenue:0
 msgid "Set an expected revenue if you consider that every campaign item that has reached this point has generated a certain revenue. You can get revenue statistics in the Reporting section"
-msgstr "设置一个期望的收入，即如果你认为每个达到这个点的活动项会产生一定的收入。你可以在报表里面查看到收入统计。"
+msgstr "设置一个期望的收入，即如果你认为每个达到这个点的活动项会产生一定的收入。你可以在报告里面查看到收入统计。"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
@@ -893,9 +893,9 @@ msgid "Test - It creates and process all the activities directly (without waitin
 "With Manual Confirmation - the campaigns runs normally, but the user has to validate all workitem manually.\n"
 "Normal - the campaign runs normally and automatically sends all emails and reports (be very careful with this mode, you're live!)"
 msgstr "测试 - 直接生成和处理所有活动（不等待事务的延迟），但是不发送邮件或者生成报表。\n"
-"实时测试 - 直接生成和处理所有活动，但是不发送邮件或者生成报表.\n"
+"实时测试 - 直接生成和处理所有活动，但是不发送邮件或者生成报告.\n"
 "手工确认 - 营销活动正常启动，但是用户必须手工验证所有工作项。\n"
-"正常 - 营销活动正常启动，并自动发送所有邮件和报表（请小心使用这个模式，所有的都是实时的！）"
+"正常 - 营销活动正常启动，并自动发送所有邮件和报告（请小心使用这个模式，所有的都是实时的！）"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
@@ -944,7 +944,7 @@ msgstr "The campaign cannot be started. There are no activities in it."
 #: code:addons/marketing_campaign/marketing_campaign.py:800
 #, python-format
 msgid "The current step for this item has no email or report to preview."
-msgstr "这步没有邮件或者报表。"
+msgstr "这步没有邮件或者报告。"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,email_template_id:0
@@ -954,7 +954,7 @@ msgstr "The email to send when this activity is activated"
 #. module: marketing_campaign
 #: help:marketing.campaign,partner_field_id:0
 msgid "The generated workitems will be linked to the partner related to the record. If the record is the partner itself leave this field empty. This is useful for reporting purposes, via the Campaign Analysis or Campaign Follow-up views."
-msgstr "生成的工作条目会链接到与该记录相关的业务伙伴上。如果该记录就是业务伙伴，此字段留空。此字段用于营销分析或营销跟进等分析报表。"
+msgstr "生成的工作条目会链接到与该记录相关的业务伙伴上。如果该记录就是业务伙伴，此字段留空。此字段用于营销分析或营销跟进等分析报告。"
 
 #. module: marketing_campaign
 #: sql_constraint:marketing.campaign.transition:0
@@ -964,7 +964,7 @@ msgstr "时间间隔必须为正数或零"
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,report_id:0
 msgid "The report to generate when this activity is activated"
-msgstr "活动被激活时生成的报表"
+msgstr "活动被激活时生成的报告"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,type:0
@@ -975,7 +975,7 @@ msgid "The type of action to execute when an item enters this activity, such as:
 "  "
 msgstr "工作项进入此活动时执行的操作类型，比如：\n"
 "    - 邮件：通过预定义的邮件模板发送邮件\n"
-"    - 报表：打印定义在资源上的报表，并把它保存到指定的目录\n"
+"    - 报告：打印定义在资源上的报告，并把它保存到指定的目录\n"
 "    - 自定义操作： 执行一个预定义的操作，比如，修改资源记录的字段\n"
 "  "
 
@@ -987,7 +987,7 @@ msgstr "此活动在营销活动开始时启动。"
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,report_directory_id:0
 msgid "This folder is used to store the generated reports"
-msgstr "此文件夹用于存储生成的报表"
+msgstr "此文件夹用于存储生成的报告"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign.transition,trigger:0

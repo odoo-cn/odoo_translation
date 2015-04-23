@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:57+0000\n"
+"PO-Revision-Date: 2015-04-23 12:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -160,7 +160,7 @@ msgstr "总是确认"
 #. module: event
 #: view:event.event:event.view_event_form
 msgid "Confirm Event"
-msgstr "确认活动"
+msgstr "确认事件"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -233,7 +233,7 @@ msgstr "默认最小登记数"
 #. module: event
 #: field:event.type,default_reply_to:0
 msgid "Default Reply-To"
-msgstr "默认回复给"
+msgstr "默认Reply-To"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -275,7 +275,7 @@ msgstr "结束日期"
 #: view:report.event.registration:event.view_report_event_registration_search
 #: field:report.event.registration,event_id:0
 msgid "Event"
-msgstr "活动"
+msgstr "事件"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
@@ -446,7 +446,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:event.type,id:0
 #: field:report.event.registration,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: event
 #: help:event.event,message_unread:0
@@ -638,7 +638,7 @@ msgstr "组织"
 #. module: event
 #: field:event.event,organizer_id:0
 msgid "Organizer"
-msgstr "个人助理"
+msgstr "Organizer"
 
 #. module: event
 #: view:event.registration:event.view_registration_search
@@ -744,7 +744,7 @@ msgstr "回复Email"
 #. module: event
 #: field:event.event,seats_reserved:0
 msgid "Reserved Seats"
-msgstr "Reserved Seats"
+msgstr "预留的座位"
 
 #. module: event
 #: view:event.event:event.view_event_search
@@ -903,16 +903,6 @@ msgstr "用户"
 #: view:event.confirm:event.view_event_confirm
 msgid "Warning: This Event has not reached its Minimum Registration Limit. Are you sure you want to confirm it?"
 msgstr "警告：这活动没有达到最低登记记录的规定，你肯定要确认它？"
-
-#. module: event
-#: field:event.event,website_message_ids:0
-msgid "Website Messages"
-msgstr "网站消息"
-
-#. module: event
-#: help:event.event,website_message_ids:0
-msgid "Website communication history"
-msgstr "网站沟通记录"
 
 #. module: event
 #: help:event.event,seats_min:0

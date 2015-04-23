@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:01+0000\n"
-"PO-Revision-Date: 2015-04-20 13:01+0000\n"
+"POT-Creation-Date: 2015-04-23 13:13+0000\n"
+"PO-Revision-Date: 2015-04-23 13:13+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "地址"
 #. module: payment
 #: field:payment.transaction,amount:0
 msgid "Amount"
-msgstr "金额"
+msgstr "总额"
 
 #. module: payment
 #: help:payment.transaction,amount:0
@@ -83,7 +83,7 @@ msgstr "公司"
 #. module: payment
 #: field:payment.acquirer,fees_active:0
 msgid "Compute fees"
-msgstr "Compute fees"
+msgstr "计算费用"
 
 #. module: payment
 #: field:payment.transaction,partner_country_id:0
@@ -135,7 +135,7 @@ msgstr "电子邮件"
 #. module: payment
 #: field:payment.acquirer,environment:0
 msgid "Environment"
-msgstr "Environment"
+msgstr "环境"
 
 #. module: payment
 #: selection:payment.transaction,state:0
@@ -196,7 +196,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:payment.acquirer,id:0
 #: field:payment.transaction,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: payment
 #: help:payment.transaction,message_unread:0
@@ -294,7 +294,7 @@ msgstr "名称"
 #. module: payment
 #: field:payment.transaction,reference:0
 msgid "Order Reference"
-msgstr "单号"
+msgstr "订单参考"
 
 #. module: payment
 #: field:payment.transaction,partner_id:0
@@ -361,7 +361,7 @@ msgstr "电话"
 #. module: payment
 #: field:payment.acquirer,validation:0
 msgid "Process Method"
-msgstr "Process Method"
+msgstr "处理方法"
 
 #. module: payment
 #: selection:payment.acquirer,environment:0
@@ -465,6 +465,16 @@ msgstr "Variable international fees (in percents)"
 #: field:payment.acquirer,website_published:0
 msgid "Visible in Portal / Website"
 msgstr "Visible in Portal / Website"
+
+#. module: payment
+#: field:payment.transaction,website_message_ids:0
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: payment
+#: help:payment.transaction,website_message_ids:0
+msgid "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: payment
 #: field:payment.transaction,partner_zip:0

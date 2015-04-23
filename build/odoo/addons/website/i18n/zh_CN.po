@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:06+0000\n"
-"PO-Revision-Date: 2015-04-20 13:06+0000\n"
+"POT-Creation-Date: 2015-04-23 13:34+0000\n"
+"PO-Revision-Date: 2015-04-23 13:34+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -819,13 +819,13 @@ msgstr "Default Theme"
 #: field:website,default_lang_id:0
 #: field:website.config.settings,default_lang_id:0
 msgid "Default language"
-msgstr "Default language"
+msgstr "默认语言"
 
 #. module: website
 #: field:website,default_lang_code:0
 #: field:website.config.settings,default_lang_code:0
 msgid "Default language code"
-msgstr "Default language code"
+msgstr "默认语言代码"
 
 #. module: website
 #: view:website:website.snippets
@@ -1034,7 +1034,7 @@ msgstr "错误！"
 #. module: website
 #: view:website:website.http_error_debug
 msgid "Error message:"
-msgstr "Error message:"
+msgstr "错误消息："
 
 #. module: website
 #. openerp-web
@@ -1317,7 +1317,7 @@ msgstr "Horizontal flip"
 #: field:website.qweb.field.text,id:0
 #: field:website.seo.metadata,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: website
 #: help:ir.actions.server,xml_id:0
@@ -1980,7 +1980,7 @@ msgstr "Pictogram"
 #. module: website
 #: view:website:website.snippets
 msgid "Point of Sale Questions"
-msgstr "Point of Sale Questions"
+msgstr "POS问题"
 
 #. module: website
 #: view:website:website.layout
@@ -2017,7 +2017,7 @@ msgstr "Professional"
 #. module: website
 #: view:website:website.snippets
 msgid "Project Management Questions"
-msgstr "Project Management Questions"
+msgstr "项目管理问题"
 
 #. module: website
 #. openerp-web
@@ -2170,7 +2170,7 @@ msgstr "Right"
 #: code:addons/website/static/src/xml/website.editor.xml:328
 #, python-format
 msgid "Rotation"
-msgstr "Rotation"
+msgstr "翻转"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3110,7 +3110,7 @@ msgstr "customer for this feature."
 #: code:addons/website/static/src/xml/website.seo.xml:22
 #, python-format
 msgid "describing your page content"
-msgstr "describing your page content"
+msgstr "描述你的页面内容"
 
 #. module: website
 #: view:website:website.snippets
@@ -3265,7 +3265,7 @@ msgstr "or try another theme below."
 #. module: website
 #: view:website:website.snippets
 msgid "per month"
-msgstr "per month"
+msgstr "每月"
 
 #. module: website
 #: view:website:website.snippets

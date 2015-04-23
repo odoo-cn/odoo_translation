@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:58+0000\n"
+"PO-Revision-Date: 2015-04-23 12:58+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -111,7 +111,7 @@ msgstr "邮件服务器的主机名或IP"
 #: field:fetchmail.config.settings,id:0
 #: field:fetchmail.server,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: fetchmail
 #: view:fetchmail.server:fetchmail.view_email_server_search

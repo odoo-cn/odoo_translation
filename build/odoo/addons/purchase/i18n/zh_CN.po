@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:03+0000\n"
-"PO-Revision-Date: 2015-04-20 13:03+0000\n"
+"POT-Creation-Date: 2015-04-23 13:20+0000\n"
+"PO-Revision-Date: 2015-04-23 13:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -291,12 +291,12 @@ msgstr " 购买"
 #: field:product.product,purchase_count:0
 #: field:product.template,purchase_count:0
 msgid "# Purchases"
-msgstr "#采购"
+msgstr "# 采购"
 
 #. module: purchase
 #: field:res.partner,supplier_invoice_count:0
 msgid "# Supplier Invoices"
-msgstr "#供应商发票"
+msgstr "# 供应商发票"
 
 #. module: purchase
 #: field:purchase.report,nbr:0
@@ -884,7 +884,7 @@ msgstr "默认采购价格表版本"
 #. module: purchase
 #: field:purchase.config.settings,default_invoice_method:0
 msgid "Default invoicing control method"
-msgstr "默认的发票控制方法"
+msgstr "默认的开票控制方法"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:566
@@ -906,7 +906,7 @@ msgstr "交货到"
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_form
 msgid "Deliveries & Invoices"
-msgstr "交货与发票"
+msgstr "交货与&发票"
 
 #. module: purchase
 #: help:purchase.order,date_order:0
@@ -1053,7 +1053,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:purchase.order.line_invoice,id:0
 #: field:purchase.report,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: purchase
 #: help:purchase.order,message_unread:0
@@ -1190,12 +1190,12 @@ msgstr "采购订单的发票已生成"
 #. module: purchase
 #: field:purchase.order,invoice_method:0
 msgid "Invoicing Control"
-msgstr "开票方式"
+msgstr "开票控制"
 
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
 msgid "Invoicing Process"
-msgstr "开发票过程"
+msgstr "开票过程"
 
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
@@ -1210,7 +1210,7 @@ msgstr "是一个关注者"
 #. module: purchase
 #: help:purchase.order,shipped:0
 msgid "It indicates that a picking has been done"
-msgstr "这表示装箱单已完成"
+msgstr "这表示分拣已完成"
 
 #. module: purchase
 #: help:purchase.order,invoiced:0
@@ -1412,12 +1412,12 @@ msgstr "订单月份"
 #: view:purchase.order.line:purchase.purchase_order_line_search
 #: field:purchase.order.line,order_id:0
 msgid "Order Reference"
-msgstr "单号"
+msgstr "订单参考"
 
 #. module: purchase
 #: sql_constraint:purchase.order:0
 msgid "Order Reference must be unique per Company!"
-msgstr "采购订单号必须在一个公司范围内唯一"
+msgstr "订单参考必须在一个公司范围内唯一"
 
 #. module: purchase
 #: field:purchase.report,state:0
@@ -1464,7 +1464,7 @@ msgstr "业务伙伴"
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_partner_categories_in_form
 msgid "Partner Tags"
-msgstr "合作伙伴标签"
+msgstr "业务伙伴标签"
 
 #. module: purchase
 #: field:purchase.order,payment_term_id:0
@@ -1475,7 +1475,7 @@ msgstr "付款条款"
 #: model:ir.model,name:purchase.model_stock_picking
 #: field:purchase.order,picking_ids:0
 msgid "Picking List"
-msgstr "装箱单"
+msgstr "分拣清单"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:419
@@ -1599,7 +1599,7 @@ msgstr "产品价值"
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_product_by_category_purchase_form
 msgid "Products by Category"
-msgstr "产品类别"
+msgstr "产品，按类别"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:862
@@ -2052,7 +2052,7 @@ msgstr "条款和条件 ..."
 #. module: purchase
 #: help:purchase.order,amount_untaxed:0
 msgid "The amount without tax"
-msgstr "不含税金额"
+msgstr "不含税总额"
 
 #. module: purchase
 #: help:purchase.order,pricelist_id:0
@@ -2090,7 +2090,7 @@ msgstr "税金"
 #. module: purchase
 #: help:purchase.order,amount_total:0
 msgid "The total amount"
-msgstr "总金额"
+msgstr "总总额"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1354
@@ -2132,7 +2132,7 @@ msgstr "总价格"
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_tree
 msgid "Total Untaxed amount"
-msgstr "总未完税金额"
+msgstr "总未完税总额"
 
 #. module: purchase
 #: view:website:purchase.report_purchaseorder_document
@@ -2196,7 +2196,7 @@ msgstr "未税"
 #. module: purchase
 #: field:purchase.order,amount_untaxed:0
 msgid "Untaxed Amount"
-msgstr "未税金额"
+msgstr "未税总额"
 
 #. module: purchase
 #: field:purchase.config.settings,group_costing_method:0
@@ -2263,6 +2263,16 @@ msgstr "仓库"
 #, python-format
 msgid "Warning!"
 msgstr "Warning!"
+
+#. module: purchase
+#: field:purchase.order,website_message_ids:0
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: purchase
+#: help:purchase.order,website_message_ids:0
+msgid "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: purchase
 #: help:stock.warehouse,buy_to_resupply:0

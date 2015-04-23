@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:02+0000\n"
-"PO-Revision-Date: 2015-04-20 13:02+0000\n"
+"POT-Creation-Date: 2015-04-23 13:18+0000\n"
+"PO-Revision-Date: 2015-04-23 13:18+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -763,7 +763,7 @@ msgstr "本计量单位和参考计量单位相比，大或者小的倍数。\n"
 #: field:product.uom.categ,id:0
 #: field:report.product.report_pricelist,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: product
 #: help:product.product,message_unread:0
@@ -1484,7 +1484,7 @@ msgstr "产品价格类型"
 #: model:ir.actions.act_window,name:product.product_category_action
 #: model:ir.ui.menu,name:product.menu_products_category
 msgid "Products by Category"
-msgstr "产品类别"
+msgstr "产品，按类别"
 
 #. module: product
 #: code:addons/product/product.py:876
@@ -1708,7 +1708,7 @@ msgstr "如果产品能在销售单明细在被选择，则指定。"
 #. module: product
 #: help:product.pricelist.item,price_surcharge:0
 msgid "Specify the fixed amount to add or substract(if negative) to the amount calculated with the discount."
-msgstr "指定固定金额来添加或减去(如果负)，用作折扣来计算金额。"
+msgstr "指定固定总额来添加或减去(如果负)，用作折扣来计算总额。"
 
 #. module: product
 #: help:product.pricelist.item,price_max_margin:0

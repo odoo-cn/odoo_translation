@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:03+0000\n"
-"PO-Revision-Date: 2015-04-20 13:03+0000\n"
+"POT-Creation-Date: 2015-04-23 13:22+0000\n"
+"PO-Revision-Date: 2015-04-23 13:22+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -170,7 +170,7 @@ msgstr "\n"
 #: field:product.product,sales_count:0
 #: field:product.template,sales_count:0
 msgid "# Sales"
-msgstr "#销售"
+msgstr "# 销售"
 
 #. module: sale
 #: field:sale.report,nbr:0
@@ -180,12 +180,12 @@ msgstr "# 明细"
 #. module: sale
 #: field:sale.report,product_uom_qty:0
 msgid "# of Qty"
-msgstr "#数量"
+msgstr "# 数量"
 
 #. module: sale
 #: field:res.partner,sale_order_count:0
 msgid "# of Sales Order"
-msgstr "#销售订单"
+msgstr "# 销售订单"
 
 #. module: sale
 #: model:email.template,report_name:sale.email_template_edi_sale
@@ -372,7 +372,7 @@ msgstr "这些订单行的所有项目将被开票。你也能按订单的比例
 #. module: sale
 #: field:sale.order.line,address_allotment_id:0
 msgid "Allotment Partner"
-msgstr "分配给业务伙伴"
+msgstr "分配业务伙伴"
 
 #. module: sale
 #: field:sale.config.settings,group_sale_delivery_address:0
@@ -382,7 +382,7 @@ msgstr "允许不一样的发运和开票地址。 "
 #. module: sale
 #: field:sale.config.settings,module_sale_journal:0
 msgid "Allow batch invoicing of delivery orders through journals"
-msgstr "允许通过日记账的发货单批量开票。"
+msgstr "允许通过日记账对交货单批量开票。"
 
 #. module: sale
 #: field:sale.config.settings,module_warning:0
@@ -771,12 +771,12 @@ msgstr "默认选项"
 #. module: sale
 #: field:res.company,sale_note:0
 msgid "Default Terms and Conditions"
-msgstr "Default Terms and Conditions"
+msgstr "默认条款和条件"
 
 #. module: sale
 #: view:res.company:sale.view_company_inherit_form2
 msgid "Default terms & conditions..."
-msgstr "Default terms & conditions..."
+msgstr "默认条款&条件..."
 
 #. module: sale
 #: help:res.company,sale_note:0
@@ -827,7 +827,7 @@ msgstr "订单行折扣"
 #. module: sale
 #: field:sale.config.settings,module_sale_margin:0
 msgid "Display margins on sales orders"
-msgstr "显示利润在销售订单"
+msgstr "在销售订单显示利润"
 
 #. module: sale
 #: view:sale.make.invoice:sale.view_sale_order_make_invoice
@@ -873,7 +873,7 @@ msgstr "Email撰写向导"
 #. module: sale
 #: model:res.groups,name:sale.group_invoice_so_lines
 msgid "Enable Invoicing Sales order lines"
-msgstr "允许逐行开票"
+msgstr "启用按订单行逐行开票"
 
 #. module: sale
 #: code:addons/sale/sale.py:154
@@ -978,7 +978,7 @@ msgstr "分组于"
 #. module: sale
 #: field:sale.make.invoice,grouped:0
 msgid "Group the invoices"
-msgstr "发票组"
+msgstr "组合发票"
 
 #. module: sale
 #: help:sale.order,message_summary:0
@@ -999,7 +999,7 @@ msgstr "小时"
 #: field:sale.order.line.make.invoice,id:0
 #: field:sale.report,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: sale
 #: help:sale.order,message_unread:0
@@ -1165,7 +1165,7 @@ msgstr "Invoices Statistics"
 #. module: sale
 #: view:sale.config.settings:sale.view_sales_config
 msgid "Invoicing Process"
-msgstr "开发票过程"
+msgstr "开票过程"
 
 #. module: sale
 #: field:sale.order,message_is_follower:0
@@ -1307,7 +1307,7 @@ msgstr "打开销售订单"
 #: view:sale.order.line:sale.view_sales_order_line_filter
 #: view:sale.order.line:sale.view_sales_order_uninvoiced_line_filter
 msgid "Order"
-msgstr "付款单"
+msgstr "订单"
 
 #. module: sale
 #: view:sale.order:sale.view_order_form
@@ -1334,18 +1334,18 @@ msgstr "订单编号"
 #. module: sale
 #: view:website:sale.report_saleorder_document
 msgid "Order N°"
-msgstr "单号"
+msgstr "订单号"
 
 #. module: sale
 #: field:sale.order,name:0
 #: field:sale.order.line,order_id:0
 msgid "Order Reference"
-msgstr "单号"
+msgstr "订单参考"
 
 #. module: sale
 #: sql_constraint:sale.order:0
 msgid "Order Reference must be unique per Company!"
-msgstr "采购订单号必须在一个公司范围内唯一"
+msgstr "订单参考必须在一个公司范围内唯一"
 
 #. module: sale
 #: field:sale.report,state:0
@@ -1355,7 +1355,7 @@ msgstr "订单状态"
 #. module: sale
 #: view:sale.order.line:sale.view_sales_order_uninvoiced_line_filter
 msgid "Order reference"
-msgstr "订单关联单号"
+msgstr "订单参考"
 
 #. module: sale
 #: view:sale.report:sale.view_order_product_search
@@ -1386,7 +1386,7 @@ msgstr "付款条款"
 #. module: sale
 #: view:website:sale.report_saleorder_document
 msgid "Payment Term:"
-msgstr "Payment Term:"
+msgstr "付款条款："
 
 #. module: sale
 #: field:sale.order,paypal_url:0
@@ -1925,7 +1925,7 @@ msgstr "条款和条件 ..."
 #. module: sale
 #: help:sale.advance.payment.inv,amount:0
 msgid "The amount to be invoiced in advance."
-msgstr "预付款发票金额"
+msgstr "预付款发票总额"
 
 #. module: sale
 #: help:sale.order,amount_untaxed:0
@@ -1950,7 +1950,7 @@ msgstr "税额。"
 #. module: sale
 #: help:sale.order,amount_total:0
 msgid "The total amount."
-msgstr "总金额。"
+msgstr "总总额。"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:106
@@ -2014,7 +2014,7 @@ msgstr "这是为此销售订单生成的发票列表。同一销售订单可能
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_order_report_all
 msgid "This report performs analysis on your quotations and sales orders. Analysis check your sales revenues and sort it by different group criteria (salesman, partner, product, etc.) Use this report to perform analysis on sales not having invoiced yet. If you want to analyse your turnover, you should use the Invoice Analysis report in the Accounting application."
-msgstr "这个报表会对你的报价单和销售订单进行分析。分析检查你的销售收入，并且按照不同的标准分组（业务员，合作伙伴，产品等）。用这个报表对还没有开票的销售订单进行分析。 如果你想分析你的营业额，你应该用会计模块里的发票分析报表。"
+msgstr "这个报告会对你的报价单和销售订单进行分析。分析检查你的销售收入，并且按照不同的标准分组（业务员，业务伙伴，产品等）。用这个报告对还没有开票的销售订单进行分析。 如果你想分析你的营业额，你应该用会计模块里的发票分析报告。"
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.action_order_report_quotation_salesteam
@@ -2058,7 +2058,7 @@ msgstr "总价格"
 #: view:sale.order:sale.view_order_tree
 #: view:sale.order:sale.view_quotation_tree
 msgid "Total Tax Included"
-msgstr "含税总金额"
+msgstr "含税总总额"
 
 #. module: sale
 #: view:website:sale.report_saleorder_document
@@ -2105,7 +2105,7 @@ msgstr "未读消息"
 #. module: sale
 #: field:sale.order,amount_untaxed:0
 msgid "Untaxed Amount"
-msgstr "未税金额"
+msgstr "未税总额"
 
 #. module: sale
 #: view:sale.order:sale.view_order_form
@@ -2173,6 +2173,16 @@ msgstr "仓库特性"
 #, python-format
 msgid "Warning!"
 msgstr "Warning!"
+
+#. module: sale
+#: field:sale.order,website_message_ids:0
+msgid "Website Messages"
+msgstr "网站消息"
+
+#. module: sale
+#: help:sale.order,website_message_ids:0
+msgid "Website communication history"
+msgstr "网站沟通记录"
 
 #. module: sale
 #: field:sale.order.line,th_weight:0

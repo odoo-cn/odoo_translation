@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:59+0000\n"
+"PO-Revision-Date: 2015-04-23 12:59+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -548,12 +548,12 @@ msgstr "Completeness"
 #: view:gamification.goal.definition:gamification.goal_definition_search_view
 #: field:gamification.goal.definition,computation_mode:0
 msgid "Computation Mode"
-msgstr "Computation Mode"
+msgstr "计算模式"
 
 #. module: gamification
 #: field:gamification.goal,computation_mode:0
 msgid "Computation mode"
-msgstr "Computation mode"
+msgstr "计算模式"
 
 #. module: gamification
 #: field:gamification.challenge.line,condition:0
@@ -647,12 +647,12 @@ msgstr "Defined how will be computed the goals. The result of the operation will
 #. module: gamification
 #: field:gamification.goal,definition_condition:0
 msgid "Definition Condition"
-msgstr "Definition Condition"
+msgstr "定义条件"
 
 #. module: gamification
 #: field:gamification.goal,definition_description:0
 msgid "Definition Description"
-msgstr "Definition Description"
+msgstr "定义描述"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
@@ -679,7 +679,7 @@ msgstr "说明"
 #: field:gamification.challenge,visibility_mode:0
 #: field:gamification.goal,definition_display:0
 msgid "Display Mode"
-msgstr "Display Mode"
+msgstr "显示模式"
 
 #. module: gamification
 #: field:gamification.goal.definition,display_mode:0
@@ -988,7 +988,7 @@ msgstr "How to compute the goal?"
 #: field:gamification.goal.definition,id:0
 #: field:gamification.goal.wizard,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: gamification
 #: field:gamification.goal.definition,res_id_field:0
@@ -1303,7 +1303,7 @@ msgstr "Optimisation"
 #. module: gamification
 #: field:gamification.badge,owner_ids:0
 msgid "Owners"
-msgstr "Owners"
+msgstr "所有者"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
@@ -1470,7 +1470,7 @@ msgstr "Rewards for challenges"
 #. module: gamification
 #: view:gamification.goal:gamification.goal_search_view
 msgid "Running"
-msgstr "进行中"
+msgstr "运行中"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_search_view
@@ -1584,7 +1584,7 @@ msgstr "统计"
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
 msgid "Subscriptions"
-msgstr "Subscriptions"
+msgstr "订阅"
 
 #. module: gamification
 #: field:gamification.challenge.line,definition_full_suffix:0

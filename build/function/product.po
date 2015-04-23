@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 00:47+0000\n"
-"PO-Revision-Date: 2015-04-23 00:47+0000\n"
+"POT-Creation-Date: 2015-04-23 13:41+0000\n"
+"PO-Revision-Date: 2015-04-23 13:41+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -720,7 +720,7 @@ msgstr "结束日期"
 #. module: product_expiry
 #: field:stock.production.lot,life_date:0
 msgid "End of Life Date"
-msgstr "报废日期"
+msgstr "生命结束日期"
 
 #. module: product
 #: selection:product.template,state:0
@@ -834,7 +834,7 @@ msgstr "从"
 #. module: product_margin
 #: view:product.margin:product_margin.product_margin_form_view
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: product_extended
 #: field:wizard.price,real_time_accounting:0
@@ -936,7 +936,7 @@ msgstr "本计量单位和参考计量单位相比，大或者小的倍数。\n"
 #: field:wizard.price,id:0
 #: field:product.margin,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: product
 #: help:product.product,message_unread:0
@@ -1387,7 +1387,7 @@ msgstr "包装"
 #: selection:product.margin,invoice_state:0
 #: selection:product.product,invoice_state:0
 msgid "Paid"
-msgstr "支付"
+msgstr "已付"
 
 #. module: product
 #: selection:product.ul,type:0
@@ -2042,7 +2042,7 @@ msgstr "如果产品能在销售单明细在被选择，则指定。"
 #. module: product
 #: help:product.pricelist.item,price_surcharge:0
 msgid "Specify the fixed amount to add or substract(if negative) to the amount calculated with the discount."
-msgstr "指定固定金额来添加或减去(如果负)，用作折扣来计算金额。"
+msgstr "指定固定总额来添加或减去(如果负)，用作折扣来计算总额。"
 
 #. module: product
 #: help:product.pricelist.item,price_max_margin:0

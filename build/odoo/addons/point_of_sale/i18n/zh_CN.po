@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:02+0000\n"
-"PO-Revision-Date: 2015-04-20 13:02+0000\n"
+"POT-Creation-Date: 2015-04-23 13:15+0000\n"
+"PO-Revision-Date: 2015-04-23 13:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -322,7 +322,7 @@ msgstr "所有销售明细"
 #: view:website:point_of_sale.report_statement
 #: view:website:point_of_sale.report_usersproduct
 msgid "Amount"
-msgstr "金额"
+msgstr "总额"
 
 #. module: point_of_sale
 #: field:account.journal,amount_authorized_diff:0
@@ -333,7 +333,7 @@ msgstr "Amount Authorized Difference"
 #: view:pos.order:point_of_sale.view_pos_order_tree
 #: view:report.transaction.pos:point_of_sale.view_trans_pos_user_tree
 msgid "Amount total"
-msgstr "金额合计"
+msgstr "总额合计"
 
 #. module: point_of_sale
 #. openerp-web
@@ -847,7 +847,7 @@ msgstr "调试窗口"
 #. module: point_of_sale
 #: field:res.users,pos_config:0
 msgid "Default Point of Sale"
-msgstr "Default Point of Sale"
+msgstr "默认POS"
 
 #. module: point_of_sale
 #: field:report.pos.order,delay_validation:0
@@ -866,7 +866,7 @@ msgstr "Delete All Unsent Orders"
 #: code:addons/point_of_sale/static/src/js/widgets.js:812
 #, python-format
 msgid "Delete Unsent Orders ?"
-msgstr "Delete Unsent Orders ?"
+msgstr "删除未发送订单？"
 
 #. module: point_of_sale
 #: selection:pos.config,state:0
@@ -947,7 +947,7 @@ msgstr "折扣(%)"
 #. module: point_of_sale
 #: field:pos.config,barcode_discount:0
 msgid "Discount Barcodes"
-msgstr "Discount Barcodes"
+msgstr "折扣条码"
 
 #. module: point_of_sale
 #: field:pos.order.line,notice:0
@@ -1082,12 +1082,12 @@ msgstr "End of Session"
 #: view:website:point_of_sale.report_sessionsummary
 #: view:website:point_of_sale.report_statement
 msgid "Ending Balance"
-msgstr "期末结余"
+msgstr "期末余额"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_usersproduct
 msgid "Ending Date"
-msgstr "结束日期"
+msgstr "期末日期"
 
 #. module: point_of_sale
 #: view:pos.ean_wizard:point_of_sale.pos_ean13_generator
@@ -1167,7 +1167,7 @@ msgstr "For imprecise industrial touchscreens"
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: point_of_sale
 #: view:pos.confirm:point_of_sale.view_pos_confirm
@@ -1259,7 +1259,7 @@ msgstr "Has Cash Control"
 #: field:report.sales.by.user.pos.month,id:0
 #: field:report.transaction.pos,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: point_of_sale
 #: field:pos.config,proxy_ip:0
@@ -1316,7 +1316,7 @@ msgstr "开发票"
 #. module: point_of_sale
 #: field:report.transaction.pos,invoice_am:0
 msgid "Invoice Amount"
-msgstr "发票金额"
+msgstr "发票总额"
 
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_order_filter
@@ -1707,14 +1707,14 @@ msgstr "开帐小计"
 #: view:website:point_of_sale.report_detailsofsales
 #, python-format
 msgid "Order"
-msgstr "付款单"
+msgstr "订单"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/models.js:1024
 #, python-format
 msgid "Order "
-msgstr "Order "
+msgstr "订单"
 
 #. module: point_of_sale
 #: field:pos.order,date_order:0
@@ -1743,7 +1743,7 @@ msgstr "订单月份"
 #: field:pos.order,name:0
 #: field:pos.order.line,order_id:0
 msgid "Order Ref"
-msgstr "单据参考"
+msgstr "订单参考"
 
 #. module: point_of_sale
 #: field:pos.session,sequence_number:0
@@ -1753,7 +1753,7 @@ msgstr "Order Sequence Number"
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Order lines"
-msgstr "单据明细"
+msgstr "订单明细"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.act_pos_session_orders
@@ -1767,7 +1767,7 @@ msgstr "订单"
 #: model:ir.actions.act_window,name:point_of_sale.action_report_pos_order_all
 #: model:ir.ui.menu,name:point_of_sale.menu_report_pos_order_all
 msgid "Orders Analysis"
-msgstr "Orders Analysis"
+msgstr "订单分析"
 
 #. module: point_of_sale
 #: view:report.sales.by.user.pos:point_of_sale.view_report_sales_by_user_pos_form
@@ -1815,7 +1815,7 @@ msgstr "POS订单明细"
 #: view:report.transaction.pos:point_of_sale.view_report_transaction_pos_calendar
 #: view:report.transaction.pos:point_of_sale.view_report_transaction_pos_graph
 msgid "POS Report"
-msgstr "POS分析报表"
+msgstr "POS 报告"
 
 #. module: point_of_sale
 #: view:report.pos.order:point_of_sale.view_report_pos_order_search
@@ -1871,7 +1871,7 @@ msgstr "付款日期"
 #: model:ir.actions.act_window,name:point_of_sale.action_account_journal_form
 #: model:ir.ui.menu,name:point_of_sale.menu_action_account_journal_form_open
 msgid "Payment Methods"
-msgstr "付款方式"
+msgstr "付款方法"
 
 #. module: point_of_sale
 #: field:pos.make.payment,journal_id:0
@@ -1882,7 +1882,7 @@ msgstr "付款方式"
 #. module: point_of_sale
 #: field:pos.make.payment,payment_name:0
 msgid "Payment Reference"
-msgstr "付款记录"
+msgstr "付款参考"
 
 #. module: point_of_sale
 #: field:pos.config,iface_payment_terminal:0
@@ -1934,7 +1934,7 @@ msgstr "电话:"
 #. module: point_of_sale
 #: field:pos.order,picking_id:0
 msgid "Picking"
-msgstr "领料/提货"
+msgstr "分拣"
 
 #. module: point_of_sale
 #: field:pos.config,picking_type_id:0
@@ -1974,7 +1974,7 @@ msgstr "POS付款方式"
 #. module: point_of_sale
 #: field:pos.session.opening,pos_session_id:0
 msgid "PoS Session"
-msgstr "销售点会话"
+msgstr "PoS 会话"
 
 #. module: point_of_sale
 #: view:pos.session.opening:point_of_sale.pos_session_opening_form_view
@@ -2014,28 +2014,28 @@ msgstr "Point of Sale Cash Out"
 #. module: point_of_sale
 #: field:product.template,pos_categ_id:0
 msgid "Point of Sale Category"
-msgstr "销售点商品分类"
+msgstr "POS类别"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_search
 msgid "Point of Sale Config"
-msgstr "销售点配置"
+msgstr "POS配置"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
 #: view:pos.config:point_of_sale.view_pos_config_tree
 msgid "Point of Sale Configuration"
-msgstr "销售点配置"
+msgstr "POS配置"
 
 #. module: point_of_sale
 #: field:pos.config,name:0
 msgid "Point of Sale Name"
-msgstr "销售点名称"
+msgstr "POS名称"
 
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Point of Sale Orders"
-msgstr "Point of Sale Orders"
+msgstr "POS订单"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_pos_order
@@ -2045,32 +2045,32 @@ msgstr "POS订单统计"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_make_payment
 msgid "Point of Sale Payment"
-msgstr "付款"
+msgstr "POS付款"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 #: view:pos.session:point_of_sale.view_pos_session_search
 #: view:pos.session:point_of_sale.view_pos_session_tree
 msgid "Point of Sale Session"
-msgstr "Point of Sale Session"
+msgstr "POS会话"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_config_pos
 #: model:ir.ui.menu,name:point_of_sale.menu_pos_config_pos
 #: view:pos.session:point_of_sale.view_pos_session_search
 msgid "Point of Sales"
-msgstr "零售"
+msgstr "POS"
 
 #. module: point_of_sale
 #: view:pos.category:point_of_sale.product_pos_category_form_view
 msgid "Pos Categories"
-msgstr "Pos Categories"
+msgstr "Pos 类别"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.product_pos_category_action
 #: model:ir.ui.menu,name:point_of_sale.menu_product_pos_category
 msgid "Pos Product Categories"
-msgstr "Pos Product Categories"
+msgstr "Pos 产品类别"
 
 #. module: point_of_sale
 #: view:pos.confirm:point_of_sale.view_pos_confirm
@@ -2087,7 +2087,7 @@ msgstr "发表POS机日记帐分录"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:324
 #, python-format
 msgid "Postcode"
-msgstr "Postcode"
+msgstr "邮编"
 
 #. module: point_of_sale
 #: view:pos.order:point_of_sale.view_pos_order_filter
@@ -2139,7 +2139,7 @@ msgstr "打印收银条"
 #. module: point_of_sale
 #: view:pos.details:point_of_sale.view_pos_details
 msgid "Print Report"
-msgstr "打印报表"
+msgstr "打印报告"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_payment
@@ -3441,7 +3441,7 @@ msgstr "close"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1140
 #, python-format
 msgid "delete"
-msgstr "delete"
+msgstr "删除"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3479,7 +3479,7 @@ msgstr "或"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "payment method."
-msgstr "付款方式"
+msgstr "付款方法"
 
 #. module: point_of_sale
 #. openerp-web

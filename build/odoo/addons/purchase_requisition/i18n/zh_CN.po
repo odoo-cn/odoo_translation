@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:03+0000\n"
-"PO-Revision-Date: 2015-04-20 13:03+0000\n"
+"POT-Creation-Date: 2015-04-23 13:21+0000\n"
+"PO-Revision-Date: 2015-04-23 13:21+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -270,7 +270,7 @@ msgstr "草稿"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_filter
 msgid "End Month"
-msgstr "End Month"
+msgstr "结束月份"
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/wizard/purchase_requisition_partner.py:39
@@ -299,7 +299,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:purchase.requisition.line,id:0
 #: field:purchase.requisition.partner,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: purchase_requisition
 #: help:purchase.requisition,message_unread:0
@@ -380,12 +380,12 @@ msgstr "单据日期"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_filter
 msgid "Ordering Date"
-msgstr "Ordering Date"
+msgstr "订购日期"
 
 #. module: purchase_requisition
 #: selection:purchase.requisition,state:0
 msgid "PO Created"
-msgstr "PO Created"
+msgstr "PO 已创建"
 
 #. module: purchase_requisition
 #: field:purchase.requisition,picking_type_id:0
@@ -427,7 +427,7 @@ msgstr "产品"
 #. module: purchase_requisition
 #: field:purchase.requisition,po_line_ids:0
 msgid "Products by supplier"
-msgstr "Products by supplier"
+msgstr "产品，按供应商"
 
 #. module: purchase_requisition
 #: field:purchase.requisition,line_ids:0

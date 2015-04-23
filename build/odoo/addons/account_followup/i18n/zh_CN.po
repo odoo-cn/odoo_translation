@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:56+0000\n"
-"PO-Revision-Date: 2015-04-20 12:56+0000\n"
+"POT-Creation-Date: 2015-04-23 12:48+0000\n"
+"PO-Revision-Date: 2015-04-23 12:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -398,7 +398,7 @@ msgstr ", the latest payment follow-up\n"
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 msgid ": Current Date"
-msgstr ": Current Date"
+msgstr ": 当前日期"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -408,12 +408,12 @@ msgstr ":业务伙伴名称"
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 msgid ": User Name"
-msgstr ": User Name"
+msgstr ": 用户姓名"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 msgid ": User's Company Name"
-msgstr ": User's Company Name"
+msgstr ": 用户的公司名称"
 
 #. module: account_followup
 #: model:ir.actions.act_window,help:account_followup.action_account_followup_definition_form
@@ -437,7 +437,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_followup
 msgid "Account Follow-up"
-msgstr "科目催款"
+msgstr "催款"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
@@ -469,7 +469,7 @@ msgstr "After"
 #: view:website:account_followup.report_followup
 #, python-format
 msgid "Amount"
-msgstr "金额"
+msgstr "总额"
 
 #. module: account_followup
 #: field:res.partner,payment_amount_due:0
@@ -479,7 +479,7 @@ msgstr "Amount Due"
 #. module: account_followup
 #: field:res.partner,payment_amount_overdue:0
 msgid "Amount Overdue"
-msgstr "逾期总金额"
+msgstr "逾期总总额"
 
 #. module: account_followup
 #: code:addons/account_followup/account_followup.py:281
@@ -624,7 +624,7 @@ msgstr "手工催款"
 #. module: account_followup
 #: help:account_followup.print,partner_lang:0
 msgid "Do not change message text, if you want to send email in partner language, or configure from company"
-msgstr "如果你想按合作伙伴语言发送电子邮件，请配置公司语言不要改变消息的文本."
+msgstr "如果你想按业务伙伴语言发送电子邮件，请配置公司语言不要改变消息的文本."
 
 #. module: account_followup
 #: view:website:account_followup.report_followup
@@ -666,7 +666,7 @@ msgstr "电子邮件模板"
 #: code:addons/account_followup/account_followup.py:216
 #, python-format
 msgid "Email not sent because of email address of partner not filled in"
-msgstr "邮件未发出，因为合作伙伴的Email地址没填写"
+msgstr "邮件未发出，因为业务伙伴的Email地址没填写"
 
 #. module: account_followup
 #: code:addons/account_followup/account_followup.py:314
@@ -686,12 +686,12 @@ msgstr "第一个凭证"
 #: field:account_followup.followup.line,followup_id:0
 #: field:account_followup.stat,followup_id:0
 msgid "Follow Ups"
-msgstr "催款"
+msgstr "跟进"
 
 #. module: account_followup
 #: field:account_followup.print,followup_id:0
 msgid "Follow-Up"
-msgstr "后续跟进"
+msgstr "跟进"
 
 #. module: account_followup
 #: field:account_followup.followup.line,name:0
@@ -710,7 +710,7 @@ msgstr "Follow-Ups Analysis"
 #: model:ir.ui.menu,name:account_followup.account_followup_main_menu
 #: view:res.partner:account_followup.customer_followup_search_view
 msgid "Follow-up"
-msgstr "催款"
+msgstr "跟进"
 
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_followup_line
@@ -757,7 +757,7 @@ msgstr "催款统计"
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_stat_by_partner
 msgid "Follow-up Statistics by Partner"
-msgstr "按合作伙伴的催款统计"
+msgstr "按业务伙伴的催款统计"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -817,7 +817,7 @@ msgstr "He said the problem was temporary and promised to pay 50% before 15th of
 #: field:account_followup.stat.by.partner,id:0
 #: field:report.account_followup.report_followup,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
@@ -1040,7 +1040,7 @@ msgstr "付款跟进"
 #. module: account_followup
 #: help:res.partner,payment_note:0
 msgid "Payment Note"
-msgstr "Payment Note"
+msgstr "付款备注"
 
 #. module: account_followup
 #: field:account_followup.stat,period_id:0

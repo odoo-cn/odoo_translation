@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:06+0000\n"
-"PO-Revision-Date: 2015-04-20 13:06+0000\n"
+"POT-Creation-Date: 2015-04-23 13:35+0000\n"
+"PO-Revision-Date: 2015-04-23 13:35+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -45,7 +45,7 @@ msgstr "If you have an emergency, do not hesitate to contact us by phone:"
 #. module: website_crm
 #: view:website:website.contactus
 msgid "Phone Number"
-msgstr "Phone Number"
+msgstr "电话号码"
 
 #. module: website_crm
 #: view:website:website.contactus

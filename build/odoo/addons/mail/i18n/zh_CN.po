@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:00+0000\n"
-"PO-Revision-Date: 2015-04-20 13:00+0000\n"
+"POT-Creation-Date: 2015-04-23 13:08+0000\n"
+"PO-Revision-Date: 2015-04-23 13:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -528,7 +528,7 @@ msgstr "默认"
 #. module: mail
 #: field:mail.alias,alias_defaults:0
 msgid "Default Values"
-msgstr "Default Values"
+msgstr "默认值"
 
 #. module: mail
 #. openerp-web
@@ -541,7 +541,7 @@ msgstr "删除这个附件"
 #. module: mail
 #: selection:mail.mail,state:0
 msgid "Delivery Failed"
-msgstr "Delivery Failed"
+msgstr "投递失败"
 
 #. module: mail
 #: field:mail.group,description:0
@@ -853,7 +853,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:mail.wizard.invite,id:0
 #: field:publisher_warranty.contract,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: mail
 #: help:mail.alias,alias_parent_thread_id:0
@@ -1307,7 +1307,7 @@ msgstr "Optional ID of a thread (record) to which all incoming messages will be 
 #. module: mail
 #: model:ir.ui.menu,name:mail.mail_my_stuff
 msgid "Organizer"
-msgstr "个人助理"
+msgstr "Organizer"
 
 #. module: mail
 #: view:mail.mail:mail.view_mail_search
@@ -1795,7 +1795,7 @@ msgstr "到"
 #. module: mail
 #: field:mail.mail,recipient_ids:0
 msgid "To (Partners)"
-msgstr "到（合作伙伴）"
+msgstr "到（业务伙伴）"
 
 #. module: mail
 #: view:mail.message:mail.view_message_search
@@ -1988,13 +1988,13 @@ msgstr "You have one unread message"
 #: code:addons/mail/mail_mail.py:160
 #, python-format
 msgid "about"
-msgstr "about"
+msgstr "关于"
 
 #. module: mail
 #: code:addons/mail/mail_mail.py:160
 #, python-format
 msgid "access"
-msgstr "access"
+msgstr "访问"
 
 #. module: mail
 #. openerp-web

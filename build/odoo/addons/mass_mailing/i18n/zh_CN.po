@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:01+0000\n"
-"PO-Revision-Date: 2015-04-20 13:01+0000\n"
+"POT-Creation-Date: 2015-04-23 13:10+0000\n"
+"PO-Revision-Date: 2015-04-23 13:10+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -408,7 +408,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:mail.mass_mailing.test,id:0
 #: field:mail.statistics.report,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: mass_mailing
 #: help:mail.mail.statistics,mail_mail_id_int:0

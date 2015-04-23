@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:01+0000\n"
-"PO-Revision-Date: 2015-04-20 13:01+0000\n"
+"POT-Creation-Date: 2015-04-23 13:10+0000\n"
+"PO-Revision-Date: 2015-04-23 13:10+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: code:addons/mrp/stock.py:262
 #, python-format
 msgid " Manufacture"
-msgstr "制造"
+msgstr " 制造"
 
 #. module: mrp
 #: field:product.template,bom_count:0
@@ -301,12 +301,12 @@ msgstr "Allows to manage all product repairs.\n"
 #. module: mrp
 #: selection:mrp.workcenter.load,measure_unit:0
 msgid "Amount in cycles"
-msgstr "循环金额"
+msgstr "循环总额"
 
 #. module: mrp
 #: selection:mrp.workcenter.load,measure_unit:0
 msgid "Amount in hours"
-msgstr "工时金额"
+msgstr "工时总额"
 
 #. module: mrp
 #: field:mrp.workcenter.load,measure_unit:0
@@ -828,12 +828,12 @@ msgstr "Forces to specify a Serial Number for all moves containing this product 
 #. module: mrp
 #: field:mrp.workcenter,costs_general_account_id:0
 msgid "General Account"
-msgstr "总账"
+msgstr "通用科目"
 
 #. module: mrp
 #: view:mrp.workcenter:mrp.mrp_workcenter_view
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: mrp
 #: help:mrp.bom,sequence:0
@@ -909,7 +909,7 @@ msgstr "小时成本"
 #: field:report.workcenter.load,id:0
 #: field:stock.move.consume,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: mrp
 #: help:mrp.bom,product_id:0
@@ -1284,17 +1284,17 @@ msgstr "打开MRP 菜单"
 #. module: mrp
 #: view:mrp.routing:mrp.mrp_routing_form_view
 msgid "Operation"
-msgstr "操作"
+msgstr "作业"
 
 #. module: mrp
 #: view:mrp.config.settings:mrp.view_mrp_config
 msgid "Order"
-msgstr "付款单"
+msgstr "订单"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_production_order_action
 msgid "Order Planning"
-msgstr "制造单计划"
+msgstr "订单计划"
 
 #. module: mrp
 #: constraint:mrp.production:0
@@ -1400,7 +1400,7 @@ msgstr "从一个制造订单生产几个产品"
 #: view:mrp.production:mrp.mrp_production_form_view
 #: field:mrp.production,move_created_ids2:0
 msgid "Produced Products"
-msgstr "产出的产品"
+msgstr "生产的产品"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_product_product
@@ -1446,7 +1446,7 @@ msgstr "Product Produce Consume lines"
 #. module: mrp
 #: field:change.production.qty,product_qty:0
 msgid "Product Qty"
-msgstr "数量"
+msgstr "产品数量"
 
 #. module: mrp
 #: field:mrp.bom,product_qty:0
@@ -1552,7 +1552,7 @@ msgstr "Production Order for Raw Materials"
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_production_product_line
 msgid "Production Scheduled Product"
-msgstr "生产排程的产品"
+msgstr "生产安排的产品"
 
 #. module: mrp
 #: selection:mrp.production,state:0
@@ -1567,7 +1567,7 @@ msgstr "生产工作中心"
 #. module: mrp
 #: field:mrp.production,progress:0
 msgid "Production progress"
-msgstr "Production progress"
+msgstr "生产进度"
 
 #. module: mrp
 #: view:mrp.production:mrp.view_mrp_production_filter
@@ -1718,7 +1718,7 @@ msgstr "资源"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_view_resource_calendar_leaves_search_mrp
 msgid "Resource Leaves"
-msgstr "资源准假"
+msgstr "资源休假"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_pm_resources_config
@@ -1748,7 +1748,7 @@ msgstr "生产数量的小数位数"
 #: view:mrp.routing:mrp.mrp_routing_search_view
 #: view:mrp.routing:mrp.mrp_routing_tree_view
 msgid "Routing"
-msgstr "工艺路线"
+msgstr "工艺"
 
 #. module: mrp
 #: view:mrp.routing.workcenter:mrp.mrp_routing_workcenter_form_view
@@ -1765,7 +1765,7 @@ msgstr "工艺表示要用到的所有工作中心，需要多少时间或循环
 #: model:ir.actions.act_window,name:mrp.mrp_routing_action
 #: model:ir.ui.menu,name:mrp.menu_mrp_routing_action
 msgid "Routings"
-msgstr "工艺路线"
+msgstr "工艺"
 
 #. module: mrp
 #: help:mrp.config.settings,group_mrp_routings:0
@@ -1901,7 +1901,7 @@ msgstr "输入每小时的工作中心成本"
 #. module: mrp
 #: help:mrp.product_price,number:0
 msgid "Specify quantity of products to produce or buy. Report of Cost structure will be displayed base on this quantity."
-msgstr "输入要生产或采购的产品数量。报表会列出这些数量该产品的成本结构"
+msgstr "输入要生产或采购的产品数量。报告会列出这些数量该产品的成本结构"
 
 #. module: mrp
 #: field:mrp.production,date_start:0

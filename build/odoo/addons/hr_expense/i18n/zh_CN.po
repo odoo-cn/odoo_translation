@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:59+0000\n"
-"PO-Revision-Date: 2015-04-20 12:59+0000\n"
+"POT-Creation-Date: 2015-04-23 13:02+0000\n"
+"PO-Revision-Date: 2015-04-23 13:02+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "# 产品"
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "(Date and signature)."
-msgstr "(Date and signature)."
+msgstr "(日期和签名)."
 
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.hr_expense_product
@@ -217,7 +217,7 @@ msgstr "Date:"
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.product_normal_form_view_installer
 msgid "Define one product for each expense type allowed for an employee (travel by car, hostel, restaurant, etc). If you reimburse the employees at a fixed rate, set a cost and a unit of measure on the product. If you reimburse based on real costs, set the cost at 0.00. The user will set the real price when recording his expense sheet."
-msgstr "为员工可以使用的每个费用类型设置一个产品（交通费、住宿费、餐费等）。如果你报销固定费用，设置产品的成本和单位。如果实报实销，设置成本为0。用户在输入报销单时会输入实际金额。"
+msgstr "为员工可以使用的每个费用类型设置一个产品（交通费、住宿费、餐费等）。如果你报销固定费用，设置产品的成本和单位。如果实报实销，设置成本为0。用户在输入报销单时会输入实际总额。"
 
 #. module: hr_expense
 #: field:hr.expense.report,delay_confirm:0
@@ -345,7 +345,7 @@ msgstr "Expense confirmed, waiting confirmation"
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
 msgid "Expense refused"
-msgstr "支付被拒绝"
+msgstr "费用被拒绝"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_editable_expenses_tree
@@ -415,7 +415,7 @@ msgstr "Free Notes"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Generate Accounting Entries"
-msgstr "Generate Accounting Entries"
+msgstr "生成会计分录"
 
 #. module: hr_expense
 #: help:hr.expense.line,sequence:0
@@ -448,7 +448,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:hr.expense.line,id:0
 #: field:hr.expense.report,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: hr_expense
 #: help:hr.expense.expense,message_unread:0
@@ -703,7 +703,7 @@ msgstr "合计"
 #: view:hr.expense.expense:hr_expense.view_expenses_tree
 #: field:hr.expense.expense,amount:0
 msgid "Total Amount"
-msgstr "金额合计"
+msgstr "总额合计"
 
 #. module: hr_expense
 #: field:hr.expense.report,price_total:0

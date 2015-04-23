@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:03+0000\n"
-"PO-Revision-Date: 2015-04-20 13:03+0000\n"
+"POT-Creation-Date: 2015-04-23 13:19+0000\n"
+"PO-Revision-Date: 2015-04-23 13:19+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "客户发票中的平均价格"
 #. module: product_margin
 #: help:product.product,purchase_avg_price:0
 msgid "Avg. Price in Supplier Invoices "
-msgstr "供应商发票中的平均价格"
+msgstr "供应商发票平均单价 "
 
 #. module: product_margin
 #: field:product.product,purchase_avg_price:0
@@ -75,7 +75,7 @@ msgstr "创建于"
 #: selection:product.margin,invoice_state:0
 #: selection:product.product,invoice_state:0
 msgid "Draft, Open and Paid"
-msgstr "草稿、开启和已付"
+msgstr "草稿、待处理和支付"
 
 #. module: product_margin
 #: field:product.product,expected_margin:0
@@ -115,12 +115,12 @@ msgstr "从"
 #. module: product_margin
 #: view:product.margin:product_margin.product_margin_form_view
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: product_margin
 #: field:product.margin,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: product_margin
 #: field:product.margin,invoice_state:0
@@ -141,12 +141,12 @@ msgstr "最后更新"
 #. module: product_margin
 #: field:product.product,date_from:0
 msgid "Margin Date From"
-msgstr "毛利开始日"
+msgstr "盈利开始日"
 
 #. module: product_margin
 #: field:product.product,date_to:0
 msgid "Margin Date To"
-msgstr "毛利结束日"
+msgstr "盈利结束日"
 
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_form
@@ -276,17 +276,17 @@ msgstr "总成本"
 #. module: product_margin
 #: field:product.product,total_margin:0
 msgid "Total Margin"
-msgstr "总毛利"
+msgstr "总利润"
 
 #. module: product_margin
 #: field:product.product,total_margin_rate:0
 msgid "Total Margin Rate(%)"
-msgstr "总毛利率(%)"
+msgstr "总盈利率(%)"
 
 #. module: product_margin
 #: help:product.product,total_margin_rate:0
 msgid "Total margin * 100 / Turnover"
-msgstr "总毛利 / 营业额 * 100"
+msgstr "总利润 / 营业额 * 100"
 
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_tree

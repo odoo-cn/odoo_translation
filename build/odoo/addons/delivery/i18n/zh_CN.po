@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:56+0000\n"
+"PO-Revision-Date: 2015-04-23 12:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -96,12 +96,12 @@ msgstr "根据目的地定价"
 #. module: delivery
 #: field:delivery.carrier,amount:0
 msgid "Amount"
-msgstr "金额"
+msgstr "总额"
 
 #. module: delivery
 #: help:delivery.carrier,amount:0
 msgid "Amount of the order to benefit from a free shipping, expressed in the company currency"
-msgstr "免费送货的订单金额，以公司本位币显示"
+msgstr "免费送货的订单总额，以公司本位币显示"
 
 #. module: delivery
 #: field:delivery.carrier,available:0
@@ -136,7 +136,7 @@ msgstr "如果要根据目的地、重量、订单总价来管理运费，请勾
 #. module: delivery
 #: help:sale.order,carrier_id:0
 msgid "Complete this field if you plan to invoice the shipping based on picking."
-msgstr "如果你计划按装运按装箱开发票请输入此字段。"
+msgstr "Complete this field if you plan to invoice the shipping based on picking."
 
 #. module: delivery
 #: view:delivery.grid.line:delivery.view_delivery_grid_line_form
@@ -245,12 +245,12 @@ msgstr "当订单总额多于 时，免费"
 #: code:addons/delivery/delivery.py:152
 #, python-format
 msgid "Free if more than %.2f"
-msgstr "金额高于 %.2f 免费"
+msgstr "总额高于 %.2f 免费"
 
 #. module: delivery
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: delivery
 #: help:delivery.grid.line,sequence:0
@@ -294,7 +294,7 @@ msgstr "网络定义"
 #: field:delivery.grid,id:0
 #: field:delivery.grid.line,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: delivery
 #: help:delivery.carrier,active:0
@@ -309,7 +309,7 @@ msgstr "如果生效字段为false，送货网络将隐藏而不是删除。"
 #. module: delivery
 #: help:delivery.carrier,free_if_more_than:0
 msgid "If the order is more expensive than a certain amount, the customer can benefit from a free shipping"
-msgstr "如果订单金额高于某个特定金额，客户可以享受免费送货"
+msgstr "如果订单总额高于某个特定总额，客户可以享受免费送货"
 
 #. module: delivery
 #: view:sale.order:delivery.view_order_withcarrier_form
@@ -406,12 +406,12 @@ msgstr "业务伙伴"
 #. module: delivery
 #: model:ir.model,name:delivery.model_stock_picking
 msgid "Picking List"
-msgstr "装箱单"
+msgstr "分拣清单"
 
 #. module: delivery
 #: model:ir.actions.act_window,name:delivery.action_picking_tree
 msgid "Picking to be invoiced"
-msgstr "要开票的装箱单"
+msgstr "待开票的分拣"
 
 #. module: delivery
 #: field:delivery.carrier,price:0
@@ -428,7 +428,7 @@ msgstr "价格类型"
 #. module: delivery
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
 msgid "Pricing Information"
-msgstr "价格信息"
+msgstr "定价信息"
 
 #. module: delivery
 #: selection:delivery.grid.line,type:0

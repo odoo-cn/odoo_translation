@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:55+0000\n"
-"PO-Revision-Date: 2015-04-20 12:55+0000\n"
+"POT-Creation-Date: 2015-04-23 12:47+0000\n"
+"PO-Revision-Date: 2015-04-23 12:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -53,13 +53,13 @@ msgstr "预算交叉汇总表"
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_crossvered_report
 msgid "Account Budget crossvered report"
-msgstr "预算交叉报表"
+msgstr "预算交叉报告"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_budget_analytic
 #: model:ir.model,name:account_budget.model_account_budget_report
 msgid "Account Budget report for analytic account"
-msgstr "分析账户的的预算报表"
+msgstr "分析账户的的预算报告"
 
 #. module: account_budget
 #: view:account.budget.post:account_budget.view_budget_post_form
@@ -276,7 +276,7 @@ msgstr "结束日期"
 #: field:account.budget.crossvered.summary.report,date_to:0
 #: field:account.budget.report,date_to:0
 msgid "End of period"
-msgstr "结束会计期间"
+msgstr "期间结束"
 
 #. module: account_budget
 #: code:addons/account_budget/account_budget.py:124
@@ -296,7 +296,7 @@ msgstr "Error!"
 #: field:report.account_budget.report_budget,id:0
 #: field:report.account_budget.report_crossoveredbudget,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: account_budget
 #: field:account.budget.analytic,write_uid:0
@@ -349,13 +349,13 @@ msgstr "百分比"
 #: field:crossovered.budget.lines,planned_amount:0
 #: view:website:account_budget.report_budget
 msgid "Planned Amount"
-msgstr "预计金额"
+msgstr "预计总额"
 
 #. module: account_budget
 #: view:website:account_budget.report_analyticaccountbudget
 #: view:website:account_budget.report_crossoveredbudget
 msgid "Planned Amt"
-msgstr "预计金额"
+msgstr "预计总额"
 
 #. module: account_budget
 #: view:account.analytic.account:account_budget.view_account_analytic_account_form_inherit_budget
@@ -364,13 +364,13 @@ msgstr "预计金额"
 #: field:crossovered.budget.lines,practical_amount:0
 #: view:website:account_budget.report_budget
 msgid "Practical Amount"
-msgstr "实际金额"
+msgstr "实际总额"
 
 #. module: account_budget
 #: view:website:account_budget.report_analyticaccountbudget
 #: view:website:account_budget.report_crossoveredbudget
 msgid "Practical Amt"
-msgstr "实际金额"
+msgstr "实际总额"
 
 #. module: account_budget
 #: view:account.budget.analytic:account_budget.account_budget_analytic_view
@@ -446,18 +446,18 @@ msgstr "预算 '%s'  没有指定科目！"
 #: field:crossovered.budget.lines,theoritical_amount:0
 #: view:website:account_budget.report_budget
 msgid "Theoretical Amount"
-msgstr "理论金额"
+msgstr "理论总额"
 
 #. module: account_budget
 #: view:website:account_budget.report_analyticaccountbudget
 #: view:website:account_budget.report_crossoveredbudget
 msgid "Theoretical Amt"
-msgstr "理论金额"
+msgstr "理论总额"
 
 #. module: account_budget
 #: view:account.analytic.account:account_budget.view_account_analytic_account_form_inherit_budget
 msgid "Theoritical Amount"
-msgstr "理论金额"
+msgstr "理论总额"
 
 #. module: account_budget
 #: view:account.budget.analytic:account_budget.account_budget_analytic_view

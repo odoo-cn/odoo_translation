@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 00:48+0000\n"
-"PO-Revision-Date: 2015-04-23 00:48+0000\n"
+"POT-Creation-Date: 2015-04-23 13:42+0000\n"
+"PO-Revision-Date: 2015-04-23 13:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -49,7 +49,7 @@ msgstr " * The 'Draft' status is used when a user is encoding a new and unconfir
 #: code:addons/mrp/stock.py:262
 #, python-format
 msgid " Manufacture"
-msgstr "制造"
+msgstr " 制造"
 
 #. module: mrp
 #: field:product.template,bom_count:0
@@ -461,12 +461,12 @@ msgstr "Allows to manage all product repairs.\n"
 #. module: mrp
 #: selection:mrp.workcenter.load,measure_unit:0
 msgid "Amount in cycles"
-msgstr "循环金额"
+msgstr "循环总额"
 
 #. module: mrp
 #: selection:mrp.workcenter.load,measure_unit:0
 msgid "Amount in hours"
-msgstr "工时金额"
+msgstr "工时总额"
 
 #. module: mrp
 #: field:mrp.workcenter.load,measure_unit:0
@@ -1063,7 +1063,7 @@ msgstr "交货地址"
 #. module: mrp_repair
 #: field:mrp.repair,location_dest_id:0
 msgid "Delivery Location"
-msgstr "Delivery Location"
+msgstr "交货位置"
 
 #. modules: mrp_repair, mrp
 #: field:mrp.property,description:0
@@ -1248,12 +1248,12 @@ msgstr "未来工单"
 #. module: mrp
 #: field:mrp.workcenter,costs_general_account_id:0
 msgid "General Account"
-msgstr "总账"
+msgstr "通用科目"
 
 #. module: mrp
 #: view:mrp.workcenter:mrp.mrp_workcenter_view
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: mrp
 #: help:mrp.bom,sequence:0
@@ -1372,7 +1372,7 @@ msgstr "按工作中心工时合计"
 #: field:mrp.repair.line,id:0
 #: field:mrp.repair.make_invoice,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: mrp
 #: help:mrp.bom,product_id:0
@@ -2706,7 +2706,7 @@ msgstr "资源"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_view_resource_calendar_leaves_search_mrp
 msgid "Resource Leaves"
-msgstr "资源准假"
+msgstr "资源休假"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_pm_resources_config
@@ -2749,7 +2749,7 @@ msgstr "生产数量的小数位数"
 #: view:mrp.routing:mrp.mrp_routing_search_view
 #: view:mrp.routing:mrp.mrp_routing_tree_view
 msgid "Routing"
-msgstr "工艺路线"
+msgstr "工艺"
 
 #. module: mrp
 #: view:mrp.routing.workcenter:mrp.mrp_routing_workcenter_form_view
@@ -2766,7 +2766,7 @@ msgstr "工艺表示要用到的所有工作中心，需要多少时间或循环
 #: model:ir.actions.act_window,name:mrp.mrp_routing_action
 #: model:ir.ui.menu,name:mrp.menu_mrp_routing_action
 msgid "Routings"
-msgstr "工艺路线"
+msgstr "工艺"
 
 #. module: mrp
 #: help:mrp.config.settings,group_mrp_routings:0
@@ -2975,7 +2975,7 @@ msgstr "输入每小时的工作中心成本"
 #. module: mrp
 #: help:mrp.product_price,number:0
 msgid "Specify quantity of products to produce or buy. Report of Cost structure will be displayed base on this quantity."
-msgstr "输入要生产或采购的产品数量。报表会列出这些数量该产品的成本结构"
+msgstr "输入要生产或采购的产品数量。报告会列出这些数量该产品的成本结构"
 
 #. module: mrp_operations
 #: view:mrp.production:mrp_operations.mrp_production_form_inherit_view
@@ -3303,12 +3303,12 @@ msgstr "未读消息"
 #. module: mrp_repair
 #: field:mrp.repair,amount_untaxed:0
 msgid "Untaxed Amount"
-msgstr "未税金额"
+msgstr "未税总额"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Untaxed amount"
-msgstr "未税金额"
+msgstr "未税总额"
 
 #. module: mrp
 #: view:mrp.production:mrp.mrp_production_form_view
@@ -3581,7 +3581,7 @@ msgstr "工单分析"
 #. module: mrp_operations
 #: model:ir.model,name:mrp_operations.model_mrp_workorder
 msgid "Work Order Report"
-msgstr "工单报表"
+msgstr "工单报告"
 
 #. modules: mrp, mrp_operations
 #: view:mrp.production:mrp.mrp_production_form_view

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:59+0000\n"
-"PO-Revision-Date: 2015-04-20 12:59+0000\n"
+"POT-Creation-Date: 2015-04-23 13:04+0000\n"
+"PO-Revision-Date: 2015-04-23 13:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -586,7 +586,7 @@ msgstr "Default Alias Name for Jobs"
 #. module: hr_recruitment
 #: view:hr.config.settings:hr_recruitment.view_hr_apll_config_settings
 msgid "Default job email address"
-msgstr "Default job email address"
+msgstr "默认工作电子邮件地址"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.hr_job_survey
@@ -612,7 +612,7 @@ msgstr "招聘的学历"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.hr_kanban_view_applicant
 msgid "Degree:"
-msgstr "Degree:"
+msgstr "学历："
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_recruitment_degree
@@ -628,7 +628,7 @@ msgstr "删除"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.hr_kanban_view_applicant
 msgid "Departement:"
-msgstr "Departement:"
+msgstr "部门："
 
 #. module: hr_recruitment
 #: field:hr.applicant,department_id:0
@@ -640,7 +640,7 @@ msgstr "部门"
 #. module: hr_recruitment
 #: field:hr.job,manager_id:0
 msgid "Department Manager"
-msgstr "Department Manager"
+msgstr "部门经理"
 
 #. module: hr_recruitment
 #: field:hr.applicant,description:0
@@ -860,7 +860,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:hr.recruitment.source,id:0
 #: field:hr.recruitment.stage,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_it
@@ -1264,7 +1264,7 @@ msgstr "Regular meetings"
 #: view:hr.recruitment.stage:hr_recruitment.hr_recruitment_stage_form
 #: field:hr.recruitment.stage,requirements:0
 msgid "Requirements"
-msgstr "必备条件"
+msgstr "要求"
 
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_reserve
@@ -1291,32 +1291,32 @@ msgstr "查看招聘阶段"
 #. module: hr_recruitment
 #: field:hr.recruitment.report,salary_exp:0
 msgid "Salary Expected"
-msgstr "薪酬期望"
+msgstr "期望的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_expected:0
 msgid "Salary Expected by Applicant"
-msgstr "申请人要求的薪酬"
+msgstr "应聘者期望的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_expected_extra:0
 msgid "Salary Expected by Applicant, extra advantages"
-msgstr "应聘者的期望薪酬"
+msgstr "应聘者期望的薪资，额外利益"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,salary_prop:0
 msgid "Salary Proposed"
-msgstr "提议薪酬"
+msgstr "提议的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_proposed:0
 msgid "Salary Proposed by the Organisation"
-msgstr "该组织的提议薪酬"
+msgstr "该组织提议的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_proposed_extra:0
 msgid "Salary Proposed by the Organisation, extra advantages"
-msgstr "公司推荐的薪酬标准"
+msgstr "该组织提议的薪资，额外利益"
 
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_sales

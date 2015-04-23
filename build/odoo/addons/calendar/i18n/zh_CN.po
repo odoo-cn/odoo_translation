@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:57+0000\n"
-"PO-Revision-Date: 2015-04-20 12:57+0000\n"
+"POT-Creation-Date: 2015-04-23 12:53+0000\n"
+"PO-Revision-Date: 2015-04-23 12:53+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -749,12 +749,12 @@ msgstr "${object.event_id.name}"
 #. module: calendar
 #: model:email.template,subject:calendar.calendar_template_meeting_changedate
 msgid "${object.event_id.name} - Date has been updated"
-msgstr "${object.event_id.name} - Date has been updated"
+msgstr "${object.event_id.name} - 被更新的日期"
 
 #. module: calendar
 #: model:email.template,subject:calendar.calendar_template_meeting_reminder
 msgid "${object.event_id.name} - Reminder"
-msgstr "${object.event_id.name} - Reminder"
+msgstr "${object.event_id.name} - 提醒"
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
@@ -816,7 +816,7 @@ msgstr "AllDay , %s"
 #. module: calendar
 #: field:calendar.alarm,duration:0
 msgid "Amount"
-msgstr "金额"
+msgstr "总额"
 
 #. module: calendar
 #: code:addons/calendar/calendar.py:1114
@@ -1073,7 +1073,7 @@ msgstr "Error!"
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event
 msgid "Event"
-msgstr "活动"
+msgstr "事件"
 
 #. module: calendar
 #: field:calendar.event,display_time:0
@@ -1178,7 +1178,7 @@ msgstr "小时"
 #: field:calendar.event,id:0
 #: field:calendar.event.type,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: calendar
 #: help:calendar.event,message_unread:0

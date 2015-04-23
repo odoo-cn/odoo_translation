@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:57+0000\n"
+"PO-Revision-Date: 2015-04-23 12:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -46,7 +46,7 @@ msgstr "EDI 子系统"
 #. module: edi
 #: field:edi.edi,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: edi
 #: code:addons/edi/models/edi.py:129

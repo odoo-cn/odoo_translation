@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:04+0000\n"
-"PO-Revision-Date: 2015-04-20 13:04+0000\n"
+"POT-Creation-Date: 2015-04-23 13:27+0000\n"
+"PO-Revision-Date: 2015-04-23 13:27+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1230,7 +1230,7 @@ msgstr "默认所有者"
 #. module: stock
 #: field:stock.warehouse,default_resupply_wh_id:0
 msgid "Default Resupply Warehouse"
-msgstr "Default Resupply Warehouse"
+msgstr "默认供应仓库"
 
 #. module: stock
 #: field:stock.picking.type,default_location_src_id:0
@@ -1358,7 +1358,7 @@ msgstr "目标库位"
 #: field:procurement.order,move_dest_id:0
 #: field:stock.move,move_dest_id:0
 msgid "Destination Move"
-msgstr "移动目的地"
+msgstr "目的移动"
 
 #. module: stock
 #: field:stock.pack.operation,result_package_id:0
@@ -1620,12 +1620,12 @@ msgstr "未来库存"
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
 msgid "General Informations"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: stock
 #: field:stock.config.settings,module_procurement_jit:0
 msgid "Generate procurement in real time"
-msgstr "实时产生补货"
+msgstr "实时生成补货"
 
 #. module: stock
 #: help:stock.fixed.putaway.strat,sequence:0
@@ -1704,7 +1704,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:stock.warehouse,id:0
 #: field:stock.warehouse.orderpoint,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: stock
 #: code:addons/stock/stock.py:2836
@@ -2776,7 +2776,7 @@ msgstr "打开仓库菜单"
 #: field:stock.move.operation.link,operation_id:0
 #: field:stock.transfer_details_items,packop_id:0
 msgid "Operation"
-msgstr "操作"
+msgstr "作业"
 
 #. module: stock
 #: code:addons/stock/stock.py:1854
@@ -2867,7 +2867,7 @@ msgstr "今天处理或计划处理的单据"
 #: view:stock.move:stock.view_move_form
 #: view:stock.picking:stock.view_picking_internal_search
 msgid "Origin"
-msgstr "Origin"
+msgstr "原始"
 
 #. module: stock
 #: field:stock.move,origin_returned_move_id:0
@@ -3126,13 +3126,13 @@ msgstr "分拣类型"
 #: view:stock.move:stock.view_move_search
 #: field:stock.transfer_details,picking_id:0
 msgid "Picking"
-msgstr "领料/提货"
+msgstr "分拣"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_picking
 #: view:stock.picking:stock.view_picking_internal_search
 msgid "Picking List"
-msgstr "装箱单"
+msgstr "分拣清单"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_internal_search
@@ -3203,7 +3203,7 @@ msgstr "已处理的分拣"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.do_view_pickings
 msgid "Pickings for Groups"
-msgstr "要分组的分拣"
+msgstr "待分组的分拣"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_internal_search
@@ -3303,7 +3303,7 @@ msgstr "全部处理"
 #. module: stock
 #: view:stock.move:stock.view_move_form
 msgid "Process Later"
-msgstr "稍候处理"
+msgstr "稍后处理"
 
 #. module: stock
 #: model:ir.model,name:stock.model_procurement_order
@@ -3495,7 +3495,7 @@ msgstr "Products To Move"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_product_by_category_stock_form
 msgid "Products by Category"
-msgstr "产品类别"
+msgstr "产品，按类别"
 
 #. module: stock
 #: code:addons/stock/product.py:60
@@ -3930,7 +3930,7 @@ msgstr "Reordering Rules Search"
 #. module: stock
 #: field:stock.move.operation.link,reserved_quant_id:0
 msgid "Reserved Quant"
-msgstr "Reserved Quant"
+msgstr "预留的份"
 
 #. module: stock
 #: view:stock.move:stock.view_move_form
@@ -4015,13 +4015,13 @@ msgstr "路线"
 #. module: stock
 #: field:stock.location.route,name:0
 msgid "Route Name"
-msgstr "Route Name"
+msgstr "路线名称"
 
 #. module: stock
 #: field:procurement.rule,route_sequence:0
 #: field:stock.location.path,route_sequence:0
 msgid "Route Sequence"
-msgstr "Route Sequence"
+msgstr "路线序列"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_routes_form
@@ -4054,7 +4054,7 @@ msgstr "规则"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_proc_schedulers
 msgid "Run Schedulers"
-msgstr "运行排程"
+msgstr "运行排程器"
 
 #. module: stock
 #. openerp-web
@@ -5491,5 +5491,5 @@ msgstr "⇒ Set quantities to 0"
 #. module: stock
 #: view:product.template:stock.view_template_property_form
 msgid "⇒ Update"
-msgstr "⇒ Update"
+msgstr "⇒ 更新"
 

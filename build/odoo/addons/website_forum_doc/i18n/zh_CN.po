@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:06+0000\n"
-"PO-Revision-Date: 2015-04-20 13:06+0000\n"
+"POT-Creation-Date: 2015-04-23 13:37+0000\n"
+"PO-Revision-Date: 2015-04-23 13:37+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -77,7 +77,7 @@ msgstr "删除"
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
 msgid "Describe the business solution"
-msgstr "Describe the business solution"
+msgstr "描述业务方案"
 
 #. module: website_forum_doc
 #: model:ir.actions.act_url,name:website_forum_doc.action_open_documentation
@@ -169,7 +169,7 @@ msgstr "How to forecast sales revenues?"
 #: field:forum.documentation.stage,id:0
 #: field:forum.documentation.toc,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: website_forum_doc
 #: model:forum.documentation.stage,name:website_forum_doc.stage_ideas

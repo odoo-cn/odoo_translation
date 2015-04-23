@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:57+0000\n"
-"PO-Revision-Date: 2015-04-20 12:57+0000\n"
+"POT-Creation-Date: 2015-04-23 12:54+0000\n"
+"PO-Revision-Date: 2015-04-23 12:54+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1039,7 +1039,7 @@ msgstr "设计"
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,dst_partner_id:0
 msgid "Destination Contact"
-msgstr "Destination Contact"
+msgstr "目标联系人"
 
 #. module: crm
 #: selection:crm.lead2opportunity.partner,action:0
@@ -1116,7 +1116,7 @@ msgstr "预计商机落单日期."
 #. module: crm
 #: model:ir.model,name:crm.model_calendar_event
 msgid "Event"
-msgstr "活动"
+msgstr "事件"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
@@ -1232,7 +1232,7 @@ msgstr "来自: %s:%s"
 #. module: crm
 #: model:ir.actions.act_window,help:crm.action_report_crm_phonecall
 msgid "From this report, you can analyse the performance of your sales team, based on their phone calls. You can group or filter the information according to several criteria and drill down the information, by adding more groups in the report."
-msgstr "在这报表中，你能分析你的销售团队在电话访问上的业绩。你能根据几个标准和向下钻取数据组织或筛选信息。它能在报表中加入更多的组。"
+msgstr "在这报告中，你能分析你的销售团队在电话访问上的业绩。你能根据几个标准和向下钻取数据组织或筛选信息。它能在报告中加入更多的组。"
 
 #. module: crm
 #: field:crm.lead,function:0
@@ -1272,7 +1272,7 @@ msgstr "HTTP routing"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_partner_binding
 msgid "Handle partner binding or generation in CRM wizards."
-msgstr "在CRM向导中处理合作伙伴的绑定或生成。"
+msgstr "在CRM向导中处理业务伙伴的绑定或生成。"
 
 #. module: crm
 #: selection:crm.phonecall,state:0
@@ -1319,7 +1319,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:crm.tracking.mixin,id:0
 #: field:crm.tracking.source,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: crm
 #: field:base.partner.merge.line,aggr_ids:0
@@ -1482,7 +1482,7 @@ msgstr "线索已创建"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner
 msgid "Lead To Opportunity Partner"
-msgstr "线索转换为合作伙伴或商机"
+msgstr "线索转换为业务伙伴或商机"
 
 #. module: crm
 #: model:mail.message.subtype,description:crm.mt_lead_create
@@ -1699,7 +1699,7 @@ msgstr "标记为已赢得"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_lead2opportunity_partner_mass
 msgid "Mass Lead To Opportunity Partner"
-msgstr "批量转换线索为商机或合作伙伴"
+msgstr "批量转换线索为商机或业务伙伴"
 
 #. module: crm
 #: field:crm.segmentation,partner_id:0
@@ -2060,7 +2060,7 @@ msgstr "商机分析"
 #: model:ir.actions.act_window,help:crm.action_report_crm_opportunity
 #: model:ir.actions.act_window,help:crm.action_report_crm_opportunity_salesteam
 msgid "Opportunities Analysis gives you an instant access to your opportunities with information such as the expected revenue, planned cost, missed deadlines or the number of interactions per opportunity. This report is mainly used by the sales manager in order to do the periodic review with the teams of the sales pipeline."
-msgstr "商机分析给你随时访问商机的信息如：预期收入、计划成本、错过的最后时限或者每个商机的互动次数。这个报表主要给销售经理定期审查这团队里的业务员。"
+msgstr "商机分析给你随时访问商机的信息如：预期收入、计划成本、错过的最后时限或者每个商机的互动次数。这个报告主要给销售经理定期审查这团队里的业务员。"
 
 #. module: crm
 #: model:ir.filters,name:crm.filter_opportunity_opportunities_cohort
@@ -2188,18 +2188,18 @@ msgstr "业务伙伴类别"
 #. module: crm
 #: field:crm.lead,partner_address_email:0
 msgid "Partner Contact Email"
-msgstr "合作伙伴联系电邮"
+msgstr "业务伙伴联系电邮"
 
 #. module: crm
 #: field:crm.lead,partner_address_name:0
 msgid "Partner Contact Name"
-msgstr "合作伙伴联系姓名"
+msgstr "业务伙伴联系姓名"
 
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
 #: model:ir.model,name:crm.model_crm_segmentation
 msgid "Partner Segmentation"
-msgstr "合作伙伴细分"
+msgstr "业务伙伴细分"
 
 #. module: crm
 #: view:crm.segmentation.line:crm.crm_segmentation_line-view
@@ -2210,13 +2210,13 @@ msgstr "业务伙伴细分明细"
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation_tree-view
 msgid "Partner Segmentations"
-msgstr "合作伙伴细分"
+msgstr "业务伙伴细分"
 
 #. module: crm
 #: code:addons/crm/crm_phonecall.py:301
 #, python-format
 msgid "Partner has been <b>created</b>."
-msgstr "合作伙伴已<b>创建</b>"
+msgstr "业务伙伴已<b>创建</b>"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
@@ -2402,12 +2402,12 @@ msgstr "特征选项"
 #. module: crm
 #: model:crm.case.stage,name:crm.stage_lead4
 msgid "Proposition"
-msgstr "建议"
+msgstr "提议"
 
 #. module: crm
 #: selection:crm.segmentation.line,expr_name:0
 msgid "Purchase Amount"
-msgstr "采购金额"
+msgstr "采购总额"
 
 #. module: crm
 #: model:crm.case.stage,name:crm.stage_lead3
@@ -2450,7 +2450,7 @@ msgstr "Reminder on Lead: ${object.id} from ${object.partner_id != False and obj
 #: view:crm.case.stage:crm.crm_case_stage_form
 #: field:crm.case.stage,requirements:0
 msgid "Requirements"
-msgstr "必备条件"
+msgstr "要求"
 
 #. module: crm
 #: view:crm.phonecall:crm.view_crm_case_phonecalls_filter
@@ -2471,12 +2471,12 @@ msgstr "规则名称"
 #. module: crm
 #: selection:crm.segmentation,state:0
 msgid "Running"
-msgstr "进行中"
+msgstr "运行中"
 
 #. module: crm
 #: selection:crm.segmentation.line,expr_name:0
 msgid "Sale Amount"
-msgstr "销售金额"
+msgstr "销售总额"
 
 #. module: crm
 #: view:sale.config.settings:crm.view_sale_config_settings
@@ -3217,7 +3217,7 @@ msgstr "oe_kanban_text_red"
 #: code:addons/crm/crm_lead.py:972
 #, python-format
 msgid "opportunity"
-msgstr "opportunity"
+msgstr "商机"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form

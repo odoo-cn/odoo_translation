@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 00:48+0000\n"
-"PO-Revision-Date: 2015-04-23 00:48+0000\n"
+"POT-Creation-Date: 2015-04-23 13:42+0000\n"
+"PO-Revision-Date: 2015-04-23 13:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -127,7 +127,7 @@ msgstr "(*)正数表示员工工作时间小于记录的时间"
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "(Date and signature)."
-msgstr "(Date and signature)."
+msgstr "(日期和签名)."
 
 #. module: hr_timesheet
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in
@@ -389,7 +389,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "               单击创建部门信息。\n"
 "              </p><p>\n"
-"                系统的部门结构数据用于管理所有与员工部门有关的单据：报销单、时间表、准假申请、招聘等。\n"
+"                系统的部门结构数据用于管理所有与员工部门有关的单据：报销单、时间表、休假申请、招聘等。\n"
 "              </p>\n"
 "            "
 
@@ -858,7 +858,7 @@ msgstr "Ability to manage planning resources, risks, budgets and deadlines"
 #: selection:hr.sign.out.project,state:0
 #: selection:hr_timesheet_sheet.sheet,state_attendance:0
 msgid "Absent"
-msgstr "缺勤"
+msgstr "缺席"
 
 #. module: hr_expense
 #: selection:hr.expense.report,state:0
@@ -1069,26 +1069,26 @@ msgstr "分配模式"
 #. module: hr_holidays
 #: selection:hr.holidays,type:0
 msgid "Allocation Request"
-msgstr "分配准假"
+msgstr "分配申请"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_holiday_allocation_tree
 #: model:ir.actions.act_window,name:hr_holidays.open_allocation_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_open_allocation_holidays
 msgid "Allocation Requests"
-msgstr "分配准假"
+msgstr "分配申请"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.request_approve_allocation
 #: model:ir.ui.menu,name:hr_holidays.menu_request_approve_allocation
 msgid "Allocation Requests to Approve"
-msgstr "准假审核"
+msgstr "待审批的分配申请"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:508
 #, python-format
 msgid "Allocation for %s"
-msgstr "%s 的年假"
+msgstr "%s 的分配"
 
 #. module: hr_timesheet_sheet
 #: field:hr.config.settings,timesheet_max_difference:0
@@ -1134,14 +1134,14 @@ msgstr "总为真"
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Amount"
-msgstr "金额"
+msgstr "总额"
 
 #. module: hr_payroll
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_filter
 #: field:hr.payslip.line,amount_select:0
 #: field:hr.salary.rule,amount_select:0
 msgid "Amount Type"
-msgstr "金额类型"
+msgstr "总额类型"
 
 #. module: hr_attendance
 #: view:hr.attendance.error:hr_attendance.view_hr_attendance_error
@@ -1155,7 +1155,7 @@ msgstr "分析信息"
 #: model:ir.model,name:hr_timesheet.model_account_analytic_account
 #: model:ir.model,name:hr_timesheet_sheet.model_account_analytic_account
 msgid "Analytic Account"
-msgstr "辅助核算项"
+msgstr "分析账户"
 
 #. module: hr_timesheet
 #: field:hr.employee,journal_id:0
@@ -1530,7 +1530,7 @@ msgstr "Attendance Analysis"
 #: model:ir.actions.act_window,name:hr_attendance.action_hr_attendance_error
 #: model:ir.actions.report.xml,name:hr_attendance.action_report_hrattendanceerror
 msgid "Attendance Error Report"
-msgstr "考勤错误报表"
+msgstr "考勤错误报告"
 
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
@@ -1877,8 +1877,8 @@ msgstr "子项定义"
 #: help:hr.holidays,type:0
 msgid "Choose 'Leave Request' if someone wants to take an off-day. \n"
 "Choose 'Allocation Request' if you want to increase the number of leaves available for someone"
-msgstr "如果有人想休息，选择“准假申请”。\n"
-"如果有人想增加准假的天数，选择“分配准假”"
+msgstr "如果有人想休息，选择“休假申请”。\n"
+"如果有人想增加休假的天数，选择“分配休假”"
 
 #. module: hr_recruitment
 #: help:hr.job,survey_id:0
@@ -1975,7 +1975,7 @@ msgstr "颜色索引"
 #. module: hr_holidays
 #: field:hr.holidays.status,color_name:0
 msgid "Color in Report"
-msgstr "报表中的颜色"
+msgstr "报告中的颜色"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_9
@@ -2078,7 +2078,7 @@ msgstr "设置"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:91
 #, python-format
 msgid "Configuration Error!"
-msgstr "设置错误!"
+msgstr "Configuration Error!"
 
 #. module: hr
 #: view:hr.config.settings:hr.view_human_resources_configuration
@@ -2619,7 +2619,7 @@ msgstr "Default Alias Name for Jobs"
 #. module: hr_recruitment
 #: view:hr.config.settings:hr_recruitment.view_hr_apll_config_settings
 msgid "Default job email address"
-msgstr "Default job email address"
+msgstr "默认工作电子邮件地址"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.hr_job_survey
@@ -2634,7 +2634,7 @@ msgstr "定义考勤的原因"
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.product_normal_form_view_installer
 msgid "Define one product for each expense type allowed for an employee (travel by car, hostel, restaurant, etc). If you reimburse the employees at a fixed rate, set a cost and a unit of measure on the product. If you reimburse based on real costs, set the cost at 0.00. The user will set the real price when recording his expense sheet."
-msgstr "为员工可以使用的每个费用类型设置一个产品（交通费、住宿费、餐费等）。如果你报销固定费用，设置产品的成本和单位。如果实报实销，设置成本为0。用户在输入报销单时会输入实际金额。"
+msgstr "为员工可以使用的每个费用类型设置一个产品（交通费、住宿费、餐费等）。如果你报销固定费用，设置产品的成本和单位。如果实报实销，设置成本为0。用户在输入报销单时会输入实际总额。"
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,name:hr_timesheet.action_define_analytic_structure
@@ -2665,7 +2665,7 @@ msgstr "招聘的学历"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.hr_kanban_view_applicant
 msgid "Degree:"
-msgstr "Degree:"
+msgstr "学历："
 
 #. module: hr_recruitment
 #: model:ir.ui.menu,name:hr_recruitment.menu_hr_recruitment_degree
@@ -2711,7 +2711,7 @@ msgstr "Demonstrates genuine concern for me as a person"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.hr_kanban_view_applicant
 msgid "Departement:"
-msgstr "Departement:"
+msgstr "部门："
 
 #. modules: hr_expense, hr_contract, hr_holidays, hr, hr_recruitment, hr_timesheet_sheet
 #: view:hr.department:hr.view_department_filter
@@ -2738,7 +2738,7 @@ msgstr "部门"
 #. module: hr_recruitment
 #: field:hr.job,manager_id:0
 msgid "Department Manager"
-msgstr "Department Manager"
+msgstr "部门经理"
 
 #. module: hr
 #: field:hr.department,name:0
@@ -2830,7 +2830,7 @@ msgstr "差额"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.hr_timesheet_sheet_form
 msgid "Differences"
-msgstr "Differences"
+msgstr "差异"
 
 #. module: hr
 #: field:res.users,display_employees_suggestions:0
@@ -3182,7 +3182,7 @@ msgstr "结束日期"
 #: field:hr.attendance.error,end_date:0
 #: field:hr_evaluation.evaluation,date_close:0
 msgid "Ending Date"
-msgstr "结束日期"
+msgstr "期末日期"
 
 #. modules: hr_gamification, hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_1
@@ -3205,7 +3205,7 @@ msgstr "错误！签入（或签出）动作必须在签出（或签入）动作
 #. module: hr_payroll
 #: constraint:hr.payroll.structure:0
 msgid "Error ! You cannot create a recursive Salary Structure."
-msgstr "错误!您不能创建递归的薪资结构。"
+msgstr "错误！您不能创建递归的薪资结构。"
 
 #. modules: hr_timesheet_sheet, hr_expense, hr_recruitment, hr_payroll, hr_holidays
 #: code:addons/hr_expense/hr_expense.py:167
@@ -3258,12 +3258,12 @@ msgstr "错误！，你不能创建递归的员工层次"
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.opinion_2
 msgid "Evaluation"
-msgstr "考评"
+msgstr "评估"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_report
 msgid "Evaluations Statistics"
-msgstr "考评统计"
+msgstr "评估统计"
 
 #. module: hr_payroll
 #: help:hr.payslip.line,register_id:0
@@ -3357,7 +3357,7 @@ msgstr "Expense confirmed, waiting confirmation"
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
 msgid "Expense refused"
-msgstr "支付被拒绝"
+msgstr "费用被拒绝"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_editable_expenses_tree
@@ -3488,7 +3488,7 @@ msgstr "初次面试"
 #: field:hr.salary.rule,amount_fix:0
 #: selection:hr.salary.rule,amount_select:0
 msgid "Fixed Amount"
-msgstr "固定金额"
+msgstr "固定总额"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.stage,fold:0
@@ -3582,17 +3582,17 @@ msgstr "性别"
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
 #: view:hr.salary.rule:hr_payroll.hr_salary_rule_form
 msgid "General"
-msgstr "一般"
+msgstr "通用"
 
 #. module: hr_timesheet
 #: field:hr.timesheet.report,general_account_id:0
 msgid "General Account"
-msgstr "总账"
+msgstr "通用科目"
 
 #. module: hr_timesheet
 #: view:hr.sign.out.project:hr_timesheet.view_hr_timesheet_sign_out
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: hr_payroll
 #: view:hr.payslip.employees:hr_payroll.view_hr_payslip_by_employees
@@ -3913,7 +3913,7 @@ msgstr "I'm efficient at work and my achievements are successful"
 #: field:hr_timesheet_sheet.sheet.account,id:0
 #: field:hr_timesheet_sheet.sheet.day,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_it
@@ -3992,7 +3992,7 @@ msgstr "如果“有效”字段设为false，它对信息进行隐藏但不删�
 #. module: hr_holidays
 #: help:hr.holidays.status,active:0
 msgid "If the active field is set to false, it will allow you to hide the leave type without removing it."
-msgstr "如果生效字段设置为假，它将隐藏而不是删除这准假类型。"
+msgstr "如果生效字段设置为假，它将隐藏而不是删除这休假类型。"
 
 #. module: hr_payroll
 #: help:hr.payslip.line,active:0
@@ -4486,12 +4486,12 @@ msgstr "Leadership: sustain subordinates in their professional growth"
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays
 msgid "Leave"
-msgstr "准假"
+msgstr "休假"
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_resource_calendar_leaves
 msgid "Leave Detail"
-msgstr "准假详情"
+msgstr "休假详情"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.act_hr_leave_request_to_meeting
@@ -4508,12 +4508,12 @@ msgstr "离开会议"
 #: field:resource.calendar.leaves,holiday_id:0
 #, python-format
 msgid "Leave Request"
-msgstr "准假申请"
+msgstr "休假申请"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_holiday
 msgid "Leave Requests"
-msgstr "准假申请"
+msgstr "休假申请"
 
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_request_approve_holidays
@@ -4532,7 +4532,7 @@ msgstr "要审批的请假申请"
 #: field:hr.holidays.summary.dept,holiday_type:0
 #: model:ir.model,name:hr_holidays.model_hr_holidays_status
 msgid "Leave Type"
-msgstr "准假类型"
+msgstr "休假类型"
 
 #. module: hr_holidays
 #: view:hr.holidays.status:hr_holidays.view_holidays_status_filter
@@ -4548,18 +4548,18 @@ msgstr "请假类型"
 #: model:ir.actions.act_window,name:hr_holidays.act_hr_employee_holiday_request
 #: model:ir.ui.menu,name:hr_holidays.menu_open_ask_holidays
 msgid "Leaves"
-msgstr "准假"
+msgstr "休假"
 
 #. module: hr_holidays
 #: field:hr.holidays.status,leaves_taken:0
 msgid "Leaves Already Taken"
-msgstr "准假已通过"
+msgstr "休假已通过"
 
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_available_holidays_report
 #: model:ir.ui.menu,name:hr_holidays.menu_hr_available_holidays_report_tree
 msgid "Leaves Analysis"
-msgstr "准假分析"
+msgstr "休假分析"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.allocation_company_new
@@ -4576,7 +4576,7 @@ msgstr "假期管理"
 #: model:ir.actions.report.xml,name:hr_holidays.report_holidays_summary
 #: model:ir.ui.menu,name:hr_holidays.menu_open_company_allocation
 msgid "Leaves Summary"
-msgstr "准假摘要"
+msgstr "休假摘要"
 
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_open_view_holiday_status
@@ -4588,7 +4588,7 @@ msgstr "请假类型"
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_summary_dept
 #: model:ir.ui.menu,name:hr_holidays.menu_account_central_journal
 msgid "Leaves by Department"
-msgstr "部门的准假"
+msgstr "部门的休假"
 
 #. module: hr_holidays
 #: view:hr.holidays.remaining.leaves.user:hr_holidays.view_hr_holidays_remaining_leaves_user_graph
@@ -4664,7 +4664,7 @@ msgstr "LinkedIn"
 #. module: hr_payroll
 #: help:hr.salary.rule.category,parent_id:0
 msgid "Linking a salary category to its parent is used only for the reporting purpose."
-msgstr "工资类别的父级类别只用于报表"
+msgstr "工资类别的父级类别只用于报告"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.oprow_2_2_3
@@ -4863,7 +4863,7 @@ msgstr "最小延迟"
 #. module: hr_timesheet
 #: field:hr.sign.out.project,analytic_amount:0
 msgid "Minimum Analytic Amount"
-msgstr "最低辅助核算金额"
+msgstr "最低辅助核算总额"
 
 #. module: hr_payroll
 #: field:hr.payslip.line,condition_range_min:0
@@ -5656,12 +5656,12 @@ msgstr "打印"
 #. module: hr_attendance
 #: view:hr.attendance.error:hr_attendance.view_hr_attendance_error
 msgid "Print Attendance Report Error"
-msgstr "打印考勤报表错误"
+msgstr "打印考勤报告错误"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_attendance_error
 msgid "Print Error Attendance Report"
-msgstr "打印错误考勤报表"
+msgstr "打印错误考勤报告"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.hr_job_survey
@@ -6005,7 +6005,7 @@ msgstr "剩余天数"
 #. module: hr_holidays
 #: field:hr.holidays.status,remaining_leaves:0
 msgid "Remaining Leaves"
-msgstr "剩余准假"
+msgstr "剩余休假"
 
 #. module: hr_holidays
 #: view:hr.employee:hr_holidays.hr_holidays_leaves_assign_tree_view
@@ -6016,12 +6016,12 @@ msgstr "剩余的法定假期"
 #. module: hr_holidays
 #: field:hr.holidays.remaining.leaves.user,no_of_leaves:0
 msgid "Remaining leaves"
-msgstr "剩余的准假"
+msgstr "剩余的休假"
 
 #. module: hr
 #: model:ir.ui.menu,name:hr.menu_hr_reporting_timesheet
 msgid "Reports"
-msgstr "报表"
+msgstr "报告"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,request_id:0
@@ -6064,7 +6064,7 @@ msgstr "Requests to Approve"
 #: view:hr.recruitment.stage:hr_recruitment.hr_recruitment_stage_form
 #: field:hr.recruitment.stage,requirements:0
 msgid "Requirements"
-msgstr "必备条件"
+msgstr "要求"
 
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_reserve
@@ -6160,49 +6160,49 @@ msgstr "社会保险号SSN"
 #. module: hr_payroll
 #: view:hr.salary.rule.category:hr_payroll.hr_salary_rule_category_form
 msgid "Salary Categories"
-msgstr "工资类别"
+msgstr "薪资类别"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Salary Computation"
-msgstr "计算薪酬"
+msgstr "薪资计算"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,salary_exp:0
 msgid "Salary Expected"
-msgstr "薪酬期望"
+msgstr "期望的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_expected:0
 msgid "Salary Expected by Applicant"
-msgstr "申请人要求的薪酬"
+msgstr "应聘者期望的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_expected_extra:0
 msgid "Salary Expected by Applicant, extra advantages"
-msgstr "应聘者的期望薪酬"
+msgstr "应聘者期望的薪资，额外利益"
 
 #. module: hr_payroll_account
 #: field:hr.contract,journal_id:0
 #: field:hr.payslip,journal_id:0
 #: field:hr.payslip.run,journal_id:0
 msgid "Salary Journal"
-msgstr "工资账簿"
+msgstr "薪资分类账"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,salary_prop:0
 msgid "Salary Proposed"
-msgstr "提议薪酬"
+msgstr "提议的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_proposed:0
 msgid "Salary Proposed by the Organisation"
-msgstr "该组织的提议薪酬"
+msgstr "该组织提议的薪资"
 
 #. module: hr_recruitment
 #: help:hr.applicant,salary_proposed_extra:0
 msgid "Salary Proposed by the Organisation, extra advantages"
-msgstr "公司推荐的薪酬标准"
+msgstr "该组织提议的薪资，额外利益"
 
 #. module: hr_payroll
 #: view:hr.salary.rule.category:hr_payroll.hr_salary_rule_category_tree
@@ -6211,26 +6211,26 @@ msgstr "公司推荐的薪酬标准"
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_salary_rule_category
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_salary_rule_category
 msgid "Salary Rule Categories"
-msgstr "工资规则分类"
+msgstr "薪资规则类别"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_hr_salary_rule_category_tree_view
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_salary_rule_category_tree_view
 msgid "Salary Rule Categories Hierarchy"
-msgstr "工资规则类别层级"
+msgstr "薪资规则类别层级"
 
 #. module: hr_payroll
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_filter
 #: model:ir.model,name:hr_payroll.model_hr_salary_rule_category
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Salary Rule Category"
-msgstr "工资规则分类"
+msgstr "薪资规则类别"
 
 #. module: hr_payroll
 #: field:hr.rule.input,input_id:0
 #: model:ir.model,name:hr_payroll.model_hr_rule_input
 msgid "Salary Rule Input"
-msgstr "工资规则输入"
+msgstr "薪资规则输入"
 
 #. module: hr_payroll
 #: view:hr.payroll.structure:hr_payroll.view_hr_employee_grade_form
@@ -6242,13 +6242,13 @@ msgstr "工资规则输入"
 #: model:ir.actions.act_window,name:hr_payroll.action_salary_rule_form
 #: model:ir.ui.menu,name:hr_payroll.menu_action_hr_salary_rule_form
 msgid "Salary Rules"
-msgstr "工资规则"
+msgstr "薪资规则"
 
 #. module: hr_payroll
 #: code:addons/hr_payroll/hr_payroll.py:658
 #, python-format
 msgid "Salary Slip of %s for %s"
-msgstr "工资单：%s %s"
+msgstr "薪资单：%s %s"
 
 #. module: hr_payroll
 #: field:hr.contract,struct_id:0
@@ -6257,24 +6257,24 @@ msgstr "工资单：%s %s"
 #: view:hr.payslip.line:hr_payroll.view_hr_payslip_line_tree
 #: model:ir.model,name:hr_payroll.model_hr_payroll_structure
 msgid "Salary Structure"
-msgstr "薪酬结构"
+msgstr "薪资结构"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_list_form
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_structure_view
 msgid "Salary Structures"
-msgstr "工资结构"
+msgstr "薪资结构"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payroll_structure_tree
 #: model:ir.ui.menu,name:hr_payroll.menu_hr_payroll_structure_tree
 msgid "Salary Structures Hierarchy"
-msgstr "工资结构层级"
+msgstr "薪资结构层级"
 
 #. module: hr_contract
 #: view:hr.contract:hr_contract.hr_contract_view_form
 msgid "Salary and Advantages"
-msgstr "工资和机会"
+msgstr "薪资和利益"
 
 #. module: hr_recruitment
 #: model:hr.applicant_category,name:hr_recruitment.tag_applicant_sales
@@ -6330,12 +6330,12 @@ msgstr "搜索合同类型"
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_hr_holidays_filter
 msgid "Search Leave"
-msgstr "查找准假"
+msgstr "查找休假"
 
 #. module: hr_holidays
 #: view:hr.holidays.status:hr_holidays.view_holidays_status_filter
 msgid "Search Leave Type"
-msgstr "查找准假类型"
+msgstr "查找休假类型"
 
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
@@ -6855,7 +6855,7 @@ msgstr "人才管理"
 #. module: hr_payroll_account
 #: field:hr.salary.rule,account_tax_id:0
 msgid "Tax Code"
-msgstr "税代码"
+msgstr "税编码"
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_4
@@ -6936,7 +6936,7 @@ msgstr "可以在工资规则中使用的编号"
 #: help:hr.payslip.line,amount_select:0
 #: help:hr.salary.rule,amount_select:0
 msgid "The computation method for the rule amount."
-msgstr "规则金额的计算方法"
+msgstr "规则总额的计算方法"
 
 #. module: hr_payroll
 #: help:hr.payslip.input,contract_id:0
@@ -6984,13 +6984,13 @@ msgstr "The journal used when the expense is done."
 #: help:hr.payslip.line,condition_range_max:0
 #: help:hr.salary.rule,condition_range_max:0
 msgid "The maximum amount, applied for this rule."
-msgstr "适用这个规则的最大金额"
+msgstr "适用这个规则的最大总额"
 
 #. module: hr_payroll
 #: help:hr.payslip.line,condition_range_min:0
 #: help:hr.salary.rule,condition_range_min:0
 msgid "The minimum amount, applied for this rule."
-msgstr "这条规则的最小金额"
+msgstr "这条规则的最小总额"
 
 #. module: hr_recruitment
 #: sql_constraint:hr.recruitment.degree:0
@@ -7088,7 +7088,7 @@ msgstr "这个字段会被自动填充，值是审批这个请假申请的用户
 #. module: hr_holidays
 #: help:hr.holidays,manager_id2:0
 msgid "This area is automaticly filled by the user who validate the leave with second level (If Leave type need second validation)"
-msgstr "这个地方是自动填充的谁第二次生效这准假。（如果要两次生效）"
+msgstr "这个地方是自动填充的谁第二次生效这休假。（如果要两次生效）"
 
 #. module: hr_holidays
 #: help:hr.holidays.status,color_name:0
@@ -7430,7 +7430,7 @@ msgstr "合计"
 #: view:hr.expense.expense:hr_expense.view_expenses_tree
 #: field:hr.expense.expense,amount:0
 msgid "Total Amount"
-msgstr "金额合计"
+msgstr "总额合计"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,total_attendance:0
@@ -7954,17 +7954,17 @@ msgstr "已工作天数"
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Worked Days"
-msgstr "工作日数"
+msgstr "已工作天数"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_form
 msgid "Worked Days & Inputs"
-msgstr "工作天数 和 输入"
+msgstr "已工作天数和输入"
 
 #. module: hr_attendance
 #: field:hr.attendance,worked_hours:0
 msgid "Worked Hours"
-msgstr "Worked Hours"
+msgstr "已工作时数"
 
 #. module: hr
 #: field:hr.employee,address_id:0

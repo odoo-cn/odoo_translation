@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:58+0000\n"
+"PO-Revision-Date: 2015-04-23 12:58+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgstr "决定是否在销售订单行被确认时，一个产品自动创建一
 #: model:ir.model,name:event_sale.model_event_event
 #: field:sale.order.line,event_id:0
 msgid "Event"
-msgstr "活动"
+msgstr "事件"
 
 #. module: event_sale
 #: model:ir.model,name:event_sale.model_event_registration
@@ -134,7 +134,7 @@ msgstr "Event badge_innerright..."
 #. module: event_sale
 #: field:event.event.ticket,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: event_sale
 #: field:event.event.ticket,is_expired:0
@@ -211,7 +211,7 @@ msgstr "登记记录"
 #. module: event_sale
 #: field:event.event.ticket,seats_reserved:0
 msgid "Reserved Seats"
-msgstr "Reserved Seats"
+msgstr "预留的座位"
 
 #. module: event_sale
 #: field:event.event.ticket,deadline:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:03+0000\n"
-"PO-Revision-Date: 2015-04-20 13:03+0000\n"
+"POT-Creation-Date: 2015-04-23 13:21+0000\n"
+"PO-Revision-Date: 2015-04-23 13:21+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -191,7 +191,7 @@ msgstr "DLE 26 110 x 220 mm"
 #. module: report
 #: field:report.paperformat,default:0
 msgid "Default paper format ?"
-msgstr "Default paper format ?"
+msgstr "默认纸张格式？"
 
 #. module: report
 #: field:report.paperformat,header_line:0
@@ -238,7 +238,7 @@ msgstr "Header spacing"
 #: field:report.abstract_report,id:0
 #: field:report.paperformat,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: report
 #: selection:report.paperformat,orientation:0
@@ -365,7 +365,7 @@ msgstr "Report (PDF)"
 #: model:ir.ui.menu,name:report.reporting_menuitem
 #: model:ir.ui.menu,name:report.reports_menuitem
 msgid "Reports"
-msgstr "报表"
+msgstr "报告"
 
 #. module: report
 #: field:report.paperformat,margin_right:0

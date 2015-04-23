@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:55+0000\n"
-"PO-Revision-Date: 2015-04-20 12:55+0000\n"
+"POT-Creation-Date: 2015-04-23 12:46+0000\n"
+"PO-Revision-Date: 2015-04-23 12:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -193,7 +193,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                点击创建报价，可以将报价转换成销售订单。\n"
 "              </p><p>\n"
-"                使用销售订单可以跟踪从合同（例如：金额）到开票一系列过程。\n"
+"                使用销售订单可以跟踪从合同（例如：总额）到开票一系列过程。\n"
 "              </p>\n"
 "            "
 
@@ -241,7 +241,7 @@ msgstr "<p>\n"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid "Account Analytic Lines"
-msgstr "账户分析明细"
+msgstr "分析明细"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -294,17 +294,17 @@ msgstr "Computed using the formula: Expected on timesheets - Total invoiced on t
 #. module: account_analytic_analysis
 #: help:account.analytic.account,real_margin:0
 msgid "Computed using the formula: Invoiced Amount - Total Costs."
-msgstr "计算公式为：已开票金额 - 总成本"
+msgstr "计算公式为：已开票总额 - 总成本"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,revenue_per_hour:0
 msgid "Computed using the formula: Invoiced Amount / Total Time"
-msgstr "计算公式为：已开票金额 / 总时数"
+msgstr "计算公式为：已开票总额 / 总时数"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,remaining_ca:0
 msgid "Computed using the formula: Max Invoice Price - Invoiced Amount."
-msgstr "计算公式为：最高发票价格 -  已开票金额"
+msgstr "计算公式为：最高发票价格 -  已开票总额"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,remaining_hours:0
@@ -418,7 +418,7 @@ msgstr "说明"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 msgid "End Month"
-msgstr "End Month"
+msgstr "结束月份"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -439,7 +439,7 @@ msgstr "Error!"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,hours_qtt_est:0
 msgid "Estimation of Hours to Invoice"
-msgstr "预期记账时数"
+msgstr "预估时数"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,remaining_total:0
@@ -491,12 +491,12 @@ msgstr "月的小时数合计"
 #: field:account_analytic_analysis.summary.month,id:0
 #: field:account_analytic_analysis.summary.user,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,ca_to_invoice:0
 msgid "If invoice from analytic account, the remaining amount you can invoice to the customer based on the total costs."
-msgstr "如果是辅助核算项目的发票, 剩余金额你能给客户开基于总成本的发票"
+msgstr "如果是辅助核算项目的发票, 剩余总额你能给客户开基于总成本的发票"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,last_invoice_date:0
@@ -531,7 +531,7 @@ msgstr "已开发票"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,ca_invoiced:0
 msgid "Invoiced Amount"
-msgstr "已开票金额"
+msgstr "已开票总额"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,hours_qtt_invoiced:0
@@ -842,7 +842,7 @@ msgstr "待开票总额"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,ca_to_invoice:0
 msgid "Uninvoiced Amount"
-msgstr "未开票金额"
+msgstr "未开票总额"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,hours_qtt_non_invoiced:0
@@ -930,5 +930,5 @@ msgstr "=> 开票"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid "⇒ create invoices"
-msgstr "⇒ create invoices"
+msgstr "⇒ 创建发票"
 

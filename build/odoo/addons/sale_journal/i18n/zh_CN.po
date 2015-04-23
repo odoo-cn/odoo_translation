@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:04+0000\n"
-"PO-Revision-Date: 2015-04-20 13:04+0000\n"
+"POT-Creation-Date: 2015-04-23 13:23+0000\n"
+"PO-Revision-Date: 2015-04-23 13:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -43,7 +43,7 @@ msgstr "已分组"
 #. module: sale_journal
 #: field:sale_journal.invoice.type,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: sale_journal
 #: help:sale_journal.invoice.type,active:0
@@ -59,19 +59,19 @@ msgstr "如果设置active为False，你可以隐藏发票类型，不用删除�
 #: view:stock.picking:sale_journal.view_picking_internal_search
 #: field:stock.picking,invoice_type_id:0
 msgid "Invoice Type"
-msgstr "发票类型"
+msgstr "开票类型"
 
 #. module: sale_journal
 #: model:ir.actions.act_window,name:sale_journal.action_definition_journal_invoice_type
 #: model:ir.model,name:sale_journal.model_sale_journal_invoice_type
 #: model:ir.ui.menu,name:sale_journal.menu_definition_journal_invoice_type
 msgid "Invoice Types"
-msgstr "发票类型"
+msgstr "开票类型"
 
 #. module: sale_journal
 #: model:ir.actions.act_window,help:sale_journal.action_definition_journal_invoice_type
 msgid "Invoice types are used for partners, sales orders and delivery orders. You can create a specific invoicing journal to group your invoicing according to your customer's needs: daily, each Wednesday, monthly, etc."
-msgstr "发票类型对业务伙伴，销售订单和发货订单是有用的。你可以根据用户的需要生成专门的发票分类账来对你的发票进行分组：每天，每周三，每周，每月等。"
+msgstr "开票类型，对业务伙伴，销售订单和发货订单是有用的。你可以根据用户的需要生成专门的发票分类账来对你的发票进行分组：每天，每周三，每周，每月等。"
 
 #. module: sale_journal
 #: view:res.partner:sale_journal.view_partner_property_form
@@ -86,7 +86,7 @@ msgstr "开票类型"
 #. module: sale_journal
 #: field:sale_journal.invoice.type,invoicing_method:0
 msgid "Invoicing method"
-msgstr "开票方式"
+msgstr "开票方法"
 
 #. module: sale_journal
 #: field:sale_journal.invoice.type,write_uid:0
@@ -121,7 +121,7 @@ msgstr "业务伙伴"
 #. module: sale_journal
 #: model:ir.model,name:sale_journal.model_stock_picking
 msgid "Picking List"
-msgstr "装箱单"
+msgstr "分拣清单"
 
 #. module: sale_journal
 #: view:res.partner:sale_journal.view_partner_property_form
@@ -141,5 +141,5 @@ msgstr "库存移动"
 #. module: sale_journal
 #: help:res.partner,property_invoice_type:0
 msgid "This invoicing type will be used, by default, to invoice the current partner."
-msgstr "这种开票类型已经被使用，默认开票给当前的合作伙伴"
+msgstr "开票类型将被使用，默认开票给当前的业务伙伴"
 

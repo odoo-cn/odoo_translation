@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:57+0000\n"
-"PO-Revision-Date: 2015-04-20 12:57+0000\n"
+"POT-Creation-Date: 2015-04-23 12:54+0000\n"
+"PO-Revision-Date: 2015-04-23 12:54+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -107,7 +107,7 @@ msgstr "有效"
 #. module: crm_claim
 #: model:ir.model,name:crm_claim.model_crm_claim_report
 msgid "CRM Claim Report"
-msgstr "客户关系管理索赔报表"
+msgstr "客户关系管理索赔报告"
 
 #. module: crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_crm_case_claim-act
@@ -353,7 +353,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:crm.claim.report,id:0
 #: field:crm.claim.stage,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: crm_claim
 #: help:crm.claim,message_unread:0
@@ -665,7 +665,7 @@ msgstr "用户"
 #. module: crm_claim
 #: model:crm.case.categ,name:crm_claim.categ_claim2
 msgid "Value Claims"
-msgstr "索赔金额"
+msgstr "索赔总额"
 
 #. module: crm_claim
 #: field:crm.claim,email_cc:0

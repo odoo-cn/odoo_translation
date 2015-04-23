@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:01+0000\n"
-"PO-Revision-Date: 2015-04-20 13:01+0000\n"
+"POT-Creation-Date: 2015-04-23 13:10+0000\n"
+"PO-Revision-Date: 2015-04-23 13:10+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "# 已付款"
 #. module: membership
 #: field:report.membership,num_waiting:0
 msgid "# Waiting"
-msgstr "# 正在等待"
+msgstr "# 等待中"
 
 #. module: membership
 #: help:res.partner,associate_member:0
@@ -194,7 +194,7 @@ msgstr "会员资格结束日期"
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
 msgid "End Month"
-msgstr "End Month"
+msgstr "结束月份"
 
 #. module: membership
 #: help:report.membership,date_to:0
@@ -214,7 +214,7 @@ msgstr "错误！失效日期不能早于开始日期"
 #. module: membership
 #: constraint:res.partner:0
 msgid "Error ! You cannot create recursive associated members."
-msgstr "错误，您不能创建循环引用的会员用户"
+msgstr "错误！您不能创建循环引用的会员用户"
 
 #. module: membership
 #: code:addons/membership/membership.py:402
@@ -226,7 +226,7 @@ msgstr "Error!"
 #. module: membership
 #: constraint:membership.membership_line:0
 msgid "Error, this membership product is out of date"
-msgstr "错误，这个会员卡已过期"
+msgstr "错误，这个会员产品已过期"
 
 #. module: membership
 #: view:report.membership:membership.view_report_membership_search
@@ -267,7 +267,7 @@ msgstr "分组"
 #: field:membership.membership_line,id:0
 #: field:report.membership,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: membership
 #: view:product.template:membership.membership_product_search_form_view
@@ -431,7 +431,7 @@ msgstr "会员发票"
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
 msgid "Membership Partners"
-msgstr "会员合作伙伴"
+msgstr "会员业务伙伴"
 
 #. module: membership
 #: view:product.template:membership.membership_product_search_form_view
@@ -526,7 +526,7 @@ msgstr "业务伙伴为免费会员。"
 #. module: membership
 #: field:report.membership,tot_pending:0
 msgid "Pending Amount"
-msgstr "未决金额"
+msgstr "未决总额"
 
 #. module: membership
 #: model:ir.model,name:membership.model_product_template

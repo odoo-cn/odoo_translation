@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:05+0000\n"
-"PO-Revision-Date: 2015-04-20 13:05+0000\n"
+"POT-Creation-Date: 2015-04-23 13:29+0000\n"
+"PO-Revision-Date: 2015-04-23 13:29+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -307,7 +307,7 @@ msgstr "Composition mode"
 #. module: survey
 #: view:survey.question:survey.survey_question_form
 msgid "Constraints"
-msgstr "Constraints"
+msgstr "约束"
 
 #. module: survey
 #: field:survey.mail.compose.message,body:0
@@ -418,7 +418,7 @@ msgstr "Deadline to which the invitation to respond is valid"
 #. module: survey
 #: view:survey.survey:survey.survey_kanban
 msgid "Delete!"
-msgstr "Delete!"
+msgstr "删除！"
 
 #. module: survey
 #: field:survey.page,description:0
@@ -436,7 +436,7 @@ msgstr "设计"
 #: view:survey.question:survey.survey_question_form
 #: field:survey.question,display_mode:0
 msgid "Display mode"
-msgstr "Display mode"
+msgstr "显示模式"
 
 #. module: survey
 #: model:survey.stage,name:survey.stage_draft
@@ -566,7 +566,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:survey.user_input,id:0
 #: field:survey.user_input_line,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: survey
 #: field:survey.user_input,token:0
@@ -894,7 +894,7 @@ msgstr "Notify followers of the document (mass post only)"
 #. module: survey
 #: selection:survey.user_input_line,answer_type:0
 msgid "Number"
-msgstr "编号"
+msgstr "号码"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form

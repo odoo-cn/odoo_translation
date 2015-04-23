@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:56+0000\n"
-"PO-Revision-Date: 2015-04-20 12:56+0000\n"
+"POT-Creation-Date: 2015-04-23 12:48+0000\n"
+"PO-Revision-Date: 2015-04-23 12:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr " * The 'Draft' status is used when a user is encoding a new and unconfir
 #. module: account_voucher
 #: field:sale.receipt.report,nbr:0
 msgid "# of Voucher Lines"
-msgstr "#凭证明细"
+msgstr "# 凭证行"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
@@ -139,7 +139,7 @@ msgstr "科目"
 #. module: account_voucher
 #: field:account.voucher,move_id:0
 msgid "Account Entry"
-msgstr "科目分录"
+msgstr "分录"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
@@ -156,7 +156,7 @@ msgstr "分配"
 #. module: account_voucher
 #: field:account.voucher.line,amount:0
 msgid "Amount"
-msgstr "金额"
+msgstr "总额"
 
 #. module: account_voucher
 #: field:account.voucher.line,account_analytic_id:0
@@ -260,7 +260,7 @@ msgstr "公司"
 #. module: account_voucher
 #: help:account.voucher,writeoff_amount:0
 msgid "Computed as the difference between the amount stated in the voucher and the sum of allocation on the voucher lines."
-msgstr "计算公式 ： 凭证上输入的金额 - 凭证行的金额合计"
+msgstr "Computed as the difference between the amount stated in the voucher and the sum of allocation on the voucher lines."
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:1057
@@ -367,7 +367,7 @@ msgstr "说明"
 #. module: account_voucher
 #: field:account.voucher,writeoff_amount:0
 msgid "Difference Amount"
-msgstr "差异金额"
+msgstr "差异总额"
 
 #. module: account_voucher
 #: field:account.voucher.line,type:0
@@ -482,7 +482,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:account.voucher.line,id:0
 #: field:sale.receipt.report,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: account_voucher
 #: help:account.voucher,message_unread:0
@@ -603,7 +603,7 @@ msgstr "备注"
 #. module: account_voucher
 #: field:account.voucher,number:0
 msgid "Number"
-msgstr "编号"
+msgstr "号码"
 
 #. module: account_voucher
 #: help:account.voucher,tax_id:0
@@ -633,7 +633,7 @@ msgstr "打开供应商分类账分录"
 #. module: account_voucher
 #: field:account.voucher.line,amount_original:0
 msgid "Original Amount"
-msgstr "原始金额"
+msgstr "原始总额"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
@@ -649,12 +649,12 @@ msgstr "已付"
 #: view:account.voucher:account_voucher.view_vendor_receipt_dialog_form
 #: view:account.voucher:account_voucher.view_vendor_receipt_form
 msgid "Paid Amount"
-msgstr "已付金额"
+msgstr "已付总额"
 
 #. module: account_voucher
 #: field:account.voucher,paid_amount_in_company_currency:0
 msgid "Paid Amount in Company Currency"
-msgstr "按公司本位币计的付款金额"
+msgstr "按公司本位币计的付款总额"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -1004,7 +1004,7 @@ msgstr "手工指定的汇率，适用于这张凭证，用于转换所选货币
 #. module: account_voucher
 #: help:account.voucher,payment_option:0
 msgid "This field helps you to choose what you want to do with the eventual difference between the paid amount and the sum of allocated amounts. You can either choose to keep open this difference on the partner's account, or reconcile it with the payment(s)"
-msgstr "此字段用于选择对已支付金额和已分配金额的差异如何处理。可以选择保持欠款状态，也可以用其他付款来调节。"
+msgstr "此字段用于选择对已支付总额和已分配总额的差异如何处理。可以选择保持欠款状态，也可以用其他付款来调节。"
 
 #. module: account_voucher
 #: help:account.voucher,currency_help_label:0
@@ -1036,7 +1036,7 @@ msgstr "分配合计"
 #: view:account.voucher:account_voucher.view_voucher_tree
 #: view:account.voucher:account_voucher.view_voucher_tree_nocreate
 msgid "Total Amount"
-msgstr "金额合计"
+msgstr "总额合计"
 
 #. module: account_voucher
 #: field:sale.receipt.report,price_total_tax:0
@@ -1046,7 +1046,7 @@ msgstr "含税总计"
 #. module: account_voucher
 #: field:sale.receipt.report,price_total:0
 msgid "Total Without Tax"
-msgstr "总金额(不含税)"
+msgstr "总总额(不含税)"
 
 #. module: account_voucher
 #: help:account.voucher,reference:0
@@ -1073,7 +1073,7 @@ msgstr "反调节"
 #. module: account_voucher
 #: field:account.voucher.line,untax_amount:0
 msgid "Untax Amount"
-msgstr "未税金额"
+msgstr "未税总额"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form

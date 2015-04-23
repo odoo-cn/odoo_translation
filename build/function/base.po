@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 00:49+0000\n"
-"PO-Revision-Date: 2015-04-23 00:49+0000\n"
+"POT-Creation-Date: 2015-04-23 13:43+0000\n"
+"PO-Revision-Date: 2015-04-23 13:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -414,7 +414,7 @@ msgid "\n"
 "The wizard to launch the report has several options to help you get the data you need.\n"
 ""
 msgstr "\n"
-"在产品上添加了一个报表菜单，用于根据发票计算销售、采购、利润和其他有趣的指标。\n"
+"在产品上添加了一个报告菜单，用于根据发票计算销售、采购、利润和其他有趣的指标。\n"
 ""
 
 #. module: base
@@ -1237,7 +1237,7 @@ msgid "\n"
 "exceeds minimum amount set by configuration wizard.\n"
 "    "
 msgstr "\n"
-"超过最小金额时，采购工作双重核准\n"
+"超过最小总额时，采购工作双重核准\n"
 "=========================================================\n"
 "\n"
 "This module modifies the purchase workflow in order to validate purchases that\n"
@@ -1615,7 +1615,7 @@ msgstr "\n"
 "\n"
 "生成基于成本的发票模块（人力资源，费用，......).\n"
 "\n"
-"你可以在财务分析中定义价格列表，制作理论收入报表。"
+"你可以在财务分析中定义价格列表，制作理论收入报告。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_be_intrastat
@@ -2182,7 +2182,7 @@ msgstr "\n"
 "可以配置多种休假类型（病假、法定假日、带薪休假等）并通过分配申请分配给单个员工或部门。员工也可以申请\n"
 "增加假期天数，这需要填写一个额外的假期申请。如果增加假期天数的申请被批准，这个类型假期的可用天数会自动增加。\n"
 "\n"
-"以下报表用于对假期进行跟踪：\n"
+"以下报告用于对假期进行跟踪：\n"
 "* 休假总览\n"
 "* 按部门休假\n"
 "* 休假分析\n"
@@ -6826,7 +6826,7 @@ msgstr "访问规则"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_analytic_default
 msgid "Account Analytic Defaults"
-msgstr "分析默认值。"
+msgstr "分析默认"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_localization_account_charts
@@ -7373,7 +7373,7 @@ msgstr "阿富汗伊斯兰国"
 #. module: base
 #: selection:res.currency,position:0
 msgid "After Amount"
-msgstr "在金额后面"
+msgstr "在总额后面"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_aftersale
@@ -7511,7 +7511,7 @@ msgstr "安提瓜和巴布达"
 #. module: base
 #: help:res.company,rml_header1:0
 msgid "Appears by default on the top right corner of your printed documents (report header)."
-msgstr "将出现在打印的报表的右上角（报表页眉）"
+msgstr "将出现在打印的报告的右上角（报告页眉）"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_applicant_document
@@ -8028,7 +8028,7 @@ msgstr "Base view"
 #. module: base
 #: selection:res.currency,position:0
 msgid "Before Amount"
-msgstr "金额前"
+msgstr "总额前"
 
 #. module: base
 #: model:res.country,name:base.by
@@ -8616,7 +8616,7 @@ msgstr "Check this if you want to link the newly-created record to the current r
 #. module: base
 #: help:res.company,custom_footer:0
 msgid "Check this to define the report footer manually.  Otherwise it will be filled in automatically."
-msgstr "单击 以手工定义报表页脚。否则将被自动填充，"
+msgstr "单击 以手工定义报告页脚。否则将被自动填充，"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -9792,7 +9792,7 @@ msgstr "汇率"
 #. module: base
 #: help:res.currency,symbol:0
 msgid "Currency sign, to be used when printing amounts."
-msgstr "货币符号，打印金额时使用。"
+msgstr "货币符号，打印总额时使用。"
 
 #. module: base
 #: field:res.currency,rate:0
@@ -10082,7 +10082,7 @@ msgid "Dear Sir/Madam,\n"
 "Best Regards,"
 msgstr "亲爱的先生/女士,\n"
 "    我们的记录表明，您的到期帐款尚未支付。请看下面的明细信息。\n"
-"    如果这些金额已经支付，请忽略本次提醒。否则，请向我们说明如下金额。\n"
+"    如果这些总额已经支付，请忽略本次提醒。否则，请向我们说明如下总额。\n"
 "    如果有任何关于账单的疑问，请联系我们。\n"
 "\n"
 "    谢谢您的合作。\n"
@@ -10125,7 +10125,7 @@ msgstr "默认公司"
 #. module: base
 #: field:ir.default,value:0
 msgid "Default Value"
-msgstr "默认价值"
+msgstr "默认值"
 
 #. module: base
 #: field:ir.filters,is_default:0
@@ -10170,7 +10170,7 @@ msgstr "默认："
 #. module: base
 #: view:ir.module.module:base.module_form
 msgid "Defined Reports"
-msgstr "已定义报表"
+msgstr "已定义报告"
 
 #. modules: web, web_kanban, web_calendar
 #. openerp-web
@@ -10405,7 +10405,7 @@ msgstr "显示和管理所有可分配给您的伙伴记录的国家名单。您
 #. module: base
 #: field:res.partner.bank,footer:0
 msgid "Display on Reports"
-msgstr "显示报表"
+msgstr "显示报告"
 
 #. module: base
 #: help:res.partner.bank,footer:0
@@ -10501,7 +10501,7 @@ msgstr "筛选条件"
 #. module: base
 #: field:ir.actions.act_window,domain:0
 msgid "Domain Value"
-msgstr "筛选条件值"
+msgstr "条件值"
 
 #. module: web
 #. openerp-web
@@ -10844,7 +10844,7 @@ msgstr "英语(加拿大)"
 #. module: base
 #: selection:base.language.install,lang:0
 msgid "English (UK)"
-msgstr "英语（英国）"
+msgstr "英语(英国)"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -10980,7 +10980,7 @@ msgstr "求值错误"
 #. module: base
 #: field:ir.server.object.lines,type:0
 msgid "Evaluation Type"
-msgstr "Evaluation Type"
+msgstr "评估类型"
 
 #. module: web_calendar
 #. openerp-web
@@ -11050,12 +11050,12 @@ msgstr "全部展开"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_expense
 msgid "Expense Tracker"
-msgstr "Expense Tracker"
+msgstr "费用跟踪"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_expense
 msgid "Expenses Validation, Invoicing"
-msgstr "费用核准、开发票"
+msgstr "费用确认、开票"
 
 #. modules: web, base
 #. openerp-web
@@ -11495,7 +11495,7 @@ msgstr "生成的占位符表达式，可以复制粘贴到目标模版字段"
 #. module: base
 #: model:ir.module.module,summary:base.module_account_accountant
 msgid "Financial and Analytic Accounting"
-msgstr "财务和分析"
+msgstr "财务和分析会计"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -11578,7 +11578,7 @@ msgstr "Fonts available"
 #. module: base
 #: help:res.company,rml_footer:0
 msgid "Footer text displayed at the bottom of all reports."
-msgstr "页尾显示在所有报表的下方。"
+msgstr "页尾显示在所有报告的下方。"
 
 #. module: base
 #: help:ir.actions.report.xml,report_name:0
@@ -11819,17 +11819,17 @@ msgstr "Gauge Widget for Kanban"
 #. module: base
 #: view:ir.rule:base.view_rule_form
 msgid "General"
-msgstr "一般"
+msgstr "通用"
 
 #. module: base
 #: view:res.company:base.view_company_form
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: base
 #: view:ir.actions.act_window:base.view_window_action_form
 msgid "General Settings"
-msgstr "常规设置"
+msgstr "通用设置"
 
 #. module: base
 #: view:ir.property:base.ir_property_view_search
@@ -12193,7 +12193,7 @@ msgstr "帮你处理需要的账单，如果你是不是会计人员，我们建
 #. module: base
 #: model:ir.module.category,description:base.module_category_sales_management
 msgid "Helps you handle your quotations, sale orders and invoicing."
-msgstr "帮助您处理报价单、销售单和发票。"
+msgstr "帮助您处理报价单、销售单和开票。"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_human_resources
@@ -12208,7 +12208,7 @@ msgstr "帮助您管理库存与仓库相关操作：发货单、收货单等"
 #. module: base
 #: model:ir.module.category,description:base.module_category_manufacturing
 msgid "Helps you manage your manufacturing processes and generate reports on those processes."
-msgstr "帮助您管理您的制造过程，以及生成相关报表。"
+msgstr "帮助您管理您的制造过程，以及生成相关报告。"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_marketing
@@ -12442,7 +12442,7 @@ msgstr "IBAN银行账户"
 #: field:workflow.triggers,id:0
 #: field:workflow.workitem,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: base
 #: field:ir.default,ref_id:0
@@ -12598,7 +12598,7 @@ msgstr "如果选定，则定制翻译会被系统翻译覆盖替换。"
 #. module: base
 #: help:ir.actions.report.xml,attachment_use:0
 msgid "If you check this, then the second time the user prints with same attachment name, it returns the previous report."
-msgstr "如果您选中此处，当下次用户使用相同的附件名称打印时将返回以前的报表。"
+msgstr "如果您选中此处，当下次用户使用相同的附件名称打印时将返回以前的报告。"
 
 #. module: base
 #: help:base.language.import,overwrite:0
@@ -13044,7 +13044,7 @@ msgstr "开票"
 #. module: base
 #: model:ir.module.category,name:base.module_category_account_voucher
 msgid "Invoicing & Payments"
-msgstr "发票 & 付款"
+msgstr "开票&付款"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_journal
@@ -13299,7 +13299,7 @@ msgstr "语言导入"
 #. module: base
 #: field:base.language.import,name:0
 msgid "Language Name"
-msgstr "语言名"
+msgstr "语言名称"
 
 #. module: base
 #: code:addons/base/module/wizard/base_language_install.py:53
@@ -15472,7 +15472,7 @@ msgstr "OpenID 认证"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_report_designer
 msgid "OpenOffice Report Designer"
-msgstr "OpenOffice 报表设计器"
+msgstr "OpenOffice 报告设计器"
 
 #. module: base
 #: code:addons/base/res/res_users.py:161
@@ -16237,7 +16237,7 @@ msgstr "预览 页首/页脚"
 #. module: base
 #: model:ir.actions.report.xml,name:base.preview_report
 msgid "Preview Report"
-msgstr "预览报表"
+msgstr "预览报告"
 
 #. module: base
 #: view:res.currency:base.view_currency_form
@@ -16482,22 +16482,22 @@ msgstr "快速创建"
 #. module: base
 #: model:ir.module.module,summary:base.module_sale_stock
 msgid "Quotation, Sale Orders, Delivery & Invoicing Control"
-msgstr "报价单，销售订单，发货和发票控制"
+msgstr "报价单，销售订单，发货和开票控制"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_sale
 msgid "Quotations, Sales Orders, Invoicing"
-msgstr "报价单，销售订单，发票"
+msgstr "报价单，销售订单，开票"
 
 #. module: base
 #: selection:ir.translation,type:0
 msgid "RML  (deprecated - use Report)"
-msgstr "RML （已废弃，使用报表功能）"
+msgstr "RML （已废弃，使用报告功能）"
 
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_view
 msgid "RML Configuration"
-msgstr "RML Configuration"
+msgstr "RML 配置"
 
 #. module: base
 #: field:ir.actions.report.xml,report_rml_content:0
@@ -16523,17 +16523,17 @@ msgstr "RML Internal Header for Landscape Reports"
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_view
 msgid "RML Report"
-msgstr "RML 报表"
+msgstr "RML 报告"
 
 #. module: base
 #: selection:ir.actions.report.xml,report_type:0
 msgid "RML pdf (deprecated)"
-msgstr "RML pdf (deprecated)"
+msgstr "RML pdf (弃用)"
 
 #. module: base
 #: selection:ir.actions.report.xml,report_type:0
 msgid "RML sxw (deprecated)"
-msgstr "RML sxw (deprecated)"
+msgstr "RML sxw (弃用)"
 
 #. module: base
 #: field:res.currency.rate,rate:0
@@ -16763,13 +16763,13 @@ msgstr "Report Configuration"
 #. module: base
 #: field:ir.actions.report.xml,report_file:0
 msgid "Report File"
-msgstr "报表文件"
+msgstr "报告文件"
 
 #. module: base
 #: field:res.company,rml_footer:0
 #: field:res.company,rml_footer_readonly:0
 msgid "Report Footer"
-msgstr "报表页脚"
+msgstr "报告页脚"
 
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_search_view
@@ -16785,35 +16785,35 @@ msgstr "报告类型"
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_search_view
 msgid "Report Xml"
-msgstr "报表 XML"
+msgstr "报告 XML"
 
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_view_tree
 msgid "Report xml"
-msgstr "报表Xml"
+msgstr "报告Xml"
 
 #. module: base
 #: selection:ir.translation,type:0
 msgid "Report/Template"
-msgstr "报表/模板"
+msgstr "报告/模板"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_reporting
 #: model:ir.ui.menu,name:base.menu_reporting
 msgid "Reporting"
-msgstr "报表"
+msgstr "报告"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_action_report_xml
 #: field:ir.module.module,reports_by_module:0
 #: model:ir.ui.menu,name:base.menu_ir_action_report_xml
 msgid "Reports"
-msgstr "报表"
+msgstr "报告"
 
 #. module: base
 #: report:ir.module.reference:0
 msgid "Reports :"
-msgstr "报表："
+msgstr "报告："
 
 #. module: base
 #: view:res.request.link:base.res_request_link-view
@@ -16827,7 +16827,7 @@ msgstr "请求连接"
 #: field:ir.model.fields,required:0
 #: field:res.partner.bank.type.field,required:0
 msgid "Required"
-msgstr "必填"
+msgstr "必须的"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_crm_partner_assign
@@ -16858,7 +16858,7 @@ msgstr "资源ID"
 #. module: base
 #: field:ir.attachment,res_model:0
 msgid "Resource Model"
-msgstr "Resource Model"
+msgstr "资源模型"
 
 #. module: base
 #: field:ir.attachment,res_name:0
@@ -16875,7 +16875,7 @@ msgstr "资源对象"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_pos_restaurant
 msgid "Restaurant"
-msgstr "Restaurant"
+msgstr "餐馆"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_pos_restaurant
@@ -16980,7 +16980,7 @@ msgstr "规则不能应用在Record Rules模型"
 #: code:addons/base/ir/ir_actions.py:809
 #, python-format
 msgid "Run %s"
-msgstr "Run %s"
+msgstr "运行 %s"
 
 #. module: base
 #: model:ir.actions.server,name:base.action_run_ir_action_todo
@@ -18901,12 +18901,12 @@ msgstr "osv_memory 字段仅用 = 和 != 操作符作比较."
 #. module: base
 #: help:res.partner,tz:0
 msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
-msgstr "业务伙伴的时区，用来在打印的报表上面输出适当的日期和事件。设置这个字段非常重要. 选择和使用日期和时间 你将用和你电脑相同的时区。"
+msgstr "业务伙伴的时区，用来在打印的报告上面输出适当的日期和事件。设置这个字段非常重要. 选择和使用日期和时间 你将用和你电脑相同的时区。"
 
 #. module: base
 #: help:ir.actions.report.xml,report_file:0
 msgid "The path to the main report file (depending on Report Type) or NULL if the content is in another field"
-msgstr "主报表文件的路径（取决于报表类型）或者内容在其它字段的话也可为 NULL"
+msgstr "主报告文件的路径（取决于报告类型）或者内容在其它字段的话也可为 NULL"
 
 #. module: base
 #: help:ir.actions.report.xml,report_rml:0
@@ -19068,7 +19068,7 @@ msgstr "这个函数字段返回在显示某个动作的结果时可供选择的
 #. module: base
 #: help:ir.actions.report.xml,attachment:0
 msgid "This is the filename of the attachment used to store the printing result. Keep empty to not save the printed reports. You can use a python expression with the object and time variables."
-msgstr "这是用于存储打印结果的附件的文件名。如果不想保存打印后报表的话请保持为空。您可以在对象和时间变量中使用 Python 语言表达式。"
+msgstr "这是用于存储打印结果的附件的文件名。如果不想保存打印后报告的话请保持为空。您可以在对象和时间变量中使用 Python 语言表达式。"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_no
@@ -19680,7 +19680,7 @@ msgstr "发现未知操作符 %s ，筛选条件 %s 有误"
 #: code:addons/report_sxw.py:391
 #, python-format
 msgid "Unknown report type: %s"
-msgstr "未知报表类型：%s"
+msgstr "未知报告类型：%s"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:324
@@ -20320,7 +20320,7 @@ msgstr "Webkit (deprecated)"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_report_webkit
 msgid "Webkit Report Engine"
-msgstr "Webkit 报表引擎"
+msgstr "Webkit 报告引擎"
 
 #. module: base
 #: code:addons/base/res/res_company.py:166
@@ -20621,7 +20621,7 @@ msgstr "XML 路径"
 #. module: base
 #: view:ir.actions.report.xml:base.act_report_xml_view
 msgid "XML Report"
-msgstr "XML 报表"
+msgstr "XML 报告"
 
 #. module: base
 #: selection:ir.translation,type:0
@@ -21042,7 +21042,7 @@ msgstr "eCommerce Optional Products"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account
 msgid "eInvoicing"
-msgstr "电子发票管理"
+msgstr "电子开票"
 
 #. module: base
 #: view:res.users:base.view_users_simple_form
@@ -21416,12 +21416,12 @@ msgstr "在销售应用，用户只能访问自己的数据"
 #. module: base
 #: model:res.groups,comment:base.group_hr_manager
 msgid "the user will have an access to the human resources configuration as well as statistic reports."
-msgstr "用户将有权限访问人力资源配置以及统计报表。"
+msgstr "用户将有权限访问人力资源配置以及统计报告。"
 
 #. module: base
 #: model:res.groups,comment:base.group_sale_manager
 msgid "the user will have an access to the sales configuration as well as statistic reports."
-msgstr "用户将有权限访问销售配置及统计报表。"
+msgstr "用户将有权限访问销售配置及统计报告。"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form

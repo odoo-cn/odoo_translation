@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:56+0000\n"
+"PO-Revision-Date: 2015-04-23 12:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -437,7 +437,7 @@ msgstr "组"
 #: field:report.document.file,id:0
 #: field:report.document.user,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: document
 #: help:document.directory,resource_find_all:0
@@ -586,7 +586,7 @@ msgstr "所有者"
 #. module: document
 #: view:document.directory:document.view_document_directory_form
 msgid "PDF Report"
-msgstr "PDF报表"
+msgstr "PDF报告"
 
 #. module: document
 #: field:document.directory,parent_id:0

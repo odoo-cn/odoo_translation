@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 13:06+0000\n"
-"PO-Revision-Date: 2015-04-20 13:06+0000\n"
+"POT-Creation-Date: 2015-04-23 13:37+0000\n"
+"PO-Revision-Date: 2015-04-23 13:37+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -813,7 +813,7 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: field:forum.post.vote,id:0
 #: field:forum.tag,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: website_forum
 #: help:forum.forum,message_unread:0
@@ -1744,7 +1744,7 @@ msgstr "please, try to make your question interesting to others"
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "profile"
-msgstr "profile"
+msgstr "特征"
 
 #. module: website_forum
 #: view:website:website_forum.ask_question

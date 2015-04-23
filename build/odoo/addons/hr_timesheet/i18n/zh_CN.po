@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:59+0000\n"
-"PO-Revision-Date: 2015-04-20 12:59+0000\n"
+"POT-Creation-Date: 2015-04-23 13:04+0000\n"
+"PO-Revision-Date: 2015-04-23 13:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgstr "<p>\n"
 #: selection:hr.sign.in.project,state:0
 #: selection:hr.sign.out.project,state:0
 msgid "Absent"
-msgstr "缺勤"
+msgstr "缺席"
 
 #. module: hr_timesheet
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_form
@@ -255,12 +255,12 @@ msgstr "增加筛选条件"
 #. module: hr_timesheet
 #: field:hr.timesheet.report,general_account_id:0
 msgid "General Account"
-msgstr "总账"
+msgstr "通用科目"
 
 #. module: hr_timesheet
 #: view:hr.sign.out.project:hr_timesheet.view_hr_timesheet_sign_out
 msgid "General Information"
-msgstr "一般信息"
+msgstr "通用信息"
 
 #. module: hr_timesheet
 #: code:addons/hr_timesheet/hr_timesheet.py:153
@@ -285,7 +285,7 @@ msgstr "按月分组"
 #: field:hr.sign.out.project,id:0
 #: field:hr.timesheet.report,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: hr_timesheet
 #: help:hr.employee,product_id:0
@@ -319,7 +319,7 @@ msgstr "最后更新"
 #. module: hr_timesheet
 #: field:hr.sign.out.project,analytic_amount:0
 msgid "Minimum Analytic Amount"
-msgstr "最低辅助核算金额"
+msgstr "最低辅助核算总额"
 
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
@@ -371,7 +371,7 @@ msgstr "请为你的用户定义员工信息。"
 #: selection:hr.sign.in.project,state:0
 #: selection:hr.sign.out.project,state:0
 msgid "Present"
-msgstr "出勤"
+msgstr "出席"
 
 #. module: hr_timesheet
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_form
@@ -475,6 +475,11 @@ msgstr "时间表活动"
 #: model:ir.ui.menu,name:hr_timesheet.menu_hr_timesheet_report_all
 msgid "Timesheet Analysis"
 msgstr "Timesheet Analysis"
+
+#. module: hr_timesheet
+#: model:account.analytic.journal,name:hr_timesheet.analytic_journal
+msgid "Timesheet Journal"
+msgstr "Timesheet Journal"
 
 #. module: hr_timesheet
 #: model:ir.model,name:hr_timesheet.model_hr_analytic_timesheet

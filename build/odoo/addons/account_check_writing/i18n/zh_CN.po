@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:56+0000\n"
-"PO-Revision-Date: 2015-04-20 12:56+0000\n"
+"POT-Creation-Date: 2015-04-23 12:48+0000\n"
+"PO-Revision-Date: 2015-04-23 12:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -56,7 +56,7 @@ msgstr "允许写支票"
 #. module: account_check_writing
 #: field:account.voucher,amount_in_word:0
 msgid "Amount in Word"
-msgstr "金额大写"
+msgstr "总额大写"
 
 #. module: account_check_writing
 #: view:account.check.write:account_check_writing.view_account_check_write
@@ -144,7 +144,7 @@ msgstr "Error!"
 #: field:account.check.write,id:0
 #: field:report.account_check_writing.report_check,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: account_check_writing
 #: model:ir.model,name:account_check_writing.model_account_journal
@@ -186,7 +186,7 @@ msgstr "期初余额"
 #. module: account_check_writing
 #: view:website:account_check_writing.report_check
 msgid "Original Amount"
-msgstr "原始金额"
+msgstr "原始总额"
 
 #. module: account_check_writing
 #: view:website:account_check_writing.report_check

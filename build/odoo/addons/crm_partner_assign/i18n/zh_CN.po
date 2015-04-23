@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-20 12:58+0000\n"
-"PO-Revision-Date: 2015-04-20 12:58+0000\n"
+"POT-Creation-Date: 2015-04-23 12:55+0000\n"
+"PO-Revision-Date: 2015-04-23 12:55+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -178,12 +178,12 @@ msgstr "平均概率"
 #. module: crm_partner_assign
 #: model:ir.model,name:crm_partner_assign.model_crm_lead_report_assign
 msgid "CRM Lead Report"
-msgstr "客户关系管理 线索报表"
+msgstr "客户关系管理 线索报告"
 
 #. module: crm_partner_assign
 #: model:ir.model,name:crm_partner_assign.model_crm_partner_report_assign
 msgid "CRM Partner Report"
-msgstr "CRM业务伙伴报表"
+msgstr "CRM业务伙伴报告"
 
 #. module: crm_partner_assign
 #: view:crm.lead.channel.interested:crm_partner_assign.crm_lead_channel_interested_form
@@ -283,7 +283,7 @@ msgstr "客户名称"
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:crm_partner_assign.view_report_crm_partner_assign_filter
 msgid "Date Partnership"
-msgstr "合作伙伴日期"
+msgstr "业务伙伴日期"
 
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:crm_partner_assign.view_report_crm_partner_assign_filter
@@ -379,12 +379,12 @@ msgstr "Fwd: Lead: ${ctx['partner_id'].name}"
 #. module: crm_partner_assign
 #: field:crm.lead,partner_latitude:0
 msgid "Geo Latitude"
-msgstr "地理纬度"
+msgstr "geolocalization纬度"
 
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
 msgid "Geo Localization"
-msgstr "geolocalization定位"
+msgstr "地理定位"
 
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
@@ -394,13 +394,13 @@ msgstr "地理定位"
 #. module: crm_partner_assign
 #: field:crm.lead,partner_longitude:0
 msgid "Geo Longitude"
-msgstr "地理经度"
+msgstr "geolocalization经度"
 
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.view_crm_lead_geo_assign_form
 #: view:crm.lead:crm_partner_assign.view_crm_opportunity_geo_assign_form
 msgid "Geolocation"
-msgstr "Geolocation"
+msgstr "地理位置"
 
 #. module: crm_partner_assign
 #: help:res.partner,partner_weight:0
@@ -458,7 +458,7 @@ msgstr "I'm not interested"
 #: field:res.partner.activation,id:0
 #: field:res.partner.grade,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: crm_partner_assign
 #: field:res.partner,implemented_partner_ids:0
@@ -651,7 +651,7 @@ msgstr "业务伙伴"
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
 msgid "Partner Activation"
-msgstr "激活合作伙伴"
+msgstr "激活业务伙伴"
 
 #. module: crm_partner_assign
 #: model:ir.actions.act_window,name:crm_partner_assign.res_partner_activation_act
@@ -688,7 +688,7 @@ msgstr "业务伙伴名称"
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
 msgid "Partner Review"
-msgstr "合作伙伴评价"
+msgstr "业务伙伴评价"
 
 #. module: crm_partner_assign
 #: view:crm.partner.report.assign:crm_partner_assign.view_report_crm_partner_assign_filter
@@ -715,7 +715,7 @@ msgstr "合作关系日期"
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,planned_revenue:0
 msgid "Planned Revenue"
-msgstr "计划收入"
+msgstr "计划收益"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:92
