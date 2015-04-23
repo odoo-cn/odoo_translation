@@ -6,10 +6,11 @@ TOC
     - 1.1 使用po文件
     - 1.2 导入翻译
 - 2. 参与翻译
-    - 2.1 准备工作
-    - 2.2 进行翻译工作
-    - 2.3 提交翻译成果
-    - 2.4 申请合并到master  repo.
+    - 2.1  git操作概述
+    - 2.2 准备工作
+    - 2.3 进行翻译工作
+    - 2.4 提交翻译成果
+    - 2.5 申请合并到master  repo.
 
 <!-- /MarkdownTOC -->
 
@@ -131,8 +132,27 @@ Tips：
  
  fork repo 是指你的克隆
 
+## 2.1  git操作概述
 
-## 2.1 准备工作
+同步master repo
+
+    git pull master master  # 第一个master 是指 master repo ; 后一个master 是指 master 分支。
+
+建立翻译工作的分支
+
+    git checkout -b new_branch  # new_branch 是指进行翻译工作的分支，必须建立，否则无法申请pull request
+
+将翻译分支发布到你在github的 repo.
+
+    git push --all origin  # 将分支发布到github 
+
+
+申请pull request...
+
+略，参考 #2.5
+
+
+## 2.2 准备工作
 
 申请github账号，略
 
@@ -207,7 +227,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 此时，你的本地库与odoo-cn/odoo_translation主库是同步的。
 
-## 2.2 进行翻译工作
+## 2.3 进行翻译工作
 
 
 首先为翻译工作建立一个分支，例如 project
@@ -227,7 +247,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 翻译好之后，保存
 
 
-## 2.3 提交翻译成果
+## 2.4 提交翻译成果
 
 保存翻译之后，如果执行命令 git status
 
@@ -270,7 +290,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 你可以看到你提交的工作成果
 
 
-## 2.4 申请合并到master  repo.
+## 2.5 申请合并到master  repo.
 
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。
 
