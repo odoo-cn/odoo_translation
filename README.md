@@ -3,13 +3,13 @@ TOC
 <!-- MarkdownTOC -->
 
 - 1. 使用翻译
-	- 1.1 使用po文件
-	- 1.2 导入翻译
+    - 1.1 使用po文件
+    - 1.2 导入翻译
 - 2. 参与翻译
-	- 2.1 准备工作
-	- 2.2 进行翻译工作
-	- 2.3 提交翻译成果
-	- 2.4 申请合并到master  repo.
+    - 2.1 准备工作
+    - 2.2 进行翻译工作
+    - 2.3 提交翻译成果
+    - 2.4 申请合并到master  repo.
 
 <!-- /MarkdownTOC -->
 
@@ -21,18 +21,16 @@ TOC
 
 bundle目录，包含
 
-1. 主要应用的翻译，包含po格式和csv格式，例如account, stock, mrp, project 
+1. 全部常用模块的中文翻译，po格式，zh_CN.po 
 
-2. 全部模块的中文翻译，po格式，zh_CN.po 
-
-3. 全部模块的中文翻译，csv格式，zh_CN.csv 
+2. 全部常用模块的中文翻译，csv格式，zh_CN.csv 
 
 
 ## 1.1 使用po文件
 
 ### 覆盖po文件
 
-*addons目录，和openerp目录包含了常用的i18n 中文翻译包，可以直接直接覆盖系自带的翻译*
+*build/目录包含了常用的i18n 中文翻译包，可以用来直接覆盖系自带的翻译*
 
 使用 build/addons 目录 覆盖 odoo/addons目录
 
@@ -150,7 +148,7 @@ Tips：
 点击 fork 建立一个克隆
 
 Tips:  
-你必须有github 账号，才可以fork。 给gihub账号申请，不再累述。
+你必须有github 账号，才可以fork。 
 
 fork需要一定的时间
 
