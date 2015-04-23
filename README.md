@@ -1,7 +1,19 @@
 TOC
- 
-1.  使用翻译 
-2.  参与翻译 
+
+<!-- MarkdownTOC -->
+
+- 1. 使用翻译
+    - 1.1 使用po文件
+    - 1.2 导入翻译
+- 2. 参与翻译
+    - 2.1  git操作概述
+    - 2.2 准备工作
+    - 2.3 进行翻译工作
+    - 2.4 提交翻译成果
+    - 2.5 申请合并到master  repo.
+
+<!-- /MarkdownTOC -->
+
 
 # 1. 使用翻译
 
@@ -10,18 +22,16 @@ TOC
 
 bundle目录，包含
 
-1. 主要应用的翻译，包含po格式和csv格式，例如account, stock, mrp, project 
+1. 全部常用模块的中文翻译，po格式，zh_CN.po 
 
-2. 全部模块的中文翻译，po格式，zh_CN.po 
-
-3. 全部模块的中文翻译，csv格式，zh_CN.csv 
+2. 全部常用模块的中文翻译，csv格式，zh_CN.csv 
 
 
 ## 1.1 使用po文件
 
 ### 覆盖po文件
 
-*addons目录，和openerp目录包含了常用的i18n 中文翻译包，可以直接直接覆盖系自带的翻译*
+*build/目录包含了常用的i18n 中文翻译包，可以用来直接覆盖系自带的翻译*
 
 使用 build/addons 目录 覆盖 odoo/addons目录
 
@@ -122,8 +132,27 @@ Tips：
  
  fork repo 是指你的克隆
 
+## 2.1  git操作概述
 
-## 2.1 准备工作
+同步master repo
+
+    git pull master master  # 第一个master 是指 master repo ; 后一个master 是指 master 分支。
+
+建立翻译工作的分支
+
+    git checkout -b new_branch  # new_branch 是指进行翻译工作的分支，必须建立，否则无法申请pull request
+
+将翻译分支发布到你在github的 repo.
+
+    git push --all origin  # 将分支发布到github 
+
+
+申请pull request...
+
+略，参考 #2.5
+
+
+## 2.2 准备工作
 
 申请github账号，略
 
@@ -139,7 +168,7 @@ Tips：
 点击 fork 建立一个克隆
 
 Tips:  
-你必须有github 账号，才可以fork。 给gihub账号申请，不再累述。
+你必须有github 账号，才可以fork。 
 
 fork需要一定的时间
 
@@ -198,7 +227,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 此时，你的本地库与odoo-cn/odoo_translation主库是同步的。
 
-## 2.2 进行翻译工作
+## 2.3 进行翻译工作
 
 
 首先为翻译工作建立一个分支，例如 project
@@ -218,7 +247,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 翻译好之后，保存
 
 
-## 2.3 提交翻译成果
+## 2.4 提交翻译成果
 
 保存翻译之后，如果执行命令 git status
 
@@ -261,7 +290,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 你可以看到你提交的工作成果
 
 
-## 2.4 申请合并到master  repo.
+## 2.5 申请合并到master  repo.
 
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。
 
