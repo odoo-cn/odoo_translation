@@ -3,7 +3,7 @@ TOC
 <!-- MarkdownTOC -->
 
 - 1. 使用翻译
-    - 1.1 使用po文件
+    - 1.1 使用翻译
     - 1.2 导入翻译
 - 2. 参与翻译
     - 2.1  git操作概述
@@ -20,22 +20,27 @@ TOC
 
 建议使用po bundle，即所有模块的翻译合并在一起的po文件
 
-bundle目录，包含
+bundle 目录，包含
 
 1. 全部常用模块的中文翻译，po格式，zh_CN.po 
 
 2. 全部常用模块的中文翻译，csv格式，zh_CN.csv 
 
+build 目录,包含
 
-## 1.1 使用po文件
+1. 单个模块的po文件
+
+2. 以及常用业务功能的po budnle
+
+## 1.1 使用翻译
 
 ### 覆盖po文件
 
-*build/目录包含了常用的i18n 中文翻译包，可以用来直接覆盖系自带的翻译*
+*build/目录包含了常用模块的i18n 中文翻译包，可以用来直接覆盖系自带的翻译*
 
-使用 build/addons 目录 覆盖 odoo/addons目录
+使用 build/odoo 目录 覆盖 odoo 目录
 
-使用 build/openerp 目录覆盖 odoo/openerp目录
+
 
 ### 同步术语
 
