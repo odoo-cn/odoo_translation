@@ -1,0 +1,2705 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* project
+#	* project_issue_sheet
+#	* project_issue
+#	* project_timesheet
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-04-23 00:48+0000\n"
+"PO-Revision-Date: 2015-04-23 00:48+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: project_issue
+#: field:project.issue.report,email:0
+msgid "# Emails"
+msgstr "# 电子邮件"
+
+#. module: project_issue
+#: field:res.partner,issue_count:0
+msgid "# Issues"
+msgstr "# Issues"
+
+#. module: project
+#: field:res.partner,task_count:0
+msgid "# Tasks"
+msgstr "# Tasks"
+
+#. module: project
+#: field:report.project.task.user,no_of_days:0
+msgid "# of Days"
+msgstr "# of Days"
+
+#. module: project_issue
+#: field:project.issue.report,nbr:0
+msgid "# of Issues"
+msgstr "# of Issues"
+
+#. module: project
+#: field:project.task.history.cumulative,nbr_tasks:0
+#: field:report.project.task.user,nbr:0
+msgid "# of Tasks"
+msgstr "# of Tasks"
+
+#. modules: project, project_issue
+#: code:addons/project/project.py:360
+#: code:addons/project/project.py:380
+#: code:addons/project/project.py:702
+#: code:addons/project_issue/project_issue.py:299
+#, python-format
+msgid "%s (copy)"
+msgstr "%s (copy)"
+
+#. module: project
+#: model:ir.actions.act_window,help:project.open_view_project_all
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                  Click to start a new project.\n"
+"                </p><p>\n"
+"                  Projects are used to organize your activities; plan\n"
+"                  tasks, track issues, invoice timesheets. You can define\n"
+"                  internal projects (R&amp;D, Improve Sales Process),\n"
+"                  private projects (My Todos) or customer ones.\n"
+"                </p><p>\n"
+"                  You will be able collaborate with internal users on\n"
+"                  projects or invite customers to share your activities.\n"
+"                </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                  创建一个新项目\n"
+"                </p><p>\n"
+"                  项目是组织活动，计划任务，跟踪议题，记录人力资源成本的组织形式。项目可以分为内部项目（研发活动，加快销售进度），私有项目或者客户参与的项目。\n"
+"                </p><p>\n"
+"                内部用户以项目成员的方式参与到项目中，也可以邀请客户加入到项目中分享项目活动。\n"
+"                </p>\n"
+"            "
+
+#. module: project_timesheet
+#: model:ir.actions.act_window,help:project_timesheet.action_account_analytic_overdue
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a customer contract.\n"
+"              </p><p>\n"
+"                You will find here the contracts related to your customer\n"
+"                projects in order to track the invoicing progress.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"               单击添加 客户合同 联系人。\n"
+"              </p><p>\n"
+"                为了跟踪开票进程，你将在这里找到跟客户项目相关的合同.\n"
+"              </p>\n"
+"            "
+
+#. module: project
+#: model:ir.actions.act_window,help:project.project_category_action
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a new tag.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a new tag.\n"
+"              </p>\n"
+"            "
+
+#. module: project_issue
+#: model:ir.actions.act_window,help:project_issue.project_issue_version_action
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a new version.\n"
+"              </p><p>\n"
+"                Define here the different versions of your products on which\n"
+"                you can work on issues.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a new version.\n"
+"              </p><p>\n"
+"                Define here the different versions of your products on which\n"
+"                you can work on issues.\n"
+"              </p>\n"
+"            "
+
+#. module: project
+#: model:ir.actions.act_window,help:project.open_task_type_form
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a stage in the task pipeline.\n"
+"              </p><p>\n"
+"                Define the steps that will be used in the project from the\n"
+"                creation of the task, up to the closing of the task or issue.\n"
+"                You will use these stages in order to track the progress in\n"
+"                solving a task or an issue.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to add a stage in the task pipeline.\n"
+"              </p><p>\n"
+"                Define the steps that will be used in the project from the\n"
+"                creation of the task, up to the closing of the task or issue.\n"
+"                You will use these stages in order to track the progress in\n"
+"                solving a task or an issue.\n"
+"              </p>\n"
+"            "
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:56
+#, python-format
+msgid "<p class=\"oe_view_nocontent_create\">Record your timesheets for the project '%s'.</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">记录你为项目所做的计工单 '%s'.</p>"
+
+#. module: project
+#: model:ir.actions.act_window,help:project.act_project_project_2_project_task_all
+#: model:ir.actions.act_window,help:project.action_view_task
+msgid "<p>\n"
+"                    Odoo's project management allows you to manage the pipeline\n"
+"                    of tasks in order to get things done efficiently. You can\n"
+"                    track progress, discuss on tasks, attach documents, etc.\n"
+"                </p>\n"
+"            "
+msgstr "<p>\n"
+"                    Odoo's project management allows you to manage the pipeline\n"
+"                    of tasks in order to get things done efficiently. You can\n"
+"                    track progress, discuss on tasks, attach documents, etc.\n"
+"                </p>\n"
+"            "
+
+#. module: project_issue
+#: model:ir.actions.act_window,help:project_issue.act_project_project_2_project_issue_all
+#: model:ir.actions.act_window,help:project_issue.action_view_issues
+msgid "<p>\n"
+"                    The Odoo issues tacker allows you to efficiantly manage things\n"
+"                    like internal requests, software development bugs, customer\n"
+"                    complaints, project troubles, material breakdowns, etc.\n"
+"                </p>\n"
+"            "
+msgstr "<p>\n"
+"                    The Odoo issues tacker allows you to efficiantly manage things\n"
+"                    like internal requests, software development bugs, customer\n"
+"                    complaints, project troubles, material breakdowns, etc.\n"
+"                </p>\n"
+"            "
+
+#. module: project_issue
+#: model:ir.actions.act_window,help:project_issue.project_issue_categ_act0
+msgid "<p>\n"
+"                The Odoo issues tacker allows you to efficiantly manage things\n"
+"                like internal requests, software development bugs, customer\n"
+"                complaints, project troubles, material breakdowns, etc.\n"
+"            </p>\n"
+"        "
+msgstr "<p>\n"
+"                The Odoo issues tacker allows you to efficiantly manage things\n"
+"                like internal requests, software development bugs, customer\n"
+"                complaints, project troubles, material breakdowns, etc.\n"
+"            </p>\n"
+"        "
+
+#. module: project_timesheet
+#: model:ir.actions.act_window,help:project_timesheet.action_project_timesheet_bill_task
+msgid "<p>\n"
+"                You will find here timesheets and purchases you did for contracts that can be reinvoiced to the customer.\n"
+"                If you want to record new jobs to invoice, you should use the timesheet menu instead.\n"
+"              </p>\n"
+"            "
+msgstr "<p>\n"
+"                你可以在这里找到为了合同而产生的计工单和采购，并可以由此重开发票给客人。\n"
+"                如果你要记录新的任务到发票，你必须使用计工单菜单替代。\n"
+"              </p>\n"
+"            "
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:59
+#, python-format
+msgid "<p>Timesheets on this project may be invoiced to %s, according to the terms defined in the contract.</p>"
+msgstr "<p>根据合同的条款，项目的计工单可开票给 %s </p>"
+
+#. module: project_issue
+#: help:project.issue,kanban_state:0
+msgid "A Issue's kanban state indicates special situations affecting it:\n"
+" * Normal is the default situation\n"
+" * Blocked indicates something is preventing the progress of this issue\n"
+" * Ready for next stage indicates the issue is ready to be pulled to the next stage"
+msgstr "A Issue's kanban state indicates special situations affecting it:\n"
+" * Normal is the default situation\n"
+" * Blocked indicates something is preventing the progress of this issue\n"
+" * Ready for next stage indicates the issue is ready to be pulled to the next stage"
+
+#. module: project
+#: help:project.task,kanban_state:0
+msgid "A task's kanban state indicates special situations affecting it:\n"
+" * Normal is the default situation\n"
+" * Blocked indicates something is preventing the progress of this task\n"
+" * Ready for next stage indicates the task is ready to be pulled to the next stage"
+msgstr "A task's kanban state indicates special situations affecting it:\n"
+" * Normal is the default situation\n"
+" * Blocked indicates something is preventing the progress of this task\n"
+" * Ready for next stage indicates the task is ready to be pulled to the next stage"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Accept Emails From"
+msgstr "Accept Emails From"
+
+#. modules: project, project_issue
+#: field:project.project,active:0
+#: field:project.issue,active:0
+#: field:project.issue.version,active:0
+msgid "Active"
+msgstr "有效"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+msgid "Add a Description..."
+msgstr "Add a Description..."
+
+#. module: project
+#: view:project.task.type:project.task_type_edit
+msgid "Add a description..."
+msgstr "Add a description..."
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_issue_form_view
+msgid "Add an internal note..."
+msgstr "添加一个内部备注..."
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Administration"
+msgstr "系统管理"
+
+#. module: project
+#: field:project.project,alias_id:0
+msgid "Alias"
+msgstr "别名"
+
+#. module: project
+#: field:project.project,alias_model:0
+msgid "Alias Model"
+msgstr "Alias Model"
+
+#. module: project
+#: field:project.config.settings,group_manage_delegation_task:0
+msgid "Allow task delegation"
+msgstr "Allow task delegation"
+
+#. module: project
+#: help:project.config.settings,group_time_work_estimation_tasks:0
+msgid "Allows you to compute Time Estimation on tasks."
+msgstr "Allows you to compute Time Estimation on tasks."
+
+#. module: project
+#: help:project.config.settings,group_tasks_work_on_tasks:0
+msgid "Allows you to compute work on tasks."
+msgstr "Allows you to compute work on tasks."
+
+#. module: project_issue
+#: help:project.config.settings,fetchmail_issue:0
+msgid "Allows you to configure your incoming mail server, and create issues from incoming emails."
+msgstr "允许直接从邮件收件服务器收到的邮件创建相关问题."
+
+#. module: project
+#: help:project.config.settings,group_manage_delegation_task:0
+msgid "Allows you to delegate tasks to other users."
+msgstr "Allows you to delegate tasks to other users."
+
+#. module: project
+#: model:project.task.type,name:project.project_tt_analysis
+msgid "Analysis"
+msgstr "分析"
+
+#. modules: project, project_issue_sheet, project_issue
+#: model:ir.model,name:project.model_account_analytic_account
+#: model:ir.model,name:project_issue.model_account_analytic_account
+#: code:addons/project_issue_sheet/project_issue_sheet.py:57
+#: field:project.issue,analytic_account_id:0
+#, python-format
+msgid "Analytic Account"
+msgstr "分析账户"
+
+#. module: project_timesheet
+#: view:account.analytic.line:project_timesheet.view_account_analytic_line_form_inherit_account_id
+msgid "Analytic Account/Project"
+msgstr "分析账户/项目"
+
+#. modules: project_issue_sheet, project_timesheet
+#: model:ir.model,name:project_issue_sheet.model_account_analytic_line
+#: model:ir.model,name:project_timesheet.model_account_analytic_line
+msgid "Analytic Line"
+msgstr "分析明细"
+
+#. module: project_timesheet
+#: view:account.analytic.line:project_timesheet.view_account_analytic_line_search_account_inherit
+#: view:account.analytic.line:project_timesheet.view_account_analytic_line_tree_inherit_account_id
+msgid "Analytic account/project"
+msgstr "分析账户/项目"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Append this project to another one using analytic accounts hierarchy"
+msgstr "Append this project to another one using analytic accounts hierarchy"
+
+#. module: project
+#: view:project.config.settings:project.view_config_settings
+msgid "Apply"
+msgstr "应用"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "April"
+msgstr "4月"
+
+#. module: project
+#: field:project.task.delegate,user_id:0
+msgid "Assign To"
+msgstr "分配到"
+
+#. module: project
+#: field:report.project.task.user,date_start:0
+msgid "Assignation Date"
+msgstr "指定日期"
+
+#. module: project
+#: view:project.task:project.view_task_search_form
+#: view:report.project.task.user:project.view_task_project_user_search
+msgid "Assignation Month"
+msgstr "指派月份"
+
+#. module: project_issue
+#: field:project.issue,date_open:0
+msgid "Assigned"
+msgstr "已指派"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.act_res_users_2_project_task_opened
+msgid "Assigned Tasks"
+msgstr "已指派任务"
+
+#. module: project
+#: field:report.project.task.user,user_id:0
+msgid "Assigned To"
+msgstr "已指派给"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_search_form
+#: field:project.task,user_id:0
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: view:report.project.task.user:project.view_task_project_user_search
+#: view:project.issue:project_issue.view_project_issue_filter
+#: field:project.issue,user_id:0
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: field:project.issue.report,user_id:0
+msgid "Assigned to"
+msgstr "已指派给"
+
+#. module: project
+#: code:addons/project/project.py:212
+#, python-format
+msgid "Attachments"
+msgstr "附件"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "August"
+msgstr "8月"
+
+#. module: project_issue
+#: field:project.issue.report,delay_close:0
+msgid "Avg. Delay to Close"
+msgstr "平均耗用天数"
+
+#. module: project_issue
+#: field:project.issue.report,delay_open:0
+msgid "Avg. Delay to Open"
+msgstr "距开始处理"
+
+#. module: project
+#: field:report.project.task.user,hours_delay:0
+msgid "Avg. Plan.-Eff."
+msgstr "Avg. Plan.-Eff."
+
+#. module: project_issue
+#: field:project.issue.report,working_hours_close:0
+msgid "Avg. Working Hours to Close"
+msgstr "平均剩余工时"
+
+#. module: project_issue
+#: field:project.issue.report,working_hours_open:0
+msgid "Avg. Working Hours to Open"
+msgstr "距开始日期小时数"
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:82
+#: code:addons/project_timesheet/project_timesheet.py:86
+#: code:addons/project_timesheet/project_timesheet.py:90
+#: code:addons/project_timesheet/project_timesheet.py:97
+#, python-format
+msgid "Bad Configuration!"
+msgstr "Bad Configuration!"
+
+#. module: project_timesheet
+#: view:project.project:project_timesheet.project_invoice_search
+msgid "Billable"
+msgstr "应记账"
+
+#. modules: project, project_issue
+#: selection:project.task,kanban_state:0
+#: selection:project.task.history,kanban_state:0
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: selection:project.task.history.cumulative,kanban_state:0
+#: selection:report.project.task.user,state:0
+#: selection:project.issue,kanban_state:0
+msgid "Blocked"
+msgstr "已封锁"
+
+#. modules: project, project_issue
+#: model:ir.filters,name:project.filter_task_report_responsible
+#: model:ir.filters,name:project_issue.filter_issue_report_responsible
+msgid "By Responsible"
+msgstr "By Responsible"
+
+#. module: project
+#: model:ir.filters,name:project.filter_task_report_reviewer
+msgid "By Reviewer"
+msgstr "By Reviewer"
+
+#. module: project
+#: code:addons/project/wizard/project_task_delegate.py:69
+#: code:addons/project/wizard/project_task_delegate.py:70
+#: code:addons/project/wizard/project_task_delegate.py:77
+#: code:addons/project/wizard/project_task_delegate.py:78
+#, python-format
+msgid "CHECK: "
+msgstr "CHECK: "
+
+#. module: project
+#: code:addons/project/wizard/project_task_delegate.py:81
+#, python-format
+msgid "CHECK: %s"
+msgstr "CHECK: %s"
+
+#. module: project
+#: view:project.config.settings:project.view_config_settings
+#: view:project.task.delegate:project.view_project_task_delegate
+msgid "Cancel"
+msgstr "取消"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Cancel Project"
+msgstr "Cancel Project"
+
+#. module: project
+#: selection:project.project,state:0
+#: model:project.task.type,name:project.project_tt_cancel
+msgid "Cancelled"
+msgstr "已取消"
+
+#. module: project
+#: model:ir.model,name:project.model_project_category
+msgid "Category of project's task, issue, ..."
+msgstr "项目的任务类别，问题，..."
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_issue_kanban_view
+msgid "Category:"
+msgstr "分类:"
+
+#. module: project_issue
+#: field:project.issue,channel:0
+#: field:project.issue.report,channel:0
+msgid "Channel"
+msgstr "途径"
+
+#. module: project_issue
+#: help:account.analytic.account,use_issues:0
+msgid "Check this field if this project manages issues"
+msgstr "如果此项目需要管理问题的话请选中此处"
+
+#. module: project
+#: code:addons/project/project.py:929
+#, python-format
+msgid "Child task still open.\n"
+"Please cancel or complete child task first."
+msgstr "Child task still open.\n"
+"Please cancel or complete child task first."
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Close Project"
+msgstr "Close Project"
+
+#. modules: project, project_issue
+#: selection:project.project,state:0
+#: field:project.issue,date_closed:0
+msgid "Closed"
+msgstr "已关闭"
+
+#. modules: project, project_issue
+#: field:project.project,color:0
+#: field:project.task,color:0
+#: field:project.issue,color:0
+msgid "Color Index"
+msgstr "颜色索引"
+
+#. module: project
+#: view:project.task.type:project.task_type_search
+msgid "Common"
+msgstr "Common"
+
+#. module: project_issue
+#: help:project.issue.report,channel:0
+msgid "Communication Channel."
+msgstr "Communication Channel."
+
+#. module: project_issue
+#: help:project.issue,channel:0
+msgid "Communication channel."
+msgstr "通讯渠道"
+
+#. module: project
+#: model:ir.model,name:project.model_res_company
+msgid "Companies"
+msgstr "公司"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_search_form
+#: field:project.task,company_id:0
+#: field:project.task.work,company_id:0
+#: view:report.project.task.user:project.view_task_project_user_search
+#: field:report.project.task.user,company_id:0
+#: view:project.issue:project_issue.view_project_issue_filter
+#: field:project.issue,company_id:0
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: field:project.issue.report,company_id:0
+msgid "Company"
+msgstr "公司"
+
+#. module: project
+#: help:project.task,delay_hours:0
+msgid "Computed as difference between planned hours by the project manager and the total hours of the task."
+msgstr "Computed as difference between planned hours by the project manager and the total hours of the task."
+
+#. module: project
+#: help:project.task,total_hours:0
+msgid "Computed as: Time Spent + Remaining Time."
+msgstr "计算公式为：花费时间 + 剩余时间"
+
+#. module: project_issue
+#: help:project.issue,progress:0
+msgid "Computed as: Time Spent / Total Time."
+msgstr "计算公式为：花费时间 / 总时间"
+
+#. module: project
+#: help:project.task,effective_hours:0
+msgid "Computed using the sum of the task work done."
+msgstr "Computed using the sum of the task work done."
+
+#. module: project_issue
+#: view:project.config.settings:project_issue.view_config_settings
+msgid "Configure"
+msgstr "配置"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.action_config_settings
+#: view:project.config.settings:project.view_config_settings
+msgid "Configure Project"
+msgstr "配置项目"
+
+#. modules: project, project_issue
+#: view:project.project:project.view_project
+#: view:project.project:project.view_project_project_filter
+#: field:report.project.task.user,partner_id:0
+#: field:project.issue,partner_id:0
+#: field:project.issue.report,partner_id:0
+msgid "Contact"
+msgstr "联系人"
+
+#. module: project
+#: field:project.project,analytic_account_id:0
+msgid "Contract/Analytic"
+msgstr "Contract/Analytic"
+
+#. module: project_timesheet
+#: model:ir.ui.menu,name:project_timesheet.menu_invoicing_contracts
+msgid "Contracts to Renew"
+msgstr "待续签的合同"
+
+#. modules: project, project_issue
+#: field:project.task,create_date:0
+#: view:project.issue:project_issue.view_project_issue_filter
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: field:project.issue.report,create_date:0
+msgid "Create Date"
+msgstr "创建日期"
+
+#. module: project_issue
+#: view:project.issue:project_issue.view_project_issue_filter
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+msgid "Create Day"
+msgstr "Create Day"
+
+#. module: project_issue
+#: field:project.config.settings,fetchmail_issue:0
+msgid "Create issues from an incoming email account "
+msgstr "Create issues from an incoming email account "
+
+#. modules: project, project_issue
+#: field:project.category,create_uid:0
+#: field:project.config.settings,create_uid:0
+#: field:project.project,create_uid:0
+#: field:project.task,create_uid:0
+#: field:project.task.delegate,create_uid:0
+#: field:project.task.type,create_uid:0
+#: field:project.task.work,create_uid:0
+#: field:project.issue,create_uid:0
+#: field:project.issue.version,create_uid:0
+msgid "Created by"
+msgstr "创建者"
+
+#. modules: project, project_issue
+#: field:project.category,create_date:0
+#: field:project.config.settings,create_date:0
+#: field:project.project,create_date:0
+#: field:project.task.delegate,create_date:0
+#: field:project.task.type,create_date:0
+#: field:project.task.work,create_date:0
+#: field:project.issue.version,create_date:0
+msgid "Created on"
+msgstr "创建于"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_search_form
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: view:report.project.task.user:project.view_task_project_user_search
+#: field:project.issue,create_date:0
+msgid "Creation Date"
+msgstr "创建日期"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.action_view_task_history_cumulative
+#: model:ir.ui.menu,name:project.menu_action_view_task_history_cumulative
+msgid "Cumulative Flow"
+msgstr "渐进过程"
+
+#. modules: project, project_issue
+#: view:project.project:project.edit_project
+#: field:project.task,partner_id:0
+#: code:addons/project_issue/project_issue.py:424
+#, python-format
+msgid "Customer"
+msgstr "客户"
+
+#. module: project_issue
+#: code:addons/project_issue/project_issue.py:426
+#, python-format
+msgid "Customer Email"
+msgstr "Customer Email"
+
+#. module: project_timesheet
+#: model:ir.actions.act_window,name:project_timesheet.action_account_analytic_overdue
+msgid "Customer Projects"
+msgstr "客户项目"
+
+#. modules: project, project_issue, project_timesheet
+#: field:project.task.history,date:0
+#: field:project.task.history.cumulative,date:0
+#: field:project.task.work,date:0
+#: field:project.issue,date:0
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+#: field:report.timesheet.task.user,name:0
+msgid "Date"
+msgstr "日期"
+
+#. module: project_issue
+#: field:project.issue.report,date_closed:0
+msgid "Date of Closing"
+msgstr "结束日期"
+
+#. module: project_issue
+#: field:project.issue.report,opening_date:0
+msgid "Date of Opening"
+msgstr "距开始日期天数"
+
+#. modules: project, project_issue
+#: help:project.project,message_last_post:0
+#: help:project.task,message_last_post:0
+#: help:project.issue,message_last_post:0
+msgid "Date of the last message posted on the record."
+msgstr "发布到记录上的最后信息的日期"
+
+#. module: project_issue
+#: field:project.issue,days_since_creation:0
+msgid "Days since creation date"
+msgstr "从创建以来的天数"
+
+#. module: project_issue
+#: field:project.issue,inactivity_days:0
+msgid "Days since last action"
+msgstr "上个动作后的天数"
+
+#. modules: project, project_issue
+#: field:report.project.task.user,opening_days:0
+#: field:project.issue,day_open:0
+msgid "Days to Assign"
+msgstr "Days to Assign"
+
+#. modules: project, project_issue
+#: field:report.project.task.user,closing_days:0
+#: field:project.issue,day_close:0
+msgid "Days to Close"
+msgstr "结束日期"
+
+#. modules: project, project_issue
+#: field:project.task,date_deadline:0
+#: field:report.project.task.user,date_deadline:0
+#: field:project.issue,date_deadline:0
+msgid "Deadline"
+msgstr "截止日期"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "December"
+msgstr "12月"
+
+#. module: project
+#: field:project.task.type,case_default:0
+msgid "Default for New Projects"
+msgstr "Default for New Projects"
+
+#. module: project_issue
+#: model:ir.filters,name:project_issue.filter_issue_report_delay
+msgid "Delay"
+msgstr "延期"
+
+#. module: project
+#: field:project.task,delay_hours:0
+msgid "Delay Hours"
+msgstr "Delay Hours"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+msgid "Delegate"
+msgstr "Delegate"
+
+#. module: project
+#: view:project.task.delegate:project.view_project_task_delegate
+msgid "Delegated Task"
+msgstr "Delegated Task"
+
+#. module: project
+#: field:project.task,child_ids:0
+msgid "Delegated Tasks"
+msgstr "Delegated Tasks"
+
+#. module: project
+#: field:project.task.delegate,name:0
+msgid "Delegated Title"
+msgstr "Delegated Title"
+
+#. module: project
+#: field:project.task,delegated_user_id:0
+msgid "Delegated To"
+msgstr "Delegated To"
+
+#. module: project
+#: code:addons/project/project.py:946
+#, python-format
+msgid "Delegated User should be specified"
+msgstr "Delegated User should be specified"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+msgid "Delegated tasks"
+msgstr "Delegated tasks"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+msgid "Delegation"
+msgstr "Delegation"
+
+#. modules: project, project_issue
+#: view:project.project:project.view_project_kanban
+#: view:project.task:project.view_task_kanban
+#: view:project.issue:project_issue.project_issue_kanban_view
+msgid "Delete"
+msgstr "删除"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_form2
+#: field:project.task,description:0
+#: field:project.task.type,description:0
+#: view:project.issue:project_issue.project_issue_form_view
+msgid "Description"
+msgstr "说明"
+
+#. module: project
+#: model:project.task.type,name:project.project_tt_design
+msgid "Design"
+msgstr "设计"
+
+#. module: project
+#: model:project.task.type,name:project.project_tt_development
+msgid "Development"
+msgstr "开发"
+
+#. module: project_issue
+#: help:project.issue,days_since_creation:0
+msgid "Difference in days between creation date and current date"
+msgstr "创建日期到今天的天数"
+
+#. module: project_issue
+#: help:project.issue,inactivity_days:0
+msgid "Difference in days between last action and current date"
+msgstr "执行上个动作的日期到今天的天数"
+
+#. module: project
+#: view:project.project:project.edit_project
+#: view:project.project:project.view_project_kanban
+msgid "Documents"
+msgstr "文档"
+
+#. module: project
+#: selection:project.task.delegate,state:0
+#: model:project.task.type,name:project.project_tt_deployment
+msgid "Done"
+msgstr "完成"
+
+#. module: project
+#: field:project.task.work,user_id:0
+msgid "Done by"
+msgstr "Done by"
+
+#. module: project_issue
+#: field:project.issue,duration:0
+msgid "Duration"
+msgstr "持续时间"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_kanban
+#: view:project.issue:project_issue.project_issue_kanban_view
+msgid "Edit..."
+msgstr "编辑..."
+
+#. module: project
+#: field:report.project.task.user,hours_effective:0
+msgid "Effective Hours"
+msgstr "Effective Hours"
+
+#. module: project_issue
+#: field:project.issue,email_from:0
+msgid "Email"
+msgstr "电子邮件"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Email Alias"
+msgstr "Email Alias"
+
+#. module: project
+#: view:project.project:project.edit_project
+#: field:project.task.history,end_date:0
+#: field:project.task.history.cumulative,end_date:0
+msgid "End Date"
+msgstr "结束日期"
+
+#. module: project
+#: field:project.task,date_end:0
+#: field:report.project.task.user,date_end:0
+msgid "Ending Date"
+msgstr "结束日期"
+
+#. module: project
+#: constraint:project.task:0
+msgid "Error ! Task end-date must be greater than task start-date"
+msgstr "Error ! Task end-date must be greater than task start-date"
+
+#. module: project
+#: constraint:project.task:0
+msgid "Error ! You cannot create recursive tasks."
+msgstr "Error ! You cannot create recursive tasks."
+
+#. module: project_issue
+#: constraint:project.project:0
+msgid "Error! You cannot assign escalation to the same project!"
+msgstr "不能升级到相同的项目"
+
+#. module: project
+#: constraint:project.project:0
+msgid "Error! project start-date must be lower than project end-date."
+msgstr "Error! project start-date must be lower than project end-date."
+
+#. module: project
+#: help:project.task.delegate,planned_hours_me:0
+msgid "Estimated time for you to validate the work done by the user to whom you delegate this task"
+msgstr "Estimated time for you to validate the work done by the user to whom you delegate this task"
+
+#. module: project
+#: help:project.task.delegate,planned_hours:0
+msgid "Estimated time to close this task by the delegated user"
+msgstr "Estimated time to close this task by the delegated user"
+
+#. module: project
+#: help:project.task,planned_hours:0
+msgid "Estimated time to do the task, usually set by the project manager when the task is in draft state."
+msgstr "Estimated time to do the task, usually set by the project manager when the task is in draft state."
+
+#. module: project
+#: view:report.project.task.user:project.view_task_project_user_search
+msgid "Extended Filters"
+msgstr "Extended Filters"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_form2
+#: view:project.issue:project_issue.project_issue_form_view
+msgid "Extra Info"
+msgstr "额外信息"
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_feature_tree_view
+msgid "Feature Tracker Tree"
+msgstr "缺陷列表"
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_feature_tree_view
+msgid "Feature description"
+msgstr "功能描述"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "February"
+msgstr "2月"
+
+#. module: project
+#: field:project.task.type,fold:0
+msgid "Folded in Kanban View"
+msgstr "Folded in Kanban View"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Follow this project to automatically track the events associated to tasks and issues of this project."
+msgstr "Follow this project to automatically track the events associated to tasks and issues of this project."
+
+#. modules: project, project_issue
+#: field:project.project,message_follower_ids:0
+#: field:project.task,message_follower_ids:0
+#: field:project.issue,message_follower_ids:0
+msgid "Followers"
+msgstr "关注者"
+
+#. module: project
+#: model:ir.ui.menu,name:project.menu_tasks_config
+msgid "GTD"
+msgstr "GTD"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+msgid "Gantt View"
+msgstr "Gantt View"
+
+#. module: project
+#: field:project.config.settings,module_sale_service:0
+msgid "Generate tasks from sale orders"
+msgstr "Generate tasks from sale orders"
+
+#. module: project
+#: help:project.project,sequence:0
+msgid "Gives the sequence order when displaying a list of Projects."
+msgstr "Gives the sequence order when displaying a list of Projects."
+
+#. module: project
+#: help:project.task,sequence:0
+msgid "Gives the sequence order when displaying a list of tasks."
+msgstr "Gives the sequence order when displaying a list of tasks."
+
+#. modules: project, project_issue, project_timesheet
+#: view:project.project:project.view_project_project_filter
+#: view:project.task:project.view_task_search_form
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: view:report.project.task.user:project.view_task_project_user_search
+#: view:project.issue:project_issue.view_project_issue_filter
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+msgid "Group By"
+msgstr "分组于"
+
+#. module: project_timesheet
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+msgid "Group by month of date"
+msgstr "按月分组"
+
+#. module: project_timesheet
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+msgid "Group by year of date"
+msgstr "按年分组"
+
+#. module: project
+#: view:project.config.settings:project.view_config_settings
+msgid "Helpdesk & Support"
+msgstr "Helpdesk & Support"
+
+#. modules: project, project_issue
+#: selection:project.task,priority:0
+#: selection:report.project.task.user,priority:0
+#: selection:project.issue,priority:0
+#: selection:project.issue.report,priority:0
+msgid "High"
+msgstr "高"
+
+#. module: project
+#: model:ir.model,name:project.model_project_task_history
+#: model:ir.model,name:project.model_project_task_history_cumulative
+msgid "History of Tasks"
+msgstr "任务历史"
+
+#. modules: project, project_issue
+#: help:project.project,message_summary:0
+#: help:project.task,message_summary:0
+#: help:project.issue,message_summary:0
+msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
+msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
+
+#. module: project
+#: help:project.project,privacy_visibility:0
+msgid "Holds visibility of the tasks or issues that belong to the current project:\n"
+"- Public: everybody sees everything; if portal is activated, portal users\n"
+"   see all tasks or issues; if anonymous portal is activated, visitors\n"
+"   see all tasks or issues\n"
+"- Portal (only available if Portal is installed): employees see everything;\n"
+"   if portal is activated, portal users see the tasks or issues followed by\n"
+"   them or by someone of their company\n"
+"- Employees Only: employees see all tasks or issues\n"
+"- Followers Only: employees see only the followed tasks or issues; if portal\n"
+"   is activated, portal users see the followed tasks or issues."
+msgstr "Holds visibility of the tasks or issues that belong to the current project:\n"
+"- Public: everybody sees everything; if portal is activated, portal users\n"
+"   see all tasks or issues; if anonymous portal is activated, visitors\n"
+"   see all tasks or issues\n"
+"- Portal (only available if Portal is installed): employees see everything;\n"
+"   if portal is activated, portal users see the tasks or issues followed by\n"
+"   them or by someone of their company\n"
+"- Employees Only: employees see all tasks or issues\n"
+"- Followers Only: employees see only the followed tasks or issues; if portal\n"
+"   is activated, portal users see the followed tasks or issues."
+
+#. module: project_timesheet
+#: view:project.project:project_timesheet.view_project_kanban_inherited
+msgid "Hours"
+msgstr "小时"
+
+#. module: project
+#: field:project.task,effective_hours:0
+msgid "Hours Spent"
+msgstr "Hours Spent"
+
+#. module: project
+#: field:project.task.delegate,planned_hours_me:0
+msgid "Hours to Validate"
+msgstr "Hours to Validate"
+
+#. modules: project, project_issue, project_timesheet
+#: field:project.category,id:0
+#: field:project.config.settings,id:0
+#: field:project.project,id:0
+#: field:project.task,id:0
+#: field:project.task.delegate,id:0
+#: field:project.task.history,id:0
+#: field:project.task.history.cumulative,id:0
+#: field:project.task.type,id:0
+#: field:project.task.work,id:0
+#: field:report.project.task.user,id:0
+#: field:project.issue,id:0
+#: field:project.issue.report,id:0
+#: field:project.issue.version,id:0
+#: field:report.timesheet.task.user,id:0
+msgid "ID"
+msgstr "ID"
+
+#. module: project_issue
+#: help:project.project,project_escalation_id:0
+msgid "If any issue is escalated from the current Project, it will be listed under the project selected here."
+msgstr "如果当前项目的缺陷被提升，则这个缺陷会归属于这里输入的项目"
+
+#. modules: project, project_issue
+#: help:project.project,message_unread:0
+#: help:project.task,message_unread:0
+#: help:project.issue,message_unread:0
+msgid "If checked new messages require your attention."
+msgstr "查看是否有需要留意的新信息。"
+
+#. module: project
+#: help:account.analytic.account,use_tasks:0
+msgid "If checked, this contract will be available in the project menu and you will be able to manage tasks or track issues"
+msgstr "If checked, this contract will be available in the project menu and you will be able to manage tasks or track issues"
+
+#. module: project
+#: help:project.project,active:0
+msgid "If the active field is set to False, it will allow you to hide the project without removing it."
+msgstr "If the active field is set to False, it will allow you to hide the project without removing it."
+
+#. module: project
+#: help:project.task,progress:0
+msgid "If the task has a progress of 99.99% you should close the task if it's finished or reevaluate the time"
+msgstr "If the task has a progress of 99.99% you should close the task if it's finished or reevaluate the time"
+
+#. module: project
+#: help:project.task.type,case_default:0
+msgid "If you check this field, this stage will be proposed by default on each new project. It will not assign this stage to existing projects."
+msgstr "If you check this field, this stage will be proposed by default on each new project. It will not assign this stage to existing projects."
+
+#. module: project
+#: selection:project.project,state:0
+#: selection:project.task,kanban_state:0
+#: selection:report.project.task.user,state:0
+msgid "In Progress"
+msgstr "进行中"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Incoming Emails create"
+msgstr "Incoming Emails create"
+
+#. module: project
+#: field:project.task,planned_hours:0
+msgid "Initially Planned Hours"
+msgstr "Initially Planned Hours"
+
+#. module: project
+#: help:project.project,alias_id:0
+msgid "Internal email associated with this project. Incoming emails are automatically synchronizedwith Tasks (or optionally Issues if the Issue Tracker module is installed)."
+msgstr "Internal email associated with this project. Incoming emails are automatically synchronizedwith Tasks (or optionally Issues if the Issue Tracker module is installed)."
+
+#. module: project
+#: code:addons/project/project.py:201
+#, python-format
+msgid "Internal project: all employees can access"
+msgstr "Internal project: all employees can access"
+
+#. modules: project, project_timesheet
+#: code:addons/project/project.py:171
+#: code:addons/project_timesheet/project_timesheet.py:297
+#, python-format
+msgid "Invalid Action!"
+msgstr "Invalid Action!"
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:324
+#, python-format
+msgid "Invalid Analytic Account!"
+msgstr "Invalid Analytic Account!"
+
+#. module: project_timesheet
+#: model:ir.actions.act_window,name:project_timesheet.action_project_timesheet_bill_task
+#: model:ir.ui.menu,name:project_timesheet.menu_project_billing_line
+msgid "Invoice Tasks"
+msgstr "开票任务"
+
+#. module: project
+#: field:project.config.settings,module_project_issue_sheet:0
+msgid "Invoice working time on issues"
+msgstr "Invoice working time on issues"
+
+#. module: project_timesheet
+#: model:ir.ui.menu,name:project_timesheet.menu_project_billing
+msgid "Invoicing"
+msgstr "开票"
+
+#. modules: project, project_issue
+#: field:project.project,message_is_follower:0
+#: field:project.task,message_is_follower:0
+#: field:project.issue,message_is_follower:0
+msgid "Is a Follower"
+msgstr "是一个关注者"
+
+#. modules: project_issue_sheet, project_issue
+#: view:project.issue:project_issue.project_issue_form_view
+#: view:project.issue:project_issue.view_project_issue_filter
+#: field:project.issue,name:0
+#: field:hr.analytic.timesheet,issue_id:0
+msgid "Issue"
+msgstr "议题"
+
+#. module: project_issue
+#: model:mail.message.subtype,name:project_issue.mt_issue_assigned
+#: model:mail.message.subtype,name:project_issue.mt_project_issue_assigned
+msgid "Issue Assigned"
+msgstr "Issue Assigned"
+
+#. module: project_issue
+#: model:mail.message.subtype,name:project_issue.mt_issue_blocked
+#: model:mail.message.subtype,name:project_issue.mt_project_issue_blocked
+msgid "Issue Blocked"
+msgstr "Issue Blocked"
+
+#. module: project_issue
+#: model:mail.message.subtype,name:project_issue.mt_issue_new
+#: model:mail.message.subtype,name:project_issue.mt_project_issue_new
+msgid "Issue Created"
+msgstr "Issue Created"
+
+#. module: project_issue
+#: model:mail.message.subtype,description:project_issue.mt_issue_ready
+#: model:mail.message.subtype,name:project_issue.mt_issue_ready
+msgid "Issue Ready for Next Stage"
+msgstr "Issue Ready for Next Stage"
+
+#. module: project_issue
+#: model:mail.message.subtype,name:project_issue.mt_project_issue_stage
+msgid "Issue Stage Changed"
+msgstr "议题进程已改变"
+
+#. module: project_issue
+#: view:project.issue:project_issue.view_project_issue_filter
+msgid "Issue Tracker Search"
+msgstr "议题跟踪搜索"
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_issue_tree_view
+msgid "Issue Tracker Tree"
+msgstr "议题跟踪列表"
+
+#. modules: project, project_issue
+#: view:project.category:project.project_category_search_view
+#: view:project.issue.version:project_issue.project_issue_version_form_view
+#: view:project.issue.version:project_issue.project_issue_version_search_view
+msgid "Issue Version"
+msgstr "议题版本"
+
+#. module: project_issue
+#: model:mail.message.subtype,description:project_issue.mt_issue_assigned
+msgid "Issue assigned"
+msgstr "Issue assigned"
+
+#. module: project_issue
+#: model:mail.message.subtype,description:project_issue.mt_issue_blocked
+msgid "Issue blocked"
+msgstr "Issue blocked"
+
+#. module: project_issue
+#: model:mail.message.subtype,description:project_issue.mt_issue_new
+msgid "Issue created"
+msgstr "Issue created"
+
+#. module: project_issue
+#: field:account.analytic.account,use_issues:0
+#: model:ir.actions.act_window,name:project_issue.act_project_project_2_project_issue_all
+#: model:ir.actions.act_window,name:project_issue.action_view_issues
+#: model:ir.actions.act_window,name:project_issue.project_issue_categ_act0
+#: model:ir.ui.menu,name:project_issue.menu_project_confi
+#: model:ir.ui.menu,name:project_issue.menu_project_issue_track
+#: view:project.issue:project_issue.project_issue_calendar_view
+#: view:project.project:project_issue.view_project_form_inherited
+#: view:project.project:project_issue.view_project_kanban_inherited
+#: field:project.project,issue_count:0
+#: view:res.partner:project_issue.res_partner_issues_button_view
+msgid "Issues"
+msgstr "议题"
+
+#. module: project_issue
+#: model:ir.actions.act_window,name:project_issue.action_project_issue_report
+#: model:ir.ui.menu,name:project_issue.menu_project_issue_report_tree
+msgid "Issues Analysis"
+msgstr "议题分析"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "January"
+msgstr "1"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "July"
+msgstr "7月"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "June"
+msgstr "6月"
+
+#. modules: project, project_issue
+#: field:project.task,kanban_state:0
+#: field:project.task.history,kanban_state:0
+#: field:project.task.history.cumulative,kanban_state:0
+#: field:project.issue,kanban_state:0
+msgid "Kanban State"
+msgstr "看板状态"
+
+#. module: project_issue
+#: field:project.issue,date_action_last:0
+msgid "Last Action"
+msgstr "最近动作"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_search_form
+#: view:project.issue:project_issue.view_project_issue_filter
+msgid "Last Message"
+msgstr "Last Message"
+
+#. modules: project, project_issue
+#: field:project.project,message_last_post:0
+#: field:project.task,message_last_post:0
+#: field:project.issue,message_last_post:0
+msgid "Last Message Date"
+msgstr "最后信息日期"
+
+#. module: project
+#: field:project.task,write_date:0
+msgid "Last Modification Date"
+msgstr "Last Modification Date"
+
+#. modules: project, project_issue
+#: field:project.task,date_last_stage_update:0
+#: field:report.project.task.user,date_last_stage_update:0
+#: field:project.issue,date_last_stage_update:0
+#: field:project.issue.report,date_last_stage_update:0
+msgid "Last Stage Update"
+msgstr "Last Stage Update"
+
+#. modules: project, project_issue
+#: field:project.category,write_uid:0
+#: field:project.config.settings,write_uid:0
+#: field:project.project,write_uid:0
+#: field:project.task,write_uid:0
+#: field:project.task.delegate,write_uid:0
+#: field:project.task.type,write_uid:0
+#: field:project.task.work,write_uid:0
+#: field:project.issue,write_uid:0
+#: field:project.issue.version,write_uid:0
+msgid "Last Updated by"
+msgstr "最后更新"
+
+#. modules: project, project_issue
+#: field:project.category,write_date:0
+#: field:project.config.settings,write_date:0
+#: field:project.project,write_date:0
+#: field:project.task.delegate,write_date:0
+#: field:project.task.type,write_date:0
+#: field:project.task.work,write_date:0
+#: field:project.issue.version,write_date:0
+msgid "Last Updated on"
+msgstr "最后更新"
+
+#. module: project
+#: help:project.config.settings,module_pad:0
+msgid "Lets the company customize which Pad installation should be used to link to new pads (for example: http://ietherpad.com/).\n"
+"-This installs the module pad."
+msgstr "Lets the company customize which Pad installation should be used to link to new pads (for example: http://ietherpad.com/).\n"
+"-This installs the module pad."
+
+#. module: project
+#: help:project.project,analytic_account_id:0
+msgid "Link this project to an analytic account if you need financial management on projects. It enables you to connect projects with budgets, planning, cost and revenue analysis, timesheets on projects, etc."
+msgstr "Link this project to an analytic account if you need financial management on projects. It enables you to connect projects with budgets, planning, cost and revenue analysis, timesheets on projects, etc."
+
+#. module: project
+#: field:project.config.settings,group_tasks_work_on_tasks:0
+msgid "Log work activities on tasks"
+msgstr "Log work activities on tasks"
+
+#. modules: project, project_issue
+#: selection:project.task,priority:0
+#: selection:report.project.task.user,priority:0
+#: selection:project.issue,priority:0
+#: selection:project.issue.report,priority:0
+msgid "Low"
+msgstr "低"
+
+#. module: project
+#: field:project.config.settings,group_time_work_estimation_tasks:0
+msgid "Manage time estimation on tasks"
+msgstr "Manage time estimation on tasks"
+
+#. module: project
+#: view:project.project:project.view_project_project_filter
+#: model:res.groups,name:project.group_project_manager
+msgid "Manager"
+msgstr "经理"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "March"
+msgstr "3月"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "May"
+msgstr "5"
+
+#. module: project
+#: view:project.project:project.view_project_project_filter
+msgid "Member"
+msgstr "会员"
+
+#. module: project
+#: model:project.task.type,name:project.project_tt_merge
+msgid "Merge"
+msgstr "合并"
+
+#. modules: project, project_issue
+#: field:project.project,message_ids:0
+#: field:project.task,message_ids:0
+#: field:project.issue,message_ids:0
+msgid "Messages"
+msgstr "消息"
+
+#. modules: project, project_issue
+#: help:project.project,message_ids:0
+#: help:project.task,message_ids:0
+#: help:project.issue,message_ids:0
+msgid "Messages and communication history"
+msgstr "消息和通信历史"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Miscellaneous"
+msgstr "杂项"
+
+#. modules: project, project_timesheet
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+#: field:report.timesheet.task.user,month:0
+msgid "Month"
+msgstr "月"
+
+#. module: project_issue
+#: view:project.issue:project_issue.view_project_issue_filter
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+msgid "My Issues"
+msgstr "我的问题"
+
+#. module: project
+#: view:project.task.history.cumulative:project.view_task_history_search
+msgid "My Projects"
+msgstr "My Projects"
+
+#. module: project
+#: view:report.project.task.user:project.view_task_project_user_search
+msgid "My Task"
+msgstr "My Task"
+
+#. module: project
+#: view:project.task:project.view_task_search_form
+#: view:project.task.history.cumulative:project.view_task_history_search
+msgid "My Tasks"
+msgstr "My Tasks"
+
+#. module: project
+#: field:project.category,name:0
+msgid "Name"
+msgstr "名称"
+
+#. modules: project, project_issue
+#: selection:project.project,state:0
+#: view:project.task:project.view_task_search_form
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: view:report.project.task.user:project.view_task_project_user_search
+#: view:project.issue:project_issue.view_project_issue_filter
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+msgid "New"
+msgstr "新建"
+
+#. modules: project, project_issue
+#: view:project.project:project.view_project_project_filter
+#: view:project.task:project.view_task_search_form
+#: view:project.issue:project_issue.view_project_issue_filter
+msgid "New Mail"
+msgstr "新邮件"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "New Project Based on Template"
+msgstr "New Project Based on Template"
+
+#. module: project
+#: view:project.task.delegate:project.view_project_task_delegate
+#: field:project.task.delegate,new_task_description:0
+msgid "New Task Description"
+msgstr "New Task Description"
+
+#. module: project
+#: help:project.task.delegate,state:0
+msgid "New state of your own task. Pending will be reopened automatically when the delegated task is closed"
+msgstr "New state of your own task. Pending will be reopened automatically when the delegated task is closed"
+
+#. module: project
+#: help:project.task.delegate,name:0
+msgid "New title of the task delegated to the user"
+msgstr "New title of the task delegated to the user"
+
+#. module: project_issue
+#: field:project.issue,date_action_next:0
+msgid "Next Action"
+msgstr "下个行动日期"
+
+#. module: project_issue
+#: code:addons/project_issue/project_issue.py:440
+#, python-format
+msgid "No Subject"
+msgstr "No Subject"
+
+#. modules: project, project_issue
+#: selection:project.task,priority:0
+#: selection:project.task.history,kanban_state:0
+#: selection:project.task.history.cumulative,kanban_state:0
+#: selection:report.project.task.user,priority:0
+#: selection:project.issue,kanban_state:0
+#: selection:project.issue,priority:0
+#: selection:project.issue.report,priority:0
+msgid "Normal"
+msgstr "普通"
+
+#. module: project
+#: field:project.task,active:0
+msgid "Not a Template Task"
+msgstr "Not a Template Task"
+
+#. module: project
+#: field:project.task,notes:0
+msgid "Notes"
+msgstr "备注"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "November"
+msgstr "11月"
+
+#. module: project
+#: help:report.project.task.user,opening_days:0
+msgid "Number of Days to Open the task"
+msgstr "Number of Days to Open the task"
+
+#. module: project_issue
+#: help:project.issue.report,delay_close:0
+msgid "Number of Days to close the project issue"
+msgstr "剩余天数"
+
+#. module: project
+#: help:report.project.task.user,closing_days:0
+msgid "Number of Days to close the task"
+msgstr "Number of Days to close the task"
+
+#. module: project_issue
+#: help:project.issue.report,delay_open:0
+msgid "Number of Days to open the project issue."
+msgstr "Number of Days to open the project issue."
+
+#. module: project
+#: field:project.project,doc_count:0
+msgid "Number of documents attached"
+msgstr "Number of documents attached"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "October"
+msgstr "10月"
+
+#. module: project
+#: view:project.project:project.view_project_project_filter
+msgid "Open"
+msgstr "打开"
+
+#. module: project
+#: model:ir.actions.client,name:project.action_client_project_menu
+msgid "Open Project Menu"
+msgstr "打开项目菜单"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Other Info"
+msgstr "其它信息"
+
+#. module: project
+#: field:report.project.task.user,delay_endings_days:0
+msgid "Overpassed Deadline"
+msgstr "超越截止日期"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.action_view_task_overpassed_draft
+msgid "Overpassed Tasks"
+msgstr "拖期任务"
+
+#. module: project
+#: view:project.project:project.edit_project
+#: view:project.project:project.view_project
+#: view:project.project:project.view_project_project_filter
+msgid "Parent"
+msgstr "上级科目"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+#: field:project.task,parent_ids:0
+msgid "Parent Tasks"
+msgstr "Parent Tasks"
+
+#. modules: project, project_issue, project_timesheet
+#: model:ir.model,name:project.model_res_partner
+#: model:ir.model,name:project_issue.model_res_partner
+#: model:ir.model,name:project_timesheet.model_res_partner
+msgid "Partner"
+msgstr "业务伙伴"
+
+#. module: project
+#: view:project.project:project.edit_project
+#: view:project.project:project.view_project_project_filter
+#: selection:project.project,state:0
+#: selection:project.task.delegate,state:0
+msgid "Pending"
+msgstr "等待中"
+
+#. module: project
+#: help:project.project,progress_rate:0
+msgid "Percent of tasks closed according to the total of tasks todo."
+msgstr "Percent of tasks closed according to the total of tasks todo."
+
+#. module: project
+#: field:project.task.delegate,planned_hours:0
+#: field:report.project.task.user,hours_planned:0
+msgid "Planned Hours"
+msgstr "计划时数"
+
+#. module: project
+#: field:project.project,planned_hours:0
+#: field:project.task.history,planned_hours:0
+#: field:project.task.history.cumulative,planned_hours:0
+msgid "Planned Time"
+msgstr "Planned Time"
+
+#. module: project
+#: view:project.config.settings:project.view_config_settings
+msgid "Planning"
+msgstr "计划"
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:83
+#, python-format
+msgid "Please define employee for user \"%s\". You must create one."
+msgstr "请为用户 \"%s\"定义员工。你必须创建一个。"
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:91
+#, python-format
+msgid "Please define journal on the related employee.\n"
+"Fill in the HR Settings tab of the employee form."
+msgstr "Please define journal on the related employee.\n"
+"Fill in the HR Settings tab of the employee form."
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:98
+#, python-format
+msgid "Please define product and product category property account on the related employee.\n"
+"Fill in the HR Settings of the employee form."
+msgstr "Please define product and product category property account on the related employee.\n"
+"Fill in the HR Settings of the employee form."
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:87
+#, python-format
+msgid "Please define product and product category property account on the related employee.\n"
+"Fill in the HR Settings tab of the employee form."
+msgstr "请在相关的员工上面定义产品和产品分类属性科目。\n"
+"填在员工表单的人力资源标签。"
+
+#. module: project
+#: code:addons/project/project.py:1236
+#, python-format
+msgid "Please delete the project linked with this account first."
+msgstr "Please delete the project linked with this account first."
+
+#. modules: project, project_issue
+#: field:project.task,priority:0
+#: field:report.project.task.user,priority:0
+#: view:project.issue:project_issue.project_feature_tree_view
+#: view:project.issue:project_issue.project_issue_tree_view
+#: view:project.issue:project_issue.view_project_issue_filter
+#: field:project.issue,priority:0
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: field:project.issue.report,priority:0
+msgid "Priority"
+msgstr "优先级(0=紧急)"
+
+#. module: project
+#: field:project.project,privacy_visibility:0
+msgid "Privacy / Visibility"
+msgstr "Privacy / Visibility"
+
+#. module: project_issue
+#: field:project.issue,description:0
+msgid "Private Note"
+msgstr "私有注释"
+
+#. module: project
+#: code:addons/project/project.py:202
+#, python-format
+msgid "Private project: followers Only"
+msgstr "Private project: followers Only"
+
+#. module: project
+#: field:project.project,progress_rate:0
+#: field:report.project.task.user,progress:0
+msgid "Progress"
+msgstr "进度"
+
+#. module: project_issue
+#: field:project.issue,progress:0
+msgid "Progress (%)"
+msgstr "进度（％）"
+
+#. modules: project, project_issue, project_timesheet
+#: model:ir.model,name:project.model_project_project
+#: model:ir.ui.menu,name:project.menu_project_management
+#: view:project.project:project.edit_project
+#: view:project.task:project.view_task_form2
+#: view:project.task:project.view_task_search_form
+#: field:project.task,project_id:0
+#: field:project.task.delegate,project_id:0
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: field:project.task.history.cumulative,project_id:0
+#: view:report.project.task.user:project.view_task_project_user_search
+#: field:report.project.task.user,project_id:0
+#: model:res.request.link,name:project.req_link_project
+#: model:ir.model,name:project_issue.model_project_project
+#: view:project.issue:project_issue.view_project_issue_filter
+#: field:project.issue,project_id:0
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: field:project.issue.report,project_id:0
+#: model:ir.model,name:project_timesheet.model_project_project
+msgid "Project"
+msgstr "项目"
+
+#. module: project_issue
+#: field:project.project,project_escalation_id:0
+msgid "Project Escalation"
+msgstr "项目提升"
+
+#. modules: project_issue_sheet, project_issue
+#: model:ir.model,name:project_issue.model_project_issue
+#: view:project.issue.report:project_issue.view_project_issue_report_graph
+#: model:ir.model,name:project_issue_sheet.model_project_issue
+msgid "Project Issue"
+msgstr "项目议题"
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_issue_graph_view
+msgid "Project Issues"
+msgstr "项目议题"
+
+#. module: project
+#: view:project.config.settings:project.view_config_settings
+msgid "Project Management"
+msgstr "项目管理"
+
+#. module: project
+#: view:project.project:project.edit_project
+#: view:project.project:project.view_project
+#: view:project.project:project.view_project_project_filter
+#: field:project.task,manager_id:0
+msgid "Project Manager"
+msgstr "项目经理"
+
+#. module: project
+#: field:project.project,members:0
+msgid "Project Members"
+msgstr "项目成员"
+
+#. module: project
+#: view:project.project:project.edit_project
+#: view:project.project:project.view_project
+#: view:project.project:project.view_project_project_filter
+msgid "Project Name"
+msgstr "项目名称"
+
+#. module: project
+#: view:project.project:project.view_project_kanban
+msgid "Project Settings"
+msgstr "项目设置"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Project Stages"
+msgstr "项目进程"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.action_project_task_delegate
+#: view:project.task.delegate:project.view_project_task_delegate
+msgid "Project Task Delegate"
+msgstr "项目任务委托"
+
+#. modules: project, project_timesheet
+#: model:ir.model,name:project.model_project_task_work
+#: model:ir.model,name:project_timesheet.model_project_task_work
+msgid "Project Task Work"
+msgstr "项目任务工作"
+
+#. module: project
+#: view:project.task:project.view_project_task_graph
+#: view:project.task.history.cumulative:project.view_task_history_graph
+msgid "Project Tasks"
+msgstr "项目任务列表"
+
+#. module: project
+#: field:res.company,project_time_mode_id:0
+msgid "Project Time Unit"
+msgstr "项目时间单位"
+
+#. module: project
+#: model:res.request.link,name:project.req_link_task
+msgid "Project task"
+msgstr "项目任务"
+
+#. module: project
+#: help:project.project,members:0
+msgid "Project's members are users who can have an access to the tasks related to this project."
+msgstr "项目成员是可以访问此项目的用户"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.dblc_proj
+msgid "Project's tasks"
+msgstr "项目任务"
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_issue_kanban_view
+msgid "Project:"
+msgstr "项目:"
+
+#. module: project
+#: model:account.analytic.account,name:project.all_projects_account
+#: code:addons/project/project.py:401
+#: model:ir.actions.act_window,name:project.open_view_project_all
+#: model:ir.ui.menu,name:project.menu_projects
+#: view:project.project:project.view_project
+#: view:project.project:project.view_project_project_gantt
+#: field:project.task.type,project_ids:0
+#: view:res.company:project.task_company
+#, python-format
+msgid "Projects"
+msgstr "项目"
+
+#. module: project
+#: help:project.config.settings,module_project_issue:0
+msgid "Provides management of issues/bugs in projects.\n"
+"-This installs the module project_issue."
+msgstr "Provides management of issues/bugs in projects.\n"
+"-This installs the module project_issue."
+
+#. module: project
+#: help:project.config.settings,module_project_issue_sheet:0
+msgid "Provides timesheet support for the issues/bugs management in project.\n"
+"-This installs the module project_issue_sheet."
+msgstr "Provides timesheet support for the issues/bugs management in project.\n"
+"-This installs the module project_issue_sheet."
+
+#. module: project
+#: code:addons/project/project.py:200
+#, python-format
+msgid "Public project"
+msgstr "Public project"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Re-open project"
+msgstr "重启项目"
+
+#. module: project
+#: view:project.task.history.cumulative:project.view_task_history_search
+msgid "Ready"
+msgstr "准备好"
+
+#. modules: project, project_issue
+#: selection:project.task,kanban_state:0
+#: selection:project.task.history,kanban_state:0
+#: selection:project.task.history.cumulative,kanban_state:0
+#: selection:report.project.task.user,state:0
+#: selection:project.issue,kanban_state:0
+msgid "Ready for next stage"
+msgstr "准备好下一个进程"
+
+#. module: project
+#: field:project.config.settings,module_project_timesheet:0
+msgid "Record timesheet lines per tasks"
+msgstr "记录每个任务的时间表线"
+
+#. module: project
+#: help:project.task.delegate,new_task_description:0
+msgid "Reinclude the description of the task in the task of the user"
+msgstr "包含当前任务的描述"
+
+#. module: project_timesheet
+#: field:project.task.work,hr_analytic_timesheet_id:0
+msgid "Related Timeline Id"
+msgstr "有关的时间ID"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+msgid "Remaining"
+msgstr "剩余"
+
+#. module: project
+#: view:project.task:project.view_task_tree2
+#: field:project.task,remaining_hours:0
+#: field:report.project.task.user,remaining_hours:0
+msgid "Remaining Hours"
+msgstr "剩余的小时数"
+
+#. module: project
+#: view:project.task:project.view_task_kanban
+#: field:project.task.history,remaining_hours:0
+#: field:project.task.history.cumulative,remaining_hours:0
+msgid "Remaining Time"
+msgstr "剩余时间"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Reset as Project"
+msgstr "重设项目"
+
+#. module: project
+#: field:project.task.history,user_id:0
+#: field:project.task.history.cumulative,user_id:0
+msgid "Responsible"
+msgstr "负责人"
+
+#. modules: project, project_issue
+#: field:project.task,reviewer_id:0
+#: field:report.project.task.user,reviewer_id:0
+#: field:project.issue.report,reviewer_id:0
+msgid "Reviewer"
+msgstr "Reviewer"
+
+#. module: project_issue
+#: field:project.issue.report,section_id:0
+msgid "Sale Team"
+msgstr "销售团队"
+
+#. module: project_issue
+#: field:project.issue,section_id:0
+msgid "Sales Team"
+msgstr "销售团队"
+
+#. module: project_issue
+#: help:project.issue,section_id:0
+msgid "Sales team to which Case belongs to.                             Define Responsible user and Email account for mail gateway."
+msgstr "这个业务所属的销售团队。输入团队负责人和邮箱。"
+
+#. module: project_issue
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+msgid "Search"
+msgstr "搜索"
+
+#. module: project
+#: view:project.project:project.view_project_project_filter
+msgid "Search Project"
+msgstr "项目列表"
+
+#. module: project_timesheet
+#: selection:report.timesheet.task.user,month:0
+msgid "September"
+msgstr "九月"
+
+#. module: project
+#: field:project.project,sequence:0
+#: field:project.task,sequence:0
+#: field:project.task.type,sequence:0
+msgid "Sequence"
+msgstr "序列"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Set as Template"
+msgstr "设为模板"
+
+#. module: project_timesheet
+#: model:ir.ui.menu,name:project_timesheet.menu_hr_timesheet_sign_in
+msgid "Sign in / Sign out by Project"
+msgstr "Sign in / Sign out by Project"
+
+#. module: project
+#: model:project.task.type,name:project.project_tt_specification
+msgid "Specification"
+msgstr "文档"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+#: view:project.task:project.view_task_tree2
+msgid "Spent Hours"
+msgstr "花费时间"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_search_form
+#: field:project.task,stage_id:0
+#: field:project.task.history,type_id:0
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: field:project.task.history.cumulative,type_id:0
+#: view:report.project.task.user:project.view_task_project_user_search
+#: field:report.project.task.user,stage_id:0
+#: view:project.issue:project_issue.view_project_issue_filter
+#: field:project.issue,stage_id:0
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: field:project.issue.report,stage_id:0
+msgid "Stage"
+msgstr "阶段"
+
+#. modules: project, project_issue
+#: model:mail.message.subtype,name:project.mt_task_stage
+#: model:mail.message.subtype,name:project_issue.mt_issue_stage
+msgid "Stage Changed"
+msgstr "Stage Changed"
+
+#. module: project
+#: field:project.task.type,name:0
+msgid "Stage Name"
+msgstr "阶段名称"
+
+#. modules: project, project_issue
+#: model:mail.message.subtype,description:project.mt_task_stage
+#: model:mail.message.subtype,description:project_issue.mt_issue_stage
+#: model:mail.message.subtype,description:project_issue.mt_project_issue_stage
+msgid "Stage changed"
+msgstr "Stage changed"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.open_task_type_form
+msgid "Stages"
+msgstr "阶段"
+
+#. module: project
+#: view:project.task.type:project.task_type_search
+msgid "Stages common to all projects"
+msgstr "适用于所有项目的公共进程"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Start Date"
+msgstr "开始日期"
+
+#. module: project
+#: field:project.task,date_start:0
+msgid "Starting Date"
+msgstr "开始日期"
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_issue_form_view
+msgid "Statistics"
+msgstr "统计"
+
+#. modules: project, project_issue
+#: field:project.project,state:0
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: field:report.project.task.user,state:0
+#: view:project.issue:project_issue.project_issue_form_view
+msgid "Status"
+msgstr "状态"
+
+#. module: project
+#: help:project.project,planned_hours:0
+msgid "Sum of planned hours of all tasks related to this project and its child projects."
+msgstr "项目下的任务和子任务计划工时的合计数"
+
+#. module: project
+#: help:project.project,effective_hours:0
+msgid "Sum of spent hours of all tasks related to this project and its child projects."
+msgstr "本项目和相关项目的任务实际花费的小时数合计"
+
+#. module: project
+#: help:project.project,total_hours:0
+msgid "Sum of total hours of all tasks related to this project and its child projects."
+msgstr "此项目极其子项目的所有任务的实际工时数"
+
+#. modules: project, project_issue
+#: field:project.project,message_summary:0
+#: field:project.task,message_summary:0
+#: field:project.issue,message_summary:0
+msgid "Summary"
+msgstr "摘要"
+
+#. module: project
+#: view:project.config.settings:project.view_config_settings
+msgid "Support"
+msgstr "支持"
+
+#. modules: project, project_issue
+#: model:ir.actions.act_window,name:project.project_category_action
+#: model:ir.ui.menu,name:project.menu_project_category_act
+#: view:project.category:project.project_category_form_view
+#: field:project.task,categ_ids:0
+#: field:project.issue,categ_ids:0
+msgid "Tags"
+msgstr "标签"
+
+#. modules: project, project_issue, project_timesheet
+#: model:ir.model,name:project.model_project_task
+#: view:project.config.settings:project.view_config_settings
+#: view:project.task:project.view_task_form2
+#: view:project.task:project.view_task_search_form
+#: field:project.task.history,task_id:0
+#: view:project.task.history.cumulative:project.view_task_history_search
+#: field:project.task.history.cumulative,task_id:0
+#: field:project.task.work,task_id:0
+#: view:report.project.task.user:project.view_task_project_user_search
+#: view:project.issue:project_issue.view_project_issue_filter
+#: field:project.issue,task_id:0
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+#: field:project.issue.report,task_id:0
+#: model:ir.model,name:project_timesheet.model_project_task
+msgid "Task"
+msgstr "任务"
+
+#. module: project
+#: field:project.project,tasks:0
+msgid "Task Activities"
+msgstr "任务活动"
+
+#. module: project
+#: model:mail.message.subtype,description:project.mt_task_assigned
+#: model:mail.message.subtype,name:project.mt_project_task_assigned
+#: model:mail.message.subtype,name:project.mt_task_assigned
+msgid "Task Assigned"
+msgstr "Task Assigned"
+
+#. module: project
+#: model:mail.message.subtype,name:project.mt_project_task_blocked
+#: model:mail.message.subtype,name:project.mt_task_blocked
+msgid "Task Blocked"
+msgstr "延期的任务"
+
+#. module: project
+#: model:mail.message.subtype,name:project.mt_project_task_new
+#: model:mail.message.subtype,name:project.mt_task_new
+msgid "Task Created"
+msgstr "任务已创建"
+
+#. module: project
+#: model:ir.model,name:project.model_project_task_delegate
+msgid "Task Delegate"
+msgstr "任务分派"
+
+#. module: project
+#: model:res.groups,name:project.group_delegate_task
+msgid "Task Delegation"
+msgstr "任务委派"
+
+#. module: project_timesheet
+#: field:report.timesheet.task.user,task_hrs:0
+msgid "Task Hours"
+msgstr "任务工时"
+
+#. module: project_timesheet
+#: model:ir.actions.act_window,name:project_timesheet.action_report_timesheet_task_user
+#: model:ir.ui.menu,name:project_timesheet.menu_timesheet_task_user
+#: view:report.timesheet.task.user:project_timesheet.view_task_hour_per_month_graph
+msgid "Task Hours Per Month"
+msgstr "每月的任务工时"
+
+#. module: project
+#: model:ir.filters,name:project.filter_task_report_task_pipe
+msgid "Task Pipe"
+msgstr "Task Pipe"
+
+#. module: project
+#: model:mail.message.subtype,description:project.mt_task_ready
+#: model:mail.message.subtype,name:project.mt_task_ready
+msgid "Task Ready for Next Stage"
+msgstr "Task Ready for Next Stage"
+
+#. module: project
+#: model:ir.model,name:project.model_project_task_type
+#: view:project.task.type:project.task_type_edit
+#: view:project.task.type:project.task_type_tree
+msgid "Task Stage"
+msgstr "任务进程"
+
+#. module: project
+#: model:mail.message.subtype,name:project.mt_project_task_stage
+msgid "Task Stage Changed"
+msgstr "任务进程已改变"
+
+#. module: project
+#: model:ir.ui.menu,name:project.menu_task_types_view
+msgid "Task Stages"
+msgstr "任务进程"
+
+#. module: project
+#: field:project.task,name:0
+#: field:report.project.task.user,name:0
+msgid "Task Summary"
+msgstr "任务摘要"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+#: view:project.task.work:project.view_task_work_form
+#: view:project.task.work:project.view_task_work_tree
+msgid "Task Work"
+msgstr "任务工作"
+
+#. module: project
+#: model:mail.message.subtype,description:project.mt_task_blocked
+msgid "Task blocked"
+msgstr "延期的任务"
+
+#. module: project
+#: model:mail.message.subtype,description:project.mt_task_new
+msgid "Task created"
+msgstr "任务已创建"
+
+#. module: project
+#: view:project.task:project.view_task_form2
+msgid "Task summary..."
+msgstr "Task summary..."
+
+#. module: project
+#: view:project.task.history.cumulative:project.view_task_history_search
+msgid "Task's Analysis"
+msgstr "任务分析"
+
+#. module: project
+#: model:res.groups,name:project.group_tasks_work_on_tasks
+msgid "Task's Work on Tasks"
+msgstr "任务的工作任务"
+
+#. module: project
+#: field:account.analytic.account,use_tasks:0
+#: model:ir.actions.act_window,name:project.act_project_project_2_project_task_all
+#: model:ir.actions.act_window,name:project.action_view_task
+#: model:ir.ui.menu,name:project.menu_action_view_task
+#: view:project.project:project.edit_project
+#: view:project.project:project.view_project_kanban
+#: field:project.project,task_count:0
+#: view:project.task:project.view_task_calendar
+#: view:project.task:project.view_task_gantt
+#: view:project.task:project.view_task_search_form
+#: view:project.task:project.view_task_tree2
+#: view:res.partner:project.view_task_partner_info_form
+#: field:res.partner,task_ids:0
+msgid "Tasks"
+msgstr "任务"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.action_project_task_user_tree
+#: model:ir.ui.menu,name:project.menu_project_task_user_tree
+#: view:report.project.task.user:project.view_task_project_user_graph
+#: view:report.project.task.user:project.view_task_project_user_search
+msgid "Tasks Analysis"
+msgstr "任务分析"
+
+#. module: project
+#: field:project.project,type_ids:0
+#: view:project.task.type:project.task_type_search
+msgid "Tasks Stages"
+msgstr "任务进程"
+
+#. module: project_timesheet
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+msgid "Tasks by User"
+msgstr "按用户打印任务"
+
+#. module: project
+#: model:ir.model,name:project.model_report_project_task_user
+msgid "Tasks by user and project"
+msgstr "项目和用户的任务"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Team"
+msgstr "团队"
+
+#. module: project
+#: view:project.project:project.view_project_project_filter
+#: selection:project.project,state:0
+msgid "Template"
+msgstr "模板"
+
+#. module: project
+#: model:ir.actions.act_window,name:project.open_view_template_project
+msgid "Templates of Projects"
+msgstr "项目模版"
+
+#. module: project
+#: model:project.task.type,name:project.project_tt_testing
+msgid "Testing"
+msgstr "测试"
+
+#. module: project_issue_sheet
+#: code:addons/project_issue_sheet/project_issue_sheet.py:57
+#, python-format
+msgid "The Analytic Account is pending !"
+msgstr "这个辅助核算项 被挂起的"
+
+#. module: project
+#: help:project.project,alias_model:0
+msgid "The kind of document created when an email is received on this project's email alias"
+msgstr "该类型的文件创建电子邮件时，收到该项目的电子邮件别名"
+
+#. module: project_issue
+#: help:project.issue,email_cc:0
+msgid "These email addresses will be added to the CC field of all inbound and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
+msgstr "这些邮件地址将添加到之前发送记录的发送和接收邮件的抄送字段，分隔多个邮件地址有逗号。"
+
+#. module: project_issue
+#: help:project.issue,email_from:0
+msgid "These people will receive email."
+msgstr "这些人将收到电子邮件。"
+
+#. module: project
+#: help:project.config.settings,module_project_timesheet:0
+msgid "This allows you to transfer the entries under tasks defined for Project Management to the timesheet line entries for particular date and user, with the effect of creating, editing and deleting either ways.\n"
+"-This installs the module project_timesheet."
+msgstr "This allows you to transfer the entries under tasks defined for Project Management to the timesheet line entries for particular date and user, with the effect of creating, editing and deleting either ways.\n"
+"-This installs the module project_timesheet."
+
+#. module: project
+#: help:project.config.settings,module_sale_service:0
+msgid "This feature automatically creates project tasks from service products in sale orders. More precisely, tasks are created for procurement lines with product of type 'Service', procurement method 'Make to Order', and supply method 'Manufacture'.\n"
+"-This installs the module sale_service."
+msgstr "This feature automatically creates project tasks from service products in sale orders. More precisely, tasks are created for procurement lines with product of type 'Service', procurement method 'Make to Order', and supply method 'Manufacture'.\n"
+"-This installs the module sale_service."
+
+#. module: project
+#: help:project.task,active:0
+msgid "This field is computed automatically and have the same behavior than the boolean 'active' field: if the task is linked to a template or unactivated project, it will be hidden unless specifically asked."
+msgstr "这个字段由系统自动更新。功能类似“启用”字段：如果任务属于一个项目模版或停用的项目，任务会被隐藏，除非用指定条件查询。"
+
+#. module: project
+#: model:ir.actions.act_window,help:project.action_project_task_user_tree
+msgid "This report allows you to analyse the performance of your projects and users. You can analyse the quantities of tasks, the hours spent compared to the planned hours, the average number of days to open or close a task, etc."
+msgstr "这个报表用于分析你项目和成员的效率。可以分析任务数量、计划工时和实际工时的对比、任务的平均花费天数"
+
+#. module: project_issue
+#: model:ir.actions.act_window,help:project_issue.action_project_issue_report
+msgid "This report on the project issues allows you to analyse the quality of your support or after-sales services. You can track the issues per age. You can analyse the time required to open or close an issue, the number of email to exchange and the time spent on average by issues."
+msgstr "缺陷报表用于分析你的支持或售后服务的数量。报表自动分页。可以分析开始处理或关闭一个缺陷需要的时间，邮件的数量和处理缺陷的平均时间。"
+
+#. module: project
+#: help:project.task.type,fold:0
+msgid "This stage is folded in the kanban view whenthere are no records in that stage to display."
+msgstr "This stage is folded in the kanban view whenthere are no records in that stage to display."
+
+#. module: project
+#: help:project.config.settings,time_unit:0
+msgid "This will set the unit of measure used in projects and tasks.\n"
+"Changing the unit will only impact new entries."
+msgstr "This will set the unit of measure used in projects and tasks.\n"
+"Changing the unit will only impact new entries."
+
+#. module: project
+#: help:res.company,project_time_mode_id:0
+msgid "This will set the unit of measure used in projects and tasks.\n"
+"If you use the timesheet linked to projects (project_timesheet module), don't forget to setup the right unit of measure in your employees."
+msgstr "此操作用于设置项目和任务的所采用的计量单位\n"
+"如果您安装了project_timesheet模块，工作时间表会与项目连接，请记得在员工设置中选择正确的计量单位。"
+
+#. module: project
+#: model:res.groups,name:project.group_time_work_estimation_tasks
+msgid "Time Estimation on Tasks"
+msgstr "任务时间估计"
+
+#. module: project
+#: field:project.project,effective_hours:0
+#: field:project.task.work,hours:0
+msgid "Time Spent"
+msgstr "花费的时间"
+
+#. module: project_timesheet
+#: field:report.timesheet.task.user,timesheet_hrs:0
+msgid "Timesheet Hours"
+msgstr "计工单工时"
+
+#. module: project_issue_sheet
+#: model:ir.model,name:project_issue_sheet.model_hr_analytic_timesheet
+msgid "Timesheet Line"
+msgstr "计工单明细"
+
+#. modules: project_issue_sheet, project_timesheet
+#: view:project.issue:project_issue_sheet.project_issue_form_view
+#: field:project.issue,timesheet_ids:0
+#: code:addons/project_timesheet/project_timesheet.py:67
+#: view:project.project:project_timesheet.project_invoice_form
+#, python-format
+msgid "Timesheets"
+msgstr "计工单"
+
+#. module: project
+#: help:project.project,resource_calendar_id:0
+msgid "Timetable working hours to adjust the gantt diagram report"
+msgstr "时间表工作时间调整甘特图报表"
+
+#. module: project
+#: help:project.task.delegate,prefix:0
+msgid "Title for your validation task"
+msgstr "验证任务的前缀"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "To invoice or setup invoicing and renewal options, go to the related contract:"
+msgstr "开票或设定发票更新选项，到相关的合同："
+
+#. module: project
+#: field:project.task,total_hours:0
+msgid "Total"
+msgstr "合计"
+
+#. module: project
+#: field:report.project.task.user,total_hours:0
+msgid "Total Hours"
+msgstr "总工时"
+
+#. module: project
+#: field:project.project,total_hours:0
+msgid "Total Time"
+msgstr "总时间"
+
+#. module: project
+#: help:project.task,remaining_hours:0
+msgid "Total remaining time, can be re-estimated periodically by the assignee of the task."
+msgstr "总剩余时间，任务执行者可定期重估"
+
+#. module: project
+#: field:project.config.settings,module_project_issue:0
+msgid "Track issues and bugs"
+msgstr "追踪问题和错误"
+
+#. modules: project, project_issue
+#: view:project.task:project.view_task_search_form
+#: view:report.project.task.user:project.view_task_project_user_search
+#: view:project.issue:project_issue.view_project_issue_filter
+#: view:project.issue.report:project_issue.view_project_issue_report_filter
+msgid "Unassigned"
+msgstr "未分配"
+
+#. module: project
+#: view:project.task.history.cumulative:project.view_task_history_search
+msgid "Unassigned Tasks"
+msgstr "未指派任务"
+
+#. modules: project, project_issue
+#: field:project.project,message_unread:0
+#: field:project.task,message_unread:0
+#: field:project.issue,message_unread:0
+msgid "Unread Messages"
+msgstr "未读消息"
+
+#. module: project_issue
+#: field:project.issue,write_date:0
+msgid "Update Date"
+msgstr "更新日期"
+
+#. module: project
+#: view:project.project:project.edit_project
+msgid "Use Tasks"
+msgstr "Use Tasks"
+
+#. module: project
+#: field:project.config.settings,module_pad:0
+msgid "Use integrated collaborative note pads on task"
+msgstr "使用集成的协作记事簿任务"
+
+#. modules: project, project_timesheet
+#: model:res.groups,name:project.group_project_user
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+#: field:report.timesheet.task.user,user_id:0
+msgid "User"
+msgstr "用户"
+
+#. modules: project, project_issue
+#: field:project.task,user_email:0
+#: field:project.issue,user_email:0
+msgid "User Email"
+msgstr "用户电子邮件"
+
+#. module: project
+#: help:project.task.delegate,project_id:0
+#: help:project.task.delegate,user_id:0
+msgid "User you want to delegate this task to"
+msgstr "你要分派这个任务给哪个用户"
+
+#. module: project
+#: field:project.task.delegate,state:0
+msgid "Validation State"
+msgstr "确认状态"
+
+#. module: project
+#: view:project.task.delegate:project.view_project_task_delegate
+msgid "Validation Task"
+msgstr "确认任务"
+
+#. module: project
+#: view:project.task.delegate:project.view_project_task_delegate
+msgid "Validation Task Title"
+msgstr "验证任务标题"
+
+#. module: project_issue
+#: field:project.issue,version_id:0
+#: field:project.issue.report,version_id:0
+msgid "Version"
+msgstr "版本"
+
+#. module: project_issue
+#: field:project.issue.version,name:0
+msgid "Version Number"
+msgstr "版本号"
+
+#. module: project_issue
+#: model:ir.actions.act_window,name:project_issue.project_issue_version_action
+#: model:ir.ui.menu,name:project_issue.menu_project_issue_version_act
+msgid "Versions"
+msgstr "版本"
+
+#. modules: project, project_issue
+#: code:addons/project/project.py:435
+#: code:addons/project/project.py:929
+#: code:addons/project/project.py:1236
+#: code:addons/project_issue/project_issue.py:397
+#, python-format
+msgid "Warning!"
+msgstr "Warning!"
+
+#. module: project_issue
+#: field:project.issue,email_cc:0
+msgid "Watchers Emails"
+msgstr "关注者的电子邮件"
+
+#. module: project
+#: field:project.task,work_ids:0
+msgid "Work done"
+msgstr "工作完成"
+
+#. module: project
+#: field:project.task.work,name:0
+msgid "Work summary"
+msgstr "工作摘要"
+
+#. module: project_issue
+#: field:project.issue,working_hours_open:0
+msgid "Working Hours to assign the Issue"
+msgstr "Working Hours to assign the Issue"
+
+#. module: project_issue
+#: field:project.issue,working_hours_close:0
+msgid "Working Hours to close the Issue"
+msgstr "Working Hours to close the Issue"
+
+#. module: project
+#: field:project.project,resource_calendar_id:0
+msgid "Working Time"
+msgstr "工作时间"
+
+#. module: project
+#: field:project.task,progress:0
+msgid "Working Time Progress (%)"
+msgstr "Working Time Progress (%)"
+
+#. module: project
+#: field:project.config.settings,time_unit:0
+msgid "Working time unit"
+msgstr "工作时间单位"
+
+#. module: project
+#: model:ir.filters,name:project.filter_task_report_workload
+msgid "Workload"
+msgstr "Workload"
+
+#. module: project_issue_sheet
+#: view:project.issue:project_issue_sheet.project_issue_form_view
+msgid "Worklogs"
+msgstr "工作记录"
+
+#. module: project_timesheet
+#: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
+#: field:report.timesheet.task.user,year:0
+msgid "Year"
+msgstr "年"
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:297
+#, python-format
+msgid "You cannot delete a partner which is assigned to project, but you can uncheck the active box."
+msgstr "你不能删除被指派给项目的业务伙伴，但你能不选中“可用”。"
+
+#. module: project
+#: code:addons/project/project.py:172
+#, python-format
+msgid "You cannot delete a project containing tasks. You can either delete all the project's tasks and then delete the project or simply deactivate the project."
+msgstr "您不能删除一个项目，其中包含任务。您可以删除所有项目的任务，然后删除项目或干脆取消的项目。"
+
+#. module: project_issue
+#: code:addons/project_issue/project_issue.py:397
+#, python-format
+msgid "You cannot escalate this issue.\n"
+"The relevant Project has not configured the Escalation Project!"
+msgstr "不能升级此缺陷。\n"
+"所属项目没有配置相关项目。"
+
+#. module: project_timesheet
+#: code:addons/project_timesheet/project_timesheet.py:324
+#, python-format
+msgid "You cannot select a Analytic Account which is in Close or Cancelled state."
+msgstr "你不能选择关闭或者取消状态的分析账户"
+
+#. module: project
+#: code:addons/project/project.py:435
+#, python-format
+msgid "You must assign members on the project '%s'!"
+msgstr "You must assign members on the project '%s'!"
+
+#. module: project
+#: field:project.task.delegate,prefix:0
+msgid "Your Task Title"
+msgstr "你的任务主题"
+
+#. module: project
+#: view:project.task.delegate:project.view_project_task_delegate
+msgid "_Delegate"
+msgstr "_委托"
+
+#. module: project_issue
+#: code:addons/project_issue/project_issue.py:348
+#, python-format
+msgid "issues"
+msgstr "议题"
+
+#. module: project
+#: view:project.task:project.view_task_kanban
+msgid "oe_kanban_text_red"
+msgstr "oe_kanban_text_red"
+
+#. module: project_issue_sheet
+#: view:project.issue:project_issue_sheet.project_issue_form_view
+msgid "on_change_project(project_id)"
+msgstr "on_change_project(project_id)"
+
+#. module: project
+#: view:project.config.settings:project.view_config_settings
+#: view:project.task.delegate:project.view_project_task_delegate
+msgid "or"
+msgstr "或"
+
+#. module: project
+#: code:addons/project/project.py:886
+#, python-format
+msgid "tasks"
+msgstr "tasks"
+
+#. modules: project, project_issue
+#: field:account.analytic.account,company_uom_id:0
+#: field:project.project,task_ids:0
+#: field:project.project,issue_ids:0
+msgid "unknown"
+msgstr "未知的"
+
+#. module: project_issue
+#: view:project.project:project_issue.view_project_form_inherited
+msgid "{'invisible': [('use_tasks', '=', False),('use_issues','=',False)]}"
+msgstr "{'invisible': [('use_tasks', '=', False),('use_issues','=',False)]}"
+
+#. module: project_issue
+#: view:project.project:project_issue.view_project_form_inherited
+msgid "{'on_change': 'on_change_use_tasks_or_issues(use_tasks, use_issues)'}"
+msgstr "{'on_change': 'on_change_use_tasks_or_issues(use_tasks, use_issues)'}"
+
+#. module: project_issue
+#: view:project.issue:project_issue.project_issue_form_view
+msgid "⇒ Escalate"
+msgstr "⇒ Escalate"
+
