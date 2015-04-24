@@ -22,21 +22,21 @@ TOC
 
 bundle 目录，包含
 
-1. 全部常用模块的中文翻译，po格式，zh_CN.po   *所有的翻译工作都在此文件的基础上进行*
+1. 全部常用模块的中文翻译，po格式，zh_CN.po   **所有的翻译工作都在此文件的基础上进行**
 
 2. 全部常用模块的中文翻译，csv格式，zh_CN.csv 
 
-build 目录,包含   *此目录为翻译成果*
+build 目录 **此目录为翻译成果** ,包含   
 
 1. 单个模块的po文件
 
-2. 以及常用业务功能的po budnle
+2. 以及常用业务功能po文件集合，po budnle
 
 ## 1.1 使用翻译
 
 ### 覆盖po文件
 
-*build/目录包含了常用模块的i18n 中文翻译包，可以用来直接覆盖系自带的翻译*
+**build/odoo目录包含了常用模块的i18n 中文翻译包，可以用来直接覆盖系自带的翻译**
 
 使用 build/odoo 目录 覆盖 odoo 目录
 
@@ -60,7 +60,7 @@ build 目录,包含   *此目录为翻译成果*
 
 ![alt tag](https://cloud.githubusercontent.com/assets/1404460/7104782/7e53c2ce-e12a-11e4-85e7-6dd6409ab0d8.png)
 
-*如果你没有看到 导入/导出 ， 那是因为你的账号没有开启‘技术特性’权限*
+**如果你没有看到 导入/导出 ， 那是因为你的账号没有开启‘技术特性’权限**
 
 在弹窗
 
@@ -131,7 +131,7 @@ Tips：
 
 # 2. 参与翻译  
 
-* 翻译时参考 [词汇表](glossary.md) *
+**翻译时参考 [词汇表](glossary.md)**
 
  repo 是repository的缩写， 即 库
  
@@ -156,7 +156,7 @@ Tips：
 
 申请pull request...
 
-略，参考 #2.5
+略，参考 [申请合并到master  repo.](#pull_request)
 
 
 ## 2.2 准备工作
@@ -296,7 +296,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 你可以看到你提交的工作成果
 
-
+<a name="pull_request"></a>
 ## 2.5 申请合并到master  repo.
 
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。

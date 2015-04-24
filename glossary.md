@@ -7,7 +7,7 @@
 
 # 词汇表
 
-english |  chinese    | comments
+英文 |  中文    | 备注
 --------|-------------|--------------
 account manager|客户经理|
 account | 账户，科目| 科目表，其他时候为账户
@@ -25,6 +25,8 @@ average price|平均价格|
 balance|余额|
 bank account|银行账户|
 centralized |集中的|
+change|变更|
+close|关闭|
 closing|关账|
 code|代码、编码|
 coefficient |系数|
@@ -33,13 +35,14 @@ condition|条件|
 Contract|合同|
 contribution|供款|
 counterpart|对方|
-credit|贷|
+credit|贷方|
 currency|货币|
 cycle|循环|
 Date|日期|
-debit|借|
+debit|借方|
 degree|学历|
 delay|延迟|
+delete|删除|
 delivery|交货|
 deliver|交付|
 document|单据|
@@ -47,6 +50,7 @@ done|完成|
 draft|草稿|
 due date|到期日期|
 due|截止|
+Email|电子邮件、电邮|
 entries|分录|
 entry|录入、分录|
 Expense|费用|
@@ -58,7 +62,7 @@ general|通用|
 generic|通用|
 hierarchy|层级|
 holiday|假期|
-ID|ID|
+ID|ID| 不作翻译
 Income|收入|
 incoming|进来的|
 inventory|库存、盘点|
@@ -69,6 +73,7 @@ item|项目|
 journal|分类账|
 lead Time|前置时间|
 leave|休假|
+letter|信件、信纸[纸张尺寸]|
 lines|行，明细|
 line|行|
 location|地点、位置、库位|
@@ -82,8 +87,10 @@ method|方法|
 mode|模式、方式|
 move | 移动|
 Name|名称|
+new|新建|
 number|号码、数字|
 opening|开帐|
+open|打开|
 Operation|作业|
 outgoing|出去的|
 owner|所有者|
@@ -128,12 +135,14 @@ Responsible|负责人|
 revenue|收益|
 Route|路线|
 routing|工艺|
-running|运行|
+running|运行中|
 salary|薪资|
 scheduler|排程器|
 schedule|排程|
 search|搜索|
 security days|安全天数|
+send|发送|
+sent|已发送|
 sequence|序列|
 serial|序列|
 shipping|发货|
@@ -166,12 +175,14 @@ work|工作|
 
 
 
-# 固定句式
 
-序号|句式|例子|译作|备注
+<a name="link2"></a>
+# 固定句式 
+
+序号|句式|例句|译作|备注
 -----|-----|-----|-----|---
 1|to 开头|to invoice |待XX | 
-2|# 开头|# entries | # 分录|
+2|# 开头|# entries | # 符号要保留|
 3|% 包围|%(bank_name)s: %(acc_number)s|不作翻译|
 
 
