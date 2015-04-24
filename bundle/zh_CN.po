@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-24 09:16+0800\n"
+"PO-Revision-Date: 2015-04-24 14:04+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_cn
@@ -1534,7 +1534,7 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"    Display your network of certified people on your website\n"
+"    在您的网站上显示您的已认证的人。\n"
 "    "
 
 #. module: base
@@ -3397,25 +3397,25 @@ msgid ""
 "    "
 msgstr ""
 "\n"
-"Accounting and Financial Management.\n"
+"会计与财务管理\n"
 "====================================\n"
 "\n"
-"Financial and accounting module that covers:\n"
+"财务和会计模块包括\n"
 "--------------------------------------------\n"
-"    * General Accounting\n"
-"    * Cost/Analytic accounting\n"
-"    * Third party accounting\n"
-"    * Taxes management\n"
-"    * Budgets\n"
-"    * Customer and Supplier Invoices\n"
-"    * Bank statements\n"
-"    * Reconciliation process by partner\n"
+"    *普通会计\n"
+"    * 成本/分析会计\n"
+"    * 第三方会计\n"
+"    * 税收管理\n"
+"    * 预算\n"
+"    *客户和供应商发票\n"
+"    * 银行对账单\n"
+"    * 通过业务伙伴对帐\n"
 "\n"
-"Creates a dashboard for accountants that includes:\n"
+"创建仪表盘会计人员，其中包括：\n"
 "--------------------------------------------------\n"
-"    * List of Customer Invoices to Approve\n"
-"    * Company Analysis\n"
-"    * Graph of Treasury\n"
+"    * 待审批的客户发发票清单\n"
+"    *公司分析报告\n"
+"    * 财务图表\n"
 "\n"
 "Processes like maintaining general ledgers are done through the defined "
 "Financial Journals (entry move line or grouping is maintained through a "
@@ -11137,10 +11137,11 @@ msgid ""
 "* The 'Cancelled' status is set automatically when user cancel purchase "
 "order."
 msgstr ""
-" *当采购单在草稿状态时，自动设置为“草稿”。\n"
-"*当采购单确认为确认状态时，设置为“确认”。\n"
-"*当采购订单完成后，自动设置为“完成”\n"
-"*当用户取消了采购订单后，自动设置为“已经取消”"
+"* 销售订单是草稿时，设置为“草稿”\n"
+"* 销售订单被用户确认后，状态变为“已确认”。\n"
+"* 销售订单发生异常时（发货被取消等），状态变为“异常”。\n"
+"* 当销售订单收货以后，状态变为“已完成”。\n"
+"* 当用户取消了销售订单，状态变为“已取消”。"
 
 #. module: account
 #: help:account.invoice,state:0
@@ -45612,7 +45613,7 @@ msgstr "替换规则模板"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Fiscal Position:"
-msgstr "Fiscal Position:"
+msgstr "替换规则：:"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_fiscal_position_form
@@ -53377,20 +53378,20 @@ msgstr "IntraCom"
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_all
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Intrastat"
-msgstr "内部统计"
+msgstr "Intrastat"
 
 #. module: report_intrastat
 #: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_code_tree
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_code
 #: view:report.intrastat.code:report_intrastat.view_report_intrastat_code_form
 msgid "Intrastat Code"
-msgstr "欧盟内部代码"
+msgstr "Intrastat Code"
 
 #. module: report_intrastat
 #: view:report.intrastat:report_intrastat.view_report_intrastat_search
 #: view:report.intrastat:report_intrastat.view_report_intrastat_tree
 msgid "Intrastat Data"
-msgstr "欧盟内部数据"
+msgstr "Intrastat Data"
 
 #. module: report_intrastat
 #: model:ir.actions.report.xml,name:report_intrastat.account_intrastatinvoices
@@ -53400,24 +53401,24 @@ msgstr "Intrastat Invoices"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_report_intrastat
 msgid "Intrastat Reporting"
-msgstr "内部统计报告"
+msgstr "Intrastat Reporting"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat_code
 #: field:product.template,intrastat_id:0 field:report.intrastat,intrastat_id:0
 #: view:report.intrastat.code:report_intrastat.view_report_intrastat_code_tree
 msgid "Intrastat code"
-msgstr "欧盟内部代码"
+msgstr "Intrastat code"
 
 #. module: report_intrastat
 #: field:res.country,intrastat:0
 msgid "Intrastat member"
-msgstr "欧盟内部成员"
+msgstr "Intrastat member"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat
 msgid "Intrastat report"
-msgstr "内部统计报告"
+msgstr "Intrastat report"
 
 #. modules: website_event_track, website_event, website_quote, website_forum_doc
 #: code:addons/website_event/models/event.py:44
