@@ -129,7 +129,9 @@ Tips：
 
 
 
-# 2. 参与翻译
+# 2. 参与翻译  
+
+* 翻译时参考 [词汇表](glossary.md) *
 
  repo 是repository的缩写， 即 库
  

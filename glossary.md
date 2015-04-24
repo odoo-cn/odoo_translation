@@ -1,3 +1,13 @@
+<!-- MarkdownTOC -->
+
+- 词汇
+- 固定句式
+- 头|# entries | # 分录|
+
+<!-- /MarkdownTOC -->
+
+# 词汇
+
 english |  chinese    | comments
 --------|-------------|--------------
 account manager|客户经理|
@@ -157,10 +167,13 @@ work|工作|
 
 
 
+# 固定句式
 
-
-
-
+句式|例子|译作|备注
+----|-----|-----|---
+to开头|to invoice |待XX | 
+#开头|# entries | # 分录|
+%包含的部分|%(bank_name)s: %(acc_number)s|不作翻译|
 
 
 
