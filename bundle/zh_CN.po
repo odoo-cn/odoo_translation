@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-24 14:04+0800\n"
+"PO-Revision-Date: 2015-04-24 17:26+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3402,19 +3402,19 @@ msgstr ""
 "\n"
 "财务和会计模块包括\n"
 "--------------------------------------------\n"
-"    *普通会计\n"
+"    * 普通会计\n"
 "    * 成本/分析会计\n"
 "    * 第三方会计\n"
 "    * 税收管理\n"
 "    * 预算\n"
-"    *客户和供应商发票\n"
+"    * 客户和供应商发票\n"
 "    * 银行对账单\n"
-"    * 通过业务伙伴对帐\n"
+"    * 通过业务伙伴调节对帐\n"
 "\n"
 "创建仪表盘会计人员，其中包括：\n"
 "--------------------------------------------------\n"
 "    * 待审批的客户发发票清单\n"
-"    *公司分析报告\n"
+"    * 公司分析报告\n"
 "    * 财务图表\n"
 "\n"
 "Processes like maintaining general ledgers are done through the defined "
@@ -3584,9 +3584,8 @@ msgstr ""
 "允许取消分录\n"
 "====================================\n"
 "\n"
-"This module adds 'Allow Canceling Entries' field on form view of account "
-"journal.\n"
-"If set to true it allows user to cancel entries & invoices.\n"
+"该模块增加了“允许取消分录”字段在会计分录的表单视图上。\n"
+"勾选它，系统将允许用户取消分录或发票。\n"
 "    "
 
 #. module: base
@@ -16175,7 +16174,7 @@ msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                点击创建一个新的科目类型.\n"
 "              </p><p>\n"
-"                科目类型用来说明在各个日记账中如何使用这个科目。\n"
+"                科目类型用来说明在各个分类账中如何使用这个科目。\n"
 "                科目类型的递延方法决定了该账户在年终结账时的处理流程。\n"
 "                财务报告，如资产负债表、利润表，将会使用这个分类。\n"
 "              </p>\n"
@@ -20213,7 +20212,7 @@ msgstr "会计和财务"
 #. module: point_of_sale
 #: help:pos.config,journal_id:0
 msgid "Accounting journal used to post sales entries."
-msgstr "Accounting journal used to post sales entries."
+msgstr "用于销售分录登账的分类帐。"
 
 #. module: account
 #: view:res.partner:account.view_partner_property_form
@@ -28840,7 +28839,7 @@ msgstr "不能找到这个产品的BOM"
 #: code:addons/account/account.py:3454
 #, python-format
 msgid "Cannot generate an unused journal code."
-msgstr "不能生成一个未使用的凭证代码。"
+msgstr "不能生成一个未使用的分类账代码。"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:466
@@ -28989,7 +28988,7 @@ msgstr "现金控制"
 #. module: point_of_sale
 #: field:pos.session,cash_journal_id:0
 msgid "Cash Journal"
-msgstr "Cash Journal"
+msgstr "现金日记账"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,jl_id:0
@@ -30181,7 +30180,7 @@ msgstr ""
 #. module: account_check_writing
 #: help:account.journal,allow_check_writing:0
 msgid "Check this if the journal is to be used for writing checks."
-msgstr "如果这个凭证簿用于写支票，请勾选这里。"
+msgstr "如果这个分类账用于写支票，请勾选这里。"
 
 #. module: account
 #: help:account.tax,price_include:0 help:account.tax.template,price_include:0
@@ -30211,9 +30210,7 @@ msgstr "如果你像让这类固定资产在开发票之后自动确认为“运
 msgid ""
 "Check this if you want to group the Journal Items by Product while closing a "
 "Session"
-msgstr ""
-"Check this if you want to group the Journal Items by Product while closing a "
-"Session"
+msgstr "请检查这里，如果你想在关闭一个会话的时候对簿记项目进行分组。"
 
 #. module: base
 #: help:ir.actions.server,link_new_record:0
@@ -36259,7 +36256,7 @@ msgstr "单位成本的币别"
 #. module: account
 #: help:res.partner.bank,currency_id:0
 msgid "Currency of the related account journal."
-msgstr "货币的关联账户凭证。"
+msgstr "货币的关联分类帐。"
 
 #. module: base
 #: help:res.currency,symbol:0
@@ -46418,7 +46415,7 @@ msgstr "强制可用"
 #. module: hr_expense
 #: field:hr.expense.expense,journal_id:0 field:hr.expense.report,journal_id:0
 msgid "Force Journal"
-msgstr "强制的账薄"
+msgstr "强制的分类账"
 
 #. modules: account, hr_payroll_account
 #: field:account.invoice,period_id:0 field:account.invoice.report,period_id:0
@@ -48558,7 +48555,7 @@ msgstr "发票明细"
 #. module: point_of_sale
 #: field:pos.config,group_by:0
 msgid "Group Journal Items"
-msgstr "Group Journal Items"
+msgstr "分组分类帐项目"
 
 #. modules: mail, base
 #: field:res.groups,full_name:0 view:mail.group:mail.view_group_form
@@ -55258,7 +55255,7 @@ msgstr "分类账 & 业务伙伴"
 #: code:addons/account/static/src/xml/account_move_line_quickadd.xml:14
 #, python-format
 msgid "Journal :"
-msgstr "分类账"
+msgstr "分类账 :"
 
 #. module: account
 #: field:account.analytic.journal,code:0
@@ -55393,7 +55390,7 @@ msgstr "分类账项目分析"
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,exclude_journal_item:0
 msgid "Journal Items associated to the contact"
-msgstr "Journal Items associated to the contact"
+msgstr "分类账项关联到联系人"
 
 #. module: account
 #: view:account.move.line:account.view_move_line_tree_reconcile
@@ -58018,7 +58015,7 @@ msgstr "链接到现有客户"
 #. module: account
 #: help:account.invoice,move_id:0
 msgid "Link to the automatically generated Journal Items."
-msgstr "链接到自动生成的分录明细"
+msgstr "链接到自动生成的分类账项"
 
 #. module: base
 #: field:ir.actions.server,link_field_id:0
