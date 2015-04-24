@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-24 11:41+0800\n"
+"PO-Revision-Date: 2015-04-24 14:04+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3323,11 +3323,11 @@ msgid ""
 "European Union."
 msgstr ""
 "\n"
-"增加了欧盟内部报告的模块。\n"
+"A module that adds intrastat reports.\n"
 "=====================================\n"
 "\n"
-"该模块提了国家之间的商品贸易的供详细信息。\n"
-"欧洲联盟。"
+"This module gives the details of the goods traded between the countries of\n"
+"European Union."
 
 #. module: base
 #: model:ir.module.module,description:base.module_account_accountant
@@ -53402,24 +53402,24 @@ msgstr "Intrastat Invoices"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_report_intrastat
 msgid "Intrastat Reporting"
-msgstr "内部统计报告"
+msgstr "Intrastat Reporting"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat_code
 #: field:product.template,intrastat_id:0 field:report.intrastat,intrastat_id:0
 #: view:report.intrastat.code:report_intrastat.view_report_intrastat_code_tree
 msgid "Intrastat code"
-msgstr "欧盟内部代码"
+msgstr "Intrastat code"
 
 #. module: report_intrastat
 #: field:res.country,intrastat:0
 msgid "Intrastat member"
-msgstr "欧盟内部成员"
+msgstr "Intrastat member"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat
 msgid "Intrastat report"
-msgstr "内部统计报告"
+msgstr "Intrastat report"
 
 #. modules: website_event_track, website_event, website_quote, website_forum_doc
 #: code:addons/website_event/models/event.py:44
