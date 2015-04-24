@@ -1,12 +1,11 @@
 <!-- MarkdownTOC -->
 
-- 词汇
+- 词汇表
 - 固定句式
-- 头|# entries | # 分录|
 
 <!-- /MarkdownTOC -->
 
-# 词汇
+# 词汇表
 
 english |  chinese    | comments
 --------|-------------|--------------
@@ -169,11 +168,11 @@ work|工作|
 
 # 固定句式
 
-句式|例子|译作|备注
-----|-----|-----|---
-to开头|to invoice |待XX | 
-#开头|# entries | # 分录|
-%包含的部分|%(bank_name)s: %(acc_number)s|不作翻译|
+序号|句式|例子|译作|备注
+-----|-----|-----|-----|---
+1|to 开头|to invoice |待XX | 
+2|# 开头|# entries | # 分录|
+3|% 包围|%(bank_name)s: %(acc_number)s|不作翻译|
 
 
 
