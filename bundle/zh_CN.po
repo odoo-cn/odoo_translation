@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-23 14:41+0800\n"
+"PO-Revision-Date: 2015-04-24 09:16+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -12485,8 +12485,7 @@ msgid ""
 "* Done: When the shipment is processed, the state is 'Done'."
 msgstr ""
 "* 新建: 当移库被创建还没被确实时。\n"
-"* 等待另外的移库: 当需要等待另外一个移库完成时，出现该状态。例如：链式物"
-"流。\n"
+"* 等待其他移动: 当需要等待另外一个移库完成时，出现该状态。例如：链式物流。\n"
 "* 等待可用: 当补货还不能被直接了当地解决时，出现该状态。可能需要等调度程序被"
 "运行，有个部件在制造等等...\n"
 "* 可用: 当产品被保留，状态就被设置为 可用。\n"
@@ -23112,22 +23111,22 @@ msgstr "默认分析"
 #: field:sale.order.line,analytics_id:0
 #, python-format
 msgid "Analytic Distribution"
-msgstr "分析分摊"
+msgstr "分析分配"
 
 #. module: account_analytic_plans
 #: view:account.analytic.plan.instance.line:account_analytic_plans.account_analytic_plan_instance_line_form
 msgid "Analytic Distribution Line"
-msgstr "分析分摊明细"
+msgstr "分析分配明细"
 
 #. module: account_analytic_plans
 #: view:account.analytic.plan.instance.line:account_analytic_plans.account_analytic_plan_instance_line_tree
 msgid "Analytic Distribution Lines"
-msgstr "分析分摊明细"
+msgstr "分析分配明细"
 
 #. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.account_analytic_plan_instance_action
 msgid "Analytic Distribution's Models"
-msgstr "分析分摊的模型"
+msgstr "分析分配的模型"
 
 #. modules: analytic, account
 #: view:account.analytic.line:account.view_account_analytic_line_tree
@@ -25253,12 +25252,12 @@ msgstr "Avatar"
 #: selection:hr.recruitment.report,priority:0
 #: view:website:survey.result_number
 msgid "Average"
-msgstr "Average"
+msgstr "平均"
 
 #. module: purchase
 #: model:ir.filters,name:purchase.filter_purchase_order_average_delivery_time
 msgid "Average Delivery Time"
-msgstr "Average Delivery Time"
+msgstr "平均交货时间"
 
 #. modules: hr_expense, account, stock_account, point_of_sale, purchase
 #: field:account.invoice.report,price_average:0
@@ -25583,13 +25582,13 @@ msgstr "备份还原"
 #: code:addons/web/static/src/xml/base.xml:229
 #, python-format
 msgid "Backup format:"
-msgstr "Backup format:"
+msgstr "备份格式："
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0
 #: selection:hr.recruitment.report,priority:0
 msgid "Bad"
-msgstr "Bad"
+msgstr "错误"
 
 #. module: account
 #: code:addons/account/account_move_line.py:1182
@@ -26653,7 +26652,7 @@ msgstr "按任务为时间收费"
 #: view:website:website_quote.so_quotation
 #: view:website:website_sale.confirmation view:website:website_sale.payment
 msgid "Bill To:"
-msgstr "Bill To:"
+msgstr "账单到："
 
 #. modules: product_extended, mrp, mrp_byproduct
 #: model:ir.model,name:mrp.model_mrp_bom view:mrp.bom:mrp.mrp_bom_form_view
@@ -26702,17 +26701,17 @@ msgstr "应记账"
 #: model:ir.ui.menu,name:account.menu_finance_periodical_processing_billing
 #: model:ir.ui.menu,name:portal.portal_orders
 msgid "Billing"
-msgstr "Billing"
+msgstr "开账单"
 
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
 msgid "Billing Data"
-msgstr "开票日期"
+msgstr "开账单日期"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Billing Information"
-msgstr "Billing Information"
+msgstr "开账单信息"
 
 #. module: base
 #: view:ir.attachment:base.view_attachment_search
@@ -40234,7 +40233,7 @@ msgstr "Distinctive field for batch user"
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,code:0
 msgid "Distribution Code"
-msgstr "分摊代码"
+msgstr "分配代码"
 
 #. module: account_analytic_plans
 #: code:addons/account_analytic_plans/wizard/analytic_plan_create_model.py:47
@@ -40242,12 +40241,12 @@ msgstr "分摊代码"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 #, python-format
 msgid "Distribution Model Saved"
-msgstr "分摊模型已保存"
+msgstr "分配模型已保存"
 
 #. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.account_analytic_instance_model_open
 msgid "Distribution Models"
-msgstr "分摊模型"
+msgstr "分配模型"
 
 #. module: hr
 #: selection:hr.employee,marital:0
@@ -47763,7 +47762,7 @@ msgstr "Gives the sequence order when displaying a list of Projects."
 #: help:account.analytic.default,sequence:0
 msgid ""
 "Gives the sequence order when displaying a list of analytic distribution"
-msgstr "按序列显示分析分摊"
+msgstr "按序列显示分析分配"
 
 #. module: account
 #: help:account.bank.statement.line,sequence:0
@@ -79240,7 +79239,7 @@ msgstr "销售分析表"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_analytic_plans
 msgid "Sales Analytic Distribution"
-msgstr "销售分析"
+msgstr "销售分析分配"
 
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_details
@@ -79835,7 +79834,7 @@ msgstr "保存筛选器"
 #. module: account_analytic_plans
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 msgid "Save This Distribution as a Model"
-msgstr "保存此分摊为一个模型"
+msgstr "保存此分配为一个模型"
 
 #. module: website_blog
 #. openerp-web
@@ -79853,13 +79852,13 @@ msgstr "保存附件的前缀"
 #: view:mail.compose.message:email_template.email_compose_message_wizard_inherit_form
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Save as a new template"
-msgstr "保存新的模版"
+msgstr "另存为新模版"
 
 #. modules: survey, email_template
 #: view:mail.compose.message:email_template.email_compose_message_wizard_inherit_form
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Save as new template"
-msgstr "保存为新的模版"
+msgstr "另存为新模版"
 
 #. module: web
 #. openerp-web
@@ -80151,17 +80150,17 @@ msgstr "Scheduled time for the last part of the shipment to be processed"
 #. module: procurement
 #: view:procurement.order.compute.all:procurement.view_compute_schedulers_wizard
 msgid "Scheduler Parameters"
-msgstr "排程参数"
+msgstr "排程器参数"
 
 #. module: subscription
 #: help:subscription.subscription,cron_id:0
 msgid "Scheduler which runs on subscription"
-msgstr "调度运行订阅"
+msgstr "Scheduler which runs on subscription"
 
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_stock_sched
 msgid "Schedulers"
-msgstr "排程"
+msgstr "排程器"
 
 #. module: procurement
 #: view:procurement.order:procurement.procurement_form_view
@@ -80663,7 +80662,7 @@ msgstr "查询销售订单"
 #. module: subscription
 #: view:subscription.subscription:subscription.view_subscription_filter
 msgid "Search Subscription"
-msgstr "搜索预约"
+msgstr "搜索订阅"
 
 #. module: survey
 #: view:survey.user_input:survey.survey_user_input_search
@@ -80784,7 +80783,7 @@ msgstr "搜索税模板"
 #: view:website:website_forum_doc.documentation_post
 #: view:website:website_sale.search
 msgid "Search..."
-msgstr "Search..."
+msgstr "搜索..."
 
 #. module: web
 #. openerp-web
@@ -80801,7 +80800,7 @@ msgstr "可搜索"
 #. module: fleet
 #: field:fleet.vehicle,seats:0
 msgid "Seats Number"
-msgstr "Seats Number"
+msgstr "座位数"
 
 #. modules: web, calendar
 #. openerp-web
@@ -80849,17 +80848,17 @@ msgstr "外币"
 #: field:account.invoice.line,sale_layout_cat_id:0
 #: field:sale.order.line,sale_layout_cat_id:0
 msgid "Section"
-msgstr "分类"
+msgstr "章节"
 
 #. modules: crm_claim, crm
 #: field:crm.case.stage,section_ids:0 field:crm.claim.stage,section_ids:0
 msgid "Sections"
-msgstr "分类"
+msgstr "章节"
 
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Secure Payment"
-msgstr "Secure Payment"
+msgstr "安全支付"
 
 #. modules: base, document
 #: view:ir.actions.act_window:base.view_window_action_form
@@ -80941,7 +80940,7 @@ msgstr "Seen:"
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_search
 #: field:marketing.campaign.workitem,segment_id:0
 msgid "Segment"
-msgstr "段"
+msgstr "片段"
 
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
@@ -81051,7 +81050,7 @@ msgstr "Select Container Block"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:430
 #, python-format
 msgid "Select Customer"
-msgstr "Select Customer"
+msgstr "选择客户"
 
 #. module: web
 #. openerp-web
@@ -81102,7 +81101,7 @@ msgstr "Select Options"
 #: code:addons/account/static/src/js/account_widgets.js:966
 #, python-format
 msgid "Select Partner"
-msgstr "选择客户"
+msgstr "选择业务伙伴"
 
 #. module: account
 #: view:account.analytic.balance:account.account_analytic_balance_view
@@ -81487,7 +81486,7 @@ msgstr "Select this menu item to create a new blog post."
 #. module: mrp
 #: view:mrp.workcenter.load:mrp.view_mrp_workcenter_load_wizard
 msgid "Select time unit"
-msgstr "选择时间单位"
+msgstr "选择时间单元"
 
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
@@ -81727,7 +81726,7 @@ msgstr "发送电子邮件"
 #. module: account_followup
 #: field:account_followup.print,email_conf:0
 msgid "Send Email Confirmation"
-msgstr "发送邮件确认"
+msgstr "发送电子邮件确认"
 
 #. module: account_followup
 #: field:account_followup.print,partner_lang:0
@@ -81780,12 +81779,12 @@ msgstr "现在发送"
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Send Overdue Email"
-msgstr "发送过期邮件"
+msgstr "发送超期邮件"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_form
 msgid "Send PO by Email"
-msgstr "通过电邮发送采购单"
+msgstr "通过电邮发送采购订单"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_website_quote
@@ -81888,12 +81887,12 @@ msgstr "发送所有的答案给经理"
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 #: field:account_followup.followup.line,send_email:0
 msgid "Send an Email"
-msgstr "Send an Email"
+msgstr "发送一封电子邮件"
 
 #. module: auth_signup
 #: view:res.users:auth_signup.res_users_form_view
 msgid "Send an Invitation Email"
-msgstr "发送一封邀请邮件"
+msgstr "发送一封邀请电子邮件"
 
 #. module: hr_evaluation
 #: help:hr_evaluation.plan.phase,send_anonymous_employee:0
@@ -81909,7 +81908,7 @@ msgstr "发送匿名摘要给经理"
 #: view:account.invoice:account.invoice_form
 #: view:sale.order:sale.view_order_form
 msgid "Send by Email"
-msgstr "以邮件发送"
+msgstr "以电子邮件发送"
 
 #. module: survey
 #: selection:survey.mail.compose.message,public:0
@@ -81929,12 +81928,12 @@ msgstr "发送催款"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "Send mail"
-msgstr "Send mail"
+msgstr "发送邮件"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,mail_feature:0
 msgid "Send mail for this phase"
-msgstr "这阶段发送邮件"
+msgstr "发送本阶段的邮件"
 
 #. module: survey
 #: selection:survey.mail.compose.message,public:0
@@ -83044,13 +83043,13 @@ msgstr "货架(Y)"
 #: code:addons/stock/stock.py:3434
 #, python-format
 msgid "Ship Only"
-msgstr "Ship Only"
+msgstr "只有发货"
 
 #. modules: website_sale, website_quote
 #: view:website:website_quote.so_quotation
 #: view:website:website_sale.confirmation view:website:website_sale.payment
 msgid "Ship To:"
-msgstr "Ship To:"
+msgstr "发货到："
 
 #. module: stock
 #: selection:stock.warehouse,delivery_steps:0
@@ -83061,13 +83060,13 @@ msgstr "Ship directly from stock (Ship only)"
 #: view:website:website_sale.checkout view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship to the same address"
-msgstr "Ship to the same address"
+msgstr "发货到相同地址"
 
 #. modules: sale_stock, sale
 #: view:sale.order.line:sale.view_sales_order_uninvoiced_line_filter
 #: field:sale.report,shipped:0 field:sale.report,shipped_qty_1:0
 msgid "Shipped"
-msgstr "已送货"
+msgstr "已发货"
 
 #. modules: website_sale, base
 #: selection:res.partner,type:0 view:website:website_sale.checkout
@@ -83078,35 +83077,35 @@ msgstr "发货"
 #: view:website:website_sale.cart view:website:website_sale.checkout
 #: view:website:website_sale.confirmation view:website:website_sale.payment
 msgid "Shipping & Billing"
-msgstr "Shipping & Billing"
+msgstr "发货&账单"
 
 #. modules: purchase, sale
 #: selection:purchase.order,state:0 selection:purchase.report,state:0
 #: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Shipping Exception"
-msgstr "运输异常"
+msgstr "发货异常"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Shipping Information"
-msgstr "Shipping Information"
+msgstr "发货信息"
 
 #. module: sale_stock
 #: field:sale.order,picking_policy:0
 msgid "Shipping Policy"
-msgstr "运送方式"
+msgstr "发货策略"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Shipping address :"
-msgstr "Shipping address :"
+msgstr "发货地址："
 
 #. modules: purchase, sale
 #: view:website:purchase.report_purchaseorder_document
 #: view:website:purchase.report_purchasequotation_document
 #: view:website:sale.report_saleorder_document
 msgid "Shipping address:"
-msgstr "Shipping address:"
+msgstr "发货地址："
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -83582,7 +83581,7 @@ msgstr "Size of the field can never be less than 0 !"
 #: code:addons/web/static/src/xml/base.xml:982
 #, python-format
 msgid "Size:"
-msgstr "大小："
+msgstr "尺寸："
 
 #. modules: base, point_of_sale, website_blog
 #. openerp-web
@@ -83605,7 +83604,7 @@ msgstr "跳过草稿状态"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:14
 #, python-format
 msgid "Skip It"
-msgstr "Skip It"
+msgstr "跳过它"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
@@ -83775,7 +83774,7 @@ msgstr "社会保险号"
 #: view:website:website.view_website_form
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Social Media"
-msgstr "Social Media"
+msgstr "社交媒体"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_social_network
@@ -83809,7 +83808,7 @@ msgstr "Soda 33cl"
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor2
 msgid "Software"
-msgstr "软件"
+msgstr "Software"
 
 #. module: website_event_sale
 #: view:website:website_event.event_description_full
@@ -83989,7 +83988,7 @@ msgstr "排序"
 #. module: account
 #: view:website:account.report_generalledger
 msgid "Sorted By:"
-msgstr "排序用："
+msgstr "排序："
 
 #. modules: purchase_requisition, hr_recruitment, crm_mass_mailing, base, stock_account, sale_crm, stock, crm
 #: field:ir.translation,source:0 view:crm.lead:crm.view_crm_case_leads_filter
@@ -84027,7 +84026,7 @@ msgstr "源单据"
 #. module: mrp
 #: view:website:mrp.report_mrporder
 msgid "Source Document:"
-msgstr "Source Document:"
+msgstr "源单据："
 
 #. modules: mrp_repair, mrp, stock
 #: view:website:mrp.report_mrporder field:mrp.repair.line,location_id:0
@@ -84068,8 +84067,7 @@ msgstr "源术语"
 msgid ""
 "Source activity. When this activity is over, the condition is tested to "
 "determine if we can start the ACT_TO activity."
-msgstr ""
-"来源活动. 当越过来源活动的时候就会测试条件是否能够满足启动 ACT_TO 活动."
+msgstr "源活动. 当越过来源活动的时候就会测试条件是否能够满足启动 ACT_TO 活动."
 
 #. module: report_intrastat
 #: field:report.intrastat,ref:0
@@ -84130,7 +84128,7 @@ msgstr "South Sudan"
 #: code:addons/base_import/static/src/js/import.js:182
 #, python-format
 msgid "Space"
-msgstr "空格键"
+msgstr "空格"
 
 #. module: website
 #: view:website:website.themes
@@ -84255,7 +84253,7 @@ msgstr "Sparkline Widget for Kanban"
 #. module: event
 #: field:res.partner,speaker:0
 msgid "Speaker"
-msgstr "关注者"
+msgstr "演讲者"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -84303,7 +84301,7 @@ msgstr "某部门特定的"
 #. module: project
 #: model:project.task.type,name:project.project_tt_specification
 msgid "Specification"
-msgstr "文档"
+msgstr "规格"
 
 #. module: mass_mailing
 #: selection:mail.mass_mailing,reply_to_mode:0
@@ -84485,7 +84483,7 @@ msgstr "拆分"
 #: field:product.template,split_method:0
 #: field:stock.landed.cost.lines,split_method:0
 msgid "Split Method"
-msgstr "Split Method"
+msgstr "拆分方法"
 
 #. module: base
 #: field:workflow.activity,split_mode:0
@@ -85426,19 +85424,19 @@ msgstr "Stock Landed Cost Lines"
 #. module: stock
 #: model:ir.actions.report.xml,name:stock.report_product_history
 msgid "Stock Level Forecast"
-msgstr "库存量预测"
+msgstr "库存水平预测"
 
 #. modules: point_of_sale, stock
 #: field:pos.config,stock_location_id:0
 #: view:stock.location:stock.view_location_form
 #: view:stock.location:stock.view_location_tree2
 msgid "Stock Location"
-msgstr "库存库位"
+msgstr "库存位置"
 
 #. module: stock
 #: view:stock.location:stock.view_location_search
 msgid "Stock Locations"
-msgstr "库存库位"
+msgstr "库存位置"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_stock_management
@@ -85506,27 +85504,27 @@ msgstr "库存分拣波次"
 #: model:ir.actions.act_window,name:stock_account.action_wizard_stock_valuation_history
 #: model:ir.ui.menu,name:stock_account.menu_action_wizard_valuation_history
 msgid "Stock Valuation"
-msgstr "Stock Valuation"
+msgstr "库存估价"
 
 #. module: stock_account
 #: field:product.category,property_stock_valuation_account_id:0
 msgid "Stock Valuation Account"
-msgstr "Stock Valuation Account"
+msgstr "库存估价科目"
 
 #. module: stock_account
 #: field:stock.location,valuation_in_account_id:0
 msgid "Stock Valuation Account (Incoming)"
-msgstr "Stock Valuation Account (Incoming)"
+msgstr "库存估价科目（进）"
 
 #. module: stock_account
 #: field:stock.location,valuation_out_account_id:0
 msgid "Stock Valuation Account (Outgoing)"
-msgstr "Stock Valuation Account (Outgoing)"
+msgstr "库存估价科目（出）"
 
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_valuation_adjustment_lines
 msgid "Stock Valuation Adjustment Lines"
-msgstr "Stock Valuation Adjustment Lines"
+msgstr "库存估价调整明细"
 
 #. module: stock_account
 #: code:addons/stock_account/wizard/stock_valuation_history.py:30
@@ -85560,7 +85558,7 @@ msgstr "库存移动已经被处理"
 #. module: mrp
 #: field:report.mrp.inout,value:0
 msgid "Stock value"
-msgstr "库存值"
+msgstr "库存价值"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_report_mrp_inout
@@ -85568,7 +85566,7 @@ msgstr "库存值"
 #: view:report.mrp.inout:mrp.view_report_in_out_picking_graph
 #: view:report.mrp.inout:mrp.view_report_in_out_picking_tree
 msgid "Stock value variation"
-msgstr "库存值变化"
+msgstr "库存价值变化"
 
 #. module: stock
 #: view:report.stock.lines.date:stock.report_stock_lines_date_search
@@ -86471,7 +86469,7 @@ msgstr "Support Channels"
 #. module: base
 #: model:ir.module.module,summary:base.module_project_issue
 msgid "Support, Bug Tracker, Helpdesk"
-msgstr "支持，bug跟踪，帮助"
+msgstr "支持，bug跟踪，服务台"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_31
@@ -86514,7 +86512,7 @@ msgstr "Survey / User"
 #. module: survey
 #: view:survey.user_input_line:survey.survey_response_line_tree
 msgid "Survey Answer Line"
-msgstr "问卷答案明细"
+msgstr "调查答案明细"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_survey_crm
@@ -86537,7 +86535,7 @@ msgstr "Survey Options"
 #: view:survey.page:survey.survey_page_form
 #: view:survey.page:survey.survey_page_tree
 msgid "Survey Page"
-msgstr "问卷页面"
+msgstr "调查页面"
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_question
@@ -86645,7 +86643,7 @@ msgstr "瑞士 - 会计"
 #. module: base
 #: field:res.currency,symbol:0
 msgid "Symbol"
-msgstr "货币符号"
+msgstr "符号"
 
 #. module: base
 #: field:res.currency,position:0
@@ -87081,7 +87079,7 @@ msgstr "Task Assigned"
 #: model:mail.message.subtype,name:project.mt_project_task_blocked
 #: model:mail.message.subtype,name:project.mt_task_blocked
 msgid "Task Blocked"
-msgstr "延期的任务"
+msgstr "Task Blocked"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_new
@@ -87092,12 +87090,12 @@ msgstr "任务已创建"
 #. module: project
 #: model:ir.model,name:project.model_project_task_delegate
 msgid "Task Delegate"
-msgstr "任务分派"
+msgstr "任务委托"
 
 #. module: project
 #: model:res.groups,name:project.group_delegate_task
 msgid "Task Delegation"
-msgstr "任务委派"
+msgstr "任务委托"
 
 #. module: project_timesheet
 #: field:report.timesheet.task.user,task_hrs:0
@@ -87155,7 +87153,7 @@ msgstr "任务工作"
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_blocked
 msgid "Task blocked"
-msgstr "延期的任务"
+msgstr "Task blocked"
 
 #. modules: project, sale_service
 #: model:mail.message.subtype,description:project.mt_task_new
@@ -87167,7 +87165,7 @@ msgstr "任务已创建"
 #. module: project
 #: view:project.task:project.view_task_form2
 msgid "Task summary..."
-msgstr "Task summary..."
+msgstr "任务摘要..."
 
 #. module: project
 #: view:project.task.history.cumulative:project.view_task_history_search
@@ -87177,7 +87175,7 @@ msgstr "任务分析"
 #. module: project
 #: model:res.groups,name:project.group_tasks_work_on_tasks
 msgid "Task's Work on Tasks"
-msgstr "任务的工作任务"
+msgstr "任务的工作"
 
 #. module: project
 #: field:account.analytic.account,use_tasks:0
@@ -87641,12 +87639,12 @@ msgstr "Taxes may be updated after providing shipping address"
 #. module: account
 #: view:account.tax.template:account.view_account_tax_template_search
 msgid "Taxes used in Purchases"
-msgstr "采购所适税种"
+msgstr "用在采购"
 
 #. module: account
 #: view:account.tax.template:account.view_account_tax_template_search
 msgid "Taxes used in Sales"
-msgstr "销售中用到的税"
+msgstr "用在销售"
 
 #. modules: website_sale, website_quote, point_of_sale
 #. openerp-web
@@ -87680,13 +87678,13 @@ msgstr "团队"
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_search
 #: field:crm.case.section,user_id:0
 msgid "Team Leader"
-msgstr "Team Leader"
+msgstr "团队领导"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_view_form
 #: field:crm.case.section,member_ids:0
 msgid "Team Members"
-msgstr "Team Members"
+msgstr "团队成员"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_hr
@@ -87706,12 +87704,12 @@ msgstr ""
 #: model:ir.ui.menu,name:base.menu_custom
 #: view:blog.post:website_blog.view_blog_post_form
 msgid "Technical"
-msgstr "技术性"
+msgstr "技术"
 
 #. module: base
 #: view:ir.cron:base.ir_cron_view view:ir.module.module:base.module_form
 msgid "Technical Data"
-msgstr "技术性数据"
+msgstr "技术数据"
 
 #. module: base
 #: model:res.groups,name:base.group_no_one
@@ -87721,7 +87719,7 @@ msgstr "技术特性"
 #. module: stock
 #: view:stock.warehouse:stock.view_warehouse
 msgid "Technical Information"
-msgstr "Technical Information"
+msgstr "技术信息"
 
 #. module: base
 #: field:ir.module.module,name:0
@@ -87858,12 +87856,12 @@ msgstr ""
 #. module: base
 #: model:ir.actions.report.xml,name:base.ir_module_reference_print
 msgid "Technical guide"
-msgstr "技术文档"
+msgstr "技术指南"
 
 #. module: website
 #: view:website:website.info
 msgid "Technical name:"
-msgstr "Technical name:"
+msgstr "技术名称："
 
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_10
@@ -87974,7 +87972,7 @@ msgstr "科目表模版"
 #: field:account.analytic.account,template_id:0
 #: selection:account.analytic.account,type:0
 msgid "Template of Contract"
-msgstr "合约模板"
+msgstr "合同模板"
 
 #. module: auth_signup
 #: field:base.config.settings,auth_signup_template_user_id:0
@@ -91105,7 +91103,7 @@ msgstr "Theoretical Quantity"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,ca_theorical:0
 msgid "Theoretical Revenue"
-msgstr "理论收入"
+msgstr "理论收益"
 
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
@@ -91874,7 +91872,7 @@ msgstr "这个送货方式会在基于送货单开发票的时候使用。"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model
 msgid ""
 "This distribution model has been saved.You will be able to reuse it later."
-msgstr "分摊模型已保存。你可以稍后使用它。"
+msgstr "分配模型已经保存，你在以后可以使用它。"
 
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
@@ -94878,7 +94876,7 @@ msgstr "Touring Assistance"
 #: view:stock.production.lot:stock.view_production_lot_form
 #, python-format
 msgid "Traceability"
-msgstr "产品追踪"
+msgstr "追溯"
 
 #. module: website
 #: view:website:website.http_error_debug
@@ -94908,7 +94906,7 @@ msgstr "跟踪入库批次"
 #. module: mrp
 #: field:product.template,track_production:0
 msgid "Track Manufacturing Lots"
-msgstr "Track Manufacturing Lots"
+msgstr "跟踪制造批次"
 
 #. module: stock
 #: field:product.template,track_outgoing:0
@@ -94939,7 +94937,7 @@ msgstr "Track Title"
 #. module: hr_attendance
 #: field:hr.config.settings,group_hr_attendance:0
 msgid "Track attendances for all employees"
-msgstr "跟踪全体员工出席率"
+msgstr "跟踪全体员工出勤"
 
 #. module: marketing_crm
 #: field:marketing.config.settings,module_crm_profiling:0
@@ -94981,7 +94979,7 @@ msgstr "追踪问题和错误"
 #. module: stock
 #: field:stock.config.settings,group_stock_production_lot:0
 msgid "Track lots or serial numbers"
-msgstr "Track lots or serial numbers"
+msgstr "跟踪批次或序列号码"
 
 #. module: mrp
 #: field:mrp.product.produce,track_production:0
@@ -95014,7 +95012,7 @@ msgstr "培训"
 #. module: base
 #: model:ir.module.module,summary:base.module_event
 msgid "Trainings, Conferences, Meetings, Exhibitions, Registrations"
-msgstr "培训，学术会议，商务会议，展览，登记挂号"
+msgstr "培训，学术会议，商务会议，展览，登记"
 
 #. modules: account, website_sale
 #. openerp-web
@@ -95066,7 +95064,7 @@ msgstr "已转移"
 #: model:ir.actions.report.xml,name:account.account_transfers
 #: model:ir.actions.act_window,name:stock.action_picking_tree
 msgid "Transfers"
-msgstr "转账"
+msgstr "转移"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -95146,7 +95144,7 @@ msgstr "已翻译内容"
 #. module: base
 #: field:ir.translation,name:0
 msgid "Translated field"
-msgstr "已经翻译字段"
+msgstr "已翻译字段"
 
 #. module: website_gengo
 #. openerp-web
@@ -95163,7 +95161,7 @@ msgstr "翻译"
 #. module: base_gengo
 #: selection:ir.translation,gengo_translation:0
 msgid "Translation By Machine"
-msgstr "机器翻译"
+msgstr "由机器翻译"
 
 #. module: base
 #: field:ir.translation,value:0
@@ -95599,7 +95597,7 @@ msgstr "Type '"
 #. module: account
 #: field:account.journal,type_control_ids:0
 msgid "Type Controls"
-msgstr "控制类型"
+msgstr "控件类型"
 
 #. module: base
 #: field:res.partner.bank.type,field_ids:0
@@ -95641,7 +95639,7 @@ msgstr "Type of Question"
 #. module: survey
 #: view:survey.question:survey.survey_question_form
 msgid "Type of answers"
-msgstr "Type of answers"
+msgstr "答案类型"
 
 #. module: hr_timesheet_invoice
 #: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_form
@@ -95727,7 +95725,7 @@ msgstr "Types of Operation"
 #. module: survey
 #: field:survey.question,labels_ids:0
 msgid "Types of answers"
-msgstr "Types of answers"
+msgstr "答案类型"
 
 #. module: hr_timesheet_invoice
 #: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_tree
@@ -95838,7 +95836,7 @@ msgstr "不能适应初始余额（负数）"
 #: code:addons/point_of_sale/point_of_sale.py:844
 #, python-format
 msgid "Unable to cancel the picking."
-msgstr "无法取消发货"
+msgstr "无法取消分拣"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:705
@@ -95947,7 +95945,7 @@ msgstr "Unanswered"
 #: view:project.issue.report:project_issue.view_project_issue_report_filter
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_filter
 msgid "Unassigned"
-msgstr "未分配"
+msgstr "未指派"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_filter
@@ -95957,12 +95955,12 @@ msgstr "未指派的请购单"
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 msgid "Unassigned Claims"
-msgstr "未分配的抱怨"
+msgstr "未指派的抱怨"
 
 #. module: project
 #: view:project.task.history.cumulative:project.view_task_history_search
 msgid "Unassigned Tasks"
-msgstr "未指派任务"
+msgstr "未指派的任务"
 
 #. module: account
 #: selection:account.entries.report,move_line_state:0
@@ -96351,7 +96349,7 @@ msgstr "计量单位类别"
 #: code:addons/web/static/src/js/view_form.js:3185
 #, python-format
 msgid "Unknown"
-msgstr "未知"
+msgstr "未知的"
 
 #. module: point_of_sale
 #. openerp-web
@@ -96603,7 +96601,7 @@ msgstr "未调节交易"
 #: view:account.entries.report:account.view_account_entries_report_search
 #: view:account.move.line:account.view_account_move_line_filter
 msgid "Unreconciled"
-msgstr "结转未调节往来明细"
+msgstr "未调节"
 
 #. module: account
 #: selection:account.partner.ledger,filter:0
@@ -96633,7 +96631,7 @@ msgstr "未调节"
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
 msgid "Unreserve"
-msgstr "Unreserve"
+msgstr "不保留"
 
 #. module: point_of_sale
 #. openerp-web
@@ -96641,7 +96639,7 @@ msgstr "Unreserve"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:850
 #, python-format
 msgid "Unsent Orders"
-msgstr "Unsent Orders"
+msgstr "未送出的订单"
 
 #. modules: website_mail_group, website_mail, event
 #: view:event.event:event.view_event_kanban view:website:website_mail.follow
@@ -96655,7 +96653,7 @@ msgstr "退订"
 #: code:addons/point_of_sale/static/src/js/screens.js:814
 #, python-format
 msgid "Unsupported File Format"
-msgstr "Unsupported File Format"
+msgstr "不支持的文件格式"
 
 #. module: web
 #. openerp-web
@@ -96701,7 +96699,7 @@ msgstr "未翻译的"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Unvalidated Timesheets"
-msgstr "不确认的时间表"
+msgstr "未确认的时间表"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
@@ -96711,12 +96709,12 @@ msgstr "UoM"
 #. module: sale
 #: view:sale.order:sale.view_order_form
 msgid "UoS"
-msgstr "销售单位"
+msgstr "UoS"
 
 #. module: procurement
 #: field:procurement.order,product_uos_qty:0
 msgid "UoS Quantity"
-msgstr "销售单位数量"
+msgstr "UoS 数量"
 
 #. module: event
 #: view:event.event:event.view_event_search
@@ -97574,7 +97572,7 @@ msgstr "用户界面"
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.report_user_label
 msgid "User Labels"
-msgstr "User Labels"
+msgstr "用户标签"
 
 #. modules: base, crm
 #: field:change.password.user,user_login:0 field:crm.lead,user_login:0
@@ -97585,7 +97583,7 @@ msgstr "用户登录名"
 #: field:lunch.cashmove,user_id:0 field:lunch.order,user_id:0
 #: field:report.lunch.order.line,user_id:0
 msgid "User Name"
-msgstr "User Name"
+msgstr "用户名称"
 
 #. module: survey
 #: view:website:survey.result_choice view:website:survey.result_number
@@ -97709,7 +97707,7 @@ msgstr "用户名"
 #: model:ir.model,name:share.model_res_users
 #: model:ir.model,name:website_forum.model_res_users
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: document
 #: view:report.document.user:document.view_report_document_user_search
@@ -97781,7 +97779,7 @@ msgstr "VAT"
 #. module: account
 #: field:res.partner,vat_subjected:0
 msgid "VAT Legal Statement"
-msgstr "增值税报告"
+msgstr "VAT Legal Statement"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -97791,12 +97789,12 @@ msgstr "VAT Number"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_vat
 msgid "VAT Number Validation"
-msgstr "增值税号码验证"
+msgstr "VAT Number Validation"
 
 #. module: account
 #: field:account.fiscal.position,vat_required:0
 msgid "VAT required"
-msgstr "增值税要求"
+msgstr "VAT required"
 
 #. modules: purchase, account, mrp_repair, sale, pos_restaurant, point_of_sale, stock
 #. openerp-web
@@ -97825,7 +97823,7 @@ msgstr "有效"
 #. module: website_forum
 #: field:forum.post,is_correct:0
 msgid "Valid Answer"
-msgstr "Valid Answer"
+msgstr "有效答案"
 
 #. module: mrp
 #: field:mrp.bom,date_start:0 field:mrp.bom.line,date_start:0
@@ -97868,7 +97866,7 @@ msgstr "确认"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Validate & Open Session"
-msgstr "验证并打开销售会话"
+msgstr "确认并打开销售会话"
 
 #. module: account
 #: model:ir.model,name:account.model_validate_account_move
@@ -97898,7 +97896,7 @@ msgstr "确认盘点"
 #. modules: website_sale, website_quote
 #: view:website:website_quote.so_quotation view:website:website_sale.payment
 msgid "Validate Order"
-msgstr "Validate Order"
+msgstr "确认订单"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_sale_receipt_form
@@ -97908,19 +97906,19 @@ msgstr "确认付款"
 #. module: account_budget
 #: field:crossovered.budget,validating_user_id:0
 msgid "Validate User"
-msgstr "审核用户"
+msgstr "确认用户"
 
 #. module: survey
 #: field:survey.question,validation_required:0
 msgid "Validate entry"
-msgstr "Validate entry"
+msgstr "确认录入"
 
 #. module: stock
 #. openerp-web
 #: code:addons/stock/static/src/xml/picking.xml:67
 #, python-format
 msgid "Validate package"
-msgstr "验证包裹"
+msgstr "确认包裹"
 
 #. module: hr_timesheet_sheet
 #: field:hr.config.settings,timesheet_range:0
@@ -97932,7 +97930,7 @@ msgstr "Validate timesheets every"
 #: code:addons/document/document.py:350
 #, python-format
 msgid "ValidateError"
-msgstr "验证错误"
+msgstr "确认错误"
 
 #. modules: hr_holidays, account, account_budget, stock
 #: model:mail.message.subtype,name:account.mt_invoice_validated
@@ -97945,13 +97943,13 @@ msgstr "已确认"
 #. module: purchase
 #: field:purchase.report,validator:0
 msgid "Validated By"
-msgstr "审核人"
+msgstr "确认人"
 
 #. modules: hr_expense, purchase
 #: view:website:hr_expense.report_expense
 #: view:website:purchase.report_purchaseorder_document
 msgid "Validated By:"
-msgstr "审核人："
+msgstr "确认人："
 
 #. module: account_voucher
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
@@ -97961,7 +97959,7 @@ msgstr "已确认的凭证"
 #. module: purchase
 #: field:purchase.order,validator:0
 msgid "Validated by"
-msgstr "审核人"
+msgstr "确认人"
 
 #. module: stock_landed_costs
 #: code:addons/stock_landed_costs/stock_landed_costs.py:229
@@ -97976,18 +97974,18 @@ msgstr ""
 #. module: hr_holidays
 #: view:hr.holidays.status:hr_holidays.edit_holiday_status_form
 msgid "Validation"
-msgstr "审核"
+msgstr "确认"
 
 #. module: hr_expense
 #: field:hr.expense.expense,user_valid:0
 msgid "Validation By"
-msgstr "Validation By"
+msgstr "确认人"
 
 #. modules: hr_expense, payment
 #: field:hr.expense.expense,date_valid:0 field:hr.expense.report,date_valid:0
 #: field:payment.transaction,date_validate:0
 msgid "Validation Date"
-msgstr "审核日期"
+msgstr "确认日期"
 
 #. module: project
 #: field:project.task.delegate,state:0
@@ -98002,13 +98000,13 @@ msgstr "确认任务"
 #. module: project
 #: view:project.task.delegate:project.view_project_task_delegate
 msgid "Validation Task Title"
-msgstr "验证任务标题"
+msgstr "确认任务标题"
 
 #. module: hr_expense
 #: view:hr.expense.report:hr_expense.view_hr_expense_report_search
 #: field:hr.expense.report,user_id:0
 msgid "Validation User"
-msgstr "审核用户"
+msgstr "确认用户"
 
 #. module: mrp
 #: help:mrp.bom.line,date_start:0 help:mrp.bom.line,date_stop:0
@@ -98112,7 +98110,7 @@ msgstr "Variable international fees (in percents)"
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
 msgid "Variant"
-msgstr "Variant"
+msgstr "变体"
 
 #. module: product
 #: field:product.product,price_extra:0
@@ -98269,7 +98267,7 @@ msgstr "Velour"
 #: view:fleet.vehicle.model:fleet.fleet_vehicle_model_form
 #: field:fleet.vehicle.model,vendors:0
 msgid "Vendors"
-msgstr "Vendors"
+msgstr "厂商"
 
 #. module: base
 #: model:res.country,name:base.ve
@@ -98464,22 +98462,22 @@ msgstr "查看在线支付选项"
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
 msgid "View Product"
-msgstr "View Product"
+msgstr "查看产品"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "View Products Lines"
-msgstr "View Products Lines"
+msgstr "查看产品"
 
 #. module: website_quote
 #: view:sale.order:website_quote.sale_order_form_quote
 msgid "View Quotation"
-msgstr "View Quotation"
+msgstr "查看报价"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "View RFQs/Bids"
-msgstr "View RFQs/Bids"
+msgstr "查看RFQ/招标"
 
 #. module: base
 #: field:ir.actions.act_window,view_id:0
@@ -98489,7 +98487,7 @@ msgstr "视图参照"
 #. module: survey
 #: view:survey.user_input:survey.survey_user_input_form
 msgid "View Results"
-msgstr "View Results"
+msgstr "查看结果"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_kanban
@@ -98523,7 +98521,7 @@ msgstr "View inheritance mode"
 #. module: survey
 #: view:survey.survey:survey.survey_form
 msgid "View results"
-msgstr "View results"
+msgstr "查看结果"
 
 #. module: web
 #. openerp-web
@@ -98593,7 +98591,7 @@ msgstr "虚拟文件"
 #. module: point_of_sale
 #: field:pos.config,iface_vkeyboard:0
 msgid "Virtual KeyBoard"
-msgstr "Virtual KeyBoard"
+msgstr "虚拟键盘"
 
 #. module: stock
 #: model:stock.location,name:stock.stock_location_locations_virtual
@@ -98646,7 +98644,7 @@ msgstr "Visible on the website as a comment"
 #: code:addons/im_livechat/static/src/js/im_livechat.js:88
 #, python-format
 msgid "Visitor"
-msgstr "Visitor"
+msgstr "访客"
 
 #. modules: delivery, product, stock_landed_costs
 #: selection:delivery.grid.line,type:0
@@ -98707,7 +98705,7 @@ msgstr "凭证项目"
 #: view:account.voucher.line:account_voucher.view_voucher_line_form
 #: model:ir.model,name:account_voucher.model_account_voucher_line
 msgid "Voucher Lines"
-msgstr "手工凭证明细"
+msgstr "凭证明细"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_vendor_payment_form
@@ -98749,7 +98747,7 @@ msgstr "工资"
 #: code:addons/website_gengo/static/src/xml/website.gengo.xml:5
 #, python-format
 msgid "Wait"
-msgstr "Wait"
+msgstr "等候"
 
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,wait:0
@@ -98812,12 +98810,12 @@ msgstr "等待会员"
 #. module: stock
 #: view:stock.picking:stock.view_picking_internal_search
 msgid "Waiting Moves"
-msgstr "Waiting Moves"
+msgstr "等待移动"
 
 #. module: hr_expense
 #: selection:hr.expense.expense,state:0
 msgid "Waiting Payment"
-msgstr "Waiting Payment"
+msgstr "等待支付"
 
 #. module: sale
 #: selection:sale.order,state:0 selection:sale.report,state:0
@@ -98832,7 +98830,7 @@ msgstr "等待第二次审批"
 #. module: purchase
 #: selection:purchase.report,state:0
 msgid "Waiting Supplier Ack"
-msgstr "等该供应商回复"
+msgstr "等待供应商确认"
 
 #. module: hr_expense
 #: selection:hr.expense.report,state:0
@@ -98869,12 +98867,12 @@ msgstr "仓库"
 #. module: stock
 #: view:website:stock.report_picking
 msgid "Warehouse Address:"
-msgstr "Warehouse Address:"
+msgstr "仓库地址："
 
 #. module: stock
 #: view:stock.warehouse:stock.view_warehouse
 msgid "Warehouse Configuration"
-msgstr "Warehouse Configuration"
+msgstr "仓库配置"
 
 #. module: sale
 #: view:sale.config.settings:sale.view_sales_config
@@ -98889,12 +98887,12 @@ msgstr "仓库管理"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_picking_wave
 msgid "Warehouse Management: Waves"
-msgstr "Warehouse Management: Waves"
+msgstr "仓库管理：波次"
 
 #. module: stock
 #: field:stock.warehouse,name:0
 msgid "Warehouse Name"
-msgstr "Warehouse Name"
+msgstr "仓库名称"
 
 #. module: stock
 #: field:procurement.rule,propagate_warehouse_id:0
@@ -98910,7 +98908,7 @@ msgstr "Warehouse to consider for the route selection"
 #: code:addons/stock/stock.py:3591
 #, python-format
 msgid "Warehouse's Routes"
-msgstr "Warehouse's Routes"
+msgstr "仓库的路线"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_warehouse_form
@@ -98965,7 +98963,7 @@ msgstr "警告 !"
 #. module: fleet
 #: field:fleet.vehicle.log.contract,days_left:0
 msgid "Warning Date"
-msgstr "Warning Date"
+msgstr "警告日期"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_warning
@@ -99160,13 +99158,13 @@ msgstr "警告：这活动没有达到最低登记记录的规定，你肯定要
 #: code:addons/stock/stock.py:3912
 #, python-format
 msgid "Warning: wrong UoM!"
-msgstr "Warning: wrong UoM!"
+msgstr "警告：错误单位！"
 
 #. module: stock
 #: code:addons/stock/stock.py:3919
 #, python-format
 msgid "Warning: wrong quantity!"
-msgstr "Warning: wrong quantity!"
+msgstr "警告：错误数量！"
 
 #. module: warning
 #: view:product.template:warning.product_warning_form_view
@@ -99182,7 +99180,7 @@ msgstr "质保"
 #. module: mrp_repair
 #: field:mrp.repair,guarantee_limit:0
 msgid "Warranty Expiration"
-msgstr "Warranty Expiration"
+msgstr "质保有效期"
 
 #. modules: crm_claim, crm_helpdesk, project_issue, hr_recruitment
 #: field:crm.claim,email_cc:0 field:crm.helpdesk,email_cc:0
@@ -99709,7 +99707,7 @@ msgstr "周"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:248
 #, python-format
 msgid "Week "
-msgstr "Week "
+msgstr "周"
 
 #. module: account
 #: field:report.account.receivable,name:0
@@ -106080,7 +106078,7 @@ msgstr "每笔交易的秒数"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "select..."
-msgstr "select..."
+msgstr "选择..."
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -106090,7 +106088,7 @@ msgstr "self: ORM model of the record on which the action is triggered"
 #. module: website_mail_group
 #: view:website:website.snippets
 msgid "send mail"
-msgstr "send mail"
+msgstr "发送邮件"
 
 #. module: crm_partner_assign
 #: selection:crm.lead.forward.to.partner,forward_type:0
@@ -106212,7 +106210,7 @@ msgstr "talks"
 #: code:addons/project/project.py:886
 #, python-format
 msgid "tasks"
-msgstr "tasks"
+msgstr "任务"
 
 #. module: stock
 #: help:stock.inventory,move_ids_exist:0
@@ -106403,7 +106401,7 @@ msgstr "门票"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "time"
-msgstr "time"
+msgstr "时间"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -106481,7 +106479,7 @@ msgstr "top menu to create a new product."
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_transaction_pos
 msgid "transaction for the pos"
-msgstr "POS交易"
+msgstr "POS的交易"
 
 #. module: account
 #. openerp-web
@@ -106644,7 +106642,7 @@ msgstr "user: current user browse record"
 #. module: website_forum
 #: view:website:website_forum.badge_user
 msgid "users"
-msgstr "users"
+msgstr "用户"
 
 #. module: website
 #. openerp-web
@@ -106656,7 +106654,7 @@ msgstr "using above suggested keywords"
 #. module: lunch
 #: view:lunch.validation:lunch.validate_order_lines_view
 msgid "validate order lines"
-msgstr "validate order lines"
+msgstr "确认订单明细"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
@@ -106678,13 +106676,13 @@ msgstr "投票"
 #: code:addons/calendar/calendar.py:1263 code:addons/calendar/calendar.py:1265
 #, python-format
 msgid "warning!"
-msgstr "warning!"
+msgstr "警告！"
 
 #. modules: website, website_forum
 #: field:website.config.settings,website_id:0
 #: view:website:website_forum.user_detail_full
 msgid "website"
-msgstr "website"
+msgstr "网站"
 
 #. module: website_project
 #: view:website:website_project.index
