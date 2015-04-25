@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-24 17:31+0800\n"
+"PO-Revision-Date: 2015-04-26 00:14+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_cn
@@ -36255,7 +36255,7 @@ msgstr "单位成本的币别"
 #. module: account
 #: help:res.partner.bank,currency_id:0
 msgid "Currency of the related account journal."
-msgstr "货币的关联分类帐。"
+msgstr "相关会计分类账的币种。"
 
 #. module: base
 #: help:res.currency,symbol:0
