@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-26 00:14+0800\n"
+"PO-Revision-Date: 2015-04-30 15:40+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 1.6.10\n"
+"X-Generator: Poedit 1.7.5\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_cn
@@ -6419,27 +6419,24 @@ msgid ""
 "\n"
 msgstr ""
 "\n"
-"Module to automate letters for unpaid invoices, with multi-level recalls.\n"
+"这是一个可以自动为未支付发票的业务伙伴发送多等级催款信函的模块。\n"
 "=========================================================================\n"
 "\n"
-"You can define your multiple levels of recall through the menu:\n"
+"你可以通过菜单定义你的多个催款等级：\n"
 "---------------------------------------------------------------\n"
-"    Configuration / Follow-up / Follow-up Levels\n"
+"    设置 / 催款 / 催款等级\n"
 "    \n"
-"Once it is defined, you can automatically print recalls every day through "
-"simply clicking on the menu:\n"
+"一旦它被定义，你可以简单地通过点击菜单来自动打印催款说明：\n"
 "------------------------------------------------------------------------------------------------------\n"
-"    Payment Follow-Up / Send Email and letters\n"
+"    付款催收 / 发送电子邮件或信函\n"
 "\n"
-"It will generate a PDF / send emails / set manual actions according to the "
-"the different levels \n"
-"of recall defined. You can define different policies for different "
-"companies. \n"
+"系统会根据不同级别而产生一个 PDF / 发送电子邮件 / 设置手动操作 催款。\n"
+"您可以为不同的公司定义不同的策略。 \n"
 "\n"
-"Note that if you want to check the follow-up level for a given partner/"
-"account entry, you can do from in the menu:\n"
+"清注意，如果您要检查的催款等级对于给定的 业务伙伴/会计分录 ，你可以通过以下菜"
+"单来完成：\n"
 "------------------------------------------------------------------------------------------------------------------\n"
-"    Reporting / Accounting / **Follow-ups Analysis\n"
+"    报告 / 会计 / **催款分析\n"
 "\n"
 
 #. module: base
@@ -11060,7 +11057,7 @@ msgstr ""
 #. module: l10n_cn
 #: model:account.account.type,name:l10n_cn.user_type_pl5
 msgid "    主营业务税金及附加"
-msgstr "    主营业务税金及附加"
+msgstr "主页面"
 
 #. module: l10n_cn
 #: model:account.account.type,name:l10n_cn.user_type_pl13
@@ -11136,11 +11133,11 @@ msgid ""
 "* The 'Cancelled' status is set automatically when user cancel purchase "
 "order."
 msgstr ""
-"* 销售订单是草稿时，设置为“草稿”\n"
-"* 销售订单被用户确认后，状态变为“已确认”。\n"
-"* 销售订单发生异常时（发货被取消等），状态变为“异常”。\n"
-"* 当销售订单收货以后，状态变为“已完成”。\n"
-"* 当用户取消了销售订单，状态变为“已取消”。"
+"* 采购订单是草稿时，初始状态默认为“草稿”\n"
+"* 采购订单被用户确认后，状态变为“已确认”。\n"
+"* 采购订单发生异常时（发货被取消等），状态变为“异常”。\n"
+"* 当采购订单收货以后，状态变为“已完成”。\n"
+"* 当用户取消了采购订单，状态变为“已取消”。"
 
 #. module: account
 #: help:account.invoice,state:0
@@ -12370,7 +12367,7 @@ msgstr "(date)s: 当前日期"
 #. module: base
 #: view:res.partner:base.view_partner_form
 msgid "(edit company address)"
-msgstr "(edit company address)"
+msgstr "（编辑公司地址）"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
@@ -12671,8 +12668,8 @@ msgid ""
 ", the latest payment follow-up\n"
 "                            was:"
 msgstr ""
-", the latest payment follow-up\n"
-"                            was:"
+", 最新的客户付款催收\n"
+"                            是:"
 
 #. module: website
 #: view:website:website.info
@@ -59283,7 +59280,7 @@ msgstr "Manage calls for bids"
 #. module: account
 #: field:account.config.settings,module_account_followup:0
 msgid "Manage customer payment follow-ups"
-msgstr "管理客户欠款催收"
+msgstr "管理客户付款催收"
 
 #. module: account
 #: field:account.config.settings,module_account_voucher:0
@@ -69237,17 +69234,17 @@ msgstr "付款差额"
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 #: model:ir.ui.menu,name:base.menu_sales_followup
 msgid "Payment Follow-up"
-msgstr "付款跟进"
+msgstr "客户付款催收"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_followup
 msgid "Payment Follow-up Management"
-msgstr "付款跟进管理"
+msgstr "客户付款催收管理"
 
 #. module: account_followup
 #: model:ir.actions.act_window,name:account_followup.action_account_followup_definition_form
 msgid "Payment Follow-ups"
-msgstr "付款跟进"
+msgstr "客户付款催收"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
@@ -101687,8 +101684,7 @@ msgstr ""
 #, python-format
 msgid ""
 "You became responsible to do the next action for the payment follow-up of"
-msgstr ""
-"You became responsible to do the next action for the payment follow-up of"
+msgstr "你开始负责做出付款催收的下一步行动"
 
 #. module: website
 #. openerp-web
