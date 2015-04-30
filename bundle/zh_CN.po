@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-30 15:40+0800\n"
+"PO-Revision-Date: 2015-04-30 16:33+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -12668,7 +12668,7 @@ msgid ""
 ", the latest payment follow-up\n"
 "                            was:"
 msgstr ""
-", 最新的客户付款催收\n"
+", 最新的付款催收\n"
 "                            是:"
 
 #. module: website
@@ -59280,7 +59280,7 @@ msgstr "Manage calls for bids"
 #. module: account
 #: field:account.config.settings,module_account_followup:0
 msgid "Manage customer payment follow-ups"
-msgstr "管理客户付款催收"
+msgstr "管理付款催收"
 
 #. module: account
 #: field:account.config.settings,module_account_voucher:0
@@ -69234,17 +69234,17 @@ msgstr "付款差额"
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 #: model:ir.ui.menu,name:base.menu_sales_followup
 msgid "Payment Follow-up"
-msgstr "客户付款催收"
+msgstr "付款催收"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_followup
 msgid "Payment Follow-up Management"
-msgstr "客户付款催收管理"
+msgstr "付款催收管理"
 
 #. module: account_followup
 #: model:ir.actions.act_window,name:account_followup.action_account_followup_definition_form
 msgid "Payment Follow-ups"
-msgstr "客户付款催收"
+msgstr "付款催收"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
