@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:42+0000\n"
-"PO-Revision-Date: 2015-04-23 13:42+0000\n"
+"POT-Creation-Date: 2015-04-29 22:45+0000\n"
+"PO-Revision-Date: 2015-04-29 22:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -951,7 +951,7 @@ msgstr "Estimated time to do the task, usually set by the project manager when t
 #. module: project
 #: view:report.project.task.user:project.view_task_project_user_search
 msgid "Extended Filters"
-msgstr "Extended Filters"
+msgstr "扩展的筛选器"
 
 #. modules: project, project_issue
 #: view:project.task:project.view_task_form2
@@ -977,7 +977,7 @@ msgstr "2月"
 #. module: project
 #: field:project.task.type,fold:0
 msgid "Folded in Kanban View"
-msgstr "Folded in Kanban View"
+msgstr "在看板视图中收拢"
 
 #. module: project
 #: view:project.project:project.edit_project
@@ -999,12 +999,12 @@ msgstr "GTD"
 #. module: project
 #: view:project.task:project.view_task_form2
 msgid "Gantt View"
-msgstr "Gantt View"
+msgstr "甘特视图"
 
 #. module: project
 #: field:project.config.settings,module_sale_service:0
 msgid "Generate tasks from sale orders"
-msgstr "Generate tasks from sale orders"
+msgstr "从销售订单生成任务"
 
 #. module: project
 #: help:project.project,sequence:0
@@ -1166,7 +1166,7 @@ msgstr "Incoming Emails create"
 #. module: project
 #: field:project.task,planned_hours:0
 msgid "Initially Planned Hours"
-msgstr "Initially Planned Hours"
+msgstr "最初计划时数"
 
 #. module: project
 #: help:project.project,alias_id:0
@@ -1177,7 +1177,7 @@ msgstr "Internal email associated with this project. Incoming emails are automat
 #: code:addons/project/project.py:201
 #, python-format
 msgid "Internal project: all employees can access"
-msgstr "Internal project: all employees can access"
+msgstr "内部项目：所有员工可以存取"
 
 #. modules: project, project_timesheet
 #: code:addons/project/project.py:171
@@ -1190,7 +1190,7 @@ msgstr "Invalid Action!"
 #: code:addons/project_timesheet/project_timesheet.py:324
 #, python-format
 msgid "Invalid Analytic Account!"
-msgstr "Invalid Analytic Account!"
+msgstr "无效的分析账户！"
 
 #. module: project_timesheet
 #: model:ir.actions.act_window,name:project_timesheet.action_project_timesheet_bill_task
@@ -1411,7 +1411,7 @@ msgstr "低"
 #. module: project
 #: field:project.config.settings,group_time_work_estimation_tasks:0
 msgid "Manage time estimation on tasks"
-msgstr "Manage time estimation on tasks"
+msgstr "管理任务的时间估计"
 
 #. module: project
 #: view:project.project:project.view_project_project_filter
@@ -1427,7 +1427,7 @@ msgstr "3月"
 #. module: project_timesheet
 #: selection:report.timesheet.task.user,month:0
 msgid "May"
-msgstr "5"
+msgstr "5月"
 
 #. module: project
 #: view:project.project:project.view_project_project_filter
@@ -1704,7 +1704,7 @@ msgstr "请在相关的员工上面定义产品和产品分类属性科目。\n"
 "填在员工表单的人力资源标签。"
 
 #. module: project
-#: code:addons/project/project.py:1236
+#: code:addons/project/project.py:1243
 #, python-format
 msgid "Please delete the project linked with this account first."
 msgstr "Please delete the project linked with this account first."
@@ -2019,7 +2019,7 @@ msgstr "Sign in / Sign out by Project"
 #. module: project
 #: model:project.task.type,name:project.project_tt_specification
 msgid "Specification"
-msgstr "文档"
+msgstr "规格"
 
 #. module: project
 #: view:project.task:project.view_task_form2
@@ -2163,7 +2163,7 @@ msgstr "Task Assigned"
 #: model:mail.message.subtype,name:project.mt_project_task_blocked
 #: model:mail.message.subtype,name:project.mt_task_blocked
 msgid "Task Blocked"
-msgstr "延期的任务"
+msgstr "Task Blocked"
 
 #. module: project
 #: model:mail.message.subtype,name:project.mt_project_task_new
@@ -2174,12 +2174,12 @@ msgstr "任务已创建"
 #. module: project
 #: model:ir.model,name:project.model_project_task_delegate
 msgid "Task Delegate"
-msgstr "任务分派"
+msgstr "任务委托"
 
 #. module: project
 #: model:res.groups,name:project.group_delegate_task
 msgid "Task Delegation"
-msgstr "任务委派"
+msgstr "任务委托"
 
 #. module: project_timesheet
 #: field:report.timesheet.task.user,task_hrs:0
@@ -2237,7 +2237,7 @@ msgstr "任务工作"
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_blocked
 msgid "Task blocked"
-msgstr "延期的任务"
+msgstr "Task blocked"
 
 #. module: project
 #: model:mail.message.subtype,description:project.mt_task_new
@@ -2247,7 +2247,7 @@ msgstr "任务已创建"
 #. module: project
 #: view:project.task:project.view_task_form2
 msgid "Task summary..."
-msgstr "Task summary..."
+msgstr "任务摘要..."
 
 #. module: project
 #: view:project.task.history.cumulative:project.view_task_history_search
@@ -2257,7 +2257,7 @@ msgstr "任务分析"
 #. module: project
 #: model:res.groups,name:project.group_tasks_work_on_tasks
 msgid "Task's Work on Tasks"
-msgstr "任务的工作任务"
+msgstr "任务的工作"
 
 #. module: project
 #: field:account.analytic.account,use_tasks:0
@@ -2466,12 +2466,12 @@ msgstr "追踪问题和错误"
 #: view:project.issue:project_issue.view_project_issue_filter
 #: view:project.issue.report:project_issue.view_project_issue_report_filter
 msgid "Unassigned"
-msgstr "未分配"
+msgstr "未指派"
 
 #. module: project
 #: view:project.task.history.cumulative:project.view_task_history_search
 msgid "Unassigned Tasks"
-msgstr "未指派任务"
+msgstr "未指派的任务"
 
 #. modules: project, project_issue
 #: field:project.project,message_unread:0
@@ -2527,7 +2527,7 @@ msgstr "确认任务"
 #. module: project
 #: view:project.task.delegate:project.view_project_task_delegate
 msgid "Validation Task Title"
-msgstr "验证任务标题"
+msgstr "确认任务标题"
 
 #. module: project_issue
 #: field:project.issue,version_id:0
@@ -2549,7 +2549,7 @@ msgstr "版本"
 #. modules: project, project_issue
 #: code:addons/project/project.py:435
 #: code:addons/project/project.py:929
-#: code:addons/project/project.py:1236
+#: code:addons/project/project.py:1243
 #: code:addons/project_issue/project_issue.py:397
 #, python-format
 msgid "Warning!"
@@ -2679,7 +2679,7 @@ msgstr "或"
 #: code:addons/project/project.py:886
 #, python-format
 msgid "tasks"
-msgstr "tasks"
+msgstr "任务"
 
 #. modules: project, project_issue
 #: field:account.analytic.account,company_uom_id:0

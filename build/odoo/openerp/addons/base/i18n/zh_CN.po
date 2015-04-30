@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:40+0000\n"
-"PO-Revision-Date: 2015-04-23 13:40+0000\n"
+"POT-Creation-Date: 2015-04-29 22:42+0000\n"
+"PO-Revision-Date: 2015-04-29 22:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -215,7 +215,7 @@ msgid "\n"
 "    Display your network of certified people on your website\n"
 "    "
 msgstr "\n"
-"    Display your network of certified people on your website\n"
+"    在您的网站上显示您的已认证的人。\n"
 "    "
 
 #. module: base
@@ -309,25 +309,25 @@ msgid "\n"
 "for a particular financial year and for preparation of vouchers there is a module named account_voucher.\n"
 "    "
 msgstr "\n"
-"Accounting and Financial Management.\n"
+"会计与财务管理\n"
 "====================================\n"
 "\n"
-"Financial and accounting module that covers:\n"
+"财务和会计模块包括\n"
 "--------------------------------------------\n"
-"    * General Accounting\n"
-"    * Cost/Analytic accounting\n"
-"    * Third party accounting\n"
-"    * Taxes management\n"
-"    * Budgets\n"
-"    * Customer and Supplier Invoices\n"
-"    * Bank statements\n"
-"    * Reconciliation process by partner\n"
+"    * 普通会计\n"
+"    * 成本/分析会计\n"
+"    * 第三方会计\n"
+"    * 税收管理\n"
+"    * 预算\n"
+"    * 客户和供应商发票\n"
+"    * 银行对账单\n"
+"    * 通过业务伙伴调节对帐\n"
 "\n"
-"Creates a dashboard for accountants that includes:\n"
+"创建仪表盘会计人员，其中包括：\n"
 "--------------------------------------------------\n"
-"    * List of Customer Invoices to Approve\n"
-"    * Company Analysis\n"
-"    * Graph of Treasury\n"
+"    * 待审批的客户发发票清单\n"
+"    * 公司分析报告\n"
+"    * 财务图表\n"
 "\n"
 "Processes like maintaining general ledgers are done through the defined Financial Journals (entry move line or grouping is maintained through a journal) \n"
 "for a particular financial year and for preparation of vouchers there is a module named account_voucher.\n"
@@ -473,8 +473,8 @@ msgstr "\n"
 "允许取消分录\n"
 "====================================\n"
 "\n"
-"This module adds 'Allow Canceling Entries' field on form view of account journal.\n"
-"If set to true it allows user to cancel entries & invoices.\n"
+"该模块增加了“允许取消分录”字段在会计分录的表单视图上。\n"
+"勾选它，系统将允许用户取消分录或发票。\n"
 "    "
 
 #. module: base
@@ -5095,6 +5095,21 @@ msgstr "\n"
 "        "
 
 #. module: base
+#: model:ir.module.module,description:base.module_account_analytic_plans_fixup
+msgid "\n"
+"This module allows to use several analytic plans according to the general journal.\n"
+"==================================================================================\n"
+"\n"
+"this is fix-up for the view definition.\n"
+"    "
+msgstr "\n"
+"This module allows to use several analytic plans according to the general journal.\n"
+"==================================================================================\n"
+"\n"
+"this is fix-up for the view definition.\n"
+"    "
+
+#. module: base
 #: model:ir.module.module,description:base.module_note
 msgid "\n"
 "This module allows users to create their own notes inside OpenERP\n"
@@ -6126,8 +6141,8 @@ msgstr "%p - 等价于 AM 或 PM"
 #: code:addons/base/ir/ir_filters.py:36
 #: code:addons/base/res/res_partner.py:360
 #: code:addons/base/res/res_users.py:123
-#: code:addons/base/res/res_users.py:376
 #: code:addons/base/res/res_users.py:378
+#: code:addons/base/res/res_users.py:380
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copy)"
@@ -6180,17 +6195,17 @@ msgstr "'%s' 不是一个整型字段 '%%(field)s'"
 #. module: base
 #: view:res.partner:base.view_partner_form
 msgid "(edit company address)"
-msgstr "(edit company address)"
+msgstr "（编辑公司地址）"
 
 #. module: base
 #: view:res.company:base.view_company_form
 msgid "(reload fonts)"
-msgstr "(reload fonts)"
+msgstr "（重新加载字体）"
 
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid ", or your preferred text editor"
-msgstr "或使用你喜欢的文本编辑器"
+msgstr "，或你喜欢的文本编辑器"
 
 #. module: base
 #: help:ir.values,key:0
@@ -6202,22 +6217,22 @@ msgstr "- Action: 动作附加到模型的一个接口\n"
 #. module: base
 #: view:ir.module.module:base.module_form
 msgid "-This module does not create menu."
-msgstr "-This module does not create menu."
+msgstr "-这个模块不会创建菜单。"
 
 #. module: base
 #: view:ir.module.module:base.module_form
 msgid "-This module does not create report."
-msgstr "-This module does not create report."
+msgstr "-这个模块不会创建报表。"
 
 #. module: base
 #: view:ir.module.module:base.module_form
 msgid "-This module does not create views."
-msgstr "-This module does not create views."
+msgstr "-这个模块不创建视图。"
 
 #. module: base
 #: view:ir.module.module:base.module_form
 msgid "-This module does not depends on any other module."
-msgstr "-This module does not depends on any other module."
+msgstr "-这个模块不依赖于任何其他模块。"
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -7132,10 +7147,11 @@ msgid "Applicant Resumes and Letters"
 msgstr "Applicant Resumes and Letters"
 
 #. module: base
-#: code:addons/base/res/res_users.py:747
+#: code:addons/base/res/res_users.py:749
 #: model:ir.model,name:base.model_ir_module_category
 #: field:ir.module.module,application:0
 #: field:res.groups,category_id:0
+#: view:res.users:base.user_groups_view
 #, python-format
 msgid "Application"
 msgstr "应用程序"
@@ -7322,6 +7338,12 @@ msgstr "使用 LDAP 认证"
 #: field:ir.module.module,author:0
 msgid "Author"
 msgstr "作者"
+
+#. module: base
+#: model:ir.module.module,description:base.module_payment_authorize
+#: model:ir.module.module,shortdesc:base.module_payment_authorize
+msgid "Authorize.Net Payment Acquirer"
+msgstr "Authorize.Net Payment Acquirer"
 
 #. module: base
 #: field:ir.actions.act_window,auto_search:0
@@ -7798,7 +7820,7 @@ msgid "Can not create Many-To-One records indirectly, import the field separatel
 msgstr "不能间接创建 M2O （多对1）记录，分别导入字段。"
 
 #. module: base
-#: code:addons/base/res/res_users.py:352
+#: code:addons/base/res/res_users.py:354
 #, python-format
 msgid "Can not remove root user!"
 msgstr "不能删除根用户！"
@@ -9824,7 +9846,7 @@ msgstr "示例"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "Execute several actions"
-msgstr "Execute several actions"
+msgstr "执行几个动作"
 
 #. module: base
 #: view:ir.cron:base.ir_cron_view_search
@@ -9908,7 +9930,7 @@ msgstr "表达式，如果为 True 则匹配\n"
 #. module: base
 #: selection:ir.ui.view,mode:0
 msgid "Extension View"
-msgstr "Extension View"
+msgstr "扩展视图"
 
 #. module: base
 #: field:ir.module.category,xml_id:0
@@ -10078,7 +10100,7 @@ msgstr "文件大小"
 #. module: base
 #: field:ir.actions.act_window,filter:0
 msgid "Filter"
-msgstr "筛选"
+msgstr "筛选器"
 
 #. module: base
 #: view:ir.filters:base.ir_filters_view_search
@@ -10094,7 +10116,7 @@ msgstr "筛选器名称必须是唯一的"
 #. module: base
 #: view:ir.attachment:base.view_attachment_search
 msgid "Filter on my documents"
-msgstr "用于我的文档的筛选器"
+msgstr "用于我的单据的筛选器"
 
 #. module: base
 #: view:ir.actions.act_window:base.view_window_action_form
@@ -10109,7 +10131,7 @@ msgstr "筛选"
 #. module: base
 #: view:ir.filters:base.ir_filters_view_search
 msgid "Filters created by myself"
-msgstr "Filters created by myself"
+msgstr "我自己创建的筛选器"
 
 #. module: base
 #: view:ir.filters:base.ir_filters_view_search
@@ -10145,6 +10167,11 @@ msgstr "芬兰"
 #: selection:base.language.install,lang:0
 msgid "Finnish / Suomi"
 msgstr "Finnish / Suomi"
+
+#. module: base
+#: model:ir.module.module,shortdesc:base.module_account_analytic_plans_fixup
+msgid "Fix-up for Multiple Analytic Plans"
+msgstr "Fix-up for Multiple Analytic Plans"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_fleet
@@ -10394,7 +10421,7 @@ msgstr "冈比亚"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_gamification
 msgid "Gamification"
-msgstr "Gamification"
+msgstr "游戏化"
 
 #. module: base
 #: selection:ir.actions.act_window.view,view_mode:0
@@ -10678,27 +10705,27 @@ msgstr "海地"
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_scanner
 msgid "Hardware Driver for Barcode Scanners"
-msgstr "Hardware Driver for Barcode Scanners"
+msgstr "条码扫描器的硬件驱动"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_escpos
 msgid "Hardware Driver for ESC/POS Printers and Cashdrawers"
-msgstr "Hardware Driver for ESC/POS Printers and Cashdrawers"
+msgstr "ESC/POS打印机和钱箱的硬件驱动"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hw_scale
 msgid "Hardware Driver for Weighting Scales"
-msgstr "Hardware Driver for Weighting Scales"
+msgstr "电子秤的硬件驱动程序"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hardware_drivers
 msgid "Hardware Drivers"
-msgstr "Hardware Drivers"
+msgstr "硬件驱动"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_proxy
 msgid "Hardware Proxy"
-msgstr "Hardware Proxy"
+msgstr "硬件代理"
 
 #. module: base
 #: model:res.country,name:base.hm
@@ -10980,7 +11007,7 @@ msgstr "标识"
 #. module: base
 #: field:ir.default,ref_id:0
 msgid "ID Ref."
-msgstr "ID参照"
+msgstr "ID参考"
 
 #. module: base
 #: help:ir.model.data,res_id:0
@@ -10995,7 +11022,7 @@ msgstr "定义在 XML 文件里的视图标识符"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_bus
 msgid "IM Bus"
-msgstr "IM Bus"
+msgstr "IM 总线"
 
 #. module: base
 #: field:base.language.import,code:0
@@ -11160,12 +11187,12 @@ msgstr "图像"
 #. module: base
 #: view:base.module.upgrade:base.view_base_module_upgrade
 msgid "Impacted Modules"
-msgstr "Impacted Modules"
+msgstr "受影响的模块"
 
 #. module: base
 #: field:ir.sequence,implementation:0
 msgid "Implementation"
-msgstr "Implementation"
+msgstr "实现"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_import_crm
@@ -11209,7 +11236,7 @@ msgstr "Incorrect Write Record Expression"
 #. module: base
 #: field:ir.sequence,number_increment:0
 msgid "Increment Number"
-msgstr "编号增量"
+msgstr "增量号码"
 
 #. module: base
 #: code:addons/base/ir/ir_sequence.py:134
@@ -11268,12 +11295,12 @@ msgstr "Inherit Views"
 #. module: base
 #: view:res.groups:base.view_groups_form
 msgid "Inherited"
-msgstr "继承"
+msgstr "Inherited"
 
 #. module: base
 #: field:ir.ui.view,inherit_id:0
 msgid "Inherited View"
-msgstr "继承视图"
+msgstr "Inherited View"
 
 #. module: base
 #: view:ir.ui.view:base.view_view_form
@@ -11288,7 +11315,7 @@ msgstr "Inherited models"
 #. module: base
 #: field:res.groups,implied_ids:0
 msgid "Inherits"
-msgstr "继承"
+msgstr "Inherits"
 
 #. module: base
 #: field:ir.model.data,date_init:0
@@ -11309,12 +11336,12 @@ msgstr "初始化日期"
 #. module: base
 #: selection:ir.actions.act_window,target:0
 msgid "Inline Edit"
-msgstr "行内编辑"
+msgstr "Inline Edit"
 
 #. module: base
 #: selection:ir.actions.act_window,target:0
 msgid "Inline View"
-msgstr "内嵌的视图"
+msgstr "Inline View"
 
 #. module: base
 #: code:addons/base/module/module.py:440
@@ -11327,7 +11354,7 @@ msgstr "安装"
 #. module: base
 #: model:ir.model,name:base.model_base_language_install
 msgid "Install Language"
-msgstr "Install Language"
+msgstr "安装语言"
 
 #. module: base
 #: view:res.config.installer:base.res_config_installer
@@ -11339,17 +11366,17 @@ msgstr "安装模块"
 #: view:ir.module.module:base.view_module_filter
 #: selection:ir.module.module,state:0
 msgid "Installed"
-msgstr "已安装的模块"
+msgstr "已安装"
 
 #. module: base
 #: view:ir.module.module:base.module_form
 msgid "Installed Features"
-msgstr "Installed Features"
+msgstr "已安装的特性"
 
 #. module: base
 #: field:ir.module.module,latest_version:0
 msgid "Installed Version"
-msgstr "已安装版本"
+msgstr "已安装的版本"
 
 #. module: base
 #: field:workflow.workitem,inst_id:0
@@ -11365,12 +11392,12 @@ msgstr "实例"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_im_chat
 msgid "Instant Messaging"
-msgstr "Instant Messaging"
+msgstr "即时通讯"
 
 #. module: base
 #: model:ir.module.module,description:base.module_bus
 msgid "Instant Messaging Bus allow you to send messages to users, in live."
-msgstr "Instant Messaging Bus allow you to send messages to users, in live."
+msgstr "即时通讯总线允许你在线发送信息给用户。"
 
 #. module: base
 #: selection:ir.property,type:0
@@ -11400,7 +11427,7 @@ msgstr "间隔单位"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_report_intrastat
 msgid "Intrastat Reporting"
-msgstr "内部统计报告"
+msgstr "Intrastat Reporting"
 
 #. module: base
 #: report:ir.module.reference:0
@@ -11416,7 +11443,7 @@ msgstr "因纽特语"
 #: code:addons/base/res/res_bank.py:189
 #, python-format
 msgid "Invalid Bank Account Type Name format."
-msgstr "无效的银行账户名称格式。"
+msgstr "无效的银行账户类型名称格式。"
 
 #. module: base
 #: code:addons/base/ir/ir_model.py:92
@@ -11430,22 +11457,22 @@ msgid "Invalid arguments"
 msgstr "无效的参数"
 
 #. module: base
-#: code:addons/base/res/res_users.py:858
+#: code:addons/base/res/res_users.py:860
 #, python-format
 msgid "Invalid context default_groups_ref value (model.name_id) : \"%s\""
 msgstr "Invalid context default_groups_ref value (model.name_id) : \"%s\""
 
 #. module: base
-#: code:addons/base/res/res_users.py:858
+#: code:addons/base/res/res_users.py:860
 #, python-format
 msgid "Invalid context value"
-msgstr "Invalid context value"
+msgstr "无效的上下文值"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:302
 #, python-format
 msgid "Invalid database id '%s' for the field '%%(field)s'"
-msgstr "非法的database id '%s' 在字段'%%(field)s'"
+msgstr "无效的database id '%s' 在字段'%%(field)s'"
 
 #. module: base
 #: constraint:res.lang:0
@@ -11478,7 +11505,7 @@ msgstr "序列 '%s' 的前缀或者后缀不正确"
 #. module: base
 #: constraint:ir.ui.view:0
 msgid "Invalid view definition"
-msgstr "Invalid view definition"
+msgstr "无效的视图定义"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_generic_modules_inventory_control
@@ -11493,7 +11520,7 @@ msgstr "库存，物流，存储"
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_account
 msgid "Inventory, Logistic, Valuation, Accounting"
-msgstr "Inventory, Logistic, Valuation, Accounting"
+msgstr "库存，物流，估值，会计"
 
 #. module: base
 #: selection:res.partner,type:0
@@ -11508,7 +11535,7 @@ msgstr "根据分拣开票"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_timesheet_invoice
 msgid "Invoice on Timesheets"
-msgstr "按工时开发票"
+msgstr "基于计工单开票"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_invoiced
@@ -12036,7 +12063,7 @@ msgstr "黎巴嫩"
 #. module: base
 #: field:res.partner.category,parent_left:0
 msgid "Left parent"
-msgstr "Left parent"
+msgstr "左父项"
 
 #. module: base
 #: selection:res.lang,direction:0
@@ -12102,12 +12129,12 @@ msgstr "列支敦士登"
 #. module: base
 #: field:ir.actions.act_window,limit:0
 msgid "Limit"
-msgstr "数量限制"
+msgstr "限制"
 
 #. module: base
 #: field:ir.logging,line:0
 msgid "Line"
-msgstr "Line"
+msgstr "线"
 
 #. module: base
 #: field:ir.actions.server,link_field_id:0
@@ -12170,7 +12197,7 @@ msgstr "导入一个翻译"
 #: model:ir.actions.act_window,name:base.open_module_tree
 #: model:ir.ui.menu,name:base.menu_module_tree
 msgid "Local Modules"
-msgstr "Local Modules"
+msgstr "本地模块"
 
 #. module: base
 #: field:res.lang,code:0
@@ -12187,13 +12214,13 @@ msgstr "定位"
 #. module: base
 #: view:ir.logging:base.ir_logging_form_view
 msgid "Log"
-msgstr "Log"
+msgstr "日志"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_logging_all_act
 #: model:ir.ui.menu,name:base.ir_logging_all_menu
 msgid "Logging"
-msgstr "Logging"
+msgstr "日志"
 
 #. module: base
 #: field:res.users,login:0
@@ -12229,7 +12256,7 @@ msgstr "午餐订单，膳食，食物"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_lunch
 msgid "Lunch Orders"
-msgstr "午餐订单管理"
+msgstr "午餐订单"
 
 #. module: base
 #: model:res.country,name:base.lu
@@ -12280,7 +12307,7 @@ msgstr "女士"
 #: code:addons/base/ir/ir_mail_server.py:503
 #, python-format
 msgid "Mail Delivery Failed"
-msgstr "Mail Delivery Failed"
+msgstr "邮件发送失败 "
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:499
@@ -12303,7 +12330,7 @@ msgstr "母公司"
 #. module: base
 #: field:ir.actions.report.xml,report_rml:0
 msgid "Main Report File Path/controller"
-msgstr "Main Report File Path/controller"
+msgstr "主报表文件路径/控制器"
 
 #. module: base
 #: field:ir.module.module,maintainer:0
@@ -12343,12 +12370,12 @@ msgstr "马耳他"
 #. module: base
 #: model:res.groups,name:base.group_multi_salesteams
 msgid "Manage Sales Teams"
-msgstr "Manage Sales Teams"
+msgstr "管理销售团队"
 
 #. module: base
 #: model:res.groups,name:base.group_website_designer
 msgid "Manage Website and qWeb view"
-msgstr "Manage Website and qWeb view"
+msgstr "管理网站和qWeb视图"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
@@ -12380,7 +12407,7 @@ msgstr "经理"
 #. module: base
 #: model:ir.module.category,name:base.module_category_managing_vehicles_and_contracts
 msgid "Managing vehicles and contracts"
-msgstr "车辆和合同管理"
+msgstr "管理车辆和合同"
 
 #. module: base
 #: help:ir.actions.todo,type:0
@@ -12408,7 +12435,7 @@ msgstr "制造作业"
 #. module: base
 #: model:ir.module.module,summary:base.module_mrp
 msgid "Manufacturing Orders, Bill of Materials, Routing"
-msgstr "生成订单，BOM，工艺路线"
+msgstr "制造订单，BOM，工艺"
 
 #. module: base
 #: selection:ir.property,type:0
@@ -12426,7 +12453,7 @@ msgstr "M2M（多对多）关系"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_margin
 msgid "Margins by Products"
-msgstr "产品利润模块"
+msgstr "产品利润"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_margin
@@ -12444,7 +12471,7 @@ msgstr "市场营销"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_marketing_campaign_crm_demo
 msgid "Marketing Campaign - Demo"
-msgstr "市场营销 - 示例"
+msgstr "市场营销 - 演示"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_marketing_campaign
@@ -12671,7 +12698,7 @@ msgstr "模型约束条件"
 #. module: base
 #: field:ir.ui.view,model_data_id:0
 msgid "Model Data"
-msgstr "Model Data"
+msgstr "模型数据"
 
 #. module: base
 #: view:ir.model:base.view_model_form
@@ -12755,7 +12782,7 @@ msgstr "模块类别"
 #. module: base
 #: model:ir.actions.server,name:base.action_server_module_immediate_install
 msgid "Module Immediate Install"
-msgstr "立即安装的模块"
+msgstr "立即安装模块"
 
 #. module: base
 #: field:ir.module.module,shortdesc:0
@@ -13536,9 +13563,10 @@ msgid "Original View"
 msgstr "原始视图"
 
 #. module: base
-#: code:addons/base/res/res_users.py:758
-#: code:addons/base/res/res_users.py:912
+#: code:addons/base/res/res_users.py:760
+#: code:addons/base/res/res_users.py:914
 #: selection:res.partner,type:0
+#: view:res.users:base.user_groups_view
 #, python-format
 msgid "Other"
 msgstr "其他"
@@ -13812,6 +13840,11 @@ msgstr "Payment Acquirer Base Module"
 #: model:ir.module.module,summary:base.module_payment_adyen
 msgid "Payment Acquirer: Adyen Implementation"
 msgstr "Payment Acquirer: Adyen Implementation"
+
+#. module: base
+#: model:ir.module.module,summary:base.module_payment_authorize
+msgid "Payment Acquirer: Authorize.net Implementation"
+msgstr "Payment Acquirer: Authorize.net Implementation"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_payment_buckaroo
@@ -14902,6 +14935,7 @@ msgstr "Sale Layout, page-break, subtotals, separators, report"
 #: model:ir.ui.menu,name:base.menu_sale_config_sales
 #: model:ir.ui.menu,name:base.menu_sales
 #: model:ir.ui.menu,name:base.next_id_64
+#: view:res.users:base.user_groups_view
 msgid "Sales"
 msgstr "销售"
 
@@ -14913,7 +14947,7 @@ msgstr "销售&采购"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_analytic_plans
 msgid "Sales Analytic Distribution"
-msgstr "销售分析"
+msgstr "销售分析分配"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale
@@ -15256,7 +15290,7 @@ msgid "Set the font into the report header, it will be used as default font in t
 msgstr "Set the font into the report header, it will be used as default font in the RML reports of the user company"
 
 #. module: base
-#: code:addons/base/res/res_users.py:520
+#: code:addons/base/res/res_users.py:522
 #, python-format
 msgid "Setting empty passwords is not allowed for security reasons!"
 msgstr "基于安全上的考虑不允许设置空密码！"
@@ -15480,7 +15514,7 @@ msgstr "源术语"
 #. module: base
 #: help:workflow.transition,act_from:0
 msgid "Source activity. When this activity is over, the condition is tested to determine if we can start the ACT_TO activity."
-msgstr "来源活动. 当越过来源活动的时候就会测试条件是否能够满足启动 ACT_TO 活动."
+msgstr "源活动. 当越过来源活动的时候就会测试条件是否能够满足启动 ACT_TO 活动."
 
 #. module: base
 #: model:res.country,name:base.za
@@ -15818,7 +15852,7 @@ msgstr "供应商付款管理"
 #. module: base
 #: model:ir.module.module,summary:base.module_project_issue
 msgid "Support, Bug Tracker, Helpdesk"
-msgstr "支持，bug跟踪，帮助"
+msgstr "支持，bug跟踪，服务台"
 
 #. module: base
 #: model:res.country,name:base.sr
@@ -15878,7 +15912,7 @@ msgstr "瑞士 - 会计"
 #. module: base
 #: field:res.currency,symbol:0
 msgid "Symbol"
-msgstr "货币符号"
+msgstr "符号"
 
 #. module: base
 #: field:res.currency,position:0
@@ -16031,13 +16065,13 @@ msgstr "Team Page"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_custom
 msgid "Technical"
-msgstr "技术性"
+msgstr "技术"
 
 #. module: base
 #: view:ir.cron:base.ir_cron_view
 #: view:ir.module.module:base.module_form
 msgid "Technical Data"
-msgstr "技术性数据"
+msgstr "技术数据"
 
 #. module: base
 #: model:res.groups,name:base.group_no_one
@@ -16051,13 +16085,14 @@ msgstr "技术名称"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hidden
+#: view:res.users:base.user_groups_view
 msgid "Technical Settings"
 msgstr "技术设置"
 
 #. module: base
 #: model:ir.actions.report.xml,name:base.ir_module_reference_print
 msgid "Technical guide"
-msgstr "技术文档"
+msgstr "技术指南"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -16572,7 +16607,7 @@ msgstr "触摸屏接口的POS 系统"
 #. module: base
 #: model:ir.module.module,summary:base.module_event
 msgid "Trainings, Conferences, Meetings, Exhibitions, Registrations"
-msgstr "培训，学术会议，商务会议，展览，登记挂号"
+msgstr "培训，学术会议，商务会议，展览，登记"
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment_transfer
@@ -16602,7 +16637,7 @@ msgstr "迁移"
 #. module: base
 #: field:res.groups,trans_implied_ids:0
 msgid "Transitively inherits"
-msgstr "及物继承"
+msgstr "Transitively inherits"
 
 #. module: base
 #: field:ir.model.fields,translate:0
@@ -16630,7 +16665,7 @@ msgstr "已翻译术语"
 #. module: base
 #: field:ir.translation,name:0
 msgid "Translated field"
-msgstr "已经翻译字段"
+msgstr "已翻译字段"
 
 #. module: base
 #: view:ir.translation:base.view_translation_form
@@ -17006,6 +17041,7 @@ msgstr "乌拉圭会计模块"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_usability
+#: view:res.users:base.user_groups_view
 msgid "Usability"
 msgstr "易用性"
 
@@ -17134,7 +17170,7 @@ msgstr "用户名"
 #: view:res.users:base.view_users_simple_form
 #: view:res.users:base.view_users_tree
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: base
 #: view:res.groups:base.view_groups_form
@@ -17154,7 +17190,7 @@ msgstr "乌兹别克斯坦"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_vat
 msgid "VAT Number Validation"
-msgstr "增值税号码验证"
+msgstr "VAT Number Validation"
 
 #. module: base
 #: field:ir.config_parameter,value:0
@@ -17349,7 +17385,7 @@ msgstr "仓库管理"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_picking_wave
 msgid "Warehouse Management: Waves"
-msgstr "Warehouse Management: Waves"
+msgstr "仓库管理：波次"
 
 #. module: base
 #: code:addons/base/ir/ir_actions.py:827
@@ -17371,7 +17407,7 @@ msgstr "警告消息与预警管理"
 #: code:addons/base/ir/ir_sequence.py:134
 #: code:addons/base/ir/ir_sequence.py:160
 #: code:addons/base/res/res_config.py:471
-#: code:addons/base/res/res_users.py:520
+#: code:addons/base/res/res_users.py:522
 #, python-format
 msgid "Warning!"
 msgstr "Warning!"
@@ -17726,7 +17762,7 @@ msgid "You can not register two fonts with the same name"
 msgstr "You can not register two fonts with the same name"
 
 #. module: base
-#: code:addons/base/res/res_users.py:352
+#: code:addons/base/res/res_users.py:354
 #, python-format
 msgid "You can not remove the admin user as it is used internally for resources created by Odoo (updates, module installation, ...)"
 msgstr "You can not remove the admin user as it is used internally for resources created by Odoo (updates, module installation, ...)"
@@ -18017,7 +18053,7 @@ msgstr "get"
 #: selection:base.language.install,state:0
 #: selection:base.module.update,state:0
 msgid "init"
-msgstr "初始化"
+msgstr "init"
 
 #. module: base
 #: selection:ir.ui.menu,action:0
@@ -18266,19 +18302,4 @@ msgstr "阿兰群岛"
 #: model:ir.module.module,shortdesc:base.module_l10n_cn
 msgid "中国会计科目表"
 msgstr "中国会计科目表"
-
-#. module: base
-#: view:res.users:base.user_groups_view
-msgid "应用程序"
-msgstr "应用程序"
-
-#. module: base
-#: view:res.users:base.user_groups_view
-msgid "技术设置"
-msgstr "技术设置"
-
-#. module: base
-#: view:res.users:base.user_groups_view
-msgid "易用性"
-msgstr "易用性"
 

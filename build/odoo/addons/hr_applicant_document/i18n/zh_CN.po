@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:01+0000\n"
-"PO-Revision-Date: 2015-04-23 13:01+0000\n"
+"POT-Creation-Date: 2015-04-29 21:49+0000\n"
+"PO-Revision-Date: 2015-04-29 21:49+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "申请人"
 #. module: hr_applicant_document
 #: field:hr.applicant,index_content:0
 msgid "Index Content"
-msgstr "Index Content"
+msgstr "索引内容"
 
 #. module: hr_applicant_document
 #: view:hr.applicant:hr_applicant_document.view_crm_case_jobs_filter_inherit

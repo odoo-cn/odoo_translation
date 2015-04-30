@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:39+0000\n"
-"PO-Revision-Date: 2015-04-23 13:39+0000\n"
+"POT-Creation-Date: 2015-04-29 22:39+0000\n"
+"PO-Revision-Date: 2015-04-29 22:39+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,7 +29,7 @@ msgstr "'Content'"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "-- Create a new address --"
-msgstr "-- Create a new address --"
+msgstr "--创建一个新的地址 --"
 
 #. module: website_sale
 #: view:website:website_sale.product
@@ -106,12 +106,12 @@ msgstr "Available in the website"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Bill To:"
-msgstr "Bill To:"
+msgstr "账单到："
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Billing Information"
-msgstr "Billing Information"
+msgstr "开账单信息"
 
 #. module: website_sale
 #: view:website:website_sale.product
@@ -372,7 +372,7 @@ msgstr "错误！您不能创建循环分类。"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Free Shipping in U.S."
-msgstr "Free Shipping in U.S."
+msgstr "美国范围内免费配送"
 
 #. module: website_sale
 #: help:product.public.category,sequence:0
@@ -402,7 +402,7 @@ msgstr "Here you can set a specific HTML color index (e.g. #ff0000) to display t
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Hidden"
-msgstr "Hidden"
+msgstr "隐藏"
 
 #. module: website_sale
 #: field:product.public.category,id:0
@@ -744,12 +744,12 @@ msgstr "Save your modifications"
 #. module: website_sale
 #: view:website:website_sale.search
 msgid "Search..."
-msgstr "Search..."
+msgstr "搜索..."
 
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Secure Payment"
-msgstr "Secure Payment"
+msgstr "安全支付"
 
 #. module: website_sale
 #: selection:product.attribute,type:0
@@ -780,14 +780,14 @@ msgstr "序列"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship To:"
-msgstr "Ship To:"
+msgstr "发货到："
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship to the same address"
-msgstr "Ship to the same address"
+msgstr "发货到相同地址"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -800,12 +800,12 @@ msgstr "发货"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Shipping & Billing"
-msgstr "Shipping & Billing"
+msgstr "发货&账单"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Shipping Information"
-msgstr "Shipping Information"
+msgstr "发货信息"
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -1009,7 +1009,7 @@ msgstr "VAT Number"
 #. module: website_sale
 #: view:website:website_sale.payment
 msgid "Validate Order"
-msgstr "Validate Order"
+msgstr "确认订单"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_website
@@ -1158,7 +1158,7 @@ msgstr "pull-right"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "select..."
-msgstr "select..."
+msgstr "选择..."
 
 #. module: website_sale
 #: view:website:website_sale.products

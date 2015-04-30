@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:48+0000\n"
-"PO-Revision-Date: 2015-04-23 12:48+0000\n"
+"POT-Creation-Date: 2015-04-29 21:37+0000\n"
+"PO-Revision-Date: 2015-04-29 21:37+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -328,13 +328,13 @@ msgstr " 邮件发出"
 #: code:addons/account_followup/wizard/account_followup_print.py:176
 #, python-format
 msgid " email(s) should have been sent, but "
-msgstr " email(s) should have been sent, but "
+msgstr "邮件将被发送，但是"
 
 #. module: account_followup
 #: code:addons/account_followup/wizard/account_followup_print.py:176
 #, python-format
 msgid " had unknown email address(es)"
-msgstr " had unknown email address(es)"
+msgstr " 有未知邮件地址"
 
 #. module: account_followup
 #: code:addons/account_followup/wizard/account_followup_print.py:177
@@ -691,17 +691,17 @@ msgstr "跟进"
 #. module: account_followup
 #: field:account_followup.print,followup_id:0
 msgid "Follow-Up"
-msgstr "跟进"
+msgstr "催款"
 
 #. module: account_followup
 #: field:account_followup.followup.line,name:0
 msgid "Follow-Up Action"
-msgstr "Follow-Up Action"
+msgstr "催款动作"
 
 #. module: account_followup
 #: model:ir.ui.menu,name:account_followup.menu_action_followup_stat_follow
 msgid "Follow-Ups Analysis"
-msgstr "Follow-Ups Analysis"
+msgstr "催款分析"
 
 #. module: account_followup
 #: view:account_followup.followup:account_followup.view_account_followup_followup_form
@@ -710,7 +710,7 @@ msgstr "Follow-Ups Analysis"
 #: model:ir.ui.menu,name:account_followup.account_followup_main_menu
 #: view:res.partner:account_followup.customer_followup_search_view
 msgid "Follow-up"
-msgstr "跟进"
+msgstr "催款"
 
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_followup_line
@@ -731,7 +731,7 @@ msgstr "催款等级"
 #. module: account_followup
 #: model:ir.ui.menu,name:account_followup.account_followup_menu
 msgid "Follow-up Levels"
-msgstr "Follow-up Levels"
+msgstr "催款等级"
 
 #. module: account_followup
 #: model:ir.actions.report.xml,name:account_followup.action_report_followup
@@ -742,7 +742,7 @@ msgstr "催款报告"
 #: view:res.partner:account_followup.customer_followup_search_view
 #: field:res.partner,payment_responsible_id:0
 msgid "Follow-up Responsible"
-msgstr "Follow-up Responsible"
+msgstr "催款负责人"
 
 #. module: account_followup
 #: field:account_followup.print,date:0
@@ -769,7 +769,7 @@ msgstr "催款步骤"
 #: code:addons/account_followup/wizard/account_followup_print.py:171
 #, python-format
 msgid "Follow-up letter of "
-msgstr "Follow-up letter of "
+msgstr "的催款信件"
 
 #. module: account_followup
 #: view:account_followup.stat:account_followup.view_account_followup_stat_graph
@@ -785,7 +785,7 @@ msgstr "已发送催款"
 #. module: account_followup
 #: view:res.partner:account_followup.customer_followup_search_view
 msgid "Follow-ups To Do"
-msgstr "Follow-ups To Do"
+msgstr "催款待办"
 
 #. module: account_followup
 #: view:res.partner:account_followup.customer_followup_search_view
@@ -1112,7 +1112,7 @@ msgstr "搜索业务伙伴"
 #. module: account_followup
 #: field:account_followup.print,email_conf:0
 msgid "Send Email Confirmation"
-msgstr "发送邮件确认"
+msgstr "发送电子邮件确认"
 
 #. module: account_followup
 #: field:account_followup.print,partner_lang:0
@@ -1138,7 +1138,7 @@ msgstr "Send Letters and Emails: Actions Summary"
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Send Overdue Email"
-msgstr "发送过期邮件"
+msgstr "发送超期邮件"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -1150,7 +1150,7 @@ msgstr "Send a Letter"
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 #: field:account_followup.followup.line,send_email:0
 msgid "Send an Email"
-msgstr "Send an Email"
+msgstr "发送一封电子邮件"
 
 #. module: account_followup
 #: view:account_followup.print:account_followup.view_account_followup_print

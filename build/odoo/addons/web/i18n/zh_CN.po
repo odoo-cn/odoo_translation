@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:30+0000\n"
-"PO-Revision-Date: 2015-04-23 13:30+0000\n"
+"POT-Creation-Date: 2015-04-29 22:22+0000\n"
+"PO-Revision-Date: 2015-04-29 22:22+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -17,15 +17,15 @@ msgstr ""
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2138
-#: code:addons/web/static/src/js/search.js:2305
+#: code:addons/web/static/src/js/search.js:2147
+#: code:addons/web/static/src/js/search.js:2314
 #, python-format
 msgid "%(field)s %(operator)s"
 msgstr "%(field)s %(operator)s"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2139
+#: code:addons/web/static/src/js/search.js:2148
 #, python-format
 msgid "%(field)s %(operator)s \"%(value)s\""
 msgstr "%(field)s %(operator)s \"%(value)s\""
@@ -245,7 +245,7 @@ msgstr "<![endif]-->"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2656
+#: code:addons/web/static/src/js/view_form.js:2660
 #, python-format
 msgid "<Prev"
 msgstr "<前一个"
@@ -273,7 +273,7 @@ msgstr "Access Denied"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:4508
+#: code:addons/web/static/src/js/view_form.js:4512
 #, python-format
 msgid "Action Button"
 msgstr "动作按钮"
@@ -294,7 +294,7 @@ msgstr "激活开发者模式"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5043
+#: code:addons/web/static/src/js/view_form.js:5047
 #: code:addons/web/static/src/xml/base.xml:1548
 #: code:addons/web/static/src/xml/base.xml:1847
 #, python-format
@@ -317,7 +317,7 @@ msgstr "添加条件"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3963
+#: code:addons/web/static/src/js/view_form.js:3967
 #, python-format
 msgid "Add an item"
 msgstr "添加一个项目"
@@ -331,15 +331,15 @@ msgstr "添加附件..."
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:4936
-#: code:addons/web/static/src/js/view_form.js:5085
+#: code:addons/web/static/src/js/view_form.js:4940
+#: code:addons/web/static/src/js/view_form.js:5089
 #, python-format
 msgid "Add: "
 msgstr "添加： "
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2019
+#: code:addons/web/static/src/js/search.js:2028
 #, python-format
 msgid "Advanced"
 msgstr "高级"
@@ -428,7 +428,7 @@ msgstr "备份还原"
 #: code:addons/web/static/src/xml/base.xml:229
 #, python-format
 msgid "Backup format:"
-msgstr "Backup format:"
+msgstr "备份格式："
 
 #. module: web
 #. openerp-web
@@ -557,7 +557,7 @@ msgstr "选中此项以试用 Odoo"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2678
+#: code:addons/web/static/src/js/view_form.js:2682
 #, python-format
 msgid "Choose Time"
 msgstr "选择时间"
@@ -571,7 +571,7 @@ msgstr "选择一个密码："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2652
+#: code:addons/web/static/src/js/view_form.js:2656
 #: code:addons/web/static/src/xml/base.xml:1310
 #: code:addons/web/static/src/xml/base.xml:1364
 #: code:addons/web/static/src/xml/base.xml:1366
@@ -605,7 +605,7 @@ msgstr "关闭"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2655
+#: code:addons/web/static/src/js/view_form.js:2659
 #, python-format
 msgid "Close without change"
 msgstr "不作修改并关闭"
@@ -668,7 +668,7 @@ msgstr "版权所有 © 2004-TODAY OpenERP SA。保留所有权利。"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5776
+#: code:addons/web/static/src/js/view_form.js:5780
 #, python-format
 msgid "Could not display the selected image."
 msgstr "无法显示选择的图片。"
@@ -714,7 +714,7 @@ msgstr "新建"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3389
+#: code:addons/web/static/src/js/view_form.js:3393
 #, python-format
 msgid "Create \"<strong>%s</strong>\""
 msgstr "创建  \"<strong>%s</strong>\""
@@ -728,7 +728,7 @@ msgstr "创建数据库"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3477
+#: code:addons/web/static/src/js/view_form.js:3481
 #, python-format
 msgid "Create a %s"
 msgstr "创建 %s"
@@ -742,7 +742,7 @@ msgstr "创建新数据库"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3400
+#: code:addons/web/static/src/js/view_form.js:3404
 #, python-format
 msgid "Create and Edit..."
 msgstr "创建并编辑"
@@ -756,8 +756,8 @@ msgstr "创建并编辑"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3444
-#: code:addons/web/static/src/js/view_form.js:4461
+#: code:addons/web/static/src/js/view_form.js:3448
+#: code:addons/web/static/src/js/view_form.js:4465
 #, python-format
 msgid "Create: "
 msgstr "创建： "
@@ -785,7 +785,7 @@ msgstr "创建用户："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:1778
+#: code:addons/web/static/src/js/search.js:1787
 #, python-format
 msgid "Custom Filter"
 msgstr "自定义筛选"
@@ -942,15 +942,15 @@ msgstr "请不要离开，<br />系统仍然在加载中..."
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2654
-#: code:addons/web/static/src/js/view_form.js:2684
+#: code:addons/web/static/src/js/view_form.js:2658
+#: code:addons/web/static/src/js/view_form.js:2688
 #, python-format
 msgid "Done"
 msgstr "完成"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5715
+#: code:addons/web/static/src/js/view_form.js:5719
 #: code:addons/web/static/src/js/view_list.js:2308
 #, python-format
 msgid "Download"
@@ -1072,14 +1072,14 @@ msgstr "结束引导"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2653
+#: code:addons/web/static/src/js/view_form.js:2657
 #, python-format
 msgid "Erase the current date"
 msgstr "删除当前日期"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:1886
+#: code:addons/web/static/src/js/search.js:1895
 #, python-format
 msgid "Error"
 msgstr "Error"
@@ -1186,14 +1186,14 @@ msgstr "要导出的字段"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5630
+#: code:addons/web/static/src/js/view_form.js:5634
 #, python-format
 msgid "File Upload"
 msgstr "文件上传"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5610
+#: code:addons/web/static/src/js/view_form.js:5614
 #, python-format
 msgid "File upload"
 msgstr "文件上传"
@@ -1239,10 +1239,10 @@ msgstr "筛选规则名称"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:1886
+#: code:addons/web/static/src/js/search.js:1895
 #, python-format
 msgid "Filter name is required."
-msgstr "字段名不能为空"
+msgstr "筛选器名称是必须得。"
 
 #. module: web
 #. openerp-web
@@ -1332,7 +1332,7 @@ msgstr "这是文件中无法导入部分的预览："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2680
+#: code:addons/web/static/src/js/view_form.js:2684
 #, python-format
 msgid "Hour"
 msgstr "Hour"
@@ -1346,7 +1346,7 @@ msgstr "ID："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5776
+#: code:addons/web/static/src/js/view_form.js:5780
 #, python-format
 msgid "Image"
 msgstr "图像"
@@ -1513,7 +1513,7 @@ msgstr "注销"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:1672
+#: code:addons/web/static/src/js/search.js:1680
 #, python-format
 msgid "M2O search fields do not currently handle multiple default values"
 msgstr "多对一搜索字段目前不支持多个默认值"
@@ -1579,7 +1579,7 @@ msgstr "方法："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2681
+#: code:addons/web/static/src/js/view_form.js:2685
 #, python-format
 msgid "Minute"
 msgstr "分钟"
@@ -1673,7 +1673,7 @@ msgstr "新的主控密码："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2658
+#: code:addons/web/static/src/js/view_form.js:2662
 #, python-format
 msgid "Next>"
 msgstr "下一个>"
@@ -1707,14 +1707,14 @@ msgstr "没有数据被提供"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3409
+#: code:addons/web/static/src/js/view_form.js:3413
 #, python-format
 msgid "No results to show..."
 msgstr "无结果可供显示"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3785
+#: code:addons/web/static/src/js/view_form.js:3789
 #, python-format
 msgid "No value found for the field  for value "
 msgstr "找不到该字段的值 "
@@ -1728,7 +1728,7 @@ msgstr "节点 [%s] 不是JSON化的XML节点"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2683
+#: code:addons/web/static/src/js/view_form.js:2687
 #, python-format
 msgid "Now"
 msgstr "现在"
@@ -1810,11 +1810,11 @@ msgstr "仅用于你个人"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3605
-#: code:addons/web/static/src/js/view_form.js:4362
-#: code:addons/web/static/src/js/view_form.js:4489
-#: code:addons/web/static/src/js/view_form.js:4961
-#: code:addons/web/static/src/js/view_form.js:5103
+#: code:addons/web/static/src/js/view_form.js:3609
+#: code:addons/web/static/src/js/view_form.js:4366
+#: code:addons/web/static/src/js/view_form.js:4493
+#: code:addons/web/static/src/js/view_form.js:4965
+#: code:addons/web/static/src/js/view_form.js:5107
 #, python-format
 msgid "Open: "
 msgstr "打开： "
@@ -1975,7 +1975,7 @@ msgstr "全部移除"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3785
+#: code:addons/web/static/src/js/view_form.js:3789
 #, python-format
 msgid "Render"
 msgstr "渲染"
@@ -2044,7 +2044,7 @@ msgstr "另存为"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5645
+#: code:addons/web/static/src/js/view_form.js:5649
 #, python-format
 msgid "Save As..."
 msgstr "另存为..."
@@ -2123,21 +2123,21 @@ msgstr "重新搜索"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3375
+#: code:addons/web/static/src/js/view_form.js:3379
 #, python-format
 msgid "Search More..."
 msgstr "搜索更多..."
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3444
+#: code:addons/web/static/src/js/view_form.js:3448
 #, python-format
 msgid "Search: "
 msgstr "搜索： "
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2682
+#: code:addons/web/static/src/js/view_form.js:2686
 #, python-format
 msgid "Second"
 msgstr "第二"
@@ -2152,7 +2152,7 @@ msgstr "选择"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2672
+#: code:addons/web/static/src/js/view_form.js:2676
 #, python-format
 msgid "Select D, M d"
 msgstr "选择 D, M d"
@@ -2175,7 +2175,7 @@ msgstr "选择数据库名称："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2674
+#: code:addons/web/static/src/js/view_form.js:2678
 #, python-format
 msgid "Select a date"
 msgstr "选择日期"
@@ -2203,7 +2203,7 @@ msgstr "Separator:"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2671
+#: code:addons/web/static/src/js/view_form.js:2675
 #, python-format
 msgid "Set DD as first week day"
 msgstr "设置DD 作为第一个工作日"
@@ -2238,35 +2238,35 @@ msgstr "与所有用户共享"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2664
+#: code:addons/web/static/src/js/view_form.js:2668
 #, python-format
 msgid "Show a different month"
 msgstr "显示不同月份"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2665
+#: code:addons/web/static/src/js/view_form.js:2669
 #, python-format
 msgid "Show a different year"
 msgstr "显示不同年份"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2661
+#: code:addons/web/static/src/js/view_form.js:2665
 #, python-format
 msgid "Show the current month"
 msgstr "显示当前月"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2659
+#: code:addons/web/static/src/js/view_form.js:2663
 #, python-format
 msgid "Show the next month"
 msgstr "显示下个月"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2657
+#: code:addons/web/static/src/js/view_form.js:2661
 #, python-format
 msgid "Show the previous month"
 msgstr "显示上个月"
@@ -2276,7 +2276,7 @@ msgstr "显示上个月"
 #: code:addons/web/static/src/xml/base.xml:982
 #, python-format
 msgid "Size:"
-msgstr "大小："
+msgstr "尺寸："
 
 #. module: web
 #. openerp-web
@@ -2344,7 +2344,7 @@ msgstr "数据库已经被复制"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5645
+#: code:addons/web/static/src/js/view_form.js:5649
 #, python-format
 msgid "The field is empty, there's nothing to save !"
 msgstr "字段为空，没有需要保存的值！"
@@ -2378,7 +2378,7 @@ msgstr "新密码与再次输入的密码必须相同。"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:4509
+#: code:addons/web/static/src/js/view_form.js:4513
 #, python-format
 msgid "The o2m record must be saved before an action can be used"
 msgstr "o2m记录必须先保存才能被一个动作使用"
@@ -2398,28 +2398,28 @@ msgstr "无法在数据库中找到此字段"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5609
+#: code:addons/web/static/src/js/view_form.js:5613
 #, python-format
 msgid "The selected file exceed the maximum file size of %s."
 msgstr "所选文件超出了文件的最大值设定：%s"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5819
+#: code:addons/web/static/src/js/view_form.js:5823
 #, python-format
 msgid "The type of the field '%s' must be a many2many field with a relation to 'ir.attachment' model."
 msgstr "字段类型  '%s' 必须是一个关联到 'ir.attachment'模型的 many2many字段"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5630
+#: code:addons/web/static/src/js/view_form.js:5634
 #, python-format
 msgid "There was a problem while uploading your file"
 msgstr "上传文件时发生了问题"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:1796
+#: code:addons/web/static/src/js/search.js:1805
 #, python-format
 msgid "This filter is global and will be removed for everybody if you continue."
 msgstr "这是一个所有人都可以使用的全局筛选器，如果继续，将会被移除。"
@@ -2442,7 +2442,7 @@ msgstr "此向导将导出所有符合当前搜索条件的数据到 CSV 文件�
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2679
+#: code:addons/web/static/src/js/view_form.js:2683
 #, python-format
 msgid "Time"
 msgstr "时间"
@@ -2463,7 +2463,7 @@ msgstr "时区不一致"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2660
+#: code:addons/web/static/src/js/view_form.js:2664
 #, python-format
 msgid "Today"
 msgstr "今天"
@@ -2521,10 +2521,10 @@ msgstr "未处理的窗口部件"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3185
+#: code:addons/web/static/src/js/view_form.js:3189
 #, python-format
 msgid "Unknown"
-msgstr "未知"
+msgstr "未知的"
 
 #. module: web
 #. openerp-web
@@ -2578,7 +2578,7 @@ msgstr "正在上传..."
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:5934
+#: code:addons/web/static/src/js/view_form.js:5938
 #: code:addons/web/static/src/js/views.js:1316
 #, python-format
 msgid "Uploading Error"
@@ -2636,7 +2636,7 @@ msgstr "查看元数据"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:4092
+#: code:addons/web/static/src/js/view_form.js:4096
 #, python-format
 msgid "View type '%s' is not supported in One2Many."
 msgstr "视图类型 '%s' 在 One2Many 中不支持。"
@@ -2662,7 +2662,7 @@ msgstr "警告，该记录已被修改，将会放弃所有修改。\n"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2667
+#: code:addons/web/static/src/js/view_form.js:2671
 #, python-format
 msgid "Week of the year"
 msgstr "年内周数"
@@ -2683,7 +2683,7 @@ msgstr "窗口部件："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:2666
+#: code:addons/web/static/src/js/view_form.js:2670
 #, python-format
 msgid "Wk"
 msgstr "周"
@@ -2705,7 +2705,7 @@ msgstr "是"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/view_form.js:3483
+#: code:addons/web/static/src/js/view_form.js:3487
 #, python-format
 msgid "You are creating a new %s, are you sure it does not exist yet?"
 msgstr "正要创建新的 %s，确认它真的不存在吗？"
@@ -2788,14 +2788,14 @@ msgstr "大约一小时前"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2182
+#: code:addons/web/static/src/js/search.js:2191
 #, python-format
 msgid "contains"
 msgstr "包含"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2183
+#: code:addons/web/static/src/js/search.js:2192
 #, python-format
 msgid "doesn't contain"
 msgstr "不包含"
@@ -2809,107 +2809,107 @@ msgstr "例如: mycompany(必须是字母开头，后面可以跟数字和下划
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2200
-#: code:addons/web/static/src/js/search.js:2236
-#: code:addons/web/static/src/js/search.js:2263
+#: code:addons/web/static/src/js/search.js:2209
+#: code:addons/web/static/src/js/search.js:2245
+#: code:addons/web/static/src/js/search.js:2272
 #, python-format
 msgid "greater or equal than"
-msgstr "大于等于"
+msgstr "大于或等于"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2198
-#: code:addons/web/static/src/js/search.js:2234
-#: code:addons/web/static/src/js/search.js:2261
+#: code:addons/web/static/src/js/search.js:2207
+#: code:addons/web/static/src/js/search.js:2243
+#: code:addons/web/static/src/js/search.js:2270
 #, python-format
 msgid "greater than"
 msgstr "大于"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2254
-#: code:addons/web/static/src/js/search.js:2283
+#: code:addons/web/static/src/js/search.js:2263
+#: code:addons/web/static/src/js/search.js:2292
 #, python-format
 msgid "is"
 msgstr "是"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2184
-#: code:addons/web/static/src/js/search.js:2196
-#: code:addons/web/static/src/js/search.js:2232
-#: code:addons/web/static/src/js/search.js:2259
+#: code:addons/web/static/src/js/search.js:2193
+#: code:addons/web/static/src/js/search.js:2205
+#: code:addons/web/static/src/js/search.js:2241
+#: code:addons/web/static/src/js/search.js:2268
 #, python-format
 msgid "is equal to"
 msgstr "等于"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2301
+#: code:addons/web/static/src/js/search.js:2310
 #, python-format
 msgid "is false"
 msgstr "为假"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2284
+#: code:addons/web/static/src/js/search.js:2293
 #, python-format
 msgid "is not"
 msgstr "不是"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2185
-#: code:addons/web/static/src/js/search.js:2197
-#: code:addons/web/static/src/js/search.js:2233
-#: code:addons/web/static/src/js/search.js:2260
+#: code:addons/web/static/src/js/search.js:2194
+#: code:addons/web/static/src/js/search.js:2206
+#: code:addons/web/static/src/js/search.js:2242
+#: code:addons/web/static/src/js/search.js:2269
 #, python-format
 msgid "is not equal to"
 msgstr "不等于"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2187
-#: code:addons/web/static/src/js/search.js:2203
-#: code:addons/web/static/src/js/search.js:2239
-#: code:addons/web/static/src/js/search.js:2266
-#: code:addons/web/static/src/js/search.js:2286
+#: code:addons/web/static/src/js/search.js:2196
+#: code:addons/web/static/src/js/search.js:2212
+#: code:addons/web/static/src/js/search.js:2248
+#: code:addons/web/static/src/js/search.js:2275
+#: code:addons/web/static/src/js/search.js:2295
 #, python-format
 msgid "is not set"
 msgstr "未设置"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2186
-#: code:addons/web/static/src/js/search.js:2202
-#: code:addons/web/static/src/js/search.js:2238
-#: code:addons/web/static/src/js/search.js:2265
-#: code:addons/web/static/src/js/search.js:2285
+#: code:addons/web/static/src/js/search.js:2195
+#: code:addons/web/static/src/js/search.js:2211
+#: code:addons/web/static/src/js/search.js:2247
+#: code:addons/web/static/src/js/search.js:2274
+#: code:addons/web/static/src/js/search.js:2294
 #, python-format
 msgid "is set"
 msgstr "已设置"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2300
+#: code:addons/web/static/src/js/search.js:2309
 #, python-format
 msgid "is true"
 msgstr "为真"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2201
-#: code:addons/web/static/src/js/search.js:2237
-#: code:addons/web/static/src/js/search.js:2264
+#: code:addons/web/static/src/js/search.js:2210
+#: code:addons/web/static/src/js/search.js:2246
+#: code:addons/web/static/src/js/search.js:2273
 #, python-format
 msgid "less or equal than"
-msgstr "小于等于"
+msgstr "小于或等于"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2199
-#: code:addons/web/static/src/js/search.js:2235
-#: code:addons/web/static/src/js/search.js:2262
+#: code:addons/web/static/src/js/search.js:2208
+#: code:addons/web/static/src/js/search.js:2244
+#: code:addons/web/static/src/js/search.js:2271
 #, python-format
 msgid "less than"
 msgstr "小于"

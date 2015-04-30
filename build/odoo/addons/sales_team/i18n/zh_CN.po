@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:26+0000\n"
-"PO-Revision-Date: 2015-04-23 13:26+0000\n"
+"POT-Creation-Date: 2015-04-29 22:16+0000\n"
+"PO-Revision-Date: 2015-04-29 22:16+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -158,7 +158,7 @@ msgstr "最后更新"
 #. module: sales_team
 #: view:sale.config.settings:sales_team.view_sale_config_settings
 msgid "Manage Sales Teams"
-msgstr "Manage Sales Teams"
+msgstr "管理销售团队"
 
 #. module: sales_team
 #: field:crm.case.section,message_ids:0
@@ -256,13 +256,13 @@ msgstr "摘要"
 #: view:crm.case.section:sales_team.crm_case_section_salesteams_search
 #: field:crm.case.section,user_id:0
 msgid "Team Leader"
-msgstr "Team Leader"
+msgstr "团队领导"
 
 #. module: sales_team
 #: view:crm.case.section:sales_team.crm_case_section_view_form
 #: field:crm.case.section,member_ids:0
 msgid "Team Members"
-msgstr "Team Members"
+msgstr "团队成员"
 
 #. module: sales_team
 #: sql_constraint:crm.case.section:0
@@ -282,7 +282,7 @@ msgstr "未读消息"
 #. module: sales_team
 #: model:ir.model,name:sales_team.model_res_users
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: sales_team
 #: help:crm.case.section,change_responsible:0

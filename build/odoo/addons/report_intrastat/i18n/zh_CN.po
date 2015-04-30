@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:21+0000\n"
-"PO-Revision-Date: 2015-04-23 13:21+0000\n"
+"POT-Creation-Date: 2015-04-29 22:11+0000\n"
+"PO-Revision-Date: 2015-04-29 22:11+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -98,7 +98,7 @@ msgstr "2月"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Fiscal Position:"
-msgstr "Fiscal Position:"
+msgstr "财政位置："
 
 #. module: report_intrastat
 #: field:report.intrastat,id:0
@@ -115,20 +115,20 @@ msgstr "导入"
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_all
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Intrastat"
-msgstr "内部统计"
+msgstr "Intrastat"
 
 #. module: report_intrastat
 #: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_code_tree
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_code
 #: view:report.intrastat.code:report_intrastat.view_report_intrastat_code_form
 msgid "Intrastat Code"
-msgstr "欧盟内部代码"
+msgstr "Intrastat Code"
 
 #. module: report_intrastat
 #: view:report.intrastat:report_intrastat.view_report_intrastat_search
 #: view:report.intrastat:report_intrastat.view_report_intrastat_tree
 msgid "Intrastat Data"
-msgstr "欧盟内部数据"
+msgstr "Intrastat Data"
 
 #. module: report_intrastat
 #: model:ir.actions.report.xml,name:report_intrastat.account_intrastatinvoices
@@ -141,17 +141,17 @@ msgstr "Intrastat Invoices"
 #: field:report.intrastat,intrastat_id:0
 #: view:report.intrastat.code:report_intrastat.view_report_intrastat_code_tree
 msgid "Intrastat code"
-msgstr "欧盟内部代码"
+msgstr "Intrastat code"
 
 #. module: report_intrastat
 #: field:res.country,intrastat:0
 msgid "Intrastat member"
-msgstr "欧盟内部成员"
+msgstr "Intrastat member"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat
 msgid "Intrastat report"
-msgstr "内部统计报告"
+msgstr "Intrastat report"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -186,7 +186,7 @@ msgstr "3月"
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "May"
-msgstr "5"
+msgstr "5月"
 
 #. module: report_intrastat
 #: field:report.intrastat,month:0

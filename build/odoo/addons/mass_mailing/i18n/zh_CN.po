@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:10+0000\n"
-"PO-Revision-Date: 2015-04-23 13:10+0000\n"
+"POT-Creation-Date: 2015-04-29 21:56+0000\n"
+"PO-Revision-Date: 2015-04-29 21:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,7 @@ msgstr "关注者"
 #: field:mail.mass_mailing,email_from:0
 #: field:mail.statistics.report,email_from:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
@@ -467,7 +467,7 @@ msgstr "最后更新"
 #. module: mass_mailing
 #: field:mail.mail.statistics,mail_mail_id:0
 msgid "Mail"
-msgstr "Mail"
+msgstr "邮件"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form

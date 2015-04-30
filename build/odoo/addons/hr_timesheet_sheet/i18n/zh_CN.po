@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:05+0000\n"
-"PO-Revision-Date: 2015-04-23 13:05+0000\n"
+"POT-Creation-Date: 2015-04-29 21:52+0000\n"
+"PO-Revision-Date: 2015-04-29 21:52+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -294,7 +294,7 @@ msgstr "Error!"
 #. module: hr_timesheet_sheet
 #: model:ir.filters,name:hr_timesheet_sheet.filter_hr_timesheet_report_external_timesheets
 msgid "External Timesheet"
-msgstr "External Timesheet"
+msgstr "外部计工单"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,message_follower_ids:0
@@ -363,7 +363,7 @@ msgstr "In order to create a timesheet for this employee, you must link the empl
 #. module: hr_timesheet_sheet
 #: model:ir.filters,name:hr_timesheet_sheet.filter_hr_timesheet_report_internal_timesheets
 msgid "Internal Timesheet"
-msgstr "Internal Timesheet"
+msgstr "内部计工单"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:256
@@ -690,7 +690,7 @@ msgstr "未读消息"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Unvalidated Timesheets"
-msgstr "不确认的时间表"
+msgstr "未确认的时间表"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,user_id:0
@@ -746,7 +746,7 @@ msgstr "周"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:248
 #, python-format
 msgid "Week "
-msgstr "Week "
+msgstr "周"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:499

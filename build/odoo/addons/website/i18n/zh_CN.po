@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:34+0000\n"
-"PO-Revision-Date: 2015-04-23 13:34+0000\n"
+"POT-Creation-Date: 2015-04-29 22:28+0000\n"
+"PO-Revision-Date: 2015-04-29 22:28+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -64,7 +64,7 @@ msgstr ",\n"
 #. module: website
 #: view:website:website.info
 msgid ", author:"
-msgstr ", 作者:"
+msgstr "，作者："
 
 #. module: website
 #: view:website:website.info
@@ -1046,7 +1046,7 @@ msgstr "Every page of your website can be modified through the <i>Edit</i> butto
 #. module: website
 #: view:website:website.snippets
 msgid "Expert"
-msgstr "Expert"
+msgstr "专家"
 
 #. module: website
 #: view:website:website.snippets
@@ -1121,7 +1121,7 @@ msgstr "特性"
 #. module: website
 #: view:website:website.snippets
 msgid "First Feature"
-msgstr "First Feature"
+msgstr "第一特性"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -1153,7 +1153,7 @@ msgstr "Flowers Field"
 #: code:addons/website/static/src/xml/website.ace.xml:10
 #, python-format
 msgid "Format"
-msgstr "Format"
+msgstr "格式"
 
 #. module: website
 #: view:website:website.snippets
@@ -1163,14 +1163,14 @@ msgstr "Free shipping, satisfied or reimbursed."
 #. module: website
 #: view:website:website.snippets
 msgid "From the main container, you can change the background to highlight features."
-msgstr "From the main container, you can change the background to highlight features."
+msgstr "通过主容器，你可以将背景改成高亮的特性"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:53
 #, python-format
 msgid "Get banner properties"
-msgstr "Get banner properties"
+msgstr "获取横幅属性"
 
 #. module: website
 #. openerp-web
@@ -1278,14 +1278,14 @@ msgstr "Hide link"
 #: view:website:website.layout
 #: model:website.menu,name:website.menu_homepage
 msgid "Home"
-msgstr "Home"
+msgstr "主页"
 
 #. module: website
 #: view:website:website.403
 #: view:website:website.404
 #: view:website:website.layout
 msgid "Homepage"
-msgstr "Homepage"
+msgstr "主页"
 
 #. module: website
 #. openerp-web
@@ -1406,7 +1406,7 @@ msgstr "Info"
 #. module: website
 #: view:website:website.info
 msgid "Information about the"
-msgstr "Information about the"
+msgstr "信息关于"
 
 #. module: website
 #. openerp-web
@@ -1425,27 +1425,27 @@ msgstr "Insert building blocks"
 #. module: website
 #: view:website:website.layout
 msgid "Install Apps"
-msgstr "Install Apps"
+msgstr "安装应用"
 
 #. module: website
 #: model:ir.model,name:website.model_base_language_install
 msgid "Install Language"
-msgstr "Install Language"
+msgstr "安装语言"
 
 #. module: website
 #: view:website:website.info
 msgid "Installed Applications"
-msgstr "Installed Applications"
+msgstr "已安装的应用"
 
 #. module: website
 #: view:website:website.info
 msgid "Installed Modules"
-msgstr "Installed Modules"
+msgstr "已安装的模块"
 
 #. module: website
 #: view:website:website.500
 msgid "Internal Server Error"
-msgstr "Internal Server Error"
+msgstr "服务器内部错误"
 
 #. module: website
 #. openerp-web
@@ -1521,7 +1521,7 @@ msgstr "最后更新"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Left"
-msgstr "Left"
+msgstr "左"
 
 #. module: website
 #. openerp-web
@@ -1540,7 +1540,7 @@ msgstr "Let's check how your homepage looks like on mobile devices."
 #. module: website
 #: view:website:website.snippets
 msgid "Limited support"
-msgstr "Limited support"
+msgstr "有限的支持"
 
 #. module: website
 #. openerp-web
@@ -1554,14 +1554,14 @@ msgstr "链接"
 #: code:addons/website/static/src/xml/website.editor.xml:71
 #, python-format
 msgid "Link text"
-msgstr "Link text"
+msgstr "链接文本"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:41
 #, python-format
 msgid "Link to"
-msgstr "Link to"
+msgstr "链接到"
 
 #. module: website
 #: field:website,social_linkedin:0
@@ -1582,7 +1582,7 @@ msgstr "Logout"
 #. module: website
 #: field:website,menu_id:0
 msgid "Main Menu"
-msgstr "Main Menu"
+msgstr "主菜单"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -1592,7 +1592,7 @@ msgstr "Mango"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Margin"
-msgstr "毛利"
+msgstr "利润"
 
 #. module: website
 #. openerp-web
@@ -2344,7 +2344,7 @@ msgstr "大小"
 #: code:addons/website/static/src/js/website.tour.banner.js:15
 #, python-format
 msgid "Skip It"
-msgstr "Skip It"
+msgstr "跳过它"
 
 #. module: website
 #: view:website:website.themes
@@ -2368,7 +2368,7 @@ msgstr "Small"
 #: view:website:website.view_website_form
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Social Media"
-msgstr "Social Media"
+msgstr "社交媒体"
 
 #. module: website
 #: view:website:website.themes
@@ -2456,7 +2456,7 @@ msgstr "Sweet and cheery"
 #. module: website
 #: view:website:website.info
 msgid "Technical name:"
-msgstr "Technical name:"
+msgstr "技术名称："
 
 #. module: website
 #: view:website:website.snippets
@@ -3316,7 +3316,7 @@ msgstr "using above suggested keywords"
 #. module: website
 #: field:website.config.settings,website_id:0
 msgid "website"
-msgstr "website"
+msgstr "网站"
 
 #. module: website
 #: view:website:website.500
@@ -3334,7 +3334,7 @@ msgstr "your homepage"
 #: code:addons/website/static/src/xml/website.editor.xml:378
 #, python-format
 msgid "— or —"
-msgstr "— or —"
+msgstr "— 或 —"
 
 #. module: website
 #. openerp-web

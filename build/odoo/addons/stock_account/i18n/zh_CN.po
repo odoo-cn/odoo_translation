@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:27+0000\n"
-"PO-Revision-Date: 2015-04-23 13:27+0000\n"
+"POT-Creation-Date: 2015-04-29 22:17+0000\n"
+"PO-Revision-Date: 2015-04-29 22:17+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -204,7 +204,7 @@ msgstr "Force Valuation Period"
 #. module: stock_account
 #: field:stock.config.settings,group_stock_inventory_valuation:0
 msgid "Generate accounting entries per stock movement"
-msgstr "Generate accounting entries per stock movement"
+msgstr "库存移动自动生成会计分录"
 
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_search
@@ -214,7 +214,7 @@ msgstr "分组于"
 #. module: stock_account
 #: field:stock.invoice.onshipping,group:0
 msgid "Group by partner"
-msgstr "Group by partner"
+msgstr "按合作伙伴分组"
 
 #. module: stock_account
 #: field:stock.change.standard.price,id:0
@@ -255,7 +255,7 @@ msgstr "盘点库位"
 #: view:product.template:stock_account.view_template_property_form
 #: field:product.template,valuation:0
 msgid "Inventory Valuation"
-msgstr "Inventory Valuation"
+msgstr "库存估值"
 
 #. module: stock_account
 #: field:stock.history,inventory_value:0
@@ -297,7 +297,7 @@ msgstr "开票"
 #. module: stock_account
 #: field:stock.invoice.onshipping,journal_type:0
 msgid "Journal Type"
-msgstr "Journal Type"
+msgstr "分录账类型"
 
 #. module: stock_account
 #: field:stock.change.standard.price,write_uid:0
@@ -317,7 +317,7 @@ msgstr "最后更新"
 #: view:stock.history:stock_account.view_stock_history_report_search
 #: field:stock.history,location_id:0
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: stock_account
 #: model:res.groups,name:stock_account.group_inventory_valuation
@@ -536,22 +536,22 @@ msgstr "Stock Output Account"
 #: model:ir.actions.act_window,name:stock_account.action_wizard_stock_valuation_history
 #: model:ir.ui.menu,name:stock_account.menu_action_wizard_valuation_history
 msgid "Stock Valuation"
-msgstr "Stock Valuation"
+msgstr "库存估价"
 
 #. module: stock_account
 #: field:product.category,property_stock_valuation_account_id:0
 msgid "Stock Valuation Account"
-msgstr "Stock Valuation Account"
+msgstr "库存估价科目"
 
 #. module: stock_account
 #: field:stock.location,valuation_in_account_id:0
 msgid "Stock Valuation Account (Incoming)"
-msgstr "Stock Valuation Account (Incoming)"
+msgstr "库存估价科目（进）"
 
 #. module: stock_account
 #: field:stock.location,valuation_out_account_id:0
 msgid "Stock Valuation Account (Outgoing)"
-msgstr "Stock Valuation Account (Outgoing)"
+msgstr "库存估价科目（出）"
 
 #. module: stock_account
 #: code:addons/stock_account/wizard/stock_valuation_history.py:30

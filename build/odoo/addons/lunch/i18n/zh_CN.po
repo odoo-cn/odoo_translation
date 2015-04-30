@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:08+0000\n"
-"PO-Revision-Date: 2015-04-23 13:08+0000\n"
+"POT-Creation-Date: 2015-04-29 21:55+0000\n"
+"PO-Revision-Date: 2015-04-29 21:55+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -527,12 +527,12 @@ msgstr "Lunch Alert"
 #: view:website:lunch.report_lunchorder
 #, python-format
 msgid "Lunch Order"
-msgstr "Lunch Order"
+msgstr "午餐订单"
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_report_lunch_order_line
 msgid "Lunch Orders Statistics"
-msgstr "Lunch Orders Statistics"
+msgstr "午餐订单统计"
 
 #. module: lunch
 #: model:res.groups,name:lunch.group_lunch_manager
@@ -547,7 +547,7 @@ msgstr "3月"
 #. module: lunch
 #: selection:report.lunch.order.line,month:0
 msgid "May"
-msgstr "5"
+msgstr "5月"
 
 #. module: lunch
 #: view:lunch.alert:lunch.alert_form_view
@@ -884,12 +884,12 @@ msgstr "用户"
 #: field:lunch.order,user_id:0
 #: field:report.lunch.order.line,user_id:0
 msgid "User Name"
-msgstr "User Name"
+msgstr "用户名称"
 
 #. module: lunch
 #: view:lunch.order:lunch.view_search_my_order
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: lunch
 #: field:lunch.alert,wednesday:0
@@ -973,22 +973,22 @@ msgstr "lunch employee payment"
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_order_line
 msgid "lunch order line"
-msgstr "lunch order line"
+msgstr "午餐订单行"
 
 #. module: lunch
 #: view:lunch.order:lunch.view_search_my_order
 msgid "lunch orders"
-msgstr "lunch orders"
+msgstr "午餐订单"
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_product
 msgid "lunch product"
-msgstr "lunch product"
+msgstr "午餐产品"
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_product_category
 msgid "lunch product category"
-msgstr "lunch product category"
+msgstr "午餐产品类别"
 
 #. module: lunch
 #: model:ir.model,name:lunch.model_lunch_validation
@@ -1010,5 +1010,5 @@ msgstr "未知的"
 #. module: lunch
 #: view:lunch.validation:lunch.validate_order_lines_view
 msgid "validate order lines"
-msgstr "validate order lines"
+msgstr "确认订单明细"
 

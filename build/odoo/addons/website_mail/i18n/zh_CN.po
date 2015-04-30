@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:38+0000\n"
-"PO-Revision-Date: 2015-04-23 13:38+0000\n"
+"POT-Creation-Date: 2015-04-29 22:35+0000\n"
+"PO-Revision-Date: 2015-04-29 22:35+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -187,7 +187,7 @@ msgstr "Enterprise package"
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
 msgid "Expert"
-msgstr "Expert"
+msgstr "专家"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
@@ -212,7 +212,7 @@ msgstr "Free shipping, satisfied or reimbursed."
 #. module: website_mail
 #: view:website:website_mail.email_designer
 msgid "From:"
-msgstr "来自："
+msgstr "来自于："
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
@@ -245,7 +245,7 @@ msgstr "Image-Text"
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
 msgid "Limited support"
-msgstr "Limited support"
+msgstr "有限的支持"
 
 #. module: website_mail
 #: model:ir.model,name:website_mail.model_mail_message
@@ -387,7 +387,7 @@ msgstr "退订"
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
 msgid "View Product"
-msgstr "View Product"
+msgstr "查看产品"
 
 #. module: website_mail
 #: help:mail.message,website_published:0

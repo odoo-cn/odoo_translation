@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:23+0000\n"
-"PO-Revision-Date: 2015-04-23 13:23+0000\n"
+"POT-Creation-Date: 2015-04-29 22:13+0000\n"
+"PO-Revision-Date: 2015-04-29 22:13+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -90,7 +90,7 @@ msgstr "建立报价"
 #. module: sale_crm
 #: model:ir.model,name:sale_crm.model_crm_make_sale
 msgid "Make sales"
-msgstr "生成销售订单"
+msgstr "建立销售订单"
 
 #. module: sale_crm
 #: field:crm.make.sale,close:0
@@ -104,7 +104,7 @@ msgid "No address(es) defined for this customer."
 msgstr "No address(es) defined for this customer."
 
 #. module: sale_crm
-#: code:addons/sale_crm/wizard/crm_make_sale.py:111
+#: code:addons/sale_crm/wizard/crm_make_sale.py:112
 #, python-format
 msgid "Opportunity has been <b>converted</b> to the quotation <em>%s</em>."
 msgstr "商机 <b>被转换</b> 报价单 <em>%s</em>."
@@ -116,8 +116,8 @@ msgid "Opportunity: %s"
 msgstr "商机： %s"
 
 #. module: sale_crm
-#: code:addons/sale_crm/wizard/crm_make_sale.py:125
-#: code:addons/sale_crm/wizard/crm_make_sale.py:136
+#: code:addons/sale_crm/wizard/crm_make_sale.py:126
+#: code:addons/sale_crm/wizard/crm_make_sale.py:137
 #, python-format
 msgid "Quotation"
 msgstr "报价单"

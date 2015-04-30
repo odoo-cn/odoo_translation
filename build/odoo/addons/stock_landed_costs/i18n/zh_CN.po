@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:28+0000\n"
-"PO-Revision-Date: 2015-04-23 13:28+0000\n"
+"POT-Creation-Date: 2015-04-29 22:19+0000\n"
+"PO-Revision-Date: 2015-04-29 22:19+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -178,7 +178,7 @@ msgstr "Error!"
 #. module: stock_landed_costs
 #: field:stock.valuation.adjustment.lines,final_cost:0
 msgid "Final Cost"
-msgstr "Final Cost"
+msgstr "最终成本"
 
 #. module: stock_landed_costs
 #: field:stock.landed.cost,message_follower_ids:0
@@ -188,12 +188,12 @@ msgstr "关注者"
 #. module: stock_landed_costs
 #: field:stock.valuation.adjustment.lines,former_cost:0
 msgid "Former Cost"
-msgstr "Former Cost"
+msgstr "前成本"
 
 #. module: stock_landed_costs
 #: field:stock.valuation.adjustment.lines,former_cost_per_unit:0
 msgid "Former Cost(Per Unit)"
-msgstr "Former Cost(Per Unit)"
+msgstr "前成本（每单元）"
 
 #. module: stock_landed_costs
 #: view:stock.landed.cost:stock_landed_costs.view_stock_landed_cost_search
@@ -357,7 +357,7 @@ msgstr "数量"
 #: field:product.template,split_method:0
 #: field:stock.landed.cost.lines,split_method:0
 msgid "Split Method"
-msgstr "Split Method"
+msgstr "拆分方法"
 
 #. module: stock_landed_costs
 #: field:stock.landed.cost,state:0
@@ -387,7 +387,7 @@ msgstr "库存移动"
 #. module: stock_landed_costs
 #: model:ir.model,name:stock_landed_costs.model_stock_valuation_adjustment_lines
 msgid "Stock Valuation Adjustment Lines"
-msgstr "Stock Valuation Adjustment Lines"
+msgstr "库存估价调整明细"
 
 #. module: stock_landed_costs
 #: field:stock.landed.cost,message_summary:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:15+0000\n"
-"PO-Revision-Date: 2015-04-23 13:15+0000\n"
+"POT-Creation-Date: 2015-04-29 22:00+0000\n"
+"PO-Revision-Date: 2015-04-29 22:00+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -275,7 +275,7 @@ msgstr "会计信息"
 #. module: point_of_sale
 #: help:pos.config,journal_id:0
 msgid "Accounting journal used to post sales entries."
-msgstr "Accounting journal used to post sales entries."
+msgstr "用于销售分录登账的分类帐。"
 
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_search
@@ -485,7 +485,7 @@ msgstr "现金控制"
 #. module: point_of_sale
 #: field:pos.session,cash_journal_id:0
 msgid "Cash Journal"
-msgstr "Cash Journal"
+msgstr "现金日记账"
 
 #. module: point_of_sale
 #: field:report.transaction.pos,jl_id:0
@@ -573,7 +573,7 @@ msgstr "Check this if this point of sale should open by default in a self checko
 #. module: point_of_sale
 #: help:pos.config,group_by:0
 msgid "Check this if you want to group the Journal Items by Product while closing a Session"
-msgstr "Check this if you want to group the Journal Items by Product while closing a Session"
+msgstr "请检查这里，如果你想在关闭一个会话的时候对簿记项目进行分组。"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1208,7 +1208,7 @@ msgstr "分组于"
 #. module: point_of_sale
 #: field:pos.config,group_by:0
 msgid "Group Journal Items"
-msgstr "Group Journal Items"
+msgstr "分组分类帐项目"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1220,14 +1220,14 @@ msgstr "硬件事件"
 #. module: point_of_sale
 #: view:pos.config:point_of_sale.view_pos_config_form
 msgid "Hardware Proxy"
-msgstr "Hardware Proxy"
+msgstr "硬件代理"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:856
 #, python-format
 msgid "Hardware Status"
-msgstr "Hardware Status"
+msgstr "硬件状态"
 
 #. module: point_of_sale
 #: field:pos.session,cash_control:0
@@ -1289,7 +1289,7 @@ msgstr "只有新的或被取消的销售流水可以删除"
 #: view:pos.config:point_of_sale.view_pos_config_search
 #: selection:pos.config,state:0
 msgid "Inactive"
-msgstr "不活跃的"
+msgstr "无效"
 
 #. module: point_of_sale
 #: field:pos.order,note:0
@@ -1301,7 +1301,7 @@ msgstr "内部备注"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:846
 #, python-format
 msgid "Invalid Ean"
-msgstr "无效的条码"
+msgstr "无效的EAN条码"
 
 #. module: point_of_sale
 #. openerp-web
@@ -1423,7 +1423,7 @@ msgstr "加载中"
 #: field:pos.order,location_id:0
 #: field:report.pos.order,location_id:0
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: point_of_sale
 #: field:pos.session,login_number:0
@@ -2477,7 +2477,7 @@ msgstr "查询销售订单"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:430
 #, python-format
 msgid "Select Customer"
-msgstr "Select Customer"
+msgstr "选择客户"
 
 #. module: point_of_sale
 #: view:pos.session.opening:point_of_sale.pos_session_opening_form_view
@@ -2705,7 +2705,7 @@ msgstr "状态"
 #. module: point_of_sale
 #: field:pos.config,stock_location_id:0
 msgid "Stock Location"
-msgstr "库存库位"
+msgstr "库存位置"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3143,7 +3143,7 @@ msgstr "Unable to Delete!"
 #: code:addons/point_of_sale/point_of_sale.py:844
 #, python-format
 msgid "Unable to cancel the picking."
-msgstr "无法取消发货"
+msgstr "无法取消分拣"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:401
@@ -3178,14 +3178,14 @@ msgstr "Unknown Product"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:850
 #, python-format
 msgid "Unsent Orders"
-msgstr "Unsent Orders"
+msgstr "未送出的订单"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/screens.js:814
 #, python-format
 msgid "Unsupported File Format"
-msgstr "Unsupported File Format"
+msgstr "不支持的文件格式"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_search
@@ -3201,7 +3201,7 @@ msgstr "用户"
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.report_user_label
 msgid "User Labels"
-msgstr "User Labels"
+msgstr "用户标签"
 
 #. module: point_of_sale
 #: model:ir.actions.report.xml,name:point_of_sale.action_report_pos_users_product
@@ -3221,7 +3221,7 @@ msgstr "用户:"
 #: model:ir.model,name:point_of_sale.model_res_users
 #: view:website:point_of_sale.report_detailsofsales
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: point_of_sale
 #. openerp-web
@@ -3240,7 +3240,7 @@ msgstr "确认"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Validate & Open Session"
-msgstr "验证并打开销售会话"
+msgstr "确认并打开销售会话"
 
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
@@ -3250,7 +3250,7 @@ msgstr "Validate Closing & Post Entries"
 #. module: point_of_sale
 #: field:pos.config,iface_vkeyboard:0
 msgid "Virtual KeyBoard"
-msgstr "Virtual KeyBoard"
+msgstr "虚拟键盘"
 
 #. module: point_of_sale
 #: field:pos.config,barcode_weight:0
@@ -3513,7 +3513,7 @@ msgstr "tab of the"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_report_transaction_pos
 msgid "transaction for the pos"
-msgstr "POS交易"
+msgstr "POS的交易"
 
 #. module: point_of_sale
 #: field:account.bank.statement,pos_session_id:0

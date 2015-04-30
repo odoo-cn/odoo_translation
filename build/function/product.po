@@ -11,8 +11,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:41+0000\n"
-"PO-Revision-Date: 2015-04-23 13:41+0000\n"
+"POT-Creation-Date: 2015-04-29 22:44+0000\n"
+"PO-Revision-Date: 2015-04-29 22:44+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -293,7 +293,7 @@ msgid "Associated field in the product form."
 msgstr "产品的相关字段"
 
 #. module: product
-#: code:addons/product/pricelist.py:215
+#: code:addons/product/pricelist.py:216
 #, python-format
 msgid "At least one pricelist has no active version !\n"
 "Please create or activate one."
@@ -791,7 +791,7 @@ msgstr "预计销售 - 标准成本"
 #. module: product_margin
 #: help:product.product,sales_gap:0
 msgid "Expected Sale - Turn Over"
-msgstr "预计售价 - 订单价格"
+msgstr "预计售价 - 周转"
 
 #. module: product_margin
 #: help:product.product,expected_margin_rate:0
@@ -829,7 +829,7 @@ msgstr "For the rule to apply, bought/sold quantity must be greater than or equa
 #. module: product_margin
 #: field:product.margin,from_date:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: product_margin
 #: view:product.margin:product_margin.product_margin_form_view
@@ -839,7 +839,7 @@ msgstr "通用信息"
 #. module: product_extended
 #: field:wizard.price,real_time_accounting:0
 msgid "Generate accounting entries when real-time"
-msgstr "Generate accounting entries when real-time"
+msgstr "当实时生成会计分录"
 
 #. module: product
 #: help:product.template,packaging_ids:0
@@ -1170,7 +1170,7 @@ msgstr "物流单元"
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_production_lot
 msgid "Lot/Serial"
-msgstr "Lot/Serial"
+msgstr "批次/序列"
 
 #. module: product
 #: field:product.template,seller_id:0
@@ -1185,7 +1185,7 @@ msgstr "主要供应商它在供应商里面具有最高的优先级。"
 #. module: product
 #: model:res.groups,name:product.group_uom
 msgid "Manage Multiple Units of Measure"
-msgstr "管理多个计量单位"
+msgstr "管理多计量单位"
 
 #. module: product
 #: model:res.groups,name:product.group_stock_packaging
@@ -1205,27 +1205,27 @@ msgstr "管理第二个计量单位"
 #. module: product_margin
 #: field:product.product,date_from:0
 msgid "Margin Date From"
-msgstr "盈利开始日"
+msgstr "利润开始日"
 
 #. module: product_margin
 #: field:product.product,date_to:0
 msgid "Margin Date To"
-msgstr "盈利结束日"
+msgstr "利润结束日"
 
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_form
 msgid "Margins"
-msgstr "毛利"
+msgstr "利润"
 
 #. module: product
 #: view:product.pricelist.item:product.product_pricelist_item_form_view
 msgid "Max. Margin"
-msgstr "最大毛利"
+msgstr "最大利润"
 
 #. module: product
 #: field:product.pricelist.item,price_max_margin:0
 msgid "Max. Price Margin"
-msgstr "最大的价格毛利"
+msgstr "最大的价格利润"
 
 #. module: product
 #: field:product.template,mes_type:0
@@ -1352,7 +1352,7 @@ msgid "Other Info"
 msgstr "其它信息"
 
 #. module: product
-#: code:addons/product/pricelist.py:439
+#: code:addons/product/pricelist.py:444
 #: field:product.pricelist.item,base_pricelist_id:0
 #, python-format
 msgid "Other Pricelist"
@@ -2135,7 +2135,7 @@ msgid "Supplier Pricelist"
 msgstr "供应商价格表"
 
 #. module: product
-#: code:addons/product/pricelist.py:440
+#: code:addons/product/pricelist.py:445
 #, python-format
 msgid "Supplier Prices on the product form"
 msgstr "产品表单中的供应商价格"
@@ -2565,7 +2565,7 @@ msgid "Warning"
 msgstr "警告"
 
 #. module: product
-#: code:addons/product/pricelist.py:215
+#: code:addons/product/pricelist.py:216
 #: code:addons/product/product.py:215
 #, python-format
 msgid "Warning!"

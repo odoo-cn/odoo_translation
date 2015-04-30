@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:59+0000\n"
-"PO-Revision-Date: 2015-04-23 12:59+0000\n"
+"POT-Creation-Date: 2015-04-29 21:47+0000\n"
+"PO-Revision-Date: 2015-04-29 21:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -773,7 +773,7 @@ msgstr "Exhaust Manifold Replacement"
 #: model:ir.ui.menu,name:fleet.menu_fleet_reporting
 #: model:ir.ui.menu,name:fleet.menu_root
 msgid "Fleet"
-msgstr "Fleet"
+msgstr "车辆"
 
 #. module: fleet
 #: field:fleet.vehicle,message_follower_ids:0
@@ -794,17 +794,17 @@ msgstr "Frequency of the recuring cost"
 #: view:fleet.vehicle:fleet.fleet_vehicle_form
 #: selection:fleet.vehicle.cost,cost_type:0
 msgid "Fuel"
-msgstr "Fuel"
+msgstr "燃油"
 
 #. module: fleet
 #: view:fleet.vehicle.log.fuel:fleet.fleet_vehicle_log_fuel_graph
 msgid "Fuel Costs Per Month"
-msgstr "Fuel Costs Per Month"
+msgstr "每月的燃油费"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_22
 msgid "Fuel Injector Replacement"
-msgstr "Fuel Injector Replacement"
+msgstr "化油器更换"
 
 #. module: fleet
 #: field:fleet.vehicle,fuel_logs_count:0
@@ -812,27 +812,27 @@ msgstr "Fuel Injector Replacement"
 #: view:fleet.vehicle.log.fuel:fleet.fleet_vehicle_log_fuel_form
 #: view:fleet.vehicle.log.fuel:fleet.fleet_vehicle_log_fuel_tree
 msgid "Fuel Logs"
-msgstr "Fuel Logs"
+msgstr "燃油记录"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_23
 msgid "Fuel Pump Replacement"
-msgstr "Fuel Pump Replacement"
+msgstr "油泵更换"
 
 #. module: fleet
 #: field:fleet.vehicle,fuel_type:0
 msgid "Fuel Type"
-msgstr "Fuel Type"
+msgstr "燃油类型"
 
 #. module: fleet
 #: help:fleet.vehicle,fuel_type:0
 msgid "Fuel Used by the vehicle"
-msgstr "Fuel Used by the vehicle"
+msgstr "燃油使用，按车辆"
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_log_fuel
 msgid "Fuel log for vehicles"
-msgstr "Fuel log for vehicles"
+msgstr "车辆燃油记录"
 
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
@@ -847,12 +847,12 @@ msgstr "通用属性"
 #. module: fleet
 #: field:fleet.vehicle.log.contract,generated_cost_ids:0
 msgid "Generated Costs"
-msgstr "Generated Costs"
+msgstr "已生成的费用"
 
 #. module: fleet
 #: view:fleet.vehicle.log.contract:fleet.fleet_vehicle_log_contract_form
 msgid "Generated Recurring Costs"
-msgstr "Generated Recurring Costs"
+msgstr "生成的定期费用"
 
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_search
@@ -921,7 +921,7 @@ msgstr "Horsepower Taxation"
 #. module: fleet
 #: selection:fleet.vehicle,fuel_type:0
 msgid "Hybrid"
-msgstr "Hybrid"
+msgstr "混合动力"
 
 #. module: fleet
 #: field:fleet.contract.state,id:0
@@ -959,7 +959,7 @@ msgstr "进行中"
 #: view:fleet.vehicle.log.contract:fleet.fleet_vehicle_log_contract_form
 #: view:fleet.vehicle.log.services:fleet.fleet_vehicle_log_services_form
 msgid "Included Services"
-msgstr "Included Services"
+msgstr "包括服务"
 
 #. module: fleet
 #: view:fleet.vehicle.log.contract:fleet.fleet_vehicle_log_contract_form
@@ -1065,7 +1065,7 @@ msgstr "最后更新"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_contract_leasing
 msgid "Leasing"
-msgstr "Leasing"
+msgstr "租赁"
 
 #. module: fleet
 #: field:fleet.vehicle,license_plate:0
@@ -1091,7 +1091,7 @@ msgstr "Liter"
 #. module: fleet
 #: field:fleet.vehicle,location:0
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: fleet
 #: help:fleet.vehicle,location:0
@@ -1120,7 +1120,7 @@ msgstr "Logo (small)"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_11
 msgid "Management Fee"
-msgstr "Management Fee"
+msgstr "管理费"
 
 #. module: fleet
 #: model:res.groups,name:fleet.group_fleet_manager
@@ -1180,7 +1180,7 @@ msgstr "Model brand of Vehicle"
 #. module: fleet
 #: field:fleet.vehicle.model,modelname:0
 msgid "Model name"
-msgstr "Model name"
+msgstr "模型名称"
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_vehicle_model
@@ -1501,7 +1501,7 @@ msgstr "Rotor Replacement"
 #. module: fleet
 #: field:fleet.vehicle,seats:0
 msgid "Seats Number"
-msgstr "Seats Number"
+msgstr "座位数"
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_sedan
@@ -1894,12 +1894,12 @@ msgstr "Vehicles odometers"
 #: view:fleet.vehicle.model:fleet.fleet_vehicle_model_form
 #: field:fleet.vehicle.model,vendors:0
 msgid "Vendors"
-msgstr "Vendors"
+msgstr "厂商"
 
 #. module: fleet
 #: field:fleet.vehicle.log.contract,days_left:0
 msgid "Warning Date"
-msgstr "Warning Date"
+msgstr "警告日期"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_50

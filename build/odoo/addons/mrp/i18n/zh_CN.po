@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:10+0000\n"
-"PO-Revision-Date: 2015-04-23 13:10+0000\n"
+"POT-Creation-Date: 2015-04-29 21:57+0000\n"
+"PO-Revision-Date: 2015-04-29 21:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: mrp
-#: code:addons/mrp/stock.py:262
+#: code:addons/mrp/stock.py:251
 #, python-format
 msgid " Manufacture"
 msgstr " 制造"
@@ -33,13 +33,13 @@ msgid "# Manufacturing Orders"
 msgstr "# 制造单"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:335
+#: code:addons/mrp/mrp.py:338
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copy)"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:989
+#: code:addons/mrp/mrp.py:992
 #, python-format
 msgid "%s produced"
 msgstr "%s 已生产"
@@ -418,13 +418,13 @@ msgid "BoM"
 msgstr "BoM"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:301
+#: code:addons/mrp/mrp.py:304
 #, python-format
 msgid "BoM \"%s\" contains a BoM line with a product recursion: \"%s\"."
 msgstr "BoM \"%s\" contains a BoM line with a product recursion: \"%s\"."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:327
+#: code:addons/mrp/mrp.py:330
 #, python-format
 msgid "BoM \"%s\" contains a phantom BoM line but the product \"%s\" does not have any BoM defined."
 msgstr "BoM \"%s\" contains a phantom BoM line but the product \"%s\" does not have any BoM defined."
@@ -445,7 +445,7 @@ msgid "BoM Type"
 msgstr "物料清单类型"
 
 #. module: mrp
-#: code:addons/mrp/stock.py:259
+#: code:addons/mrp/stock.py:248
 #, python-format
 msgid "Can't find any generic Manufacture route."
 msgstr "Can't find any generic Manufacture route."
@@ -471,19 +471,19 @@ msgid "Cancelled"
 msgstr "已取消"
 
 #. module: mrp
-#: code:addons/mrp/stock.py:183
+#: code:addons/mrp/stock.py:172
 #, python-format
 msgid "Cannot consume a move with negative or zero quantity."
 msgstr "Cannot consume a move with negative or zero quantity."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:618
+#: code:addons/mrp/mrp.py:621
 #, python-format
 msgid "Cannot delete a manufacturing order in state '%s'."
 msgstr "不能删除'%s'状态的制造订单。"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:692
+#: code:addons/mrp/mrp.py:695
 #, python-format
 msgid "Cannot find a bill of material for this product."
 msgstr "找不到这个产品的BOM"
@@ -773,9 +773,9 @@ msgid "End Date"
 msgstr "结束日期"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:692
-#: code:addons/mrp/stock.py:183
-#: code:addons/mrp/stock.py:259
+#: code:addons/mrp/mrp.py:695
+#: code:addons/mrp/stock.py:172
+#: code:addons/mrp/stock.py:248
 #: code:addons/mrp/wizard/change_production_qty.py:83
 #: code:addons/mrp/wizard/change_production_qty.py:88
 #, python-format
@@ -942,7 +942,7 @@ msgstr "生产中"
 #: view:mrp.routing:mrp.mrp_routing_search_view
 #: view:mrp.workcenter:mrp.view_mrp_workcenter_search
 msgid "Inactive"
-msgstr "不活跃的"
+msgstr "无效"
 
 #. module: mrp
 #: field:mrp.bom,position:0
@@ -950,9 +950,9 @@ msgid "Internal Reference"
 msgstr "内部参考"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:301
-#: code:addons/mrp/mrp.py:327
-#: code:addons/mrp/mrp.py:618
+#: code:addons/mrp/mrp.py:304
+#: code:addons/mrp/mrp.py:330
+#: code:addons/mrp/mrp.py:621
 #, python-format
 msgid "Invalid Action!"
 msgstr "Invalid Action!"
@@ -1026,7 +1026,7 @@ msgstr "延迟"
 #. module: mrp
 #: field:stock.move.consume,location_id:0
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: mrp
 #: help:mrp.production,location_src_id:0
@@ -1053,7 +1053,7 @@ msgstr "管理工艺路线"
 #. module: mrp
 #: field:mrp.config.settings,module_mrp_repair:0
 msgid "Manage repairs of products "
-msgstr "关联产品的修理 "
+msgstr "管理产品的修理 "
 
 #. module: mrp
 #: field:mrp.config.settings,group_mrp_routings:0
@@ -1067,20 +1067,20 @@ msgstr "经理"
 
 #. module: mrp
 #: code:addons/mrp/procurement.py:33
-#: code:addons/mrp/stock.py:256
+#: code:addons/mrp/stock.py:245
 #, python-format
 msgid "Manufacture"
-msgstr "Manufacture"
+msgstr "制造"
 
 #. module: mrp
 #: field:stock.warehouse,manufacture_pull_id:0
 msgid "Manufacture Rule"
-msgstr "Manufacture Rule"
+msgstr "制造规则"
 
 #. module: mrp
 #: field:stock.warehouse,manufacture_to_resupply:0
 msgid "Manufacture in this Warehouse"
-msgstr "Manufacture in this Warehouse"
+msgstr "在此仓库制造"
 
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_manufacturing
@@ -1167,7 +1167,7 @@ msgstr "标记为开始"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_property
 msgid "Master Bill of Materials"
-msgstr "主物料表"
+msgstr "主物料清单"
 
 #. module: mrp
 #: view:mrp.config.settings:mrp.view_mrp_config
@@ -1348,7 +1348,7 @@ msgid "Planning"
 msgstr "计划"
 
 #. module: mrp
-#: code:addons/mrp/stock.py:169
+#: code:addons/mrp/stock.py:158
 #, python-format
 msgid "Please provide proper quantity."
 msgstr "Please provide proper quantity."
@@ -1852,7 +1852,7 @@ msgstr "选择数量"
 #. module: mrp
 #: view:mrp.workcenter.load:mrp.view_mrp_workcenter_load_wizard
 msgid "Select time unit"
-msgstr "选择时间单位"
+msgstr "选择时间单元"
 
 #. module: mrp
 #: field:mrp.bom,sequence:0
@@ -1881,7 +1881,7 @@ msgstr "源单据"
 #. module: mrp
 #: view:website:mrp.report_mrporder
 msgid "Source Document:"
-msgstr "Source Document:"
+msgstr "源单据："
 
 #. module: mrp
 #: view:website:mrp.report_mrporder
@@ -1922,7 +1922,7 @@ msgstr "库存移动"
 #. module: mrp
 #: field:report.mrp.inout,value:0
 msgid "Stock value"
-msgstr "库存值"
+msgstr "库存价值"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_report_mrp_inout
@@ -1930,7 +1930,7 @@ msgstr "库存值"
 #: view:report.mrp.inout:mrp.view_report_in_out_picking_graph
 #: view:report.mrp.inout:mrp.view_report_in_out_picking_tree
 msgid "Stock value variation"
-msgstr "库存值变化"
+msgstr "库存价值变化"
 
 #. module: mrp
 #: field:mrp.bom,message_summary:0
@@ -1951,8 +1951,8 @@ msgid "Technical field used to make the traceability of produced products"
 msgstr "Technical field used to make the traceability of produced products"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:345
-#: code:addons/mrp/mrp.py:434
+#: code:addons/mrp/mrp.py:348
+#: code:addons/mrp/mrp.py:437
 #, python-format
 msgid "The Product Unit of Measure you chose has a different category than in the product form."
 msgstr "你选择的计量单位跟产品表单的计量单位在不同的类别。"
@@ -2067,7 +2067,7 @@ msgstr "总数量"
 #. module: mrp
 #: field:product.template,track_production:0
 msgid "Track Manufacturing Lots"
-msgstr "Track Manufacturing Lots"
+msgstr "跟踪制造批次"
 
 #. module: mrp
 #: field:mrp.product.produce,track_production:0
@@ -2158,7 +2158,7 @@ msgstr "Validity of this BoM. Keep empty if it's always valid."
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
 msgid "Variant"
-msgstr "Variant"
+msgstr "变体"
 
 #. module: mrp
 #: field:mrp.bom.line,attribute_value_ids:0
@@ -2176,17 +2176,17 @@ msgid "Warehouse"
 msgstr "仓库"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:345
-#: code:addons/mrp/mrp.py:434
+#: code:addons/mrp/mrp.py:348
+#: code:addons/mrp/mrp.py:437
 #, python-format
 msgid "Warning"
 msgstr "Warning"
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:351
+#: code:addons/mrp/mrp.py:354
 #: code:addons/mrp/stock.py:42
 #: code:addons/mrp/stock.py:44
-#: code:addons/mrp/stock.py:169
+#: code:addons/mrp/stock.py:158
 #, python-format
 msgid "Warning!"
 msgstr "Warning!"
@@ -2355,7 +2355,7 @@ msgstr "You can configure by-products in the bill of material.\n"
 "-This installs the module mrp_byproduct."
 
 #. module: mrp
-#: code:addons/mrp/mrp.py:351
+#: code:addons/mrp/mrp.py:354
 #, python-format
 msgid "You can not delete a Bill of Material with running manufacturing orders.\n"
 "Please close or cancel it first."

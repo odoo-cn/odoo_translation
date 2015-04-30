@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:08+0000\n"
-"PO-Revision-Date: 2015-04-23 13:08+0000\n"
+"POT-Creation-Date: 2015-04-29 21:55+0000\n"
+"PO-Revision-Date: 2015-04-29 21:55+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -776,7 +776,7 @@ msgstr "正在关注"
 #: field:mail.compose.message,email_from:0
 #: field:mail.message,email_from:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: mail
 #: code:addons/mail/res_users.py:75
@@ -826,7 +826,7 @@ msgstr "Headers"
 #. module: mail
 #: field:mail.message.subtype,hidden:0
 msgid "Hidden"
-msgstr "Hidden"
+msgstr "隐藏"
 
 #. module: mail
 #: help:mail.message.subtype,hidden:0
@@ -894,7 +894,7 @@ msgstr "If you want to work only with selected ids, please uncheck the\n"
 #: code:addons/mail/mail_alias.py:144
 #, python-format
 msgid "Inactive Alias"
-msgstr "Inactive Alias"
+msgstr "无效的别名"
 
 #. module: mail
 #: model:ir.actions.client,name:mail.action_mail_inbox_feeds
@@ -933,7 +933,7 @@ msgstr "邀请向导"
 #. module: mail
 #: field:mail.mail,notification:0
 msgid "Is Notification"
-msgstr "Is Notification"
+msgstr "是通知"
 
 #. module: mail
 #: field:mail.group,message_is_follower:0
@@ -1899,7 +1899,7 @@ msgstr "User img"
 #. module: mail
 #: model:ir.model,name:mail.model_res_users
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: mail
 #: help:mail.compose.message,vote_user_ids:0

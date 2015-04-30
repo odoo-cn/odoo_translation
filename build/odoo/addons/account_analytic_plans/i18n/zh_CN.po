@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:47+0000\n"
-"PO-Revision-Date: 2015-04-23 12:47+0000\n"
+"POT-Creation-Date: 2015-04-29 21:35+0000\n"
+"PO-Revision-Date: 2015-04-29 21:35+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -91,22 +91,22 @@ msgstr "分析账户参考"
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_default
 #, python-format
 msgid "Analytic Distribution"
-msgstr "分析分摊"
+msgstr "分析分配"
 
 #. module: account_analytic_plans
 #: view:account.analytic.plan.instance.line:account_analytic_plans.account_analytic_plan_instance_line_form
 msgid "Analytic Distribution Line"
-msgstr "分析分摊明细"
+msgstr "分析分配明细"
 
 #. module: account_analytic_plans
 #: view:account.analytic.plan.instance.line:account_analytic_plans.account_analytic_plan_instance_line_tree
 msgid "Analytic Distribution Lines"
-msgstr "分析分摊明细"
+msgstr "分析分配明细"
 
 #. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.account_analytic_plan_instance_action
 msgid "Analytic Distribution's Models"
-msgstr "分析分摊的模型"
+msgstr "分析分配的模型"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_plan_instance_line
@@ -227,7 +227,7 @@ msgstr "默认"
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,code:0
 msgid "Distribution Code"
-msgstr "分摊代码"
+msgstr "分配代码"
 
 #. module: account_analytic_plans
 #: code:addons/account_analytic_plans/wizard/analytic_plan_create_model.py:47
@@ -235,12 +235,12 @@ msgstr "分摊代码"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 #, python-format
 msgid "Distribution Model Saved"
-msgstr "分摊模型已保存"
+msgstr "分配模型已保存"
 
 #. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.account_analytic_instance_model_open
 msgid "Distribution Models"
-msgstr "分摊模型"
+msgstr "分配模型"
 
 #. module: account_analytic_plans
 #: field:account.crossovered.analytic,empty_line:0
@@ -264,7 +264,7 @@ msgstr "Error!"
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
 msgid "From Date:"
-msgstr "From Date:"
+msgstr "开始日期："
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan,id:0
@@ -330,7 +330,7 @@ msgstr "最小允许(%)"
 #. module: account_analytic_plans
 #: field:account.analytic.plan.instance,plan_id:0
 msgid "Model's Plan"
-msgstr "模型方案"
+msgstr "模型的方案"
 
 #. module: account_analytic_plans
 #: model:ir.ui.menu,name:account_analytic_plans.menu_account_analytic_multi_plan_action
@@ -408,7 +408,7 @@ msgstr "销售订单明细"
 #. module: account_analytic_plans
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 msgid "Save This Distribution as a Model"
-msgstr "保存此分摊为一个模型"
+msgstr "保存此分配为一个模型"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan.line,sequence:0
@@ -441,7 +441,7 @@ msgstr "没有辅助核算计划定义"
 #. module: account_analytic_plans
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model
 msgid "This distribution model has been saved.You will be able to reuse it later."
-msgstr "分摊模型已保存。你可以稍后使用它。"
+msgstr "分配模型已经保存，你在以后可以使用它。"
 
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans

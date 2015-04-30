@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:37+0000\n"
-"PO-Revision-Date: 2015-04-23 13:37+0000\n"
+"POT-Creation-Date: 2015-04-29 22:32+0000\n"
+"PO-Revision-Date: 2015-04-29 22:32+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -75,7 +75,7 @@ msgstr "&times;"
 #. module: website_forum
 #: view:website:website_forum.post_description_full
 msgid "(only one answer per question is allowed)"
-msgstr "(only one answer per question is allowed)"
+msgstr "（每题只允许有一个答案）"
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
@@ -723,12 +723,12 @@ msgstr "Forums"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_badge
 msgid "Gamification badge"
-msgstr "Gamification badge"
+msgstr "游戏化勋章"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_challenge
 msgid "Gamification challenge"
-msgstr "Gamification challenge"
+msgstr "游戏化挑战"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_3
@@ -1499,12 +1499,12 @@ msgstr "用户"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_res_users
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: website_forum
 #: field:forum.post,is_correct:0
 msgid "Valid Answer"
-msgstr "Valid Answer"
+msgstr "有效答案"
 
 #. module: website_forum
 #: view:website:website_forum.header
@@ -1779,7 +1779,7 @@ msgstr "stats"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "time"
-msgstr "time"
+msgstr "时间"
 
 #. module: website_forum
 #: view:website:website_forum.header
@@ -1814,7 +1814,7 @@ msgstr "user"
 #. module: website_forum
 #: view:website:website_forum.badge_user
 msgid "users"
-msgstr "users"
+msgstr "用户"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
@@ -1837,7 +1837,7 @@ msgstr "投票"
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "website"
-msgstr "website"
+msgstr "网站"
 
 #. module: website_forum
 #: view:website:website_forum.display_post

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:56+0000\n"
-"PO-Revision-Date: 2015-04-23 12:56+0000\n"
+"POT-Creation-Date: 2015-04-29 21:45+0000\n"
+"PO-Revision-Date: 2015-04-29 21:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,8 +29,8 @@ msgid "%s (%s)"
 msgstr "%s (%s)"
 
 #. module: document
-#: code:addons/document/document.py:120
-#: code:addons/document/document.py:310
+#: code:addons/document/document.py:123
+#: code:addons/document/document.py:313
 #, python-format
 msgid "%s (copy)"
 msgstr "%s (copy)"
@@ -256,14 +256,14 @@ msgid "Directory cannot be parent of itself!"
 msgstr "目录不能设为自己的父目录。"
 
 #. module: document
-#: code:addons/document/document.py:350
+#: code:addons/document/document.py:353
 #, python-format
 msgid "Directory name contains special characters!"
 msgstr "目录名中有特殊字符！"
 
 #. module: document
-#: code:addons/document/document.py:340
-#: code:addons/document/document.py:345
+#: code:addons/document/document.py:343
+#: code:addons/document/document.py:348
 #, python-format
 msgid "Directory name must be unique!"
 msgstr "目录名必须唯一！"
@@ -304,7 +304,7 @@ msgid "Each directory can either have the type Static or be linked to another re
 msgstr "每个目录都可以是静态的或者链接到其它资源。静态的目录就是操作系统上存储文件的目录。目录链接系统资源会根据父级目录的对象类型配置自动创建子目录"
 
 #. module: document
-#: code:addons/document/document.py:576
+#: code:addons/document/document.py:579
 #, python-format
 msgid "Error at doc write!"
 msgstr "写入文档时发生错误！"
@@ -395,7 +395,7 @@ msgstr "用户的文件详情"
 #. module: document
 #: view:ir.attachment:document.view_attach_filter_inherit0
 msgid "Filter on my documents"
-msgstr "用于我的文档的筛选器"
+msgstr "用于我的单据的筛选器"
 
 #. module: document
 #: field:document.directory,resource_find_all:0
@@ -415,7 +415,7 @@ msgstr "每个输入在这里的条目都会作为虚拟文件出现在目录里
 #. module: document
 #: view:document.directory:document.view_document_directory_form
 msgid "Generated Files"
-msgstr "自动生成的文件列表"
+msgstr "生成的文件"
 
 #. module: document
 #: view:document.directory:document.view_document_directory_filter
@@ -458,7 +458,7 @@ msgstr "含记录名称"
 #: view:ir.attachment:document.view_document_file_form
 #: field:ir.attachment,index_content:0
 msgid "Indexed Content"
-msgstr "内容索引"
+msgstr "索引的内容"
 
 #. module: document
 #: selection:report.document.user,month:0
@@ -511,7 +511,7 @@ msgstr "3月"
 #. module: document
 #: selection:report.document.user,month:0
 msgid "May"
-msgstr "5"
+msgstr "5月"
 
 #. module: document
 #: field:document.directory.content.type,mimetype:0
@@ -521,7 +521,7 @@ msgstr "MIME 类型"
 #. module: document
 #: field:ir.actions.report.xml,model_id:0
 msgid "Model Id"
-msgstr "模块ID"
+msgstr "模型ID"
 
 #. module: document
 #: view:ir.attachment:document.view_document_file_form
@@ -727,12 +727,12 @@ msgid "Users File"
 msgstr "用户文件"
 
 #. module: document
-#: code:addons/document/document.py:340
-#: code:addons/document/document.py:345
-#: code:addons/document/document.py:350
+#: code:addons/document/document.py:343
+#: code:addons/document/document.py:348
+#: code:addons/document/document.py:353
 #, python-format
 msgid "ValidateError"
-msgstr "验证错误"
+msgstr "确认错误"
 
 #. module: document
 #: field:document.directory,content_ids:0

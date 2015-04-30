@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:53+0000\n"
-"PO-Revision-Date: 2015-04-23 12:53+0000\n"
+"POT-Creation-Date: 2015-04-29 21:42+0000\n"
+"PO-Revision-Date: 2015-04-29 21:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -1073,17 +1073,17 @@ msgstr "Error!"
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_event
 msgid "Event"
-msgstr "事件"
+msgstr "活动"
 
 #. module: calendar
 #: field:calendar.event,display_time:0
 msgid "Event Time"
-msgstr "Event Time"
+msgstr "事件时间"
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm
 msgid "Event alarm"
-msgstr "Event alarm"
+msgstr "活动警报"
 
 #. module: calendar
 #. openerp-web
@@ -1266,7 +1266,7 @@ msgstr "让事件在该时间间隔自动重复"
 #. module: calendar
 #: field:calendar.event,location:0
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: calendar
 #: help:calendar.event,location:0
@@ -1570,7 +1570,7 @@ msgstr "选择工作日"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "Send mail"
-msgstr "Send mail"
+msgstr "发送邮件"
 
 #. module: calendar
 #: field:calendar.event,show_as:0
@@ -1819,5 +1819,5 @@ msgstr "interval cannot be negative."
 #: code:addons/calendar/calendar.py:1265
 #, python-format
 msgid "warning!"
-msgstr "warning!"
+msgstr "警告！"
 

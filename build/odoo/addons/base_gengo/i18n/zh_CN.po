@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:50+0000\n"
-"PO-Revision-Date: 2015-04-23 12:50+0000\n"
+"POT-Creation-Date: 2015-04-29 21:40+0000\n"
+"PO-Revision-Date: 2015-04-29 21:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -100,7 +100,7 @@ msgstr "Gengo Order ID"
 #. module: base_gengo
 #: view:res.company:base_gengo.view_company_inherit_base_gengo_form
 msgid "Gengo Parameters"
-msgstr "Gengo参数"
+msgstr "Gengo 参数"
 
 #. module: base_gengo
 #: field:res.company,gengo_private_key:0
@@ -110,7 +110,7 @@ msgstr "Gengo 私人密匙"
 #. module: base_gengo
 #: field:res.company,gengo_public_key:0
 msgid "Gengo Public Key"
-msgstr "Gengo公共密钥"
+msgstr "Gengo 共密钥"
 
 #. module: base_gengo
 #: view:base.gengo.translations:base_gengo.base_gengo_translation_wizard_from
@@ -252,7 +252,7 @@ msgstr "通过Gengo审核"
 #. module: base_gengo
 #: selection:ir.translation,gengo_translation:0
 msgid "Translation By Machine"
-msgstr "机器翻译"
+msgstr "由机器翻译"
 
 #. module: base_gengo
 #: view:ir.translation:base_gengo.view_translation_search

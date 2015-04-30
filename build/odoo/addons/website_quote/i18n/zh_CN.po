@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:39+0000\n"
-"PO-Revision-Date: 2015-04-23 13:39+0000\n"
+"POT-Creation-Date: 2015-04-29 22:38+0000\n"
+"PO-Revision-Date: 2015-04-29 22:38+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -244,7 +244,7 @@ msgstr "Ask Changes"
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Bill To:"
-msgstr "Bill To:"
+msgstr "账单到："
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -333,17 +333,17 @@ msgstr "Edit Template"
 #. module: website_quote
 #: field:sale.order,validity_date:0
 msgid "Expiry Date"
-msgstr "Expiry Date"
+msgstr "过期日期"
 
 #. module: website_quote
 #: view:website:sale.report_saleorder_document
 msgid "Expiry Date:"
-msgstr "Expiry Date:"
+msgstr "过期日期："
 
 #. module: website_quote
 #: view:website:website_quote.quotation_toolbar
 msgid "Feedback"
-msgstr "Feedback"
+msgstr "反馈"
 
 #. module: website_quote
 #: view:website:website_quote.so_template
@@ -411,7 +411,7 @@ msgstr "Line Description"
 #. module: website_quote
 #: view:sale.quote.template:website_quote.view_sale_quote_template_form
 msgid "Lines"
-msgstr "明细"
+msgstr "行"
 
 #. module: website_quote
 #: help:sale.quote.template,number_of_days:0
@@ -612,7 +612,7 @@ msgstr "Send us a note..."
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Ship To:"
-msgstr "Ship To:"
+msgstr "发货到："
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -726,12 +726,12 @@ msgstr "Update Quote"
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Validate Order"
-msgstr "Validate Order"
+msgstr "确认订单"
 
 #. module: website_quote
 #: view:sale.order:website_quote.sale_order_form_quote
 msgid "View Quotation"
-msgstr "View Quotation"
+msgstr "查看报价"
 
 #. module: website_quote
 #: view:sale.quote.template:website_quote.view_sale_quote_template_form

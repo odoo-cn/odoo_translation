@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:51+0000\n"
-"PO-Revision-Date: 2015-04-23 12:51+0000\n"
+"POT-Creation-Date: 2015-04-29 21:40+0000\n"
+"PO-Revision-Date: 2015-04-29 21:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "无法连接到地理信息服务器.请确保您的互联网连接及�
 #. module: base_geolocalize
 #: field:res.partner,partner_latitude:0
 msgid "Geo Latitude"
-msgstr "geolocalization纬度"
+msgstr "地理纬度"
 
 #. module: base_geolocalize
 #: view:res.partner:base_geolocalize.view_crm_partner_geo_form
@@ -34,7 +34,7 @@ msgstr "地理定位"
 #. module: base_geolocalize
 #: field:res.partner,date_localization:0
 msgid "Geo Localization Date"
-msgstr "geolocalization定位的日期"
+msgstr "地理定位的日期"
 
 #. module: base_geolocalize
 #: view:res.partner:base_geolocalize.view_crm_partner_geo_form
@@ -44,7 +44,7 @@ msgstr "地理定位"
 #. module: base_geolocalize
 #: field:res.partner,partner_longitude:0
 msgid "Geo Longitude"
-msgstr "geolocalization经度"
+msgstr "地理经度"
 
 #. module: base_geolocalize
 #: code:addons/base_geolocalize/models/res_partner.py:40

@@ -33,8 +33,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:44+0000\n"
-"PO-Revision-Date: 2015-04-23 13:44+0000\n"
+"POT-Creation-Date: 2015-04-29 22:50+0000\n"
+"PO-Revision-Date: 2015-04-29 22:50+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -336,7 +336,7 @@ msgstr "(Youtube, Vimeo, Dailymotion)"
 #. module: website_forum
 #: view:website:website_forum.post_description_full
 msgid "(only one answer per question is allowed)"
-msgstr "(only one answer per question is allowed)"
+msgstr "（每题只允许有一个答案）"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -362,7 +362,7 @@ msgstr ",\n"
 #. module: website
 #: view:website:website.info
 msgid ", author:"
-msgstr ", 作者:"
+msgstr "，作者："
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
@@ -401,7 +401,7 @@ msgstr "- no need to answer the same question twice. Also, please"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "-- Create a new address --"
-msgstr "-- Create a new address --"
+msgstr "--创建一个新的地址 --"
 
 #. module: website_forum
 #: selection:forum.post.vote,vote:0
@@ -1331,12 +1331,12 @@ msgstr "Bigger Text"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Bill To:"
-msgstr "Bill To:"
+msgstr "账单到："
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Billing Information"
-msgstr "Billing Information"
+msgstr "开账单信息"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
@@ -3272,30 +3272,30 @@ msgstr "Error!"
 #: field:event.track,event_id:0
 #: model:ir.model,name:website_event_track.model_event_event
 msgid "Event"
-msgstr "事件"
+msgstr "活动"
 
 #. module: website_event_track
 #: field:event.event,blog_id:0
 msgid "Event Blog"
-msgstr "Event Blog"
+msgstr "活动纪实"
 
 #. module: website_event
 #: view:website:website_event.template_intro
 msgid "Event Introduction"
-msgstr "Event Introduction"
+msgstr "活动说明"
 
 #. modules: website_event_track, website_event
 #: view:website:website_event.template_location
 #: view:event.track.location:website_event_track.view_event_location_form
 #: view:event.track.location:website_event_track.view_event_location_tree
 msgid "Event Location"
-msgstr "Event Location"
+msgstr "活动地点"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_location
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_location
 msgid "Event Locations"
-msgstr "Event Locations"
+msgstr "活动地点"
 
 #. module: website_event
 #: field:event.event,menu_id:0
@@ -3316,44 +3316,44 @@ msgstr "Event Sponsor Types"
 #: view:event.track.stage:website_event_track.view_event_track_stage_form
 #: view:event.track.stage:website_event_track.view_event_track_stage_tree
 msgid "Event Stage"
-msgstr "Event Stage"
+msgstr "活动阶段"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_stage
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_stage
 msgid "Event Stages"
-msgstr "Event Stages"
+msgstr "活动阶段"
 
 #. module: website_event_track
 #: view:event.tag:website_event_track.view_event_tag_form
 #: view:event.tag:website_event_track.view_event_tag_tree
 #: field:event.tag,name:0
 msgid "Event Tag"
-msgstr "Event Tag"
+msgstr "活动标签"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_tag
 #: model:ir.ui.menu,name:website_event_track.menu_event_tag
 msgid "Event Tags"
-msgstr "Event Tags"
+msgstr "活动标签"
 
 #. module: website_event_track
 #: field:event.event,timezone_of_event:0
 msgid "Event Timezone"
-msgstr "Event Timezone"
+msgstr "活动时区"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_form
 #: view:event.track:website_event_track.view_event_track_tree
 msgid "Event Track"
-msgstr "Event Track"
+msgstr "活动追踪"
 
 #. module: website_event_track
 #: view:event.track.tag:website_event_track.view_event_track_tag_form
 #: view:event.track.tag:website_event_track.view_event_track_tag_tree
 #: field:event.track.tag,name:0
 msgid "Event Track Tag"
-msgstr "Event Track Tag"
+msgstr "活动追踪标签"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_calendar
@@ -3363,7 +3363,7 @@ msgstr "Event Track Tag"
 #: model:ir.model,name:website_event_track.model_event_track
 #: model:ir.ui.menu,name:website_event_track.menu_event_track
 msgid "Event Tracks"
-msgstr "Event Tracks"
+msgstr "活动追踪"
 
 #. module: website_event
 #: view:website:website_event.404
@@ -3401,7 +3401,7 @@ msgstr "Events in visitor's country"
 #. module: website_event
 #: view:website:website_event.country_events_list
 msgid "Events:"
-msgstr "Events:"
+msgstr "活动"
 
 #. module: website
 #. openerp-web
@@ -3414,22 +3414,22 @@ msgstr "Every page of your website can be modified through the <i>Edit</i> butto
 #: view:website:website.snippets
 #: view:website:website_mail.email_designer_snippets
 msgid "Expert"
-msgstr "Expert"
+msgstr "专家"
 
 #. module: website_payment
 #: view:website:website_payment.cc_form
 msgid "Expires"
-msgstr "Expires"
+msgstr "有效期"
 
 #. module: website_quote
 #: field:sale.order,validity_date:0
 msgid "Expiry Date"
-msgstr "Expiry Date"
+msgstr "过期日期"
 
 #. module: website_quote
 #: view:website:sale.report_saleorder_document
 msgid "Expiry Date:"
-msgstr "Expiry Date:"
+msgstr "过期日期："
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
@@ -3559,7 +3559,7 @@ msgstr "特性"
 #. module: website_quote
 #: view:website:website_quote.quotation_toolbar
 msgid "Feedback"
-msgstr "Feedback"
+msgstr "反馈"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -3574,17 +3574,17 @@ msgstr "Filter Tracks..."
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Filter by Certification:"
-msgstr "Filter by Certification:"
+msgstr "按认证筛选:"
 
 #. module: website_crm_partner_assign
 #: view:website:website_crm_partner_assign.index
 msgid "Filter by Country"
-msgstr "Filter by Country"
+msgstr "按国家筛选"
 
 #. module: website_crm_partner_assign
 #: view:website:website_crm_partner_assign.index
 msgid "Filter by Grade"
-msgstr "Filter by Grade"
+msgstr "按等级筛选"
 
 #. module: website_forum
 #: view:website:website_forum.forum_index
@@ -3594,7 +3594,7 @@ msgstr "Filter on"
 #. module: website_membership
 #: view:website:website_membership.index
 msgid "Find a business partner"
-msgstr "Find a business partner"
+msgstr "搜索一个商业伙伴"
 
 #. module: website_event
 #: view:website:website_event.event_description_full
@@ -3613,7 +3613,7 @@ msgstr "Find out what people see and say about this event, \n"
 #. module: website
 #: view:website:website.snippets
 msgid "First Feature"
-msgstr "First Feature"
+msgstr "第一特性"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -3648,12 +3648,12 @@ msgstr "Flowers Field"
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
 msgid "Follow us"
-msgstr "Follow us"
+msgstr "关注我们..."
 
 #. module: website_mail_group
 #: view:website:website_mail_group.group_message
 msgid "Follow-Ups"
-msgstr "Follow-Ups"
+msgstr "催款"
 
 #. module: website_forum
 #: view:website:website_forum.forum_index
@@ -3679,7 +3679,7 @@ msgstr "关注者"
 #: code:addons/website/static/src/xml/website.ace.xml:10
 #, python-format
 msgid "Format"
-msgstr "Format"
+msgstr "格式"
 
 #. modules: website_forum, website_forum_doc
 #: view:forum.forum:website_forum.view_forum_forum_form
@@ -3729,7 +3729,7 @@ msgstr "Forums"
 #. module: website_event_track
 #: view:website:website_event_track.agenda
 msgid "Found"
-msgstr "Found"
+msgstr "找到"
 
 #. module: website_event_sale
 #: view:website:website_event.event_description_full
@@ -3740,12 +3740,12 @@ msgstr "自由"
 #: code:addons/website_membership/controllers/main.py:101
 #, python-format
 msgid "Free Members"
-msgstr "Free Members"
+msgstr "免费会员"
 
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Free Shipping in U.S."
-msgstr "Free Shipping in U.S."
+msgstr "美国范围内免费配送"
 
 #. modules: website, website_mail
 #: view:website:website.snippets
@@ -3756,12 +3756,12 @@ msgstr "Free shipping, satisfied or reimbursed."
 #. module: website_event
 #: view:website:website_event.event_description_full
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: website
 #: view:website:website.snippets
 msgid "From the main container, you can change the background to highlight features."
-msgstr "From the main container, you can change the background to highlight features."
+msgstr "通过主容器，你可以将背景改成高亮的特性"
 
 #. module: website_blog
 #. openerp-web
@@ -3773,17 +3773,17 @@ msgstr "From this toolbar you can move, duplicate or delete the selected zone. C
 #. module: website_mail
 #: view:website:website_mail.email_designer
 msgid "From:"
-msgstr "来自："
+msgstr "来自于："
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_badge
 msgid "Gamification badge"
-msgstr "Gamification badge"
+msgstr "游戏化勋章"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_gamification_challenge
 msgid "Gamification challenge"
-msgstr "Gamification challenge"
+msgstr "游戏化挑战"
 
 #. module: website_gengo
 #. openerp-web
@@ -3823,14 +3823,14 @@ msgstr "Gengo account"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Get Certified"
-msgstr "Get Certified"
+msgstr "获得认证"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:53
 #, python-format
 msgid "Get banner properties"
-msgstr "Get banner properties"
+msgstr "获取横幅属性"
 
 #. module: website_twitter
 #: field:website,twitter_screen_name:0
@@ -4075,7 +4075,7 @@ msgstr "Here you can set a specific HTML color index (e.g. #ff0000) to display t
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Hidden"
-msgstr "Hidden"
+msgstr "隐藏"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -4106,7 +4106,7 @@ msgstr "历史"
 #. module: website_payment
 #: view:website:website_payment.cc_form
 msgid "Holder Name"
-msgstr "Holder Name"
+msgstr "持卡人姓名"
 
 #. modules: website_forum, website_event_track, website_blog
 #: help:blog.blog,message_summary:0
@@ -4122,14 +4122,14 @@ msgstr "记住交谈者的主要特征（信息的编号，。。。），此主
 #: view:website:website.layout
 #: model:website.menu,name:website.menu_homepage
 msgid "Home"
-msgstr "Home"
+msgstr "主页"
 
 #. module: website
 #: view:website:website.403
 #: view:website:website.404
 #: view:website:website.layout
 msgid "Homepage"
-msgstr "Homepage"
+msgstr "主页"
 
 #. module: website
 #. openerp-web
@@ -4367,7 +4367,7 @@ msgstr "Info"
 #. module: website
 #: view:website:website.info
 msgid "Information about the"
-msgstr "Information about the"
+msgstr "信息关于"
 
 #. module: website
 #. openerp-web
@@ -4407,27 +4407,27 @@ msgstr "Insert building blocks"
 #. module: website
 #: view:website:website.layout
 msgid "Install Apps"
-msgstr "Install Apps"
+msgstr "安装应用"
 
 #. module: website
 #: model:ir.model,name:website.model_base_language_install
 msgid "Install Language"
-msgstr "Install Language"
+msgstr "安装语言"
 
 #. module: website
 #: view:website:website.info
 msgid "Installed Applications"
-msgstr "Installed Applications"
+msgstr "已安装的应用"
 
 #. module: website
 #: view:website:website.info
 msgid "Installed Modules"
-msgstr "Installed Modules"
+msgstr "已安装的模块"
 
 #. module: website
 #: view:website:website.500
 msgid "Internal Server Error"
-msgstr "Internal Server Error"
+msgstr "服务器内部错误"
 
 #. modules: website_event_track, website_event, website_quote, website_forum_doc
 #: code:addons/website_event/models/event.py:44
@@ -4734,7 +4734,7 @@ msgstr "Layout your event"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Left"
-msgstr "Left"
+msgstr "左"
 
 #. module: website_forum_doc
 #: field:forum.documentation.toc,parent_left:0
@@ -4792,7 +4792,7 @@ msgstr "Lightning Talks"
 #: view:website:website.snippets
 #: view:website:website_mail.email_designer_snippets
 msgid "Limited support"
-msgstr "Limited support"
+msgstr "有限的支持"
 
 #. module: website_quote
 #: field:sale.order.line,website_description:0
@@ -4804,7 +4804,7 @@ msgstr "Line Description"
 #. module: website_quote
 #: view:sale.quote.template:website_quote.view_sale_quote_template_form
 msgid "Lines"
-msgstr "明细"
+msgstr "行"
 
 #. module: website
 #. openerp-web
@@ -4818,14 +4818,14 @@ msgstr "链接"
 #: code:addons/website/static/src/xml/website.editor.xml:71
 #, python-format
 msgid "Link text"
-msgstr "Link text"
+msgstr "链接文本"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:41
 #, python-format
 msgid "Link to"
-msgstr "Link to"
+msgstr "链接到"
 
 #. module: website_sale_options
 #: field:sale.order.line,linked_line_id:0
@@ -4861,7 +4861,7 @@ msgstr "Live Chat Channel"
 #. module: website_event
 #: view:website:website.snippets
 msgid "Local Events"
-msgstr "Local Events"
+msgstr "当地事件"
 
 #. modules: website_event_track, website_event, website_membership
 #: code:addons/website_event/models/event.py:45
@@ -4870,7 +4870,7 @@ msgstr "Local Events"
 #: view:website:website_membership.index
 #, python-format
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: website_event_track
 #: field:event.sponsor,image_medium:0
@@ -4917,7 +4917,7 @@ msgstr "Mailing-List"
 #. module: website
 #: field:website,menu_id:0
 msgid "Main Menu"
-msgstr "Main Menu"
+msgstr "主菜单"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -4927,7 +4927,7 @@ msgstr "Mango"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Margin"
-msgstr "毛利"
+msgstr "利润"
 
 #. module: website
 #. openerp-web
@@ -5031,7 +5031,7 @@ msgstr "Mobile preview"
 #. module: website_blog
 #: field:blog.post.history,create_uid:0
 msgid "Modified By"
-msgstr "Modified By"
+msgstr "修改者"
 
 #. module: website
 #: view:website:website.snippets
@@ -7067,7 +7067,7 @@ msgstr "Search in Post"
 #: view:website:website_forum_doc.documentation_post
 #: view:website:website_sale.search
 msgid "Search..."
-msgstr "Search..."
+msgstr "搜索..."
 
 #. module: website
 #: view:website:website.snippets
@@ -7082,7 +7082,7 @@ msgstr "Second List"
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Secure Payment"
-msgstr "Secure Payment"
+msgstr "安全支付"
 
 #. module: website_quote
 #: field:sale.order,access_token:0
@@ -7270,14 +7270,14 @@ msgstr "共享"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship To:"
-msgstr "Ship To:"
+msgstr "发货到："
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Ship to the same address"
-msgstr "Ship to the same address"
+msgstr "发货到相同地址"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -7290,12 +7290,12 @@ msgstr "发货"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Shipping & Billing"
-msgstr "Shipping & Billing"
+msgstr "发货&账单"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Shipping Information"
-msgstr "Shipping Information"
+msgstr "发货信息"
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -7401,7 +7401,7 @@ msgstr "跳过"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:14
 #, python-format
 msgid "Skip It"
-msgstr "Skip It"
+msgstr "跳过它"
 
 #. module: website
 #: view:website:website.themes
@@ -7435,7 +7435,7 @@ msgstr "Small-sized image of the category. It is automatically resized as a 64x6
 #: view:website:website.view_website_form
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Social Media"
-msgstr "Social Media"
+msgstr "社交媒体"
 
 #. modules: website_event_track, website_event
 #: view:website:website_event.event_description_full
@@ -7890,12 +7890,12 @@ msgstr "Teacher"
 #. module: website_blog
 #: view:blog.post:website_blog.view_blog_post_form
 msgid "Technical"
-msgstr "技术性"
+msgstr "技术"
 
 #. module: website
 #: view:website:website.info
 msgid "Technical name:"
-msgstr "Technical name:"
+msgstr "技术名称："
 
 #. module: website
 #: view:website:website.snippets
@@ -8820,7 +8820,7 @@ msgstr "用户"
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_res_users
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -8830,13 +8830,13 @@ msgstr "VAT Number"
 #. module: website_forum
 #: field:forum.post,is_correct:0
 msgid "Valid Answer"
-msgstr "Valid Answer"
+msgstr "有效答案"
 
 #. modules: website_sale, website_quote
 #: view:website:website_quote.so_quotation
 #: view:website:website_sale.payment
 msgid "Validate Order"
-msgstr "Validate Order"
+msgstr "确认订单"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -8875,12 +8875,12 @@ msgstr "Video"
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
 msgid "View Product"
-msgstr "View Product"
+msgstr "查看产品"
 
 #. module: website_quote
 #: view:sale.order:website_quote.sale_order_form_quote
 msgid "View Quotation"
-msgstr "View Quotation"
+msgstr "查看报价"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_kanban
@@ -8932,7 +8932,7 @@ msgstr "投票"
 #: code:addons/website_gengo/static/src/xml/website.gengo.xml:5
 #, python-format
 msgid "Wait"
-msgstr "Wait"
+msgstr "等候"
 
 #. module: website
 #. openerp-web
@@ -10045,7 +10045,7 @@ msgstr "here"
 #: view:event.track:website_event_track.view_event_track_form
 #: view:event.track:website_event_track.view_event_track_kanban
 msgid "hours"
-msgstr "hours"
+msgstr "小时"
 
 #. module: website
 #. openerp-web
@@ -10178,12 +10178,12 @@ msgstr "last connection"
 #. module: website_twitter
 #: view:website.config.settings:website_twitter.view_website_config_settings
 msgid "leave it blank"
-msgstr "leave it blank"
+msgstr "留空"
 
 #. module: website_event_sale
 #: view:website:website_event.event_description_full
 msgid "left"
-msgstr "left"
+msgstr "左"
 
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
@@ -10392,12 +10392,12 @@ msgstr "rounded corner"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "select..."
-msgstr "select..."
+msgstr "选择..."
 
 #. module: website_mail_group
 #: view:website:website.snippets
 msgid "send mail"
-msgstr "send mail"
+msgstr "发送邮件"
 
 #. module: website_mail_group
 #: view:website:website_mail_group.messages_short
@@ -10463,7 +10463,7 @@ msgstr "this content\n"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "time"
-msgstr "time"
+msgstr "时间"
 
 #. module: website_forum
 #: view:website:website_forum.header
@@ -10536,7 +10536,7 @@ msgstr "user"
 #. module: website_forum
 #: view:website:website_forum.badge_user
 msgid "users"
-msgstr "users"
+msgstr "用户"
 
 #. module: website
 #. openerp-web
@@ -10567,7 +10567,7 @@ msgstr "投票"
 #: field:website.config.settings,website_id:0
 #: view:website:website_forum.user_detail_full
 msgid "website"
-msgstr "website"
+msgstr "网站"
 
 #. module: website_project
 #: view:website:website_project.index
@@ -10623,7 +10623,7 @@ msgstr "your homepage"
 #: code:addons/website/static/src/xml/website.editor.xml:378
 #, python-format
 msgid "— or —"
-msgstr "— or —"
+msgstr "— 或 —"
 
 #. module: website
 #. openerp-web

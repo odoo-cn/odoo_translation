@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:04+0000\n"
-"PO-Revision-Date: 2015-04-23 13:04+0000\n"
+"POT-Creation-Date: 2015-04-29 21:52+0000\n"
+"PO-Revision-Date: 2015-04-29 21:52+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -132,7 +132,7 @@ msgstr "余额"
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
 msgid "Billing Data"
-msgstr "开票日期"
+msgstr "开账单日期"
 
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.analytic.profit:hr_timesheet_invoice.view_hr_timesheet_analytic_profit
@@ -368,7 +368,7 @@ msgstr "Force Product"
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.invoice.create.final:hr_timesheet_invoice.view_hr_timesheet_invoice_create_final
 msgid "Force to use a special product"
-msgstr "强制使用特殊产品"
+msgstr "强制使用指定产品"
 
 #. module: hr_timesheet_invoice
 #: view:hr.timesheet.invoice.create:hr_timesheet_invoice.view_hr_timesheet_invoice_create
@@ -378,7 +378,7 @@ msgstr "强制使用指定产品"
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,date_from:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: hr_timesheet_invoice
 #: field:report.timesheet.line,general_account_id:0
@@ -448,7 +448,7 @@ msgstr "部分成本行已开发票"
 #. module: hr_timesheet_invoice
 #: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
 msgid "Invoice on Timesheets Options"
-msgstr "基于工单选项开票"
+msgstr "基于计工单开票选项"
 
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
@@ -555,7 +555,7 @@ msgstr "最后更新"
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.invoice.create.final,name:0
 msgid "Log of Activity"
-msgstr "Log of Activity"
+msgstr "活动日志"
 
 #. module: hr_timesheet_invoice
 #: field:report_timesheet.invoice,manager_id:0
@@ -588,7 +588,7 @@ msgstr "最大数量"
 #: selection:report_timesheet.account.date,month:0
 #: selection:report_timesheet.user,month:0
 msgid "May"
-msgstr "5"
+msgstr "5月"
 
 #. module: hr_timesheet_invoice
 #: field:report.account.analytic.line.to.invoice,month:0

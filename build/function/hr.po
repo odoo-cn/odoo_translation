@@ -18,8 +18,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:42+0000\n"
-"PO-Revision-Date: 2015-04-23 13:42+0000\n"
+"POT-Creation-Date: 2015-04-29 22:46+0000\n"
+"PO-Revision-Date: 2015-04-29 22:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -158,7 +158,7 @@ msgstr "(eval_name)s:评估名称"
 #. module: hr_timesheet
 #: view:hr.sign.in.project:hr_timesheet.view_hr_timesheet_sign_in
 msgid "(local time on the server side)"
-msgstr "（服务器上的时间）"
+msgstr "（服务器端的本地时间）"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
@@ -179,7 +179,7 @@ msgstr "* When the payslip is created the status is 'Draft'.            \n"
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid ", To start the recruitment"
-msgstr ", To start the recruitment"
+msgstr "，开始招聘"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.recruitment_1_3_1
@@ -1575,7 +1575,7 @@ msgstr "可用"
 #: selection:hr.applicant,priority:0
 #: selection:hr.recruitment.report,priority:0
 msgid "Average"
-msgstr "Average"
+msgstr "平均"
 
 #. module: hr_expense
 #: field:hr.expense.report,price_average:0
@@ -1606,7 +1606,7 @@ msgstr "本科"
 #: selection:hr.applicant,priority:0
 #: selection:hr.recruitment.report,priority:0
 msgid "Bad"
-msgstr "Bad"
+msgstr "错误"
 
 #. module: hr_gamification
 #: model:ir.ui.menu,name:hr_gamification.gamification_badge_menu_hr
@@ -3286,7 +3286,7 @@ msgstr "杰出"
 #. module: hr
 #: field:hr.job,no_of_recruitment:0
 msgid "Expected New Employees"
-msgstr "预期的新员工"
+msgstr "预计的新员工"
 
 #. module: hr_recruitment
 #: field:hr.applicant,salary_expected:0
@@ -3296,12 +3296,12 @@ msgstr "期望的薪酬"
 #. module: hr_recruitment
 #: field:hr.applicant,salary_expected_extra:0
 msgid "Expected Salary Extra"
-msgstr "期望薪资"
+msgstr "期望的额外薪资"
 
 #. module: hr
 #: help:hr.job,expected_employees:0
 msgid "Expected number of employees for this job position after new recruitment."
-msgstr "新招聘后此职位上期望的员工人数"
+msgstr "新招聘后此职位上预计的员工人数"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
@@ -3314,18 +3314,18 @@ msgstr "费用"
 #: code:addons/hr_expense/hr_expense.py:373
 #, python-format
 msgid "Expense Account Move"
-msgstr "Expense Account Move"
+msgstr "费用会计凭证"
 
 #. module: hr_expense
 #: model:ir.actions.act_window,name:hr_expense.hr_expense_product
 #: model:ir.ui.menu,name:hr_expense.menu_hr_product
 msgid "Expense Categories"
-msgstr "Expense Categories"
+msgstr "费用类别"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Expense Date"
-msgstr "Expense Date"
+msgstr "费用日期"
 
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_hr_expense_line
@@ -3347,12 +3347,12 @@ msgstr "费用备注"
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_approved
 msgid "Expense approved"
-msgstr "支付已批准"
+msgstr "费用已批准"
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_confirmed
 msgid "Expense confirmed, waiting confirmation"
-msgstr "Expense confirmed, waiting confirmation"
+msgstr "费用已确认,等待确认"
 
 #. module: hr_expense
 #: model:mail.message.subtype,description:hr_expense.mt_expense_refused
@@ -3406,12 +3406,12 @@ msgstr "要开票的报销单"
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_2_3
 msgid "Experience"
-msgstr "Experience"
+msgstr "经验"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Extended Filters"
-msgstr "Extended Filters"
+msgstr "扩展的筛选器"
 
 #. modules: hr_expense, hr_timesheet, hr_evaluation
 #: view:hr.evaluation.report:hr_evaluation.view_evaluation_report_search
@@ -3423,12 +3423,12 @@ msgstr "增加筛选条件"
 #. module: hr_timesheet_sheet
 #: model:ir.filters,name:hr_timesheet_sheet.filter_hr_timesheet_report_external_timesheets
 msgid "External Timesheet"
-msgstr "External Timesheet"
+msgstr "外部计工单"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Extra advantages..."
-msgstr "Extra advantages..."
+msgstr "额外奖金或补贴..."
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -3444,7 +3444,7 @@ msgstr "女性"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 msgid "Filter and view on next actions and date"
-msgstr "筛选并查看下一步动作和日期"
+msgstr "筛选并查看下一动作和日期"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_hr_holidays_filter
@@ -3493,7 +3493,7 @@ msgstr "固定总额"
 #. module: hr_recruitment
 #: field:hr.recruitment.stage,fold:0
 msgid "Folded in Kanban View"
-msgstr "Folded in Kanban View"
+msgstr "在看板视图中收拢"
 
 #. module: hr
 #. openerp-web
@@ -3530,7 +3530,7 @@ msgstr "例如，输入50意味着50%"
 #: field:hr.expense.expense,journal_id:0
 #: field:hr.expense.report,journal_id:0
 msgid "Force Journal"
-msgstr "强制的账薄"
+msgstr "强制的分类账"
 
 #. module: hr_payroll_account
 #: field:hr.payslip,period_id:0
@@ -3540,7 +3540,7 @@ msgstr "强制会计期间"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Free Notes"
-msgstr "Free Notes"
+msgstr "自由备注"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_8
@@ -3551,12 +3551,12 @@ msgstr "Freebies such as tea, coffee and stationery"
 #: field:hr.holidays.summary.dept,date_from:0
 #: field:hr.holidays.summary.employee,date_from:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: hr_holidays
 #: field:hr.employee,leave_date_from:0
 msgid "From Date"
-msgstr "起始日期"
+msgstr "开始日期"
 
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_1_1
@@ -3566,12 +3566,12 @@ msgstr "From which university will you graduate?"
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge
 msgid "Gamification badge"
-msgstr "Gamification badge"
+msgstr "游戏化勋章"
 
 #. module: hr_gamification
 #: model:ir.model,name:hr_gamification.model_gamification_badge_user
 msgid "Gamification user badge"
-msgstr "Gamification user badge"
+msgstr "游戏化用户勋章"
 
 #. module: hr
 #: field:hr.employee,gender:0
@@ -3645,13 +3645,13 @@ msgstr "Go to the configuration panel"
 #. module: hr_gamification
 #: view:hr.employee:hr_gamification.hr_hr_employee_view_form
 msgid "Goals"
-msgstr "Goals"
+msgstr "目标"
 
 #. module: hr_gamification
 #: model:ir.actions.act_window,name:hr_gamification.goals_menu_groupby_action2
 #: model:ir.ui.menu,name:hr_gamification.gamification_goal_menu_hr
 msgid "Goals History"
-msgstr "Goals History"
+msgstr "目标历史"
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0
@@ -4018,12 +4018,12 @@ msgstr "If you want to reinvoice working time of employees, link this employee t
 #. module: hr_recruitment
 #: model:survey.page,title:hr_recruitment.recruitment_3
 msgid "Importance"
-msgstr "Importance"
+msgstr "重要性"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rcol_3_1_3
 msgid "Important"
-msgstr "Important"
+msgstr "重要的"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
@@ -4090,7 +4090,7 @@ msgstr "正在进行的评估"
 #. module: hr_applicant_document
 #: field:hr.applicant,index_content:0
 msgid "Index Content"
-msgstr "Index Content"
+msgstr "索引内容"
 
 #. module: hr_payroll
 #: help:hr.payslip,credit_note:0
@@ -4129,7 +4129,7 @@ msgstr "输入"
 #. module: hr
 #: field:hr.config.settings,module_hr_attendance:0
 msgid "Install attendances feature"
-msgstr "安装 出勤率特性"
+msgstr "安装考勤特性"
 
 #. module: hr
 #: view:hr.config.settings:hr.view_human_resources_configuration
@@ -4149,7 +4149,7 @@ msgstr "内部备注"
 #. module: hr_timesheet_sheet
 #: model:ir.filters,name:hr_timesheet_sheet.filter_hr_timesheet_report_internal_timesheets
 msgid "Internal Timesheet"
-msgstr "Internal Timesheet"
+msgstr "内部计工单"
 
 #. module: hr_recruitment
 #: model:calendar.event.type,name:hr_recruitment.categ_meet_interview
@@ -4219,7 +4219,7 @@ msgstr "是一个关注者"
 #. module: hr_contract
 #: field:hr.employee,manager:0
 msgid "Is a Manager"
-msgstr "是经理"
+msgstr "是一个经理"
 
 #. module: hr_payroll
 #: help:hr.salary.rule,quantity:0
@@ -4496,7 +4496,7 @@ msgstr "休假详情"
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.act_hr_leave_request_to_meeting
 msgid "Leave Meetings"
-msgstr "离开会议"
+msgstr "休假会议"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:374
@@ -4518,7 +4518,7 @@ msgstr "休假申请"
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_request_approve_holidays
 msgid "Leave Requests to Approve"
-msgstr "要审批的请假申请"
+msgstr "待审批的休假申请"
 
 #. module: hr_holidays
 #: xsl:holidays.summary:0
@@ -4539,7 +4539,7 @@ msgstr "休假类型"
 #: view:hr.holidays.status:hr_holidays.view_hr_holidays_status_search
 #: model:ir.actions.act_window,name:hr_holidays.open_view_holiday_status
 msgid "Leave Types"
-msgstr "请假类型"
+msgstr "休假类型"
 
 #. modules: hr, hr_holidays
 #: model:ir.ui.menu,name:hr.menu_open_view_attendance_reason_config
@@ -4564,7 +4564,7 @@ msgstr "休假分析"
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.allocation_company_new
 msgid "Leaves Management"
-msgstr "假期管理"
+msgstr "休假管理"
 
 #. module: hr_holidays
 #: xsl:holidays.summary:0
@@ -4581,20 +4581,20 @@ msgstr "休假摘要"
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_open_view_holiday_status
 msgid "Leaves Types"
-msgstr "请假类型"
+msgstr "休假类型"
 
 #. module: hr_holidays
 #: view:hr.holidays.summary.dept:hr_holidays.view_hr_holidays_summary_dept
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_summary_dept
 #: model:ir.ui.menu,name:hr_holidays.menu_account_central_journal
 msgid "Leaves by Department"
-msgstr "部门的休假"
+msgstr "休假按部门"
 
 #. module: hr_holidays
 #: view:hr.holidays.remaining.leaves.user:hr_holidays.view_hr_holidays_remaining_leaves_user_graph
 #: view:hr.holidays.remaining.leaves.user:hr_holidays.view_hr_holidays_remaining_leaves_user_tree
 msgid "Leaves by Type"
-msgstr "假期按类型"
+msgstr "休假按类型"
 
 #. module: hr_expense
 #: field:hr.expense.expense,account_move_id:0
@@ -4609,7 +4609,7 @@ msgstr "Legal Leaves 2015"
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
 msgid "Legend"
-msgstr "图表"
+msgstr "图例"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -4679,7 +4679,7 @@ msgstr "用户名"
 #. module: hr_payroll
 #: field:hr.payslip,paid:0
 msgid "Made Payment Order ? "
-msgstr "新建付款单？ "
+msgstr "建立付款单？ "
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -4705,12 +4705,12 @@ msgstr "男性"
 #. module: hr
 #: field:hr.config.settings,module_hr_expense:0
 msgid "Manage employees expenses"
-msgstr "管理员工的费用"
+msgstr "管理员工费用"
 
 #. module: hr
 #: field:hr.config.settings,module_hr_holidays:0
 msgid "Manage holidays, leaves and allocation requests"
-msgstr "管理假期、请假和分配请求"
+msgstr "管理假期、休假和分配申请"
 
 #. module: hr
 #: field:hr.config.settings,module_hr_payroll:0
@@ -6429,7 +6429,7 @@ msgstr "发送匿名摘要给经理"
 #. module: hr_evaluation
 #: field:hr_evaluation.plan.phase,mail_feature:0
 msgid "Send mail for this phase"
-msgstr "这阶段发送邮件"
+msgstr "发送本阶段的邮件"
 
 #. module: hr_evaluation
 #: view:hr_evaluation.plan.phase:hr_evaluation.view_hr_evaluation_plan_phase_form
@@ -7507,7 +7507,7 @@ msgstr "总时间"
 #. module: hr_attendance
 #: field:hr.config.settings,group_hr_attendance:0
 msgid "Track attendances for all employees"
-msgstr "跟踪全体员工出席率"
+msgstr "跟踪全体员工出勤"
 
 #. module: hr_contract
 #: field:hr.contract,trial_date_end:0
@@ -7539,7 +7539,7 @@ msgstr "开票类型"
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Unassigned"
-msgstr "未分配"
+msgstr "未指派"
 
 #. module: hr
 #: view:hr.employee:hr.hr_kanban_view_employees
@@ -7580,7 +7580,7 @@ msgstr "未读消息"
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Unvalidated Timesheets"
-msgstr "不确认的时间表"
+msgstr "未确认的时间表"
 
 #. modules: hr, hr_recruitment
 #: field:hr.job,write_date:0
@@ -7655,7 +7655,7 @@ msgstr "User Error!"
 #: model:ir.model,name:hr.model_res_users
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_search
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.edit_holiday_new
@@ -7680,29 +7680,29 @@ msgstr "已确认"
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "Validated By:"
-msgstr "审核人："
+msgstr "确认人："
 
 #. module: hr_holidays
 #: view:hr.holidays.status:hr_holidays.edit_holiday_status_form
 msgid "Validation"
-msgstr "审核"
+msgstr "确认"
 
 #. module: hr_expense
 #: field:hr.expense.expense,user_valid:0
 msgid "Validation By"
-msgstr "Validation By"
+msgstr "确认人"
 
 #. module: hr_expense
 #: field:hr.expense.expense,date_valid:0
 #: field:hr.expense.report,date_valid:0
 msgid "Validation Date"
-msgstr "审核日期"
+msgstr "确认日期"
 
 #. module: hr_expense
 #: view:hr.expense.report:hr_expense.view_hr_expense_report_search
 #: field:hr.expense.report,user_id:0
 msgid "Validation User"
-msgstr "审核用户"
+msgstr "确认用户"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rcol_3_1_4
@@ -7760,7 +7760,7 @@ msgstr "等待审批"
 #. module: hr_expense
 #: selection:hr.expense.expense,state:0
 msgid "Waiting Payment"
-msgstr "Waiting Payment"
+msgstr "等待支付"
 
 #. module: hr_holidays
 #: selection:hr.employee,current_leave_state:0
@@ -7842,7 +7842,7 @@ msgstr "周"
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:248
 #, python-format
 msgid "Week "
-msgstr "Week "
+msgstr "周"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0
@@ -7939,7 +7939,7 @@ msgstr "办公电话"
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_2
 msgid "Work Plan"
-msgstr "Work Plan"
+msgstr "工作计划"
 
 #. module: hr_timesheet
 #: view:hr.sign.out.project:hr_timesheet.view_hr_timesheet_sign_out
@@ -8209,7 +8209,7 @@ msgstr "job applicants"
 #. module: hr_holidays
 #: xsl:holidays.summary:0
 msgid "leaves."
-msgstr "leaves."
+msgstr "休假."
 
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search

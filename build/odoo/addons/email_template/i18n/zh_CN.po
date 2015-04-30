@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:57+0000\n"
-"PO-Revision-Date: 2015-04-23 12:57+0000\n"
+"POT-Creation-Date: 2015-04-29 21:46+0000\n"
+"PO-Revision-Date: 2015-04-29 21:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -233,7 +233,7 @@ msgstr "生成的占位符表达式，可以复制粘贴到目标模版字段"
 #: field:email_template.preview,email_from:0
 #: field:ir.actions.server,email_from:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: email_template
 #: view:email.template:email_template.view_email_template_search
@@ -434,12 +434,12 @@ msgstr "示例文档"
 #. module: email_template
 #: view:mail.compose.message:email_template.email_compose_message_wizard_inherit_form
 msgid "Save as a new template"
-msgstr "保存新的模版"
+msgstr "另存为新模版"
 
 #. module: email_template
 #: view:mail.compose.message:email_template.email_compose_message_wizard_inherit_form
 msgid "Save as new template"
-msgstr "保存为新的模版"
+msgstr "另存为新模版"
 
 #. module: email_template
 #: help:email.template,model_object_field:0

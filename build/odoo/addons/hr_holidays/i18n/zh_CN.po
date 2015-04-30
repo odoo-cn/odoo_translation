@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:03+0000\n"
-"PO-Revision-Date: 2015-04-23 13:03+0000\n"
+"POT-Creation-Date: 2015-04-29 21:50+0000\n"
+"PO-Revision-Date: 2015-04-29 21:50+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -342,12 +342,12 @@ msgstr "关注者"
 #: field:hr.holidays.summary.dept,date_from:0
 #: field:hr.holidays.summary.employee,date_from:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: hr_holidays
 #: field:hr.employee,leave_date_from:0
 msgid "From Date"
-msgstr "起始日期"
+msgstr "开始日期"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_hr_holidays_filter
@@ -442,7 +442,7 @@ msgstr "休假详情"
 #. module: hr_holidays
 #: model:ir.actions.act_window,name:hr_holidays.act_hr_leave_request_to_meeting
 msgid "Leave Meetings"
-msgstr "离开会议"
+msgstr "休假会议"
 
 #. module: hr_holidays
 #: code:addons/hr_holidays/hr_holidays.py:374
@@ -464,7 +464,7 @@ msgstr "休假申请"
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_request_approve_holidays
 msgid "Leave Requests to Approve"
-msgstr "要审批的请假申请"
+msgstr "待审批的休假申请"
 
 #. module: hr_holidays
 #: xsl:holidays.summary:0
@@ -485,7 +485,7 @@ msgstr "休假类型"
 #: view:hr.holidays.status:hr_holidays.view_hr_holidays_status_search
 #: model:ir.actions.act_window,name:hr_holidays.open_view_holiday_status
 msgid "Leave Types"
-msgstr "请假类型"
+msgstr "休假类型"
 
 #. module: hr_holidays
 #: view:hr.employee:hr_holidays.view_employee_form_leave_inherit
@@ -509,7 +509,7 @@ msgstr "休假分析"
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.allocation_company_new
 msgid "Leaves Management"
-msgstr "假期管理"
+msgstr "休假管理"
 
 #. module: hr_holidays
 #: xsl:holidays.summary:0
@@ -526,20 +526,20 @@ msgstr "休假摘要"
 #. module: hr_holidays
 #: model:ir.ui.menu,name:hr_holidays.menu_open_view_holiday_status
 msgid "Leaves Types"
-msgstr "请假类型"
+msgstr "休假类型"
 
 #. module: hr_holidays
 #: view:hr.holidays.summary.dept:hr_holidays.view_hr_holidays_summary_dept
 #: model:ir.actions.act_window,name:hr_holidays.action_hr_holidays_summary_dept
 #: model:ir.ui.menu,name:hr_holidays.menu_account_central_journal
 msgid "Leaves by Department"
-msgstr "部门的休假"
+msgstr "休假按部门"
 
 #. module: hr_holidays
 #: view:hr.holidays.remaining.leaves.user:hr_holidays.view_hr_holidays_remaining_leaves_user_graph
 #: view:hr.holidays.remaining.leaves.user:hr_holidays.view_hr_holidays_remaining_leaves_user_tree
 msgid "Leaves by Type"
-msgstr "假期按类型"
+msgstr "休假按类型"
 
 #. module: hr_holidays
 #: model:hr.holidays.status,name:hr_holidays.holiday_status_cl
@@ -971,7 +971,7 @@ msgstr "已确认"
 #. module: hr_holidays
 #: view:hr.holidays.status:hr_holidays.edit_holiday_status_form
 msgid "Validation"
-msgstr "审核"
+msgstr "确认"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -1059,7 +1059,7 @@ msgstr "天"
 #. module: hr_holidays
 #: xsl:holidays.summary:0
 msgid "leaves."
-msgstr "leaves."
+msgstr "休假."
 
 #. module: hr_holidays
 #: xsl:holidays.summary:0

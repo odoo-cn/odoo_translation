@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:57+0000\n"
-"PO-Revision-Date: 2015-04-23 12:57+0000\n"
+"POT-Creation-Date: 2015-04-29 21:46+0000\n"
+"PO-Revision-Date: 2015-04-29 21:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -275,7 +275,7 @@ msgstr "结束日期"
 #: view:report.event.registration:event.view_report_event_registration_search
 #: field:report.event.registration,event_id:0
 msgid "Event"
-msgstr "事件"
+msgstr "活动"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
@@ -285,7 +285,7 @@ msgstr "活动开始日期"
 #. module: event
 #: view:event.event:event.view_event_tree
 msgid "Event Category"
-msgstr "活动分类"
+msgstr "活动类别"
 
 #. module: event
 #: view:event.confirm:event.view_event_confirm
@@ -302,32 +302,32 @@ msgstr "活动确认邮件"
 #. module: event
 #: field:report.event.registration,event_date:0
 msgid "Event Date"
-msgstr "Event Date"
+msgstr "活动日期"
 
 #. module: event
 #: view:event.event:event.view_event_form
 msgid "Event Description..."
-msgstr "Event Description..."
+msgstr "活动描述..."
 
 #. module: event
 #: view:event.event:event.view_event_form
 msgid "Event Details"
-msgstr "事件详情"
+msgstr "活动详情"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Event Month"
-msgstr "Event Month"
+msgstr "活动月份"
 
 #. module: event
 #: field:event.event,name:0
 msgid "Event Name"
-msgstr "Event Name"
+msgstr "活动名称"
 
 #. module: event
 #: view:event.event:event.view_event_calendar
 msgid "Event Organization"
-msgstr "活动组织机构"
+msgstr "活动组织"
 
 #. module: event
 #: view:event.registration:event.view_event_registration_calendar
@@ -335,7 +335,7 @@ msgstr "活动组织机构"
 #: view:event.registration:event.view_registration_search
 #: model:ir.model,name:event.model_event_registration
 msgid "Event Registration"
-msgstr "活动登记记录"
+msgstr "活动登记"
 
 #. module: event
 #: code:addons/event/event.py:348
@@ -515,7 +515,7 @@ msgstr "最后更新"
 #. module: event
 #: field:event.event,address_id:0
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: event
 #: field:event.registration,log_ids:0
@@ -785,7 +785,7 @@ msgstr "源单据"
 #. module: event
 #: field:res.partner,speaker:0
 msgid "Speaker"
-msgstr "关注者"
+msgstr "演讲者"
 
 #. module: event
 #: field:event.event,date_begin:0

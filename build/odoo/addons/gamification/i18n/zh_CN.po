@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:59+0000\n"
-"PO-Revision-Date: 2015-04-23 12:59+0000\n"
+"POT-Creation-Date: 2015-04-29 21:47+0000\n"
+"PO-Revision-Date: 2015-04-29 21:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -747,7 +747,7 @@ msgstr "Everyone"
 #. module: gamification
 #: selection:gamification.goal.definition,display_mode:0
 msgid "Exclusive (done or not-done)"
-msgstr "Exclusive (done or not-done)"
+msgstr "独家（做或不做的）"
 
 #. module: gamification
 #: selection:gamification.goal,state:0
@@ -762,7 +762,7 @@ msgstr "Field to Sum"
 #. module: gamification
 #: field:gamification.goal.definition,domain:0
 msgid "Filter Domain"
-msgstr "Filter Domain"
+msgstr "筛选域"
 
 #. module: gamification
 #: field:gamification.badge,message_follower_ids:0
@@ -793,64 +793,64 @@ msgstr "For Every Succeding User"
 #. module: gamification
 #: view:gamification.goal.definition:gamification.goal_definition_form_view
 msgid "Formating Options"
-msgstr "Formating Options"
+msgstr "格式化选项"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_kanban_view
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: gamification
 #: field:gamification.goal.definition,full_suffix:0
 msgid "Full Suffix"
-msgstr "Full Suffix"
+msgstr "完整的后缀"
 
 #. module: gamification
 #: model:ir.module.category,name:gamification.module_goal_category
 msgid "Gamification"
-msgstr "Gamification"
+msgstr "游戏化"
 
 #. module: gamification
 #: model:ir.ui.menu,name:gamification.gamification_menu
 msgid "Gamification Tools"
-msgstr "Gamification Tools"
+msgstr "游戏化工具"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge
 msgid "Gamification badge"
-msgstr "Gamification badge"
+msgstr "游戏化勋章"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge
 msgid "Gamification challenge"
-msgstr "Gamification challenge"
+msgstr "游戏化挑战"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_challenge_line
 msgid "Gamification generic goal for challenge"
-msgstr "Gamification generic goal for challenge"
+msgstr "游戏化挑战的一般目标"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal_definition
 msgid "Gamification goal definition"
-msgstr "Gamification goal definition"
+msgstr "游戏化的目标定义"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_goal
 msgid "Gamification goal instance"
-msgstr "Gamification goal instance"
+msgstr "游戏化的目标实例"
 
 #. module: gamification
 #: model:ir.model,name:gamification.model_gamification_badge_user
 msgid "Gamification user badge"
-msgstr "Gamification user badge"
+msgstr "游戏化用户勋章"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_kanban
 #: view:gamification.goal:gamification.goal_form_view
 #: field:gamification.goal.wizard,goal_id:0
 msgid "Goal"
-msgstr "Goal"
+msgstr "目标"
 
 #. module: gamification
 #: field:gamification.challenge.line,definition_id:0
@@ -858,46 +858,46 @@ msgstr "Goal"
 #: field:gamification.goal,definition_id:0
 #: field:gamification.goal.definition,name:0
 msgid "Goal Definition"
-msgstr "Goal Definition"
+msgstr "目标定义"
 
 #. module: gamification
 #: view:gamification.goal.definition:gamification.goal_definition_list_view
 #: model:ir.actions.act_window,name:gamification.goal_definition_list_action
 #: model:ir.ui.menu,name:gamification.gamification_definition_menu
 msgid "Goal Definitions"
-msgstr "Goal Definitions"
+msgstr "目标定义"
 
 #. module: gamification
 #: field:gamification.goal.definition,description:0
 msgid "Goal Description"
-msgstr "Goal Description"
+msgstr "目标描述"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
 msgid "Goal Failed"
-msgstr "Goal Failed"
+msgstr "目标失败"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_list_view
 msgid "Goal List"
-msgstr "Goal List"
+msgstr "目标清单"
 
 #. module: gamification
 #: field:gamification.goal.definition,condition:0
 msgid "Goal Performance"
-msgstr "Goal Performance"
+msgstr "目标性能"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
 msgid "Goal Reached"
-msgstr "Goal Reached"
+msgstr "目标达成"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
 #: view:gamification.challenge:gamification.challenge_list_view
 #: view:gamification.goal.definition:gamification.goal_definition_form_view
 msgid "Goal definitions"
-msgstr "Goal definitions"
+msgstr "目标定义"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
@@ -906,7 +906,7 @@ msgstr "Goal definitions"
 #: model:ir.actions.act_window,name:gamification.goal_list_action
 #: model:ir.ui.menu,name:gamification.gamification_goal_menu
 msgid "Goals"
-msgstr "Goals"
+msgstr "目标"
 
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_good_job
@@ -965,7 +965,7 @@ msgstr "HR Challenges"
 #. module: gamification
 #: model:gamification.badge,name:gamification.badge_hidden
 msgid "Hidden"
-msgstr "Hidden"
+msgstr "隐藏"
 
 #. module: gamification
 #: help:gamification.badge,message_summary:0
@@ -1128,7 +1128,7 @@ msgstr "Leader Board (Group Ranking)"
 #. module: gamification
 #: field:gamification.badge,rule_max_number:0
 msgid "Limitation Number"
-msgstr "Limitation Number"
+msgstr "限制数量"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
@@ -1138,7 +1138,7 @@ msgstr "Line List"
 #. module: gamification
 #: field:gamification.challenge,line_ids:0
 msgid "Lines"
-msgstr "明细"
+msgstr "行"
 
 #. module: gamification
 #: help:gamification.challenge,line_ids:0
@@ -1856,7 +1856,7 @@ msgstr "User domain"
 #: field:gamification.challenge,user_ids:0
 #: model:ir.model,name:gamification.model_res_users
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: gamification
 #: code:addons/gamification/models/badge.py:238

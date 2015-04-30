@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:58+0000\n"
-"PO-Revision-Date: 2015-04-23 12:58+0000\n"
+"POT-Creation-Date: 2015-04-29 21:47+0000\n"
+"PO-Revision-Date: 2015-04-29 21:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -131,7 +131,7 @@ msgstr "如果需要SSL连接。"
 #. module: fetchmail
 #: field:mail.mail,fetchmail_server_id:0
 msgid "Inbound Mail Server"
-msgstr "接收邮件服务器"
+msgstr "收信邮件服务器"
 
 #. module: fetchmail
 #: view:fetchmail.server:fetchmail.view_email_server_form

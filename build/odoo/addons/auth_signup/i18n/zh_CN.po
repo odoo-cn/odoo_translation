@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:50+0000\n"
-"PO-Revision-Date: 2015-04-23 12:50+0000\n"
+"POT-Creation-Date: 2015-04-29 21:40+0000\n"
+"PO-Revision-Date: 2015-04-29 21:40+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -157,7 +157,7 @@ msgstr "如果不勾选，只有被邀请用户才能注册。"
 #: code:addons/auth_signup/controllers/main.py:109
 #, python-format
 msgid "Invalid signup token"
-msgstr "密码错误"
+msgstr "无效的注册令牌"
 
 #. module: auth_signup
 #: selection:res.users,state:0
@@ -197,7 +197,7 @@ msgstr "发送密码重置指令"
 #. module: auth_signup
 #: view:res.users:auth_signup.res_users_form_view
 msgid "Send an Invitation Email"
-msgstr "发送一封邀请邮件"
+msgstr "发送一封邀请电子邮件"
 
 #. module: auth_signup
 #: view:website:auth_signup.signup
@@ -248,7 +248,7 @@ msgstr "用户可以在登录页点击来重置密码"
 #. module: auth_signup
 #: model:ir.model,name:auth_signup.model_res_users
 msgid "Users"
-msgstr "人员"
+msgstr "用户"
 
 #. module: auth_signup
 #: view:website:auth_signup.fields

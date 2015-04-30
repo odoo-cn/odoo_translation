@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:04+0000\n"
-"PO-Revision-Date: 2015-04-23 13:04+0000\n"
+"POT-Creation-Date: 2015-04-29 21:51+0000\n"
+"PO-Revision-Date: 2015-04-29 21:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "(empty = remote work)"
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid ", To start the recruitment"
-msgstr ", To start the recruitment"
+msgstr "，开始招聘"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.recruitment_1_3_1
@@ -361,7 +361,7 @@ msgstr "可用"
 #: selection:hr.applicant,priority:0
 #: selection:hr.recruitment.report,priority:0
 msgid "Average"
-msgstr "Average"
+msgstr "平均"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,delay_close:0
@@ -387,7 +387,7 @@ msgstr "本科"
 #: selection:hr.applicant,priority:0
 #: selection:hr.recruitment.report,priority:0
 msgid "Bad"
-msgstr "Bad"
+msgstr "错误"
 
 #. module: hr_recruitment
 #: model:survey.page,title:hr_recruitment.recruitment_1
@@ -737,22 +737,22 @@ msgstr "期望的薪酬"
 #. module: hr_recruitment
 #: field:hr.applicant,salary_expected_extra:0
 msgid "Expected Salary Extra"
-msgstr "期望薪资"
+msgstr "期望的额外薪资"
 
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_2_3
 msgid "Experience"
-msgstr "Experience"
+msgstr "经验"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Extended Filters"
-msgstr "Extended Filters"
+msgstr "扩展的筛选器"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Extra advantages..."
-msgstr "Extra advantages..."
+msgstr "额外奖金或补贴..."
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -767,7 +767,7 @@ msgstr "女性"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 msgid "Filter and view on next actions and date"
-msgstr "筛选并查看下一步动作和日期"
+msgstr "筛选并查看下一动作和日期"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job2
@@ -777,7 +777,7 @@ msgstr "初次面试"
 #. module: hr_recruitment
 #: field:hr.recruitment.stage,fold:0
 msgid "Folded in Kanban View"
-msgstr "Folded in Kanban View"
+msgstr "在看板视图中收拢"
 
 #. module: hr_recruitment
 #: field:hr.applicant,message_follower_ids:0
@@ -897,12 +897,12 @@ msgstr "如果“有效”字段设为false，它对信息进行隐藏但不删�
 #. module: hr_recruitment
 #: model:survey.page,title:hr_recruitment.recruitment_3
 msgid "Importance"
-msgstr "Importance"
+msgstr "重要性"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rcol_3_1_3
 msgid "Important"
-msgstr "Important"
+msgstr "重要的"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job1
@@ -1531,7 +1531,7 @@ msgstr "This stage is folded in the kanban view whenthere are no records in that
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Unassigned"
-msgstr "未分配"
+msgstr "未指派"
 
 #. module: hr_recruitment
 #: field:hr.applicant,message_unread:0

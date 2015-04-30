@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:48+0000\n"
-"PO-Revision-Date: 2015-04-23 12:48+0000\n"
+"POT-Creation-Date: 2015-04-29 21:37+0000\n"
+"PO-Revision-Date: 2015-04-29 21:37+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,7 @@ msgstr "发票参考"
 #. module: account_payment
 #: field:payment.line,ml_inv_ref:0
 msgid "Invoice Ref."
-msgstr "发票单号"
+msgstr "发票参考"
 
 #. module: account_payment
 #: view:payment.order:account_payment.view_payment_order_form
@@ -430,7 +430,7 @@ msgstr "建立付款"
 #. module: account_payment
 #: help:payment.mode,name:0
 msgid "Mode of Payment"
-msgstr "付款方式"
+msgstr "付款模式"
 
 #. module: account_payment
 #: field:payment.mode,name:0

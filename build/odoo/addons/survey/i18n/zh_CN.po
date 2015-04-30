@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:29+0000\n"
-"PO-Revision-Date: 2015-04-23 13:29+0000\n"
+"POT-Creation-Date: 2015-04-29 22:20+0000\n"
+"PO-Revision-Date: 2015-04-29 22:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -214,7 +214,7 @@ msgstr "自动整理HTML内容"
 #. module: survey
 #: view:website:survey.result_number
 msgid "Average"
-msgstr "Average"
+msgstr "平均"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
@@ -489,7 +489,7 @@ msgstr "Error!"
 #. module: survey
 #: field:survey.mail.compose.message,partner_ids:0
 msgid "Existing contacts"
-msgstr "Existing contacts"
+msgstr "现有联系人"
 
 #. module: survey
 #: view:website:survey.result
@@ -504,7 +504,7 @@ msgstr "Finished surveys"
 #. module: survey
 #: field:survey.stage,fold:0
 msgid "Folded in kanban view"
-msgstr "Folded in kanban view"
+msgstr "在看板视图中收拢"
 
 #. module: survey
 #: field:survey.survey,message_follower_ids:0
@@ -514,22 +514,22 @@ msgstr "关注者"
 #. module: survey
 #: view:survey.question:survey.survey_question_form
 msgid "Format"
-msgstr "Format"
+msgstr "格式"
 
 #. module: survey
 #: selection:survey.user_input_line,answer_type:0
 msgid "Free Text"
-msgstr "Free Text"
+msgstr "自由文本"
 
 #. module: survey
 #: field:survey.user_input_line,value_free_text:0
 msgid "Free Text answer"
-msgstr "Free Text answer"
+msgstr "自由文本答案"
 
 #. module: survey
 #: field:survey.mail.compose.message,email_from:0
 msgid "From"
-msgstr "从"
+msgstr "开始"
 
 #. module: survey
 #: view:website:survey.survey
@@ -704,12 +704,12 @@ msgstr "Long Text Zone"
 #: view:survey.question:survey.survey_question_form
 #: field:survey.question,constr_mandatory:0
 msgid "Mandatory Answer"
-msgstr "Mandatory Answer"
+msgstr "必答问题"
 
 #. module: survey
 #: selection:survey.user_input,type:0
 msgid "Manually"
-msgstr "手工"
+msgstr "手动"
 
 #. module: survey
 #: selection:survey.question,type:0
@@ -744,7 +744,7 @@ msgstr "Max value cannot be smaller than min value!"
 #. module: survey
 #: view:website:survey.result_number
 msgid "Maximum"
-msgstr "Maximum"
+msgstr "最大"
 
 #. module: survey
 #: field:survey.question,validation_max_date:0
@@ -754,12 +754,12 @@ msgstr "Maximum Date"
 #. module: survey
 #: field:survey.question,validation_length_max:0
 msgid "Maximum Text Length"
-msgstr "Maximum Text Length"
+msgstr "最大文本长度"
 
 #. module: survey
 #: field:survey.question,validation_max_float_value:0
 msgid "Maximum value"
-msgstr "Maximum value"
+msgstr "最大值"
 
 #. module: survey
 #: field:survey.mail.compose.message,record_name:0
@@ -1156,12 +1156,12 @@ msgstr "Rows of the Matrix"
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Save as a new template"
-msgstr "保存新的模版"
+msgstr "另存为新模版"
 
 #. module: survey
 #: view:survey.mail.compose.message:survey.survey_email_compose_message
 msgid "Save as new template"
-msgstr "保存为新的模版"
+msgstr "另存为新模版"
 
 #. module: survey
 #: field:survey.user_input,quizz_score:0
@@ -1380,7 +1380,7 @@ msgstr "调查"
 #. module: survey
 #: view:survey.user_input_line:survey.survey_response_line_tree
 msgid "Survey Answer Line"
-msgstr "问卷答案明细"
+msgstr "调查答案明细"
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_label
@@ -1398,7 +1398,7 @@ msgstr "Survey Options"
 #: view:survey.page:survey.survey_page_form
 #: view:survey.page:survey.survey_page_tree
 msgid "Survey Page"
-msgstr "问卷页面"
+msgstr "调查页面"
 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_question
@@ -1602,12 +1602,12 @@ msgstr "Type of Question"
 #. module: survey
 #: view:survey.question:survey.survey_question_form
 msgid "Type of answers"
-msgstr "Type of answers"
+msgstr "答案类型"
 
 #. module: survey
 #: field:survey.question,labels_ids:0
 msgid "Types of answers"
-msgstr "Types of answers"
+msgstr "答案类型"
 
 #. module: survey
 #: field:survey.survey,message_unread:0
@@ -1681,17 +1681,17 @@ msgstr "Users with a public link will be requested to login before taking part t
 #. module: survey
 #: field:survey.question,validation_required:0
 msgid "Validate entry"
-msgstr "Validate entry"
+msgstr "确认录入"
 
 #. module: survey
 #: view:survey.user_input:survey.survey_user_input_form
 msgid "View Results"
-msgstr "View Results"
+msgstr "查看结果"
 
 #. module: survey
 #: view:survey.survey:survey.survey_form
 msgid "View results"
-msgstr "View results"
+msgstr "查看结果"
 
 #. module: survey
 #: view:website:survey.result_choice

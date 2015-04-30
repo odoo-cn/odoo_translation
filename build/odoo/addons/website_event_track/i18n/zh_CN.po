@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:36+0000\n"
-"PO-Revision-Date: 2015-04-23 13:36+0000\n"
+"POT-Creation-Date: 2015-04-29 22:31+0000\n"
+"PO-Revision-Date: 2015-04-29 22:31+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -169,24 +169,24 @@ msgstr "Edit Track"
 #: field:event.track,event_id:0
 #: model:ir.model,name:website_event_track.model_event_event
 msgid "Event"
-msgstr "事件"
+msgstr "活动"
 
 #. module: website_event_track
 #: field:event.event,blog_id:0
 msgid "Event Blog"
-msgstr "Event Blog"
+msgstr "活动纪实"
 
 #. module: website_event_track
 #: view:event.track.location:website_event_track.view_event_location_form
 #: view:event.track.location:website_event_track.view_event_location_tree
 msgid "Event Location"
-msgstr "Event Location"
+msgstr "活动地点"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_location
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_location
 msgid "Event Locations"
-msgstr "Event Locations"
+msgstr "活动地点"
 
 #. module: website_event_track
 #: view:event.sponsor.type:website_event_track.view_event_sponsor_type_tree
@@ -202,44 +202,44 @@ msgstr "Event Sponsor Types"
 #: view:event.track.stage:website_event_track.view_event_track_stage_form
 #: view:event.track.stage:website_event_track.view_event_track_stage_tree
 msgid "Event Stage"
-msgstr "Event Stage"
+msgstr "活动阶段"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_track_stage
 #: model:ir.ui.menu,name:website_event_track.menu_event_track_stage
 msgid "Event Stages"
-msgstr "Event Stages"
+msgstr "活动阶段"
 
 #. module: website_event_track
 #: view:event.tag:website_event_track.view_event_tag_form
 #: view:event.tag:website_event_track.view_event_tag_tree
 #: field:event.tag,name:0
 msgid "Event Tag"
-msgstr "Event Tag"
+msgstr "活动标签"
 
 #. module: website_event_track
 #: model:ir.actions.act_window,name:website_event_track.action_event_tag
 #: model:ir.ui.menu,name:website_event_track.menu_event_tag
 msgid "Event Tags"
-msgstr "Event Tags"
+msgstr "活动标签"
 
 #. module: website_event_track
 #: field:event.event,timezone_of_event:0
 msgid "Event Timezone"
-msgstr "Event Timezone"
+msgstr "活动时区"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_form
 #: view:event.track:website_event_track.view_event_track_tree
 msgid "Event Track"
-msgstr "Event Track"
+msgstr "活动追踪"
 
 #. module: website_event_track
 #: view:event.track.tag:website_event_track.view_event_track_tag_form
 #: view:event.track.tag:website_event_track.view_event_track_tag_tree
 #: field:event.track.tag,name:0
 msgid "Event Track Tag"
-msgstr "Event Track Tag"
+msgstr "活动追踪标签"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_calendar
@@ -249,7 +249,7 @@ msgstr "Event Track Tag"
 #: model:ir.model,name:website_event_track.model_event_track
 #: model:ir.ui.menu,name:website_event_track.menu_event_track
 msgid "Event Tracks"
-msgstr "Event Tracks"
+msgstr "活动追踪"
 
 #. module: website_event_track
 #: view:website:website_event_track.event_track_proposal
@@ -276,7 +276,7 @@ msgstr "关注者"
 #. module: website_event_track
 #: view:website:website_event_track.agenda
 msgid "Found"
-msgstr "Found"
+msgstr "找到"
 
 #. module: website_event_track
 #: model:event.sponsor.type,name:website_event_track.event_sponsor_type3
@@ -370,7 +370,7 @@ msgstr "List of available tags for track proposals."
 #: field:event.track,location_id:0
 #: view:website:website_event_track.track_view
 msgid "Location"
-msgstr "地点"
+msgstr "位置"
 
 #. module: website_event_track
 #: field:event.sponsor,image_medium:0
@@ -755,7 +755,7 @@ msgstr "col-md-3 css_no_print"
 #: view:event.track:website_event_track.view_event_track_form
 #: view:event.track:website_event_track.view_event_track_kanban
 msgid "hours"
-msgstr "hours"
+msgstr "小时"
 
 #. module: website_event_track
 #: view:website:website_event_track.tracks

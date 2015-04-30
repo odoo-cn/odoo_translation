@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:20+0000\n"
-"PO-Revision-Date: 2015-04-23 13:20+0000\n"
+"POT-Creation-Date: 2015-04-29 22:09+0000\n"
+"PO-Revision-Date: 2015-04-29 22:09+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -276,10 +276,11 @@ msgid " * The 'Draft' status is set automatically when purchase order in draft s
 "* The 'Confirmed' status is set automatically as confirm when purchase order in confirm status.                                        \n"
 "* The 'Done' status is set automatically when purchase order is set as done.                                        \n"
 "* The 'Cancelled' status is set automatically when user cancel purchase order."
-msgstr " *当采购单在草稿状态时，自动设置为“草稿”。\n"
-"*当采购单确认为确认状态时，设置为“确认”。\n"
-"*当采购订单完成后，自动设置为“完成”\n"
-"*当用户取消了采购订单后，自动设置为“已经取消”"
+msgstr "* 销售订单是草稿时，设置为“草稿”\n"
+"* 销售订单被用户确认后，状态变为“已确认”。\n"
+"* 销售订单发生异常时（发货被取消等），状态变为“异常”。\n"
+"* 当销售订单收货以后，状态变为“已完成”。\n"
+"* 当用户取消了销售订单，状态变为“已取消”。"
 
 #. module: purchase
 #: code:addons/purchase/stock.py:229
@@ -604,7 +605,7 @@ msgstr "Associated procurements"
 #. module: purchase
 #: model:ir.filters,name:purchase.filter_purchase_order_average_delivery_time
 msgid "Average Delivery Time"
-msgstr "Average Delivery Time"
+msgstr "平均交货时间"
 
 #. module: purchase
 #: field:purchase.report,price_average:0
@@ -663,7 +664,7 @@ msgid "Bid Valid Until"
 msgstr "Bid Valid Until"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1185
+#: code:addons/purchase/purchase.py:1190
 #: code:addons/purchase/stock.py:223
 #, python-format
 msgid "Buy"
@@ -690,7 +691,7 @@ msgid "Can be Purchased"
 msgstr "可采购"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1203
+#: code:addons/purchase/purchase.py:1208
 #, python-format
 msgid "Can not cancel this procurement as the related purchase order has been confirmed already.  Please cancel the purchase order first. "
 msgstr "Can not cancel this procurement as the related purchase order has been confirmed already.  Please cancel the purchase order first. "
@@ -717,7 +718,7 @@ msgid "Cancelled"
 msgstr "已取消"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1028
+#: code:addons/purchase/purchase.py:1033
 #, python-format
 msgid "Cannot delete a purchase order line which is in state '%s'."
 msgstr "无法删除处于'%s'状态的采购订单行。"
@@ -751,7 +752,7 @@ msgid "Company"
 msgstr "公司"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:522
+#: code:addons/purchase/purchase.py:527
 #, python-format
 msgid "Compose Email"
 msgstr "Compose Email"
@@ -762,7 +763,7 @@ msgid "Configuration"
 msgstr "设置"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1245
+#: code:addons/purchase/purchase.py:1250
 #, python-format
 msgid "Configuration Error!"
 msgstr "Configuration Error!"
@@ -887,13 +888,13 @@ msgid "Default invoicing control method"
 msgstr "默认的开票控制方法"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:566
+#: code:addons/purchase/purchase.py:571
 #, python-format
 msgid "Define an expense account for this product: \"%s\" (id:%d)."
 msgstr "Define an expense account for this product: \"%s\" (id:%d)."
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:610
+#: code:addons/purchase/purchase.py:615
 #, python-format
 msgid "Define purchase journal for this company: \"%s\" (id:%d)."
 msgstr "为公司 \"%s\" (id:%d)  定义采购分类账。"
@@ -954,7 +955,7 @@ msgid "Draft PO"
 msgstr "采购订单草稿"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1403
+#: code:addons/purchase/purchase.py:1408
 #, python-format
 msgid "Draft Purchase Order created"
 msgstr "采购单草稿被创建"
@@ -977,12 +978,13 @@ msgstr "Email撰写向导"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:158
-#: code:addons/purchase/purchase.py:419
-#: code:addons/purchase/purchase.py:545
-#: code:addons/purchase/purchase.py:548
-#: code:addons/purchase/purchase.py:566
-#: code:addons/purchase/purchase.py:609
-#: code:addons/purchase/purchase.py:1202
+#: code:addons/purchase/purchase.py:403
+#: code:addons/purchase/purchase.py:424
+#: code:addons/purchase/purchase.py:550
+#: code:addons/purchase/purchase.py:553
+#: code:addons/purchase/purchase.py:571
+#: code:addons/purchase/purchase.py:614
+#: code:addons/purchase/purchase.py:1207
 #: code:addons/purchase/stock.py:226
 #, python-format
 msgid "Error!"
@@ -1010,12 +1012,12 @@ msgstr "预计月份"
 #. module: purchase
 #: view:purchase.report:purchase.view_purchase_order_search
 msgid "Extended Filters"
-msgstr "Extended Filters"
+msgstr "扩展的筛选器"
 
 #. module: purchase
 #: field:purchase.order,fiscal_position:0
 msgid "Fiscal Position"
-msgstr "替换规则"
+msgstr "财政位置"
 
 #. module: purchase
 #: field:purchase.order,message_follower_ids:0
@@ -1063,7 +1065,7 @@ msgstr "查看是否有需要留意的新信息。"
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_2_stock_picking
 msgid "In Shipments"
-msgstr "In Shipments"
+msgstr "送货"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:343
@@ -1086,18 +1088,18 @@ msgstr "入库产品"
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_inventory
 msgid "Incoming Products"
-msgstr "接收的产品"
+msgstr "入库产品"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_2_stock_picking
 #: field:purchase.order,shipment_count:0
 msgid "Incoming Shipments"
-msgstr "入库"
+msgstr "入库送货"
 
 #. module: purchase
 #: view:stock.picking:purchase.view_picking_in_search_picking_inherit
 msgid "Incoming Shipments to Invoice"
-msgstr "Incoming Shipments to Invoice"
+msgstr "待开票的入库送货"
 
 #. module: purchase
 #: field:purchase.order,incoterm_id:0
@@ -1111,7 +1113,7 @@ msgstr "国际商业条款是一系列预定义的用于国际贸易的商业条
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:343
-#: code:addons/purchase/purchase.py:1028
+#: code:addons/purchase/purchase.py:1033
 #, python-format
 msgid "Invalid Action!"
 msgstr "Invalid Action!"
@@ -1148,13 +1150,13 @@ msgid "Invoice Received"
 msgstr "已收发票"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1526
+#: code:addons/purchase/purchase.py:1537
 #, python-format
 msgid "Invoice paid"
 msgstr "发票已付清"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1506
+#: code:addons/purchase/purchase.py:1511
 #, python-format
 msgid "Invoice received"
 msgstr "已收到发票"
@@ -1180,12 +1182,12 @@ msgstr "发票"
 #. module: purchase
 #: view:purchase.order.line:purchase.purchase_order_line_form
 msgid "Invoices and Incoming Shipments"
-msgstr "Invoices and Incoming Shipments"
+msgstr "发票和入库送货"
 
 #. module: purchase
 #: help:purchase.order,invoice_ids:0
 msgid "Invoices generated for a purchase order"
-msgstr "采购订单的发票已生成"
+msgstr "采购订单生成的发票"
 
 #. module: purchase
 #: field:purchase.order,invoice_method:0
@@ -1269,7 +1271,7 @@ msgstr "管理产品的不同计量单位"
 #. module: purchase
 #: field:purchase.config.settings,module_stock_dropshipping:0
 msgid "Manage dropshipping"
-msgstr "Manage dropshipping"
+msgstr "管理直销"
 
 #. module: purchase
 #: field:purchase.config.settings,group_purchase_pricelist:0
@@ -1284,7 +1286,7 @@ msgstr "经理"
 #. module: purchase
 #: view:purchase.order.line:purchase.purchase_order_line_form2
 msgid "Manual Invoices"
-msgstr "手工发票"
+msgstr "手动发票"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_form
@@ -1332,19 +1334,19 @@ msgid "New Mail"
 msgstr "新邮件"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1236
+#: code:addons/purchase/purchase.py:1241
 #, python-format
 msgid "No address defined for the supplier"
 msgstr "供应商地址未定义"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1234
+#: code:addons/purchase/purchase.py:1239
 #, python-format
 msgid "No default supplier defined for this product"
 msgstr "产品没定义默认供应商"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1232
+#: code:addons/purchase/purchase.py:1237
 #, python-format
 msgid "No supplier defined for this product !"
 msgstr "尚未定义这个产品的供应商！"
@@ -1445,7 +1447,7 @@ msgid "Outgoing Mails"
 msgstr "Outgoing Mails"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1382
+#: code:addons/purchase/purchase.py:1387
 #, python-format
 msgid "PO: %s"
 msgstr "PO: %s"
@@ -1478,7 +1480,7 @@ msgid "Picking List"
 msgstr "分拣清单"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:419
+#: code:addons/purchase/purchase.py:424
 #, python-format
 msgid "Please create Invoices."
 msgstr "请创建发票"
@@ -1602,7 +1604,7 @@ msgid "Products by Category"
 msgstr "产品，按类别"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:862
+#: code:addons/purchase/purchase.py:867
 #, python-format
 msgid "Products received"
 msgstr "已接收产品"
@@ -1705,7 +1707,7 @@ msgid "Purchase Pricelist"
 msgstr "采购价格表"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1405
+#: code:addons/purchase/purchase.py:1410
 #, python-format
 msgid "Purchase line created and linked to an existing Purchase Order"
 msgstr "采购单已创建并已链接到现存的采购单"
@@ -1757,7 +1759,7 @@ msgid "Quantity"
 msgstr "数量"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1407
+#: code:addons/purchase/purchase.py:1412
 #, python-format
 msgid "Quantity added in existing Purchase Order Line"
 msgstr "已在现存采购单明细行上添加数量。"
@@ -1796,7 +1798,7 @@ msgstr "询价单已完成"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:333
-#: code:addons/purchase/purchase.py:957
+#: code:addons/purchase/purchase.py:962
 #, python-format
 msgid "RFQ created"
 msgstr "询价单已创建"
@@ -1927,7 +1929,7 @@ msgid "Select an Open Sales Order"
 msgstr "选择一个待支付的销售单"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1128
+#: code:addons/purchase/purchase.py:1133
 #, python-format
 msgid "Selected Unit of Measure does not belong to the same category as the product Unit of Measure."
 msgstr "选择的计量单位不属于产品的计量单位相同的分类。"
@@ -1935,7 +1937,7 @@ msgstr "选择的计量单位不属于产品的计量单位相同的分类。"
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_form
 msgid "Send PO by Email"
-msgstr "通过电邮发送采购单"
+msgstr "通过电邮发送采购订单"
 
 #. module: purchase
 #: view:purchase.order:purchase.purchase_order_form
@@ -1951,13 +1953,13 @@ msgstr "设为草稿"
 #: selection:purchase.order,state:0
 #: selection:purchase.report,state:0
 msgid "Shipping Exception"
-msgstr "运输异常"
+msgstr "发货异常"
 
 #. module: purchase
 #: view:website:purchase.report_purchaseorder_document
 #: view:website:purchase.report_purchasequotation_document
 msgid "Shipping address:"
-msgstr "Shipping address:"
+msgstr "发货地址："
 
 #. module: purchase
 #: field:purchase.order,origin:0
@@ -2019,7 +2021,7 @@ msgid "Supplier Inv."
 msgstr "Supplier Inv."
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:450
+#: code:addons/purchase/purchase.py:455
 #: code:addons/purchase/wizard/purchase_line_invoice.py:115
 #: model:ir.actions.act_window,name:purchase.act_res_partner_2_supplier_invoices
 #: view:res.partner:purchase.res_partner_view_purchase_account_buttons
@@ -2060,19 +2062,19 @@ msgid "The pricelist sets the currency used for this purchase order. It also com
 msgstr "价格表设定采购订单使用的币别。它还决定选定产品/数量的供应商价格。"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1245
+#: code:addons/purchase/purchase.py:1250
 #, python-format
 msgid "The product \"%s\" has been defined with your company as reseller which seems to be a configuration error!"
 msgstr "产品 \"%s\" 中，你公司被被定义经销商，这看起来是个配置错误！"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1148
+#: code:addons/purchase/purchase.py:1153
 #, python-format
 msgid "The selected supplier has a minimal quantity set to %s %s, you should not purchase less."
 msgstr "这个选择的供应商有最小数量设置  %s %s ， 你不应该购买更少。"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1144
+#: code:addons/purchase/purchase.py:1149
 #, python-format
 msgid "The selected supplier only sells this product by %s"
 msgstr "选择的供应商只销售这产品  %s"
@@ -2093,7 +2095,13 @@ msgid "The total amount"
 msgstr "总总额"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1354
+#: code:addons/purchase/purchase.py:403
+#, python-format
+msgid "There is no default company for the current user!"
+msgstr "There is no default company for the current user!"
+
+#. module: purchase
+#: code:addons/purchase/purchase.py:1359
 #, python-format
 msgid "There is no supplier associated to product %s"
 msgstr "产品 %s 无关联的供应商"
@@ -2145,13 +2153,13 @@ msgid "Total amount"
 msgstr "总额合计"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:705
+#: code:addons/purchase/purchase.py:710
 #, python-format
 msgid "Unable to cancel the purchase order %s."
 msgstr "不能取消采购单 %s"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:711
+#: code:addons/purchase/purchase.py:716
 #, python-format
 msgid "Unable to cancel this purchase order."
 msgstr "不能取消这个采购订单"
@@ -2227,17 +2235,17 @@ msgstr "VAT:"
 #. module: purchase
 #: field:purchase.report,validator:0
 msgid "Validated By"
-msgstr "审核人"
+msgstr "确认人"
 
 #. module: purchase
 #: view:website:purchase.report_purchaseorder_document
 msgid "Validated By:"
-msgstr "审核人："
+msgstr "确认人："
 
 #. module: purchase
 #: field:purchase.order,validator:0
 msgid "Validated by"
-msgstr "审核人"
+msgstr "确认人"
 
 #. module: purchase
 #: selection:purchase.order,state:0
@@ -2247,7 +2255,7 @@ msgstr "等待审批"
 #. module: purchase
 #: selection:purchase.report,state:0
 msgid "Waiting Supplier Ack"
-msgstr "等该供应商回复"
+msgstr "等待供应商确认"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_stock_warehouse
@@ -2256,9 +2264,9 @@ msgid "Warehouse"
 msgstr "仓库"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:1128
-#: code:addons/purchase/purchase.py:1144
-#: code:addons/purchase/purchase.py:1148
+#: code:addons/purchase/purchase.py:1133
+#: code:addons/purchase/purchase.py:1149
+#: code:addons/purchase/purchase.py:1153
 #: code:addons/purchase/wizard/purchase_order_group.py:44
 #, python-format
 msgid "Warning!"
@@ -2280,25 +2288,25 @@ msgid "When products are bought, they can be delivered to this warehouse"
 msgstr "当已购买产品后能够发运到此仓库。"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:549
+#: code:addons/purchase/purchase.py:554
 #, python-format
 msgid "You cannot confirm a purchase order with Invoice Control Method 'Based on incoming shipments' that doesn't contain any stockable item."
 msgstr "You cannot confirm a purchase order with Invoice Control Method 'Based on incoming shipments' that doesn't contain any stockable item."
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:545
+#: code:addons/purchase/purchase.py:550
 #, python-format
 msgid "You cannot confirm a purchase order without any purchase order line."
 msgstr "你不能确认没有任何明细的采购订单"
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:706
+#: code:addons/purchase/purchase.py:711
 #, python-format
 msgid "You have already received some goods for it.  "
 msgstr "You have already received some goods for it.  "
 
 #. module: purchase
-#: code:addons/purchase/purchase.py:712
+#: code:addons/purchase/purchase.py:717
 #, python-format
 msgid "You must first cancel all invoices related to this purchase order."
 msgstr "您必须先取消跟此采购单有关的所有发票"

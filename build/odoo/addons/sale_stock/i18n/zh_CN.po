@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:26+0000\n"
-"PO-Revision-Date: 2015-04-23 13:26+0000\n"
+"POT-Creation-Date: 2015-04-29 22:15+0000\n"
+"PO-Revision-Date: 2015-04-29 22:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Plural-Forms: \n"
 
 #. module: sale_stock
-#: code:addons/sale_stock/sale_stock.py:251
+#: code:addons/sale_stock/sale_stock.py:253
 #, python-format
 msgid "(n/a)"
 msgstr "(n/a)"
@@ -61,8 +61,8 @@ msgid "Companies"
 msgstr "公司"
 
 #. module: sale_stock
-#: code:addons/sale_stock/sale_stock.py:262
-#: code:addons/sale_stock/sale_stock.py:345
+#: code:addons/sale_stock/sale_stock.py:264
+#: code:addons/sale_stock/sale_stock.py:352
 #, python-format
 msgid "Configuration Error!"
 msgstr "Configuration Error!"
@@ -136,7 +136,7 @@ msgstr "国际商业条款是一系列预定义的用于国际贸易的商业条
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_location_route
 msgid "Inventory Routes"
-msgstr "Inventory Routes"
+msgstr "库存路线"
 
 #. module: sale_stock
 #: selection:sale.config.settings,default_order_policy:0
@@ -161,7 +161,7 @@ msgid "Margin of error for dates promised to customers. Products will be schedul
 msgstr "向客户承诺日期的误差幅度。产品将被比实际承诺的日期提前很多天安排采购和交付，以应对供应链中的意外延误。"
 
 #. module: sale_stock
-#: code:addons/sale_stock/sale_stock.py:340
+#: code:addons/sale_stock/sale_stock.py:347
 #, python-format
 msgid "Not enough stock ! : "
 msgstr "没足够的库存！： "
@@ -188,7 +188,7 @@ msgid "Pick 'Deliver each product when available' if you allow partial delivery.
 msgstr "如果你允许部分交付， 选择‘每个产品可用时发运’"
 
 #. module: sale_stock
-#: code:addons/sale_stock/sale_stock.py:260
+#: code:addons/sale_stock/sale_stock.py:262
 #, python-format
 msgid "Picking Information ! : "
 msgstr "分拣信息！： "
@@ -287,12 +287,12 @@ msgstr "Selectable on Sales Order Line"
 #: field:sale.report,shipped:0
 #: field:sale.report,shipped_qty_1:0
 msgid "Shipped"
-msgstr "已送货"
+msgstr "已发货"
 
 #. module: sale_stock
 #: field:sale.order,picking_policy:0
 msgid "Shipping Policy"
-msgstr "运送方式"
+msgstr "发货策略"
 
 #. module: sale_stock
 #: model:ir.model,name:sale_stock.model_stock_move
@@ -331,7 +331,7 @@ msgid "You can generate invoices based on sales orders or based on shippings."
 msgstr "你可以根据销售订单或送货单生成发票。"
 
 #. module: sale_stock
-#: code:addons/sale_stock/sale_stock.py:336
+#: code:addons/sale_stock/sale_stock.py:343
 #, python-format
 msgid "You plan to sell %.2f %s but you only have %.2f %s available !\n"
 "The real stock is %.2f %s. (without reservations)"
@@ -339,7 +339,7 @@ msgstr "你计划销售 %.2f %s 但是只要 %.2f %s 是有效的 ！\n"
 "实际库存有 %.2f %s。 （没有预订）"
 
 #. module: sale_stock
-#: code:addons/sale_stock/sale_stock.py:255
+#: code:addons/sale_stock/sale_stock.py:257
 #, python-format
 msgid "You selected a quantity of %d Units.\n"
 "But it's not compatible with the selected packaging.\n"

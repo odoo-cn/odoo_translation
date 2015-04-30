@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:21+0000\n"
-"PO-Revision-Date: 2015-04-23 13:21+0000\n"
+"POT-Creation-Date: 2015-04-29 22:10+0000\n"
+"PO-Revision-Date: 2015-04-29 22:10+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -265,7 +265,7 @@ msgstr "Ledger  28  431.8 x 279.4 mm"
 #. module: report
 #: field:report.paperformat,margin_left:0
 msgid "Left Margin (mm)"
-msgstr "Left Margin (mm)"
+msgstr "左边距（毫米）"
 
 #. module: report
 #: selection:report.paperformat,format:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 13:22+0000\n"
-"PO-Revision-Date: 2015-04-23 13:22+0000\n"
+"POT-Creation-Date: 2015-04-29 22:12+0000\n"
+"PO-Revision-Date: 2015-04-29 22:12+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -493,7 +493,7 @@ msgid "Before Delivery"
 msgstr "发运前"
 
 #. module: sale
-#: code:addons/sale/sale.py:1056
+#: code:addons/sale/sale.py:1067
 #, python-format
 msgid "Before choosing a product,\n"
 " select a customer in the sales form."
@@ -545,19 +545,19 @@ msgid "Cancelled"
 msgstr "已取消"
 
 #. module: sale
-#: code:addons/sale/sale.py:590
+#: code:addons/sale/sale.py:593
 #, python-format
 msgid "Cannot cancel this sales order!"
 msgstr "不能取消这个销售订单！"
 
 #. module: sale
-#: code:addons/sale/sale.py:1179
+#: code:addons/sale/sale.py:1190
 #, python-format
 msgid "Cannot delete a sales order line which is in state '%s'."
 msgstr "不能删除 '%s'状态的销售订单行。"
 
 #. module: sale
-#: code:addons/sale/sale.py:1148
+#: code:addons/sale/sale.py:1159
 #, python-format
 msgid "Cannot find a pricelist line matching this product and quantity.\n"
 "You have to change either the product, the quantity or the pricelist."
@@ -614,7 +614,7 @@ msgid "Company"
 msgstr "公司"
 
 #. module: sale
-#: code:addons/sale/sale.py:1156
+#: code:addons/sale/sale.py:1167
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:95
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:99
 #, python-format
@@ -723,7 +723,7 @@ msgid "Customer"
 msgstr "客户"
 
 #. module: sale
-#: code:addons/sale/sale.py:465
+#: code:addons/sale/sale.py:467
 #, python-format
 msgid "Customer Invoices"
 msgstr "客户发票"
@@ -877,11 +877,11 @@ msgstr "启用按订单行逐行开票"
 
 #. module: sale
 #: code:addons/sale/sale.py:154
-#: code:addons/sale/sale.py:391
-#: code:addons/sale/sale.py:523
-#: code:addons/sale/sale.py:608
-#: code:addons/sale/sale.py:942
-#: code:addons/sale/sale.py:959
+#: code:addons/sale/sale.py:393
+#: code:addons/sale/sale.py:527
+#: code:addons/sale/sale.py:610
+#: code:addons/sale/sale.py:950
+#: code:addons/sale/sale.py:967
 #, python-format
 msgid "Error!"
 msgstr "Error!"
@@ -894,7 +894,7 @@ msgstr "异常"
 #. module: sale
 #: view:sale.report:sale.view_order_product_search
 msgid "Extended Filters"
-msgstr "Extended Filters"
+msgstr "扩展的筛选器"
 
 #. module: sale
 #: view:res.partner:sale.res_partner_address_type
@@ -902,7 +902,7 @@ msgid "False"
 msgstr "False"
 
 #. module: sale
-#: code:addons/sale/sale.py:591
+#: code:addons/sale/sale.py:594
 #, python-format
 msgid "First cancel all invoices attached to this sales order."
 msgstr "首先取消所有关联这个销售订单的发票。"
@@ -910,7 +910,7 @@ msgstr "首先取消所有关联这个销售订单的发票。"
 #. module: sale
 #: field:sale.order,fiscal_position:0
 msgid "Fiscal Position"
-msgstr "替换规则"
+msgstr "财政位置"
 
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
@@ -1036,8 +1036,8 @@ msgstr "错误的数据"
 
 #. module: sale
 #: code:addons/sale/sale.py:274
-#: code:addons/sale/sale.py:998
-#: code:addons/sale/sale.py:1179
+#: code:addons/sale/sale.py:1007
+#: code:addons/sale/sale.py:1190
 #, python-format
 msgid "Invalid Action!"
 msgstr "Invalid Action!"
@@ -1069,7 +1069,7 @@ msgstr "发票异常"
 #. module: sale
 #: field:crm.case.section,invoiced_forecast:0
 msgid "Invoice Forecast"
-msgstr "Invoice Forecast"
+msgstr "发票预测"
 
 #. module: sale
 #: field:sale.order.line,invoice_lines:0
@@ -1089,7 +1089,7 @@ msgstr "销售订单开票"
 #. module: sale
 #: field:crm.case.section,invoiced_target:0
 msgid "Invoice Target"
-msgstr "Invoice Target"
+msgstr "发票目标"
 
 #. module: sale
 #: help:sale.order,partner_invoice_id:0
@@ -1099,12 +1099,12 @@ msgstr "当前销售订单的发票地址。"
 #. module: sale
 #: view:website:sale.report_saleorder_document
 msgid "Invoice address:"
-msgstr "Invoice address:"
+msgstr "发票地址："
 
 #. module: sale
 #: view:website:sale.report_saleorder_document
 msgid "Invoice and shipping address:"
-msgstr "Invoice and shipping address:"
+msgstr "发票和送货地址:"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_line_invoice.py:113
@@ -1120,10 +1120,10 @@ msgstr "由于以下原因不能为此销售订单明细生成发票：\n"
 #: code:addons/sale/wizard/sale_line_invoice.py:102
 #, python-format
 msgid "Invoice created"
-msgstr "Invoice created"
+msgstr "发票创建"
 
 #. module: sale
-#: code:addons/sale/sale.py:1232
+#: code:addons/sale/sale.py:1243
 #, python-format
 msgid "Invoice paid"
 msgstr "发票已付清"
@@ -1160,7 +1160,7 @@ msgstr "发票分析"
 #. module: sale
 #: model:ir.model,name:sale.model_account_invoice_report
 msgid "Invoices Statistics"
-msgstr "Invoices Statistics"
+msgstr "发票统计"
 
 #. module: sale
 #: view:sale.config.settings:sale.view_sales_config
@@ -1208,7 +1208,7 @@ msgstr "最后更新"
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_sale_order_make_invoice
 msgid "Make Invoices"
-msgstr "生成发票"
+msgstr "建立发票"
 
 #. module: sale
 #: selection:sale.report,state:0
@@ -1247,19 +1247,19 @@ msgid "New Mail"
 msgstr "新邮件"
 
 #. module: sale
-#: code:addons/sale/sale.py:1056
+#: code:addons/sale/sale.py:1067
 #, python-format
 msgid "No Customer Defined!"
 msgstr "No Customer Defined!"
 
 #. module: sale
-#: code:addons/sale/sale.py:1140
+#: code:addons/sale/sale.py:1151
 #, python-format
 msgid "No Pricelist ! : "
 msgstr "没价格表！： "
 
 #. module: sale
-#: code:addons/sale/sale.py:1151
+#: code:addons/sale/sale.py:1162
 #, python-format
 msgid "No valid pricelist line found ! :"
 msgstr "明细没有找到有效的价格表！"
@@ -1399,13 +1399,13 @@ msgid "Percentage"
 msgstr "百分比"
 
 #. module: sale
-#: code:addons/sale/sale.py:943
+#: code:addons/sale/sale.py:951
 #, python-format
 msgid "Please define income account for this product: \"%s\" (id:%d)."
 msgstr "Please define income account for this product: \"%s\" (id:%d)."
 
 #. module: sale
-#: code:addons/sale/sale.py:392
+#: code:addons/sale/sale.py:394
 #, python-format
 msgid "Please define sales journal for this company: \"%s\" (id:%d)."
 msgstr "轻微公司 \"%s\" (id:%d) 定义销售分类账"
@@ -1558,7 +1558,7 @@ msgid "Quotation confirmed"
 msgstr "报价已经确认"
 
 #. module: sale
-#: code:addons/sale/sale.py:363
+#: code:addons/sale/sale.py:365
 #, python-format
 msgid "Quotation created"
 msgstr "Quotation created"
@@ -1841,7 +1841,7 @@ msgstr "选择怎样为订单开票。这将建立一个可在核准前进行修
 #. module: sale
 #: view:sale.order:sale.view_order_form
 msgid "Send by Email"
-msgstr "以邮件发送"
+msgstr "以电子邮件发送"
 
 #. module: sale
 #: field:sale.order.line,sequence:0
@@ -1851,18 +1851,18 @@ msgstr "序列"
 #. module: sale
 #: view:sale.order.line:sale.view_sales_order_uninvoiced_line_filter
 msgid "Shipped"
-msgstr "已送货"
+msgstr "已发货"
 
 #. module: sale
 #: selection:sale.order,state:0
 #: selection:sale.report,state:0
 msgid "Shipping Exception"
-msgstr "运输异常"
+msgstr "发货异常"
 
 #. module: sale
 #: view:website:sale.report_saleorder_document
 msgid "Shipping address:"
-msgstr "Shipping address:"
+msgstr "发货地址："
 
 #. module: sale
 #: view:sale.advance.payment.inv:sale.view_sale_advance_payment_inv
@@ -1959,7 +1959,7 @@ msgid "The value of Advance Amount must be positive."
 msgstr "定金必须是正的"
 
 #. module: sale
-#: code:addons/sale/sale.py:960
+#: code:addons/sale/sale.py:968
 #, python-format
 msgid "There is no Fiscal Position defined or Income category account defined for default properties of Product categories."
 msgstr "产品类别的属性中，没有定义财务结构或者 收益类科目。"
@@ -2110,7 +2110,7 @@ msgstr "未税总额"
 #. module: sale
 #: view:sale.order:sale.view_order_form
 msgid "UoS"
-msgstr "销售单位"
+msgstr "UoS"
 
 #. module: sale
 #: help:sale.advance.payment.inv,advance_payment_method:0
@@ -2195,13 +2195,13 @@ msgid "What do you want to invoice?"
 msgstr "你要开什么发票？"
 
 #. module: sale
-#: code:addons/sale/sale.py:998
+#: code:addons/sale/sale.py:1007
 #, python-format
 msgid "You cannot cancel a sales order line that has already been invoiced."
 msgstr "你不能取消已经开票的销售订单行"
 
 #. module: sale
-#: code:addons/sale/sale.py:608
+#: code:addons/sale/sale.py:610
 #, python-format
 msgid "You cannot confirm a sales order which has no line."
 msgstr "不能确认没有明细行的销售订单"
@@ -2213,13 +2213,13 @@ msgid "You cannot create invoice when sales order is not confirmed."
 msgstr "当销售订单未经确认时， 您不能创建发票。"
 
 #. module: sale
-#: code:addons/sale/sale.py:524
+#: code:addons/sale/sale.py:528
 #, python-format
 msgid "You cannot group sales having different currencies for the same partner."
 msgstr "你不能对有不同货币结算的同一个业务伙伴的销售订单进行分组。"
 
 #. module: sale
-#: code:addons/sale/sale.py:1138
+#: code:addons/sale/sale.py:1149
 #, python-format
 msgid "You have to select a pricelist or a customer in the sales form !\n"
 "Please set one before choosing a product."

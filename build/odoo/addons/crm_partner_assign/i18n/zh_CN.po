@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-23 12:55+0000\n"
-"PO-Revision-Date: 2015-04-23 12:55+0000\n"
+"POT-Creation-Date: 2015-04-29 21:44+0000\n"
+"PO-Revision-Date: 2015-04-29 21:44+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -348,7 +348,7 @@ msgstr "提升"
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_tree
 msgid "Expected Revenues"
-msgstr "预期收益"
+msgstr "预计收益"
 
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:crm_partner_assign.view_report_crm_lead_assign_filter
@@ -369,7 +369,7 @@ msgstr "Forward selected leads to"
 #: model:ir.actions.act_window,name:crm_partner_assign.action_crm_send_mass_forward
 #: model:ir.actions.act_window,name:crm_partner_assign.crm_lead_forward_to_partner_act
 msgid "Forward to Partner"
-msgstr "跟进的业务伙伴"
+msgstr "转发给业务伙伴"
 
 #. module: crm_partner_assign
 #: model:email.template,subject:crm_partner_assign.email_template_lead_forward_mail
@@ -379,7 +379,7 @@ msgstr "Fwd: Lead: ${ctx['partner_id'].name}"
 #. module: crm_partner_assign
 #: field:crm.lead,partner_latitude:0
 msgid "Geo Latitude"
-msgstr "geolocalization纬度"
+msgstr "地理纬度"
 
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
@@ -394,7 +394,7 @@ msgstr "地理定位"
 #. module: crm_partner_assign
 #: field:crm.lead,partner_longitude:0
 msgid "Geo Longitude"
-msgstr "geolocalization经度"
+msgstr "地理经度"
 
 #. module: crm_partner_assign
 #: view:crm.lead:crm_partner_assign.view_crm_lead_geo_assign_form
@@ -463,12 +463,12 @@ msgstr "标识"
 #. module: crm_partner_assign
 #: field:res.partner,implemented_partner_ids:0
 msgid "Implementation References"
-msgstr "Implementation References"
+msgstr "实现参考"
 
 #. module: crm_partner_assign
 #: field:res.partner,assigned_partner_id:0
 msgid "Implemented by"
-msgstr "Implemented by"
+msgstr "实现者"
 
 #. module: crm_partner_assign
 #: field:crm.lead.channel.interested,interested:0
