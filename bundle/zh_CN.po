@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-05-02 11:16+0800\n"
+"PO-Revision-Date: 2015-05-02 11:23+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -46736,7 +46736,7 @@ msgstr "自由"
 #. module: delivery
 #: field:delivery.carrier,free_if_more_than:0
 msgid "Free If Order Total Amount Is More Than"
-msgstr "当订单总额多于 时，免费"
+msgstr "免费, 当订单总额合计多于"
 
 #. module: membership
 #: selection:membership.membership_line,state:0
@@ -51618,8 +51618,14 @@ msgid ""
 "should choose 'Round per line' because you certainly want the sum of your "
 "tax-included line subtotals to be equal to the total amount with taxes."
 msgstr ""
-"如果选择“每行轮流”：对于每个税项，税额将首先按每个PO/SO/发票行轮流计算，然后"
-"对这些轮流计算得到的税额进行汇总，从而得到每个税项的总额。"
+"If you select 'Round per Line' : for each tax, the tax amount will first be "
+"computed and rounded for each PO/SO/invoice line and then these rounded "
+"amounts will be summed, leading to the total amount for that tax. If you "
+"select 'Round Globally': for each tax, the tax amount will be computed for "
+"each PO/SO/invoice line, then these amounts will be summed and eventually "
+"this total tax amount will be rounded. If you sell with tax included, you "
+"should choose 'Round per line' because you certainly want the sum of your "
+"tax-included line subtotals to be equal to the total amount with taxes."
 
 #. module: account
 #: help:account.config.settings,tax_calculation_rounding_method:0
@@ -51633,10 +51639,10 @@ msgid ""
 "should choose 'Round per line' because you certainly want the sum of your "
 "tax-included line subtotals to be equal to the total amount with taxes."
 msgstr ""
-"如果选择“每行圆整”：对于每个税项，先计算出税额并按每个PO/SO/发票行圆整，然后"
-"这些圆整后税额将会被汇总，得到总的税额。如果选择“整体圆整”：对于每个税项，税"
+"如果选择“每行舍入”：对于每个税项，先计算出税额并按每个PO/SO/发票行圆整，然后"
+"这些圆整后税额将会被汇总，得到总的税额。如果选择“整体舍入”：对于每个税项，税"
 "额将按每个PO/SO/发票行计算，然后这些税额将会被汇总，最后对总税额进行圆整。如"
-"果销售含税，“每行圆整”，因为你一定希望每行税额小计的总和等于总的税额。"
+"果销售含税，“每行舍入”，因为你一定希望每行税额小计的总和等于总的税额。"
 
 #. module: analytic
 #: help:account.analytic.account,type:0
@@ -69755,7 +69761,7 @@ msgstr ""
 #. module: account
 #: selection:account.statement.operation.template,amount_type:0
 msgid "Percentage of total amount"
-msgstr "总总额的百分比"
+msgstr "总额合计的百分比"
 
 #. module: account
 #: constraint:account.payment.term.line:0
@@ -78488,12 +78494,12 @@ msgstr "Rotor Replacement"
 #. module: account
 #: selection:res.company,tax_calculation_rounding_method:0
 msgid "Round Globally"
-msgstr "整单舍入"
+msgstr "整体舍入"
 
 #. module: account
 #: selection:account.config.settings,tax_calculation_rounding_method:0
 msgid "Round globally"
-msgstr "整单舍入"
+msgstr "整体舍入"
 
 #. module: account
 #: selection:res.company,tax_calculation_rounding_method:0
@@ -82623,7 +82629,7 @@ msgstr "如果在计算未来的税前这税额必须包含在税基总额里，
 msgid ""
 "Set if the tax computation is based on the computation of child taxes rather "
 "than on the total amount."
-msgstr "设定，如果税计算是基于子税而不是总总额"
+msgstr "设定，如果税计算是基于子税而不是总额合计"
 
 #. module: product_extended
 #: view:wizard.price:product_extended.view_compute_price_wizard
@@ -90860,12 +90866,12 @@ msgstr "The top of the top"
 #. module: purchase
 #: help:purchase.order,amount_total:0
 msgid "The total amount"
-msgstr "总总额"
+msgstr "总额合计"
 
 #. module: sale
 #: help:sale.order,amount_total:0
 msgid "The total amount."
-msgstr "总总额。"
+msgstr "总额合计。"
 
 #. module: product
 #: help:product.packaging,qty:0
