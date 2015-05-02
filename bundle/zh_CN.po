@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-04-30 17:15+0800\n"
+"PO-Revision-Date: 2015-05-02 11:16+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -186,7 +186,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: \n"
 "Language: zh_CN\n"
-"X-Generator: Poedit 1.7.5\n"
+"X-Generator: Poedit 1.6.10\n"
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_cn
@@ -74843,33 +74843,33 @@ msgstr "Quantity Bid"
 #. module: stock
 #: view:stock.warehouse.orderpoint:stock.view_warehouse_orderpoint_form
 msgid "Quantity Multiple"
-msgstr "Quantity Multiple"
+msgstr "数量倍数"
 
 #. module: stock
 #: field:product.product,qty_available:0
 #: field:product.template,qty_available:0
 msgid "Quantity On Hand"
-msgstr "Quantity On Hand"
+msgstr "在手数量"
 
 #. module: stock
 #: field:stock.pack.operation,qty_done:0
 msgid "Quantity Processed"
-msgstr "Quantity Processed"
+msgstr "已处理的数量"
 
 #. module: mrp_operations
 #: model:ir.filters,name:mrp_operations.filter_mrp_workorder_quantity_produced
 msgid "Quantity Produced"
-msgstr "Quantity Produced"
+msgstr "已生产的数量"
 
 #. module: stock
 #: field:stock.move,reserved_availability:0
 msgid "Quantity Reserved"
-msgstr "Quantity Reserved"
+msgstr "已保留的数量"
 
 #. module: mrp_byproduct
 #: field:mrp.subproduct,subproduct_type:0
 msgid "Quantity Type"
-msgstr "Quantity Type"
+msgstr "数量类型"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1407
@@ -74891,12 +74891,12 @@ msgstr "数量不能为负"
 #. module: stock
 #: help:stock.move,availability:0
 msgid "Quantity in stock that can still be reserved for this move"
-msgstr "Quantity in stock that can still be reserved for this move"
+msgstr "仓库里仍然为这次移动保留的数量"
 
 #. module: stock
 #: help:stock.move,product_qty:0
 msgid "Quantity in the default UoM of the product"
-msgstr "Quantity in the default UoM of the product"
+msgstr "数量（默认计量单位）"
 
 #. module: stock
 #: help:stock.quant,qty:0
@@ -74959,7 +74959,7 @@ msgstr ""
 #. module: stock
 #: help:stock.move,reserved_availability:0
 msgid "Quantity that has already been reserved for this move"
-msgstr "Quantity that has already been reserved for this move"
+msgstr "已经为这次移动保留的数量"
 
 #. module: product
 #: field:product.price_list,qty1:0
@@ -74995,12 +74995,12 @@ msgstr "数量 / 费率"
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Quantity/rate"
-msgstr "Quantity/rate"
+msgstr "数量 / 费率"
 
 #. module: mrp
 #: view:website:mrp.report_mrporder
 msgid "Quantity:"
-msgstr "Quantity:"
+msgstr "数量："
 
 #. modules: stock_account, stock, product_expiry
 #: model:ir.model,name:product_expiry.model_stock_quant
@@ -77711,7 +77711,7 @@ msgstr "采购申请"
 #: model:ir.module.module,shortdesc:base.module_website_crm_partner_assign
 #: view:website:website.layout view:website:website_crm_partner_assign.layout
 msgid "Resellers"
-msgstr "Resellers"
+msgstr "经销商"
 
 #. module: purchase
 #: field:purchase.order.line,move_ids:0
@@ -77731,29 +77731,29 @@ msgstr "Reserve and Profit/Loss Account"
 #. module: stock
 #: field:stock.move.operation.link,reserved_quant_id:0
 msgid "Reserved Quant"
-msgstr "预留的份"
+msgstr "保留的份"
 
 #. module: stock
 #: view:stock.move:stock.view_move_form
 #: view:stock.move:stock.view_move_picking_form
 msgid "Reserved Quants"
-msgstr "预留的份"
+msgstr "保留的份"
 
 #. modules: event_sale, event
 #: field:event.event,seats_reserved:0
 #: field:event.event.ticket,seats_reserved:0
 msgid "Reserved Seats"
-msgstr "预留的座位"
+msgstr "保留的座位"
 
 #. module: stock
 #: field:stock.quant,reservation_id:0
 msgid "Reserved for Move"
-msgstr "Reserved for Move"
+msgstr "保留为移动"
 
 #. module: stock
 #: field:stock.move,reserved_quant_ids:0
 msgid "Reserved quants"
-msgstr "预留的份"
+msgstr "保留的份"
 
 #. modules: marketing_campaign, board, point_of_sale
 #. openerp-web
@@ -77762,12 +77762,12 @@ msgstr "预留的份"
 #: code:addons/point_of_sale/static/src/xml/pos.xml:833
 #, python-format
 msgid "Reset"
-msgstr "清空"
+msgstr "重置"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
 msgid "Reset Completion"
-msgstr "Reset Completion"
+msgstr "重置完成"
 
 #. module: fetchmail
 #: view:fetchmail.server:fetchmail.view_email_server_form
@@ -77794,7 +77794,7 @@ msgstr "Reset Transformation"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Reset as Project"
-msgstr "重设项目"
+msgstr "重置为项目"
 
 #. module: auth_signup
 #: view:website:auth_signup.reset_password
@@ -77804,12 +77804,12 @@ msgstr "重置密码"
 #. module: website
 #: view:website:website.500
 msgid "Reset selected templates"
-msgstr "Reset selected templates"
+msgstr "重置选择模板"
 
 #. module: website
 #: view:website:website.500
 msgid "Reset templates"
-msgstr "Reset templates"
+msgstr "重置模板"
 
 #. modules: purchase_requisition, hr_holidays, account, account_budget, hr_evaluation
 #: view:account.invoice:account.invoice_form
@@ -77848,12 +77848,12 @@ msgstr "剩余价值"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
 msgid "Residual value (Excluding VAT)"
-msgstr "Residual value (Excluding VAT)"
+msgstr "剩余价值（不含VAT）"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_19
 msgid "Residual value in %"
-msgstr "Residual value in %"
+msgstr "剩余价值 %"
 
 #. module: website
 #. openerp-web
