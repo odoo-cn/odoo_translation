@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-05-02 11:23+0800\n"
+"PO-Revision-Date: 2015-05-02 11:47+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -85403,7 +85403,7 @@ msgstr "库存盘点明细"
 #: model:ir.model,name:stock_account.model_stock_invoice_onshipping
 #: model:ir.model,name:stock_dropshipping.model_stock_invoice_onshipping
 msgid "Stock Invoice Onshipping"
-msgstr "Stock Invoice Onshipping"
+msgstr "发货时进行库存开票"
 
 #. module: stock_account
 #: model:account.journal,name:stock_account.stock_journal
@@ -86278,7 +86278,7 @@ msgstr "供应商发票"
 #. module: account
 #: field:account.invoice,supplier_invoice_number:0
 msgid "Supplier Invoice Number"
-msgstr "供应商发票号"
+msgstr "供应商发票号码"
 
 #. modules: purchase, account
 #: model:ir.actions.act_window,name:account.action_invoice_tree2
@@ -86415,7 +86415,7 @@ msgstr "供应商信用证系列"
 #. module: account
 #: field:account.config.settings,purchase_sequence_prefix:0
 msgid "Supplier invoice sequence"
-msgstr "供应商发票编号"
+msgstr "供应商发票序列"
 
 #. module: product
 #: help:product.supplierinfo,name:0
@@ -90137,7 +90137,7 @@ msgstr ""
 #. module: account
 #: help:account.invoice,account_id:0
 msgid "The partner account used for this invoice."
-msgstr "这发票用这业务伙伴科目"
+msgstr "用在此发票的业务伙伴账户"
 
 #. module: crm
 #: help:crm.segmentation,categ_id:0
@@ -90159,7 +90159,7 @@ msgstr ""
 #. module: account
 #: help:account.invoice,reference:0
 msgid "The partner reference of this invoice."
-msgstr "该发票对应的业务伙伴单号"
+msgstr "该发票的业务伙伴参考"
 
 #. module: delivery
 #: help:delivery.carrier,partner_id:0
@@ -90326,7 +90326,7 @@ msgstr "产品 \"%s\" 中，你公司被被定义经销商，这看起来是个�
 #. module: hr_timesheet_invoice
 #: help:hr.timesheet.invoice.create.final,product:0
 msgid "The product that will be used to invoice the remaining amount"
-msgstr "将作为发票的剩余总额"
+msgstr "用来为剩余总额开票的产品"
 
 #. module: hr_timesheet_invoice
 #: help:account.analytic.account,pricelist_id:0
@@ -91212,7 +91212,7 @@ msgstr "There is no cash register for this PoS Session"
 #: code:addons/sale/sale.py:154
 #, python-format
 msgid "There is no default company for the current user!"
-msgstr "There is no default company for the current user!"
+msgstr "当前用户没有设置默认的公司！"
 
 #. module: account
 #: code:addons/account/account.py:1453
@@ -91220,7 +91220,7 @@ msgstr "There is no default company for the current user!"
 msgid ""
 "There is no default credit account defined \n"
 "on journal \"%s\"."
-msgstr "未定义 \"%s\" 分录的默认贷方科目。"
+msgstr "分类账\"%s\"未定义默认贷方科目。"
 
 #. module: account
 #: code:addons/account/account.py:1446
@@ -91228,20 +91228,20 @@ msgstr "未定义 \"%s\" 分录的默认贷方科目。"
 msgid ""
 "There is no default debit account defined \n"
 "on journal \"%s\"."
-msgstr "未定义  \"%s\" 分录的默认借方科目。"
+msgstr "分类账\"%s\"未定义默认借方科目。"
 
 #. module: analytic_user_function
 #: code:addons/analytic_user_function/analytic_user_function.py:109
 #: code:addons/analytic_user_function/analytic_user_function.py:138
 #, python-format
 msgid "There is no expense account defined for this product: \"%s\" (id:%d)"
-msgstr "There is no expense account defined for this product: \"%s\" (id:%d)"
+msgstr "产品 \"%s\" (id:%d)未定义费用科目"
 
 #. module: account
 #: code:addons/account/account_analytic_line.py:96
 #, python-format
 msgid "There is no expense account defined for this product: \"%s\" (id:%d)."
-msgstr "产品: \"%s\" (id:%d)  没有定义 成本科目"
+msgstr "产品 \"%s\" (id:%d)未定义费用科目。"
 
 #. module: account_followup
 #: code:addons/account_followup/account_followup.py:320
@@ -91253,14 +91253,14 @@ msgstr "There is no followup plan defined for the current company."
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:96
 #, python-format
 msgid "There is no income account defined as global property."
-msgstr "没有收益科目定义为全局属性"
+msgstr "没有定义全局的收入科目。"
 
 #. modules: account, sale
 #: code:addons/account/account_analytic_line.py:105
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:100
 #, python-format
 msgid "There is no income account defined for this product: \"%s\" (id:%d)."
-msgstr "该产品 \"%s\" (id:%d) 未定义收入科目。"
+msgstr "产品 \"%s\" (id:%d) 未定义收入科目。"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
@@ -91440,7 +91440,7 @@ msgstr "第三"
 #. module: website
 #: view:website:website.snippets
 msgid "Third Feature"
-msgstr "Third Feature"
+msgstr "第三特性"
 
 #. module: account_payment
 #: help:payment.line,move_line_id:0
@@ -91467,7 +91467,7 @@ msgstr ".PO 文件翻译使用的 ISO 国家代码"
 #. module: hr_timesheet
 #: view:hr.timesheet.report:hr_timesheet.view_hr_timesheet_report_search
 msgid "This Month"
-msgstr "This Month"
+msgstr "本月"
 
 #. module: account
 #: view:account.entries.report:account.view_account_entries_report_search
@@ -92341,13 +92341,13 @@ msgstr "供应商的最低订购量"
 #: code:addons/survey/survey.py:742
 #, python-format
 msgid "This is not a date/time"
-msgstr "This is not a date/time"
+msgstr "这不是日期/时间"
 
 #. module: survey
 #: code:addons/survey/survey.py:719
 #, python-format
 msgid "This is not a number"
-msgstr "This is not a number"
+msgstr "这不是数字"
 
 #. module: hr_evaluation
 #: help:hr_evaluation.evaluation,rating:0
@@ -92629,7 +92629,7 @@ msgstr "This module will trigger the uninstallation of below modules."
 #: code:addons/website_event/controllers/main.py:68
 #, python-format
 msgid "This month"
-msgstr "This month"
+msgstr "本月"
 
 #. module: account
 #: help:account.tax,name:0
@@ -93340,7 +93340,7 @@ msgstr "线程"
 #: view:website:website.snippets
 #: view:website:website_mail.email_designer_snippets
 msgid "Three Columns"
-msgstr "Three Columns"
+msgstr "三列"
 
 #. module: calendar
 #: field:calendar.event,th:0
@@ -93366,12 +93366,12 @@ msgstr ""
 #: view:event.registration:event_sale.view_event_registration_ticket_search
 #: view:website:website_event.event_description_full
 msgid "Ticket Type"
-msgstr "Ticket Type"
+msgstr "门票类型"
 
 #. module: event_sale
 #: view:event.event:event_sale.view_event_form
 msgid "Ticket Types"
-msgstr "Ticket Types"
+msgstr "门票类型"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_44
@@ -93472,7 +93472,7 @@ msgstr "以月计的折旧间隔"
 #. module: hr_evaluation
 #: model:survey.label,value:hr_evaluation.arow_3_1_15
 msgid "Time management: projects/tasks are completed on time"
-msgstr "Time management: projects/tasks are completed on time"
+msgstr "时间管理：项目/任务按时完成"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.invoice.create,time:0
@@ -93711,12 +93711,12 @@ msgstr "Timesheets to Invoice of %s"
 #: model:ir.actions.act_window,name:hr_timesheet_sheet.act_hr_timesheet_sheet_form
 #: model:ir.ui.menu,name:hr_timesheet_sheet.menu_act_hr_timesheet_sheet_form
 msgid "Timesheets to Validate"
-msgstr "Timesheets to Validate"
+msgstr "待确认的记工单"
 
 #. module: hr_timesheet_invoice
 #: view:report_timesheet.invoice:hr_timesheet_invoice.view_timesheet_invoice_tree
 msgid "Timesheets to invoice"
-msgstr "给计工单开发票"
+msgstr "待开票的计工单"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_hr_timesheet_sheet
@@ -93738,7 +93738,7 @@ msgstr "时区"
 #: code:addons/web/static/src/js/chrome.js:1331
 #, python-format
 msgid "Timezone Mismatch"
-msgstr "时区错误"
+msgstr "时区不一致"
 
 #. module: web
 #. openerp-web
@@ -93873,7 +93873,7 @@ msgstr "通过Gengo审核"
 #: selection:stock.move,invoice_state:0
 #: selection:stock.picking,invoice_state:0
 msgid "To Be Invoiced"
-msgstr "To Be Invoiced"
+msgstr "待开票"
 
 #. modules: fleet, account
 #: view:account.period:account.view_account_period_search
@@ -93889,7 +93889,7 @@ msgstr "待确认"
 #. module: mrp
 #: view:mrp.product.produce:mrp.view_mrp_product_produce_wizard
 msgid "To Consume"
-msgstr "To Consume"
+msgstr "待消耗"
 
 #. module: hr_holidays
 #: field:hr.employee,leave_date_to:0
@@ -93899,7 +93899,7 @@ msgstr "到 日期"
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
 msgid "To Date:"
-msgstr "To Date:"
+msgstr "到 日期："
 
 #. modules: crm, sale, hr_evaluation, base, marketing_campaign, stock
 #: view:ir.actions.todo:base.config_wizard_step_view_search
@@ -93931,7 +93931,7 @@ msgstr "待开票"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
 msgid "To Pay"
-msgstr "支付"
+msgstr "待支付"
 
 #. module: gamification
 #: field:gamification.goal,target_goal:0
@@ -93941,7 +93941,7 @@ msgstr "To Reach"
 #. module: mail
 #: view:mail.message:mail.view_message_search
 msgid "To Read"
-msgstr "阅读"
+msgstr "待阅读"
 
 #. module: crm_partner_assign
 #: model:crm.case.stage,name:crm_partner_assign.stage_portal_lead_recycle
@@ -93966,7 +93966,7 @@ msgstr "待复核"
 #. module: hr_holidays
 #: selection:hr.holidays,state:0
 msgid "To Submit"
-msgstr "提交"
+msgstr "待提交"
 
 #. module: base
 #: selection:ir.translation,state:0
@@ -94109,14 +94109,14 @@ msgstr ""
 #: field:mail.compose.message,to_read:0 field:mail.message,to_read:0
 #: field:survey.mail.compose.message,to_read:0
 msgid "To read"
-msgstr "To read"
+msgstr "待阅读"
 
 #. module: account
 #: code:addons/account/account_move_line.py:887
 #: code:addons/account/account_move_line.py:945
 #, python-format
 msgid "To reconcile the entries company should be the same for all entries."
-msgstr "整个公司的帐目关联是一样的。"
+msgstr "To reconcile the entries company should be the same for all entries."
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:399
@@ -94421,12 +94421,12 @@ msgstr "总额合计"
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,total_attendance:0
 msgid "Total Attendance"
-msgstr "考勤合计"
+msgstr "出勤合计"
 
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet.day:hr_timesheet_sheet.hr_timesheet_day_tree
 msgid "Total Attendances"
-msgstr "工作时长"
+msgstr "出勤合计"
 
 #. module: hr_payroll
 #: field:hr.employee,total_wage:0
@@ -94582,7 +94582,7 @@ msgstr "Total Revenue"
 #: view:sale.order:sale.view_order_tree
 #: view:sale.order:sale.view_quotation_tree
 msgid "Total Tax Included"
-msgstr "含税总总额"
+msgstr "含税总额合计"
 
 #. modules: project, hr_timesheet_sheet, account_analytic_analysis
 #: field:account_analytic_analysis.summary.month,unit_amount:0
@@ -94590,7 +94590,7 @@ msgstr "含税总总额"
 #: field:hr_timesheet_sheet.sheet.account,total:0
 #: field:project.project,total_hours:0
 msgid "Total Time"
-msgstr "总时间"
+msgstr "时间合计"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,total_timesheet:0
@@ -94829,7 +94829,7 @@ msgstr "Total routes"
 #. module: hr_timesheet
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_tree
 msgid "Total time"
-msgstr "总时间"
+msgstr "时间合计"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,toinvoice_total:0
@@ -106385,12 +106385,12 @@ msgstr ""
 #. module: gamification
 #: view:gamification.badge:gamification.badge_kanban_view
 msgid "this month"
-msgstr "this month"
+msgstr "本月"
 
 #. module: event
 #: view:event.event:event.view_event_kanban
 msgid "ticket"
-msgstr "入场券"
+msgstr "门票券"
 
 #. module: event
 #: view:event.event:event.view_event_kanban
@@ -106446,7 +106446,7 @@ msgstr "to create your first event."
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:43
 #, python-format
 msgid "to reconcile"
-msgstr "调节"
+msgstr "待调节"
 
 #. module: hr_gamification
 #: view:hr.employee:hr_gamification.hr_hr_employee_view_form
