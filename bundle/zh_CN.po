@@ -177,7 +177,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-03 09:47+0000\n"
-"PO-Revision-Date: 2015-05-04 21:12+0800\n"
+"PO-Revision-Date: 2015-05-04 21:24+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -16091,7 +16091,7 @@ msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                创建一个库存移动。\n"
 "              </p><p>\n"
-"                此菜单给你在一个特定产品上面的库存操作的完整的可追溯性。\n"
+"                此菜单给你在一个特定产品上面的存货作业的完整的可追溯性。\n"
 "                你能筛选该产品，查看该产品所有已经发生和未发生的移库。\n"
 "              </p>\n"
 "            "
@@ -17125,10 +17125,10 @@ msgid ""
 "            "
 msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
-"                单击开始一次盘点。\n"
+"                单击开始一次盘存。\n"
 "              </p><p>\n"
-"                定期盘点通常用于清点每个库位的商品数量。你可以每年定期使用本"
-"功能一次来做总体盘点，也可以在任何你需要的时候进行以便符合当前某个产品的存量"
+"                定期盘存通常用于清点每个库位的商品数量。你可以每年定期使用本"
+"功能一次来做总体盘存，也可以在任何你需要的时候进行以便符合当前某个产品的存量"
 "级别。\n"
 "              </p>\n"
 "            "
@@ -28439,7 +28439,7 @@ msgstr "取消安装"
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 msgid "Cancel Inventory"
-msgstr "取消盘点"
+msgstr "取消盘存"
 
 #. modules: account_cancel, account
 #: view:account.invoice:account.invoice_form
@@ -35049,7 +35049,7 @@ msgstr "已创建菜单"
 #. module: stock
 #: field:stock.inventory,move_ids:0
 msgid "Created Moves"
-msgstr "已创建库存移动"
+msgstr "已创建移动"
 
 #. module: stock
 #: field:stock.warehouse.orderpoint,procurement_ids:0
@@ -36342,7 +36342,7 @@ msgstr "当前折旧"
 #: model:ir.actions.act_window,name:stock_account.action_history_tree
 #: model:ir.ui.menu,name:stock_account.menu_action_history_tree
 msgid "Current Inventory Valuation"
-msgstr "当前库存计价"
+msgstr "当前存货计价"
 
 #. module: hr_holidays
 #: field:hr.employee,current_leave_state:0
@@ -37386,7 +37386,7 @@ msgstr "折旧日期"
 #. module: stock
 #: field:report.stock.lines.date,date:0
 msgid "Date of latest Inventory"
-msgstr "最近盘点时间"
+msgstr "最近盘存时间"
 
 #. module: stock
 #: field:report.stock.lines.date,move_date:0
@@ -37657,18 +37657,18 @@ msgstr "日期"
 #. module: stock
 #: view:report.stock.lines.date:stock.report_stock_lines_date_tree
 msgid "Dates of Inventories"
-msgstr "盘点日期"
+msgstr "盘存日期"
 
 #. module: stock
 #: view:report.stock.lines.date:stock.report_stock_lines_date_form
 #: view:report.stock.lines.date:stock.report_stock_lines_date_search
 msgid "Dates of Inventories & Moves"
-msgstr "盘点与移动时间"
+msgstr "盘存与移动时间"
 
 #. module: stock
 #: model:ir.model,name:stock.model_report_stock_lines_date
 msgid "Dates of Inventories and latest Moves"
-msgstr "盘点及最近移动时间"
+msgstr "盘存及最近移动时间"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_sale_order_dates
@@ -49256,7 +49256,7 @@ msgstr "帮助你管理你的人力资源。输入员工架构，生成工作计
 msgid ""
 "Helps you manage your inventory and main stock operations: delivery orders, "
 "receptions, etc."
-msgstr "帮助您管理库存与仓库相关操作：发货单、收货单等"
+msgstr "帮助您管理你的存货以及主要的库存作业：交货单、收货单等"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_manufacturing
@@ -50464,7 +50464,7 @@ msgstr "INV:"
 #: code:addons/stock/wizard/stock_change_product_qty.py:97
 #, python-format
 msgid "INV: %s"
-msgstr "盘点:%s"
+msgstr "盘存:%s"
 
 #. module: point_of_sale
 #: field:pos.config,proxy_ip:0
@@ -53631,37 +53631,37 @@ msgstr "无效的视图定义"
 #. module: stock
 #: field:stock.inventory,location_id:0
 msgid "Inventoried Location"
-msgstr "已盘点库位"
+msgstr "已盘存库位"
 
 #. module: stock
 #: field:stock.inventory,lot_id:0
 msgid "Inventoried Lot/Serial Number"
-msgstr "已盘点批次/序列号"
+msgstr "已盘存批次/序列号"
 
 #. module: stock
 #: field:stock.inventory,partner_id:0
 msgid "Inventoried Owner"
-msgstr "已盘点所有者"
+msgstr "已盘存所有者"
 
 #. module: stock
 #: field:stock.inventory,package_id:0
 msgid "Inventoried Pack"
-msgstr "已盘点包裹"
+msgstr "已盘存包裹"
 
 #. module: stock
 #: field:stock.inventory,product_id:0
 msgid "Inventoried Product"
-msgstr "已盘点产品"
+msgstr "已盘存产品"
 
 #. module: stock
 #: field:stock.inventory,line_ids:0
 msgid "Inventories"
-msgstr "盘点"
+msgstr "盘存"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_filter
 msgid "Inventories Month"
-msgstr "盘点月份"
+msgstr "盘存月份"
 
 #. modules: product, stock_account, stock
 #: view:product.template:product.product_template_form_view
@@ -53671,84 +53671,84 @@ msgstr "盘点月份"
 #: field:stock.move,inventory_id:0 view:website:stock.report_inventory
 #: model:ir.model,name:stock_account.model_stock_inventory
 msgid "Inventory"
-msgstr "库存"
+msgstr "存货"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 msgid "Inventory Adjustment"
-msgstr "库存调整"
+msgstr "存货调整"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_inventory_form
 #: model:ir.ui.menu,name:stock.menu_action_inventory_form
 #: view:stock.inventory:stock.view_inventory_form
 msgid "Inventory Adjustments"
-msgstr "库存调整"
+msgstr "存货调整"
 
 #. modules: base, stock
 #: model:ir.module.category,name:base.module_category_generic_modules_inventory_control
 #: model:ir.ui.menu,name:stock.menu_stock_inventory_control
 msgid "Inventory Control"
-msgstr "盘点控制"
+msgstr "存货控制"
 
 #. module: stock
 #: field:stock.inventory,date:0
 msgid "Inventory Date"
-msgstr "盘点单时间"
+msgstr "盘存时间"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 #: view:stock.transfer_details:stock.view_stock_enter_transfer_details
 msgid "Inventory Details"
-msgstr "盘点单明细"
+msgstr "盘存明细"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_inventory_line
 msgid "Inventory Line"
-msgstr "盘点表明细"
+msgstr "盘存明细"
 
 #. module: stock
 #: help:stock.inventory,line_ids:0
 msgid "Inventory Lines."
-msgstr "盘点单明细行。"
+msgstr "盘存明细行。"
 
 #. module: stock
 #: field:product.template,property_stock_inventory:0
 msgid "Inventory Location"
-msgstr "盘点库位"
+msgstr "存货库位"
 
 #. modules: stock_account, stock
 #: model:ir.model,name:stock.model_stock_location
 #: model:ir.model,name:stock_account.model_stock_location
 msgid "Inventory Locations"
-msgstr "盘点库位"
+msgstr "存货库位"
 
 #. module: mrp_repair
 #: field:mrp.repair.line,move_id:0
 msgid "Inventory Move"
-msgstr "盘点移动"
+msgstr "存货移动"
 
 #. module: stock
 #: help:stock.inventory,move_ids:0
 msgid "Inventory Moves."
-msgstr "盘点移动"
+msgstr "盘存移动"
 
 #. module: stock
 #: help:stock.inventory,name:0
 msgid "Inventory Name."
-msgstr "盘点名称"
+msgstr "盘存名称"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_filter
 #: field:stock.inventory,name:0
 msgid "Inventory Reference"
-msgstr "盘点参考"
+msgstr "盘存参考"
 
 #. modules: sale_stock, stock
 #: model:ir.model,name:sale_stock.model_stock_location_route
 #: model:ir.model,name:stock.model_stock_location_route
 msgid "Inventory Routes"
-msgstr "库存路线"
+msgstr "存货路线"
 
 #. module: stock_account
 #: view:product.template:stock_account.view_template_property_form
@@ -53759,7 +53759,7 @@ msgstr "存货计价"
 #. modules: stock_account, stock
 #: field:stock.quant,inventory_value:0 field:stock.history,inventory_value:0
 msgid "Inventory Value"
-msgstr "库存价值"
+msgstr "存货价值"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
@@ -53773,18 +53773,18 @@ msgstr ""
 #. module: stock
 #: model:stock.location,name:stock.location_inventory
 msgid "Inventory loss"
-msgstr "盘点盈亏"
+msgstr "存货盈亏"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 #: field:stock.inventory,filter:0
 msgid "Inventory of"
-msgstr "盘点"
+msgstr "盘存"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_stock
 msgid "Inventory, Logistic, Storage"
-msgstr "库存，物流，存储"
+msgstr "存货，物流，存储"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_account
@@ -58705,7 +58705,7 @@ msgstr "批次条码"
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_tree
 msgid "Lot Inventory"
-msgstr "批次盘点"
+msgstr "批次盘存"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
@@ -59271,7 +59271,7 @@ msgstr "管理产品的属性"
 #. module: stock
 #: model:res.groups,name:stock.group_adv_location
 msgid "Manage Push and Pull inventory flows"
-msgstr "管理推和拉的库存流程"
+msgstr "管理推和拉的存货流程"
 
 #. module: mrp
 #: model:res.groups,name:mrp.group_mrp_routings
@@ -61185,7 +61185,7 @@ msgstr ""
 #. module: stock
 #: model:ir.model,name:stock.model_stock_warehouse_orderpoint
 msgid "Minimum Inventory Rule"
-msgstr "最小库存规则"
+msgstr "最小存货规则"
 
 #. module: stock
 #: field:stock.warehouse.orderpoint,product_min_qty:0
@@ -67635,7 +67635,7 @@ msgstr "Output DPI"
 #. module: stock
 #: field:stock.warehouse,wh_output_stock_loc_id:0
 msgid "Output Location"
-msgstr "出货库存"
+msgstr "出货库位"
 
 #. module: hr_evaluation
 #: field:hr.evaluation.report,rating:0
@@ -80531,7 +80531,7 @@ msgstr "搜索接收邮件服务器"
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_filter
 msgid "Search Inventory"
-msgstr "查询盘点"
+msgstr "查询存货"
 
 #. module: account
 #: view:account.invoice:account.view_account_invoice_filter
@@ -85439,12 +85439,12 @@ msgstr "Stock Input Account"
 #. module: stock
 #: view:website:stock.report_inventory
 msgid "Stock Inventory"
-msgstr "库存盘点"
+msgstr "库存存货"
 
 #. module: stock
 #: view:stock.inventory.line:stock.stock_inventory_line_tree
 msgid "Stock Inventory Lines"
-msgstr "库存盘点明细"
+msgstr "库存盘存明细"
 
 #. modules: stock_dropshipping, stock_account
 #: model:ir.model,name:stock_account.model_stock_invoice_onshipping
@@ -85534,7 +85534,7 @@ msgstr "库存作业"
 #: field:product.category,property_stock_account_output_categ:0
 #: field:product.template,property_stock_account_output:0
 msgid "Stock Output Account"
-msgstr "Stock Output Account"
+msgstr "库存出库科目"
 
 #. modules: warning, stock
 #: field:stock.pack.operation,picking_id:0 field:res.partner,picking_warn:0
@@ -90838,7 +90838,9 @@ msgid ""
 "payments. We suggest you to control the opening balance of each register, "
 "using their CashBox tab."
 msgstr ""
-"系统将打开所用钱箱，以便开始收银。我们建议你在钱箱标签页盘点一下期初现金。"
+"The system will open all cash registers, so that you can start recording "
+"payments. We suggest you to control the opening balance of each register, "
+"using their CashBox tab."
 
 #. module: base_import
 #. openerp-web
@@ -93099,7 +93101,7 @@ msgid ""
 "This stock location will be used, instead of the default one, as the source "
 "location for stock moves generated when you do an inventory."
 msgstr ""
-"该库位将被使用以替换默认的，同样当你做盘点时，库存移动的源库位将被生成。"
+"该库位将被使用以替换默认的，同样当你做盘存时，库存移动的源库位将被生成。"
 
 #. module: product
 #: help:product.supplierinfo,product_code:0
@@ -97941,7 +97943,7 @@ msgstr "Validate Closing & Post Entries"
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 msgid "Validate Inventory"
-msgstr "确认盘点"
+msgstr "确认盘存"
 
 #. modules: website_sale, website_quote
 #: view:website:website_quote.so_quotation view:website:website_sale.payment
