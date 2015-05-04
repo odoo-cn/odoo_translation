@@ -79,7 +79,9 @@ hierarchy|层级|
 holiday|假期|
 ID|ID| 不作翻译
 Income|收入|
+incoming shippment|进来的货运|
 incoming|进来的|
+input|收货|
 inventory|库存、盘点|
 invoice|发票、开票|
 invoicing|开票|
@@ -112,7 +114,9 @@ number|号码、数字|
 opening|开帐|
 open|打开|
 Operation|作业|
+outgoing shippment|出去的货运|
 outgoing|出去的|
+output|发货|
 owner|所有者|
 Package|包裹|
 packaging|包装|
@@ -171,6 +175,7 @@ shipping|发货|
 source document|源单据|
 source|源|
 Standard price|标准价格|
+statement|结算单、报告|
 Stock journal|库存分类账|
 stock move| 库存移动|
 stock| 库存 |
@@ -208,6 +213,8 @@ work|工作|
 2|# 开头|# entries | # 符号要保留|
 3|% 包围|%(bank_name)s: %(acc_number)s|不作翻译|
 4|Gives the sequence order when|Gives the sequence order when displaying a list of Projects.|按序列顺序显示项目列表 【当显示项目列表时，给出序列顺序】|
+5|Click here to |Click here to access the post.|点击这儿访问帖子||
+
 
 
 
