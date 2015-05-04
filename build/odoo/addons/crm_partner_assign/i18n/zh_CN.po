@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:44+0000\n"
-"PO-Revision-Date: 2015-04-29 21:44+0000\n"
+"POT-Creation-Date: 2015-05-03 21:08+0000\n"
+"PO-Revision-Date: 2015-05-03 21:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -199,7 +199,7 @@ msgstr "归类"
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,date_closed:0
 msgid "Close Date"
-msgstr "结束日期"
+msgstr "关闭日期"
 
 #. module: crm_partner_assign
 #: field:crm.lead.channel.interested,comment:0
@@ -353,7 +353,7 @@ msgstr "预计收益"
 #. module: crm_partner_assign
 #: view:crm.lead.report.assign:crm_partner_assign.view_report_crm_lead_assign_filter
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: crm_partner_assign
 #: field:crm.lead.forward.to.partner,partner_id:0
@@ -604,12 +604,12 @@ msgstr "业务开启的天数"
 #. module: crm_partner_assign
 #: view:crm.lead.channel.interested:crm_partner_assign.crm_lead_channel_interested_form
 msgid "Once the lead is processed, it will be in your \"Opportunities\" menu."
-msgstr "Once the lead is processed, it will be in your \"Opportunities\" menu."
+msgstr "当线索被处理，它将在 \"机会\" 菜单中显示."
 
 #. module: crm_partner_assign
 #: field:crm.lead.report.assign,opening_date:0
 msgid "Opening Date"
-msgstr "开启日期"
+msgstr "开张日期"
 
 #. module: crm_partner_assign
 #: model:ir.actions.act_window,name:crm_partner_assign.action_report_crm_opportunity_assign

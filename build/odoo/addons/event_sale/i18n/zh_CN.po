@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:46+0000\n"
-"PO-Revision-Date: 2015-04-29 21:46+0000\n"
+"POT-Creation-Date: 2015-05-03 21:11+0000\n"
+"PO-Revision-Date: 2015-05-03 21:11+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -59,7 +59,7 @@ msgstr "Badge Innner Left"
 #. module: event_sale
 #: help:sale.order.line,event_id:0
 msgid "Choose an event and it will automatically create a registration for this event."
-msgstr "选择活动"
+msgstr "选译活动，它将自动创建该活动的登记"
 
 #. module: event_sale
 #: help:sale.order.line,event_ticket_id:0
@@ -211,7 +211,7 @@ msgstr "登记记录"
 #. module: event_sale
 #: field:event.event.ticket,seats_reserved:0
 msgid "Reserved Seats"
-msgstr "预留的座位"
+msgstr "保留的座位"
 
 #. module: event_sale
 #: field:event.event.ticket,deadline:0
@@ -226,7 +226,7 @@ msgstr "销售订单明细"
 #. module: event_sale
 #: help:product.template,event_type_id:0
 msgid "Select event types so when we use this product in sales order lines, it will filter events of this type only."
-msgstr "选择事件类型，因此当我们在销售订单行使用这个产品时，只有这个类型的事件被过滤。"
+msgstr "选择事件类型，因此当我们在销售订单行使用这个产品时，只有这个类型的事件被筛选。"
 
 #. module: event_sale
 #: view:website:event_sale.report_registrationbadge
@@ -254,12 +254,12 @@ msgstr "The registration has been created for event <i>%s</i> with the ticket <i
 #. module: event_sale
 #: view:event.registration:event_sale.view_event_registration_ticket_search
 msgid "Ticket Type"
-msgstr "Ticket Type"
+msgstr "门票类型"
 
 #. module: event_sale
 #: view:event.event:event_sale.view_event_form
 msgid "Ticket Types"
-msgstr "Ticket Types"
+msgstr "门票类型"
 
 #. module: event_sale
 #: field:product.template,event_type_id:0

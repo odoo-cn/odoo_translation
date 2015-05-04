@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:16+0000\n"
-"PO-Revision-Date: 2015-04-29 22:16+0000\n"
+"POT-Creation-Date: 2015-05-03 21:32+0000\n"
+"PO-Revision-Date: 2015-05-03 21:32+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -76,12 +76,12 @@ msgstr "已获得共享文档的访问权限"
 #: code:addons/share/wizard/share_wizard.py:647
 #, python-format
 msgid "Action and Access Mode are required to create a shared access."
-msgstr "操作和访问模式都需要要创建一个共享入口。"
+msgstr "动作和访问模式需要用来创建一个共享入口。"
 
 #. module: share
 #: field:share.wizard,action_id:0
 msgid "Action to share"
-msgstr "共享操作"
+msgstr "要共享的动作"
 
 #. module: share
 #: view:share.wizard:share.share_step2_form
@@ -122,7 +122,7 @@ msgstr "编码"
 #. module: share
 #: view:share.wizard:share.share_step1_form
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:498
@@ -214,7 +214,7 @@ msgstr "创建你只用来共享数据的有限访问外部用户。"
 #. module: share
 #: help:res.groups,share:0
 msgid "Group created to set access rights for sharing data with some users."
-msgstr "为设置一些用户的共享数据访问权限所建立的用户组"
+msgstr "为配置一些用户的共享数据访问权限所建立的用户组"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:828
@@ -535,7 +535,7 @@ msgstr "这操作是打开包含要共享数据的视图。"
 #: code:addons/share/wizard/share_wizard.py:851
 #, python-format
 msgid "The current user must have an email address configured in User Preferences to be able to send outgoing emails."
-msgstr "当前用户必须有一个电子邮件地址，设置在用户首选项的电子邮件发送地址。"
+msgstr "当前用户必须有一个电子邮件地址，配置在用户首选项的电子邮件发送地址。"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:833

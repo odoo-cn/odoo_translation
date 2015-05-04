@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:17+0000\n"
-"PO-Revision-Date: 2015-04-29 22:17+0000\n"
+"POT-Creation-Date: 2015-05-03 21:33+0000\n"
+"PO-Revision-Date: 2015-05-03 21:33+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -71,19 +71,19 @@ msgstr "取消"
 #. module: stock_account
 #: view:stock.change.standard.price:stock_account.view_change_standard_price
 msgid "Change Price"
-msgstr "Change Price"
+msgstr "更改价格"
 
 #. module: stock_account
 #: model:ir.actions.act_window,name:stock_account.action_view_change_standard_price
 #: model:ir.model,name:stock_account.model_stock_change_standard_price
 #: view:stock.change.standard.price:stock_account.view_change_standard_price
 msgid "Change Standard Price"
-msgstr "Change Standard Price"
+msgstr "更改标准价格"
 
 #. module: stock_account
 #: field:wizard.valuation.history,choose_date:0
 msgid "Choose a Particular Date"
-msgstr "Choose a Particular Date"
+msgstr "选择一个特定日期"
 
 #. module: stock_account
 #: help:stock.inventory,period_id:0
@@ -104,7 +104,7 @@ msgstr "Choose the date for which you want to get the stock valuation of your pr
 #. module: stock_account
 #: view:wizard.valuation.history:stock_account.view_wizard_valuation_history
 msgid "Choose your date"
-msgstr "Choose your date"
+msgstr "选择你的日期"
 
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_search
@@ -176,7 +176,7 @@ msgstr "创建于"
 #: model:ir.actions.act_window,name:stock_account.action_history_tree
 #: model:ir.ui.menu,name:stock_account.menu_action_history_tree
 msgid "Current Inventory Valuation"
-msgstr "当前库存估算"
+msgstr "当前存货计价"
 
 #. module: stock_account
 #: field:wizard.valuation.history,date:0
@@ -186,7 +186,7 @@ msgstr "日期"
 #. module: stock_account
 #: field:stock.invoice.onshipping,journal_id:0
 msgid "Destination Journal"
-msgstr "目标分类账"
+msgstr "目标日记账"
 
 #. module: stock_account
 #: code:addons/stock_account/product.py:83
@@ -199,7 +199,7 @@ msgstr "Error!"
 #. module: stock_account
 #: field:stock.inventory,period_id:0
 msgid "Force Valuation Period"
-msgstr "Force Valuation Period"
+msgstr "强制计价期间"
 
 #. module: stock_account
 #: field:stock.config.settings,group_stock_inventory_valuation:0
@@ -244,23 +244,23 @@ msgstr "Install the module that allows to affect landed costs on pickings, and s
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_inventory
 msgid "Inventory"
-msgstr "库存"
+msgstr "存货"
 
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_location
 msgid "Inventory Locations"
-msgstr "盘点库位"
+msgstr "存货库位"
 
 #. module: stock_account
 #: view:product.template:stock_account.view_template_property_form
 #: field:product.template,valuation:0
 msgid "Inventory Valuation"
-msgstr "库存估值"
+msgstr "存货计价"
 
 #. module: stock_account
 #: field:stock.history,inventory_value:0
 msgid "Inventory Value"
-msgstr "库存价值"
+msgstr "存货价值"
 
 #. module: stock_account
 #: field:procurement.order,invoice_state:0
@@ -297,7 +297,7 @@ msgstr "开票"
 #. module: stock_account
 #: field:stock.invoice.onshipping,journal_type:0
 msgid "Journal Type"
-msgstr "分录账类型"
+msgstr "日记账类型"
 
 #. module: stock_account
 #: field:stock.change.standard.price,write_uid:0
@@ -322,7 +322,7 @@ msgstr "位置"
 #. module: stock_account
 #: model:res.groups,name:stock_account.group_inventory_valuation
 msgid "Manage Inventory Valuation and Costing Methods"
-msgstr "Manage Inventory Valuation and Costing Methods"
+msgstr "管理存货计价和成本方法"
 
 #. module: stock_account
 #: view:stock.history:stock_account.view_stock_history_report_search
@@ -371,12 +371,12 @@ msgid "One of the following information is missing on the product or product cat
 "    Stock Valuation Account: %s\n"
 "    Stock Journal: %s\n"
 "    "
-msgstr "One of the following information is missing on the product or product category and prevents the accounting valuation entries to be created:\n"
-"    Product: %s\n"
-"    Stock Input Account: %s\n"
-"    Stock Output Account: %s\n"
-"    Stock Valuation Account: %s\n"
-"    Stock Journal: %s\n"
+msgstr "产品或产品分类的一些信息缺失，导致会计计价分录不能创建：\n"
+"    产品: %s\n"
+"    库存入库科目: %s\n"
+"    库存出库科目: %s\n"
+"    库存计价科目: %s\n"
+"    库存日记账: %s\n"
 "    "
 
 #. module: stock_account
@@ -512,7 +512,7 @@ msgstr "Stock Input Account"
 #. module: stock_account
 #: model:ir.model,name:stock_account.model_stock_invoice_onshipping
 msgid "Stock Invoice Onshipping"
-msgstr "Stock Invoice Onshipping"
+msgstr "发货时进行库存开票"
 
 #. module: stock_account
 #: model:account.journal,name:stock_account.stock_journal
@@ -530,28 +530,28 @@ msgstr "库存移动"
 #: field:product.category,property_stock_account_output_categ:0
 #: field:product.template,property_stock_account_output:0
 msgid "Stock Output Account"
-msgstr "Stock Output Account"
+msgstr "库存出库科目"
 
 #. module: stock_account
 #: model:ir.actions.act_window,name:stock_account.action_wizard_stock_valuation_history
 #: model:ir.ui.menu,name:stock_account.menu_action_wizard_valuation_history
 msgid "Stock Valuation"
-msgstr "库存估价"
+msgstr "库存计价"
 
 #. module: stock_account
 #: field:product.category,property_stock_valuation_account_id:0
 msgid "Stock Valuation Account"
-msgstr "库存估价科目"
+msgstr "库存计价科目"
 
 #. module: stock_account
 #: field:stock.location,valuation_in_account_id:0
 msgid "Stock Valuation Account (Incoming)"
-msgstr "库存估价科目（进）"
+msgstr "库存计价科目（进）"
 
 #. module: stock_account
 #: field:stock.location,valuation_out_account_id:0
 msgid "Stock Valuation Account (Outgoing)"
-msgstr "库存估价科目（出）"
+msgstr "库存计价科目（出）"
 
 #. module: stock_account
 #: code:addons/stock_account/wizard/stock_valuation_history.py:30
@@ -576,7 +576,7 @@ msgstr "This allows to automatically launch the invoicing wizard if the delivery
 #: selection:stock.move,invoice_state:0
 #: selection:stock.picking,invoice_state:0
 msgid "To Be Invoiced"
-msgstr "To Be Invoiced"
+msgstr "待开票"
 
 #. module: stock_account
 #: selection:stock.return.picking,invoice_state:0

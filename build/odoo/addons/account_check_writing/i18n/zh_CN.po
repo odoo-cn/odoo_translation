@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:36+0000\n"
-"PO-Revision-Date: 2015-04-29 21:36+0000\n"
+"POT-Creation-Date: 2015-05-03 20:59+0000\n"
+"PO-Revision-Date: 2015-05-03 20:59+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "顶部的支票与Quicken, QuickBooks 和 Microsoft Money兼容。中间
 #. module: account_check_writing
 #: help:account.journal,allow_check_writing:0
 msgid "Check this if the journal is to be used for writing checks."
-msgstr "如果这个分类账用于写支票，请勾选这里。"
+msgstr "如果这个日记账用于写支票，请勾选这里。"
 
 #. module: account_check_writing
 #: model:ir.model,name:account_check_writing.model_res_company
@@ -149,7 +149,7 @@ msgstr "标识"
 #. module: account_check_writing
 #: model:ir.model,name:account_check_writing.model_account_journal
 msgid "Journal"
-msgstr "分类账"
+msgstr "日记账"
 
 #. module: account_check_writing
 #: field:account.check.write,write_uid:0
@@ -164,7 +164,7 @@ msgstr "最后更新"
 #. module: account_check_writing
 #: field:account.check.write,check_number:0
 msgid "Next Check Number"
-msgstr "下一个支票号"
+msgstr "下一支票号"
 
 #. module: account_check_writing
 #: code:addons/account_check_writing/account_voucher.py:77
@@ -181,7 +181,7 @@ msgstr "打印的支票已经获得一个号码"
 #. module: account_check_writing
 #: view:website:account_check_writing.report_check
 msgid "Open Balance"
-msgstr "期初余额"
+msgstr "开帐余额"
 
 #. module: account_check_writing
 #: view:website:account_check_writing.report_check

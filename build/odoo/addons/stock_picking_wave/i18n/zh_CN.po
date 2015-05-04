@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:19+0000\n"
-"PO-Revision-Date: 2015-04-29 22:19+0000\n"
+"POT-Creation-Date: 2015-05-03 21:33+0000\n"
+"PO-Revision-Date: 2015-05-03 21:33+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -66,7 +66,7 @@ msgstr "取消"
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
 msgid "Cancel picking"
-msgstr "取消捡货"
+msgstr "取消分拣"
 
 #. module: stock_picking_wave
 #: selection:stock.picking.wave,state:0

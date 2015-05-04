@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:12+0000\n"
-"PO-Revision-Date: 2015-04-29 22:12+0000\n"
+"POT-Creation-Date: 2015-05-03 21:30+0000\n"
+"PO-Revision-Date: 2015-05-03 21:30+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -209,7 +209,7 @@ msgid "* The 'Draft' status is set when the related sales order in draft status.
 "* The 'Exception' status is set when the related sales order is set as exception.                     \n"
 "* The 'Done' status is set when the sales order line has been picked.                     \n"
 "* The 'Cancelled' status is set when a user cancel the sales order related."
-msgstr "*一个销售定单是草稿的时候，设置为“草稿”状态\n"
+msgstr "*一个销售定单是草稿的时候，配置为“草稿”状态\n"
 "*销售定被用户确认后，状态切换为“已经确认”。\n"
 "*销售订单发生异常时（发货被取消等），状态为“异常”。\n"
 "*当销售订单收货以后，状态变成“完成”。\n"
@@ -397,7 +397,7 @@ msgstr "允许在线报价单及模版"
 #. module: sale
 #: field:sale.config.settings,group_discount_per_so_line:0
 msgid "Allow setting a discount on the sales order lines"
-msgstr "允许逐行设置折扣"
+msgstr "允许逐行配置折扣"
 
 #. module: sale
 #: help:sale.config.settings,module_warning:0
@@ -525,7 +525,7 @@ msgstr "取消"
 #. module: sale
 #: view:sale.order.line:sale.view_order_line_form2
 msgid "Cancel Line"
-msgstr "取消"
+msgstr "取消明细"
 
 #. module: sale
 #: view:sale.order:sale.view_order_form
@@ -568,7 +568,7 @@ msgstr "找不到匹配这个产品和数量的价格表。\n"
 #: view:sale.report:sale.view_order_product_search
 #: field:sale.report,categ_id:0
 msgid "Category of Product"
-msgstr "产品分类"
+msgstr "产品类别"
 
 #. module: sale
 #: help:sale.make.invoice,grouped:0
@@ -852,7 +852,7 @@ msgstr "草稿"
 #. module: sale
 #: selection:sale.order,state:0
 msgid "Draft Quotation"
-msgstr "报价单草稿"
+msgstr "草稿报价单"
 
 #. module: sale
 #: code:addons/sale/edi/sale_order.py:140
@@ -956,7 +956,7 @@ msgstr "基于销售订单行生成发票"
 #. module: sale
 #: help:sale.order.line,sequence:0
 msgid "Gives the sequence order when displaying a list of sales order lines."
-msgstr "给出订单行列表显示的排列顺序"
+msgstr "按序列顺序显示销售订单明细列表"
 
 #. module: sale
 #: help:sale.order,state:0
@@ -964,8 +964,8 @@ msgid "Gives the status of the quotation or sales order.              \n"
 "The exception status is automatically set when a cancel operation occurs               in the invoice validation (Invoice Exception) or in the picking list process (Shipping Exception).\n"
 "The 'Waiting Schedule' status is set when the invoice is confirmed               but waiting for the scheduler to run on the order date."
 msgstr "产生报价单或者销售订单的状态。\n"
-"当发票核准时（开票异常）或者 拣货单 处理时（运输异常）发生了取消操作，设置了异常状态。\n"
-"当发票被确认，但是等待在 订单日期排期的时候，设置为 “等待排期\" 状态。"
+"当发票核准时（开票异常）或者 拣货单 处理时（运输异常）发生了取消操作，配置了异常状态。\n"
+"当发票被确认，但是等待在 订单日期排期的时候，配置为 “等待排期\" 状态。"
 
 #. module: sale
 #: view:sale.order:sale.view_sales_order_filter
@@ -1048,7 +1048,7 @@ msgstr "Invalid Action!"
 #: view:sale.order:sale.view_order_form
 #, python-format
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: sale
 #: field:sale.order,partner_invoice_id:0
@@ -1089,7 +1089,7 @@ msgstr "销售订单开票"
 #. module: sale
 #: field:crm.case.section,invoiced_target:0
 msgid "Invoice Target"
-msgstr "发票目标"
+msgstr "开票目标"
 
 #. module: sale
 #: help:sale.order,partner_invoice_id:0
@@ -1126,7 +1126,7 @@ msgstr "发票创建"
 #: code:addons/sale/sale.py:1243
 #, python-format
 msgid "Invoice paid"
-msgstr "发票已付清"
+msgstr "发票已付"
 
 #. module: sale
 #: selection:sale.advance.payment.inv,advance_payment_method:0
@@ -1277,21 +1277,21 @@ msgstr "旧的报价单"
 #. module: sale
 #: selection:sale.order,order_policy:0
 msgid "On Delivery Order"
-msgstr "根据发运单"
+msgstr "按发运单"
 
 #. module: sale
 #: selection:sale.order,order_policy:0
 msgid "On Demand"
-msgstr "需求"
+msgstr "按需"
 
 #. module: sale
 #: help:sale.order,order_policy:0
 msgid "On demand: A draft invoice can be created from the sales order when needed. \n"
 "On delivery order: A draft invoice can be created from the delivery order when the products have been delivered. \n"
 "Before delivery: A draft invoice is created from the sales order and must be paid before the products can be delivered."
-msgstr "立即:当需要时，从销售订单创建草稿发票。\n"
-"发运时：当有产品被发运时，从发运单创建草稿发票。\n"
-"发运前：从销售订单创建草稿发票，并且必须在产品发运前付款。"
+msgstr "按需:当需要时，从销售订单创建草稿发票。\n"
+"按交货单：当产品被交货后，从交货单创建草稿发票。\n"
+"交货前：从销售订单创建草稿发票，并且必须在产品交货前完成付款。"
 
 #. module: sale
 #: field:sale.config.settings,module_analytic_user_function:0
@@ -1301,7 +1301,7 @@ msgstr "每个合同里，一个员工能有不同的角色"
 #. module: sale
 #: model:ir.actions.client,name:sale.action_client_sale_menu
 msgid "Open Sale Menu"
-msgstr "打开销售订单"
+msgstr "打开销售菜单"
 
 #. module: sale
 #: view:sale.order.line:sale.view_sales_order_line_filter
@@ -1408,7 +1408,7 @@ msgstr "Please define income account for this product: \"%s\" (id:%d)."
 #: code:addons/sale/sale.py:394
 #, python-format
 msgid "Please define sales journal for this company: \"%s\" (id:%d)."
-msgstr "轻微公司 \"%s\" (id:%d) 定义销售分类账"
+msgstr "轻微公司 \"%s\" (id:%d) 定义销售日记账"
 
 #. module: sale
 #: field:sale.config.settings,timesheet:0
@@ -1829,7 +1829,7 @@ msgstr "查找未开票明细"
 #: help:sale.advance.payment.inv,product_id:0
 msgid "Select a product of type service which is called 'Advance Product'.\n"
 "                You may have to create it and set it as a default value on this field."
-msgstr "选择一个叫做“预付款产品”的服务类型的产品，。你可以在这个字段创建并且设置默认值。"
+msgstr "选择一个叫做“预付款产品”的服务类型的产品，。你可以在这个字段创建并且配置默认值。"
 
 #. module: sale
 #: view:sale.advance.payment.inv:sale.view_sale_advance_payment_inv
@@ -1950,7 +1950,7 @@ msgstr "税额。"
 #. module: sale
 #: help:sale.order,amount_total:0
 msgid "The total amount."
-msgstr "总总额。"
+msgstr "总额合计。"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:106
@@ -1974,7 +1974,7 @@ msgstr "There is no default company for the current user!"
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:96
 #, python-format
 msgid "There is no income account defined as global property."
-msgstr "没有收益科目定义为全局属性"
+msgstr "没有定义全局的收入科目。"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:100
@@ -2058,7 +2058,7 @@ msgstr "总价格"
 #: view:sale.order:sale.view_order_tree
 #: view:sale.order:sale.view_quotation_tree
 msgid "Total Tax Included"
-msgstr "含税总总额"
+msgstr "含税总额合计"
 
 #. module: sale
 #: view:website:sale.report_saleorder_document
@@ -2224,7 +2224,7 @@ msgstr "你不能对有不同货币结算的同一个业务伙伴的销售订单
 msgid "You have to select a pricelist or a customer in the sales form !\n"
 "Please set one before choosing a product."
 msgstr "你必须在销售界面选一个客户或价格表！\n"
-"请在选择产品前设置。"
+"请在选择产品前配置。"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice.py:55
@@ -2235,7 +2235,7 @@ msgstr "您不可以为下列销售订单 %s 手工开票"
 #. module: sale
 #: view:website:sale.report_saleorder_document
 msgid "Your Reference:"
-msgstr "Your Reference:"
+msgstr "您的参考："
 
 #. module: sale
 #: view:sale.advance.payment.inv:sale.view_sale_advance_payment_inv

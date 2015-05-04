@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:38+0000\n"
-"PO-Revision-Date: 2015-04-29 21:38+0000\n"
+"POT-Creation-Date: 2015-05-03 21:01+0000\n"
+"PO-Revision-Date: 2015-05-03 21:01+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -314,17 +314,12 @@ msgid "Once the end date of the contract is\n"
 "                                        reached, the account manager is notified \n"
 "                                        by email to renew the contract with the\n"
 "                                        customer."
-msgstr "Once the end date of the contract is\n"
-"                                        passed or the maximum number of service\n"
-"                                        units (e.g. support contract) is\n"
-"                                        reached, the account manager is notified \n"
-"                                        by email to renew the contract with the\n"
-"                                        customer."
+msgstr "当合同结束日期已过，或已达到最大服务次数（如支持合同）时，将通过电子邮件通知客户经理与客户续签合同。"
 
 #. module: analytic
 #: field:account.analytic.account,parent_id:0
 msgid "Parent Analytic Account"
-msgstr "上级辅助核算项"
+msgstr "上级分析账户"
 
 #. module: analytic
 #: field:account.analytic.account,quantity_max:0

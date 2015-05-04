@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:20+0000\n"
-"PO-Revision-Date: 2015-04-29 22:20+0000\n"
+"POT-Creation-Date: 2015-05-03 21:34+0000\n"
+"PO-Revision-Date: 2015-05-03 21:34+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -224,22 +224,22 @@ msgstr "取消"
 #. module: survey
 #: field:survey.survey,res_model:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: survey
 #: field:survey.mail.compose.message,child_ids:0
 msgid "Child Messages"
-msgstr "Child Messages"
+msgstr "子消息"
 
 #. module: survey
 #: view:website:survey.simple_choice
 msgid "Choose..."
-msgstr "Choose..."
+msgstr "选择..."
 
 #. module: survey
 #: view:website:survey.result
 msgid "Clear All Filters"
-msgstr "Clear All Filters"
+msgstr "清除所有筛选器"
 
 #. module: survey
 #: code:addons/survey/survey.py:141
@@ -302,7 +302,7 @@ msgstr "撰写电子邮件"
 #. module: survey
 #: field:survey.mail.compose.message,composition_mode:0
 msgid "Composition mode"
-msgstr "Composition mode"
+msgstr "撰写模式"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
@@ -935,13 +935,13 @@ msgstr "Occurence"
 #. module: survey
 #: selection:survey.question,matrix_subtype:0
 msgid "One choice per row"
-msgstr "One choice per row"
+msgstr "每行一个选择"
 
 #. module: survey
 #: code:addons/survey/wizard/survey_email_compose_message.py:95
 #, python-format
 msgid "One email at least is incorrect: %s"
-msgstr "One email at least is incorrect: %s"
+msgstr "最少有一个邮件是不正确的： %s"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
@@ -1534,13 +1534,13 @@ msgstr "This answer must be an email address"
 #: code:addons/survey/survey.py:742
 #, python-format
 msgid "This is not a date/time"
-msgstr "This is not a date/time"
+msgstr "这不是日期/时间"
 
 #. module: survey
 #: code:addons/survey/survey.py:719
 #, python-format
 msgid "This is not a number"
-msgstr "This is not a number"
+msgstr "这不是数字"
 
 #. module: survey
 #: help:survey.mail.compose.message,multi_email:0
@@ -1581,7 +1581,7 @@ msgstr "称谓"
 #. module: survey
 #: field:survey.mail.compose.message,to_read:0
 msgid "To read"
-msgstr "To read"
+msgstr "待阅读"
 
 #. module: survey
 #: view:website:survey.page
@@ -1771,7 +1771,7 @@ msgstr "或"
 #. module: survey
 #: view:website:survey.sfinished
 msgid "points."
-msgstr "points."
+msgstr "点"
 
 #. module: survey
 #: view:website:survey.sfinished

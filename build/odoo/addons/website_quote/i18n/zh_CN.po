@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:38+0000\n"
-"PO-Revision-Date: 2015-04-29 22:38+0000\n"
+"POT-Creation-Date: 2015-05-03 21:41+0000\n"
+"PO-Revision-Date: 2015-05-03 21:41+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -378,7 +378,7 @@ msgstr "标识"
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Incl. tax)"
-msgstr "Incl. tax)"
+msgstr "包含税金）"
 
 #. module: website_quote
 #: view:website:website_quote.navigation_menu
@@ -638,7 +638,7 @@ msgstr "税金"
 #. module: website_quote
 #: view:website:website_quote.pricing
 msgid "Taxes:"
-msgstr "税:"
+msgstr "税金:"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -752,27 +752,27 @@ msgstr "Your Contact:"
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Your Name:"
-msgstr "Your Name:"
+msgstr "您的姓名："
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Your Order"
-msgstr "Your Order"
+msgstr "您的订单"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Your Quotation"
-msgstr "Your Quotation"
+msgstr "您的报价"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Your Reference:"
-msgstr "Your Reference:"
+msgstr "您的参考："
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Your advantage:"
-msgstr "Your advantage:"
+msgstr "您的权益："
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -792,7 +792,7 @@ msgstr "and"
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "contact us"
-msgstr "contact us"
+msgstr "联系我们"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation

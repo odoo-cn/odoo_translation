@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:38+0000\n"
-"PO-Revision-Date: 2015-04-29 21:38+0000\n"
+"POT-Creation-Date: 2015-05-03 21:02+0000\n"
+"PO-Revision-Date: 2015-05-03 21:02+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr "服务"
 #: code:addons/analytic_user_function/analytic_user_function.py:138
 #, python-format
 msgid "There is no expense account defined for this product: \"%s\" (id:%d)"
-msgstr "There is no expense account defined for this product: \"%s\" (id:%d)"
+msgstr "产品 \"%s\" (id:%d)未定义费用科目"
 
 #. module: analytic_user_function
 #: model:ir.model,name:analytic_user_function.model_hr_analytic_timesheet

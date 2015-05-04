@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:52+0000\n"
-"PO-Revision-Date: 2015-04-29 21:52+0000\n"
+"POT-Creation-Date: 2015-05-03 21:15+0000\n"
+"PO-Revision-Date: 2015-05-03 21:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -149,7 +149,7 @@ msgstr "取消合同"
 #. module: hr_timesheet_invoice
 #: view:account.analytic.account:hr_timesheet_invoice.account_analytic_account_form_form
 msgid "Close Contract"
-msgstr "结束合同"
+msgstr "关闭合同"
 
 #. module: hr_timesheet_invoice
 #: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:222
@@ -344,7 +344,7 @@ msgstr "过期的分析账户"
 #. module: hr_timesheet_invoice
 #: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: hr_timesheet_invoice
 #: selection:report.account.analytic.line.to.invoice,month:0
@@ -427,7 +427,7 @@ msgstr "内部名称"
 #: model:ir.model,name:hr_timesheet_invoice.model_account_invoice
 #: view:report.timesheet.line:hr_timesheet_invoice.view_timesheet_line_search
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: hr_timesheet_invoice
 #: model:ir.model,name:hr_timesheet_invoice.model_hr_timesheet_invoice_factor
@@ -453,7 +453,7 @@ msgstr "基于计工单开票选项"
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
 msgid "Invoice rate by user"
-msgstr "用户的发票税率"
+msgstr "开票率，按用户"
 
 #. module: hr_timesheet_invoice
 #: field:account.analytic.line,to_invoice:0
@@ -501,12 +501,12 @@ msgstr "1"
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,journal_ids:0
 msgid "Journal"
-msgstr "分类账"
+msgstr "日记账"
 
 #. module: hr_timesheet_invoice
 #: model:ir.model,name:hr_timesheet_invoice.model_account_move_line
 msgid "Journal Items"
-msgstr "分类账项目"
+msgstr "日记账项目"
 
 #. module: hr_timesheet_invoice
 #: selection:report.account.analytic.line.to.invoice,month:0
@@ -731,7 +731,7 @@ msgstr "每个完成的工作将显示在发票上"
 #. module: hr_timesheet_invoice
 #: help:hr.timesheet.invoice.create.final,product:0
 msgid "The product that will be used to invoice the remaining amount"
-msgstr "将作为发票的剩余总额"
+msgstr "用来为剩余总额开票的产品"
 
 #. module: hr_timesheet_invoice
 #: help:account.analytic.account,pricelist_id:0
@@ -862,7 +862,7 @@ msgstr "每天计工单"
 #. module: hr_timesheet_invoice
 #: view:report_timesheet.invoice:hr_timesheet_invoice.view_timesheet_invoice_tree
 msgid "Timesheets to invoice"
-msgstr "给计工单开发票"
+msgstr "待开票的计工单"
 
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.analytic.profit,date_to:0
@@ -944,7 +944,7 @@ msgstr "用户"
 #. module: hr_timesheet_invoice
 #: view:website:hr_timesheet_invoice.report_analyticprofit
 msgid "User or Journal Name"
-msgstr "用户或者分类账名称"
+msgstr "用户或者日记账名称"
 
 #. module: hr_timesheet_invoice
 #: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_invoice_create.py:56

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:32+0000\n"
-"PO-Revision-Date: 2015-04-29 22:32+0000\n"
+"POT-Creation-Date: 2015-05-03 21:39+0000\n"
+"PO-Revision-Date: 2015-05-03 21:39+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -347,7 +347,7 @@ msgstr "Check available badges"
 #: model:gamification.badge,name:website_forum.badge_p_4
 #: model:gamification.challenge,name:website_forum.challenge_chief_commentator
 msgid "Chief Commentator"
-msgstr "Chief Commentator"
+msgstr "首席评论员"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
@@ -372,22 +372,22 @@ msgstr "关闭"
 #. module: website_forum
 #: field:forum.forum,karma_close_all:0
 msgid "Close all posts"
-msgstr "Close all posts"
+msgstr "关闭所有的帖子"
 
 #. module: website_forum
 #: field:forum.forum,karma_close_own:0
 msgid "Close its own posts"
-msgstr "Close its own posts"
+msgstr "关闭所属的帖子"
 
 #. module: website_forum
 #: view:website:website_forum.close_question
 msgid "Close question"
-msgstr "Close question"
+msgstr "关闭问题"
 
 #. module: website_forum
 #: field:forum.post,closed_uid:0
 msgid "Closed by"
-msgstr "Closed by"
+msgstr "关闭在"
 
 #. module: website_forum
 #: field:forum.post,closed_date:0
@@ -420,7 +420,7 @@ msgstr "Comment this post..."
 #: model:gamification.challenge,name:website_forum.challenge_commentator
 #: model:gamification.goal.definition,name:website_forum.definition_commentator
 msgid "Commentator"
-msgstr "Commentator"
+msgstr "评论者"
 
 #. module: website_forum
 #: view:website:website_forum.display_post_answer
@@ -435,7 +435,7 @@ msgstr "Comments on forum post"
 #. module: website_forum
 #: model:gamification.challenge,name:website_forum.challenge_configure_profile
 msgid "Complete own biography"
-msgstr "Complete own biography"
+msgstr "完成自己的传记"
 
 #. module: website_forum
 #: model:gamification.goal.definition,name:website_forum.definition_configure_profile
@@ -1085,7 +1085,7 @@ msgstr "Number of silver badges"
 #. module: website_forum
 #: selection:forum.post,state:0
 msgid "Offensive"
-msgstr "Offensive"
+msgstr "无礼"
 
 #. module: website_forum
 #: view:website:website_forum.forum_all
@@ -1154,7 +1154,7 @@ msgstr "Popular Question (500)"
 #: field:forum.post.vote,post_id:0
 #: view:website:website_forum.post_comment
 msgid "Post"
-msgstr "登帐"
+msgstr "过账"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_forum_post_reason
@@ -1568,7 +1568,7 @@ msgstr "Website meta title"
 #. module: website_forum
 #: view:website:website_forum.post_answer
 msgid "Your answer"
-msgstr "Your answer"
+msgstr "您的答案"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
@@ -1590,7 +1590,7 @@ msgstr "and"
 #. module: website_forum
 #: view:website:website_forum.display_post
 msgid "answers"
-msgstr "answers"
+msgstr "答案"
 
 #. module: website_forum
 #: view:website:website_forum.badge
@@ -1601,12 +1601,12 @@ msgstr "awarded users"
 #. module: website_forum
 #: view:website:website_forum.close_question
 msgid "back to question"
-msgstr "back to question"
+msgstr "回到问题"
 
 #. module: website_forum
 #: view:website:website_forum.users
 msgid "badges:"
-msgstr "badges:"
+msgstr "勋章："
 
 #. module: website_forum
 #: view:website:website_forum.ask_question
@@ -1621,7 +1621,7 @@ msgstr "bio"
 #. module: website_forum
 #: selection:gamification.badge,level:0
 msgid "bronze"
-msgstr "bronze"
+msgstr "青铜"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
@@ -1662,27 +1662,27 @@ msgstr "contributions"
 #. module: website_forum
 #: view:website:website_forum.post_answer
 msgid "don't forget to vote"
-msgstr "don't forget to vote"
+msgstr "不要忘记评价"
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_1
 msgid "duplicate question"
-msgstr "duplicate question"
+msgstr "重复的问题"
 
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "follower(s)"
-msgstr "follower(s)"
+msgstr "关注者"
 
 #. module: website_forum
 #: view:website:website_forum.post_description_full
 msgid "for reason:"
-msgstr "for reason:"
+msgstr "原因："
 
 #. module: website_forum
 #: selection:gamification.badge,level:0
 msgid "gold"
-msgstr "gold"
+msgstr "金"
 
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
@@ -1697,12 +1697,12 @@ msgstr "karma to convert as a comment"
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "last connection"
-msgstr "last connection"
+msgstr "最近的连接"
 
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "location"
-msgstr "location"
+msgstr "位置"
 
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
@@ -1717,12 +1717,12 @@ msgstr "not a real question"
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_6
 msgid "not relevant or out dated"
-msgstr "not relevant or out dated"
+msgstr "不相关或过时"
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_2
 msgid "off-topic or not relevant"
-msgstr "off-topic or not relevant"
+msgstr "偏离主题或不相关"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
@@ -1764,7 +1764,7 @@ msgstr "revise your answers"
 #. module: website_forum
 #: selection:gamification.badge,level:0
 msgid "silver"
-msgstr "silver"
+msgstr "银"
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_8
@@ -1774,7 +1774,7 @@ msgstr "spam or advertising"
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "stats"
-msgstr "stats"
+msgstr "统计"
 
 #. module: website_forum
 #: view:website:website_forum.header
@@ -1804,7 +1804,7 @@ msgstr "未知的"
 #. module: website_forum
 #: view:website:website_forum.post_answer
 msgid "use the commenting tool."
-msgstr "use the commenting tool."
+msgstr "使用注释工具。"
 
 #. module: website_forum
 #: view:website:website_forum.badge_user

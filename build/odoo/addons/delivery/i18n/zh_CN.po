@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:45+0000\n"
-"PO-Revision-Date: 2015-04-29 21:45+0000\n"
+"POT-Creation-Date: 2015-05-03 21:09+0000\n"
+"PO-Revision-Date: 2015-05-03 21:09+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,12 +121,12 @@ msgstr "承运方"
 #. module: delivery
 #: view:stock.picking:delivery.view_picking_withcarrier_out_form
 msgid "Carrier Information"
-msgstr "Carrier Information"
+msgstr "承运方信息"
 
 #. module: delivery
 #: field:stock.picking,carrier_tracking_ref:0
 msgid "Carrier Tracking Ref"
-msgstr "承运方跟踪号"
+msgstr "承运方跟踪参考"
 
 #. module: delivery
 #: help:delivery.carrier,use_detailed_pricelist:0
@@ -239,7 +239,7 @@ msgstr "固定"
 #. module: delivery
 #: field:delivery.carrier,free_if_more_than:0
 msgid "Free If Order Total Amount Is More Than"
-msgstr "当订单总额多于 时，免费"
+msgstr "免费, 当订单总额合计多于"
 
 #. module: delivery
 #: code:addons/delivery/delivery.py:152
@@ -255,12 +255,12 @@ msgstr "通用信息"
 #. module: delivery
 #: help:delivery.grid.line,sequence:0
 msgid "Gives the sequence order when calculating delivery grid."
-msgstr "Gives the sequence order when calculating delivery grid."
+msgstr "按序列顺序计算交货网络"
 
 #. module: delivery
 #: help:delivery.grid,sequence:0
 msgid "Gives the sequence order when displaying a list of delivery grid."
-msgstr "输入序列用于在送货网络列表上排序"
+msgstr "按序列顺序显示交货网络列表"
 
 #. module: delivery
 #: field:delivery.grid.line,grid_id:0
@@ -366,13 +366,13 @@ msgid "Net weight"
 msgstr "净重"
 
 #. module: delivery
-#: code:addons/delivery/sale.py:71
+#: code:addons/delivery/sale.py:72
 #, python-format
 msgid "No Grid Available!"
 msgstr "No Grid Available!"
 
 #. module: delivery
-#: code:addons/delivery/sale.py:71
+#: code:addons/delivery/sale.py:72
 #, python-format
 msgid "No grid matching for this carrier!"
 msgstr "No grid matching for this carrier!"
@@ -385,7 +385,7 @@ msgstr "默认价格"
 #. module: delivery
 #: field:stock.picking,number_of_packages:0
 msgid "Number of Packages"
-msgstr "包装件数"
+msgstr "包裹件数"
 
 #. module: delivery
 #: field:delivery.grid.line,operator:0
@@ -393,7 +393,7 @@ msgid "Operator"
 msgstr "运算符"
 
 #. module: delivery
-#: code:addons/delivery/sale.py:74
+#: code:addons/delivery/sale.py:75
 #, python-format
 msgid "Order not in Draft State!"
 msgstr "Order not in Draft State!"
@@ -486,7 +486,7 @@ msgid "The carrier %s (id: %d) has no delivery grid!"
 msgstr "承运方 %s (id: %d) 没有送货网络！"
 
 #. module: delivery
-#: code:addons/delivery/sale.py:74
+#: code:addons/delivery/sale.py:75
 #, python-format
 msgid "The order state have to be draft to add delivery lines."
 msgstr "只能对草稿状态的订单增加送货明细"

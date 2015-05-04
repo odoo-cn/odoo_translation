@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:01+0000\n"
-"PO-Revision-Date: 2015-04-29 22:01+0000\n"
+"POT-Creation-Date: 2015-05-03 21:23+0000\n"
+"PO-Revision-Date: 2015-05-03 21:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -404,19 +404,19 @@ msgstr "向导"
 #: code:addons/portal/wizard/portal_wizard.py:226
 #, python-format
 msgid "You must have an email address in your User Preferences to send emails."
-msgstr "你的个人设置里必须要输入电子邮件地址才能发送邮件"
+msgstr "你的个人配置里必须要输入电子邮件地址才能发送邮件"
 
 #. module: portal
 #: code:addons/portal/wizard/portal_wizard.py:33
 #, python-format
 msgid "Your Odoo account at %(company)s"
-msgstr "Your Odoo account at %(company)s"
+msgstr "您在 %(company)s 的Odoo帐号"
 
 #. module: portal
 #: code:addons/portal/mail_mail.py:46
 #, python-format
 msgid "access directly to"
-msgstr "access directly to"
+msgstr "直接访问"
 
 #. module: portal
 #: view:portal.wizard:portal.wizard_view
@@ -427,5 +427,5 @@ msgstr "或"
 #: code:addons/portal/mail_mail.py:48
 #, python-format
 msgid "your messages "
-msgstr "your messages "
+msgstr "你的消息"
 

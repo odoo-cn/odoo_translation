@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:28+0000\n"
-"PO-Revision-Date: 2015-04-29 22:28+0000\n"
+"POT-Creation-Date: 2015-05-03 21:38+0000\n"
+"PO-Revision-Date: 2015-05-03 21:38+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -178,7 +178,7 @@ msgstr "取消"
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete
 msgid "Change Cover"
-msgstr "Change Cover"
+msgstr "修改封面"
 
 #. module: website_blog
 #. openerp-web
@@ -566,7 +566,7 @@ msgstr "Participate on our social stream."
 #: view:website:website_blog.blog_post_complete
 #, python-format
 msgid "Post"
-msgstr "登帐"
+msgstr "过账"
 
 #. module: website_blog
 #: field:blog.tag,post_ids:0
@@ -862,7 +862,7 @@ msgstr "Your name..."
 #. module: website_blog
 #: view:website:website_blog.latest_blogs
 msgid "add a banner on the top"
-msgstr "add a banner on the top"
+msgstr "在顶部添加一个横幅"
 
 #. module: website_blog
 #: view:website:website_blog.latest_blogs
@@ -918,12 +918,12 @@ msgstr "js_tweet mt32"
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
 msgid "new visitors"
-msgstr "new visitors"
+msgstr "新访客"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_short
 msgid "not published"
-msgstr "not published"
+msgstr "未发布"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete

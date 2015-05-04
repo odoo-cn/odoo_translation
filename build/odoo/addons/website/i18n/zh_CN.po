@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:28+0000\n"
-"PO-Revision-Date: 2015-04-29 22:28+0000\n"
+"POT-Creation-Date: 2015-05-03 21:38+0000\n"
+"PO-Revision-Date: 2015-05-03 21:38+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -475,14 +475,14 @@ msgstr "更改背景"
 #. module: website
 #: view:website:website.snippets
 msgid "Change Icons"
-msgstr "Change Icons"
+msgstr "更改图标"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:325
 #, python-format
 msgid "Change Media"
-msgstr "Change Media"
+msgstr "更改媒体"
 
 #. module: website
 #: view:website:website.layout
@@ -514,7 +514,7 @@ msgstr "Check now and discover more today!"
 #. module: website
 #: field:website.menu,child_id:0
 msgid "Child Menus"
-msgstr "Child Menus"
+msgstr "子菜单"
 
 #. module: website
 #: view:website:website.snippets
@@ -538,7 +538,7 @@ msgstr "圆形"
 #. module: website
 #: view:website:website.snippets
 msgid "Click Here"
-msgstr "Click Here"
+msgstr "点击这里"
 
 #. module: website
 #. openerp-web
@@ -584,7 +584,7 @@ msgstr "关闭"
 #: code:addons/website/static/src/js/website.tour.banner.js:114
 #, python-format
 msgid "Close Tutorial"
-msgstr "Close Tutorial"
+msgstr "关闭教程"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -616,17 +616,17 @@ msgstr "公司名称"
 #. module: website
 #: view:website:website.snippets
 msgid "Comparisons"
-msgstr "Comparisons"
+msgstr "比较"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Configure Website"
-msgstr "Configure Website"
+msgstr "配置网站"
 
 #. module: website
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Configure website menus"
-msgstr "Configure website menus"
+msgstr "配置网站菜单"
 
 #. module: website
 #: view:website:website.layout
@@ -717,7 +717,7 @@ msgstr "Create Page"
 
 #. module: website
 #. openerp-web
-#: code:addons/website/static/src/js/website.editor.js:981
+#: code:addons/website/static/src/js/website.editor.js:987
 #, python-format
 msgid "Create page '%s'"
 msgstr "Create page '%s'"
@@ -1401,7 +1401,7 @@ msgstr "In this mode, you can only translate texts.  To\n"
 #: code:addons/website/static/src/xml/website.editor.xml:101
 #, python-format
 msgid "Info"
-msgstr "Info"
+msgstr "信息"
 
 #. module: website
 #: view:website:website.info
@@ -1474,7 +1474,7 @@ msgstr "Join us and make your company a better place."
 #. module: website
 #: view:website:website.themes
 msgid "Journal"
-msgstr "分类账"
+msgstr "日记账"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -1690,7 +1690,7 @@ msgstr "新建窗口"
 
 #. module: website
 #. openerp-web
-#: code:addons/website/static/src/js/website.editor.js:966
+#: code:addons/website/static/src/js/website.editor.js:972
 #, python-format
 msgid "New or existing page"
 msgstr "New or existing page"
@@ -1838,7 +1838,7 @@ msgstr "Open Source eCommerce"
 #: code:addons/website/static/src/xml/website.editor.xml:56
 #, python-format
 msgid "Open in new window"
-msgstr "Open in new window"
+msgstr "在新窗口中打开"
 
 #. module: website
 #: view:website:website.snippets
@@ -2141,12 +2141,12 @@ msgstr "Reset Transformation"
 #. module: website
 #: view:website:website.500
 msgid "Reset selected templates"
-msgstr "Reset selected templates"
+msgstr "重置选择模板"
 
 #. module: website
 #: view:website:website.500
 msgid "Reset templates"
-msgstr "Reset templates"
+msgstr "重置模板"
 
 #. module: website
 #. openerp-web
@@ -2576,7 +2576,7 @@ msgstr "Theme Changed!"
 #. module: website
 #: view:website:website.snippets
 msgid "Third Feature"
-msgstr "Third Feature"
+msgstr "第三特性"
 
 #. module: website
 #: view:website:website.page_404
@@ -2593,7 +2593,7 @@ msgstr "This tutorial will guide you to build your home page. We will start by a
 #. module: website
 #: view:website:website.snippets
 msgid "Three Columns"
-msgstr "Three Columns"
+msgstr "三列"
 
 #. module: website
 #. openerp-web
@@ -2898,12 +2898,12 @@ msgstr "Website meta title"
 #. module: website
 #: view:website:website.view_website_tree
 msgid "Websites"
-msgstr "Websites"
+msgstr "网站"
 
 #. module: website
 #: field:base.language.install,website_ids:0
 msgid "Websites to translate"
-msgstr "Websites to translate"
+msgstr "待翻译的网站"
 
 #. module: website
 #: view:website:website.snippets
@@ -3073,7 +3073,7 @@ msgstr "Your Banner Title"
 #. module: website
 #: view:website:website.snippets
 msgid "Your Website Title"
-msgstr "Your Website Title"
+msgstr "您的网站标题"
 
 #. module: website
 #: field:website,social_youtube:0
@@ -3098,7 +3098,7 @@ msgstr "and evaluating the following expression:"
 #: code:addons/website/static/src/xml/website.editor.xml:335
 #, python-format
 msgid "border"
-msgstr "border"
+msgstr "边界"
 
 #. module: website
 #: view:website:website.snippets
@@ -3126,17 +3126,17 @@ msgstr "didn't reflect the offering\n"
 #. module: website
 #: view:website:website.snippets
 msgid "don't worry"
-msgstr "don't worry"
+msgstr "不要担心"
 
 #. module: website
 #: view:website:website.500
 msgid "factory settings"
-msgstr "factory settings"
+msgstr "工厂设置"
 
 #. module: website
 #: view:website:website.snippets
 msgid "feature, in clear words."
-msgstr "feature, in clear words."
+msgstr "功能，用简洁的文字。"
 
 #. module: website
 #. openerp-web
@@ -3218,7 +3218,7 @@ msgstr "https://youraccount.github.io"
 #. module: website
 #: view:website:website.info
 msgid "instance of Odoo, the"
-msgstr "instance of Odoo, the"
+msgstr "Odoo实例，这个"
 
 #. module: website
 #: view:website:website.snippets
@@ -3234,7 +3234,7 @@ msgstr "is and always will be\n"
 #. module: website
 #: view:website:website.snippets
 msgid "not what you want to show."
-msgstr "not what you want to show."
+msgstr "不是你想要展示的。"
 
 #. module: website
 #. openerp-web
@@ -3255,7 +3255,7 @@ msgstr "或"
 #: code:addons/website/static/src/xml/website.translator.xml:4
 #, python-format
 msgid "or Edit Master"
-msgstr "or Edit Master"
+msgstr "或编辑主页面"
 
 #. module: website
 #: view:website:website.themes
@@ -3285,7 +3285,7 @@ msgstr "sitemap.xml"
 #. module: website
 #: view:website:website.snippets
 msgid "style."
-msgstr "style."
+msgstr "样式"
 
 #. module: website
 #. openerp-web
@@ -3326,7 +3326,7 @@ msgstr "是"
 #. module: website
 #: view:website:website.themes
 msgid "your homepage"
-msgstr "your homepage"
+msgstr "你的首页"
 
 #. module: website
 #. openerp-web

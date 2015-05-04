@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:50+0000\n"
-"PO-Revision-Date: 2015-04-29 21:50+0000\n"
+"POT-Creation-Date: 2015-05-03 21:14+0000\n"
+"PO-Revision-Date: 2015-05-03 21:14+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -217,7 +217,7 @@ msgstr "Date:"
 #. module: hr_expense
 #: model:ir.actions.act_window,help:hr_expense.product_normal_form_view_installer
 msgid "Define one product for each expense type allowed for an employee (travel by car, hostel, restaurant, etc). If you reimburse the employees at a fixed rate, set a cost and a unit of measure on the product. If you reimburse based on real costs, set the cost at 0.00. The user will set the real price when recording his expense sheet."
-msgstr "为员工可以使用的每个费用类型设置一个产品（交通费、住宿费、餐费等）。如果你报销固定费用，设置产品的成本和单位。如果实报实销，设置成本为0。用户在输入报销单时会输入实际总额。"
+msgstr "为员工可以使用的每个费用类型配置一个产品（交通费、住宿费、餐费等）。如果你报销固定费用，配置产品的成本和单位。如果实报实销，配置成本为0。用户在输入报销单时会输入实际总额。"
 
 #. module: hr_expense
 #: field:hr.expense.report,delay_confirm:0
@@ -394,7 +394,7 @@ msgstr "要开票的报销单"
 #. module: hr_expense
 #: view:hr.expense.report:hr_expense.view_hr_expense_report_search
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: hr_expense
 #: field:hr.expense.expense,message_follower_ids:0
@@ -405,7 +405,7 @@ msgstr "关注者"
 #: field:hr.expense.expense,journal_id:0
 #: field:hr.expense.report,journal_id:0
 msgid "Force Journal"
-msgstr "强制的分类账"
+msgstr "强制的日记账"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
@@ -420,7 +420,7 @@ msgstr "生成会计分录"
 #. module: hr_expense
 #: help:hr.expense.line,sequence:0
 msgid "Gives the sequence order when displaying a list of expense lines."
-msgstr "当显示费用明细时指定一个序列顺序。"
+msgstr "按序列顺序显示费用明细列表"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
@@ -463,7 +463,7 @@ msgstr "是一个关注者"
 #. module: hr_expense
 #: model:ir.model,name:hr_expense.model_account_move_line
 msgid "Journal Items"
-msgstr "分类账项目"
+msgstr "日记账项目"
 
 #. module: hr_expense
 #: field:hr.expense.expense,message_last_post:0
@@ -485,7 +485,7 @@ msgstr "最后更新"
 #. module: hr_expense
 #: field:hr.expense.expense,account_move_id:0
 msgid "Ledger Posting"
-msgstr "过账"
+msgstr "分类账过账"
 
 #. module: hr_expense
 #: field:hr.expense.expense,message_ids:0
@@ -543,7 +543,7 @@ msgstr "备注"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Open Accounting Entries"
-msgstr "Open Accounting Entries"
+msgstr "打开会计分录"
 
 #. module: hr_expense
 #: selection:hr.expense.expense,state:0
@@ -689,7 +689,7 @@ msgstr "待审批"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
 msgid "To Pay"
-msgstr "支付"
+msgstr "待支付"
 
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form

@@ -10,8 +10,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:46+0000\n"
-"PO-Revision-Date: 2015-04-29 22:46+0000\n"
+"POT-Creation-Date: 2015-05-03 21:46+0000\n"
+"PO-Revision-Date: 2015-05-03 21:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -105,9 +105,9 @@ msgid "* When a work order is created it is set in 'Draft' status.\n"
 "* When order is completely processed that time it is set in 'Finished' status."
 msgstr "* 工单被创建时，“草稿“状态。\n"
 "* 从工单被用户进入开始模式后，设为”在进行中“模式。\n"
-"* 当工单是运行模式，在此期间，如果用户要停止或作出改变，可设置为”挂起“状态。\n"
-"* 当用户取消工单，设置为”取消状态“。\n"
-"* 从工单被完成的时候开始，设置为”完成“状态。"
+"* 当工单是运行模式，在此期间，如果用户要停止或作出改变，可配置为”挂起“状态。\n"
+"* 当用户取消工单，配置为”取消状态“。\n"
+"* 从工单被完成的时候开始，配置为”完成“状态。"
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.mrp_bom_form_action2
@@ -476,7 +476,7 @@ msgstr "运行时间表示方式"
 #. module: mrp
 #: field:mrp.workcenter,costs_journal_id:0
 msgid "Analytic Journal"
-msgstr "分析分类账"
+msgstr "分析日记账"
 
 #. module: mrp
 #: view:mrp.config.settings:mrp.view_mrp_config
@@ -511,13 +511,13 @@ msgstr "BOM Product Variants needed form apply this line."
 #. module: mrp
 #: view:website:mrp.report_mrpbomstructure
 msgid "BOM Ref"
-msgstr "物料表编号"
+msgstr "BOM 编号"
 
 #. module: mrp
 #: model:ir.actions.report.xml,name:mrp.action_report_bom_structure
 #: view:website:mrp.report_mrpbomstructure
 msgid "BOM Structure"
-msgstr "物料清单结构"
+msgstr "BOM 结构"
 
 #. module: mrp
 #: field:mrp.bom.line,child_line_ids:0
@@ -609,7 +609,7 @@ msgstr "BOM明细"
 #. module: mrp
 #: field:mrp.bom,type:0
 msgid "BoM Type"
-msgstr "物料清单类型"
+msgstr "BOM 类型"
 
 #. module: mrp_byproduct
 #: model:ir.model,name:mrp_byproduct.model_mrp_subproduct
@@ -660,18 +660,18 @@ msgstr "取消生产"
 #: model:ir.model,name:mrp_repair.model_mrp_repair_cancel
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Cancel Repair"
-msgstr "Cancel Repair"
+msgstr "取消维修"
 
 #. module: mrp_repair
 #: model:ir.actions.act_window,name:mrp_repair.action_cancel_repair
 #: view:mrp.repair.cancel:mrp_repair.view_cancel_repair
 msgid "Cancel Repair Order"
-msgstr "Cancel Repair Order"
+msgstr "取消维修单"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Canceled"
-msgstr "已作废"
+msgstr "已取消"
 
 #. modules: mrp_repair, mrp, mrp_operations
 #: selection:mrp.production,state:0
@@ -722,18 +722,18 @@ msgstr "每循环能力"
 #: view:change.production.qty:mrp.view_change_production_qty_wizard
 #: model:ir.actions.act_window,name:mrp.action_change_production_qty
 msgid "Change Product Qty"
-msgstr "改变产品数量"
+msgstr "更改产品数量"
 
 #. module: mrp
 #: view:change.production.qty:mrp.view_change_production_qty_wizard
 msgid "Change Quantity"
-msgstr "修改数量"
+msgstr "更改数量"
 
 #. modules: mrp, mrp_byproduct
 #: model:ir.model,name:mrp.model_change_production_qty
 #: model:ir.model,name:mrp_byproduct.model_change_production_qty
 msgid "Change Quantity of Products"
-msgstr "修改产成品数量"
+msgstr "更改产品数量"
 
 #. module: mrp
 #: view:mrp.production:mrp.mrp_production_form_view
@@ -809,7 +809,7 @@ msgstr "计算数据"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_configuration
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_configuration
@@ -1258,22 +1258,22 @@ msgstr "通用信息"
 #. module: mrp
 #: help:mrp.bom,sequence:0
 msgid "Gives the sequence order when displaying a list of bills of material."
-msgstr "输入序号用于物料清单列表排序"
+msgstr "按序列顺序显示物料清单列表"
 
 #. module: mrp
 #: help:mrp.routing.workcenter,sequence:0
 msgid "Gives the sequence order when displaying a list of routing Work Centers."
-msgstr "指定一个编号，用于在显示一系列工作中心时排序。"
+msgstr "按序列顺序显示工作中心编排路线列表"
 
 #. module: mrp
 #: help:mrp.production.workcenter.line,sequence:0
 msgid "Gives the sequence order when displaying a list of work orders."
-msgstr "输入序号用于显示工作中心列表"
+msgstr "按序列顺序显示工作中心列表"
 
 #. module: mrp
 #: help:mrp.bom.line,sequence:0
 msgid "Gives the sequence order when displaying."
-msgstr "Gives the sequence order when displaying."
+msgstr "按序列顺序显示"
 
 #. modules: mrp_repair, mrp, mrp_operations
 #: view:mrp.property:mrp.view_mrp_property_search
@@ -1470,12 +1470,12 @@ msgstr "Invalid Action!"
 #. module: mrp_repair
 #: field:mrp.repair.line,move_id:0
 msgid "Inventory Move"
-msgstr "盘点移动"
+msgstr "存货移动"
 
 #. module: mrp_repair
 #: field:mrp.repair,invoice_id:0
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
@@ -1968,12 +1968,12 @@ msgstr "作业编号"
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Operation Line(s)"
-msgstr "Operation Line(s)"
+msgstr "作业明细"
 
 #. module: mrp_repair
 #: field:mrp.repair,operations:0
 msgid "Operation Lines"
-msgstr "Operation Lines"
+msgstr "作业明细"
 
 #. module: mrp_operations
 #: field:mrp_operations.operation.code,name:0
@@ -2002,7 +2002,7 @@ msgstr "作业早已完成"
 #: code:addons/mrp_operations/mrp_operations.py:434
 #, python-format
 msgid "Operation is not started yet!"
-msgstr "Operation is not started yet!"
+msgstr "作业尚未开始！"
 
 #. modules: mrp_repair, mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_operation_action
@@ -2529,17 +2529,17 @@ msgstr "Quantity (in default UoM)"
 #. module: mrp_operations
 #: model:ir.filters,name:mrp_operations.filter_mrp_workorder_quantity_produced
 msgid "Quantity Produced"
-msgstr "Quantity Produced"
+msgstr "已生产的数量"
 
 #. module: mrp_byproduct
 #: field:mrp.subproduct,subproduct_type:0
 msgid "Quantity Type"
-msgstr "Quantity Type"
+msgstr "数量类型"
 
 #. module: mrp
 #: view:website:mrp.report_mrporder
 msgid "Quantity:"
-msgstr "Quantity:"
+msgstr "数量："
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
@@ -3179,7 +3179,7 @@ msgstr "清理的小时数"
 #. module: mrp
 #: help:mrp.workcenter,time_start:0
 msgid "Time in hours for the setup."
-msgstr "设置的小时数"
+msgstr "配置的小时数"
 
 #. module: mrp
 #: help:mrp.routing.workcenter,hour_nbr:0
@@ -3189,7 +3189,7 @@ msgstr "要完成特定工序在此工作中心上需要花费的小时数"
 #. module: mrp
 #: view:mrp.product.produce:mrp.view_mrp_product_produce_wizard
 msgid "To Consume"
-msgstr "To Consume"
+msgstr "待消耗"
 
 #. module: mrp_repair
 #: field:mrp.repair.fee,to_invoice:0
@@ -3476,11 +3476,11 @@ msgid "When the production order is created the status is set to 'Draft'.\n"
 "                When the production gets started then the status is set to 'In Production'.\n"
 "                When the production is over, the status is set to 'Done'."
 msgstr "当 生产订单被创建时，状态是“草稿”。\n"
-"                                   如果被确认，状态设置为“等待原料”\n"
-"                                   如果有任何意外发生，状态被设置为“领料异常”\n"
-"                                   如果库存可用了，状态被设置为“准备生产”。\n"
-"                                   当生产开始的时候，状态被设置为“生产中”\n"
-"                                   当生产完成后，状态被设置为“结束”"
+"                                   如果被确认，状态配置为“等待原料”\n"
+"                                   如果有任何意外发生，状态被配置为“领料异常”\n"
+"                                   如果库存可用了，状态被配置为“准备生产”。\n"
+"                                   当生产开始的时候，状态被配置为“生产中”\n"
+"                                   当生产完成后，状态被配置为“结束”"
 
 #. modules: mrp, mrp_operations
 #: model:ir.model,name:mrp.model_mrp_workcenter

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:10+0000\n"
-"PO-Revision-Date: 2015-04-29 22:10+0000\n"
+"POT-Creation-Date: 2015-05-03 21:29+0000\n"
+"PO-Revision-Date: 2015-05-03 21:29+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,12 +121,12 @@ msgstr "取消"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "Cancel Call"
-msgstr "Cancel Call"
+msgstr "取消招标"
 
 #. module: purchase_requisition
 #: view:purchase.order.line:purchase_requisition.purchase_order_line_tree_tender
 msgid "Cancel Choice"
-msgstr "Cancel Choice"
+msgstr "取消选择"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
@@ -153,13 +153,13 @@ msgstr "Cancelled by the tender associated to this quotation."
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_bid_line_qty
 msgid "Change Bid line quantity"
-msgstr "Change Bid line quantity"
+msgstr "改变招标明细数量"
 
 #. module: purchase_requisition
 #: view:bid.line.qty:purchase_requisition.view_bid_line_qty
 #: view:purchase.order.line:purchase_requisition.purchase_order_line_tree_tender
 msgid "Change Quantity"
-msgstr "修改数量"
+msgstr "更改数量"
 
 #. module: purchase_requisition
 #: help:product.template,purchase_requisition:0
@@ -170,22 +170,22 @@ msgstr "Check this box to generate Call for Bids instead of generating requests 
 #: model:ir.actions.act_window,name:purchase_requisition.action_purchase_requisition_partner
 #: view:purchase.requisition.partner:purchase_requisition.view_purchase_requisition_partner
 msgid "Choose Supplier"
-msgstr "Choose Supplier"
+msgstr "选择供应商"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "Choose product lines"
-msgstr "Choose product lines"
+msgstr "选择产品明细"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "Close Call for Bids"
-msgstr "Close Call for Bids"
+msgstr "关闭招标"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_filter
 msgid "Closed Bids"
-msgstr "Closed Bids"
+msgstr "关闭的招标"
 
 #. module: purchase_requisition
 #: field:purchase.requisition,company_id:0
@@ -728,7 +728,7 @@ msgstr "e.g. OP0025"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "e.g. PO0025"
-msgstr "例如：PO0025"
+msgstr "e.g. PO0025"
 
 #. module: purchase_requisition
 #: view:bid.line.qty:purchase_requisition.view_bid_line_qty

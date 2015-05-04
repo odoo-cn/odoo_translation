@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:57+0000\n"
-"PO-Revision-Date: 2015-04-29 21:57+0000\n"
+"POT-Creation-Date: 2015-05-03 21:20+0000\n"
+"PO-Revision-Date: 2015-05-03 21:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -316,7 +316,7 @@ msgstr "运行时间表示方式"
 #. module: mrp
 #: field:mrp.workcenter,costs_journal_id:0
 msgid "Analytic Journal"
-msgstr "分析分类账"
+msgstr "分析日记账"
 
 #. module: mrp
 #: view:mrp.config.settings:mrp.view_mrp_config
@@ -351,13 +351,13 @@ msgstr "BOM Product Variants needed form apply this line."
 #. module: mrp
 #: view:website:mrp.report_mrpbomstructure
 msgid "BOM Ref"
-msgstr "物料表编号"
+msgstr "BOM 编号"
 
 #. module: mrp
 #: model:ir.actions.report.xml,name:mrp.action_report_bom_structure
 #: view:website:mrp.report_mrpbomstructure
 msgid "BOM Structure"
-msgstr "物料清单结构"
+msgstr "BOM 结构"
 
 #. module: mrp
 #: field:mrp.bom.line,child_line_ids:0
@@ -442,7 +442,7 @@ msgstr "BOM明细"
 #. module: mrp
 #: field:mrp.bom,type:0
 msgid "BoM Type"
-msgstr "物料清单类型"
+msgstr "BOM 类型"
 
 #. module: mrp
 #: code:addons/mrp/stock.py:248
@@ -509,17 +509,17 @@ msgstr "每循环能力"
 #: view:change.production.qty:mrp.view_change_production_qty_wizard
 #: model:ir.actions.act_window,name:mrp.action_change_production_qty
 msgid "Change Product Qty"
-msgstr "改变产品数量"
+msgstr "更改产品数量"
 
 #. module: mrp
 #: view:change.production.qty:mrp.view_change_production_qty_wizard
 msgid "Change Quantity"
-msgstr "修改数量"
+msgstr "更改数量"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_change_production_qty
 msgid "Change Quantity of Products"
-msgstr "修改产成品数量"
+msgstr "更改产品数量"
 
 #. module: mrp
 #: view:mrp.production:mrp.mrp_production_form_view
@@ -576,7 +576,7 @@ msgstr "计算数据"
 #. module: mrp
 #: model:ir.ui.menu,name:mrp.menu_mrp_configuration
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_mrp_configuration
@@ -838,22 +838,22 @@ msgstr "通用信息"
 #. module: mrp
 #: help:mrp.bom,sequence:0
 msgid "Gives the sequence order when displaying a list of bills of material."
-msgstr "输入序号用于物料清单列表排序"
+msgstr "按序列顺序显示物料清单列表"
 
 #. module: mrp
 #: help:mrp.routing.workcenter,sequence:0
 msgid "Gives the sequence order when displaying a list of routing Work Centers."
-msgstr "指定一个编号，用于在显示一系列工作中心时排序。"
+msgstr "按序列顺序显示工作中心编排路线列表"
 
 #. module: mrp
 #: help:mrp.production.workcenter.line,sequence:0
 msgid "Gives the sequence order when displaying a list of work orders."
-msgstr "输入序号用于显示工作中心列表"
+msgstr "按序列顺序显示工作中心列表"
 
 #. module: mrp
 #: help:mrp.bom.line,sequence:0
 msgid "Gives the sequence order when displaying."
-msgstr "Gives the sequence order when displaying."
+msgstr "按序列顺序显示"
 
 #. module: mrp
 #: view:mrp.property:mrp.view_mrp_property_search
@@ -1671,7 +1671,7 @@ msgstr "Quantity (in default UoM)"
 #. module: mrp
 #: view:website:mrp.report_mrporder
 msgid "Quantity:"
-msgstr "Quantity:"
+msgstr "数量："
 
 #. module: mrp
 #: field:mrp.production,location_src_id:0
@@ -2028,7 +2028,7 @@ msgstr "清理的小时数"
 #. module: mrp
 #: help:mrp.workcenter,time_start:0
 msgid "Time in hours for the setup."
-msgstr "设置的小时数"
+msgstr "配置的小时数"
 
 #. module: mrp
 #: help:mrp.routing.workcenter,hour_nbr:0
@@ -2038,7 +2038,7 @@ msgstr "要完成特定工序在此工作中心上需要花费的小时数"
 #. module: mrp
 #: view:mrp.product.produce:mrp.view_mrp_product_produce_wizard
 msgid "To Consume"
-msgstr "To Consume"
+msgstr "待消耗"
 
 #. module: mrp
 #: code:addons/mrp/report/price.py:162
@@ -2242,11 +2242,11 @@ msgid "When the production order is created the status is set to 'Draft'.\n"
 "                When the production gets started then the status is set to 'In Production'.\n"
 "                When the production is over, the status is set to 'Done'."
 msgstr "当 生产订单被创建时，状态是“草稿”。\n"
-"                                   如果被确认，状态设置为“等待原料”\n"
-"                                   如果有任何意外发生，状态被设置为“领料异常”\n"
-"                                   如果库存可用了，状态被设置为“准备生产”。\n"
-"                                   当生产开始的时候，状态被设置为“生产中”\n"
-"                                   当生产完成后，状态被设置为“结束”"
+"                                   如果被确认，状态配置为“等待原料”\n"
+"                                   如果有任何意外发生，状态被配置为“领料异常”\n"
+"                                   如果库存可用了，状态被配置为“准备生产”。\n"
+"                                   当生产开始的时候，状态被配置为“生产中”\n"
+"                                   当生产完成后，状态被配置为“结束”"
 
 #. module: mrp
 #: model:ir.model,name:mrp.model_mrp_workcenter

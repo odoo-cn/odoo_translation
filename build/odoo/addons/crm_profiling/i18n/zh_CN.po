@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:44+0000\n"
-"PO-Revision-Date: 2015-04-29 21:44+0000\n"
+"POT-Creation-Date: 2015-05-03 21:09+0000\n"
+"PO-Revision-Date: 2015-05-03 21:09+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -102,7 +102,7 @@ msgstr "标识"
 #. module: crm_profiling
 #: field:crm.segmentation,answer_yes:0
 msgid "Included Answers"
-msgstr "包括的答案"
+msgstr "包含的答案"
 
 #. module: crm_profiling
 #: field:crm_profiling.answer,write_uid:0

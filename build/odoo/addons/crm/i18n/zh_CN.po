@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:43+0000\n"
-"PO-Revision-Date: 2015-04-29 21:43+0000\n"
+"POT-Creation-Date: 2015-05-03 21:08+0000\n"
+"PO-Revision-Date: 2015-05-03 21:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -151,7 +151,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "              </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                                                                        点击设置你的线索/商机管道的新阶段。\n"
+"                                                                        点击配置你的线索/商机管道的新阶段。\n"
 "                                                                </p><p>\n"
 "                                                                        阶段允许销售人员记录特定的线索或商机\n"
 "                                                                        在销售循环中的位置。\n"
@@ -534,18 +534,18 @@ msgstr "Calls Date by Month"
 #: field:crm.tracking.mixin,campaign_id:0
 #: model:ir.model,name:crm.model_crm_tracking_campaign
 msgid "Campaign"
-msgstr "营销活动"
+msgstr "营销"
 
 #. module: crm
 #: field:crm.tracking.campaign,name:0
 msgid "Campaign Name"
-msgstr "营销活动名称"
+msgstr "营销名称"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_tracking_campaign_act
 #: model:ir.ui.menu,name:crm.menu_crm_tracking_campaign_act
 msgid "Campaigns"
-msgstr "营销活动"
+msgstr "营销"
 
 #. module: crm
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
@@ -566,17 +566,17 @@ msgstr "已取消"
 #: view:crm.case.categ:crm.crm_case_categ-view
 #: view:crm.case.categ:crm.crm_case_categ_tree-view
 msgid "Case Category"
-msgstr "案子分类"
+msgstr "案件分类"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_case_section_act_tree
 msgid "Cases by Sales Team"
-msgstr "该业务的销售团队"
+msgstr "案件，按销售团队"
 
 #. module: crm
 #: model:ir.ui.menu,name:crm.menu_crm_case_phonecall-act
 msgid "Categories"
-msgstr "分类"
+msgstr "类别"
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
@@ -588,17 +588,17 @@ msgstr "归类"
 #: field:crm.phonecall.report,categ_id:0
 #: field:crm.phonecall2phonecall,categ_id:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: crm
 #: model:ir.model,name:crm.model_crm_case_categ
 msgid "Category of Case"
-msgstr "业务分类"
+msgstr "案件类别"
 
 #. module: crm
 #: field:crm.case.stage,on_change:0
 msgid "Change Probability Automatically"
-msgstr "自动修改概率"
+msgstr "自动变更概率"
 
 #. module: crm
 #: view:crm.lead:crm.view_crm_case_leads_filter
@@ -610,7 +610,7 @@ msgstr "自动修改概率"
 #: field:crm.tracking.mixin,medium_id:0
 #: view:crm.tracking.source:crm.crm_tracking_source_view_form
 msgid "Channel"
-msgstr "途径"
+msgstr "渠道"
 
 #. module: crm
 #: field:crm.tracking.medium,name:0
@@ -652,7 +652,7 @@ msgstr "城市"
 #. module: crm
 #: help:crm.lead,categ_ids:0
 msgid "Classify and analyze your lead/opportunity categories like: Training, Service"
-msgstr "Classify and analyze your lead/opportunity categories like: Training, Service"
+msgstr "对线索/商机进行分析和分类， 诸如：培训，服务"
 
 #. module: crm
 #: view:crm.case.section:crm.crm_case_section_salesteams_view_kanban
@@ -674,7 +674,7 @@ msgstr "关闭"
 #: field:crm.opportunity.report,date_closed:0
 #: field:crm.phonecall.report,date_closed:0
 msgid "Close Date"
-msgstr "结束日期"
+msgstr "关闭日期"
 
 #. module: crm
 #: field:crm.lead,date_closed:0
@@ -1184,7 +1184,7 @@ msgstr "扩展的筛选器"
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_leads
@@ -1355,7 +1355,7 @@ msgstr "来电"
 #. module: crm
 #: view:crm.segmentation:crm.crm_segmentation-view
 msgid "Included Answers :"
-msgstr "包括的答案:"
+msgstr "包含的答案:"
 
 #. module: crm
 #: model:crm.case.categ,name:crm.categ_oppor4
@@ -1388,7 +1388,7 @@ msgstr "每次只能转换一个电话呼叫"
 #. module: crm
 #: field:base.partner.merge.automatic.wizard,exclude_journal_item:0
 msgid "Journal Items associated to the contact"
-msgstr "分类账项关联到联系人"
+msgstr "日记账项关联到联系人"
 
 #. module: crm
 #: field:crm.lead,date_action_last:0
@@ -1587,7 +1587,7 @@ msgstr "行"
 #. module: crm
 #: help:crm.case.stage,section_ids:0
 msgid "Link between stages and sales teams. When set, this limitate the current stage to the selected sales teams."
-msgstr "在阶段和销售团队之间建立链接。设置后将限制此阶段只能用于被选中的销售团队。"
+msgstr "在阶段和销售团队之间建立链接。配置后将限制此阶段只能用于被选中的销售团队。"
 
 #. module: crm
 #: selection:crm.lead2opportunity.partner,action:0
@@ -1658,7 +1658,7 @@ msgstr "邮件"
 #. module: crm
 #: field:sale.config.settings,module_crm_claim:0
 msgid "Manage Customer Claims"
-msgstr "管理客户诉求"
+msgstr "管理客户索赔"
 
 #. module: crm
 #: model:res.groups,name:crm.group_fund_raising
@@ -2008,22 +2008,22 @@ msgstr "Only the destination contact may be linked to existing Journal Items. Pl
 #: view:crm.case.section:crm.crm_case_section_salesteams_view_kanban
 #: field:crm.case.section,monthly_open_leads:0
 msgid "Open Leads per Month"
-msgstr "Open Leads per Month"
+msgstr "每月开启的线索"
 
 #. module: crm
 #: model:ir.actions.client,name:crm.action_client_crm_menu
 msgid "Open Sale Menu"
-msgstr "打开销售订单"
+msgstr "打开销售菜单"
 
 #. module: crm
 #: field:crm.phonecall,date_open:0
 msgid "Opened"
-msgstr "已开启"
+msgstr "已打开"
 
 #. module: crm
 #: field:crm.phonecall.report,opening_date:0
 msgid "Opening Date"
-msgstr "开启日期"
+msgstr "开张日期"
 
 #. module: crm
 #: field:crm.segmentation.line,expr_operator:0
@@ -2703,7 +2703,7 @@ msgstr "服务"
 #. module: crm
 #: help:crm.case.stage,on_change:0
 msgid "Setting this stage will change the probability automatically on the opportunity."
-msgstr "设置为这个阶段，会自动改变商机的成功可能性"
+msgstr "配置为这个阶段，会自动改变商机的成功可能性"
 
 #. module: crm
 #: model:res.groups,name:crm.group_scheduled_calls
@@ -3189,13 +3189,13 @@ msgstr "在"
 #. module: crm
 #: view:crm.lead:crm.crm_case_form_view_oppor
 msgid "e.g. Call for proposal"
-msgstr "例如：关于提案的呼叫"
+msgstr "e.g. Call for proposal"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:975
 #, python-format
 msgid "lead"
-msgstr "lead"
+msgstr "线索"
 
 #. module: crm
 #: code:addons/crm/crm_lead.py:91

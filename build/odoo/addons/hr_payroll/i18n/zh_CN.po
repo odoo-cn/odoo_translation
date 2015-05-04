@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:51+0000\n"
-"PO-Revision-Date: 2015-04-29 21:51+0000\n"
+"POT-Creation-Date: 2015-05-03 21:14+0000\n"
+"PO-Revision-Date: 2015-05-03 21:14+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -164,7 +164,7 @@ msgstr "取消工资单"
 #: view:hr.salary.rule:hr_payroll.view_hr_rule_filter
 #: field:hr.salary.rule,category_id:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: hr_payroll
 #: view:hr.salary.rule:hr_payroll.hr_salary_rule_form
@@ -175,7 +175,7 @@ msgstr "子规则"
 #: field:hr.payslip.line,child_ids:0
 #: field:hr.salary.rule,child_ids:0
 msgid "Child Salary Rule"
-msgstr "子工资规则"
+msgstr "子薪资规则"
 
 #. module: hr_payroll
 #: field:hr.payroll.structure,children_ids:0
@@ -186,7 +186,7 @@ msgstr "子科目"
 #. module: hr_payroll
 #: view:hr.salary.rule:hr_payroll.hr_salary_rule_form
 msgid "Children Definition"
-msgstr "子项定义"
+msgstr "子定义"
 
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_form
@@ -362,7 +362,7 @@ msgstr "Date To:"
 #. module: hr_payroll
 #: help:hr.payslip,struct_id:0
 msgid "Defines the rules that have to be applied to this payslip, accordingly to the contract chosen. If you let empty the field contract, this field isn't mandatory anymore and thus the rules applied will be all the rules set on the structure of all contracts of the employee valid for the chosen period"
-msgstr "设置依据所选合同在这个工资单上适用的规则。如果合同字段为空，这个字段也不是必输的，这样所有在所选期间内的所有设置在员工合同结构上的规则都生效。"
+msgstr "配置依据所选合同在这个工资单上适用的规则。如果合同字段为空，这个字段也不是必输的，这样所有在所选期间内的所有配置在员工合同结构上的规则都生效。"
 
 #. module: hr_payroll
 #: view:hr.contribution.register:hr_payroll.hr_contribution_register_form
@@ -423,12 +423,12 @@ msgstr "草稿"
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
 msgid "Draft Payslip Batches"
-msgstr "工资单批次草稿"
+msgstr "草稿工资单批次"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_filter
 msgid "Draft Slip"
-msgstr "工资单草稿"
+msgstr "草稿工资单"
 
 #. module: hr_payroll
 #: view:website:hr_payroll.report_payslip
@@ -928,7 +928,7 @@ msgstr "数量 / 费率"
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Quantity/rate"
-msgstr "Quantity/rate"
+msgstr "数量 / 费率"
 
 #. module: hr_payroll
 #: selection:hr.contract,schedule_pay:0

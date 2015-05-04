@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:37+0000\n"
-"PO-Revision-Date: 2015-04-29 21:37+0000\n"
+"POT-Creation-Date: 2015-05-03 21:00+0000\n"
+"PO-Revision-Date: 2015-05-03 21:00+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_payment_populate_statement
 msgid "Account Payment Populate Statement"
-msgstr "付款帐户填充声明"
+msgstr "付款填写结算单"
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_payment_make_payment
@@ -110,7 +110,7 @@ msgstr "这付款方式的银行或现金日记账"
 #. module: account_payment
 #: field:payment.line,bank_statement_line_id:0
 msgid "Bank statement line"
-msgstr "银行对帐单明细"
+msgstr "银行对账单明细"
 
 #. module: account_payment
 #: view:account.payment.make.payment:account_payment.account_payment_make_payment_view
@@ -133,7 +133,7 @@ msgstr "已取消"
 #. module: account_payment
 #: help:payment.order,date_prefered:0
 msgid "Choose an option for the Payment Order:'Fixed' stands for a date specified by you.'Directly' stands for the direct execution.'Due date' stands for the scheduled date of execution."
-msgstr "选择付款单选项“固定”由你指定一个指定的日期，“直接”表示直接执行。“到期日期”指定一个日程表日期执行。"
+msgstr "选择一个付款单选项：“固定”表示由你指定一个日期，“直接”表示直接执行。“到期日期”表示执行的一个安排日期。"
 
 #. module: account_payment
 #: field:payment.line,communication:0
@@ -363,7 +363,7 @@ msgstr "信息"
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_invoice
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: account_payment
 #: help:payment.line,ml_date_created:0
@@ -389,12 +389,12 @@ msgstr "发票"
 #: view:payment.mode:account_payment.view_payment_mode_search
 #: field:payment.mode,journal:0
 msgid "Journal"
-msgstr "分类账"
+msgstr "日记账"
 
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_move_line
 msgid "Journal Items"
-msgstr "分类账项目"
+msgstr "日记账项目"
 
 #. module: account_payment
 #: field:account.payment.make.payment,write_uid:0
@@ -527,7 +527,7 @@ msgstr "付款单"
 #: model:ir.actions.act_window,name:account_payment.action_account_payment_populate_statement
 #: model:ir.actions.act_window,name:account_payment.action_account_populate_statement_confirm
 msgid "Payment Populate statement"
-msgstr "付款填充声明"
+msgstr "付款填充结算单"
 
 #. module: account_payment
 #: view:website:account_payment.report_paymentorder
@@ -563,7 +563,7 @@ msgstr "填写付款单"
 #. module: account_payment
 #: view:account.payment.populate.statement:account_payment.account_payment_populate_statement_view
 msgid "Populate Statement:"
-msgstr "填充声明："
+msgstr "填写结算单："
 
 #. module: account_payment
 #: field:payment.order,date_prefered:0
@@ -697,7 +697,7 @@ msgid "When an order is placed the status is 'Draft'.\n"
 " Once the bank is confirmed the status is set to 'Confirmed'.\n"
 " Then the order is paid the status is 'Done'."
 msgstr "一个付款单的初始状态是'草稿'.\n"
-" 一旦银行确认，状态被设置为'确定'.\n"
+" 一旦银行确认，状态被配置为'确定'.\n"
 " 然后付款单被支付后，状态成为'完成'."
 
 #. module: account_payment
@@ -714,7 +714,7 @@ msgstr "不可取消已被引入付款单据的发票。请先移除下述付款
 #. module: account_payment
 #: field:payment.line,name:0
 msgid "Your Reference"
-msgstr "您的单号"
+msgstr "您的参考"
 
 #. module: account_payment
 #: view:payment.order.create:account_payment.view_create_payment_order_lines

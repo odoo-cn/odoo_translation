@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:37+0000\n"
-"PO-Revision-Date: 2015-04-29 21:37+0000\n"
+"POT-Creation-Date: 2015-05-03 20:59+0000\n"
+"PO-Revision-Date: 2015-05-03 20:59+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -328,7 +328,7 @@ msgstr " 邮件发出"
 #: code:addons/account_followup/wizard/account_followup_print.py:176
 #, python-format
 msgid " email(s) should have been sent, but "
-msgstr "邮件将被发送，但是"
+msgstr " 邮件将被发送，但是"
 
 #. module: account_followup
 #: code:addons/account_followup/wizard/account_followup_print.py:176
@@ -392,8 +392,8 @@ msgstr "%s partners have no credits and as such the action is cleared"
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid ", the latest payment follow-up\n"
 "                            was:"
-msgstr ", the latest payment follow-up\n"
-"                            was:"
+msgstr ", 最新的付款催收\n"
+"                            是:"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -452,12 +452,12 @@ msgstr "会计"
 #. module: account_followup
 #: field:account_followup.followup.line,manual_action_note:0
 msgid "Action To Do"
-msgstr "要做的事情"
+msgstr "要做的行动"
 
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Action to be taken e.g. Give a phonecall, Check if it's paid, ..."
-msgstr "Action to be taken e.g. Give a phonecall, Check if it's paid, ..."
+msgstr "可采取的行动,例如：打电话确认是否已付款,..."
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -537,7 +537,7 @@ msgstr "Check if you want to print follow-ups without changing follow-up level."
 #. module: account_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Click to mark the action as done."
-msgstr "通过点击标记此动作已完成"
+msgstr "点击标记此动作已完成"
 
 #. module: account_followup
 #: view:account_followup.sending.results:account_followup.view_account_followup_sending_results
@@ -555,7 +555,7 @@ msgstr "公司"
 #. module: account_followup
 #: view:account.config.settings:account_followup.view_account_config_settings_inherit
 msgid "Configure your follow-up levels"
-msgstr "Configure your follow-up levels"
+msgstr "配置你的催款等级"
 
 #. module: account_followup
 #: field:account_followup.followup,create_uid:0
@@ -795,7 +795,7 @@ msgstr "催款等级"
 #. module: account_followup
 #: help:account_followup.followup.line,sequence:0
 msgid "Gives the sequence order when displaying a list of follow-up lines."
-msgstr "输入序列用于显示催款列表"
+msgstr "按序列顺序显示催款明细列表"
 
 #. module: account_followup
 #: view:account_followup.stat:account_followup.view_account_followup_stat_search
@@ -845,7 +845,7 @@ msgstr "发票提醒"
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_move_line
 msgid "Journal Items"
-msgstr "分类账项目"
+msgstr "日记账项目"
 
 #. module: account_followup
 #: field:account_followup.followup,write_uid:0
@@ -1030,12 +1030,12 @@ msgstr "Partners with Overdue Credits"
 #: model:ir.ui.menu,name:account_followup.menu_finance_followup
 #: view:res.partner:account_followup.view_partner_inherit_followup_form
 msgid "Payment Follow-up"
-msgstr "付款跟进"
+msgstr "付款催收"
 
 #. module: account_followup
 #: model:ir.actions.act_window,name:account_followup.action_account_followup_definition_form
 msgid "Payment Follow-ups"
-msgstr "付款跟进"
+msgstr "付款催收"
 
 #. module: account_followup
 #: help:res.partner,payment_note:0
@@ -1318,7 +1318,7 @@ msgstr "Write here the introduction in the letter,\n"
 #: code:addons/account_followup/account_followup.py:291
 #, python-format
 msgid "You became responsible to do the next action for the payment follow-up of"
-msgstr "You became responsible to do the next action for the payment follow-up of"
+msgstr "你开始负责做出付款催收的下一步行动"
 
 #. module: account_followup
 #: constraint:account_followup.followup.line:0

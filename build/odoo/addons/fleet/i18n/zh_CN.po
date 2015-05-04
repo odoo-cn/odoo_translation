@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:47+0000\n"
-"PO-Revision-Date: 2015-04-29 21:47+0000\n"
+"POT-Creation-Date: 2015-05-03 21:11+0000\n"
+"PO-Revision-Date: 2015-05-03 21:11+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -412,12 +412,12 @@ msgstr "Catalytic Converter Replacement"
 #. module: fleet
 #: field:fleet.service.type,category:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: fleet
 #: field:fleet.vehicle.cost,cost_type:0
 msgid "Category of the cost"
-msgstr "Category of the cost"
+msgstr "成本的类别"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_16
@@ -432,17 +432,17 @@ msgstr "Chassis Number"
 #. module: fleet
 #: help:fleet.vehicle.log.contract,state:0
 msgid "Choose wheter the contract is still valid or not"
-msgstr "Choose wheter the contract is still valid or not"
+msgstr "选择合同是否依旧有效"
 
 #. module: fleet
 #: help:fleet.service.type,category:0
 msgid "Choose wheter the service refer to contracts, vehicle services or both"
-msgstr "Choose wheter the service refer to contracts, vehicle services or both"
+msgstr "选择服务是否是合同，或是车辆服务，或两者都是"
 
 #. module: fleet
 #: field:fleet.vehicle,color:0
 msgid "Color"
-msgstr "色彩"
+msgstr "颜色"
 
 #. module: fleet
 #: help:fleet.vehicle,color:0
@@ -462,7 +462,7 @@ msgstr "公司"
 #. module: fleet
 #: model:ir.ui.menu,name:fleet.fleet_configuration
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: fleet
 #: model:ir.model,name:fleet.model_fleet_contract_state
@@ -959,7 +959,7 @@ msgstr "进行中"
 #: view:fleet.vehicle.log.contract:fleet.fleet_vehicle_log_contract_form
 #: view:fleet.vehicle.log.services:fleet.fleet_vehicle_log_services_form
 msgid "Included Services"
-msgstr "包括服务"
+msgstr "包含的服务"
 
 #. module: fleet
 #: view:fleet.vehicle.log.contract:fleet.fleet_vehicle_log_contract_form
@@ -1332,13 +1332,13 @@ msgstr "Omnium"
 #. module: fleet
 #: model:ir.actions.client,name:fleet.action_fleet_menu
 msgid "Open Fleet Menu"
-msgstr "Open Fleet Menu"
+msgstr "打开车辆菜单"
 
 #. module: fleet
 #: code:addons/fleet/fleet.py:47
 #, python-format
 msgid "Operation not allowed!"
-msgstr "Operation not allowed!"
+msgstr "作业不允许！"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_16
@@ -1476,12 +1476,12 @@ msgstr "Replacement Vehicle"
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_15
 msgid "Residual value (Excluding VAT)"
-msgstr "Residual value (Excluding VAT)"
+msgstr "剩余价值（不含VAT）"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_service_19
 msgid "Residual value in %"
-msgstr "Residual value in %"
+msgstr "剩余价值 %"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_38
@@ -1959,7 +1959,7 @@ msgstr "Yearly"
 #. module: fleet
 #: view:fleet.vehicle.log.contract:fleet.fleet_vehicle_log_contract_form
 msgid "amount"
-msgstr "amount"
+msgstr "总额"
 
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_kanban
@@ -1974,30 +1974,30 @@ msgstr "g/km"
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_kanban
 msgid "other(s)"
-msgstr "other(s)"
+msgstr "其它"
 
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_form
 msgid "show all the costs for this vehicle"
-msgstr "show all the costs for this vehicle"
+msgstr "显示这辆车的所有费用"
 
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_form
 msgid "show the contract for this vehicle"
-msgstr "show the contract for this vehicle"
+msgstr "显示该车辆的合同"
 
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_form
 msgid "show the fuel logs for this vehicle"
-msgstr "show the fuel logs for this vehicle"
+msgstr "显示车辆的加油记录"
 
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_form
 msgid "show the odometer logs for this vehicle"
-msgstr "show the odometer logs for this vehicle"
+msgstr "显示车辆的里程记录"
 
 #. module: fleet
 #: view:fleet.vehicle:fleet.fleet_vehicle_form
 msgid "show the services logs for this vehicle"
-msgstr "show the services logs for this vehicle"
+msgstr "显示该车辆的服务记录"
 

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:42+0000\n"
-"PO-Revision-Date: 2015-04-29 21:42+0000\n"
+"POT-Creation-Date: 2015-05-03 21:06+0000\n"
+"PO-Revision-Date: 2015-05-03 21:06+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,9 +39,9 @@ msgid "<div class=\"oe_empty_custom_dashboard\">\n"
 "            "
 msgstr "<div class=\"oe_empty_custom_dashboard\">\n"
 "                  <p>\n"
-"                    <b>控制面板是展示企业度量信息和关键业务指标（KPI）现状的数据虚拟化工具。目前您还没有添加报告到您的个人控制面板（personal dashboard）。</b>\n"
+"                    <b>仪表盘是展示企业度量信息和关键业务指标（KPI）现状的数据虚拟化工具。目前您还没有添加报告到您的个人仪表盘（personal dashboard）。</b>\n"
 "                  </p><p>\n"
-"                   要添加一个报告到控制面板，请进入任意菜单，切换到列表视图或图表视图，在搜索栏下拉菜单中点击<i> “添加到控制面板”</i>。\n"
+"                   要添加一个报告到仪表盘，请进入任意菜单，切换到列表视图或图表视图，在搜索栏下拉菜单中点击<i> “添加到仪表盘”</i>。\n"
 "                  </p><p>\n"
 "                   添加之前，你需要根据自己的要求，使用筛选器来充分筛选数据。\n"
 "                  </p>\n"
@@ -60,7 +60,7 @@ msgstr "添加"
 #: code:addons/board/static/src/xml/board.xml:67
 #, python-format
 msgid "Add to Dashboard"
-msgstr "添加到控制面板"
+msgstr "添加到仪表盘"
 
 #. module: board
 #. openerp-web
@@ -115,14 +115,14 @@ msgstr "更改布局..."
 #: code:addons/board/static/src/xml/board.xml:40
 #, python-format
 msgid "Choose dashboard layout"
-msgstr "选择控制面板布局"
+msgstr "选择仪表盘布局"
 
 #. module: board
 #. openerp-web
 #: code:addons/board/static/src/js/dashboard.js:406
 #, python-format
 msgid "Could not add filter to dashboard"
-msgstr "Could not add filter to dashboard"
+msgstr "不能添加筛选器到仪表盘"
 
 #. module: board
 #: view:board.create:board.view_board_create
@@ -138,7 +138,7 @@ msgstr "创建仪表板"
 #. module: board
 #: view:board.create:board.view_board_create
 msgid "Create New Dashboard"
-msgstr "创建新的控制面板"
+msgstr "创建新的仪表盘"
 
 #. module: board
 #: field:board.create,create_uid:0
@@ -185,7 +185,7 @@ msgstr "最后更新"
 #: model:ir.actions.act_window,name:board.open_board_my_dash_action
 #: model:ir.ui.menu,name:board.menu_board_my_dash
 msgid "My Dashboard"
-msgstr "我的控制面板"
+msgstr "我的仪表盘"
 
 #. module: board
 #: field:board.create,menu_parent_id:0
@@ -197,7 +197,7 @@ msgstr "上级菜单"
 #: code:addons/board/static/src/xml/board.xml:6
 #, python-format
 msgid "Reset"
-msgstr "清空"
+msgstr "重置"
 
 #. module: board
 #. openerp-web
@@ -211,7 +211,7 @@ msgstr "重置布局..."
 #: code:addons/board/static/src/xml/board.xml:69
 #, python-format
 msgid "Title of new dashboard item"
-msgstr "控制面板部件标题"
+msgstr "仪表盘部件标题"
 
 #. module: board
 #: view:board.create:board.view_board_create

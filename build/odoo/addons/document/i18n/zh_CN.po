@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:45+0000\n"
-"PO-Revision-Date: 2015-04-29 21:45+0000\n"
+"POT-Creation-Date: 2015-05-03 21:10+0000\n"
+"PO-Revision-Date: 2015-05-03 21:10+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -452,7 +452,7 @@ msgstr "你在这里输入一个对象，这个目录模版会在所有这个对
 #. module: document
 #: field:document.directory.content,include_name:0
 msgid "Include Record Name"
-msgstr "含记录名称"
+msgstr "包含记录名称"
 
 #. module: document
 #: view:ir.attachment:document.view_document_file_form
@@ -478,7 +478,7 @@ msgstr "6月"
 #. module: document
 #: view:document.configuration:document.view_auto_config_form
 msgid "Knowledge Application Configuration"
-msgstr "知识管理应用设置"
+msgstr "知识管理应用配置"
 
 #. module: document
 #: field:document.directory,write_uid:0

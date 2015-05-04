@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:40+0000\n"
-"PO-Revision-Date: 2015-04-29 21:40+0000\n"
+"POT-Creation-Date: 2015-05-03 21:04+0000\n"
+"PO-Revision-Date: 2015-05-03 21:04+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,10 +28,10 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "              </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                点击设置一个新的自动动作规则. \n"
+"                点击配置一个新的自动动作规则. \n"
 "              </p><p>\n"
 "                使用自动操作自动触发动作在各类画面中\n"
-"                . 例如: 一个线索被某特定用户创建可以自动设置到到某个销售组中,\n"
+"                . 例如: 一个线索被某特定用户创建可以自动配置到到某个销售组中,\n"
 "                或者一个商机在等待14天之后自动触发一个提醒邮件.\n"
 "               \n"
 "              </p>\n"
@@ -154,7 +154,7 @@ msgstr "筛选器"
 #. module: base_action_rule
 #: help:base.action.rule,sequence:0
 msgid "Gives the sequence order when displaying a list of rules."
-msgstr "为规则列表添加序号"
+msgstr "按序列顺序显示规则列表"
 
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
@@ -242,17 +242,17 @@ msgstr "新建"
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Creation"
-msgstr "On Creation"
+msgstr "创建时"
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Creation & Update"
-msgstr "On Creation & Update"
+msgstr "创建或更新时"
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Update"
-msgstr "On Update"
+msgstr "更新时"
 
 #. module: base_action_rule
 #: field:base.action.rule.lead.test,partner_id:0
@@ -303,7 +303,7 @@ msgstr "要运行的服务器动作"
 #. module: base_action_rule
 #: field:base.action.rule,act_user_id:0
 msgid "Set Responsible"
-msgstr "设置权限"
+msgstr "配置权限"
 
 #. module: base_action_rule
 #: field:base.action.rule.lead.test,state:0

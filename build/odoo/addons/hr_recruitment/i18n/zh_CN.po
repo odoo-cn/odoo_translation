@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:51+0000\n"
-"PO-Revision-Date: 2015-04-29 21:51+0000\n"
+"POT-Creation-Date: 2015-05-03 21:15+0000\n"
+"PO-Revision-Date: 2015-05-03 21:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -423,7 +423,7 @@ msgstr "取消"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_graph_view_job
 msgid "Cases By Stage and Estimates"
-msgstr "按阶段和评估的事务"
+msgstr "案件，按阶段和评估"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_applicant_category
@@ -802,12 +802,12 @@ msgstr "Getting on with colleagues"
 #. module: hr_recruitment
 #: help:hr.recruitment.degree,sequence:0
 msgid "Gives the sequence order when displaying a list of degrees."
-msgstr "定义一个显示学历列表的序列"
+msgstr "按序列顺序显示学历列表"
 
 #. module: hr_recruitment
 #: help:hr.recruitment.stage,sequence:0
 msgid "Gives the sequence order when displaying a list of stages."
-msgstr "定义一个序列按顺序显示列表中的各阶段。"
+msgstr "按序列顺序显示阶段列表"
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0
@@ -1149,12 +1149,12 @@ msgstr "剩余天数"
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_3
 msgid "Office environment"
-msgstr "Office environment"
+msgstr "办公环境"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_6
 msgid "Office location"
-msgstr "Office location"
+msgstr "办公地点"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,partner_id:0
@@ -1609,7 +1609,7 @@ msgstr "You must define an Applied Job and a Contact Name for this applicant."
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid "click here"
-msgstr "click here"
+msgstr "点击这里"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job

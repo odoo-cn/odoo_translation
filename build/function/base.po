@@ -13,8 +13,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:48+0000\n"
-"PO-Revision-Date: 2015-04-29 22:48+0000\n"
+"POT-Creation-Date: 2015-05-03 21:47+0000\n"
+"PO-Revision-Date: 2015-05-03 21:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -199,7 +199,7 @@ msgid "\n"
 "    "
 msgstr "\n"
 "    * 科目表、税、税项、凭证类型、科目模版、成本要素和成本凭证类型的多语言支持。\n"
-"    * 对设置向导的修改\n"
+"    * 对配置向导的修改\n"
 "        - 从模版复制科目表、税、税项和替换规则到目标数据表。\n"
 "    "
 
@@ -275,7 +275,7 @@ msgstr "\n"
 "\n"
 "此模块用来管理所有会计功能的访问权限，如凭证行归类（journal items）和会计科目（chart of accounts）等。\n"
 "\n"
-"默认设置管理员（Administrator）拥有经理和一般用户的访问权限，而演示用户（Demo user）仅拥有一般用户的权限。 \n"
+"默认配置管理员（Administrator）拥有经理和一般用户的访问权限，而演示用户（Demo user）仅拥有一般用户的权限。 \n"
 ""
 
 #. module: base
@@ -285,7 +285,7 @@ msgid "\n"
 "==========================================\n"
 "    "
 msgstr "\n"
-"比利时薪酬规则的会计数据。\n"
+"Accounting Data for Belgian Payroll Rules.\n"
 "==========================================\n"
 "    "
 
@@ -924,7 +924,10 @@ msgid "\n"
 "Thai accounting chart and localization.\n"
 "    "
 msgstr "\n"
-"泰国会计模块\n"
+"Chart of Accounts for Thailand.\n"
+"===============================\n"
+"\n"
+"Thai accounting chart and localization.\n"
 "    "
 
 #. module: base
@@ -969,7 +972,7 @@ msgid "\n"
 "\n"
 "    "
 msgstr "\n"
-"智利会计和税务。\n"
+"Chilean accounting chart and tax localization.\n"
 "==============================================\n"
 "Plan contable chileno e impuestos de acuerdo a disposiciones vigentes\n"
 "\n"
@@ -1202,7 +1205,10 @@ msgid "\n"
 "German accounting chart and localization.\n"
 "    "
 msgstr "\n"
-"德国会计模块\n"
+"Dieses  Modul beinhaltet einen deutschen Kontenrahmen basierend auf dem SKR03.\n"
+"==============================================================================\n"
+"\n"
+"German accounting chart and localization.\n"
 "    "
 
 #. module: base
@@ -2005,7 +2011,7 @@ msgid "\n"
 "Allows users to create custom dashboard.\n"
 "    "
 msgstr "\n"
-"让用户自定义控制面板\n"
+"让用户自定义仪表盘\n"
 "    "
 
 #. module: base
@@ -2187,7 +2193,7 @@ msgstr "\n"
 "* 按部门休假\n"
 "* 休假分析\n"
 "\n"
-"如果为休假设置了一种日程类型，就可以与CRM中的日程同步，也就是说休假批准后会在日程上标识出此员工正在休假中。\n"
+"如果为休假配置了一种日程类型，就可以与CRM中的日程同步，也就是说休假批准后会在日程上标识出此员工正在休假中。\n"
 ""
 
 #. module: base
@@ -2287,10 +2293,10 @@ msgstr "\n"
 "\n"
 "* **报价单** -> **销售订单** -> **发票**\n"
 "\n"
-"参数设置（仅在安装了仓库管理模块的情况下）：\n"
+"参数配置（仅在安装了仓库管理模块的情况下）：\n"
 "------------------------------------------------------\n"
 "\n"
-"如果安装了仓库管理模块，您可以设置以下参数：\n"
+"如果安装了仓库管理模块，您可以配置以下参数：\n"
 "\n"
 "* 发货：选择一次性发货或部分发货\n"
 "* 发票：选择发票是如何被支付\n"
@@ -2303,7 +2309,7 @@ msgstr "\n"
 "* *发运前*：先创建草稿发票，待支付后发货\n"
 "\n"
 "\n"
-"销售经理的控制面板（Dashboard）包括：\n"
+"销售经理的仪表盘（Dashboard）包括：\n"
 "------------------------------------------------\n"
 "* 我的报价单\n"
 "* 月成交量（图表）\n"
@@ -2589,23 +2595,23 @@ msgid "\n"
 "\n"
 ""
 msgstr "\n"
-"Module to automate letters for unpaid invoices, with multi-level recalls.\n"
+"这是一个可以自动为未支付发票的业务伙伴发送多等级催款信函的模块。\n"
 "=========================================================================\n"
 "\n"
-"You can define your multiple levels of recall through the menu:\n"
+"你可以通过菜单定义你的多个催款等级：\n"
 "---------------------------------------------------------------\n"
-"    Configuration / Follow-up / Follow-up Levels\n"
+"    配置 / 催款 / 催款等级\n"
 "    \n"
-"Once it is defined, you can automatically print recalls every day through simply clicking on the menu:\n"
+"一旦它被定义，你可以简单地通过点击菜单来自动打印催款说明：\n"
 "------------------------------------------------------------------------------------------------------\n"
-"    Payment Follow-Up / Send Email and letters\n"
+"    付款催收 / 发送电子邮件或信函\n"
 "\n"
-"It will generate a PDF / send emails / set manual actions according to the the different levels \n"
-"of recall defined. You can define different policies for different companies. \n"
+"系统会根据不同级别而产生一个 PDF / 发送电子邮件 / 配置手动操作 催款。\n"
+"您可以为不同的公司定义不同的策略。 \n"
 "\n"
-"Note that if you want to check the follow-up level for a given partner/account entry, you can do from in the menu:\n"
+"清注意，如果您要检查的催款等级对于给定的 业务伙伴/会计分录 ，你可以通过以下菜单来完成：\n"
 "------------------------------------------------------------------------------------------------------------------\n"
-"    Reporting / Accounting / **Follow-ups Analysis\n"
+"    报告 / 会计 / **催款分析\n"
 "\n"
 ""
 
@@ -3275,7 +3281,10 @@ msgid "\n"
 "Italian accounting chart and localization.\n"
 "    "
 msgstr "\n"
-"意大利科目表\n"
+"Piano dei conti italiano di un'impresa generica.\n"
+"================================================\n"
+"\n"
+"Italian accounting chart and localization.\n"
 "    "
 
 #. module: base
@@ -3859,7 +3868,7 @@ msgstr "\n"
 "最重要的好处是，用户不需要做任何特殊的事。此模块集成了电子邮件网关，邮件在OpenERP中自动同步，用户只需在OpenERP中根据系统反馈，按需发送和回复邮件。\n"
 "OpenERP将接管其余的事，诸如发送感谢信、自动转发到相关人员并确保之后相应的回复能准确送达。\n"
 "\n"
-"CRM 控制面板（Dashboard） 包括：\n"
+"CRM 仪表盘（Dashboard） 包括：\n"
 "---------------------------------------\n"
 "* 可按阶段和用户分类的预计收益图表\n"
 "* 按阶段分类的商机图表\n"
@@ -4144,10 +4153,10 @@ msgid "\n"
 "Accounting chart and localization for Ecuador.\n"
 "    "
 msgstr "\n"
-"这是用于管理厄瓜多尔科目表的基础模块\n"
+"This is the base module to manage the accounting chart for Ecuador in OpenERP.\n"
 "==============================================================================\n"
 "\n"
-"厄瓜多尔的科目表和本地化模块\n"
+"Accounting chart and localization for Ecuador.\n"
 "    "
 
 #. module: base
@@ -4159,7 +4168,10 @@ msgid "\n"
 "Greek accounting chart and localization.\n"
 "    "
 msgstr "\n"
-"瑞典会计科目\n"
+"This is the base module to manage the accounting chart for Greece.\n"
+"==================================================================\n"
+"\n"
+"Greek accounting chart and localization.\n"
 "    "
 
 #. module: base
@@ -5870,7 +5882,8 @@ msgid "\n"
 "==================================\n"
 "    "
 msgstr "\n"
-"美国 - 会计科目\n"
+"United States - Chart of accounts.\n"
+"==================================\n"
 "    "
 
 #. module: base
@@ -6062,7 +6075,7 @@ msgstr "%(bank_name)s：%(acc_number)s"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/search.js:2147
-#: code:addons/web/static/src/js/search.js:2314
+#: code:addons/web/static/src/js/search.js:2318
 #, python-format
 msgid "%(field)s %(operator)s"
 msgstr "%(field)s %(operator)s"
@@ -6407,7 +6420,7 @@ msgstr "-- 筛选器 --"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1974
+#: code:addons/web/static/src/xml/base.xml:1978
 #, python-format
 msgid "--- Don't Import ---"
 msgstr "--- 无法导入 ---"
@@ -6451,7 +6464,7 @@ msgstr "各个全局规则逻辑上使用 AND 操作符连接并有如下结果"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1924
+#: code:addons/web/static/src/xml/base.xml:1928
 #, python-format
 msgid "1. Import a .CSV file"
 msgstr "1. 导入 .CSV 文件"
@@ -6490,7 +6503,7 @@ msgstr "2.  %a ,%A ==> 周五, 星期五"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1932
+#: code:addons/web/static/src/xml/base.xml:1936
 #, python-format
 msgid "2. Check your file format"
 msgstr "2. 检查您的文件格式"
@@ -6883,7 +6896,7 @@ msgstr "会计 & 财务"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_test
 msgid "Accounting Consistency Tests"
-msgstr "Accounting Consistency Tests"
+msgstr "会计一致性测试"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_accountant
@@ -6955,7 +6968,7 @@ msgstr "动作目标"
 #. module: base
 #: field:ir.actions.server,state:0
 msgid "Action To Do"
-msgstr "要做的事情"
+msgstr "要做的行动"
 
 #. module: base
 #: field:ir.actions.act_url,type:0
@@ -6999,12 +7012,12 @@ msgstr "Action bound to this entry - helper field for binding an action, will au
 #: field:ir.actions.report.xml,help:0
 #: field:ir.actions.server,help:0
 msgid "Action description"
-msgstr "动作 描述"
+msgstr "动作描述"
 
 #. module: base
 #: view:ir.cron:base.ir_cron_view
 msgid "Action to Trigger"
-msgstr "待触发动作"
+msgstr "要触发的动作"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_sequence_actions
@@ -7062,7 +7075,7 @@ msgstr "活动"
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:5047
 #: code:addons/web/static/src/xml/base.xml:1548
-#: code:addons/web/static/src/xml/base.xml:1847
+#: code:addons/web/static/src/xml/base.xml:1851
 #: code:addons/web_calendar/static/src/js/web_calendar.js:1301
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:100
 #, python-format
@@ -7420,7 +7433,7 @@ msgstr "全天"
 #. module: base
 #: view:base.module.configuration:base.view_base_module_configuration_form
 msgid "All pending configuration wizards have been executed. You may restart individual wizards via the list of configuration wizards."
-msgstr "所有挂起的设置向导已被执行，您可以通过设置向导列表重启单个向导。"
+msgstr "所有挂起的配置向导已被执行，您可以通过配置向导列表重启单个向导。"
 
 #. module: web
 #. openerp-web
@@ -7538,7 +7551,6 @@ msgstr "Applicant Resumes and Letters"
 #: model:ir.model,name:base.model_ir_module_category
 #: field:ir.module.module,application:0
 #: field:res.groups,category_id:0
-#: view:res.users:base.user_groups_view
 #, python-format
 msgid "Application"
 msgstr "应用程序"
@@ -7785,7 +7797,7 @@ msgstr "自动化安装"
 #. module: base
 #: help:ir.translation,state:0
 msgid "Automatically set to let administators find new terms that might need to be translated"
-msgstr "自动设置让管理员找到可能需要翻译的术语。"
+msgstr "自动配置让管理员找到可能需要翻译的术语。"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_automation
@@ -7794,7 +7806,7 @@ msgstr "Automation"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1831
+#: code:addons/web/static/src/xml/base.xml:1835
 #, python-format
 msgid "Available fields"
 msgstr "可用字段"
@@ -7975,7 +7987,7 @@ msgstr "柱状图"
 #. module: base
 #: help:res.partner,ean13:0
 msgid "BarCode"
-msgstr "条形码"
+msgstr "条码"
 
 #. module: base
 #: model:res.country,name:base.bb
@@ -7985,7 +7997,7 @@ msgstr "巴巴多斯"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hw_scanner
 msgid "Barcode Scanner Hardware Driver"
-msgstr "Barcode Scanner Hardware Driver"
+msgstr "条码扫描器的硬件驱动"
 
 #. module: base
 #: view:ir.model:base.view_model_search
@@ -8130,7 +8142,7 @@ msgstr "二进制数据"
 #. module: base
 #: help:ir.attachment,type:0
 msgid "Binary File or URL"
-msgstr "Binary File or URL"
+msgstr "二进制文件或URL"
 
 #. module: base
 #: field:res.partner,birthdate:0
@@ -8297,7 +8309,7 @@ msgstr "CSV 文件"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1929
+#: code:addons/web/static/src/xml/base.xml:1933
 #, python-format
 msgid "CSV File:"
 msgstr "CSV File:"
@@ -8338,7 +8350,7 @@ msgstr "喀麦隆"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_mass_mailing
 msgid "Campaign in Mass Mailing"
-msgstr "Campaign in Mass Mailing"
+msgstr "邮件群发中的营销"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:347
@@ -8404,7 +8416,7 @@ msgstr "Canada - Accounting"
 #: code:addons/web/static/src/js/view_form.js:1963
 #: code:addons/web/static/src/xml/base.xml:345
 #: code:addons/web/static/src/xml/base.xml:1518
-#: code:addons/web/static/src/xml/base.xml:2011
+#: code:addons/web/static/src/xml/base.xml:2015
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:101
 #, python-format
 msgid "Cancel"
@@ -8418,7 +8430,7 @@ msgstr "取消安装"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_cancel
 msgid "Cancel Journal Entries"
-msgstr "取消分类账分录"
+msgstr "取消日记账分录"
 
 #. module: base
 #: view:ir.module.module:base.module_form
@@ -8461,12 +8473,12 @@ msgstr "加泰罗尼亚语 / Català"
 #: view:ir.module.module:base.view_module_filter
 #: field:ir.module.module,category_id:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: base
 #: field:res.partner.category,name:0
 msgid "Category Name"
-msgstr "分类名称"
+msgstr "类别名称"
 
 #. module: base
 #: model:res.country,name:base.ky
@@ -8481,7 +8493,7 @@ msgstr "中非共和国"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_certification
 msgid "Certified People"
-msgstr "Certified People"
+msgstr "认证人员"
 
 #. module: base
 #: model:res.country,name:base.td
@@ -8648,7 +8660,7 @@ msgstr "Check to attach the newly created record to the record on which the serv
 #. module: base
 #: field:ir.actions.server,child_ids:0
 msgid "Child Actions"
-msgstr "Child Actions"
+msgstr "子动作"
 
 #. module: base
 #: field:ir.module.category,child_ids:0
@@ -8663,17 +8675,17 @@ msgstr "子分类"
 #. module: base
 #: field:res.company,child_ids:0
 msgid "Child Companies"
-msgstr "下级公司"
+msgstr "子公司"
 
 #. module: base
 #: field:ir.ui.view,field_parent:0
 msgid "Child Field"
-msgstr "子栏位"
+msgstr "子字段"
 
 #. module: base
 #: field:ir.ui.menu,child_id:0
 msgid "Child IDs"
-msgstr "下级标识符"
+msgstr "子标识符"
 
 #. module: base
 #: help:ir.actions.server,child_ids:0
@@ -8703,7 +8715,7 @@ msgstr "Chinese (CN) / 简体中文"
 #. module: base
 #: selection:base.language.install,lang:0
 msgid "Chinese (HK)"
-msgstr "中文(香港)"
+msgstr "中文(HK)"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -8727,12 +8739,12 @@ msgstr "选择一个密码："
 #. module: base
 #: selection:ir.actions.server,use_write:0
 msgid "Choose and Update a record in the database"
-msgstr "Choose and Update a record in the database"
+msgstr "选择并更新数据库中的记录"
 
 #. module: base
 #: selection:ir.actions.server,use_create:0
 msgid "Choose and copy a record in the database"
-msgstr "Choose and copy a record in the database"
+msgstr "选择并复制数据库中的记录"
 
 #. module: base
 #: help:ir.mail_server,smtp_encryption:0
@@ -8767,12 +8779,12 @@ msgstr "城市"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_claim_from_delivery
 msgid "Claim on Deliveries"
-msgstr "针对发货的投诉"
+msgstr "针对发货的索赔"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_claim
 msgid "Claims Management"
-msgstr "售后服务管理"
+msgstr "索赔管理"
 
 #. module: web
 #. openerp-web
@@ -8789,12 +8801,12 @@ msgstr "清除"
 #: code:addons/web/static/src/xml/base.xml:465
 #, python-format
 msgid "Click here to change your user's timezone."
-msgstr "单击以改变用户的时区设置"
+msgstr "点击以改变用户的时区配置"
 
 #. module: base
 #: view:base.module.update:base.view_base_module_update
 msgid "Click on Update below to start the process..."
-msgstr "单击“更新”开始启动进程"
+msgstr "点击“更新”开始启动进程"
 
 #. module: web_kanban_gauge
 #. openerp-web
@@ -8836,7 +8848,7 @@ msgstr "客户端错误"
 #. module: base
 #: field:ir.actions.client,tag:0
 msgid "Client action tag"
-msgstr "客户动作标签"
+msgstr "客户端动作标签"
 
 #. modules: web, base
 #. openerp-web
@@ -8966,7 +8978,7 @@ msgstr "公司银行账户"
 #: model:ir.actions.act_window,name:base.action_inventory_form
 #: model:ir.ui.menu,name:base.menu_action_inventory_form
 msgid "Company Defaults"
-msgstr "Company Defaults"
+msgstr "公司默认"
 
 #. module: base
 #: field:res.company,name:0
@@ -8977,7 +8989,7 @@ msgstr "公司名称"
 #: model:ir.actions.act_window,name:base.ir_property_form
 #: model:ir.ui.menu,name:base.menu_ir_property_form_all
 msgid "Company Properties"
-msgstr "Company Properties"
+msgstr "公司属性"
 
 #. module: base
 #: field:res.company,company_registry:0
@@ -8992,12 +9004,12 @@ msgstr "公司标语"
 #. module: base
 #: help:multi_company.default,company_dest_id:0
 msgid "Company to store the current record"
-msgstr "将该记录保存到此公司"
+msgstr "保存该记录的公司"
 
 #. module: base
 #: help:multi_company.default,company_id:0
 msgid "Company where the user is connected"
-msgstr "用户所属的公司"
+msgstr "用户所连接的公司"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_res_company_tree
@@ -9053,7 +9065,7 @@ msgstr "条件"
 #: view:ir.actions.todo:base.config_wizard_step_view_form
 #: view:ir.actions.todo:base.ir_actions_todo_tree
 msgid "Config Wizard Steps"
-msgstr "设置向导步骤"
+msgstr "配置向导步骤"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_base_config
@@ -9066,12 +9078,12 @@ msgstr "设置向导步骤"
 #: view:res.company:base.view_company_form
 #: view:res.config:base.res_config_view_base
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: base
 #: view:res.company:base.view_company_form
 msgid "Configuration (RML)"
-msgstr "Configuration (RML)"
+msgstr "配置（RML）"
 
 #. module: base
 #: view:res.config.installer:base.res_config_installer
@@ -9400,7 +9412,7 @@ msgstr "国家的州"
 #: code:addons/web/static/src/xml/base.xml:313
 #: code:addons/web/static/src/xml/base.xml:841
 #: code:addons/web/static/src/xml/base.xml:1517
-#: code:addons/web/static/src/xml/base.xml:2009
+#: code:addons/web/static/src/xml/base.xml:2013
 #: code:addons/web_calendar/static/src/js/web_calendar.js:956
 #: code:addons/web_gantt/static/src/xml/web_gantt.xml:10
 #, python-format
@@ -9508,7 +9520,7 @@ msgstr "创建并编辑"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:2010
+#: code:addons/web/static/src/xml/base.xml:2014
 #, python-format
 msgid "Create and edit"
 msgstr "创建并编辑"
@@ -9853,7 +9865,7 @@ msgstr "自定义字段"
 #: code:addons/web/static/src/js/search.js:1787
 #, python-format
 msgid "Custom Filter"
-msgstr "自定义筛选"
+msgstr "自定义筛选器"
 
 #. module: base
 #: field:res.company,custom_footer:0
@@ -9947,7 +9959,7 @@ msgstr "丹麦语 / Dansk"
 #: model:ir.module.module,shortdesc:base.module_board
 #: model:ir.ui.menu,name:base.menu_reporting_dashboard
 msgid "Dashboards"
-msgstr "控制面板"
+msgstr "仪表盘"
 
 #. module: base
 #: view:ir.attachment:base.view_attachment_form
@@ -10198,7 +10210,7 @@ msgstr "已定义报告"
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:204
 #: code:addons/web/static/src/js/view_list.js:354
-#: code:addons/web/static/src/xml/base.xml:1914
+#: code:addons/web/static/src/xml/base.xml:1918
 #: code:addons/web_calendar/static/src/js/web_calendar.js:843
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:49
 #, python-format
@@ -10261,7 +10273,7 @@ msgstr "删除动作记录失败"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1947
+#: code:addons/web/static/src/xml/base.xml:1951
 #, python-format
 msgid "Delimiter:"
 msgstr "结束符："
@@ -10506,7 +10518,7 @@ msgstr "Documentation examples test"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1939
+#: code:addons/web/static/src/xml/base.xml:1943
 #, python-format
 msgid "Does your file have titles?"
 msgstr "您的文件是否包含标题行？"
@@ -10846,7 +10858,7 @@ msgstr "员工"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1951
+#: code:addons/web/static/src/xml/base.xml:1955
 #, python-format
 msgid "Encoding:"
 msgstr "Encoding:"
@@ -10997,7 +11009,7 @@ msgstr "Ethiopia - Accounting"
 #: code:addons/web/static/src/js/pyeval.js:991
 #, python-format
 msgid "Evaluation Error"
-msgstr "求值错误"
+msgstr "评估错误"
 
 #. module: base
 #: field:ir.server.object.lines,type:0
@@ -11025,7 +11037,7 @@ msgstr "销售活动"
 #: code:addons/base/ir/ir_mail_server.py:215
 #, python-format
 msgid "Everything seems properly set up!"
-msgstr "所有的东西看起来都已经设置好了！"
+msgstr "所有的东西看起来都已经配置好了！"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -11084,7 +11096,7 @@ msgstr "费用确认、开票"
 #: view:base.language.export:base.wizard_lang_export
 #: field:ir.exports.line,export_id:0
 #: code:addons/web/static/src/js/view_list.js:353
-#: code:addons/web/static/src/xml/base.xml:1807
+#: code:addons/web/static/src/xml/base.xml:1811
 #, python-format
 msgid "Export"
 msgstr "导出"
@@ -11104,7 +11116,7 @@ msgstr "导出数据"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1825
+#: code:addons/web/static/src/xml/base.xml:1829
 #, python-format
 msgid "Export Formats"
 msgstr "导出格式"
@@ -11122,7 +11134,7 @@ msgstr "导出名称"
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid "Export Settings"
-msgstr "导出设置"
+msgstr "导出配置"
 
 #. module: web
 #. openerp-web
@@ -11144,14 +11156,14 @@ msgstr "导出翻译"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1819
+#: code:addons/web/static/src/xml/base.xml:1823
 #, python-format
 msgid "Export Type:"
 msgstr "导出类型："
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1822
+#: code:addons/web/static/src/xml/base.xml:1826
 #, python-format
 msgid "Export all Data"
 msgstr "导出所有数据"
@@ -11359,7 +11371,7 @@ msgstr "获取字段视图"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1833
+#: code:addons/web/static/src/xml/base.xml:1837
 #, python-format
 msgid "Fields to export"
 msgstr "要导出的字段"
@@ -11454,14 +11466,14 @@ msgstr "筛选器名称："
 #: code:addons/web/static/src/xml/base.xml:1745
 #, python-format
 msgid "Filter name"
-msgstr "筛选规则名称"
+msgstr "筛选器名称"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/search.js:1895
 #, python-format
 msgid "Filter name is required."
-msgstr "筛选器名称是必须得。"
+msgstr "筛选器名称是必须的。"
 
 #. module: base
 #: sql_constraint:ir.filters:0
@@ -11478,7 +11490,7 @@ msgstr "用于我的单据的筛选器"
 #: code:addons/web/static/src/js/search.js:1092
 #, python-format
 msgid "Filter on: %s"
-msgstr "搜索: %s"
+msgstr "筛选: %s"
 
 #. modules: web, base
 #. openerp-web
@@ -11657,7 +11669,7 @@ msgstr "对于选择字段，必须给出可选择的项目信息！"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1958
+#: code:addons/web/static/src/xml/base.xml:1962
 #, python-format
 msgid "For use if CSV files have titles on multiple lines, skips more than a single line during import"
 msgstr "如果 CSV 文件包含多标题行，那么在导入期间将跳过多行"
@@ -11856,7 +11868,7 @@ msgstr "通用信息"
 #. module: base
 #: view:ir.actions.act_window:base.view_window_action_form
 msgid "General Settings"
-msgstr "通用设置"
+msgstr "通用配置"
 
 #. module: base
 #: view:ir.property:base.ir_property_view_search
@@ -12230,7 +12242,7 @@ msgstr "帮助你管理你的人力资源。输入员工架构，生成工作计
 #. module: base
 #: model:ir.module.category,description:base.module_category_warehouse_management
 msgid "Helps you manage your inventory and main stock operations: delivery orders, receptions, etc."
-msgstr "帮助您管理库存与仓库相关操作：发货单、收货单等"
+msgstr "帮助您管理你的存货以及主要的库存作业：交货单、收货单等"
 
 #. module: base
 #: model:ir.module.category,description:base.module_category_manufacturing
@@ -12254,7 +12266,7 @@ msgstr "帮助您管理采购相关流程，如询价、供货商发票等等"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1987
+#: code:addons/web/static/src/xml/base.xml:1991
 #, python-format
 msgid "Here is a preview of the file we could not import:"
 msgstr "这是文件中无法导入部分的预览："
@@ -12547,7 +12559,7 @@ msgstr "如果不指定组，规则是全局的并应用于每个用户."
 #. module: base
 #: help:ir.property,res_id:0
 msgid "If not set, acts as a default value for new resources"
-msgstr "倘若没有设置，则作为新资源的默认值"
+msgstr "倘若没有配置，则作为新资源的默认值"
 
 #. module: base
 #: help:ir.actions.act_window.view,multi:0
@@ -12563,7 +12575,7 @@ msgstr "如果不为空，动作只为该公司绑定"
 #. module: base
 #: help:ir.values,user_id:0
 msgid "If set, action binding only applies for this user."
-msgstr "如果设置， 动作绑定只能用于这个用户。"
+msgstr "如果配置， 动作绑定只能用于这个用户。"
 
 #. module: base
 #: help:ir.model.fields,serialization_field_id:0
@@ -12587,8 +12599,8 @@ msgstr "If specified, this action will be opened at log on for this user, in add
 msgid "If the menu entry action is an act_window action, and if this action is related to a model that uses the need_action mechanism, this field is set to true. Otherwise, it is false."
 msgstr "如果菜单项的动作是一个act_window动作，r\n"
 "并且这个动作被关联到的模型使用了need_action机制，r\n"
-"这个字段设置为true，r\n"
-"否则设置false。"
+"这个字段配置为true，r\n"
+"否则配置false。"
 
 #. module: base
 #: help:res.partner,lang:0
@@ -12673,7 +12685,7 @@ msgstr "实现"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1918
+#: code:addons/web/static/src/xml/base.xml:1922
 #, python-format
 msgid "Import"
 msgstr "Import"
@@ -12690,7 +12702,7 @@ msgstr "导入/导出"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1935
+#: code:addons/web/static/src/xml/base.xml:1939
 #, python-format
 msgid "Import Options"
 msgstr "导入选项"
@@ -12704,7 +12716,7 @@ msgstr "导入翻译"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1821
+#: code:addons/web/static/src/xml/base.xml:1825
 #, python-format
 msgid "Import-Compatible Export"
 msgstr "导入兼容格式导出"
@@ -12736,7 +12748,7 @@ msgstr "Incorrect Write Record Expression"
 #: code:addons/web/static/src/js/chrome.js:581
 #, python-format
 msgid "Incorrect super-administrator password"
-msgstr "错误的管理员密码"
+msgstr "错误的超级管理员密码"
 
 #. module: web
 #. openerp-web
@@ -12770,7 +12782,7 @@ msgstr "Indian - Accounting"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_in_hr_payroll
 msgid "Indian Payroll"
-msgstr "印度工资"
+msgstr "Indian Payroll"
 
 #. module: base
 #: model:res.country,name:base.id
@@ -12837,7 +12849,7 @@ msgstr "初始日期"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_setup
 msgid "Initial Setup Tools"
-msgstr "初始化设置工具"
+msgstr "初始化配置工具"
 
 #. module: base
 #: field:ir.model.constraint,date_init:0
@@ -12919,7 +12931,7 @@ msgstr "整数"
 #. module: base
 #: view:ir.rule:base.view_rule_form
 msgid "Interaction between rules"
-msgstr "规则间的联动"
+msgstr "规则间的互动"
 
 #. module: base
 #: view:res.partner:base.view_partner_form
@@ -13003,7 +13015,7 @@ msgstr "无效的数据库名"
 #. module: base
 #: constraint:res.lang:0
 msgid "Invalid date/time format directive specified. Please refer to the list of allowed directives, displayed when you edit a language."
-msgstr "日期、时间格式不正确。请参照您的语言设置中的日期/时间格式输入。"
+msgstr "日期、时间格式不正确。请参照您的语言配置中的日期/时间格式输入。"
 
 #. module: base
 #: sql_constraint:ir.ui.view:0
@@ -13036,22 +13048,22 @@ msgstr "无效的视图定义"
 #. module: base
 #: model:ir.module.category,name:base.module_category_generic_modules_inventory_control
 msgid "Inventory Control"
-msgstr "盘点控制"
+msgstr "存货控制"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_stock
 msgid "Inventory, Logistic, Storage"
-msgstr "库存，物流，存储"
+msgstr "存货，物流，存储"
 
 #. module: base
 #: model:ir.module.module,summary:base.module_stock_account
 msgid "Inventory, Logistic, Valuation, Accounting"
-msgstr "库存，物流，估值，会计"
+msgstr "存货，物流，计价，会计"
 
 #. module: base
 #: selection:res.partner,type:0
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_stock_invoice_directly
@@ -13548,7 +13560,7 @@ msgstr "最后连接"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1955
+#: code:addons/web/static/src/xml/base.xml:1959
 #, python-format
 msgid "Latin 1"
 msgstr "Latin 1"
@@ -13712,7 +13724,7 @@ msgstr "线状图"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1958
+#: code:addons/web/static/src/xml/base.xml:1962
 #, python-format
 msgid "Lines to skip"
 msgstr "要跳过的行数"
@@ -14787,7 +14799,7 @@ msgstr "缅甸"
 #: field:res.request.link,name:0
 #: field:workflow,name:0
 #: field:workflow.activity,name:0
-#: code:addons/web/static/src/xml/base.xml:1868
+#: code:addons/web/static/src/xml/base.xml:1872
 #, python-format
 msgid "Name"
 msgstr "名称"
@@ -14804,7 +14816,7 @@ msgstr "指定在任务运行时将被调用的方法名称"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:2004
+#: code:addons/web/static/src/xml/base.xml:2008
 #, python-format
 msgid "Name:"
 msgstr "名称："
@@ -14921,7 +14933,7 @@ msgstr "News, Blogs, Announces, Discussions"
 #. module: base
 #: field:ir.cron,nextcall:0
 msgid "Next Execution Date"
-msgstr "下一次执行时间"
+msgstr "下一执行时间"
 
 #. module: base
 #: field:ir.sequence,number_next:0
@@ -15297,7 +15309,7 @@ msgstr "Ogone Payment Acquirer"
 #: code:addons/web/static/src/js/chrome.js:747
 #: code:addons/web/static/src/js/view_form.js:586
 #: code:addons/web/static/src/js/view_form.js:1967
-#: code:addons/web/static/src/xml/base.xml:1902
+#: code:addons/web/static/src/xml/base.xml:1906
 #, python-format
 msgid "Ok"
 msgstr "Ok"
@@ -15312,7 +15324,7 @@ msgstr "旧密码"
 #. module: base
 #: field:ir.translation,src:0
 msgid "Old source"
-msgstr "Old source"
+msgstr "旧的原文"
 
 #. module: base
 #: model:res.country,name:base.om
@@ -15350,29 +15362,29 @@ msgstr "多对一（many2one）字段的 on delete 属性"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_voucher
 msgid "Online Billing"
-msgstr "Online Billing"
+msgstr "在线账单"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event_sale
 msgid "Online Event's Tickets"
-msgstr "Online Event's Tickets"
+msgstr "在线活动门票"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event
 msgid "Online Events"
-msgstr "Online Events"
+msgstr "在线活动"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_quote
 msgid "Online Proposals"
-msgstr "Online Proposals"
+msgstr "在线方案"
 
 #. module: web_kanban_gauge
 #. openerp-web
 #: code:addons/web_kanban_gauge/static/src/js/kanban_gauge.js:113
 #, python-format
 msgid "Only Integer Value should be valid."
-msgstr "Only Integer Value should be valid."
+msgstr "仅整数值有效"
 
 #. module: base
 #: code:addons/base/res/res_config.py:541
@@ -15384,7 +15396,7 @@ msgstr "Only administrators can change the settings"
 #: code:addons/base/ir/ir_attachment.py:80
 #, python-format
 msgid "Only administrators can execute this action."
-msgstr "Only administrators can execute this action."
+msgstr "仅有系统管理员才能执行该动作"
 
 #. module: base
 #: help:ir.ui.view,mode:0
@@ -15435,7 +15447,7 @@ msgstr "打开模块"
 #. module: base
 #: model:ir.actions.client,name:base.action_client_base_menu
 msgid "Open Settings Menu"
-msgstr "打开设置菜单"
+msgstr "打开配置菜单"
 
 #. module: base
 #: view:ir.actions.act_window:base.view_window_action_tree
@@ -15511,7 +15523,7 @@ msgstr "作业已经取消"
 #: code:addons/base/workflow/workflow.py:101
 #, python-format
 msgid "Operation Forbidden"
-msgstr "Operation Forbidden"
+msgstr "作业禁止"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_crm_config_opportunity
@@ -15580,7 +15592,6 @@ msgstr "原来的数据库名:"
 #: code:addons/base/res/res_users.py:760
 #: code:addons/base/res/res_users.py:914
 #: selection:res.partner,type:0
-#: view:res.users:base.user_groups_view
 #, python-format
 msgid "Other"
 msgstr "其他"
@@ -15908,12 +15919,12 @@ msgstr "Payment Acquirer: Transfer Implementation"
 #. module: base
 #: model:ir.ui.menu,name:base.menu_sales_followup
 msgid "Payment Follow-up"
-msgstr "付款跟进"
+msgstr "付款催收"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_followup
 msgid "Payment Follow-up Management"
-msgstr "付款跟进管理"
+msgstr "付款催收管理"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_payment
@@ -16065,14 +16076,14 @@ msgstr "在删除之前，请确信没有工作项目参考了这个活动。"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1862
+#: code:addons/web/static/src/xml/base.xml:1866
 #, python-format
 msgid "Please note that only the selected ids will be exported."
 msgstr "请注意只有选中的 ID 会被导出"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1859
+#: code:addons/web/static/src/xml/base.xml:1863
 #, python-format
 msgid "Please pay attention that all records matching your search filter will be exported. Not only the selected ids."
 msgstr "请注意将导出所有匹配搜索筛选器的记录而不仅是选中的 ID。"
@@ -16730,14 +16741,14 @@ msgstr "从附件重新载入"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1848
+#: code:addons/web/static/src/xml/base.xml:1852
 #, python-format
 msgid "Remove"
 msgstr "删除"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1849
+#: code:addons/web/static/src/xml/base.xml:1853
 #, python-format
 msgid "Remove All"
 msgstr "全部移除"
@@ -16865,7 +16876,7 @@ msgstr "必须的"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_crm_partner_assign
 msgid "Resellers"
-msgstr "Resellers"
+msgstr "经销商"
 
 #. module: base
 #: field:ir.exports,resource:0
@@ -17139,7 +17150,6 @@ msgstr "Sale Layout, page-break, subtotals, separators, report"
 #: model:ir.ui.menu,name:base.menu_sale_config_sales
 #: model:ir.ui.menu,name:base.menu_sales
 #: model:ir.ui.menu,name:base.next_id_64
-#: view:res.users:base.user_groups_view
 msgid "Sales"
 msgstr "销售"
 
@@ -17253,7 +17263,7 @@ msgstr "保存附件的前缀"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1900
+#: code:addons/web/static/src/xml/base.xml:1904
 #, python-format
 msgid "Save as:"
 msgstr "另存为："
@@ -17274,14 +17284,14 @@ msgstr "保存默认值"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1835
+#: code:addons/web/static/src/xml/base.xml:1839
 #, python-format
 msgid "Save fields list"
 msgstr "保存字段列表"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1906
+#: code:addons/web/static/src/xml/base.xml:1910
 #, python-format
 msgid "Saved exports:"
 msgstr "已保存的导出结果："
@@ -17444,7 +17454,7 @@ msgstr "选择 D, M d"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1925
+#: code:addons/web/static/src/xml/base.xml:1929
 #, python-format
 msgid "Select a .CSV file to import. If you need a sample of file to import,\n"
 "       you should use the export tool with the \"Import Compatible\" option."
@@ -17497,7 +17507,7 @@ msgstr "Select the workflow signal to trigger."
 #. module: base
 #: help:res.partner,use_parent_address:0
 msgid "Select this if you want to set company's address information  for this contact"
-msgstr "如果要为该联系人设置公司地址信息，选中此项。"
+msgstr "如果要为该联系人配置公司地址信息，选中此项。"
 
 #. module: base
 #: field:ir.model.fields,selectable:0
@@ -17554,7 +17564,7 @@ msgstr "分割符格式"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1945
+#: code:addons/web/static/src/xml/base.xml:1949
 #, python-format
 msgid "Separator:"
 msgstr "Separator:"
@@ -17660,7 +17670,7 @@ msgstr "服务器动作"
 #: code:addons/web/static/src/js/view_form.js:2675
 #, python-format
 msgid "Set DD as first week day"
-msgstr "设置DD 作为第一个工作日"
+msgstr "配置DD 作为第一个工作日"
 
 #. module: web
 #. openerp-web
@@ -17674,7 +17684,7 @@ msgstr "取默认值"
 #: code:addons/web/static/src/xml/base.xml:541
 #, python-format
 msgid "Set Defaults"
-msgstr "设置默认值"
+msgstr "配置默认值"
 
 #. module: base
 #: selection:ir.model.fields,on_delete:0
@@ -17684,7 +17694,7 @@ msgstr "设为空（NULL）"
 #. module: base
 #: field:res.users,new_password:0
 msgid "Set Password"
-msgstr "设置密码"
+msgstr "配置密码"
 
 #. module: base
 #: view:ir.actions.todo:base.config_wizard_step_view_form
@@ -17702,19 +17712,19 @@ msgstr "Set the font into the report header, it will be used as default font in 
 #: code:addons/web/static/src/js/view_list.js:969
 #, python-format
 msgid "Setting 'id' attribute on existing record %s"
-msgstr "在已有的记录 %s上设置  'id' 属性"
+msgstr "在已有的记录 %s上配置  'id' 属性"
 
 #. module: base
 #: code:addons/base/res/res_users.py:522
 #, python-format
 msgid "Setting empty passwords is not allowed for security reasons!"
-msgstr "基于安全上的考虑不允许设置空密码！"
+msgstr "基于安全上的考虑不允许配置空密码！"
 
 #. module: base
 #: model:ir.ui.menu,name:base.menu_administration
 #: model:res.groups,name:base.group_system
 msgid "Settings"
-msgstr "设置"
+msgstr "配置"
 
 #. module: base
 #: model:res.country,name:base.sc
@@ -18167,7 +18177,7 @@ msgstr "标准"
 #. module: base
 #: view:base.module.upgrade:base.view_base_module_upgrade_install
 msgid "Start configuration"
-msgstr "开始设置"
+msgstr "开始配置"
 
 #. module: base
 #: code:addons/base/res/res_partner.py:69
@@ -18438,13 +18448,13 @@ msgstr "叙利亚"
 #. module: base
 #: view:base.module.configuration:base.view_base_module_configuration_form
 msgid "System Configuration Done"
-msgstr "系统设置完成"
+msgstr "系统配置完成"
 
 #. module: base
 #: code:addons/base/module/wizard/base_module_configuration.py:38
 #, python-format
 msgid "System Configuration done"
-msgstr "系统设置已完成"
+msgstr "系统配置已完成"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.ir_config_list_action
@@ -18599,9 +18609,8 @@ msgstr "技术名称"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hidden
-#: view:res.users:base.user_groups_view
 msgid "Technical Settings"
-msgstr "技术设置"
+msgstr "技术配置"
 
 #. module: web
 #. openerp-web
@@ -18836,7 +18845,7 @@ msgstr "用户组中的用户需要授权才能确认此迁移。"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1985
+#: code:addons/web/static/src/xml/base.xml:1989
 #, python-format
 msgid "The import failed due to:"
 msgstr "导入失败："
@@ -18936,7 +18945,7 @@ msgstr "osv_memory 字段仅用 = 和 != 操作符作比较."
 #. module: base
 #: help:res.partner,tz:0
 msgid "The partner's timezone, used to output proper date and time values inside printed reports. It is important to set a value for this field. You should use the same timezone that is otherwise used to pick and render date and time values: your computer's timezone."
-msgstr "业务伙伴的时区，用来在打印的报告上面输出适当的日期和事件。设置这个字段非常重要. 选择和使用日期和时间 你将用和你电脑相同的时区。"
+msgstr "业务伙伴的时区，用来在打印的报告上面输出适当的日期和事件。配置这个字段非常重要. 选择和使用日期和时间 你将用和你电脑相同的时区。"
 
 #. module: base
 #: help:ir.actions.report.xml,report_file:0
@@ -19037,7 +19046,7 @@ msgstr "用户的这个筛选器是私有的。留空的话，这个筛选器是
 #: code:addons/base/ir/ir_filters.py:97
 #, python-format
 msgid "There is already a shared filter set as default for %(model)s, delete or change it before setting a new default"
-msgstr "这是一个%(model)s的共享筛选，请在上处或者修改前设置一个新的默认值"
+msgstr "这是一个%(model)s的共享筛选，请在上处或者修改前配置一个新的默认值"
 
 #. module: web
 #. openerp-web
@@ -19076,7 +19085,7 @@ msgstr "该字段保存的图像用作联系人的头像，限制为1024x1024px"
 #. module: base
 #: help:res.lang,code:0
 msgid "This field is used to set/get locales for user"
-msgstr "此字段用于设定或获取地区设置"
+msgstr "此字段用于设定或获取地区配置"
 
 #. module: base
 #: help:ir.model,osv_memory:0
@@ -19134,7 +19143,7 @@ msgstr "资源是空的"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1812
+#: code:addons/web/static/src/xml/base.xml:1816
 #, python-format
 msgid "This wizard will export all data that matches the current search criteria to a CSV file.\n"
 "            You can export all data or only the fields that can be reimported after modification."
@@ -19195,7 +19204,7 @@ msgstr "时区"
 #: code:addons/web/static/src/js/chrome.js:1331
 #, python-format
 msgid "Timezone Mismatch"
-msgstr "时区错误"
+msgstr "时区不一致"
 
 #. module: web
 #. openerp-web
@@ -19557,7 +19566,7 @@ msgstr "美国海外领土"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/xml/base.xml:1954
+#: code:addons/web/static/src/xml/base.xml:1958
 #, python-format
 msgid "UTF-8"
 msgstr "UTF-8"
@@ -19622,8 +19631,8 @@ msgstr "未分类"
 #: code:addons/web_graph/static/src/js/graph_widget.js:739
 #: code:addons/web_graph/static/src/js/graph_widget.js:744
 #: code:addons/web_graph/static/src/js/graph_widget.js:747
-#: code:addons/web_graph/static/src/js/graph_widget.js:792
-#: code:addons/web_graph/static/src/js/graph_widget.js:821
+#: code:addons/web_graph/static/src/js/graph_widget.js:793
+#: code:addons/web_graph/static/src/js/graph_widget.js:822
 #: code:addons/web_graph/static/src/js/pivot_table.js:435
 #: code:addons/web_kanban/static/src/js/kanban.js:609
 #, python-format
@@ -19868,7 +19877,6 @@ msgstr "乌拉圭会计模块"
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_usability
-#: view:res.users:base.user_groups_view
 msgid "Usability"
 msgstr "易用性"
 
@@ -20835,7 +20843,7 @@ msgstr "You will be able to define additional access rights by editing the newly
 #: code:addons/web/static/src/js/chrome.js:259
 #, python-format
 msgid "Your Odoo session expired. Please refresh the current web page."
-msgstr "你的会话已过期，请刷新当前页面。"
+msgstr "您的会话已过期，请刷新当前页面。"
 
 #. module: base
 #: code:addons/base/ir/ir_mail_server.py:234
@@ -20854,7 +20862,7 @@ msgstr "您的服务器好像不支持 SSL，可试 STARTTLS。"
 #: code:addons/web/static/src/xml/base.xml:456
 #, python-format
 msgid "Your user's preference timezone does not match your browser timezone:"
-msgstr "用户选项中的时区设置跟浏览器的 时区不匹配"
+msgstr "用户选项中的时区配置跟浏览器的 时区不匹配"
 
 #. module: base
 #: model:res.country,name:base.yu
@@ -20897,7 +20905,7 @@ msgstr "邮编"
 #. module: base
 #: view:base.language.import:base.view_base_import_language
 msgid "_Import"
-msgstr "导入(_I)"
+msgstr "_导入"
 
 #. module: base
 #: sql_constraint:ir.sequence.type:0
@@ -20974,7 +20982,7 @@ msgstr "包含"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "context: current context"
-msgstr "context: current context"
+msgstr "context:当前上下文"
 
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
@@ -20990,7 +20998,7 @@ msgstr "database id"
 #. module: base
 #: view:base.language.export:base.wizard_lang_export
 msgid "documentation"
-msgstr "Documentation"
+msgstr "文档"
 
 #. module: web
 #. openerp-web
@@ -21014,7 +21022,7 @@ msgstr "e.g. +32.479.19.28.37"
 #: view:res.partner:base.view_partner_form
 #: view:res.users:base.view_users_simple_form
 msgid "e.g. +32.81.81.37.00"
-msgstr "例如：+86 21 8888 8888"
+msgstr "e.g. +32.81.81.37.00"
 
 #. module: base
 #: view:res.users:base.view_users_simple_form
@@ -21029,7 +21037,7 @@ msgstr "e.g. English"
 #. module: base
 #: view:res.partner.bank:base.view_partner_bank_form
 msgid "e.g. GEBABEBB"
-msgstr "例如：GEBABEBB"
+msgstr "e.g. GEBABEBB"
 
 #. module: base
 #: view:res.company:base.view_company_form
@@ -21052,7 +21060,7 @@ msgstr "e.g. en_US"
 #: code:addons/web/static/src/xml/base.xml:107
 #, python-format
 msgid "e.g. mycompany"
-msgstr "例如: mycompany(必须是字母开头，后面可以跟数字和下划线)"
+msgstr "e.g. mycompany"
 
 #. module: base
 #: view:res.company:base.view_company_form
@@ -21078,7 +21086,7 @@ msgstr "eCommerce Optional Products"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account
 msgid "eInvoicing"
-msgstr "电子开票"
+msgstr "电子发票"
 
 #. module: base
 #: view:res.users:base.view_users_simple_form
@@ -21165,7 +21173,7 @@ msgstr "ir.actions.wizard"
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/search.js:2263
-#: code:addons/web/static/src/js/search.js:2292
+#: code:addons/web/static/src/js/search.js:2296
 #, python-format
 msgid "is"
 msgstr "是"
@@ -21182,14 +21190,14 @@ msgstr "等于"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2310
+#: code:addons/web/static/src/js/search.js:2314
 #, python-format
 msgid "is false"
 msgstr "为假"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2293
+#: code:addons/web/static/src/js/search.js:2297
 #, python-format
 msgid "is not"
 msgstr "不是"
@@ -21210,7 +21218,7 @@ msgstr "不等于"
 #: code:addons/web/static/src/js/search.js:2212
 #: code:addons/web/static/src/js/search.js:2248
 #: code:addons/web/static/src/js/search.js:2275
-#: code:addons/web/static/src/js/search.js:2295
+#: code:addons/web/static/src/js/search.js:2299
 #, python-format
 msgid "is not set"
 msgstr "未设置"
@@ -21221,14 +21229,14 @@ msgstr "未设置"
 #: code:addons/web/static/src/js/search.js:2211
 #: code:addons/web/static/src/js/search.js:2247
 #: code:addons/web/static/src/js/search.js:2274
-#: code:addons/web/static/src/js/search.js:2294
+#: code:addons/web/static/src/js/search.js:2298
 #, python-format
 msgid "is set"
 msgstr "已设置"
 
 #. module: web
 #. openerp-web
-#: code:addons/web/static/src/js/search.js:2309
+#: code:addons/web/static/src/js/search.js:2313
 #, python-format
 msgid "is true"
 msgstr "为真"
@@ -21335,7 +21343,7 @@ msgstr "在"
 #: code:addons/web/static/src/xml/base.xml:1517
 #: code:addons/web/static/src/xml/base.xml:1525
 #: code:addons/web/static/src/xml/base.xml:1768
-#: code:addons/web/static/src/xml/base.xml:2010
+#: code:addons/web/static/src/xml/base.xml:2014
 #: code:addons/web/static/src/xml/website.tour.xml:14
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:22
 #: code:addons/web_kanban/static/src/xml/web_kanban.xml:100
@@ -21474,7 +21482,7 @@ msgstr "标题"
 #: code:addons/web/static/src/js/search.js:742
 #, python-format
 msgid "triggered from search view"
-msgstr "在搜索视图进入"
+msgstr "在搜索视图触发"
 
 #. module: base
 #: code:addons/base/ir/ir_fields.py:132
@@ -21485,7 +21493,7 @@ msgstr "真"
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "uid: current user id"
-msgstr "uid: current user id"
+msgstr "uid：当前用户id"
 
 #. module: base
 #: code:addons/fields.py:224
@@ -21529,4 +21537,19 @@ msgstr "阿兰群岛"
 #: model:ir.module.module,shortdesc:base.module_l10n_cn
 msgid "中国会计科目表"
 msgstr "中国会计科目表"
+
+#. module: base
+#: view:res.users:base.user_groups_view
+msgid "应用程序"
+msgstr "应用程序"
+
+#. module: base
+#: view:res.users:base.user_groups_view
+msgid "技术配置"
+msgstr "技术配置"
+
+#. module: base
+#: view:res.users:base.user_groups_view
+msgid "易用性"
+msgstr "易用性"
 

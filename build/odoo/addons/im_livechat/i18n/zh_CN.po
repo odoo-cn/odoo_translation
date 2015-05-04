@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:54+0000\n"
-"PO-Revision-Date: 2015-04-29 21:54+0000\n"
+"POT-Creation-Date: 2015-05-03 21:18+0000\n"
+"PO-Revision-Date: 2015-05-03 21:18+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -110,7 +110,7 @@ msgstr "Are you inside the matrix?"
 #. module: im_livechat
 #: field:im_chat.session,channel_id:0
 msgid "Channel"
-msgstr "途径"
+msgstr "渠道"
 
 #. module: im_livechat
 #: field:im_livechat.channel,name:0
@@ -137,7 +137,7 @@ msgstr "Chat with one of our collaborators"
 #. module: im_livechat
 #: field:im_chat.session,fullname:0
 msgid "Complete name"
-msgstr "Complete name"
+msgstr "完整名称"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
@@ -278,7 +278,7 @@ msgstr "Odoo"
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
 msgid "Operators"
-msgstr "Operators"
+msgstr "作业员"
 
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form

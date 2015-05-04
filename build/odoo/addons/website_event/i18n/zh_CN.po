@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:30+0000\n"
-"PO-Revision-Date: 2015-04-29 22:30+0000\n"
+"POT-Creation-Date: 2015-05-03 21:39+0000\n"
+"PO-Revision-Date: 2015-05-03 21:39+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -290,13 +290,13 @@ msgstr "New Event Created"
 #: code:addons/website_event/controllers/main.py:55
 #, python-format
 msgid "Next Events"
-msgstr "Next Events"
+msgstr "下一活动"
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:64
 #, python-format
 msgid "Next Week"
-msgstr "Next Week"
+msgstr "下周"
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:72
@@ -313,24 +313,24 @@ msgstr "No event found"
 #: code:addons/website_event/controllers/main.py:76
 #, python-format
 msgid "Old Events"
-msgstr "Old Events"
+msgstr "历史活动"
 
 #. module: website_event
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:83
 #, python-format
 msgid "Once you click on save, your event is updated."
-msgstr "Once you click on save, your event is updated."
+msgstr "当您点击保存,您的活动将被更新."
 
 #. module: website_event
 #: view:website:website_event.index
 msgid "Online"
-msgstr "Online"
+msgstr "在线"
 
 #. module: website_event
 #: view:website:website_event.index
 msgid "Online Events"
-msgstr "Online Events"
+msgstr "在线活动"
 
 #. module: website_event
 #: view:website:website_event.index
@@ -445,7 +445,7 @@ msgstr "This is your new event page. We will edit the event presentation page."
 #: code:addons/website_event/controllers/main.py:68
 #, python-format
 msgid "This month"
-msgstr "This month"
+msgstr "本月"
 
 #. module: website_event
 #: code:addons/website_event/controllers/main.py:56
@@ -540,7 +540,7 @@ msgstr "col-md-6"
 #. module: website_event
 #: view:website:website_event.index
 msgid "not published"
-msgstr "not published"
+msgstr "未发布"
 
 #. module: website_event
 #: view:website:website_event.index
@@ -556,5 +556,5 @@ msgstr "到"
 #. module: website_event
 #: view:website:website_event.index
 msgid "to create your first event."
-msgstr "to create your first event."
+msgstr "创建你的第一个事件"
 

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:46+0000\n"
-"PO-Revision-Date: 2015-04-29 21:46+0000\n"
+"POT-Creation-Date: 2015-05-03 21:10+0000\n"
+"PO-Revision-Date: 2015-05-03 21:10+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -48,12 +48,12 @@ msgstr "\n"
 #. module: event
 #: field:report.event.registration,confirm_state:0
 msgid " # No of Confirmed Registrations"
-msgstr " # 没确认登记记录"
+msgstr " # 已确认登记数量"
 
 #. module: event
 #: field:report.event.registration,draft_state:0
 msgid " # No of Draft Registrations"
-msgstr " # 没草稿状态的登记记录"
+msgstr " # 草稿登记数量"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -117,7 +117,7 @@ msgstr "取消活动"
 #: view:event.registration:event.view_event_registration_form
 #: view:event.registration:event.view_event_registration_tree
 msgid "Cancel Registration"
-msgstr "取消登记记录"
+msgstr "取消登记"
 
 #. module: event
 #: selection:event.event,state:0
@@ -408,7 +408,7 @@ msgstr "已确认状态的活动"
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -744,7 +744,7 @@ msgstr "回复Email"
 #. module: event
 #: field:event.event,seats_reserved:0
 msgid "Reserved Seats"
-msgstr "预留的座位"
+msgstr "保留的座位"
 
 #. module: event
 #: view:event.event:event.view_event_search
@@ -770,7 +770,7 @@ msgstr "设为草稿"
 #. module: event
 #: view:event.registration:event.view_event_registration_form
 msgid "Set To Unconfirmed"
-msgstr "设置为未确认"
+msgstr "配置为未确认"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
@@ -940,7 +940,7 @@ msgstr "或"
 #. module: event
 #: view:event.event:event.view_event_kanban
 msgid "ticket"
-msgstr "入场券"
+msgstr "门票"
 
 #. module: event
 #: view:event.event:event.view_event_kanban

@@ -9,8 +9,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:45+0000\n"
-"PO-Revision-Date: 2015-04-29 22:45+0000\n"
+"POT-Creation-Date: 2015-05-03 21:45+0000\n"
+"PO-Revision-Date: 2015-05-03 21:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -491,7 +491,7 @@ msgstr "取消"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Cancel Project"
-msgstr "Cancel Project"
+msgstr "取消项目"
 
 #. module: project
 #: selection:project.project,state:0
@@ -502,18 +502,18 @@ msgstr "已取消"
 #. module: project
 #: model:ir.model,name:project.model_project_category
 msgid "Category of project's task, issue, ..."
-msgstr "项目的任务类别，问题，..."
+msgstr "项目任务，议题的类别"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_kanban_view
 msgid "Category:"
-msgstr "分类:"
+msgstr "类别："
 
 #. module: project_issue
 #: field:project.issue,channel:0
 #: field:project.issue.report,channel:0
 msgid "Channel"
-msgstr "途径"
+msgstr "渠道"
 
 #. module: project_issue
 #: help:account.analytic.account,use_issues:0
@@ -531,7 +531,7 @@ msgstr "Child task still open.\n"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Close Project"
-msgstr "Close Project"
+msgstr "关闭项目"
 
 #. modules: project, project_issue
 #: selection:project.project,state:0
@@ -549,17 +549,17 @@ msgstr "颜色索引"
 #. module: project
 #: view:project.task.type:project.task_type_search
 msgid "Common"
-msgstr "Common"
+msgstr "点击"
 
 #. module: project_issue
 #: help:project.issue.report,channel:0
 msgid "Communication Channel."
-msgstr "Communication Channel."
+msgstr "沟通渠道"
 
 #. module: project_issue
 #: help:project.issue,channel:0
 msgid "Communication channel."
-msgstr "通讯渠道"
+msgstr "沟通渠道"
 
 #. module: project
 #: model:ir.model,name:project.model_res_company
@@ -1009,12 +1009,12 @@ msgstr "从销售订单生成任务"
 #. module: project
 #: help:project.project,sequence:0
 msgid "Gives the sequence order when displaying a list of Projects."
-msgstr "Gives the sequence order when displaying a list of Projects."
+msgstr "按序列顺序显示项目列表"
 
 #. module: project
 #: help:project.task,sequence:0
 msgid "Gives the sequence order when displaying a list of tasks."
-msgstr "Gives the sequence order when displaying a list of tasks."
+msgstr "按序列顺序显示任务列表"
 
 #. modules: project, project_issue, project_timesheet
 #: view:project.project:project.view_project_project_filter
@@ -1815,7 +1815,7 @@ msgstr "项目名称"
 #. module: project
 #: view:project.project:project.view_project_kanban
 msgid "Project Settings"
-msgstr "项目设置"
+msgstr "项目配置"
 
 #. module: project
 #: view:project.project:project.edit_project
@@ -1954,7 +1954,7 @@ msgstr "剩余时间"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Reset as Project"
-msgstr "重设项目"
+msgstr "重置为项目"
 
 #. module: project
 #: field:project.task.history,user_id:0
@@ -2325,7 +2325,7 @@ msgstr "测试"
 #: code:addons/project_issue_sheet/project_issue_sheet.py:57
 #, python-format
 msgid "The Analytic Account is pending !"
-msgstr "这个辅助核算项 被挂起的"
+msgstr "这个分析账户 被挂起的"
 
 #. module: project
 #: help:project.project,alias_model:0
@@ -2387,8 +2387,8 @@ msgstr "This will set the unit of measure used in projects and tasks.\n"
 #: help:res.company,project_time_mode_id:0
 msgid "This will set the unit of measure used in projects and tasks.\n"
 "If you use the timesheet linked to projects (project_timesheet module), don't forget to setup the right unit of measure in your employees."
-msgstr "此操作用于设置项目和任务的所采用的计量单位\n"
-"如果您安装了project_timesheet模块，工作时间表会与项目连接，请记得在员工设置中选择正确的计量单位。"
+msgstr "此操作用于配置项目和任务的所采用的计量单位\n"
+"如果您安装了project_timesheet模块，工作时间表会与项目连接，请记得在员工配置中选择正确的计量单位。"
 
 #. module: project
 #: model:res.groups,name:project.group_time_work_estimation_tasks
@@ -2448,7 +2448,7 @@ msgstr "总工时"
 #. module: project
 #: field:project.project,total_hours:0
 msgid "Total Time"
-msgstr "总时间"
+msgstr "时间合计"
 
 #. module: project
 #: help:project.task,remaining_hours:0
@@ -2646,7 +2646,7 @@ msgstr "You must assign members on the project '%s'!"
 #. module: project
 #: field:project.task.delegate,prefix:0
 msgid "Your Task Title"
-msgstr "你的任务主题"
+msgstr "您的任务标题"
 
 #. module: project
 #: view:project.task.delegate:project.view_project_task_delegate

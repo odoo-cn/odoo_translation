@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:37+0000\n"
-"PO-Revision-Date: 2015-04-29 21:37+0000\n"
+"POT-Creation-Date: 2015-05-03 21:01+0000\n"
+"PO-Revision-Date: 2015-05-03 21:01+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -201,12 +201,12 @@ msgstr "平均延误"
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 msgid "Bill Date"
-msgstr "票据日期"
+msgstr "账单日期"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 msgid "Bill Information"
-msgstr "票据信息"
+msgstr "账单信息"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
@@ -266,7 +266,7 @@ msgstr "Computed as the difference between the amount stated in the voucher and 
 #: code:addons/account_voucher/account_voucher.py:1057
 #, python-format
 msgid "Configuration Error !"
-msgstr "设置错误!"
+msgstr "配置错误!"
 
 #. module: account_voucher
 #: field:account.voucher,writeoff_acc_id:0
@@ -433,7 +433,7 @@ msgstr "费用明细"
 #. module: account_voucher
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: account_voucher
 #: help:account.voucher,is_multi_currency:0
@@ -507,7 +507,7 @@ msgstr "Invalid Action!"
 #. module: account_voucher
 #: model:ir.model,name:account_voucher.model_account_invoice
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_vendor_receipt_dialog_form
@@ -530,12 +530,12 @@ msgstr "是一个关注者"
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 #: field:sale.receipt.report,journal_id:0
 msgid "Journal"
-msgstr "分类账"
+msgstr "日记账"
 
 #. module: account_voucher
 #: field:account.voucher.line,move_line_id:0
 msgid "Journal Item"
-msgstr "分类账项目"
+msgstr "日记账项目"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
@@ -545,13 +545,13 @@ msgstr "分类账项目"
 #: view:account.voucher:account_voucher.view_voucher_form
 #: field:account.voucher,move_ids:0
 msgid "Journal Items"
-msgstr "分类账项目"
+msgstr "日记账项目"
 
 #. module: account_voucher
 #: model:ir.actions.act_window,name:account_voucher.action_voucher_list
 #: model:ir.ui.menu,name:account_voucher.menu_encode_entries_by_voucher
 msgid "Journal Vouchers"
-msgstr "分类账凭证"
+msgstr "记账凭证"
 
 #. module: account_voucher
 #: selection:account.voucher,payment_option:0
@@ -613,12 +613,12 @@ msgstr "仅针对价外税"
 #. module: account_voucher
 #: field:account.voucher.line,amount_unreconciled:0
 msgid "Open Balance"
-msgstr "期初余额"
+msgstr "开帐余额"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
 msgid "Open Customer Journal Entries"
-msgstr "未调节客户分类账分录"
+msgstr "打开客户日记账分录"
 
 #. module: account_voucher
 #: model:ir.actions.client,name:account_voucher.action_client_invoice_menu
@@ -628,7 +628,7 @@ msgstr "打开开票菜单"
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
 msgid "Open Supplier Journal Entries"
-msgstr "打开供应商分类账分录"
+msgstr "打开供应商日记账分录"
 
 #. module: account_voucher
 #: field:account.voucher.line,amount_original:0
@@ -755,7 +755,7 @@ msgstr "期间"
 #: code:addons/account_voucher/account_voucher.py:1058
 #, python-format
 msgid "Please activate the sequence of selected journal !"
-msgstr "请激活选中分类账的 序列（ sequence  ）。"
+msgstr "请激活选中日记账的 序列（ sequence  ）。"
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:1064
@@ -767,12 +767,12 @@ msgstr "Please define a sequence on the journal."
 #: code:addons/account_voucher/account_voucher.py:518
 #, python-format
 msgid "Please define default credit/debit accounts on the journal \"%s\"."
-msgstr "定义分类账 \"%s\" 的默认借方/贷方科目"
+msgstr "定义日记账 \"%s\" 的默认借方/贷方科目"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
 msgid "Post"
-msgstr "登帐"
+msgstr "过账"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -784,7 +784,7 @@ msgstr "登帐"
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 #: selection:sale.receipt.report,state:0
 msgid "Posted"
-msgstr "已登帐"
+msgstr "已过账"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -793,7 +793,7 @@ msgstr "已登帐"
 #: view:account.voucher:account_voucher.view_voucher_filter_vendor
 #: view:account.voucher:account_voucher.view_voucher_filter_vendor_pay
 msgid "Posted Vouchers"
-msgstr "已登账的凭证"
+msgstr "已过账的凭证"
 
 #. module: account_voucher
 #: field:account.voucher,pre_line:0
@@ -1164,12 +1164,12 @@ msgstr "网站沟通记录"
 #: code:addons/account_voucher/account_voucher.py:377
 #, python-format
 msgid "Write-Off"
-msgstr "勾销"
+msgstr "注销"
 
 #. module: account_voucher
 #: field:account.voucher,analytic_id:0
 msgid "Write-Off Analytic Account"
-msgstr "勾销辅助核算项"
+msgstr "注销分析账户"
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:1202

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:47+0000\n"
-"PO-Revision-Date: 2015-04-29 21:47+0000\n"
+"POT-Creation-Date: 2015-05-03 21:11+0000\n"
+"PO-Revision-Date: 2015-05-03 21:11+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -461,45 +461,45 @@ msgstr "取消"
 #. module: gamification
 #: selection:gamification.goal,state:0
 msgid "Canceled"
-msgstr "已作废"
+msgstr "已取消"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
 #: field:gamification.challenge.line,challenge_id:0
 #: field:gamification.goal,challenge_id:0
 msgid "Challenge"
-msgstr "Challenge"
+msgstr "挑战"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.challenge_wizard
 msgid "Challenge Description"
-msgstr "Challenge Description"
+msgstr "挑战描述"
 
 #. module: gamification
 #: field:gamification.goal,line_id:0
 msgid "Challenge Line"
-msgstr "Challenge Line"
+msgstr "挑战明细"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
 #: view:gamification.challenge.line:gamification.challenge_line_list_view
 msgid "Challenge Lines"
-msgstr "Challenge Lines"
+msgstr "挑战明细"
 
 #. module: gamification
 #: field:gamification.challenge,name:0
 msgid "Challenge Name"
-msgstr "Challenge Name"
+msgstr "挑战名称"
 
 #. module: gamification
 #: field:gamification.badge.user,challenge_id:0
 msgid "Challenge originating"
-msgstr "Challenge originating"
+msgstr "挑战开始"
 
 #. module: gamification
 #: help:gamification.goal,challenge_id:0
@@ -511,7 +511,7 @@ msgstr "Challenge that generated the goal, assign challenge to users to generate
 #: model:ir.actions.act_window,name:gamification.challenge_list_action
 #: model:ir.ui.menu,name:gamification.gamification_challenge_menu
 msgid "Challenges"
-msgstr "Challenges"
+msgstr "挑战"
 
 #. module: gamification
 #: help:gamification.badge,rule_max:0
@@ -526,7 +526,7 @@ msgstr "Clickable Goals"
 #. module: gamification
 #: field:gamification.goal,closed:0
 msgid "Closed goal"
-msgstr "Closed goal"
+msgstr "关闭的目标"
 
 #. module: gamification
 #: field:gamification.badge.user,comment:0
@@ -1242,7 +1242,7 @@ msgstr "Never reminded if no value or zero is specified."
 #. module: gamification
 #: field:gamification.challenge,next_report_date:0
 msgid "Next Report Date"
-msgstr "Next Report Date"
+msgstr "下一报告日期"
 
 #. module: gamification
 #: view:gamification.badge:gamification.badge_form_view
@@ -1423,7 +1423,7 @@ msgstr "Required Badges"
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
 msgid "Reset Completion"
-msgstr "Reset Completion"
+msgstr "重置完成"
 
 #. module: gamification
 #: field:gamification.challenge,manager_id:0
@@ -1927,7 +1927,7 @@ msgstr "You have already sent this badge too many time this month."
 #. module: gamification
 #: view:gamification.badge:gamification.badge_form_view
 msgid "badges this month"
-msgstr "badges this month"
+msgstr "本月的勋章"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.challenge_form_view
@@ -1958,14 +1958,14 @@ msgstr "e.g. user.partner_id.id"
 #. module: gamification
 #: view:gamification.badge:gamification.badge_kanban_view
 msgid "granted,"
-msgstr "granted,"
+msgstr "授予"
 
 #. module: gamification
 #. openerp-web
 #: code:addons/gamification/static/src/xml/gamification.xml:108
 #, python-format
 msgid "more details..."
-msgstr "more details..."
+msgstr "更多细节…"
 
 #. module: gamification
 #: view:gamification.badge.user.wizard:gamification.view_badge_wizard_grant
@@ -1977,12 +1977,12 @@ msgstr "或"
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
 msgid "refresh"
-msgstr "refresh"
+msgstr "刷新"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
 msgid "reply later"
-msgstr "reply later"
+msgstr "稍后答复"
 
 #. module: gamification
 #: view:gamification.goal:gamification.goal_form_view
@@ -1997,5 +1997,5 @@ msgstr "the"
 #. module: gamification
 #: view:gamification.badge:gamification.badge_kanban_view
 msgid "this month"
-msgstr "this month"
+msgstr "本月"
 

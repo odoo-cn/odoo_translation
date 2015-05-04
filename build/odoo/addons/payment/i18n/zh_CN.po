@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:59+0000\n"
-"PO-Revision-Date: 2015-04-29 21:59+0000\n"
+"POT-Creation-Date: 2015-05-03 21:22+0000\n"
+"PO-Revision-Date: 2015-05-03 21:22+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -73,7 +73,7 @@ msgstr "自动"
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Canceled"
-msgstr "已作废"
+msgstr "已取消"
 
 #. module: payment
 #: field:payment.transaction,partner_city:0
@@ -499,7 +499,7 @@ msgstr "amount: the transaction amount, a float"
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_form
 msgid "context: the current context dictionary"
-msgstr "context: the current context dictionary"
+msgstr "context:当前上下文字典"
 
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_form
@@ -519,7 +519,7 @@ msgstr "partner_values: specific values about the buyer, for example coming from
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_form
 msgid "reference: the transaction reference number"
-msgstr "reference: the transaction reference number"
+msgstr "参考：交易参考号码"
 
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_form
@@ -534,7 +534,7 @@ msgstr "tx_values: transaction values"
 #. module: payment
 #: field:account.config.settings,module_payment_authorize:0
 msgid "unknown"
-msgstr "unknown"
+msgstr "未知的"
 
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_form

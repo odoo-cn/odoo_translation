@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:50+0000\n"
-"PO-Revision-Date: 2015-04-29 21:50+0000\n"
+"POT-Creation-Date: 2015-05-03 21:14+0000\n"
+"PO-Revision-Date: 2015-05-03 21:14+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -196,12 +196,12 @@ msgstr "已取消"
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.view_hr_holidays_filter
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: hr_holidays
 #: help:hr.holidays,category_id:0
 msgid "Category of Employee"
-msgstr "员工类型"
+msgstr "员工类别"
 
 #. module: hr_holidays
 #: help:hr.holidays,type:0
@@ -213,7 +213,7 @@ msgstr "如果有人想休息，选择“休假申请”。\n"
 #. module: hr_holidays
 #: xsl:holidays.summary:0
 msgid "Color"
-msgstr "色彩"
+msgstr "颜色"
 
 #. module: hr_holidays
 #: field:hr.holidays.status,color_name:0
@@ -223,7 +223,7 @@ msgstr "报告中的颜色"
 #. module: hr_holidays
 #: model:hr.holidays.status,name:hr_holidays.holiday_status_comp
 msgid "Compensatory Days"
-msgstr "补偿日数"
+msgstr "补偿天数"
 
 #. module: hr_holidays
 #: view:hr.holidays:hr_holidays.edit_holiday_new
@@ -386,7 +386,7 @@ msgstr "查看是否有需要留意的新信息。"
 #. module: hr_holidays
 #: help:hr.holidays.status,active:0
 msgid "If the active field is set to false, it will allow you to hide the leave type without removing it."
-msgstr "如果生效字段设置为假，它将隐藏而不是删除这休假类型。"
+msgstr "如果生效字段配置为假，它将隐藏而不是删除这休假类型。"
 
 #. module: hr_holidays
 #: help:hr.holidays.status,limit:0
@@ -677,7 +677,7 @@ msgstr "天数"
 #. module: hr_holidays
 #: help:hr.holidays.status,categ_id:0
 msgid "Once a leave is validated, Odoo will create a corresponding meeting of this type in the calendar."
-msgstr "Once a leave is validated, Odoo will create a corresponding meeting of this type in the calendar."
+msgstr "当请假被确认，Odoo会在日历上创建一个这种类型的活动。"
 
 #. module: hr_holidays
 #: field:hr.holidays,parent_id:0
@@ -875,7 +875,7 @@ msgid "The status is set to 'To Submit', when a holiday request is created.     
 "The status is 'To Approve', when holiday request is confirmed by user.            \n"
 "The status is 'Refused', when holiday request is refused by manager.            \n"
 "The status is 'Approved', when holiday request is approved by manager."
-msgstr "请假申请建立后，状态被设置为“待提交”。            \n"
+msgstr "请假申请建立后，状态被配置为“待提交”。            \n"
 "用户提交请假申请后，状态变为“待审核”。            \n"
 "如果请假申请被经理拒绝，则状态变为“被拒绝”。            \n"
 "如果请假申通过经理审核，则状态变为“已审核”。"
@@ -925,7 +925,7 @@ msgstr "到 日期"
 #. module: hr_holidays
 #: selection:hr.holidays,state:0
 msgid "To Submit"
-msgstr "提交"
+msgstr "待提交"
 
 #. module: hr_holidays
 #: model:ir.model,name:hr_holidays.model_hr_holidays_remaining_leaves_user

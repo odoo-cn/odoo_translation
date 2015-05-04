@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:13+0000\n"
-"PO-Revision-Date: 2015-04-29 22:13+0000\n"
+"POT-Creation-Date: 2015-05-03 21:30+0000\n"
+"PO-Revision-Date: 2015-05-03 21:30+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -48,7 +48,7 @@ msgstr "标识"
 #. module: sale_journal
 #: help:sale_journal.invoice.type,active:0
 msgid "If the active field is set to False, it will allow you to hide the invoice type without removing it."
-msgstr "如果设置active为False，你可以隐藏发票类型，不用删除它。"
+msgstr "如果配置active为False，你可以隐藏发票类型，不用删除它。"
 
 #. module: sale_journal
 #: view:sale.order:sale_journal.view_sales_order_search
@@ -71,7 +71,7 @@ msgstr "开票类型"
 #. module: sale_journal
 #: model:ir.actions.act_window,help:sale_journal.action_definition_journal_invoice_type
 msgid "Invoice types are used for partners, sales orders and delivery orders. You can create a specific invoicing journal to group your invoicing according to your customer's needs: daily, each Wednesday, monthly, etc."
-msgstr "开票类型，对业务伙伴，销售订单和发货订单是有用的。你可以根据用户的需要生成专门的发票分类账来对你的发票进行分组：每天，每周三，每周，每月等。"
+msgstr "开票类型，对业务伙伴，销售订单和发货订单是有用的。你可以根据用户的需要生成专门的发票日记账来对你的发票进行分组：每天，每周三，每周，每月等。"
 
 #. module: sale_journal
 #: view:res.partner:sale_journal.view_partner_property_form

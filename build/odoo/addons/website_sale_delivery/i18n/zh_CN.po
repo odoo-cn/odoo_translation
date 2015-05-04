@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:39+0000\n"
-"PO-Revision-Date: 2015-04-29 22:39+0000\n"
+"POT-Creation-Date: 2015-05-03 21:42+0000\n"
+"PO-Revision-Date: 2015-05-03 21:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28,7 +28,7 @@ msgstr "承运方"
 #. module: website_sale_delivery
 #: view:website:website_sale.payment
 msgid "Choose your Delivery Method"
-msgstr "Choose your Delivery Method"
+msgstr "选择您的交货方式"
 
 #. module: website_sale_delivery
 #: field:sale.order,amount_delivery:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:39+0000\n"
-"PO-Revision-Date: 2015-04-29 22:39+0000\n"
+"POT-Creation-Date: 2015-05-03 21:42+0000\n"
+"PO-Revision-Date: 2015-05-03 21:42+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,12 +121,12 @@ msgstr "Buy now, get in 2 days"
 #. module: website_sale
 #: field:sale.order,cart_quantity:0
 msgid "Cart Quantity"
-msgstr "Cart Quantity"
+msgstr "购物车的数量"
 
 #. module: website_sale
 #: view:website:website_sale.payment
 msgid "Change Address"
-msgstr "Change Address"
+msgstr "更改地址"
 
 #. module: website_sale
 #. openerp-web
@@ -138,19 +138,19 @@ msgstr "Change the price"
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Checkout"
-msgstr "Checkout"
+msgstr "结账"
 
 #. module: website_sale
 #: field:product.public.category,child_id:0
 msgid "Children Categories"
-msgstr "儿童分类"
+msgstr "子分类"
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:34
 #, python-format
 msgid "Choose name"
-msgstr "Choose name"
+msgstr "选择名称"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -202,7 +202,7 @@ msgstr "Close Tutorial"
 #. module: website_sale
 #: selection:product.attribute,type:0
 msgid "Color"
-msgstr "色彩"
+msgstr "颜色"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -377,7 +377,7 @@ msgstr "美国范围内免费配送"
 #. module: website_sale
 #: help:product.public.category,sequence:0
 msgid "Gives the sequence order when displaying a list of product categories."
-msgstr "显示产品类别列表的顺序号"
+msgstr "按序列顺序显示产品类别列表"
 
 #. module: website_sale
 #: field:product.style,html_class:0
@@ -493,7 +493,7 @@ msgstr "No product defined."
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:97
 #, python-format
 msgid "Once you click on save, your product is updated."
-msgstr "Once you click on save, your product is updated."
+msgstr "当您点击保存,您的产品将被更新."
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -568,7 +568,7 @@ msgstr "Policies"
 #. module: website_sale
 #: view:website:website_sale.product
 msgid "Post"
-msgstr "登帐"
+msgstr "过账"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -932,7 +932,7 @@ msgstr "Taxes may be updated after providing shipping address"
 #: view:website:website_sale.checkout
 #: view:website:website_sale.total
 msgid "Taxes:"
-msgstr "税:"
+msgstr "税金:"
 
 #. module: website_sale
 #: view:website:website_sale.confirmation
@@ -1080,7 +1080,7 @@ msgstr "您的姓名"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Your Order"
-msgstr "Your Order"
+msgstr "您的订单"
 
 #. module: website_sale
 #: view:website:website_sale.cart

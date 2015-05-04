@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:35+0000\n"
-"PO-Revision-Date: 2015-04-29 21:35+0000\n"
+"POT-Creation-Date: 2015-05-03 20:57+0000\n"
+"PO-Revision-Date: 2015-05-03 20:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -118,7 +118,7 @@ msgstr "分析方案实例明细"
 #: view:account.crossovered.analytic:account_analytic_plans.view_account_crossovered_analytic
 #: field:account.crossovered.analytic,journal_ids:0
 msgid "Analytic Journal"
-msgstr "分析分类账"
+msgstr "分析日记账"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_line
@@ -280,7 +280,7 @@ msgstr "标识"
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_invoice
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_invoice_line
@@ -290,12 +290,12 @@ msgstr "发票明细"
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_journal
 msgid "Journal"
-msgstr "分类账"
+msgstr "日记账"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_account_move_line
 msgid "Journal Items"
-msgstr "分类账项目"
+msgstr "日记账项目"
 
 #. module: account_analytic_plans
 #: field:account.analytic.plan,write_uid:0
@@ -398,7 +398,7 @@ msgstr "根账户"
 #. module: account_analytic_plans
 #: help:account.analytic.plan.line,root_analytic_id:0
 msgid "Root account of this plan."
-msgstr "这方案的根辅助核算项"
+msgstr "这方案的根分析账户"
 
 #. module: account_analytic_plans
 #: model:ir.model,name:account_analytic_plans.model_sale_order_line
@@ -430,13 +430,13 @@ msgstr "总计在  %s 和 %s 之间。"
 #: code:addons/account_analytic_plans/wizard/account_crossovered_analytic.py:62
 #, python-format
 msgid "There are no analytic lines related to account %s."
-msgstr "没有辅助核算行关联到科目%s."
+msgstr "没有分析明细关联到科目%s."
 
 #. module: account_analytic_plans
 #: code:addons/account_analytic_plans/wizard/analytic_plan_create_model.py:41
 #, python-format
 msgid "There is no analytic plan defined."
-msgstr "没有辅助核算计划定义"
+msgstr "没有分析方案定义"
 
 #. module: account_analytic_plans
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model
@@ -446,7 +446,7 @@ msgstr "分配模型已经保存，你在以后可以使用它。"
 #. module: account_analytic_plans
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
 msgid "To Date:"
-msgstr "To Date:"
+msgstr "到 日期："
 
 #. module: account_analytic_plans
 #: code:addons/account_analytic_plans/wizard/account_crossovered_analytic.py:62
@@ -459,7 +459,7 @@ msgstr "User Error!"
 #: code:addons/account_analytic_plans/account_analytic_plans.py:471
 #, python-format
 msgid "You have to define an analytic journal on the '%s' journal."
-msgstr "你必须在'%s' 分类账定义一个辅助核算分类账"
+msgstr "你必须在'%s' 日记账定义一个分析日记账"
 
 #. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.action_analytic_plan_create_model

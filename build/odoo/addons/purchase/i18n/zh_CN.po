@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 22:09+0000\n"
-"PO-Revision-Date: 2015-04-29 22:09+0000\n"
+"POT-Creation-Date: 2015-05-03 21:28+0000\n"
+"PO-Revision-Date: 2015-05-03 21:28+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -276,11 +276,11 @@ msgid " * The 'Draft' status is set automatically when purchase order in draft s
 "* The 'Confirmed' status is set automatically as confirm when purchase order in confirm status.                                        \n"
 "* The 'Done' status is set automatically when purchase order is set as done.                                        \n"
 "* The 'Cancelled' status is set automatically when user cancel purchase order."
-msgstr "* 销售订单是草稿时，设置为“草稿”\n"
-"* 销售订单被用户确认后，状态变为“已确认”。\n"
-"* 销售订单发生异常时（发货被取消等），状态变为“异常”。\n"
-"* 当销售订单收货以后，状态变为“已完成”。\n"
-"* 当用户取消了销售订单，状态变为“已取消”。"
+msgstr "* 采购订单是草稿时，初始状态默认为“草稿”\n"
+"* 采购订单被用户确认后，状态变为“已确认”。\n"
+"* 采购订单发生异常时（发货被取消等），状态变为“异常”。\n"
+"* 当采购订单收货以后，状态变为“已完成”。\n"
+"* 当用户取消了采购订单，状态变为“已取消”。"
 
 #. module: purchase
 #: code:addons/purchase/stock.py:229
@@ -726,7 +726,7 @@ msgstr "无法删除处于'%s'状态的采购订单行。"
 #. module: purchase
 #: field:purchase.report,category_id:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: purchase
 #: view:purchase.report:purchase.view_purchase_order_search
@@ -736,7 +736,7 @@ msgstr "Category of product"
 #. module: purchase
 #: field:purchase.config.settings,group_advance_purchase_requisition:0
 msgid "Choose from several bids in a call for bids"
-msgstr "Choose from several bids in a call for bids"
+msgstr "在一个投标请求的多个投标中进行选择。"
 
 #. module: purchase
 #: model:ir.model,name:purchase.model_res_company
@@ -760,7 +760,7 @@ msgstr "Compose Email"
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_purchase_config_purchase
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1250
@@ -897,7 +897,7 @@ msgstr "Define an expense account for this product: \"%s\" (id:%d)."
 #: code:addons/purchase/purchase.py:615
 #, python-format
 msgid "Define purchase journal for this company: \"%s\" (id:%d)."
-msgstr "为公司 \"%s\" (id:%d)  定义采购分类账。"
+msgstr "为公司 \"%s\" (id:%d)  定义采购日记账。"
 
 #. module: purchase
 #: field:purchase.order,picking_type_id:0
@@ -952,13 +952,13 @@ msgstr "草稿"
 #. module: purchase
 #: selection:purchase.order,state:0
 msgid "Draft PO"
-msgstr "采购订单草稿"
+msgstr "草稿采购订单"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1408
 #, python-format
 msgid "Draft Purchase Order created"
-msgstr "采购单草稿被创建"
+msgstr "草稿采购单被创建"
 
 #. module: purchase
 #: code:addons/purchase/edi/purchase_order.py:132
@@ -1104,7 +1104,7 @@ msgstr "待开票的入库送货"
 #. module: purchase
 #: field:purchase.order,incoterm_id:0
 msgid "Incoterm"
-msgstr "国际贸易术语"
+msgstr "贸易术语"
 
 #. module: purchase
 #: help:purchase.order,incoterm_id:0
@@ -1121,7 +1121,7 @@ msgstr "Invalid Action!"
 #. module: purchase
 #: model:ir.model,name:purchase.model_account_invoice
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: purchase
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_invoice
@@ -1153,13 +1153,13 @@ msgstr "已收发票"
 #: code:addons/purchase/purchase.py:1537
 #, python-format
 msgid "Invoice paid"
-msgstr "发票已付清"
+msgstr "发票已付"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1511
 #, python-format
 msgid "Invoice received"
-msgstr "已收到发票"
+msgstr "已收到的发票"
 
 #. module: purchase
 #: field:stock.picking,reception_to_invoice:0
@@ -1202,7 +1202,7 @@ msgstr "开票过程"
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
 msgid "Invoicing Settings"
-msgstr "开票设置"
+msgstr "开票配置"
 
 #. module: purchase
 #: field:purchase.order,message_is_follower:0
@@ -1222,7 +1222,7 @@ msgstr "It indicates that an invoice has been validated"
 #. module: purchase
 #: field:purchase.order,journal_id:0
 msgid "Journal"
-msgstr "分类账"
+msgstr "日记账"
 
 #. module: purchase
 #: field:purchase.order,message_last_post:0
@@ -1366,19 +1366,19 @@ msgstr "备注"
 #: model:ir.actions.act_window,name:purchase.action_invoice_pending
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_pending_invoice
 msgid "On Draft Invoices"
-msgstr "在草稿发票上"
+msgstr "按草稿发票"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_picking_tree_picking_to_invoice
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_picking_to_invoice
 msgid "On Incoming Shipments"
-msgstr "收到的供货量"
+msgstr "按进入的送货"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.purchase_line_form_action2
 #: model:ir.ui.menu,name:purchase.menu_purchase_line_order_draft
 msgid "On Purchase Order Lines"
-msgstr "在采购订单明细"
+msgstr "按采购订单明细"
 
 #. module: purchase
 #: model:ir.actions.client,name:purchase.action_client_purchase_menu
@@ -2071,7 +2071,7 @@ msgstr "产品 \"%s\" 中，你公司被被定义经销商，这看起来是个�
 #: code:addons/purchase/purchase.py:1153
 #, python-format
 msgid "The selected supplier has a minimal quantity set to %s %s, you should not purchase less."
-msgstr "这个选择的供应商有最小数量设置  %s %s ， 你不应该购买更少。"
+msgstr "这个选择的供应商有最小数量配置  %s %s ， 你不应该购买更少。"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1149
@@ -2092,13 +2092,13 @@ msgstr "税金"
 #. module: purchase
 #: help:purchase.order,amount_total:0
 msgid "The total amount"
-msgstr "总总额"
+msgstr "总额合计"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:403
 #, python-format
 msgid "There is no default company for the current user!"
-msgstr "There is no default company for the current user!"
+msgstr "当前用户没有配置默认的公司！"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1359
@@ -2314,7 +2314,7 @@ msgstr "您必须先取消跟此采购单有关的所有发票"
 #. module: purchase
 #: view:website:purchase.report_purchaseorder_document
 msgid "Your Order Reference"
-msgstr "您的订单"
+msgstr "您的订单参考"
 
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration

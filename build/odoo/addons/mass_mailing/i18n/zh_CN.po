@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:56+0000\n"
-"PO-Revision-Date: 2015-04-29 21:56+0000\n"
+"POT-Creation-Date: 2015-05-03 21:20+0000\n"
+"PO-Revision-Date: 2015-05-03 21:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,18 +121,18 @@ msgstr "Bounced"
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
 msgid "Campaign"
-msgstr "营销活动"
+msgstr "营销"
 
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.menu_view_mass_mailing_stages
 msgid "Campaign Stages"
-msgstr "Campaign Stages"
+msgstr "营销阶段"
 
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.menu_email_campaigns
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_search
 msgid "Campaigns"
-msgstr "营销活动"
+msgstr "营销"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing.test:mass_mailing.view_mail_mass_mailing_test_form
@@ -142,17 +142,17 @@ msgstr "取消"
 #. module: mass_mailing
 #: field:mail.mass_mailing.campaign,category_ids:0
 msgid "Categories"
-msgstr "分类"
+msgstr "类别"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Change Email Design"
-msgstr "Change Email Design"
+msgstr "修改邮件设计"
 
 #. module: mass_mailing
 #: view:website:website.snippets
 msgid "Change Newsletter"
-msgstr "Change Newsletter"
+msgstr "更改新闻信"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
@@ -173,7 +173,7 @@ msgstr "Comma-separated list of email addresses."
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.marketing_configuration
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing.list:mass_mailing.view_mail_mass_mailing_list_form
@@ -361,7 +361,7 @@ msgstr "Exclude Opt Out"
 #. module: mass_mailing
 #: view:mail.statistics.report:mass_mailing.view_mail_statistics_report_search
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,failed:0
@@ -685,13 +685,13 @@ msgstr "Number of Contacts"
 #. module: mass_mailing
 #: model:ir.actions.client,name:mass_mailing.action_client_marketing_menu
 msgid "Open Marketing Menu"
-msgstr "Open Marketing Menu"
+msgstr "打开市场菜单"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:555
 #, python-format
 msgid "Open with Visual Editor"
-msgstr "Open with Visual Editor"
+msgstr "使用可视化编辑器打开"
 
 #. module: mass_mailing
 #: field:mail.mail.statistics,opened:0
@@ -704,18 +704,18 @@ msgstr "Open with Visual Editor"
 #: field:mail.mass_mailing.campaign,opened:0
 #: field:mail.statistics.report,opened:0
 msgid "Opened"
-msgstr "已开启"
+msgstr "已打开"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Opened Daily"
-msgstr "Opened Daily"
+msgstr "打开日常"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,opened_ratio:0
 #: field:mail.mass_mailing.campaign,opened_ratio:0
 msgid "Opened Ratio"
-msgstr "Opened Ratio"
+msgstr "打开比例"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing.contact,opt_out:0
@@ -918,7 +918,7 @@ msgstr "序列"
 #. module: mass_mailing
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_kanban
 msgid "Settings"
-msgstr "设置"
+msgstr "配置"
 
 #. module: mass_mailing
 #: selection:mail.mass_mailing,reply_to_mode:0
@@ -1038,5 +1038,5 @@ msgstr "或"
 #. module: mass_mailing
 #: view:website:website.snippets
 msgid "your email..."
-msgstr "your email..."
+msgstr "你的电子邮件..."
 

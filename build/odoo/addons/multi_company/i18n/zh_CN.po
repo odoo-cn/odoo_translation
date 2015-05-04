@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:57+0000\n"
-"PO-Revision-Date: 2015-04-29 21:57+0000\n"
+"POT-Creation-Date: 2015-05-03 21:21+0000\n"
+"PO-Revision-Date: 2015-05-03 21:21+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: multi_company
 #: model:ir.actions.act_window,name:multi_company.action_inventory_form
 msgid "Company Defaults"
-msgstr "Company Defaults"
+msgstr "公司默认"
 
 #. module: multi_company
 #: view:multi_company.default:multi_company.view_inventory_form

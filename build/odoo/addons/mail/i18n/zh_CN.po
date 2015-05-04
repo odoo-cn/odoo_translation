@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:55+0000\n"
-"PO-Revision-Date: 2015-04-29 21:55+0000\n"
+"POT-Creation-Date: 2015-05-03 21:19+0000\n"
+"PO-Revision-Date: 2015-05-03 21:19+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -397,7 +397,7 @@ msgstr "取消"
 #. module: mail
 #: view:mail.mail:mail.view_mail_tree
 msgid "Cancel Email"
-msgstr "取消 Email"
+msgstr "取消电邮"
 
 #. module: mail
 #: selection:mail.mail,state:0
@@ -418,7 +418,7 @@ msgstr "抄送"
 #: field:mail.compose.message,child_ids:0
 #: field:mail.message,child_ids:0
 msgid "Child Messages"
-msgstr "Child Messages"
+msgstr "子消息"
 
 #. module: mail
 #: selection:mail.compose.message,type:0
@@ -439,7 +439,7 @@ msgstr "撰写电子邮件"
 #. module: mail
 #: field:mail.compose.message,composition_mode:0
 msgid "Composition mode"
-msgstr "Composition mode"
+msgstr "撰写模式"
 
 #. module: mail
 #: field:mail.notification,partner_id:0
@@ -699,7 +699,7 @@ msgstr "Everyone"
 #. module: mail
 #: view:mail.mail:mail.view_mail_search
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: mail
 #: view:mail.mail:mail.view_mail_search
@@ -1268,7 +1268,7 @@ msgstr "Notify followers of the document (mass post only)"
 #: code:addons/mail/static/src/js/mail_followers.js:207
 #, python-format
 msgid "One follower"
-msgstr "One follower"
+msgstr "一个关注者"
 
 #. module: mail
 #: view:mail.group:mail.view_group_form
@@ -1280,24 +1280,24 @@ msgstr "Only the invited followers can read the\n"
 #. module: mail
 #: view:mail.alias:mail.view_mail_alias_form
 msgid "Open Document"
-msgstr "Open Document"
+msgstr "打开文档"
 
 #. module: mail
 #: model:ir.actions.client,name:mail.action_client_messaging_menu
 msgid "Open Messaging Menu"
-msgstr "Open Messaging Menu"
+msgstr "打开消息菜单"
 
 #. module: mail
 #: view:mail.alias:mail.view_mail_alias_form
 msgid "Open Parent Document"
-msgstr "Open Parent Document"
+msgstr "打开上级文档"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail.xml:29
 #, python-format
 msgid "Open the full mail composer"
-msgstr "Open the full mail composer"
+msgstr "打开完整的邮件撰写器"
 
 #. module: mail
 #: help:mail.alias,alias_force_thread_id:0
@@ -1800,13 +1800,13 @@ msgstr "到（业务伙伴）"
 #. module: mail
 #: view:mail.message:mail.view_message_search
 msgid "To Read"
-msgstr "阅读"
+msgstr "待阅读"
 
 #. module: mail
 #: field:mail.compose.message,to_read:0
 #: field:mail.message,to_read:0
 msgid "To read"
-msgstr "To read"
+msgstr "待阅读"
 
 #. module: mail
 #: model:ir.actions.client,name:mail.action_mail_star_feeds
@@ -2020,7 +2020,7 @@ msgstr "单据"
 #: code:addons/mail/static/src/js/mail_followers.js:209
 #, python-format
 msgid "followers"
-msgstr "followers"
+msgstr "关注者"
 
 #. module: mail
 #. openerp-web
@@ -2041,21 +2041,21 @@ msgstr "logged a note"
 #: code:addons/mail/static/src/xml/mail.xml:310
 #, python-format
 msgid "more"
-msgstr "more"
+msgstr "更多"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail.xml:334
 #, python-format
 msgid "more messages"
-msgstr "more messages"
+msgstr "更多消息"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail_followers.xml:62
 #, python-format
 msgid "more."
-msgstr "more."
+msgstr "更多."
 
 #. module: mail
 #: view:base.config.settings:mail.view_general_configuration_mail_alias_domain
@@ -2067,7 +2067,7 @@ msgstr "mycompany.odoo.com"
 #: code:addons/mail/static/src/xml/mail.xml:312
 #, python-format
 msgid "notified"
-msgstr "notified"
+msgstr "通知"
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
@@ -2089,7 +2089,7 @@ msgstr "或"
 #: code:addons/mail/static/src/xml/mail.xml:146
 #, python-format
 msgid "others..."
-msgstr "others..."
+msgstr "其它..."
 
 #. module: mail
 #. openerp-web
@@ -2103,31 +2103,31 @@ msgstr "read less"
 #: code:addons/mail/static/src/xml/mail.xml:334
 #, python-format
 msgid "show"
-msgstr "show"
+msgstr "显示"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail.xml:332
 #, python-format
 msgid "show more message"
-msgstr "show more message"
+msgstr "显示更多消息"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail.xml:333
 #, python-format
 msgid "show one more message"
-msgstr "show one more message"
+msgstr "显示一个或多个消息"
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
 msgid "the current search filter"
-msgstr "the current search filter"
+msgstr "当前的搜索筛选器"
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
 msgid "the selected records"
-msgstr "the selected records"
+msgstr "选定的记录"
 
 #. module: mail
 #. openerp-web
@@ -2148,7 +2148,7 @@ msgstr "unlike"
 #: code:addons/mail/static/src/xml/mail.xml:286
 #, python-format
 msgid "updated document"
-msgstr "updated document"
+msgstr "已更新的文档"
 
 #. module: mail
 #. openerp-web
@@ -2156,11 +2156,11 @@ msgstr "updated document"
 #: code:addons/mail/static/src/xml/mail.xml:111
 #, python-format
 msgid "uploading"
-msgstr "uploading"
+msgstr "上传中"
 
 #. module: mail
 #: code:addons/mail/mail_mail.py:162
 #, python-format
 msgid "your messages"
-msgstr "your messages"
+msgstr "你的消息"
 

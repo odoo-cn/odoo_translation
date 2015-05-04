@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:44+0000\n"
-"PO-Revision-Date: 2015-04-29 21:44+0000\n"
+"POT-Creation-Date: 2015-05-03 21:08+0000\n"
+"PO-Revision-Date: 2015-05-03 21:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -86,7 +86,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
 msgid "Action Description..."
-msgstr "Action Description..."
+msgstr "动作描述..."
 
 #. module: crm_claim
 #: field:crm.claim,type_action:0
@@ -112,14 +112,14 @@ msgstr "客户关系管理索赔报告"
 #. module: crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_crm_case_claim-act
 msgid "Categories"
-msgstr "分类"
+msgstr "类别"
 
 #. module: crm_claim
 #: field:crm.claim,categ_id:0
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
 #: field:crm.claim.report,categ_id:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
@@ -131,7 +131,7 @@ msgstr "索赔"
 #. module: crm_claim
 #: model:ir.actions.act_window,name:crm_claim.crm_claim_categ_action
 msgid "Claim Categories"
-msgstr "索赔分类"
+msgstr "索赔类别"
 
 #. module: crm_claim
 #: field:crm.claim,date:0
@@ -153,12 +153,12 @@ msgstr "索陪说明"
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
 msgid "Claim Month"
-msgstr "Claim Month"
+msgstr "索赔月份"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
 msgid "Claim Reporter"
-msgstr "索赔者"
+msgstr "索赔报告者"
 
 #. module: crm_claim
 #: view:crm.claim.stage:crm_claim.crm_claim_stage_form
@@ -208,7 +208,7 @@ msgstr "索赔分析"
 #. module: crm_claim
 #: field:crm.claim.report,date_closed:0
 msgid "Close Date"
-msgstr "结束日期"
+msgstr "关闭日期"
 
 #. module: crm_claim
 #: field:crm.claim,date_closed:0
@@ -223,7 +223,7 @@ msgstr "关闭"
 #. module: crm_claim
 #: field:crm.claim.stage,case_default:0
 msgid "Common to All Teams"
-msgstr "适用于所有团队"
+msgstr "所有团队共通"
 
 #. module: crm_claim
 #: field:crm.claim,company_id:0
@@ -309,7 +309,7 @@ msgstr "电子邮件"
 #. module: crm_claim
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
 msgid "Extended Filters..."
-msgstr "增加筛选条件"
+msgstr "扩展的筛选器..."
 
 #. module: crm_claim
 #: model:crm.case.categ,name:crm_claim.categ_claim1
@@ -394,7 +394,7 @@ msgstr "最后更新"
 #. module: crm_claim
 #: help:crm.claim.stage,section_ids:0
 msgid "Link between stages and sales teams. When set, this limitate the current stage to the selected sales teams."
-msgstr "在阶段和销售团队之间建立链接。设置后将限制此阶段只能用于被选中的销售团队。"
+msgstr "在阶段和销售团队之间建立链接。配置后将限制此阶段只能用于被选中的销售团队。"
 
 #. module: crm_claim
 #: selection:crm.claim,priority:0

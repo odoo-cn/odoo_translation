@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:54+0000\n"
-"PO-Revision-Date: 2015-04-29 21:54+0000\n"
+"POT-Creation-Date: 2015-05-03 21:18+0000\n"
+"PO-Revision-Date: 2015-05-03 21:18+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "协作内容"
 #. module: knowledge
 #: model:ir.ui.menu,name:knowledge.menu_document_configuration
 msgid "Configuration"
-msgstr "设置"
+msgstr "配置"
 
 #. module: knowledge
 #: model:ir.actions.act_window,name:knowledge.action_knowledge_configuration

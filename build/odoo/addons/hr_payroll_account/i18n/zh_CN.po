@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:51+0000\n"
-"PO-Revision-Date: 2015-04-29 21:51+0000\n"
+"POT-Creation-Date: 2015-05-03 21:15+0000\n"
+"PO-Revision-Date: 2015-05-03 21:15+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -24,7 +24,7 @@ msgstr "会计"
 #. module: hr_payroll_account
 #: field:hr.payslip,move_id:0
 msgid "Accounting Entry"
-msgstr "会计凭证"
+msgstr "会计分录"
 
 #. module: hr_payroll_account
 #: code:addons/hr_payroll_account/hr_payroll_account.py:154
@@ -97,7 +97,7 @@ msgstr "%s 的工资条"
 #: field:hr.payslip,journal_id:0
 #: field:hr.payslip.run,journal_id:0
 msgid "Salary Journal"
-msgstr "薪资分类账"
+msgstr "薪资日记账"
 
 #. module: hr_payroll_account
 #: field:hr.salary.rule,account_tax_id:0

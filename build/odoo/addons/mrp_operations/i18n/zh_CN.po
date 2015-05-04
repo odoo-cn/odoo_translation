@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:57+0000\n"
-"PO-Revision-Date: 2015-04-29 21:57+0000\n"
+"POT-Creation-Date: 2015-05-03 21:21+0000\n"
+"PO-Revision-Date: 2015-05-03 21:21+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -29,9 +29,9 @@ msgid "* When a work order is created it is set in 'Draft' status.\n"
 "* When order is completely processed that time it is set in 'Finished' status."
 msgstr "* 工单被创建时，“草稿“状态。\n"
 "* 从工单被用户进入开始模式后，设为”在进行中“模式。\n"
-"* 当工单是运行模式，在此期间，如果用户要停止或作出改变，可设置为”挂起“状态。\n"
-"* 当用户取消工单，设置为”取消状态“。\n"
-"* 从工单被完成的时候开始，设置为”完成“状态。"
+"* 当工单是运行模式，在此期间，如果用户要停止或作出改变，可配置为”挂起“状态。\n"
+"* 当用户取消工单，配置为”取消状态“。\n"
+"* 从工单被完成的时候开始，配置为”完成“状态。"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,help:mrp_operations.mrp_production_wc_action_planning
@@ -100,7 +100,7 @@ msgstr "取消订单"
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0
 msgid "Canceled"
-msgstr "已作废"
+msgstr "已取消"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,state:0
@@ -347,7 +347,7 @@ msgstr "作业早已完成"
 #: code:addons/mrp_operations/mrp_operations.py:434
 #, python-format
 msgid "Operation is not started yet!"
-msgstr "Operation is not started yet!"
+msgstr "作业尚未开始！"
 
 #. module: mrp_operations
 #: model:ir.actions.act_window,name:mrp_operations.mrp_production_operation_action
@@ -450,7 +450,7 @@ msgstr "数量"
 #. module: mrp_operations
 #: model:ir.filters,name:mrp_operations.filter_mrp_workorder_quantity_produced
 msgid "Quantity Produced"
-msgstr "Quantity Produced"
+msgstr "已生产的数量"
 
 #. module: mrp_operations
 #: selection:mrp.production.workcenter.line,production_state:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-04-29 21:57+0000\n"
-"PO-Revision-Date: 2015-04-29 21:57+0000\n"
+"POT-Creation-Date: 2015-05-03 21:21+0000\n"
+"PO-Revision-Date: 2015-05-03 21:21+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -119,13 +119,13 @@ msgstr "取消"
 #: model:ir.model,name:mrp_repair.model_mrp_repair_cancel
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Cancel Repair"
-msgstr "Cancel Repair"
+msgstr "取消维修"
 
 #. module: mrp_repair
 #: model:ir.actions.act_window,name:mrp_repair.action_cancel_repair
 #: view:mrp.repair.cancel:mrp_repair.view_cancel_repair
 msgid "Cancel Repair Order"
-msgstr "Cancel Repair Order"
+msgstr "取消维修单"
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
@@ -332,12 +332,12 @@ msgstr "内部备注"
 #. module: mrp_repair
 #: field:mrp.repair.line,move_id:0
 msgid "Inventory Move"
-msgstr "盘点移动"
+msgstr "存货移动"
 
 #. module: mrp_repair
 #: field:mrp.repair,invoice_id:0
 msgid "Invoice"
-msgstr "开发票"
+msgstr "发票"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
@@ -501,12 +501,12 @@ msgstr "备注"
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Operation Line(s)"
-msgstr "Operation Line(s)"
+msgstr "作业明细"
 
 #. module: mrp_repair
 #: field:mrp.repair,operations:0
 msgid "Operation Lines"
-msgstr "Operation Lines"
+msgstr "作业明细"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
