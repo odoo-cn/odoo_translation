@@ -200,7 +200,6 @@ work|工作|
 
 
 
-<a name="link2"></a>
 # 固定句式 
 
 序号|句式|例句|译作|备注
@@ -208,6 +207,7 @@ work|工作|
 1|XXX to XXX|contracts to renew |待XX | 
 2|# 开头|# entries | # 符号要保留|
 3|% 包围|%(bank_name)s: %(acc_number)s|不作翻译|
+4|Gives the sequence order when|Gives the sequence order when displaying a list of Projects.|按序列顺序显示项目列表 【当显示项目列表时，给出序列顺序】|
 
 
 
