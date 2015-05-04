@@ -82,17 +82,19 @@ Income|收入|
 incoming shippment|进来的货运|
 incoming|进来的|
 input|收货|
-inventory|库存、盘点|
+inventory valuation|存货计价|
+inventory|存货、盘存、库存|
 invoice|发票、开票|
 invoicing|开票|
 is false|为假|
 is true|为真|
 issue|议题|
 item|项目|
-journal|分类账|
+journal|日记账|
 kanban view|看板视图|
 lead Time|前置时间|
 leave|休假|
+ledger|分类账|
 letter|信件、信纸[纸张尺寸]|
 lines|行，明细|
 line|行|
@@ -176,8 +178,9 @@ source document|源单据|
 source|源|
 Standard price|标准价格|
 statement|结算单、报告|
-Stock journal|库存分类账|
+Stock journal|库存日记账|
 stock move| 库存移动|
+stock valuation|库存计价|
 stock| 库存 |
 style|样式|
 subtotal|小计|
@@ -201,6 +204,7 @@ Waiting|等待|
 Warehouse|仓库|
 worke Order|工单|
 work|工作|
+write off|注销|
 
 
 
