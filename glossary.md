@@ -39,6 +39,7 @@ coeff|系数|
 condition|条件|
 Contract|合同|
 contribution|供款|
+cost|成本|
 counterpart|对方|
 credit|贷方|
 currency|货币|
@@ -78,7 +79,7 @@ group|组、用户组、分组|
 hierarchy|层级|
 holiday|假期|
 ID|ID| 不作翻译
-Income|收入|
+Income|收益|
 incoming shippment|进来的货运|
 incoming|进来的|
 input|收货|
@@ -189,6 +190,7 @@ task|任务|
 Tax|税金、税|
 term|条款|
 Time|时间|
+turnover|周转率|
 total|合计|
 unreconcile|反调节|
 untax|未税|
@@ -205,9 +207,6 @@ Warehouse|仓库|
 worke Order|工单|
 work|工作|
 write off|注销|
-
-
-
 
 # 固定句式 
 
