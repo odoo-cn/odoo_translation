@@ -73441,14 +73441,14 @@ msgstr "利润"
 #: code:addons/account/account.py:207
 #, python-format
 msgid "Profit & Loss (Expense account)"
-msgstr "利润和损失（费用科目）"
+msgstr "损益（费用科目）"
 
 #. module: account
 #: selection:account.account.type,report_type:0
 #: code:addons/account/account.py:206
 #, python-format
 msgid "Profit & Loss (Income account)"
-msgstr "利润和损失（收入科目）"
+msgstr "损益（收入科目）"
 
 #. module: account
 #: model:account.financial.report,name:account.account_financial_report_profitloss_toreport0
@@ -73463,14 +73463,14 @@ msgstr "利润科目"
 #. module: account
 #: model:ir.ui.menu,name:account.menu_account_report_pl
 msgid "Profit And Loss"
-msgstr "利润和损失"
+msgstr "损益"
 
 #. module: account
 #: model:account.account.template,name:account.conf_gpf
 #: model:account.financial.report,name:account.account_financial_report_profitandloss0
 #: model:ir.actions.act_window,name:account.action_account_report_pl
 msgid "Profit and Loss"
-msgstr "利润和损失"
+msgstr "损益"
 
 #. module: account
 #: view:account.invoice:account.view_account_invoice_filter
@@ -92145,7 +92145,7 @@ msgstr ""
 #: help:account.account.type,report_type:0
 msgid ""
 "This field is used to generate legal reports: profit and loss, balance sheet."
-msgstr "这个字段用于生成法定报告：利润和损失，资产负债表"
+msgstr "这个字段用于生成法定报告：损益，资产负债表"
 
 #. module: account
 #: help:account.bank.statement.line,partner_name:0
