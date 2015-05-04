@@ -3407,7 +3407,7 @@ msgstr ""
 "    * 税收管理\n"
 "    * 预算\n"
 "    * 客户和供应商发票\n"
-"    * 银行结算单\n"
+"    * 银行对账单\n"
 "    * 通过业务伙伴调节对帐\n"
 "\n"
 "创建仪表盘会计人员，其中包括：\n"
@@ -21910,7 +21910,7 @@ msgid ""
 "and will be created in 'Posted' status."
 msgstr ""
 "所有手工创建的会计分录通常为“未过账”状态，但你可以配置跳过这一状态的选项，这"
-"样，系统会自动创建会计分录的有效凭证（发票、银行结算单。。。），并且会处于“已"
+"样，系统会自动创建会计分录的有效凭证（发票、银行对账单。。。），并且会处于“已"
 "过账”状态。"
 
 #. module: membership
@@ -25983,25 +25983,25 @@ msgstr "银行调节的凭证预制"
 #: model:ir.model,name:point_of_sale.model_account_bank_statement
 #: field:pos.session,statement_ids:0
 msgid "Bank Statement"
-msgstr "银行结算单"
+msgstr "银行对账单"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_bank_statement_extensions
 msgid "Bank Statement Extensions to Support e-banking"
-msgstr "银行结算单扩展支持电子银行"
+msgstr "银行对账单扩展支持电子银行"
 
 #. modules: account, account_analytic_plans, point_of_sale
 #: model:ir.model,name:account.model_account_bank_statement_line
 #: model:ir.model,name:account_analytic_plans.model_account_bank_statement_line
 #: model:ir.model,name:point_of_sale.model_account_bank_statement_line
 msgid "Bank Statement Line"
-msgstr "银行结算单明细"
+msgstr "银行对账单明细"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
 #: model:ir.ui.menu,name:account.menu_bank_statement_tree
 msgid "Bank Statements"
-msgstr "银行结算单"
+msgstr "银行对账单"
 
 #. module: base
 #: field:res.partner.bank.type.field,bank_type_id:0
@@ -26058,19 +26058,19 @@ msgstr "银行调节"
 #. module: account_payment
 #: field:payment.line,bank_statement_line_id:0
 msgid "Bank statement line"
-msgstr "银行结算单明细"
+msgstr "银行对账单明细"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_journal_2_account_bank_statement
 msgid "Bank statements"
-msgstr "银行结算单"
+msgstr "银行对账单"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:8
 #, python-format
 msgid "Bank statements are fully reconciled."
-msgstr "银行结算单被完全调节。"
+msgstr "银行对账单被完全调节。"
 
 #. module: base
 #: model:ir.model,name:base.model_res_partner_bank_type_field
@@ -47812,7 +47812,7 @@ msgstr "按序列顺序显示分析分配列表"
 #: help:account.bank.statement.line,sequence:0
 msgid ""
 "Gives the sequence order when displaying a list of bank statement lines."
-msgstr "按序列顺序显示银行结算单明细"
+msgstr "按序列顺序显示银行对账单明细"
 
 #. module: mrp
 #: help:mrp.bom,sequence:0
@@ -52345,7 +52345,7 @@ msgstr ""
 msgid ""
 "In order to delete a bank statement line, you must first cancel it to delete "
 "related journal items."
-msgstr "要删除银行结算单明细，必须先取消它以便删除相关日记账项目"
+msgstr "要删除银行对账单明细，必须先取消它以便删除相关日记账项目"
 
 #. module: account
 #: code:addons/account/account_bank_statement.py:392
@@ -52353,7 +52353,7 @@ msgstr "要删除银行结算单明细，必须先取消它以便删除相关日
 msgid ""
 "In order to delete a bank statement, you must first cancel it to delete "
 "related journal items."
-msgstr "要删除银行结算单，必须先取消它以便删除相关日记账项目"
+msgstr "要删除银行对账单，必须先取消它以便删除相关日记账项目"
 
 #. module: sale
 #: code:addons/sale/sale.py:274
@@ -70577,7 +70577,7 @@ msgstr "请调节“内部转帐帐户”区域设为付款方式'%s'."
 #: code:addons/account/wizard/pos_box.py:32
 #, python-format
 msgid "Please check that the field 'Journal' is set on the Bank Statement"
-msgstr "请检查银行结算单的字段“日记账”已配置"
+msgstr "请检查银行对账单的字段“日记账”已配置"
 
 #. module: mail
 #. openerp-web
@@ -76041,7 +76041,7 @@ msgstr "注销调节"
 #: code:addons/account/static/src/js/account_tour_bank_statement_reconciliation.js:8
 #, python-format
 msgid "Reconcile the demo bank statement"
-msgstr "调节演示银行结算单"
+msgstr "调节演示银行对账单"
 
 #. module: account
 #: view:account.entries.report:account.view_account_entries_report_search
@@ -76093,7 +76093,7 @@ msgstr "调节号码"
 #: model:ir.actions.client,name:account.action_bank_reconcile_bank_statements
 #: model:ir.ui.menu,name:account.menu_bank_reconcile_bank_statements
 msgid "Reconciliation on Bank Statements"
-msgstr "银行结算单的调节"
+msgstr "银行对账单的调节"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_partner_reconcile
@@ -80423,7 +80423,7 @@ msgstr "搜索资产类别"
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
 msgid "Search Bank Statements"
-msgstr "搜索银行结算单"
+msgstr "搜索银行对账单"
 
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
@@ -85199,7 +85199,7 @@ msgstr "Statement Summary"
 #: field:account.bank.statement,line_ids:0
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Statement lines"
-msgstr "银行结算单明细"
+msgstr "银行对账单明细"
 
 #. modules: account, point_of_sale
 #: model:ir.ui.menu,name:account.menu_account_pp_statements
@@ -88753,12 +88753,12 @@ msgstr ""
 #: code:addons/account/account_bank_statement.py:735
 #, python-format
 msgid "The bank statement line was already reconciled."
-msgstr "银行结算单明细已经被调节。"
+msgstr "银行对账单明细已经被调节。"
 
 #. module: account
 #: help:account.move.line,statement_id:0
 msgid "The bank statement used for bank reconciliation"
-msgstr "该银行结算单用于银行调节"
+msgstr "该银行对账单用于银行调节"
 
 #. module: stock
 #: sql_constraint:stock.location:0
@@ -106679,7 +106679,7 @@ msgstr "使用注释工具。"
 #: help:account.bank.statement,account_id:0
 msgid ""
 "used in statement reconciliation domain, but shouldn't be used elswhere."
-msgstr "用于银行结算单，但不能使用到别处。"
+msgstr "用于银行对账单，但不能使用到别处。"
 
 #. module: website_forum
 #: view:website:website_forum.badge_user
