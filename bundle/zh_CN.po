@@ -177,7 +177,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-03 09:47+0000\n"
-"PO-Revision-Date: 2015-05-04 14:47+0800\n"
+"PO-Revision-Date: 2015-05-04 15:02+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -28382,12 +28382,12 @@ msgstr "取消预算"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "Cancel Call"
-msgstr "Cancel Call"
+msgstr "取消招标"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
 msgid "Cancel Campaign"
-msgstr "Cancel Campaign"
+msgstr "取消营销"
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -28397,7 +28397,7 @@ msgstr "取消钱箱"
 #. module: purchase_requisition
 #: view:purchase.order.line:purchase_requisition.purchase_order_line_tree_tender
 msgid "Cancel Choice"
-msgstr "Cancel Choice"
+msgstr "取消选择"
 
 #. module: account
 #: view:account.open.closed.fiscalyear:account.view_account_open_closed_fiscalyear
@@ -28414,7 +28414,7 @@ msgstr "取消合同"
 #. module: mail
 #: view:mail.mail:mail.view_mail_tree
 msgid "Cancel Email"
-msgstr "取消 Email"
+msgstr "取消电邮"
 
 #. module: account
 #: view:account.move:account.view_move_form
@@ -28462,7 +28462,7 @@ msgstr "取消分类账分录"
 #. module: sale
 #: view:sale.order.line:sale.view_order_line_form2
 msgid "Cancel Line"
-msgstr "取消"
+msgstr "取消明细"
 
 #. module: membership
 #: field:res.partner,membership_cancel:0
@@ -28484,7 +28484,7 @@ msgstr "取消订单"
 #. module: lunch
 #: view:lunch.cancel:lunch.cancel_order_lines_view
 msgid "Cancel Orders"
-msgstr "Cancel Orders"
+msgstr "取消订餐"
 
 #. module: account_payment
 #: view:payment.order:account_payment.view_payment_order_form
@@ -28509,7 +28509,7 @@ msgstr "取消生产"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Cancel Project"
-msgstr "Cancel Project"
+msgstr "取消项目"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
@@ -28607,7 +28607,7 @@ msgstr "取消日期"
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.cancel_order_lines
 msgid "Cancel meals"
-msgstr "Cancel meals"
+msgstr "取消食品"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
@@ -28964,17 +28964,17 @@ msgstr "承运方"
 #. module: delivery
 #: view:stock.picking:delivery.view_picking_withcarrier_out_form
 msgid "Carrier Information"
-msgstr "Carrier Information"
+msgstr "承运方信息"
 
 #. module: delivery
 #: field:stock.picking,carrier_tracking_ref:0
 msgid "Carrier Tracking Ref"
-msgstr "承运方跟踪号"
+msgstr "承运方跟踪参考"
 
 #. module: website_sale
 #: field:sale.order,cart_quantity:0
 msgid "Cart Quantity"
-msgstr "Cart Quantity"
+msgstr "购物车的数量"
 
 #. module: base
 #: selection:ir.model.fields,on_delete:0
@@ -29105,7 +29105,7 @@ msgstr "收银机"
 #. module: point_of_sale
 #: field:pos.config,barcode_cashier:0
 msgid "Cashier Barcodes"
-msgstr "Cashier Barcodes"
+msgstr "收银员条码"
 
 #. module: base
 #: selection:base.language.install,lang:0
@@ -29128,7 +29128,7 @@ msgstr "Catalytic Converter Replacement"
 #: model:ir.ui.menu,name:crm_helpdesk.menu_crm_case_helpdesk-act
 #: field:mail.mass_mailing.campaign,category_ids:0
 msgid "Categories"
-msgstr "分类"
+msgstr "类别"
 
 #. modules: crm_helpdesk, crm_partner_assign, crm
 #: view:crm.lead:crm.crm_case_form_view_leads
@@ -29155,12 +29155,12 @@ msgstr "归类"
 #: view:product.template:product.product_template_search_view
 #: field:purchase.report,category_id:0 field:survey.survey,res_model:0
 msgid "Category"
-msgstr "分类"
+msgstr "类别"
 
 #. module: base
 #: field:res.partner.category,name:0
 msgid "Category Name"
-msgstr "分类名称"
+msgstr "类别名称"
 
 #. module: product
 #: field:product.category,type:0
@@ -29170,12 +29170,12 @@ msgstr "类别类型"
 #. module: crm
 #: model:ir.model,name:crm.model_crm_case_categ
 msgid "Category of Case"
-msgstr "业务分类"
+msgstr "案件类别"
 
 #. module: hr_holidays
 #: help:hr.holidays,category_id:0
 msgid "Category of Employee"
-msgstr "员工类型"
+msgstr "员工类别"
 
 #. modules: account, sale
 #: view:account.invoice.report:account.view_account_invoice_report_search
@@ -29183,7 +29183,7 @@ msgstr "员工类型"
 #: view:sale.report:sale.view_order_product_search
 #: field:sale.report,categ_id:0
 msgid "Category of Product"
-msgstr "产品分类"
+msgstr "产品类别"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_applicant_category
@@ -29198,17 +29198,17 @@ msgstr "Category of product"
 #. module: project
 #: model:ir.model,name:project.model_project_category
 msgid "Category of project's task, issue, ..."
-msgstr "项目的任务类别，问题，..."
+msgstr "项目任务，议题的类别"
 
 #. module: fleet
 #: field:fleet.vehicle.cost,cost_type:0
 msgid "Category of the cost"
-msgstr "Category of the cost"
+msgstr "成本的类别"
 
 #. module: project_issue
 #: view:project.issue:project_issue.project_issue_kanban_view
 msgid "Category:"
-msgstr "分类:"
+msgstr "类别："
 
 #. module: base
 #: model:res.country,name:base.ky
@@ -29254,34 +29254,34 @@ msgstr "集中分类账"
 #. module: website_certification
 #: field:certification.certification,type_id:0
 msgid "Certification"
-msgstr "Certification"
+msgstr "认证"
 
 #. module: website_certification
 #: field:certification.certification,certification_date:0
 msgid "Certification Date"
-msgstr "Certification Date"
+msgstr "认证日期"
 
 #. module: website_certification
 #: field:certification.certification,certification_score:0
 msgid "Certification Score"
-msgstr "Certification Score"
+msgstr "认证积分"
 
 #. module: website_certification
 #: field:certification.type,name:0
 msgid "Certification Type"
-msgstr "Certification Type"
+msgstr "认证类型"
 
 #. module: website_certification
 #: model:ir.actions.act_window,name:website_certification.action_certifications_list
 #: model:ir.ui.menu,name:website_certification.menu_certifications
 #: model:ir.ui.menu,name:website_certification.menu_certifications_list
 msgid "Certifications"
-msgstr "Certifications"
+msgstr "认证"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_certification
 msgid "Certified People"
-msgstr "Certified People"
+msgstr "认证人员"
 
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
@@ -29301,40 +29301,40 @@ msgstr "乍得"
 #. module: stock
 #: field:stock.return.picking,move_dest_exists:0
 msgid "Chained Move Exists"
-msgstr "链式移动已存在"
+msgstr "链接的移动已存在"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
 #: field:gamification.challenge.line,challenge_id:0
 #: field:gamification.goal,challenge_id:0
 msgid "Challenge"
-msgstr "Challenge"
+msgstr "挑战"
 
 #. module: gamification
 #: model:ir.actions.act_window,name:gamification.challenge_wizard
 msgid "Challenge Description"
-msgstr "Challenge Description"
+msgstr "挑战描述"
 
 #. module: gamification
 #: field:gamification.goal,line_id:0
 msgid "Challenge Line"
-msgstr "Challenge Line"
+msgstr "挑战明细"
 
 #. module: gamification
 #: view:gamification.challenge:gamification.view_challenge_wizard
 #: view:gamification.challenge.line:gamification.challenge_line_list_view
 msgid "Challenge Lines"
-msgstr "Challenge Lines"
+msgstr "挑战明细"
 
 #. module: gamification
 #: field:gamification.challenge,name:0
 msgid "Challenge Name"
-msgstr "Challenge Name"
+msgstr "挑战名称"
 
 #. module: gamification
 #: field:gamification.badge.user,challenge_id:0
 msgid "Challenge originating"
-msgstr "Challenge originating"
+msgstr "挑战开始"
 
 #. module: gamification
 #: help:gamification.goal,challenge_id:0
@@ -29352,7 +29352,7 @@ msgstr ""
 #: model:ir.actions.act_window,name:hr_gamification.challenge_list_action2
 #: model:ir.ui.menu,name:hr_gamification.gamification_challenge_menu_hr
 msgid "Challenges"
-msgstr "Challenges"
+msgstr "挑战"
 
 #. modules: website, account
 #. openerp-web
@@ -29365,7 +29365,7 @@ msgstr "更改"
 #. module: website_sale
 #: view:website:website_sale.payment
 msgid "Change Address"
-msgstr "Change Address"
+msgstr "更改地址"
 
 #. module: website
 #: view:website:website.snippets
@@ -29375,12 +29375,12 @@ msgstr "更改背景"
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_bid_line_qty
 msgid "Change Bid line quantity"
-msgstr "Change Bid line quantity"
+msgstr "改变招标明细数量"
 
 #. module: website_blog
 #: view:website:website_blog.blog_post_complete
 msgid "Change Cover"
-msgstr "Change Cover"
+msgstr "修改封面"
 
 #. module: account
 #: view:account.change.currency:account.view_account_change_currency
@@ -29394,12 +29394,12 @@ msgstr "更改币别"
 #: code:addons/point_of_sale/static/src/js/screens.js:683
 #, python-format
 msgid "Change Customer"
-msgstr "Change Customer"
+msgstr "变更客户"
 
 #. module: website_mail_group
 #: view:website:website.snippets
 msgid "Change Discussion List"
-msgstr "Change Discussion List"
+msgstr "变更讨论列表"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -29409,12 +29409,12 @@ msgstr "变更周期"
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Change Email Design"
-msgstr "Change Email Design"
+msgstr "修改邮件设计"
 
 #. module: website
 #: view:website:website.snippets
 msgid "Change Icons"
-msgstr "Change Icons"
+msgstr "更改图标"
 
 #. module: board
 #. openerp-web
@@ -29449,7 +29449,7 @@ msgstr "更改主控密码"
 #: code:addons/website/static/src/xml/website.editor.xml:325
 #, python-format
 msgid "Change Media"
-msgstr "Change Media"
+msgstr "更改媒体"
 
 #. module: base
 #: model:ir.actions.act_window,name:base.action_res_users_my
@@ -29459,7 +29459,7 @@ msgstr "更改我的首选项"
 #. module: mass_mailing
 #: view:website:website.snippets
 msgid "Change Newsletter"
-msgstr "Change Newsletter"
+msgstr "更改新闻信"
 
 #. modules: web, base
 #. openerp-web
@@ -29492,18 +29492,18 @@ msgstr "密码更改向导"
 #: view:wizard.price:product_extended.view_compute_price_wizard
 #: view:stock.change.standard.price:stock_account.view_change_standard_price
 msgid "Change Price"
-msgstr "Change Price"
+msgstr "更改价格"
 
 #. module: crm
 #: field:crm.case.stage,on_change:0
 msgid "Change Probability Automatically"
-msgstr "自动修改概率"
+msgstr "自动变更概率"
 
 #. module: mrp
 #: view:change.production.qty:mrp.view_change_production_qty_wizard
 #: model:ir.actions.act_window,name:mrp.action_change_production_qty
 msgid "Change Product Qty"
-msgstr "改变产品数量"
+msgstr "更改产品数量"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_change_product_qty
@@ -29515,13 +29515,13 @@ msgstr "更改产品数量"
 #: view:bid.line.qty:purchase_requisition.view_bid_line_qty
 #: view:purchase.order.line:purchase_requisition.purchase_order_line_tree_tender
 msgid "Change Quantity"
-msgstr "修改数量"
+msgstr "更改数量"
 
 #. modules: mrp, mrp_byproduct
 #: model:ir.model,name:mrp.model_change_production_qty
 #: model:ir.model,name:mrp_byproduct.model_change_production_qty
 msgid "Change Quantity of Products"
-msgstr "修改产成品数量"
+msgstr "更改产品数量"
 
 #. modules: product_extended, stock_account
 #: view:wizard.price:product_extended.view_compute_price_wizard
@@ -29529,7 +29529,7 @@ msgstr "修改产成品数量"
 #: model:ir.model,name:stock_account.model_stock_change_standard_price
 #: view:stock.change.standard.price:stock_account.view_change_standard_price
 msgid "Change Standard Price"
-msgstr "Change Standard Price"
+msgstr "更改标准价格"
 
 #. module: website
 #: view:website:website.layout
@@ -29677,7 +29677,7 @@ msgstr "还不支持更改列类型，请先删除该列再重新创建。"
 #: field:project.issue,channel:0 field:project.issue.report,channel:0
 #: field:sale.order,medium_id:0 field:website,channel_id:0
 msgid "Channel"
-msgstr "途径"
+msgstr "渠道"
 
 #. modules: im_livechat, crm
 #: field:crm.tracking.medium,name:0 field:im_livechat.channel,name:0
