@@ -177,7 +177,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-03 09:47+0000\n"
-"PO-Revision-Date: 2015-05-04 15:33+0800\n"
+"PO-Revision-Date: 2015-05-04 20:38+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -15171,8 +15171,8 @@ msgstr ""
 "<p class=\"oe_view_nocontent_create\">\n"
 "                点击创建新的现金记录.\n"
 "              </p><p>\n"
-"                Cash Register可以使你在你的现金日记账中管理你的现金项目。\n"
-"                这个特性提供了，按每天的方式来跟踪现金付款的方式。\n"
+"                现金出纳机允许你在你的现金日记账中管理你的现金分录。\n"
+"                这个特性提供了按天的方式来跟踪现金付款的方式。\n"
 "                你可以查看在你钱箱中的每一分钱，并且在资金进出时创建记录。\n"
 "              </p>\n"
 "            "
@@ -20246,7 +20246,7 @@ msgstr "会计和财务"
 #. module: point_of_sale
 #: help:pos.config,journal_id:0
 msgid "Accounting journal used to post sales entries."
-msgstr "用于销售分录登账的分类帐。"
+msgstr "分类帐用于过账销售分录"
 
 #. module: account
 #: view:res.partner:account.view_partner_property_form
@@ -21820,7 +21820,7 @@ msgstr "所有业务伙伴"
 #: code:addons/account/report/common_report_header.py:68
 #, python-format
 msgid "All Posted Entries"
-msgstr "所有已登账分录"
+msgstr "所有已过账分录"
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -21909,9 +21909,9 @@ msgid ""
 "created by the system on document validation (invoices, bank statements...) "
 "and will be created in 'Posted' status."
 msgstr ""
-"所有手工创建的会计分录通常为“未记账”状态，但你可以配置跳过这一状态的选项，这"
-"样，系统会自动创建会计分录的有效凭证（发票、银行结算单。。。），并且会处于“记"
-"账”状态。"
+"所有手工创建的会计分录通常为“未过账”状态，但你可以配置跳过这一状态的选项，这"
+"样，系统会自动创建会计分录的有效凭证（发票、银行结算单。。。），并且会处于“已"
+"过账”状态。"
 
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
@@ -21977,7 +21977,7 @@ msgstr "所有销售明细"
 msgid ""
 "All selected journal entries will be validated and posted. It means you "
 "won't be able to modify their accounting fields anymore."
-msgstr "所有选择的分类账分录将生效并记账，这意味着您将不能修改它们。"
+msgstr "所有选择的分类账分录将被确认并过账，这意味着您将不能修改它们。"
 
 #. module: stock
 #: code:addons/stock/procurement.py:241
@@ -31437,7 +31437,7 @@ msgstr "已关闭"
 #: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Closed & Posted"
-msgstr "关闭 & 登帐"
+msgstr "已关闭 & 已过账"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_filter
@@ -52290,7 +52290,7 @@ msgstr "在关闭会计年度之前，首先您得将所有关联的凭证过账
 #, python-format
 msgid ""
 "In order to close a period, you must first post related journal entries."
-msgstr "在关闭会计期间之前，请先复核本期间的会计分录。"
+msgstr "在关闭期间之前，首先您得将所有关联的凭证过账。"
 
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
@@ -57649,7 +57649,7 @@ msgstr "Ledger  28  431.8 x 279.4 mm"
 #. module: hr_expense
 #: field:hr.expense.expense,account_move_id:0
 msgid "Ledger Posting"
-msgstr "过账"
+msgstr "分类账过账"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -71419,12 +71419,12 @@ msgstr "职位头衔"
 #: view:website:website_sale.product
 #, python-format
 msgid "Post"
-msgstr "登帐"
+msgstr "过账"
 
 #. module: point_of_sale
 #: view:pos.confirm:point_of_sale.view_pos_confirm
 msgid "Post All Orders"
-msgstr "上传所有订单"
+msgstr "过账所有订单"
 
 #. module: website_forum
 #: model:ir.model,name:website_forum.model_forum_post_reason
@@ -71438,7 +71438,7 @@ msgstr "Post Closing Reason"
 #: view:validate.account.move:account.validate_account_move_view
 #: view:validate.account.move.lines:account.validate_account_move_line_view
 msgid "Post Journal Entries"
-msgstr "登录分类账分录"
+msgstr "过账分类账分录"
 
 #. module: website_forum
 #: field:forum.post,website_message_ids:0
@@ -71448,7 +71448,7 @@ msgstr "Post Messages"
 #. module: point_of_sale
 #: model:ir.model,name:point_of_sale.model_pos_confirm
 msgid "Post POS Journal Entries"
-msgstr "发表POS机日记帐分录"
+msgstr "过账POS分类账分录"
 
 #. module: website_forum
 #: field:forum.post.reason,name:0
@@ -71503,22 +71503,22 @@ msgstr "邮编"
 #: view:pos.order:point_of_sale.view_pos_order_filter
 #: selection:pos.order,state:0 selection:stock.landed.cost,state:0
 msgid "Posted"
-msgstr "已登帐"
+msgstr "已过账"
 
 #. module: account_asset
 #: field:asset.asset.report,posted_value:0
 msgid "Posted Amount"
-msgstr "已登帐总额"
+msgstr "已过账总额"
 
 #. module: account
 #: view:account.move:account.view_account_move_filter
 msgid "Posted Journal Entries"
-msgstr "已登帐的分类账分录"
+msgstr "已过账的分类账分录"
 
 #. module: account
 #: view:account.move.line:account.view_account_move_line_filter
 msgid "Posted Journal Items"
-msgstr "已登帐的分类账项目"
+msgstr "已过帐的分类账项目"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -71527,17 +71527,17 @@ msgstr "已登帐的分类账项目"
 #: view:account.voucher:account_voucher.view_voucher_filter_vendor
 #: view:account.voucher:account_voucher.view_voucher_filter_vendor_pay
 msgid "Posted Vouchers"
-msgstr "已登账的凭证"
+msgstr "已过账的凭证"
 
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 msgid "Posted depreciation lines"
-msgstr "已登帐明细"
+msgstr "已过账折旧明细"
 
 #. module: account
 #: view:account.entries.report:account.view_account_entries_report_search
 msgid "Posted entries"
-msgstr "已登帐的分录"
+msgstr "已过帐的分录"
 
 #. module: base
 #: help:ir.model.constraint,name:0
@@ -91045,7 +91045,8 @@ msgid ""
 "and is the process of transferring debit and credit amounts from a journal "
 "of original entry to a ledger book."
 msgstr ""
-"使分录生效的过程也被称为“记账”，也就是把日记账的总额抄写到分录上的过程。"
+"使分录生效的过程也被称为“分类账过账”，也就是把日记账的总额抄写到分录上的过"
+"程。"
 
 #. module: sale
 #: code:addons/sale/wizard/sale_make_invoice_advance.py:106
@@ -96543,22 +96544,22 @@ msgstr "计划外数量"
 #: selection:account.move,state:0
 #: view:account.move.line:account.view_account_move_line_filter
 msgid "Unposted"
-msgstr "未登帐"
+msgstr "未过账"
 
 #. module: account_asset
 #: field:asset.asset.report,unposted_value:0
 msgid "Unposted Amount"
-msgstr "未登帐总额"
+msgstr "未过帐总额"
 
 #. module: account
 #: view:account.move:account.view_account_move_filter
 msgid "Unposted Journal Entries"
-msgstr "未登帐的分类账分录"
+msgstr "未过帐的分类账分录"
 
 #. module: account
 #: view:account.move.line:account.view_account_move_line_filter
 msgid "Unposted Journal Items"
-msgstr "未登帐分类账项目"
+msgstr "未过帐分类账项目"
 
 #. module: website
 #: view:website:website.publish_management
@@ -102321,7 +102322,7 @@ msgstr "你不能删除非草稿或者取消状态的工资单！"
 #: code:addons/account/account.py:1412
 #, python-format
 msgid "You cannot delete a posted journal entry \"%s\"."
-msgstr "你不能删除已经登帐的分类账分录\"%s\"."
+msgstr "你不能删除已经过帐的分类账分录\"%s\"."
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:1452
@@ -102365,7 +102366,7 @@ msgstr "你不能删除启用的订阅！"
 #: code:addons/account_asset/account_asset.py:81
 #, python-format
 msgid "You cannot delete an asset that contains posted depreciation lines."
-msgstr "您不能删除一个包含有折旧行的资产"
+msgstr "您不能删除一个包含有已过账折旧明细的资产"
 
 #. module: account
 #: code:addons/account/account_invoice.py:423
@@ -102542,7 +102543,7 @@ msgstr "你不能让任何密码为空。"
 msgid ""
 "You cannot modify a posted entry of this journal.\n"
 "First you should set the journal to allow cancelling entries."
-msgstr "不能修改已经记账的凭证项，首先配置分类账允许取消"
+msgstr "不能修改已经过账的凭证项，首先设置分类账以便允许取消分录"
 
 #. module: hr_timesheet_sheet
 #: code:addons/hr_timesheet_sheet/hr_timesheet_sheet.py:525
@@ -106800,24 +106801,24 @@ msgstr "是"
 #. modules: website_mail_group, mass_mailing, website_mail
 #: view:website:website.snippets view:website:website_mail.follow
 msgid "your email..."
-msgstr "your email..."
+msgstr "你的电子邮件..."
 
 #. module: website
 #: view:website:website.themes
 msgid "your homepage"
-msgstr "your homepage"
+msgstr "你的首页"
 
 #. module: mail
 #: code:addons/mail/mail_mail.py:162
 #, python-format
 msgid "your messages"
-msgstr "your messages"
+msgstr "你的消息"
 
 #. module: portal
 #: code:addons/portal/mail_mail.py:48
 #, python-format
 msgid "your messages "
-msgstr "your messages "
+msgstr "你的消息"
 
 #. module: survey
 #: view:website:survey.datetime
