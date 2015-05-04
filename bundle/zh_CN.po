@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-05-04 09:21+0800\n"
+"PO-Revision-Date: 2015-05-04 09:39+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -193,7 +193,7 @@ msgstr ""
 msgid ""
 "\n"
 "\n"
-"    科目类型\\会计科目表模板\\增值税\\辅助核算类别\\管理会计凭证簿\\财务会计"
+"    科目类型\\会计科目表模板\\增值税\\分析类别\\管理会计凭证簿\\财务会计"
 "凭证簿\n"
 "\n"
 "    添加中文省份数据\n"
@@ -204,7 +204,7 @@ msgid ""
 msgstr ""
 "\n"
 "\n"
-"    科目类型\\会计科目表模板\\增值税\\辅助核算类别\\管理会计凭证簿\\财务会计"
+"    科目类型\\会计科目表模板\\增值税\\分析类别\\管理会计凭证簿\\财务会计"
 "凭证簿\n"
 "\n"
 "    添加中文省份数据\n"
@@ -50780,7 +50780,7 @@ msgstr ""
 msgid ""
 "If invoice from analytic account, the remaining amount you can invoice to "
 "the customer based on the total costs."
-msgstr "如果是辅助核算项目的发票, 剩余总额你能给客户开基于总成本的发票"
+msgstr "如果是分析账户的发票, 剩余总额你能给客户开基于总成本的发票"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,last_invoice_date:0
@@ -51037,7 +51037,7 @@ msgstr "如果活动字段设置为False，您将可以隐藏它而不在科目�
 msgid ""
 "If the active field is set to False, it will allow you to hide the analytic "
 "journal without removing it."
-msgstr "如果有效字段设为否，您将可以不必删除就隐藏辅助核算分录。"
+msgstr "如果有效字段设为否，您将可以不必删除就隐藏分析分类账。"
 
 #. module: mrp
 #: help:mrp.bom,active:0
@@ -61119,7 +61119,7 @@ msgstr "最小允许(%)"
 #. module: hr_timesheet
 #: field:hr.sign.out.project,analytic_amount:0
 msgid "Minimum Analytic Amount"
-msgstr "最低辅助核算总额"
+msgstr "最低分析总额"
 
 #. module: survey
 #: field:survey.question,validation_min_date:0
@@ -68251,7 +68251,7 @@ msgstr "上级科目模板"
 #. module: analytic
 #: field:account.analytic.account,parent_id:0
 msgid "Parent Analytic Account"
-msgstr "上级辅助核算项"
+msgstr "上级分析账户"
 
 #. module: base
 #: field:ir.module.category,parent_id:0
@@ -78458,7 +78458,7 @@ msgstr "根税编码"
 #. module: account_analytic_plans
 #: help:account.analytic.plan.line,root_analytic_id:0
 msgid "Root account of this plan."
-msgstr "这方案的根辅助核算项"
+msgstr "这方案的根分析账户"
 
 #. module: account
 #: model:account.account.type,name:account.data_account_type_view
@@ -81255,7 +81255,7 @@ msgstr "选择一个起始和结束的期间。"
 #: help:account.analytic.default,user_id:0
 msgid ""
 "Select a user which will use analytic account specified in analytic default."
-msgstr "选择一个用户用在辅助核算科目指定的默认值"
+msgstr "选择一个用户用在分析账户指定的默认值"
 
 #. module: stock_picking_wave
 #: view:stock.picking.to.wave:stock_picking_wave.picking_to_wave_form
@@ -82648,9 +82648,7 @@ msgid ""
 "lines for invoices. Leave empty if you don't want to use an analytic account "
 "on the invoice tax lines by default."
 msgstr ""
-"设置辅助核算项，用于退款时发票上默认项目。如果默认不要在发票的税上 使用辅助核"
-"算项，留空。"
-
+"设置分析账户，用于退款时发票上默认项目。如果默认不要在发票的税上 使用分析账户 ，留空。"
 #. module: account
 #: help:account.tax,account_analytic_paid_id:0
 msgid ""
@@ -88305,7 +88303,7 @@ msgstr "这科目可以是一个税基编码或税编码的科目。"
 #: code:addons/project_issue_sheet/project_issue_sheet.py:57
 #, python-format
 msgid "The Analytic Account is pending !"
-msgstr "这个辅助核算项 被挂起的"
+msgstr "这个分析账户 被挂起的"
 
 #. module: account_budget
 #: code:addons/account_budget/account_budget.py:124
@@ -91110,7 +91108,7 @@ msgstr "理论总额"
 #: code:addons/account_analytic_plans/wizard/account_crossovered_analytic.py:62
 #, python-format
 msgid "There are no analytic lines related to account %s."
-msgstr "没有辅助核算行关联到科目%s."
+msgstr "没有分析明细关联到科目%s."
 
 #. module: website_blog
 #: code:addons/website_blog/models/website_blog.py:280
@@ -91174,7 +91172,7 @@ msgstr "分类账%s中没有设置收益科目。"
 #: code:addons/account_analytic_plans/wizard/analytic_plan_create_model.py:41
 #, python-format
 msgid "There is no analytic plan defined."
-msgstr "没有辅助核算计划定义"
+msgstr "没有分析方案定义"
 
 #. module: point_of_sale
 #. openerp-web
@@ -99659,17 +99657,17 @@ msgstr "Website url"
 #: view:website:report.external_layout_footer
 #: view:website.config.settings:website_twitter.view_website_config_settings
 msgid "Website:"
-msgstr "Website:"
+msgstr "网站："
 
 #. module: website
 #: view:website:website.view_website_tree
 msgid "Websites"
-msgstr "Websites"
+msgstr "网站"
 
 #. module: website
 #: field:base.language.install,website_ids:0
 msgid "Websites to translate"
-msgstr "Websites to translate"
+msgstr "待翻译的网站"
 
 #. module: calendar
 #: field:calendar.event,we:0
@@ -101375,7 +101373,7 @@ msgstr "勾销"
 #. module: account_voucher
 #: field:account.voucher,analytic_id:0
 msgid "Write-Off Analytic Account"
-msgstr "勾销辅助核算项"
+msgstr "勾销分析账户"
 
 #. module: account
 #: field:account.move.line.reconcile.writeoff,journal_id:0
@@ -102759,7 +102757,7 @@ msgstr "您必须定义分类账'%s' 的分析分类账！"
 #: code:addons/account_analytic_plans/account_analytic_plans.py:471
 #, python-format
 msgid "You have to define an analytic journal on the '%s' journal."
-msgstr "你必须在'%s' 分类账定义一个辅助核算分类账"
+msgstr "你必须在'%s' 分类账定义一个分析分类账"
 
 #. module: account
 #: code:addons/account/wizard/account_move_bank_reconcile.py:49
