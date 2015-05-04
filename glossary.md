@@ -213,7 +213,8 @@ work|工作|
 2|# 开头|# entries | # 符号要保留|
 3|% 包围|%(bank_name)s: %(acc_number)s|不作翻译|
 4|Gives the sequence order when|Gives the sequence order when displaying a list of Projects.|按序列顺序显示项目列表 【当显示项目列表时，给出序列顺序】|
-5|Click here to |Click here to access the post.|点击这儿访问帖子||
+5|Click here to |Click here to access the post.|点击这儿访问帖子|
+6|Check this box if |Check this box if this company is a legal entity.|如果此公司是一个法律实体，勾选此框。|
 
 
 
