@@ -178,7 +178,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-04-23 00:53+0000\n"
-"PO-Revision-Date: 2015-05-02 11:47+0800\n"
+"PO-Revision-Date: 2015-05-04 09:21+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -3408,7 +3408,7 @@ msgstr ""
 "    * 税收管理\n"
 "    * 预算\n"
 "    * 客户和供应商发票\n"
-"    * 银行对账单\n"
+"    * 银行结算单\n"
 "    * 通过业务伙伴调节对帐\n"
 "\n"
 "创建仪表盘会计人员，其中包括：\n"
@@ -11316,7 +11316,7 @@ msgstr " 邮件发出"
 #: code:addons/account_followup/wizard/account_followup_print.py:176
 #, python-format
 msgid " email(s) should have been sent, but "
-msgstr "邮件将被发送，但是"
+msgstr " 邮件将被发送，但是"
 
 #. module: account_followup
 #: code:addons/account_followup/wizard/account_followup_print.py:176
@@ -19805,7 +19805,7 @@ msgstr "账户所有者名称"
 #. module: account
 #: model:ir.model,name:account.model_account_partner_ledger
 msgid "Account Partner Ledger"
-msgstr "业务伙伴会计分类账(往来帐)"
+msgstr "业务伙伴总账"
 
 #. module: account
 #: field:res.partner,property_account_payable:0
@@ -19815,7 +19815,7 @@ msgstr "应付科目"
 #. module: account_payment
 #: model:ir.model,name:account_payment.model_account_payment_populate_statement
 msgid "Account Payment Populate Statement"
-msgstr "付款帐户填充声明"
+msgstr "付款填写结算单"
 
 #. module: account
 #: view:account.period:account.view_account_period_form
@@ -21872,7 +21872,7 @@ msgid ""
 "and will be created in 'Posted' status."
 msgstr ""
 "所有手工创建的会计分录通常为“未记账”状态，但你可以设置跳过这一状态的选项，这"
-"样，系统会自动创建会计分录的有效凭证（发票、银行报告。。。），并且会处于“记"
+"样，系统会自动创建会计分录的有效凭证（发票、银行结算单。。。），并且会处于“记"
 "账”状态。"
 
 #. module: membership
@@ -21958,7 +21958,7 @@ msgstr "All surveys"
 msgid ""
 "All the account entries lines must be processed in order to close the "
 "statement."
-msgstr "所有的会计凭证必须被处理才能关闭对账"
+msgstr "所有的会计凭证必须被处理，这样才能关闭结算单"
 
 #. module: website
 #: view:website:website.snippets
@@ -25442,13 +25442,13 @@ msgstr "BOM Product Variants needed form apply this line."
 #. module: mrp
 #: view:website:mrp.report_mrpbomstructure
 msgid "BOM Ref"
-msgstr "物料表编号"
+msgstr "BOM 编号"
 
 #. module: mrp
 #: model:ir.actions.report.xml,name:mrp.action_report_bom_structure
 #: view:website:mrp.report_mrpbomstructure
 msgid "BOM Structure"
-msgstr "物料清单结构"
+msgstr "BOM 结构"
 
 #. module: mrp
 #: field:mrp.bom.line,child_line_ids:0
@@ -25509,7 +25509,7 @@ msgstr "返回登录页面"
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:54
 #, python-format
 msgid "Back to statements list"
-msgstr "返回对账单列表"
+msgstr "返回结算单列表"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer
@@ -25939,25 +25939,25 @@ msgstr "银行调节的凭证预制"
 #: model:ir.model,name:point_of_sale.model_account_bank_statement
 #: field:pos.session,statement_ids:0
 msgid "Bank Statement"
-msgstr "银行对账单"
+msgstr "银行结算单"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_bank_statement_extensions
 msgid "Bank Statement Extensions to Support e-banking"
-msgstr "银行对账单扩展支持电子银行"
+msgstr "银行结算单扩展支持电子银行"
 
 #. modules: account, account_analytic_plans, point_of_sale
 #: model:ir.model,name:account.model_account_bank_statement_line
 #: model:ir.model,name:account_analytic_plans.model_account_bank_statement_line
 #: model:ir.model,name:point_of_sale.model_account_bank_statement_line
 msgid "Bank Statement Line"
-msgstr "银行对账单明细"
+msgstr "银行结算单明细"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
 #: model:ir.ui.menu,name:account.menu_bank_statement_tree
 msgid "Bank Statements"
-msgstr "银行对账单"
+msgstr "银行结算单"
 
 #. module: base
 #: field:res.partner.bank.type.field,bank_type_id:0
@@ -26014,19 +26014,19 @@ msgstr "银行调节"
 #. module: account_payment
 #: field:payment.line,bank_statement_line_id:0
 msgid "Bank statement line"
-msgstr "银行对帐单明细"
+msgstr "银行结算单明细"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_journal_2_account_bank_statement
 msgid "Bank statements"
-msgstr "银行对账单"
+msgstr "银行结算单"
 
 #. module: account
 #. openerp-web
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:8
 #, python-format
 msgid "Bank statements are fully reconciled."
-msgstr "银行对账单已经被调节。"
+msgstr "银行结算单被完全调节。"
 
 #. module: base
 #: model:ir.model,name:base.model_res_partner_bank_type_field
@@ -26607,12 +26607,12 @@ msgstr "账单"
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 msgid "Bill Date"
-msgstr "票据日期"
+msgstr "账单日期"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 msgid "Bill Information"
-msgstr "票据信息"
+msgstr "账单信息"
 
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
@@ -26719,7 +26719,7 @@ msgstr "二进制数据"
 #. module: base
 #: help:ir.attachment,type:0
 msgid "Binary File or URL"
-msgstr "Binary File or URL"
+msgstr "二进制文件或URL"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
@@ -26878,7 +26878,7 @@ msgstr "BOM明细"
 #. module: mrp
 #: field:mrp.bom,type:0
 msgid "BoM Type"
-msgstr "物料清单类型"
+msgstr "BOM 类型"
 
 #. module: board
 #: model:ir.model,name:board.model_board_board
@@ -27854,12 +27854,12 @@ msgstr "喀麦隆"
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
 #: field:sale.order,campaign_id:0
 msgid "Campaign"
-msgstr "营销活动"
+msgstr "营销"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_marketing_campaign_activity
 msgid "Campaign Activity"
-msgstr "营销活动活动项"
+msgstr "营销活动项"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -27867,49 +27867,49 @@ msgstr "营销活动活动项"
 #: model:ir.model,name:marketing_campaign.model_campaign_analysis
 #: model:ir.ui.menu,name:marketing_campaign.menu_action_campaign_analysis_all
 msgid "Campaign Analysis"
-msgstr "营销活动分析"
+msgstr "营销分析"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_diagram
 msgid "Campaign Editor"
-msgstr "营销活动编辑器"
+msgstr "营销编辑器"
 
 #. module: marketing_campaign
 #: model:ir.actions.act_window,name:marketing_campaign.act_marketing_campaing_stat
 #: model:ir.actions.act_window,name:marketing_campaign.action_marketing_campaign_workitem
 #: model:ir.ui.menu,name:marketing_campaign.menu_action_marketing_campaign_workitem
 msgid "Campaign Follow-up"
-msgstr "营销活动追踪"
+msgstr "营销跟进"
 
 #. module: crm
 #: field:crm.tracking.campaign,name:0
 msgid "Campaign Name"
-msgstr "营销活动名称"
+msgstr "营销名称"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_marketing_campaign_segment
 msgid "Campaign Segment"
-msgstr "营销活动段"
+msgstr "营销片段"
 
 #. module: mass_mailing
 #: model:ir.ui.menu,name:mass_mailing.menu_view_mass_mailing_stages
 msgid "Campaign Stages"
-msgstr "Campaign Stages"
+msgstr "营销阶段"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_marketing_campaign_transition
 msgid "Campaign Transition"
-msgstr "营销互动迁移"
+msgstr "营销迁移"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_marketing_campaign_workitem
 msgid "Campaign Workitem"
-msgstr "营销活动工作项"
+msgstr "营销工作项"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_crm_mass_mailing
 msgid "Campaign in Mass Mailing"
-msgstr "Campaign in Mass Mailing"
+msgstr "邮件群发中的营销"
 
 #. modules: mass_mailing, marketing_campaign, crm
 #: model:ir.actions.act_window,name:crm.crm_tracking_campaign_act
@@ -27922,7 +27922,7 @@ msgstr "Campaign in Mass Mailing"
 #: model:ir.ui.menu,name:mass_mailing.menu_email_campaigns
 #: view:mail.mass_mailing.campaign:mass_mailing.view_mail_mass_mailing_campaign_search
 msgid "Campaigns"
-msgstr "营销活动"
+msgstr "营销"
 
 #. module: website_forum
 #: field:forum.post,can_accept:0
@@ -28385,7 +28385,7 @@ msgstr "取消活动"
 #. module: account
 #: view:account.open.closed.fiscalyear:account.view_account_open_closed_fiscalyear
 msgid "Cancel Fiscal Year Closing Entries"
-msgstr "取消年度财务结账记录"
+msgstr "取消年度财务关账分录"
 
 #. module: base
 #: view:ir.module.module:base.module_form
@@ -28488,24 +28488,24 @@ msgstr "取消收据"
 #: view:event.registration:event.view_event_registration_form
 #: view:event.registration:event.view_event_registration_tree
 msgid "Cancel Registration"
-msgstr "取消登记记录"
+msgstr "取消登记"
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_cancel
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Cancel Repair"
-msgstr "Cancel Repair"
+msgstr "取消维修"
 
 #. module: mrp_repair
 #: model:ir.actions.act_window,name:mrp_repair.action_cancel_repair
 #: view:mrp.repair.cancel:mrp_repair.view_cancel_repair
 msgid "Cancel Repair Order"
-msgstr "Cancel Repair Order"
+msgstr "取消维修单"
 
 #. module: marketing_campaign
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_form
 msgid "Cancel Segment"
-msgstr "Cancel Segment"
+msgstr "取消片段"
 
 #. module: account
 #: view:account.invoice.cancel:account.account_invoice_cancel_view
@@ -28516,12 +28516,12 @@ msgstr "取消选择的发票"
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form
 msgid "Cancel Statement"
-msgstr "取消账单"
+msgstr "取消结算单"
 
 #. module: hr_evaluation
 #: view:hr.evaluation.interview:hr_evaluation.view_hr_evaluation_interview_form
 msgid "Cancel Survey"
-msgstr "Cancel Survey"
+msgstr "取消调查"
 
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
@@ -28548,7 +28548,7 @@ msgstr "取消凭证"
 #. module: marketing_campaign
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_form
 msgid "Cancel Workitem"
-msgstr "Cancel Workitem"
+msgstr "取消工作项"
 
 #. module: lunch
 #: view:lunch.cancel:lunch.cancel_order_lines_view
@@ -28568,7 +28568,7 @@ msgstr "Cancel meals"
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
 msgid "Cancel picking"
-msgstr "取消捡货"
+msgstr "取消分拣"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_cancel
@@ -28578,14 +28578,14 @@ msgstr "取消选定的发票"
 #. module: account
 #: selection:account.invoice.refund,filter_refund:0
 msgid "Cancel: create refund and reconcile"
-msgstr "删除：创建退款和关联"
+msgstr "取消：创建退款和调节"
 
 #. modules: gamification, payment, mrp_operations
 #: selection:gamification.goal,state:0
 #: selection:mrp.production.workcenter.line,production_state:0
 #: selection:payment.transaction,state:0
 msgid "Canceled"
-msgstr "已作废"
+msgstr "已取消"
 
 #. modules: stock_picking_wave, mrp_repair, mrp_operations, account_voucher, hr_evaluation, point_of_sale, event, procurement, purchase_requisition, base_action_rule, analytic, mail, marketing_campaign, stock, stock_landed_costs, account_payment, purchase, lunch, account_budget, hr_expense, account, account_analytic_analysis, mrp, sale, project, hr_holidays, crm_helpdesk, crm
 #: selection:account.invoice,state:0 selection:account.invoice.report,state:0
@@ -28946,22 +28946,22 @@ msgstr "箱子"
 #: view:crm.case.categ:crm.crm_case_categ-view
 #: view:crm.case.categ:crm.crm_case_categ_tree-view
 msgid "Case Category"
-msgstr "案子分类"
+msgstr "案件分类"
 
 #. module: account
 #: field:account.tax.code,code:0 field:account.tax.code.template,code:0
 msgid "Case Code"
-msgstr "事务编码"
+msgstr "案件编码"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_graph_view_job
 msgid "Cases By Stage and Estimates"
-msgstr "按阶段和评估的事务"
+msgstr "案件，按阶段和评估"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_case_section_act_tree
 msgid "Cases by Sales Team"
-msgstr "该业务的销售团队"
+msgstr "案件，按销售团队"
 
 #. modules: account, point_of_sale
 #. openerp-web
@@ -28994,13 +28994,13 @@ msgstr "现金日记账"
 #. module: lunch
 #: field:lunch.order.line,cashmove:0
 msgid "Cash Move"
-msgstr "Cash Move"
+msgstr "现金划拨"
 
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_new_bank_statement_tree
 #: field:pos.session,cash_register_id:0
 msgid "Cash Register"
-msgstr "收银机"
+msgstr "现金出纳机"
 
 #. modules: account, point_of_sale
 #: view:account.journal:account.view_account_journal_form
@@ -29015,7 +29015,7 @@ msgstr "现金出纳机"
 #: view:account.bank.statement:point_of_sale.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale.view_pos_open_cash_statement_filter
 msgid "Cash Statement"
-msgstr "Cash Statement"
+msgstr "现金结算单"
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -29025,7 +29025,7 @@ msgstr "现金交易"
 #. module: account
 #: field:wizard.multi.charts.accounts,bank_accounts_id:0
 msgid "Cash and Banks"
-msgstr "现金与银行分录"
+msgstr "现金和银行"
 
 #. module: account
 #: field:account.bank.statement,cash_control:0
@@ -29051,12 +29051,12 @@ msgstr "钱箱明细"
 #. module: point_of_sale
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Cashbox Lines"
-msgstr "Cashbox Lines"
+msgstr "钱箱明细"
 
 #. module: point_of_sale
 #: field:pos.config,iface_cashdrawer:0
 msgid "Cashdrawer"
-msgstr "Cashdrawer"
+msgstr "收银机"
 
 #. module: point_of_sale
 #: field:pos.config,barcode_cashier:0
@@ -31357,7 +31357,7 @@ msgstr "会计年度和会计期间为关闭状态"
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:55
 #, python-format
 msgid "Close the statement"
-msgstr "关闭"
+msgstr "关闭结算单"
 
 #. module: web
 #. openerp-web
@@ -40843,7 +40843,7 @@ msgstr "草稿"
 #. module: account_budget
 #: view:crossovered.budget:account_budget.view_crossovered_budget_search
 msgid "Draft Budgets"
-msgstr "预算草稿"
+msgstr "草稿预算"
 
 #. module: account
 #: model:ir.ui.menu,name:account.periodical_processing_journal_entries_validation
@@ -40872,34 +40872,34 @@ msgstr "草稿移动"
 #. module: purchase
 #: selection:purchase.order,state:0
 msgid "Draft PO"
-msgstr "采购订单草稿"
+msgstr "草稿采购订单"
 
 #. module: hr_payroll
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_filter
 msgid "Draft Payslip Batches"
-msgstr "工资单批次草稿"
+msgstr "草稿工资单批次"
 
 #. module: purchase
 #: code:addons/purchase/purchase.py:1403
 #, python-format
 msgid "Draft Purchase Order created"
-msgstr "采购单草稿被创建"
+msgstr "草稿采购单被创建"
 
 #. module: sale
 #: selection:sale.order,state:0
 msgid "Draft Quotation"
-msgstr "报价单草稿"
+msgstr "草稿报价单"
 
 #. module: account
 #: view:account.invoice:account.invoice_form
 #: view:account.invoice:account.invoice_supplier_form
 msgid "Draft Refund"
-msgstr "退款单草稿"
+msgstr "草稿退款单"
 
 #. module: hr_payroll
 #: view:hr.payslip:hr_payroll.view_hr_payslip_filter
 msgid "Draft Slip"
-msgstr "工资单草稿"
+msgstr "草稿工资单"
 
 #. module: account
 #: view:account.subscription:account.view_subscription_search
@@ -40919,7 +40919,7 @@ msgstr "草稿凭证"
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_draft_tree
 msgid "Draft statements"
-msgstr "草稿银行对账单"
+msgstr "草稿结算单"
 
 #. module: product_margin
 #: selection:product.margin,invoice_state:0
@@ -42679,7 +42679,7 @@ msgstr "分录不是同一个科目或已经被调节。 "
 #. module: account
 #: model:ir.model,name:account.model_account_statement_from_invoice_lines
 msgid "Entries by Statement from Invoices"
-msgstr "分录按来自发票的账单"
+msgstr "分录按来自发票的结算单"
 
 #. module: account
 #: code:addons/account/account_analytic_line.py:148
@@ -47072,7 +47072,7 @@ msgstr "完整的后缀"
 #: field:account.config.settings,module_account_accountant:0
 msgid ""
 "Full accounting features: journals, legal statements, chart of accounts, etc."
-msgstr "全部会计特性：分类账，税务报告，会计科目表 等等"
+msgstr "全部会计特性：分类账，法定报告，会计科目表 等等"
 
 #. modules: base, crm
 #: field:ir.logging,func:0 selection:workflow.activity,kind:0
@@ -47403,7 +47403,9 @@ msgstr "当实时生成会计分录"
 msgid ""
 "Generate all sale journal entries for non invoiced orders linked to a closed "
 "cash register or statement."
-msgstr "为已关闭的钱箱对应的未开票订单生成会计凭证。"
+msgstr ""
+"Generate all sale journal entries for non invoiced orders linked to a closed "
+"cash register or statement."
 
 #. module: sale_journal
 #: help:sale.order,invoice_type_id:0
@@ -47740,106 +47742,106 @@ msgstr "为线索指定一个业务伙伴的概率（0表示没指派）"
 #. module: account
 #: help:account.invoice.line,sequence:0
 msgid "Gives the sequence of this line when displaying the invoice."
-msgstr "显示发票的时候给出明细编号。"
+msgstr "按序列顺序显示发票"
 
 #. module: delivery
 #: help:delivery.grid.line,sequence:0
 msgid "Gives the sequence order when calculating delivery grid."
-msgstr "Gives the sequence order when calculating delivery grid."
+msgstr "按序列顺序计算交货网络"
 
 #. module: project
 #: help:project.project,sequence:0
 msgid "Gives the sequence order when displaying a list of Projects."
-msgstr "Gives the sequence order when displaying a list of Projects."
+msgstr "按序列顺序显示项目列表"
 
 #. module: account_analytic_default
 #: help:account.analytic.default,sequence:0
 msgid ""
 "Gives the sequence order when displaying a list of analytic distribution"
-msgstr "按序列显示分析分配"
+msgstr "按序列顺序显示分析分配列表"
 
 #. module: account
 #: help:account.bank.statement.line,sequence:0
 msgid ""
 "Gives the sequence order when displaying a list of bank statement lines."
-msgstr "提供显示银行对账单的序列"
+msgstr "按序列顺序显示银行结算单明细"
 
 #. module: mrp
 #: help:mrp.bom,sequence:0
 msgid "Gives the sequence order when displaying a list of bills of material."
-msgstr "输入序号用于物料清单列表排序"
+msgstr "按序列顺序显示物料清单列表"
 
 #. module: hr_recruitment
 #: help:hr.recruitment.degree,sequence:0
 msgid "Gives the sequence order when displaying a list of degrees."
-msgstr "定义一个显示学历列表的序列"
+msgstr "按序列顺序显示学历列表"
 
 #. module: delivery
 #: help:delivery.grid,sequence:0
 msgid "Gives the sequence order when displaying a list of delivery grid."
-msgstr "输入序列用于在送货网络列表上排序"
+msgstr "按序列顺序显示交货网络列表"
 
 #. module: hr_expense
 #: help:hr.expense.line,sequence:0
 msgid "Gives the sequence order when displaying a list of expense lines."
-msgstr "当显示费用明细时指定一个序列顺序。"
+msgstr "按序列顺序显示费用明细列表"
 
 #. module: account_followup
 #: help:account_followup.followup.line,sequence:0
 msgid "Gives the sequence order when displaying a list of follow-up lines."
-msgstr "输入序列用于显示催款列表"
+msgstr "按序列顺序显示催款明细列表"
 
 #. module: account
 #: help:account.invoice.tax,sequence:0
 msgid "Gives the sequence order when displaying a list of invoice tax."
-msgstr "指定发票税列表的序列。"
+msgstr "按序列顺序显示发票税金列表"
 
 #. module: product
 #: help:product.packaging,sequence:0
 msgid "Gives the sequence order when displaying a list of packaging."
-msgstr "显示包装信息的顺序号"
+msgstr "按序列顺序显示包裹列表"
 
 #. modules: product, website_sale, point_of_sale
 #: help:pos.category,sequence:0 help:product.category,sequence:0
 #: help:product.public.category,sequence:0
 msgid "Gives the sequence order when displaying a list of product categories."
-msgstr "显示产品类别列表的顺序号"
+msgstr "按序列顺序显示产品类别列表"
 
 #. module: mrp
 #: help:mrp.routing.workcenter,sequence:0
 msgid ""
 "Gives the sequence order when displaying a list of routing Work Centers."
-msgstr "指定一个编号，用于在显示一系列工作中心时排序。"
+msgstr "按序列顺序显示工作中心编排路线列表"
 
 #. module: base_action_rule
 #: help:base.action.rule,sequence:0
 msgid "Gives the sequence order when displaying a list of rules."
-msgstr "为规则列表添加序号"
+msgstr "按序列顺序显示规则列表"
 
 #. module: sale
 #: help:sale.order.line,sequence:0
 msgid "Gives the sequence order when displaying a list of sales order lines."
-msgstr "给出订单行列表显示的排列顺序"
+msgstr "按序列顺序显示销售订单明细列表"
 
 #. module: hr_recruitment
 #: help:hr.recruitment.stage,sequence:0
 msgid "Gives the sequence order when displaying a list of stages."
-msgstr "定义一个序列按顺序显示列表中的各阶段。"
+msgstr "按序列顺序显示阶段列表"
 
 #. module: project
 #: help:project.task,sequence:0
 msgid "Gives the sequence order when displaying a list of tasks."
-msgstr "Gives the sequence order when displaying a list of tasks."
+msgstr "按序列顺序显示任务列表"
 
 #. module: mrp
 #: help:mrp.production.workcenter.line,sequence:0
 msgid "Gives the sequence order when displaying a list of work orders."
-msgstr "输入序号用于显示工作中心列表"
+msgstr "按序列顺序显示工作中心列表"
 
 #. module: mrp
 #: help:mrp.bom.line,sequence:0
 msgid "Gives the sequence order when displaying."
-msgstr "Gives the sequence order when displaying."
+msgstr "按序列顺序显示"
 
 #. module: sale
 #: help:sale.order,state:0
@@ -52295,7 +52297,7 @@ msgstr ""
 msgid ""
 "In order to delete a bank statement line, you must first cancel it to delete "
 "related journal items."
-msgstr "如果要删除票据，您必须先删除关联凭证，取消此票据"
+msgstr "要删除银行结算单明细，必须先取消它以便删除相关分录账项目"
 
 #. module: account
 #: code:addons/account/account_bank_statement.py:392
@@ -52303,7 +52305,7 @@ msgstr "如果要删除票据，您必须先删除关联凭证，取消此票据
 msgid ""
 "In order to delete a bank statement, you must first cancel it to delete "
 "related journal items."
-msgstr "要删除银行对帐单，必须先取消它以便删除相关凭证行"
+msgstr "要删除银行结算单，必须先取消它以便删除相关分录账项目"
 
 #. module: sale
 #: code:addons/sale/sale.py:274
@@ -65418,7 +65420,7 @@ msgstr "离席会议"
 #. module: website_forum
 #: selection:forum.post,state:0
 msgid "Offensive"
-msgstr "Offensive"
+msgstr "无礼"
 
 #. module: hr
 #: field:hr.employee,work_location:0
@@ -65428,12 +65430,12 @@ msgstr "办公地点"
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_3
 msgid "Office environment"
-msgstr "Office environment"
+msgstr "办公环境"
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_6
 msgid "Office location"
-msgstr "Office location"
+msgstr "办公地点"
 
 #. module: base
 #: model:res.groups,name:base.group_hr_user
@@ -65446,7 +65448,7 @@ msgstr "经理"
 #: code:addons/point_of_sale/static/src/js/widgets.js:899
 #, python-format
 msgid "Offline"
-msgstr "Offline"
+msgstr "离线"
 
 #. module: base
 #: model:ir.module.module,description:base.module_payment_ogone
@@ -65489,7 +65491,7 @@ msgstr "确定"
 #: code:addons/website_event/controllers/main.py:76
 #, python-format
 msgid "Old Events"
-msgstr "Old Events"
+msgstr "历史活动"
 
 #. module: membership
 #: selection:membership.membership_line,state:0
@@ -65513,7 +65515,7 @@ msgstr "旧的报价单"
 #. module: base
 #: field:ir.translation,src:0
 msgid "Old source"
-msgstr "Old source"
+msgstr "旧的原文"
 
 #. module: base
 #: model:res.country,name:base.om
@@ -65533,12 +65535,12 @@ msgstr "创建"
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Creation"
-msgstr "On Creation"
+msgstr "创建时"
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Creation & Update"
-msgstr "On Creation & Update"
+msgstr "创建或更新时"
 
 #. module: base
 #: field:ir.model.fields,on_delete:0
@@ -65553,19 +65555,19 @@ msgstr "根据发运单"
 #. module: sale
 #: selection:sale.order,order_policy:0
 msgid "On Demand"
-msgstr "需求"
+msgstr "按需"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_invoice_pending
 #: model:ir.ui.menu,name:purchase.menu_procurement_management_pending_invoice
 msgid "On Draft Invoices"
-msgstr "在草稿发票上"
+msgstr "按草稿发票"
 
 #. module: purchase
 #: model:ir.actions.act_window,name:purchase.action_picking_tree_picking_to_invoice
 #: model:ir.ui.menu,name:purchase.menu_action_picking_tree_picking_to_invoice
 msgid "On Incoming Shipments"
-msgstr "收到的供货量"
+msgstr "按进入的送货"
 
 #. module: base
 #: field:ir.actions.act_window.view,multi:0
@@ -65577,17 +65579,17 @@ msgstr "在多个文档上面。"
 #: model:ir.actions.act_window,name:purchase.purchase_line_form_action2
 #: model:ir.ui.menu,name:purchase.menu_purchase_line_order_draft
 msgid "On Purchase Order Lines"
-msgstr "在采购订单明细"
+msgstr "按采购订单明细"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,invoice_on_timesheets:0
 msgid "On Timesheets"
-msgstr "在计工单上"
+msgstr "按计工单"
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Update"
-msgstr "On Update"
+msgstr "更新时"
 
 #. module: gamification
 #: selection:gamification.challenge,report_message_frequency:0
@@ -65616,9 +65618,9 @@ msgid ""
 "Before delivery: A draft invoice is created from the sales order and must be "
 "paid before the products can be delivered."
 msgstr ""
-"立即:当需要时，从销售订单创建草稿发票。\n"
-"发运时：当有产品被发运时，从发运单创建草稿发票。\n"
-"发运前：从销售订单创建草稿发票，并且必须在产品发运前付款。"
+"按需:当需要时，从销售订单创建草稿发票。\n"
+"按交货单：当产品被交货后，从交货单创建草稿发票。\n"
+"交货前：从销售订单创建草稿发票，并且必须在产品交货前完成付款。"
 
 #. module: stock
 #: view:product.template:stock.product_template_kanban_stock_view
@@ -65630,14 +65632,12 @@ msgstr "在手："
 msgid ""
 "Once a leave is validated, Odoo will create a corresponding meeting of this "
 "type in the calendar."
-msgstr ""
-"Once a leave is validated, Odoo will create a corresponding meeting of this "
-"type in the calendar."
+msgstr "一旦请假被确认，Odoo会在日历上创建一个这种类型的活动。"
 
 #. module: lunch
 #: view:lunch.validation:lunch.validate_order_lines_view
 msgid "Once a meal is received a new cash move is created for the employee."
-msgstr "Once a meal is received a new cash move is created for the employee."
+msgstr "一旦食品被签收，将为该员工创建对应的凭证。"
 
 #. module: account
 #: view:account.invoice.confirm:account.account_invoice_confirm_view
@@ -65658,9 +65658,7 @@ msgstr ""
 msgid ""
 "Once installed, you can configure your API credentials for \"Google calendar"
 "\""
-msgstr ""
-"Once installed, you can configure your API credentials for \"Google calendar"
-"\""
+msgstr "一旦安装，你能够为谷歌日历配置你的API凭据"
 
 #. module: analytic
 #: view:account.analytic.account:analytic.view_account_analytic_account_form
@@ -65675,40 +65673,33 @@ msgid ""
 "the\n"
 "                                        customer."
 msgstr ""
-"Once the end date of the contract is\n"
-"                                        passed or the maximum number of "
-"service\n"
-"                                        units (e.g. support contract) is\n"
-"                                        reached, the account manager is "
-"notified \n"
-"                                        by email to renew the contract with "
-"the\n"
-"                                        customer."
+"一旦合同结束日期已过，或已达到最大服务次数（如支持合同）时，将通过电子邮件通"
+"知客户经理与客户续签合同。"
 
 #. module: crm_partner_assign
 #: view:crm.lead.channel.interested:crm_partner_assign.crm_lead_channel_interested_form
 msgid "Once the lead is processed, it will be in your \"Opportunities\" menu."
-msgstr "Once the lead is processed, it will be in your \"Opportunities\" menu."
+msgstr "一旦线索被处理，它将在 \"机会\" 菜单中显示."
 
 #. module: website_event
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:83
 #, python-format
 msgid "Once you click on save, your event is updated."
-msgstr "Once you click on save, your event is updated."
+msgstr "当您点击保存,您的活动将被更新."
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:97
 #, python-format
 msgid "Once you click on save, your product is updated."
-msgstr "Once you click on save, your product is updated."
+msgstr "当您点击保存,您的产品将被更新."
 
 #. module: stock
 #: code:addons/stock/stock.py:2581
 #, python-format
 msgid "One Lot/Serial Number"
-msgstr "One Lot/Serial Number"
+msgstr "一个批次/序列号码"
 
 #. module: account
 #: field:account.partner.ledger,page_split:0
@@ -65718,13 +65709,13 @@ msgstr "每个业务伙伴一页"
 #. module: survey
 #: selection:survey.question,matrix_subtype:0
 msgid "One choice per row"
-msgstr "One choice per row"
+msgstr "每行一个选择"
 
 #. module: survey
 #: code:addons/survey/wizard/survey_email_compose_message.py:95
 #, python-format
 msgid "One email at least is incorrect: %s"
-msgstr "One email at least is incorrect: %s"
+msgstr "最少有一个邮件是不正确的： %s"
 
 #. module: sale
 #: field:sale.config.settings,module_analytic_user_function:0
@@ -65736,7 +65727,7 @@ msgstr "每个合同里，一个员工能有不同的角色"
 #: code:addons/mail/static/src/js/mail_followers.js:207
 #, python-format
 msgid "One follower"
-msgstr "One follower"
+msgstr "一个关注者"
 
 #. module: stock_account
 #: code:addons/stock_account/product.py:83
@@ -65751,13 +65742,12 @@ msgid ""
 "    Stock Journal: %s\n"
 "    "
 msgstr ""
-"One of the following information is missing on the product or product "
-"category and prevents the accounting valuation entries to be created:\n"
-"    Product: %s\n"
-"    Stock Input Account: %s\n"
-"    Stock Output Account: %s\n"
-"    Stock Valuation Account: %s\n"
-"    Stock Journal: %s\n"
+"产品或产品分类的一些信息缺失，导致价值科目不能被创建：\n"
+"    产品: %s\n"
+"    库存入库科目: %s\n"
+"    库存出库科目: %s\n"
+"    库存估值科目: %s\n"
+"    库存分类账: %s\n"
 "    "
 
 #. module: account_check_writing
@@ -65770,45 +65760,45 @@ msgstr "打印的支票已经获得一个号码"
 #: code:addons/stock/stock.py:2578
 #, python-format
 msgid "One owner only"
-msgstr "One owner only"
+msgstr "仅一个拥有者"
 
 #. module: stock
 #: code:addons/stock/stock.py:2579
 #, python-format
 msgid "One product for a specific owner"
-msgstr "One product for a specific owner"
+msgstr "特定所有者的一个产品"
 
 #. module: stock
 #: code:addons/stock/stock.py:2569
 #, python-format
 msgid "One product only"
-msgstr "One product only"
+msgstr "仅一个产品"
 
 #. modules: website_event, im_chat
 #: selection:im_chat.presence,status:0 view:website:website_event.index
 msgid "Online"
-msgstr "Online"
+msgstr "在线"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_voucher
 msgid "Online Billing"
-msgstr "Online Billing"
+msgstr "在线账单"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_event_sale
 msgid "Online Event's Tickets"
-msgstr "Online Event's Tickets"
+msgstr "在线活动门票"
 
 #. modules: website_event, base
 #: model:ir.module.module,shortdesc:base.module_website_event
 #: view:website:website_event.index
 msgid "Online Events"
-msgstr "Online Events"
+msgstr "在线活动"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_website_quote
 msgid "Online Proposals"
-msgstr "Online Proposals"
+msgstr "在线方案"
 
 #. modules: event, website_event_sale
 #: view:event.event:event.view_event_kanban view:website:website_event.index
@@ -65820,12 +65810,12 @@ msgstr "仅"
 #: code:addons/web_kanban_gauge/static/src/js/kanban_gauge.js:113
 #, python-format
 msgid "Only Integer Value should be valid."
-msgstr "Only Integer Value should be valid."
+msgstr "仅整数值有效"
 
 #. module: account
 #: field:wizard.multi.charts.accounts,only_one_chart_template:0
 msgid "Only One Chart Template Available"
-msgstr "只有一个图表模版可用。"
+msgstr "仅有一个图表模版可用。"
 
 #. modules: account, base, sale_stock
 #: code:addons/account/account.py:3391 code:addons/account/res_config.py:322
@@ -65833,13 +65823,13 @@ msgstr "只有一个图表模版可用。"
 #: code:addons/sale_stock/res_config.py:78
 #, python-format
 msgid "Only administrators can change the settings"
-msgstr "只有管理员可以改变该设置"
+msgstr "仅有管理员可以改变该设置"
 
 #. module: base
 #: code:addons/base/ir/ir_attachment.py:80
 #, python-format
 msgid "Only administrators can execute this action."
-msgstr "Only administrators can execute this action."
+msgstr "仅有系统管理员才能执行该动作"
 
 #. module: base
 #: help:ir.ui.view,mode:0
@@ -65963,7 +65953,7 @@ msgstr "只有以下访问权限的用户可以执行该操作"
 #: code:addons/point_of_sale/static/src/js/screens.js:815
 #, python-format
 msgid "Only web-compatible Image formats such as .png or .jpeg are supported"
-msgstr "Only web-compatible Image formats such as .png or .jpeg are supported"
+msgstr "仅支持与网页兼容的图片格式，如.png 或 .jpeg"
 
 #. module: web
 #. openerp-web
@@ -65996,7 +65986,7 @@ msgstr "打开"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_expenses_form
 msgid "Open Accounting Entries"
-msgstr "Open Accounting Entries"
+msgstr "打开会计分录"
 
 #. module: account_accountant
 #: model:ir.actions.client,name:account_accountant.action_client_account_menu
@@ -66012,7 +66002,7 @@ msgstr "期初余额"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_pos_open_statement
 msgid "Open Cash Register"
-msgstr "开启收银机"
+msgstr "打开现金出纳机"
 
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -66031,12 +66021,12 @@ msgstr "打开钱箱"
 #: view:account.chart:account.view_account_chart
 #: view:account.tax.chart:account.view_account_tax_chart
 msgid "Open Charts"
-msgstr "打开一览表"
+msgstr "打开表"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
 msgid "Open Customer Journal Entries"
-msgstr "未调节客户分类账分录"
+msgstr "打开客户分类账分录"
 
 #. module: calendar
 #: model:calendar.event.type,name:calendar.categ_meet4
@@ -66046,7 +66036,7 @@ msgstr "公开讨论"
 #. module: mail
 #: view:mail.alias:mail.view_mail_alias_form
 msgid "Open Document"
-msgstr "Open Document"
+msgstr "打开文档"
 
 #. module: account
 #: view:account.journal.select:account.open_journal_button_view
@@ -66062,7 +66052,7 @@ msgstr "打开活动菜单"
 #. module: fleet
 #: model:ir.actions.client,name:fleet.action_fleet_menu
 msgid "Open Fleet Menu"
-msgstr "Open Fleet Menu"
+msgstr "打开车辆菜单"
 
 #. module: hr
 #: model:ir.actions.client,name:hr.action_client_hr_menu
@@ -66077,7 +66067,7 @@ msgstr "打开服务请求"
 #. module: account
 #: view:account.state.open:account.view_account_state_open
 msgid "Open Invoice"
-msgstr "未结发票"
+msgstr "开启发票"
 
 #. module: account_voucher
 #: model:ir.actions.client,name:account_voucher.action_client_invoice_menu
@@ -66093,7 +66083,7 @@ msgstr "打开分类账"
 #: view:crm.case.section:crm.crm_case_section_salesteams_view_kanban
 #: field:crm.case.section,monthly_open_leads:0
 msgid "Open Leads per Month"
-msgstr "Open Leads per Month"
+msgstr "每月开启的线索"
 
 #. module: mrp
 #: model:ir.actions.client,name:mrp.action_client_mrp_menu
@@ -66109,12 +66099,12 @@ msgstr "待处理利润"
 #: model:ir.actions.client,name:marketing_campaign.action_client_marketing_menu
 #: model:ir.actions.client,name:mass_mailing.action_client_marketing_menu
 msgid "Open Marketing Menu"
-msgstr "Open Marketing Menu"
+msgstr "打开市场菜单"
 
 #. module: mail
 #: model:ir.actions.client,name:mail.action_client_messaging_menu
 msgid "Open Messaging Menu"
-msgstr "Open Messaging Menu"
+msgstr "打开消息菜单"
 
 #. module: base
 #: view:base.module.update:base.view_base_module_update
@@ -66124,12 +66114,12 @@ msgstr "打开模块"
 #. module: point_of_sale
 #: model:ir.actions.client,name:point_of_sale.action_client_pos_menu
 msgid "Open POS Menu"
-msgstr "打开销售点菜单"
+msgstr "打开POS菜单"
 
 #. module: mail
 #: view:mail.alias:mail.view_mail_alias_form
 msgid "Open Parent Document"
-msgstr "Open Parent Document"
+msgstr "打开上级文档"
 
 #. module: project
 #: model:ir.actions.client,name:project.action_client_project_menu
@@ -66151,18 +66141,18 @@ msgstr "开启的问卷调查"
 #. module: point_of_sale
 #: view:pos.open.statement:point_of_sale.view_pos_open_statement
 msgid "Open Registers"
-msgstr "打开收银机"
+msgstr "打开出纳机"
 
 #. modules: sale, crm
 #: model:ir.actions.client,name:crm.action_client_crm_menu
 #: model:ir.actions.client,name:sale.action_client_sale_menu
 msgid "Open Sale Menu"
-msgstr "打开销售订单"
+msgstr "打开销售菜单"
 
 #. module: point_of_sale
 #: view:pos.session.opening:point_of_sale.pos_session_opening_form_view
 msgid "Open Session"
-msgstr "打开销售会话"
+msgstr "打开会话"
 
 #. module: base
 #: model:ir.actions.client,name:base.action_client_base_menu
@@ -66184,7 +66174,7 @@ msgstr "Open Source eCommerce"
 #: model:ir.model,name:point_of_sale.model_pos_open_statement
 #: view:pos.open.statement:point_of_sale.view_pos_open_statement
 msgid "Open Statements"
-msgstr "开启收银机"
+msgstr "期初结算单"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
@@ -66217,7 +66207,7 @@ msgstr "打开窗口"
 #: selection:product.margin,invoice_state:0
 #: selection:product.product,invoice_state:0
 msgid "Open and Paid"
-msgstr "待处理和支付"
+msgstr "打开和已付"
 
 #. module: account
 #. openerp-web
@@ -66231,37 +66221,37 @@ msgstr "期初余额"
 #. module: account
 #: view:account.move.bank.reconcile:account.view_account_move_bank_reconcile
 msgid "Open for Bank Reconciliation"
-msgstr "开启为银行对账"
+msgstr "开启为银行调节"
 
 #. module: account
 #: view:account.move.line.reconcile.select:account.view_account_move_line_reconcile_select
 msgid "Open for Reconciliation"
-msgstr "打开调节"
+msgstr "开启为调节"
 
 #. module: account
 #: view:account.move.line.unreconcile.select:account.view_account_move_line_unreconcile_select
 msgid "Open for Unreconciliation"
-msgstr "打开反调节"
+msgstr "开启为反调节"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:56
 #, python-format
 msgid "Open in new window"
-msgstr "Open in new window"
+msgstr "在新窗口中打开"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail.xml:29
 #, python-format
 msgid "Open the full mail composer"
-msgstr "Open the full mail composer"
+msgstr "打开完整的邮件撰写器"
 
 #. module: mass_mailing
 #: code:addons/mass_mailing/models/mass_mailing.py:555
 #, python-format
 msgid "Open with Visual Editor"
-msgstr "Open with Visual Editor"
+msgstr "使用可视化编辑器打开"
 
 #. modules: web, web_diagram, web_calendar
 #. openerp-web
@@ -66331,18 +66321,18 @@ msgstr "OpenOffice 报告设计器"
 #: field:mail.mass_mailing.campaign,opened:0
 #: field:mail.statistics.report,opened:0
 msgid "Opened"
-msgstr "已开启"
+msgstr "已打开"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_form
 msgid "Opened Daily"
-msgstr "Opened Daily"
+msgstr "打开日常"
 
 #. module: mass_mailing
 #: field:mail.mass_mailing,opened_ratio:0
 #: field:mail.mass_mailing.campaign,opened_ratio:0
 msgid "Opened Ratio"
-msgstr "Opened Ratio"
+msgstr "打开比例"
 
 #. modules: account, point_of_sale
 #: view:account.bank.statement:account.view_bank_statement_form2
@@ -66350,28 +66340,28 @@ msgstr "Opened Ratio"
 #: view:pos.session:point_of_sale.view_pos_session_form
 #, python-format
 msgid "Opening Balance"
-msgstr "开帐余额"
+msgstr "开张余额"
 
 #. modules: account, point_of_sale
 #: view:account.bank.statement:account.view_bank_statement_form2
 #: view:pos.session:point_of_sale.view_pos_session_form
 #: field:pos.session,opening_details_ids:0
 msgid "Opening Cash Control"
-msgstr "开启现金控制"
+msgstr "开张现金控制"
 
 #. modules: account, point_of_sale
 #: view:account.bank.statement:account.view_bank_statement_form2
 #: field:account.bank.statement,opening_details_ids:0
 #: view:pos.session:point_of_sale.view_pos_session_form
 msgid "Opening Cashbox Lines"
-msgstr "开帐钱箱明细"
+msgstr "开张钱箱明细"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:135
 #: selection:pos.session,state:0 selection:pos.session.opening,pos_state:0
 #, python-format
 msgid "Opening Control"
-msgstr "Opening Control"
+msgstr "开张控制"
 
 #. modules: crm_partner_assign, point_of_sale, crm
 #: field:crm.phonecall.report,opening_date:0
@@ -66379,7 +66369,7 @@ msgstr "Opening Control"
 #: view:website:point_of_sale.report_sessionsummary
 #: view:website:point_of_sale.report_statement
 msgid "Opening Date"
-msgstr "开启日期"
+msgstr "开张日期"
 
 #. module: account
 #: field:account.chart.template,property_account_expense_opening:0
@@ -66421,12 +66411,12 @@ msgstr ""
 #. module: account
 #: model:account.account.template,name:account.conf_o_expense
 msgid "Opening Expense Account"
-msgstr "Opening Expense Account"
+msgstr "开帐费用科目"
 
 #. module: account
 #: model:account.account.template,name:account.conf_o_income
 msgid "Opening Income Account"
-msgstr "Opening Income Account"
+msgstr "开帐收入科目"
 
 #. module: account
 #: code:addons/account/account.py:905
@@ -66464,7 +66454,7 @@ msgstr "开帐/关账情形"
 #. module: hr_evaluation
 #: model:survey.question,question:hr_evaluation.opinion_2_5
 msgid "Openness"
-msgstr "Openness"
+msgstr "开放性"
 
 #. modules: hr_attendance, mrp, stock
 #: view:website:hr_attendance.report_attendanceerrors
@@ -66494,7 +66484,7 @@ msgstr "作业日期"
 #: code:addons/base/workflow/workflow.py:101
 #, python-format
 msgid "Operation Forbidden"
-msgstr "Operation Forbidden"
+msgstr "作业禁止"
 
 #. module: stock
 #: code:addons/stock/stock.py:1854 code:addons/stock/stock.py:1929
@@ -66506,12 +66496,12 @@ msgstr "作业禁止！"
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Operation Line(s)"
-msgstr "Operation Line(s)"
+msgstr "作业明细"
 
 #. module: mrp_repair
 #: field:mrp.repair,operations:0
 msgid "Operation Lines"
-msgstr "Operation Lines"
+msgstr "作业明细"
 
 #. modules: mrp_operations, stock
 #: field:mrp_operations.operation.code,name:0 field:stock.location.path,name:0
@@ -66542,13 +66532,13 @@ msgstr "作业早已完成"
 #: code:addons/mrp_operations/mrp_operations.py:434
 #, python-format
 msgid "Operation is not started yet!"
-msgstr "Operation is not started yet!"
+msgstr "作业尚未开始！"
 
 #. module: fleet
 #: code:addons/fleet/fleet.py:47
 #, python-format
 msgid "Operation not allowed!"
-msgstr "Operation not allowed!"
+msgstr "作业不允许！"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:189
@@ -66571,7 +66561,7 @@ msgstr "作业"
 #: code:addons/stock/static/src/xml/picking.xml:93
 #, python-format
 msgid "Operations Processed"
-msgstr "Operations Processed"
+msgstr "作业已完成"
 
 #. module: stock
 #. openerp-web
@@ -66598,7 +66588,7 @@ msgstr "运算符"
 #. module: im_livechat
 #: view:im_livechat.channel:im_livechat.support_channel_form
 msgid "Operators"
-msgstr "Operators"
+msgstr "作业员"
 
 #. module: crm_partner_assign
 #: model:ir.actions.act_window,name:crm_partner_assign.action_report_crm_opportunity_assign
@@ -69347,7 +69337,7 @@ msgstr "付款单"
 #: model:ir.actions.act_window,name:account_payment.action_account_payment_populate_statement
 #: model:ir.actions.act_window,name:account_payment.action_account_populate_statement_confirm
 msgid "Payment Populate statement"
-msgstr "付款填充声明"
+msgstr "付款填充结算单"
 
 #. module: account_voucher
 #: field:account.voucher,payment_rate_currency_id:0
@@ -70531,7 +70521,7 @@ msgstr "请调节“内部转帐帐户”区域设为付款方式'%s'."
 #: code:addons/account/wizard/pos_box.py:32
 #, python-format
 msgid "Please check that the field 'Journal' is set on the Bank Statement"
-msgstr "请将“日志”设为银行报告"
+msgstr "请检查银行结算单的字段“分类账”已设置"
 
 #. module: mail
 #. openerp-web
@@ -71215,7 +71205,7 @@ msgstr "填写付款单"
 #. module: account_payment
 #: view:account.payment.populate.statement:account_payment.account_payment_populate_statement_view
 msgid "Populate Statement:"
-msgstr "填充声明："
+msgstr "填写结算单："
 
 #. module: fetchmail
 #: field:fetchmail.server,port:0
@@ -71674,7 +71664,8 @@ msgstr "保留余额符号"
 #: model:ir.model,name:account.model_account_statement_operation_template
 msgid ""
 "Preset for the lines that can be created in a bank statement reconciliation"
-msgstr "这可以在银行对帐线条预置"
+msgstr ""
+"Preset for the lines that can be created in a bank statement reconciliation"
 
 #. module: website
 #: view:website:website.kanban_contain view:website:website.pager
@@ -72162,7 +72153,7 @@ msgstr "打印问卷"
 #. module: account
 #: view:account.vat.declaration:account.view_account_vat_declaration
 msgid "Print Tax Statement"
-msgstr "打印税单"
+msgstr "打印税务结算单"
 
 #. module: survey
 #: view:survey.user_input:survey.survey_user_input_form
@@ -75996,7 +75987,7 @@ msgstr "勾销调节"
 #: code:addons/account/static/src/js/account_tour_bank_statement_reconciliation.js:8
 #, python-format
 msgid "Reconcile the demo bank statement"
-msgstr "调节银行票据"
+msgstr "调节演示银行结算单"
 
 #. module: account
 #: view:account.entries.report:account.view_account_entries_report_search
@@ -76041,14 +76032,14 @@ msgstr "调节交易"
 #. module: account
 #: field:account.entries.report,reconcile_id:0
 msgid "Reconciliation number"
-msgstr "调节数"
+msgstr "调节号码"
 
 #. module: account
 #: model:ir.actions.client,name:account.action_bank_reconcile
 #: model:ir.actions.client,name:account.action_bank_reconcile_bank_statements
 #: model:ir.ui.menu,name:account.menu_bank_reconcile_bank_statements
 msgid "Reconciliation on Bank Statements"
-msgstr "银行对账单的调节"
+msgstr "银行结算单的调节"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_account_partner_reconcile
@@ -80377,7 +80368,7 @@ msgstr "搜索资产类别"
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
 msgid "Search Bank Statements"
-msgstr "搜索银行对账单"
+msgstr "搜索银行结算单"
 
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
@@ -80398,7 +80389,7 @@ msgstr "Search Call for Bids"
 #: view:account.bank.statement:point_of_sale.view_pos_confirm_cash_statement_filter
 #: view:account.bank.statement:point_of_sale.view_pos_open_cash_statement_filter
 msgid "Search Cash Statements"
-msgstr "查询现金对账单"
+msgstr "查询现金结算单"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
@@ -85116,13 +85107,13 @@ msgstr "State: from '%s' to '%s'"
 #: model:ir.actions.report.xml,name:point_of_sale.action_report_account_statement
 #: view:website:point_of_sale.report_statement
 msgid "Statement"
-msgstr "账单"
+msgstr "结算单"
 
 #. module: account
 #: code:addons/account/account_bank_statement.py:352
 #, python-format
 msgid "Statement %s confirmed, journal items were created."
-msgstr "对账单 %s 已确认，分类账项已被创建."
+msgstr "结算单 %s 已确认，分类账项目已创建."
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_sessionsummary
@@ -85132,14 +85123,14 @@ msgstr "Statement Details:"
 #. module: point_of_sale
 #: view:website:point_of_sale.report_statement
 msgid "Statement Name"
-msgstr "对账单名称"
+msgstr "结算单名称"
 
 #. module: account
 #: view:account.statement.operation.template:account.view_account_statement_operation_template_form
 #: model:ir.actions.act_window,name:account.action_account_statement_operation_template
 #: model:ir.ui.menu,name:account.menu_action_account_statement_operation_template
 msgid "Statement Operation Templates"
-msgstr "对账单作业模板"
+msgstr "结算单作业模板"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_sessionsummary
@@ -85152,7 +85143,7 @@ msgstr "Statement Summary"
 #: field:account.bank.statement,line_ids:0
 #: view:pos.order:point_of_sale.view_pos_pos_form
 msgid "Statement lines"
-msgstr "银行对账单明细"
+msgstr "银行结算单明细"
 
 #. modules: account, point_of_sale
 #: model:ir.ui.menu,name:account.menu_account_pp_statements
@@ -87466,7 +87457,7 @@ msgstr "源税种"
 #. module: account
 #: view:website:account.report_vat
 msgid "Tax Statement"
-msgstr "纳税申请表"
+msgstr "税务结算单"
 
 #. module: account
 #: view:account.tax.code.template:account.view_tax_code_template_search
@@ -88705,12 +88696,12 @@ msgstr ""
 #: code:addons/account/account_bank_statement.py:735
 #, python-format
 msgid "The bank statement line was already reconciled."
-msgstr "银行对账行已经被调节。"
+msgstr "银行结算单明细已经被调节。"
 
 #. module: account
 #: help:account.move.line,statement_id:0
 msgid "The bank statement used for bank reconciliation"
-msgstr "这银行对账单用于对账"
+msgstr "该银行结算单用于银行调节"
 
 #. module: stock
 #: sql_constraint:stock.location:0
@@ -89013,7 +89004,7 @@ msgstr "货币字段的表达式"
 #. module: account
 #: help:account.journal,currency:0
 msgid "The currency used to enter statement"
-msgstr "使用的货币"
+msgstr "用来输入结算单的货币"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:800
@@ -90696,7 +90687,7 @@ msgid ""
 "The statement balance is incorrect !\n"
 "The expected balance (%.2f) is different than the computed one. (%.2f)"
 msgstr ""
-"银行对账单余额不正确！\n"
+"结算单余额不正确！\n"
 "预期的余额是(%.2f)，现在算出来的是(%.2f)"
 
 #. module: crm_helpdesk
@@ -93088,8 +93079,8 @@ msgid ""
 "in order to avoid the reconciliation process on it later on. The statement "
 "line will simply create a counterpart on this account"
 msgstr ""
-"这个技术字段可以用于对账的创建或导入行来避免以后在它上面的调节进程。对账行仅"
-"仅是在这个科目上创建一个对方条目。"
+"这个技术字段可以用于结算单明细创建或导入来避免以后在它上面的调节进程。结算单"
+"明细仅仅是在这个科目上创建一个对方条目。"
 
 #. module: payment
 #: view:payment.acquirer:payment.acquirer_form
@@ -100193,8 +100184,8 @@ msgid ""
 "And after getting confirmation from the bank it will be in 'Confirmed' "
 "status."
 msgstr ""
-"当新的对账单被创建，状态是“草稿”。\n"
-"从银行确认后，是“已经确认状态”。"
+"当新的结算单创建时，状态是“草稿”。\n"
+"从银行确认后，它将是“确认“状态。"
 
 #. module: base
 #: help:ir.mail_server,sequence:0
@@ -105507,12 +105498,12 @@ msgstr "of the"
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_2
 msgid "off-topic or not relevant"
-msgstr "off-topic or not relevant"
+msgstr "偏离主题或不相关"
 
 #. module: website_forum_doc
 #: view:website:website_forum.post_description_full
 msgid "official documentation"
-msgstr "official documentation"
+msgstr "官方文档"
 
 #. modules: website_forum, website_quote, website_sale, base, survey, mail, document, website_blog
 #: view:ir.attachment:base.view_attachment_form
@@ -105554,7 +105545,7 @@ msgstr "onchange_partner_in(partner_id)"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "open positions"
-msgstr "open positions"
+msgstr "打开位置"
 
 #. module: gamification_sale_crm
 #: model:gamification.goal.definition,suffix:gamification_sale_crm.definition_crm_nbr_new_opportunities
@@ -106626,7 +106617,7 @@ msgstr "use the commenting tool."
 #: help:account.bank.statement,account_id:0
 msgid ""
 "used in statement reconciliation domain, but shouldn't be used elswhere."
-msgstr "用于银行对账单，但不能使用到别处。"
+msgstr "用于银行结算单，但不能使用到别处。"
 
 #. module: website_forum
 #: view:website:website_forum.badge_user
@@ -106934,7 +106925,7 @@ msgstr "⇒ 请求补货"
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 msgid "⇒ Set quantities to 0"
-msgstr "⇒ Set quantities to 0"
+msgstr "⇒ 设置数量为 0"
 
 #. module: stock
 #: view:product.template:stock.view_template_property_form
