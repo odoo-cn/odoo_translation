@@ -20075,7 +20075,7 @@ msgstr "凭证行调节"
 #. module: account
 #: model:ir.model,name:account.model_account_move_line_reconcile_writeoff
 msgid "Account move line reconcile (writeoff)"
-msgstr "凭证行调节（勾销）"
+msgstr "凭证行调节（注销）"
 
 #. module: account
 #: view:account.account:account.view_account_form
@@ -22268,7 +22268,7 @@ msgstr ""
 #. module: account
 #: field:account.automatic.reconcile,allow_write_off:0
 msgid "Allow write off"
-msgstr "允许勾销"
+msgstr "允许注销"
 
 #. module: gamification
 #: field:gamification.badge,rule_auth:0
@@ -57649,7 +57649,7 @@ msgstr "Ledger  28  431.8 x 279.4 mm"
 #. module: hr_expense
 #: field:hr.expense.expense,account_move_id:0
 msgid "Ledger Posting"
-msgstr "日记账过账"
+msgstr "分类账过账"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -60303,7 +60303,7 @@ msgstr "最大值"
 #. module: account
 #: field:account.automatic.reconcile,max_amount:0
 msgid "Maximum write-off amount"
-msgstr "最大勾销总额"
+msgstr "最大注销总额"
 
 #. modules: marketing_campaign, account, hr_timesheet_invoice, report_intrastat, project_timesheet, lunch, document
 #: selection:report.account.sales,month:0
@@ -76028,13 +76028,13 @@ msgstr "调节参考"
 #. module: account
 #: view:account.move.line.reconcile:account.view_account_move_line_reconcile_full
 msgid "Reconcile With Write-Off"
-msgstr "以勾销方式调节"
+msgstr "以注销方式调节"
 
 #. module: account
 #: code:addons/account/wizard/account_reconcile.py:125
 #, python-format
 msgid "Reconcile Writeoff"
-msgstr "勾销调节"
+msgstr "注销调节"
 
 #. module: account
 #. openerp-web
@@ -101428,39 +101428,39 @@ msgstr "Write what the customer would like to know,"
 #: code:addons/account_voucher/account_voucher.py:377
 #, python-format
 msgid "Write-Off"
-msgstr "勾销"
+msgstr "注销"
 
 #. module: account_voucher
 #: field:account.voucher,analytic_id:0
 msgid "Write-Off Analytic Account"
-msgstr "勾销分析账户"
+msgstr "注销分析账户"
 
 #. module: account
 #: field:account.move.line.reconcile.writeoff,journal_id:0
 msgid "Write-Off Journal"
-msgstr "勾销日记账"
+msgstr "注销日记账"
 
 #. module: account
 #: view:account.automatic.reconcile:account.account_automatic_reconcile_view
 #: view:account.move.line.reconcile.writeoff:account.account_move_line_reconcile_writeoff
 msgid "Write-Off Move"
-msgstr "勾销凭证"
+msgstr "注销凭证"
 
 #. module: account
 #: field:account.move.line.reconcile.writeoff,writeoff_acc_id:0
 msgid "Write-Off account"
-msgstr "勾销科目"
+msgstr "注销科目"
 
 #. module: account
 #: field:account.move.line.reconcile,writeoff:0
 msgid "Write-Off amount"
-msgstr "勾销总额"
+msgstr "注销总额"
 
 #. module: account
 #: code:addons/account/wizard/account_reconcile.py:115
 #, python-format
 msgid "Write-off"
-msgstr "勾销总额"
+msgstr "注销总额"
 
 #. module: account
 #: code:addons/account/account.py:2303
