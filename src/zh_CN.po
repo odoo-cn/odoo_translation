@@ -13182,7 +13182,7 @@ msgstr ":业务伙伴名称"
 #. module: account
 #: view:website:account.report_trialbalance
 msgid ": Trial Balance"
-msgstr ":试算平衡"
+msgstr ":试算表"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -16204,7 +16204,7 @@ msgstr ""
 "              </p><p>\n"
 "                科目类型用来说明在各个日记账中如何使用这个科目。\n"
 "                科目类型的递延方法决定了该账户在年终结账时的处理流程。\n"
-"                财务报告，如资产负债表、利润表，将会使用这个分类。\n"
+"                财务报告，如资产负债表、损益表，将会使用这个分类。\n"
 "              </p>\n"
 "            "
 
@@ -19598,7 +19598,7 @@ msgstr "科目"
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_balance
@@ -95317,12 +95317,12 @@ msgstr "树结构"
 #: model:ir.actions.report.xml,name:account.action_report_trial_balance
 #: model:ir.ui.menu,name:account.menu_general_Balance_report
 msgid "Trial Balance"
-msgstr "试算平衡"
+msgstr "试算表"
 
 #. module: account
 #: model:ir.model,name:account.model_account_balance_report
 msgid "Trial Balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: hr_contract
 #: field:hr.contract,trial_date_end:0
