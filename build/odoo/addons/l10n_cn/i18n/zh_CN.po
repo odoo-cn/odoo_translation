@@ -1,0 +1,818 @@
+# Translation of Odoo Server.
+# This file contains the translation of the following modules:
+#	* l10n_cn
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: Odoo Server 8.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2015-05-04 16:02+0000\n"
+"PO-Revision-Date: 2015-05-04 16:02+0000\n"
+"Last-Translator: <>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: \n"
+"Plural-Forms: \n"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl5
+msgid "    主营业务税金及附加"
+msgstr "    主营业务税金及附加"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl13
+msgid "    管理费用"
+msgstr "    管理费用"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl23
+msgid "    营业外收入"
+msgstr "    营业外收入"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl15
+msgid "    财务费用"
+msgstr "    财务费用"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl1
+msgid "一、主营业务收入"
+msgstr "一、主营业务收入"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs21
+msgid "一年内到期的长期债权投资"
+msgstr "一年内到期的长期债权投资"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_all
+msgid "不显示在报表上"
+msgstr "不显示在报表上"
+
+#. module: l10n_cn
+#: model:account.chart.template,name:l10n_cn.l10n_chart_china
+msgid "中国会计科目表  （财会[2006]3号《企业会计准则》）"
+msgstr "中国会计科目表  （财会[2006]3号《企业会计准则》）"
+
+#. module: l10n_cn
+#: model:account.tax.code.template,name:l10n_cn.vat_cn_chart_root
+msgid "中国税务报表"
+msgstr "中国税务报表"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6401
+#: model:account.account.template,name:l10n_cn.small_business_chart5401
+msgid "主营业务成本"
+msgstr "主营业务成本"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6001
+#: model:account.account.template,name:l10n_cn.small_business_chart5001
+msgid "主营业务收入"
+msgstr "主营业务收入"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2101
+msgid "交易性金融负债"
+msgstr "交易性金融负债"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1101
+msgid "交易性金融资产"
+msgstr "交易性金融资产"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6901
+msgid "以前年度损益调整"
+msgstr "以前年度损益调整"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.cn_root
+#: model:account.account.template,name:l10n_cn.cn_small_business_root
+msgid "会计科目"
+msgstr "会计科目"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6101
+msgid "公允价值变动损益"
+msgstr "公允价值变动损益"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart5402
+msgid "其他业务成本"
+msgstr "其他业务成本"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6402
+msgid "其他业务支出"
+msgstr "其他业务支出"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6051
+#: model:account.account.template,name:l10n_cn.small_business_chart5051
+msgid "其他业务收入"
+msgstr "其他业务收入"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart2241
+msgid "其他应付款"
+msgstr "其他应付款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1231
+#: model:account.account.template,name:l10n_cn.small_business_chart1221
+#: model:account.account.type,name:l10n_cn.user_type_bs7
+msgid "其他应收款"
+msgstr "其他应收款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1015
+#: model:account.account.template,name:l10n_cn.small_business_chart1012
+msgid "其他货币资金"
+msgstr "其他货币资金"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210104
+msgid "减免税款"
+msgstr "减免税款"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl3
+msgid "减：主营业务成本"
+msgstr "减：主营业务成本"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl29
+msgid "减：所得税"
+msgstr "减：所得税"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl25
+msgid "减：营业外支出"
+msgstr "减：营业外支出"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl11
+msgid "减：营业费用"
+msgstr "减：营业费用"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210108
+msgid "出口抵减内销产品应纳税额"
+msgstr "出口抵减内销产品应纳税额"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210106
+msgid "出口退税"
+msgstr "出口退税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart4104
+#: model:account.account.template,name:l10n_cn.small_business_chart3104
+msgid "利润分配"
+msgstr "利润分配"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart5101
+#: model:account.account.template,name:l10n_cn.small_business_chart4101
+msgid "制造费用"
+msgstr "制造费用"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl9
+msgid "加：其他业务利润（亏损以“－”号填列）"
+msgstr "加：其他业务利润（亏损以“－”号填列）"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl19
+msgid "加：投资收益（损失以“-”号填列）"
+msgstr "加：投资收益（损失以“-”号填列）"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart5201
+msgid "劳务成本"
+msgstr "劳务成本"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1412
+msgid "包装物及低值易耗品"
+msgstr "包装物及低值易耗品"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1403
+#: model:account.account.template,name:l10n_cn.small_business_chart1403
+msgid "原材料"
+msgstr "原材料"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1407
+msgid "发出商品"
+msgstr "发出商品"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart1411
+msgid "周转材料"
+msgstr "周转材料"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1410
+#: model:account.account.template,name:l10n_cn.small_business_chart1407
+msgid "商品进销差价"
+msgstr "商品进销差价"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1711
+msgid "商誉"
+msgstr "商誉"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1601
+#: model:account.account.template,name:l10n_cn.small_business_chart1601
+msgid "固定资产"
+msgstr "固定资产"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1603
+#: model:account.account.type,name:l10n_cn.user_type_bs42
+msgid "固定资产减值准备"
+msgstr "固定资产减值准备"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs39
+msgid "固定资产原值"
+msgstr "固定资产原值"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1606
+#: model:account.account.template,name:l10n_cn.small_business_chart1606
+#: model:account.account.type,name:l10n_cn.user_type_bs46
+msgid "固定资产清理"
+msgstr "固定资产清理"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1604
+#: model:account.account.template,name:l10n_cn.small_business_chart1604
+#: model:account.account.type,name:l10n_cn.user_type_bs45
+msgid "在建工程"
+msgstr "在建工程"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1402
+#: model:account.account.template,name:l10n_cn.small_business_chart1402
+msgid "在途物资"
+msgstr "在途物资"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1241
+msgid "坏账准备"
+msgstr "坏账准备"
+
+#. module: l10n_cn
+#: model:account.tax.template,name:l10n_cn.vatp
+#: model:account.tax.template,name:l10n_cn.vatp_small_business
+msgid "增值税17%进项税"
+msgstr "增值税17%进项税"
+
+#. module: l10n_cn
+#: model:account.tax.template,name:l10n_cn.vats
+#: model:account.tax.template,name:l10n_cn.vats_small_business
+msgid "增值税17%销项税"
+msgstr "增值税17%销项税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart3102
+msgid "套期工具"
+msgstr "套期工具"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1411
+#: model:account.account.template,name:l10n_cn.small_business_chart1408
+msgid "委托加工物资"
+msgstr "委托加工物资"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs10
+msgid "存货"
+msgstr "存货"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1461
+msgid "存货跌价准备"
+msgstr "存货跌价准备"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart4001
+#: model:account.account.template,name:l10n_cn.small_business_chart3001
+#: model:account.account.type,name:l10n_cn.user_type_bs115
+msgid "实收资本"
+msgstr "实收资本"
+
+#. module: l10n_cn
+#: model:account.chart.template,name:l10n_cn.l10n_chart_china_small_business
+msgid "小企业会计科目表（财会[2011]17号《小企业会计准则》）"
+msgstr "小企业会计科目表（财会[2011]17号《小企业会计准则》）"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart4401
+msgid "工程施工"
+msgstr "工程施工"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1605
+#: model:account.account.template,name:l10n_cn.small_business_chart1605
+#: model:account.account.type,name:l10n_cn.user_type_bs44
+msgid "工程物资"
+msgstr "工程物资"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210102
+msgid "已交税金"
+msgstr "已交税金"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1406
+#: model:account.account.template,name:l10n_cn.small_business_chart1405
+msgid "库存商品"
+msgstr "库存商品"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart4201
+msgid "库存股"
+msgstr "库存股"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222111
+msgid "应交个人所得税"
+msgstr "应交个人所得税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222109
+msgid "应交土地使用税"
+msgstr "应交土地使用税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222106
+msgid "应交土地增值税"
+msgstr "应交土地增值税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222107
+msgid "应交城市维护建设税"
+msgstr "应交城市维护建设税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222101
+msgid "应交增值税"
+msgstr "应交增值税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222108
+msgid "应交房产税"
+msgstr "应交房产税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222105
+msgid "应交所得税"
+msgstr "应交所得税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222103
+msgid "应交消费税"
+msgstr "应交消费税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2221
+#: model:account.account.template,name:l10n_cn.small_business_chart2221
+msgid "应交税费"
+msgstr "应交税费"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs75
+msgid "应交税金"
+msgstr "应交税金"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222102
+msgid "应交营业税"
+msgstr "应交营业税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222104
+msgid "应交资源税"
+msgstr "应交资源税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart222110
+msgid "应交车船使用税"
+msgstr "应交车船使用税"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs102
+msgid "应付债券"
+msgstr "应付债券"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2232
+#: model:account.account.template,name:l10n_cn.small_business_chart2231
+msgid "应付利息"
+msgstr "应付利息"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart2232
+msgid "应付利润"
+msgstr "应付利润"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs72
+msgid "应付工资"
+msgstr "应付工资"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2201
+#: model:account.account.template,name:l10n_cn.small_business_chart2201
+#: model:account.account.type,name:l10n_cn.user_type_bs69
+msgid "应付票据"
+msgstr "应付票据"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2211
+#: model:account.account.template,name:l10n_cn.small_business_chart2211
+msgid "应付职工薪酬"
+msgstr "应付职工薪酬"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2231
+#: model:account.account.type,name:l10n_cn.user_type_bs74
+msgid "应付股利"
+msgstr "应付股利"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2202
+#: model:account.account.template,name:l10n_cn.small_business_chart2202
+#: model:account.account.type,name:l10n_cn.user_type_bs70
+msgid "应付账款"
+msgstr "应付账款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1132
+#: model:account.account.template,name:l10n_cn.small_business_chart1132
+#: model:account.account.type,name:l10n_cn.user_type_bs5
+msgid "应收利息"
+msgstr "应收利息"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1121
+#: model:account.account.template,name:l10n_cn.small_business_chart1121
+#: model:account.account.type,name:l10n_cn.user_type_bs3
+msgid "应收票据"
+msgstr "应收票据"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1131
+#: model:account.account.template,name:l10n_cn.small_business_chart1131
+#: model:account.account.type,name:l10n_cn.user_type_bs4
+msgid "应收股利"
+msgstr "应收股利"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1122
+#: model:account.account.template,name:l10n_cn.small_business_chart1122
+#: model:account.account.type,name:l10n_cn.user_type_bs6
+msgid "应收账款"
+msgstr "应收账款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1901
+#: model:account.account.template,name:l10n_cn.small_business_chart1901
+msgid "待处理财产损溢"
+msgstr "待处理财产损溢"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1501
+#: model:account.account.type,name:l10n_cn.user_type_bs11
+msgid "待摊费用"
+msgstr "待摊费用"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6801
+#: model:account.account.template,name:l10n_cn.small_business_chart5801
+msgid "所得税"
+msgstr "所得税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6111
+#: model:account.account.template,name:l10n_cn.small_business_chart5111
+msgid "投资收益"
+msgstr "投资收益"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1521
+msgid "持有至到期投资"
+msgstr "持有至到期投资"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1522
+msgid "持有至到期投资减值准备"
+msgstr "持有至到期投资减值准备"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1701
+#: model:account.account.template,name:l10n_cn.small_business_chart1701
+#: model:account.account.type,name:l10n_cn.user_type_bs51
+msgid "无形资产"
+msgstr "无形资产"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1703
+msgid "无形资产减值准备"
+msgstr "无形资产减值准备"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210110
+msgid "未交增值税"
+msgstr "未交增值税"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs121
+msgid "未分配利润"
+msgstr "未分配利润"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart4103
+#: model:account.account.template,name:l10n_cn.small_business_chart3103
+msgid "本年利润"
+msgstr "本年利润"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart4403
+msgid "机械作业"
+msgstr "机械作业"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1404
+#: model:account.account.template,name:l10n_cn.small_business_chart1404
+msgid "材料成本差异"
+msgstr "材料成本差异"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1401
+#: model:account.account.template,name:l10n_cn.small_business_chart1401
+msgid "材料采购"
+msgstr "材料采购"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart1421
+msgid "消耗性生物资产"
+msgstr "消耗性生物资产"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1001
+#: model:account.account.template,name:l10n_cn.small_business_chart1001
+msgid "现金"
+msgstr "现金"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart1621
+msgid "生产性生物资产"
+msgstr "生产性生物资产"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart1602
+msgid "生产性生物资产累计折旧"
+msgstr "生产性生物资产累计折旧"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart5001
+#: model:account.account.template,name:l10n_cn.small_business_chart4001
+msgid "生产成本"
+msgstr "生产成本"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart4101
+#: model:account.account.template,name:l10n_cn.small_business_chart3101
+#: model:account.account.type,name:l10n_cn.user_type_bs119
+msgid "盈余公积"
+msgstr "盈余公积"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2001
+#: model:account.account.template,name:l10n_cn.small_business_chart2001
+#: model:account.account.type,name:l10n_cn.user_type_bs68
+msgid "短期借款"
+msgstr "短期借款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart1101
+#: model:account.account.type,name:l10n_cn.user_type_bs2
+msgid "短期投资"
+msgstr "短期投资"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart5301
+#: model:account.account.template,name:l10n_cn.small_business_chart4301
+msgid "研发支出"
+msgstr "研发支出"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6602
+#: model:account.account.template,name:l10n_cn.small_business_chart5602
+msgid "管理费用"
+msgstr "管理费用"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1602
+#: model:account.account.type,name:l10n_cn.user_type_bs40
+msgid "累计折旧"
+msgstr "累计折旧"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart1702
+msgid "累计摊销"
+msgstr "累计摊销"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6711
+#: model:account.account.template,name:l10n_cn.small_business_chart5711
+msgid "营业外支出"
+msgstr "营业外支出"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6301
+#: model:account.account.template,name:l10n_cn.small_business_chart5301
+msgid "营业外收入"
+msgstr "营业外收入"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6405
+#: model:account.account.template,name:l10n_cn.small_business_chart5403
+msgid "营业税金及附加"
+msgstr "营业税金及附加"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart3101
+msgid "衍生工具"
+msgstr "衍生工具"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_pl21
+msgid "补贴收入"
+msgstr "补贴收入"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart3202
+msgid "被套期项目"
+msgstr "被套期项目"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6603
+#: model:account.account.template,name:l10n_cn.small_business_chart5603
+msgid "财务费用"
+msgstr "财务费用"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs1
+msgid "货币资金"
+msgstr "货币资金"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6701
+msgid "资产减值损失"
+msgstr "资产减值损失"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart4002
+#: model:account.account.template,name:l10n_cn.small_business_chart3002
+#: model:account.account.type,name:l10n_cn.user_type_bs118
+msgid "资本公积"
+msgstr "资本公积"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210109
+msgid "转出多交增值税"
+msgstr "转出多交增值税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210103
+msgid "转出未交增值税"
+msgstr "转出未交增值税"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210101
+msgid "进项税额"
+msgstr "进项税额"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210107
+msgid "进项税额转出"
+msgstr "进项税额转出"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2901
+msgid "递延所得税负债"
+msgstr "递延所得税负债"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1811
+msgid "递延所得税资产"
+msgstr "递延所得税资产"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart2401
+msgid "递延收益"
+msgstr "递延收益"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs61
+msgid "递延税款借项"
+msgstr "递延税款借项"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1002
+#: model:account.account.template,name:l10n_cn.small_business_chart1002
+msgid "银行存款"
+msgstr "银行存款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart6601
+#: model:account.account.template,name:l10n_cn.small_business_chart5601
+msgid "销售费用"
+msgstr "销售费用"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart22210105
+msgid "销项税额"
+msgstr "销项税额"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2601
+#: model:account.account.template,name:l10n_cn.small_business_chart2501
+#: model:account.account.type,name:l10n_cn.user_type_bs101
+msgid "长期借款"
+msgstr "长期借款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2602
+msgid "长期债券"
+msgstr "长期债券"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.small_business_chart1501
+msgid "长期债券投资"
+msgstr "长期债券投资"
+
+#. module: l10n_cn
+#: model:account.account.type,name:l10n_cn.user_type_bs34
+msgid "长期债权投资"
+msgstr "长期债权投资"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2801
+#: model:account.account.template,name:l10n_cn.small_business_chart2701
+#: model:account.account.type,name:l10n_cn.user_type_bs103
+msgid "长期应付款"
+msgstr "长期应付款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1421
+msgid "长期应收款"
+msgstr "长期应收款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1801
+#: model:account.account.template,name:l10n_cn.small_business_chart1801
+#: model:account.account.type,name:l10n_cn.user_type_bs52
+msgid "长期待摊费用"
+msgstr "长期待摊费用"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1525
+msgid "长期投资减值准备"
+msgstr "长期投资减值准备"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1524
+#: model:account.account.template,name:l10n_cn.small_business_chart1511
+#: model:account.account.type,name:l10n_cn.user_type_bs32
+msgid "长期股权投资"
+msgstr "长期股权投资"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart1123
+#: model:account.account.template,name:l10n_cn.small_business_chart1123
+msgid "预付账款"
+msgstr "预付账款"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2401
+#: model:account.account.type,name:l10n_cn.user_type_bs82
+msgid "预提费用"
+msgstr "预提费用"
+
+#. module: l10n_cn
+#: model:account.account.template,name:l10n_cn.chart2205
+#: model:account.account.template,name:l10n_cn.small_business_chart2203
+#: model:account.account.type,name:l10n_cn.user_type_bs71
+msgid "预收账款"
+msgstr "预收账款"
+

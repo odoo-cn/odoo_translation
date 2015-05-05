@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-03 20:56+0000\n"
-"PO-Revision-Date: 2015-05-03 20:56+0000\n"
+"POT-Creation-Date: 2015-05-04 14:58+0000\n"
+"PO-Revision-Date: 2015-05-04 14:58+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -299,7 +299,7 @@ msgstr ":总账"
 #. module: account
 #: view:website:account.report_trialbalance
 msgid ": Trial Balance"
-msgstr ":试算平衡"
+msgstr ":试算表"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_period
@@ -511,7 +511,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "              </p><p>\n"
 "                科目类型用来说明在各个日记账中如何使用这个科目。\n"
 "                科目类型的递延方法决定了该账户在年终结账时的处理流程。\n"
-"                财务报告，如资产负债表、利润表，将会使用这个分类。\n"
+"                财务报告，如资产负债表、损益表，将会使用这个分类。\n"
 "              </p>\n"
 "            "
 
@@ -787,7 +787,7 @@ msgstr "科目"
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_balance
@@ -8006,14 +8006,14 @@ msgstr "利润"
 #: code:addons/account/account.py:207
 #, python-format
 msgid "Profit & Loss (Expense account)"
-msgstr "损益（费用科目）"
+msgstr "损益表（费用科目）"
 
 #. module: account
 #: selection:account.account.type,report_type:0
 #: code:addons/account/account.py:206
 #, python-format
 msgid "Profit & Loss (Income account)"
-msgstr "损益（收入科目）"
+msgstr "损益表（收入科目）"
 
 #. module: account
 #: model:account.financial.report,name:account.account_financial_report_profitloss_toreport0
@@ -8028,14 +8028,14 @@ msgstr "利润科目"
 #. module: account
 #: model:ir.ui.menu,name:account.menu_account_report_pl
 msgid "Profit And Loss"
-msgstr "损益"
+msgstr "损益表"
 
 #. module: account
 #: model:account.account.template,name:account.conf_gpf
 #: model:account.financial.report,name:account.account_financial_report_profitandloss0
 #: model:ir.actions.act_window,name:account.action_account_report_pl
 msgid "Profit and Loss"
-msgstr "损益"
+msgstr "损益表"
 
 #. module: account
 #: view:account.invoice:account.view_account_invoice_filter
@@ -10470,7 +10470,7 @@ msgstr "此字段是用于应付账款和应收账款的会计分录。您可以
 #. module: account
 #: help:account.account.type,report_type:0
 msgid "This field is used to generate legal reports: profit and loss, balance sheet."
-msgstr "这个字段用于生成法定报告：损益，资产负债表"
+msgstr "这个字段用于生成法定报告：损益表，资产负债表"
 
 #. module: account
 #: help:account.bank.statement.line,partner_name:0
@@ -10835,12 +10835,12 @@ msgstr "金库分析"
 #: model:ir.actions.report.xml,name:account.action_report_trial_balance
 #: model:ir.ui.menu,name:account.menu_general_Balance_report
 msgid "Trial Balance"
-msgstr "试算平衡"
+msgstr "试算表"
 
 #. module: account
 #: model:ir.model,name:account.model_account_balance_report
 msgid "Trial Balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: account
 #: selection:account.tax.template,applicable_type:0

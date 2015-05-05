@@ -1,6 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 #	* account_cancel
+#	* account_test
 #	* account
 #	* account_analytic_analysis
 #	* account_payment
@@ -13,15 +14,18 @@
 #	* analytic
 #	* account_analytic_default
 #	* account_budget
+#	* purchase_analytic_plans
+#	* account_bank_statement_extensions
 #	* account_analytic_plans
 #	* account_accountant
+#	* sale_analytic_plans
 #
 msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-03 21:44+0000\n"
-"PO-Revision-Date: 2015-05-03 21:44+0000\n"
+"POT-Creation-Date: 2015-05-04 16:20+0000\n"
+"PO-Revision-Date: 2015-05-04 16:20+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -873,7 +877,7 @@ msgstr ":业务伙伴名称"
 #. module: account
 #: view:website:account.report_trialbalance
 msgid ": Trial Balance"
-msgstr ":试算平衡"
+msgstr ":试算表"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -1002,6 +1006,17 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                点击添加一个账户.\n"
 "              </p><p>\n"
 "                在处理多币种交易时，由于汇率的变化，可能会产生汇兑收益或者损失。这个菜单提供给你一个假定在今天终结交易预测的损益。只有在账户有多币种时需要配置。\n"
+"              </p>\n"
+"            "
+
+#. module: account_test
+#: model:ir.actions.act_window,help:account_test.action_accounting_assert
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create Accounting Test.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create Accounting Test.\n"
 "              </p>\n"
 "            "
 
@@ -1248,7 +1263,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "              </p><p>\n"
 "                科目类型用来说明在各个日记账中如何使用这个科目。\n"
 "                科目类型的递延方法决定了该账户在年终结账时的处理流程。\n"
-"                财务报告，如资产负债表、利润表，将会使用这个分类。\n"
+"                财务报告，如资产负债表、损益表，将会使用这个分类。\n"
 "              </p>\n"
 "            "
 
@@ -1661,7 +1676,7 @@ msgstr "科目"
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_balance
@@ -2215,6 +2230,13 @@ msgstr "会计报告"
 msgid "Accounting Reports"
 msgstr "会计报告"
 
+#. module: account_test
+#: model:ir.actions.act_window,name:account_test.action_accounting_assert
+#: model:ir.actions.report.xml,name:account_test.account_assert_test_report
+#: model:ir.ui.menu,name:account_test.menu_action_license
+msgid "Accounting Tests"
+msgstr "帐户测试"
+
 #. modules: account_check_writing, account_voucher
 #: model:ir.model,name:account_check_writing.model_account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
@@ -2281,6 +2303,11 @@ msgstr "待调节科目"
 msgid "Accounts to Renew"
 msgstr "待延续科目"
 
+#. module: account_test
+#: view:website:account_test.report_accounttest
+msgid "Accouting tests on"
+msgstr "Accouting tests on"
+
 #. module: account_followup
 #: field:account_followup.followup.line,manual_action_note:0
 msgid "Action To Do"
@@ -2291,7 +2318,7 @@ msgstr "要做的行动"
 msgid "Action to be taken e.g. Give a phonecall, Check if it's paid, ..."
 msgstr "可采取的行动,例如：打电话确认是否已付款,..."
 
-#. modules: account, account_asset
+#. modules: account_test, account, account_asset
 #: field:account.account,active:0
 #: field:account.analytic.journal,active:0
 #: field:account.fiscal.position,active:0
@@ -2299,6 +2326,7 @@ msgstr "可采取的行动,例如：打电话确认是否已付款,..."
 #: field:account.payment.term,active:0
 #: field:account.tax,active:0
 #: field:account.asset.asset,active:0
+#: field:accounting.assert.test,active:0
 msgid "Active"
 msgstr "有效"
 
@@ -2539,7 +2567,7 @@ msgstr "允许使用分析会计"
 msgid "Always"
 msgstr "总是"
 
-#. modules: account, account_payment, account_followup, account_voucher, analytic, account_analytic_plans
+#. modules: account, account_payment, account_followup, account_voucher, analytic, account_bank_statement_extensions, account_analytic_plans
 #. openerp-web
 #: view:account.analytic.line:account.account_analytic_line_extended_form
 #: view:account.analytic.line:account.view_account_analytic_line_form
@@ -2562,6 +2590,7 @@ msgstr "总是"
 #: field:cash.box.out,amount:0
 #: view:website:account.report_invoice_document
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
+#: field:account.bank.statement.line.global,amount:0
 #: code:addons/account_followup/account_followup.py:260
 #: view:website:account_followup.report_followup
 #: view:payment.order:account_payment.view_payment_order_form
@@ -2767,7 +2796,7 @@ msgstr "分析预算"
 msgid "Analytic Defaults"
 msgstr "默认分析"
 
-#. modules: account_analytic_plans, account_analytic_default
+#. modules: sale_analytic_plans, account_analytic_plans, account_analytic_default, purchase_analytic_plans
 #. openerp-web
 #: model:ir.model,name:account_analytic_default.model_account_analytic_default
 #: field:account.analytic.default,analytics_id:0
@@ -2780,6 +2809,8 @@ msgstr "默认分析"
 #: code:addons/account_analytic_plans/static/src/js/account_bank_reconciliation.js:16
 #: code:addons/account_analytic_plans/static/src/js/account_bank_reconciliation.js:23
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_default
+#: field:purchase.order.line,analytics_id:0
+#: field:sale.order.line,analytics_id:0
 #, python-format
 msgid "Analytic Distribution"
 msgstr "分析分配"
@@ -3044,11 +3075,21 @@ msgstr "4月"
 msgid "Are you sure to unreconcile and cancel this record ?"
 msgstr "你确定要反调节并作废这条记录么？"
 
+#. module: account_bank_statement_extensions
+#: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
+msgid "Are you sure you want to cancel the selected Bank Statement lines ?"
+msgstr "你确信要取消所选的银行单据行么？"
+
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 #: view:account.voucher:account_voucher.view_sale_receipt_form
 msgid "Are you sure you want to cancel this receipt?"
 msgstr "你确信要取消这个收据？"
+
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+msgid "Are you sure you want to confirm the selected Bank Statement lines ?"
+msgstr "你确定要确认所选银行单据行么？"
 
 #. module: account
 #: view:account.use.model:account.view_account_use_model_create_entry
@@ -3441,8 +3482,9 @@ msgstr "发票的收款银行账户。如果是客户发票或供应商红字发
 msgid "Bank Account for the Payment Mode"
 msgstr "付款方式的银行账户"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: model:ir.model,name:account.model_res_partner_bank
+#: model:ir.model,name:account_bank_statement_extensions.model_res_partner_bank
 msgid "Bank Accounts"
 msgstr "银行帐户"
 
@@ -3466,26 +3508,50 @@ msgstr "银行调节的凭证预制"
 msgid "Bank Reconciliation Move preset"
 msgstr "银行调节的凭证预制"
 
-#. modules: account, account_analytic_plans
+#. modules: account_bank_statement_extensions, account, account_analytic_plans
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_form
 #: view:account.bank.statement:account.view_bank_statement_search
 #: model:ir.model,name:account.model_account_bank_statement
 #: model:ir.model,name:account_analytic_plans.model_account_bank_statement
+#: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement
 msgid "Bank Statement"
 msgstr "银行对账单"
 
-#. modules: account, account_analytic_plans
+#. module: account_bank_statement_extensions
+#: model:ir.actions.report.xml,name:account_bank_statement_extensions.action_bank_statement_balance_report
+msgid "Bank Statement Balances"
+msgstr "银行对账单余额"
+
+#. module: account_bank_statement_extensions
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
+msgid "Bank Statement Balances Report"
+msgstr "银行单据余额报表"
+
+#. modules: account_bank_statement_extensions, account, account_analytic_plans
 #: model:ir.model,name:account.model_account_bank_statement_line
 #: model:ir.model,name:account_analytic_plans.model_account_bank_statement_line
+#: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement_line
 msgid "Bank Statement Line"
 msgstr "银行对账单明细"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line.global,bank_statement_line_ids:0
+#: model:ir.actions.act_window,name:account_bank_statement_extensions.action_bank_statement_line
+#: model:ir.ui.menu,name:account_bank_statement_extensions.bank_statement_line
+msgid "Bank Statement Lines"
+msgstr "银行单据行"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
 #: model:ir.ui.menu,name:account.menu_bank_statement_tree
 msgid "Bank Statements"
 msgstr "银行对账单"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Bank Transaction"
+msgstr "银行交易"
 
 #. module: account_payment
 #: field:payment.mode,bank_id:0
@@ -3582,6 +3648,12 @@ msgstr "基于"
 #: help:account.analytic.account,ca_theorical:0
 msgid "Based on the costs you had on the project, what would have been the revenue if all these costs have been invoiced at the normal sale price provided by the pricelist."
 msgstr "如果所有成本按正常的销售价格开票那这项目的成本基于未来的收入."
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
+#: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement_line_global
+msgid "Batch Payment Info"
+msgstr "批量付款信息"
 
 #. module: account
 #: field:account.treasury.report,date:0
@@ -3735,6 +3807,11 @@ msgstr "By Salespersons"
 msgid "By unchecking the active field, you may hide a fiscal position without deleting it."
 msgstr "如不勾选该项，可以隐藏而不删除此替换规则。"
 
+#. module: account_bank_statement_extensions
+#: selection:account.bank.statement.line.global,type:0
+msgid "CODA"
+msgstr "CODA"
+
 #. module: analytic
 #: help:account.analytic.line,amount:0
 msgid "Calculated by multiplying the quantity and the price given in the Product's cost price. Always expressed in the company main currency."
@@ -3745,7 +3822,7 @@ msgstr "计算公式是数量乘以产品成本价。币别是公司本位币。
 msgid "Can be Visible?"
 msgstr "可显示？"
 
-#. modules: account_cancel, account, account_payment, account_followup, account_asset, account_voucher, account_check_writing, account_budget, account_analytic_plans
+#. modules: account_cancel, account, account_payment, account_followup, account_asset, account_voucher, account_check_writing, account_budget, account_bank_statement_extensions, account_analytic_plans
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 #: view:account.analytic.balance:account.account_analytic_balance_view
 #: view:account.analytic.chart:account.account_analytic_chart_view
@@ -3787,6 +3864,7 @@ msgstr "可显示？"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 #: view:asset.depreciation.confirmation.wizard:account_asset.view_asset_depreciation_confirmation_wizard
 #: view:asset.modify:account_asset.asset_modify_form
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
 #: view:account.budget.analytic:account_budget.account_budget_analytic_view
 #: view:account.budget.crossvered.report:account_budget.account_budget_crossvered_report_view
 #: view:account.budget.crossvered.summary.report:account_budget.account_budget_crossvered_summary_report_view
@@ -3842,6 +3920,11 @@ msgstr "取消发票"
 msgid "Cancel Invoices"
 msgstr "取消发票"
 
+#. module: account_bank_statement_extensions
+#: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
+msgid "Cancel Lines"
+msgstr "取消行"
+
 #. module: account_payment
 #: view:payment.order:account_payment.view_payment_order_form
 msgid "Cancel Payments"
@@ -3870,6 +3953,13 @@ msgstr "取消结算单"
 #: view:account.voucher:account_voucher.view_voucher_form
 msgid "Cancel Voucher"
 msgstr "取消凭证"
+
+#. module: account_bank_statement_extensions
+#: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
+#: model:ir.actions.act_window,name:account_bank_statement_extensions.action_cancel_statement_line
+#: model:ir.model,name:account_bank_statement_extensions.model_cancel_statement_line
+msgid "Cancel selected statement lines"
+msgstr "取消所选的表行"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_cancel
@@ -4223,6 +4313,21 @@ msgstr "支票布局"
 msgid "Check Total on supplier invoices"
 msgstr "检查供应商发票合计"
 
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_03
+msgid "Check if movement lines are balanced and have the same date and period"
+msgstr "Check if movement lines are balanced and have the same date and period"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_02
+msgid "Check if the balance of the new opened fiscal year matches with last year's balance"
+msgstr "Check if the balance of the new opened fiscal year matches with last year's balance"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_04
+msgid "Check if the totally reconciled movements are balanced"
+msgstr "Check if the totally reconciled movements are balanced"
+
 #. module: account_check_writing
 #: help:account.journal,use_preprint_check:0
 msgid "Check if you use a preformated sheet for check"
@@ -4248,6 +4353,11 @@ msgstr "中间的支票"
 msgid "Check on Top"
 msgstr "顶部的支票"
 
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_07
+msgid "Check on bank statement that the Closing Balance = Starting Balance + sum of statement lines"
+msgstr "Check on bank statement that the Closing Balance = Starting Balance + sum of statement lines"
+
 #. module: account_check_writing
 #: selection:res.company,check_layout:0
 msgid "Check on bottom"
@@ -4257,6 +4367,36 @@ msgstr "底部的支票"
 #: help:res.company,check_layout:0
 msgid "Check on top is compatible with Quicken, QuickBooks and Microsoft Money. Check in middle is compatible with Peachtree, ACCPAC and DacEasy. Check on bottom is compatible with Peachtree, ACCPAC and DacEasy only"
 msgstr "顶部的支票与Quicken, QuickBooks 和 Microsoft Money兼容。中间的支票与Peachtree, ACCPAC 和 DacEasy兼容。底部的支票只与Peachtree, ACCPAC 和 DacEasy兼容。"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_08
+msgid "Check that general accounts and partners on account moves are active"
+msgstr "Check that general accounts and partners on account moves are active"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_06
+msgid "Check that paid/reconciled invoices are not in 'Open' state"
+msgstr "Check that paid/reconciled invoices are not in 'Open' state"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_05_2
+msgid "Check that reconciled account moves, that define Payable and Receivable accounts, are belonging to reconciled invoices"
+msgstr "Check that reconciled account moves, that define Payable and Receivable accounts, are belonging to reconciled invoices"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_05
+msgid "Check that reconciled invoice for Sales/Purchases has reconciled entries for Payable and Receivable Accounts"
+msgstr "Check that reconciled invoice for Sales/Purchases has reconciled entries for Payable and Receivable Accounts"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_06_1
+msgid "Check that there's no move for any account with « View » account type"
+msgstr "Check that there's no move for any account with « View » account type"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_01
+msgid "Check the balance: Debit sum = Credit sum"
+msgstr "Check the balance: Debit sum = Credit sum"
 
 #. module: account
 #: field:account.config.settings,group_check_supplier_invoice_total:0
@@ -4341,9 +4481,15 @@ msgstr "勾选此项, 如果您想用户在这科目对账分录。"
 msgid "Child Accounts"
 msgstr "子科目"
 
-#. module: account
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
+msgid "Child Batch Payments"
+msgstr "子批量付款"
+
+#. modules: account_bank_statement_extensions, account
 #: field:account.tax.code,child_ids:0
 #: field:account.tax.code.template,child_ids:0
+#: field:account.bank.statement.line.global,child_ids:0
 msgid "Child Codes"
 msgstr "子编码"
 
@@ -4489,6 +4635,11 @@ msgstr "关闭在"
 msgid "Closed contracts"
 msgstr "关闭的合同"
 
+#. module: account_bank_statement_extensions
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
+msgid "Closing Balance"
+msgstr "期末余额"
+
 #. module: account
 #: view:account.bank.statement:account.view_bank_statement_form2
 msgid "Closing Cash Control"
@@ -4511,7 +4662,7 @@ msgstr "关账合计"
 msgid "Closing Unit Numbers"
 msgstr "关账单元数"
 
-#. modules: account, account_analytic_plans, account_budget
+#. modules: account_bank_statement_extensions, account, account_analytic_plans, account_budget
 #: field:account.account,code:0
 #: field:account.account.template,code:0
 #: field:account.account.type,code:0
@@ -4526,10 +4677,64 @@ msgstr "关账单元数"
 #: view:website:account.report_partnerbalance
 #: view:website:account.report_trialbalance
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
+#: field:account.bank.statement.line.global,code:0
 #: field:account.budget.post,code:0
 #: field:crossovered.budget,code:0
 msgid "Code"
 msgstr "编码"
+
+#. module: account_test
+#: view:accounting.assert.test:account_test.account_assert_form
+msgid "Code Help"
+msgstr "Code Help"
+
+#. module: account_test
+#: view:accounting.assert.test:account_test.account_assert_form
+msgid "Code should always set a variable named `result` with the result of your test, that can be a list or\n"
+"a dictionary. If `result` is an empty list, it means that the test was succesful. Otherwise it will\n"
+"try to translate and print what is inside `result`.\n"
+"\n"
+"If the result of your test is a dictionary, you can set a variable named `column_order` to choose in\n"
+"what order you want to print `result`'s content.\n"
+"\n"
+"Should you need them, you can also use the following variables into your code:\n"
+"    * cr: cursor to the database\n"
+"    * uid: ID of the current user\n"
+"\n"
+"In any ways, the code must be legal python statements with correct indentation (if needed).\n"
+"\n"
+"Example: \n"
+"    sql = '''SELECT id, name, ref, date\n"
+"             FROM account_move_line \n"
+"             WHERE account_id IN (SELECT id FROM account_account WHERE type = 'view')\n"
+"          '''\n"
+"    cr.execute(sql)\n"
+"    result = cr.dictfetchall()"
+msgstr "Code should always set a variable named `result` with the result of your test, that can be a list or\n"
+"a dictionary. If `result` is an empty list, it means that the test was succesful. Otherwise it will\n"
+"try to translate and print what is inside `result`.\n"
+"\n"
+"If the result of your test is a dictionary, you can set a variable named `column_order` to choose in\n"
+"what order you want to print `result`'s content.\n"
+"\n"
+"Should you need them, you can also use the following variables into your code:\n"
+"    * cr: cursor to the database\n"
+"    * uid: ID of the current user\n"
+"\n"
+"In any ways, the code must be legal python statements with correct indentation (if needed).\n"
+"\n"
+"Example: \n"
+"    sql = '''SELECT id, name, ref, date\n"
+"             FROM account_move_line \n"
+"             WHERE account_id IN (SELECT id FROM account_account WHERE type = 'view')\n"
+"          '''\n"
+"    cr.execute(sql)\n"
+"    result = cr.dictfetchall()"
+
+#. module: account_bank_statement_extensions
+#: help:account.bank.statement.line,globalisation_id:0
+msgid "Code to identify transactions belonging to the same globalisation level within a batch payment"
+msgstr "此编码用于标识在一次批量付款中属于同一个全局级别的交易"
 
 #. module: account
 #: field:account.tax.code,sign:0
@@ -4927,24 +5132,48 @@ msgstr "确认草稿发票"
 msgid "Confirm Invoices"
 msgstr "确认发票"
 
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+msgid "Confirm Lines"
+msgstr "确认行"
+
 #. module: account_payment
 #: view:payment.order:account_payment.view_payment_order_form
 msgid "Confirm Payments"
 msgstr "确认付款"
+
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+#: model:ir.actions.act_window,name:account_bank_statement_extensions.action_confirm_statement_line
+#: model:ir.model,name:account_bank_statement_extensions.model_confirm_statement_line
+msgid "Confirm selected statement lines"
+msgstr "确认所选表行"
 
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_confirm
 msgid "Confirm the selected invoices"
 msgstr "确认选定的发票"
 
-#. modules: account, account_budget, account_payment
+#. modules: account_bank_statement_extensions, account, account_budget, account_payment
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: selection:account.bank.statement.line,state:0
 #: selection:crossovered.budget,state:0
 #: view:payment.order:account_payment.view_payment_order_search
 #: selection:payment.order,state:0
 msgid "Confirmed"
 msgstr "已确认"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Confirmed Statement Lines."
+msgstr "已确认的单据行"
+
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+msgid "Confirmed lines cannot be changed anymore."
+msgstr "已确认的单据行不可修改"
 
 #. module: account
 #. openerp-web
@@ -5117,6 +5346,26 @@ msgstr "对方科目"
 msgid "Counterpart Comment"
 msgstr "对方备注"
 
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_bic:0
+msgid "Counterparty BIC"
+msgstr "对方BIC"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_currency:0
+msgid "Counterparty Currency"
+msgstr "对方货币"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_name:0
+msgid "Counterparty Name"
+msgstr "对方名称"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_number:0
+msgid "Counterparty Number"
+msgstr "对方编号"
+
 #. module: account
 #: field:account.fiscal.position,country_id:0
 msgid "Country"
@@ -5212,7 +5461,7 @@ msgstr "已创建"
 msgid "Created Asset Moves"
 msgstr "新建资产凭证"
 
-#. modules: account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_analytic_plans
+#. modules: account_test, account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_bank_statement_extensions, account_analytic_plans
 #: field:account.account,create_uid:0
 #: field:account.account.template,create_uid:0
 #: field:account.account.type,create_uid:0
@@ -5320,6 +5569,9 @@ msgstr "新建资产凭证"
 #: field:account.asset.history,create_uid:0
 #: field:asset.depreciation.confirmation.wizard,create_uid:0
 #: field:asset.modify,create_uid:0
+#: field:account.bank.statement.line.global,create_uid:0
+#: field:cancel.statement.line,create_uid:0
+#: field:confirm.statement.line,create_uid:0
 #: field:account.budget.analytic,create_uid:0
 #: field:account.budget.crossvered.report,create_uid:0
 #: field:account.budget.crossvered.summary.report,create_uid:0
@@ -5339,6 +5591,7 @@ msgstr "新建资产凭证"
 #: field:payment.order,create_uid:0
 #: field:payment.order.create,create_uid:0
 #: field:account.sequence.installer,create_uid:0
+#: field:accounting.assert.test,create_uid:0
 #: field:account.voucher,create_uid:0
 #: field:account.voucher.line,create_uid:0
 #: field:account.analytic.account,create_uid:0
@@ -5346,7 +5599,7 @@ msgstr "新建资产凭证"
 msgid "Created by"
 msgstr "创建者"
 
-#. modules: account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_analytic_plans
+#. modules: account_test, account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_bank_statement_extensions, account_analytic_plans
 #: field:account.account,create_date:0
 #: field:account.account.template,create_date:0
 #: field:account.account.type,create_date:0
@@ -5453,6 +5706,9 @@ msgstr "创建者"
 #: field:account.asset.history,create_date:0
 #: field:asset.depreciation.confirmation.wizard,create_date:0
 #: field:asset.modify,create_date:0
+#: field:account.bank.statement.line.global,create_date:0
+#: field:cancel.statement.line,create_date:0
+#: field:confirm.statement.line,create_date:0
 #: field:account.budget.analytic,create_date:0
 #: field:account.budget.crossvered.report,create_date:0
 #: field:account.budget.crossvered.summary.report,create_date:0
@@ -5471,6 +5727,7 @@ msgstr "创建者"
 #: field:payment.order,create_date:0
 #: field:payment.order.create,create_date:0
 #: field:account.sequence.installer,create_date:0
+#: field:accounting.assert.test,create_date:0
 #: field:account.voucher,create_date:0
 #: field:account.voucher.line,create_date:0
 #: field:account.analytic.account,create_date:0
@@ -5493,7 +5750,7 @@ msgstr "创建日期"
 msgid "Creation date"
 msgstr "建立日期"
 
-#. modules: account_followup, analytic, account, account_voucher
+#. modules: account_bank_statement_extensions, account_followup, account, account_voucher, analytic
 #: field:account.account,credit:0
 #: field:account.entries.report,credit:0
 #: field:account.model.line,credit:0
@@ -5514,6 +5771,7 @@ msgstr "建立日期"
 #: view:website:account.report_salepurchasejournal
 #: view:website:account.report_trialbalance
 #: view:website:account.report_vat
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: field:account_followup.stat,credit:0
 #: selection:account.voucher.line,type:0
 #: field:account.analytic.account,credit:0
@@ -5534,6 +5792,11 @@ msgstr "信用证"
 #: view:account.tax.template:account.view_account_tax_template_form
 msgid "Credit Notes"
 msgstr "信用证"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Credit Transactions."
+msgstr "贷方交易"
 
 #. module: account
 #: field:account.move.line.reconcile,credit:0
@@ -5770,7 +6033,7 @@ msgstr "Customer ref:"
 msgid "Customers"
 msgstr "客户"
 
-#. modules: analytic, account, account_asset, account_voucher
+#. modules: account_bank_statement_extensions, analytic, account, account_asset, account_voucher
 #. openerp-web
 #: selection:account.aged.trial.balance,filter:0
 #: selection:account.balance.report,filter:0
@@ -5808,6 +6071,7 @@ msgstr "客户"
 #: view:website:account.report_partnerledgerother
 #: view:website:account.report_salepurchasejournal
 #: field:account.asset.history,date:0
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
 #: field:account.voucher,date:0
 #: field:account.voucher.line,date_original:0
 #: field:sale.receipt.report,date:0
@@ -5949,7 +6213,7 @@ msgstr "天"
 msgid "Days of the follow-up levels must be different"
 msgstr "Days of the follow-up levels must be different"
 
-#. modules: account_followup, analytic, account, account_voucher
+#. modules: account_bank_statement_extensions, account_followup, account, account_voucher, analytic
 #: field:account.account,debit:0
 #: field:account.entries.report,debit:0
 #: field:account.model.line,debit:0
@@ -5970,6 +6234,7 @@ msgstr "Days of the follow-up levels must be different"
 #: view:website:account.report_salepurchasejournal
 #: view:website:account.report_trialbalance
 #: view:website:account.report_vat
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: field:account_followup.stat,debit:0
 #: selection:account.voucher.line,type:0
 #: field:account.analytic.account,debit:0
@@ -5980,6 +6245,11 @@ msgstr "借方"
 #: selection:account.move.line,centralisation:0
 msgid "Debit Centralisation"
 msgstr "借方集中"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Debit Transactions."
+msgstr "借方交易"
 
 #. module: account
 #: field:account.move.line.reconcile,debit:0
@@ -6094,6 +6364,12 @@ msgstr "递减"
 msgid "Degressive Factor"
 msgstr "递减因子"
 
+#. module: account_bank_statement_extensions
+#: code:addons/account_bank_statement_extensions/account_bank_statement.py:133
+#, python-format
+msgid "Delete operation not allowed.             Please go to the associated bank statement in order to delete and/or modify bank statement line."
+msgstr "不允许删除。为了删除和(或)修改银行对账单行，请到关联的银行对账单操作。"
+
 #. module: account_asset
 #: field:account.asset.category,account_expense_depreciation_id:0
 msgid "Depr. Expense Account"
@@ -6151,7 +6427,7 @@ msgstr "折旧说明"
 msgid "Describe why you take money from the cash register:"
 msgstr "请说明从出纳机领取现金的原因。"
 
-#. modules: account, account_analytic_analysis, account_followup, account_voucher, account_check_writing, analytic, account_budget
+#. modules: account_test, account, account_analytic_analysis, account_followup, account_voucher, account_check_writing, analytic, account_budget
 #. openerp-web
 #: view:account.account.type:account.view_account_type_form
 #: field:account.account.type,note:0
@@ -6174,6 +6450,7 @@ msgstr "请说明从出纳机领取现金的原因。"
 #: field:account_followup.sending.results,description:0
 #: code:addons/account_followup/account_followup.py:257
 #: view:website:account_followup.report_followup
+#: view:accounting.assert.test:account_test.account_assert_form
 #: field:account.voucher.line,name:0
 #: field:account.analytic.account,description:0
 #: field:account.analytic.line,name:0
@@ -6181,8 +6458,9 @@ msgstr "请说明从出纳机领取现金的原因。"
 msgid "Description"
 msgstr "说明"
 
-#. module: account
+#. modules: account_test, account
 #: view:website:account.report_invoice_document
+#: view:website:account_test.report_accounttest
 msgid "Description:"
 msgstr "说明："
 
@@ -6374,7 +6652,7 @@ msgstr "Download Letters"
 msgid "Dr/Cr"
 msgstr "借/贷"
 
-#. modules: account_voucher, account, account_payment, account_asset, account_budget
+#. modules: account, account_payment, account_asset, account_voucher, account_budget, account_bank_statement_extensions
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
 #: view:account.invoice:account.view_account_invoice_filter
@@ -6387,6 +6665,8 @@ msgstr "借/贷"
 #: selection:account.asset.asset,state:0
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 #: selection:asset.asset.report,state:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: selection:account.bank.statement.line,state:0
 #: view:crossovered.budget:account_budget.view_crossovered_budget_search
 #: selection:crossovered.budget,state:0
 #: view:payment.order:account_payment.view_payment_order_search
@@ -6430,6 +6710,11 @@ msgstr "草稿发票"
 #: view:account.invoice:account.invoice_supplier_form
 msgid "Draft Refund"
 msgstr "草稿退款单"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Draft Statement Lines."
+msgstr "单据行草稿"
 
 #. module: account
 #: view:account.subscription:account.view_subscription_search
@@ -7086,9 +7371,15 @@ msgstr "过期或消耗"
 msgid "Expiring soon"
 msgstr "Expiring soon"
 
-#. modules: account, account_asset, account_voucher
+#. module: account_test
+#: view:accounting.assert.test:account_test.account_assert_form
+msgid "Expression"
+msgstr "Expression"
+
+#. modules: account_bank_statement_extensions, account, account_asset, account_voucher
 #: view:account.entries.report:account.view_account_entries_report_search
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 msgid "Extended Filters..."
 msgstr "扩展的筛选器..."
@@ -7772,11 +8063,34 @@ msgstr "按序列顺序显示发票税金列表"
 msgid "Gives the type of the analytic journal. When it needs for a document (eg: an invoice) to create analytic entries, Odoo will look for a matching journal of the same type."
 msgstr "定义分析日记账的类型。当为同一类单据(如：发票) 创建分析，Odoo将看成一个相同类型。"
 
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
+msgid "Glob. Am."
+msgstr "全局金额"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: field:account.bank.statement.line,globalisation_amount:0
+msgid "Glob. Amount"
+msgstr "全局金额"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement:account_bank_statement_extensions.view_bank_statement_form_add_fields
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
+msgid "Glob. Id"
+msgstr "全局编号"
+
 #. module: account
 #: code:addons/account/account_invoice.py:726
 #, python-format
 msgid "Global taxes defined, but they are not in invoice lines !"
 msgstr "定义了全局税，但发票行中没有！"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,globalisation_id:0
+msgid "Globalisation ID"
+msgstr "全局编号"
 
 #. module: account
 #: view:account.partner.reconcile.process:account.account_partner_reconcile_view
@@ -7821,7 +8135,7 @@ msgstr "毛总额"
 msgid "Gross Value"
 msgstr "毛值"
 
-#. modules: account, account_analytic_analysis, account_payment, account_followup, account_asset, account_voucher, account_analytic_default
+#. modules: account, account_analytic_analysis, account_payment, account_followup, account_asset, account_voucher, account_analytic_default, account_bank_statement_extensions
 #: view:account.account:account.view_account_search
 #: view:account.account.template:account.view_account_template_search
 #: view:account.analytic.account:account.view_account_analytic_account_search
@@ -7847,6 +8161,7 @@ msgstr "毛值"
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: view:account_followup.stat:account_followup.view_account_followup_stat_search
 #: view:res.partner:account_followup.customer_followup_search_view
 #: view:payment.mode:account_payment.view_payment_mode_search
@@ -7919,7 +8234,7 @@ msgstr "按用户汇总时间"
 msgid "Hours summary by month"
 msgstr "月的小时数合计"
 
-#. modules: account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_analytic_plans
+#. modules: account_test, account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_bank_statement_extensions, account_analytic_plans
 #: field:account.account,id:0
 #: field:account.account.template,id:0
 #: field:account.account.type,id:0
@@ -8058,6 +8373,10 @@ msgstr "月的小时数合计"
 #: field:asset.asset.report,id:0
 #: field:asset.depreciation.confirmation.wizard,id:0
 #: field:asset.modify,id:0
+#: field:account.bank.statement.line.global,id:0
+#: field:cancel.statement.line,id:0
+#: field:confirm.statement.line,id:0
+#: field:report.account_bank_statement_extensions.report_bankstatementbalance,id:0
 #: field:account.budget.analytic,id:0
 #: field:account.budget.crossvered.report,id:0
 #: field:account.budget.crossvered.summary.report,id:0
@@ -8085,6 +8404,8 @@ msgstr "月的小时数合计"
 #: field:payment.order.create,id:0
 #: field:report.account_payment.report_paymentorder,id:0
 #: field:account.sequence.installer,id:0
+#: field:accounting.assert.test,id:0
+#: field:report.account_test.report_accounttest,id:0
 #: field:account.voucher,id:0
 #: field:account.voucher.line,id:0
 #: field:sale.receipt.report,id:0
@@ -8092,6 +8413,11 @@ msgstr "月的小时数合计"
 #: field:account.analytic.line,id:0
 msgid "ID"
 msgstr "标识"
+
+#. module: account_bank_statement_extensions
+#: selection:account.bank.statement.line.global,type:0
+msgid "ISO 20022"
+msgstr "ISO 20022"
 
 #. module: account
 #: model:account.tax.template,name:account.itaxo
@@ -8877,7 +9203,7 @@ msgstr "JRNL"
 msgid "January"
 msgstr "1"
 
-#. modules: account, account_payment, account_voucher, account_asset, account_sequence, account_check_writing, account_analytic_plans
+#. modules: account, account_payment, account_voucher, account_asset, account_sequence, account_check_writing, account_bank_statement_extensions, account_analytic_plans
 #. openerp-web
 #: view:account.analytic.line:account.view_account_analytic_line_filter
 #: field:account.automatic.reconcile,journal_id:0
@@ -8909,6 +9235,8 @@ msgstr "1"
 #: view:website:account.report_journal
 #: model:ir.model,name:account_analytic_plans.model_account_journal
 #: field:account.asset.category,journal_id:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
 #: model:ir.model,name:account_check_writing.model_account_journal
 #: view:payment.mode:account_payment.view_payment_mode_search
 #: field:payment.mode,journal:0
@@ -9246,7 +9574,7 @@ msgstr "最近开票日期"
 msgid "Last Message Date"
 msgstr "最后信息日期"
 
-#. modules: account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_analytic_plans
+#. modules: account_test, account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_bank_statement_extensions, account_analytic_plans
 #: field:account.account,write_uid:0
 #: field:account.account.template,write_uid:0
 #: field:account.account.type,write_uid:0
@@ -9354,6 +9682,9 @@ msgstr "最后信息日期"
 #: field:account.asset.history,write_uid:0
 #: field:asset.depreciation.confirmation.wizard,write_uid:0
 #: field:asset.modify,write_uid:0
+#: field:account.bank.statement.line.global,write_uid:0
+#: field:cancel.statement.line,write_uid:0
+#: field:confirm.statement.line,write_uid:0
 #: field:account.budget.analytic,write_uid:0
 #: field:account.budget.crossvered.report,write_uid:0
 #: field:account.budget.crossvered.summary.report,write_uid:0
@@ -9373,6 +9704,7 @@ msgstr "最后信息日期"
 #: field:payment.order,write_uid:0
 #: field:payment.order.create,write_uid:0
 #: field:account.sequence.installer,write_uid:0
+#: field:accounting.assert.test,write_uid:0
 #: field:account.voucher,write_uid:0
 #: field:account.voucher.line,write_uid:0
 #: field:account.analytic.account,write_uid:0
@@ -9380,7 +9712,7 @@ msgstr "最后信息日期"
 msgid "Last Updated by"
 msgstr "最后更新"
 
-#. modules: account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_analytic_plans
+#. modules: account_test, account, account_analytic_analysis, account_payment, account_followup, account_voucher, account_asset, account_sequence, account_check_writing, analytic, account_analytic_default, account_budget, account_bank_statement_extensions, account_analytic_plans
 #: field:account.account,write_date:0
 #: field:account.account.template,write_date:0
 #: field:account.account.type,write_date:0
@@ -9488,6 +9820,9 @@ msgstr "最后更新"
 #: field:account.asset.history,write_date:0
 #: field:asset.depreciation.confirmation.wizard,write_date:0
 #: field:asset.modify,write_date:0
+#: field:account.bank.statement.line.global,write_date:0
+#: field:cancel.statement.line,write_date:0
+#: field:confirm.statement.line,write_date:0
 #: field:account.budget.analytic,write_date:0
 #: field:account.budget.crossvered.report,write_date:0
 #: field:account.budget.crossvered.summary.report,write_date:0
@@ -9507,6 +9842,7 @@ msgstr "最后更新"
 #: field:payment.order,write_date:0
 #: field:payment.order.create,write_date:0
 #: field:account.sequence.installer,write_date:0
+#: field:accounting.assert.test,write_date:0
 #: field:account.voucher,write_date:0
 #: field:account.voucher.line,write_date:0
 #: field:account.analytic.account,write_date:0
@@ -9727,8 +10063,9 @@ msgstr "强制采用模板制订合同"
 msgid "Mandatory use of templates."
 msgstr "强制采用模板。"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: field:account.invoice.tax,manual:0
+#: selection:account.bank.statement.line.global,type:0
 msgid "Manual"
 msgstr "手动"
 
@@ -10025,7 +10362,7 @@ msgstr "My Follow-ups"
 msgid "My Invoices"
 msgstr "我的发票"
 
-#. modules: account, account_payment, account_followup, account_asset, account_sequence, account_budget
+#. modules: account, account_payment, account_followup, account_asset, account_sequence, account_budget, account_bank_statement_extensions
 #: field:account.account,name:0
 #: field:account.account.template,name:0
 #: field:account.chart.template,name:0
@@ -10037,6 +10374,7 @@ msgstr "我的发票"
 #: view:website:account.report_analyticcostledgerquantity
 #: view:website:account.report_financial
 #: field:account.asset.category,name:0
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
 #: field:account.budget.post,name:0
 #: field:crossovered.budget,name:0
 #: field:account_followup.followup,name:0
@@ -10049,6 +10387,11 @@ msgstr "名称"
 #: field:account.fiscalyear.close,report_name:0
 msgid "Name of new entries"
 msgstr "新名称"
+
+#. module: account_test
+#: view:website:account_test.report_accounttest
+msgid "Name:"
+msgstr "Name:"
 
 #. module: account_followup
 #: field:account_followup.sending.results,needprinting:0
@@ -10353,7 +10696,7 @@ msgstr "没对账的交易"
 msgid "Note"
 msgstr "备注"
 
-#. modules: account, account_asset, account_voucher
+#. modules: account_bank_statement_extensions, account, account_asset, account_voucher
 #: view:account.account.template:account.view_account_template_form
 #: view:account.bank.statement:account.view_bank_statement_form2
 #: field:account.bank.statement.line,note:0
@@ -10365,6 +10708,7 @@ msgstr "备注"
 #: view:account.asset.history:account_asset.view_account_asset_history_form
 #: view:asset.modify:account_asset.asset_modify_form
 #: field:asset.modify,note:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_form
 #: field:account.voucher,narration:0
 msgid "Notes"
 msgstr "备注"
@@ -10460,6 +10804,11 @@ msgstr "你在这个成本科目上花费的时间总数（数据来自计工单
 #: field:account.sequence.installer,padding:0
 msgid "Number padding"
 msgstr "数字填充"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line.global,name:0
+msgid "OBI"
+msgstr "OBI"
 
 #. module: account
 #. openerp-web
@@ -10787,6 +11136,11 @@ msgstr "订单"
 msgid "Original Amount"
 msgstr "原始总额"
 
+#. module: account_bank_statement_extensions
+#: help:account.bank.statement.line.global,name:0
+msgid "Originator to Beneficiary Information"
+msgstr "发起人到受益人的信息"
+
 #. module: account
 #: view:account.invoice:account.invoice_form
 #: view:account.invoice:account.invoice_supplier_form
@@ -10910,10 +11264,11 @@ msgstr "上级资产"
 msgid "Parent Chart Template"
 msgstr "父科目表模板"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: field:account.tax.code,parent_id:0
 #: view:account.tax.code.template:account.view_tax_code_template_search
 #: field:account.tax.code.template,parent_id:0
+#: field:account.bank.statement.line.global,parent_id:0
 msgid "Parent Code"
 msgstr "上级代码"
 
@@ -12045,14 +12400,14 @@ msgstr "利润"
 #: code:addons/account/account.py:207
 #, python-format
 msgid "Profit & Loss (Expense account)"
-msgstr "损益（费用科目）"
+msgstr "损益表（费用科目）"
 
 #. module: account
 #: selection:account.account.type,report_type:0
 #: code:addons/account/account.py:206
 #, python-format
 msgid "Profit & Loss (Income account)"
-msgstr "损益（收入科目）"
+msgstr "损益表（收入科目）"
 
 #. module: account
 #: model:account.financial.report,name:account.account_financial_report_profitloss_toreport0
@@ -12067,14 +12422,14 @@ msgstr "利润科目"
 #. module: account
 #: model:ir.ui.menu,name:account.menu_account_report_pl
 msgid "Profit And Loss"
-msgstr "损益"
+msgstr "损益表"
 
 #. module: account
 #: model:account.account.template,name:account.conf_gpf
 #: model:account.financial.report,name:account.account_financial_report_profitandloss0
 #: model:ir.actions.act_window,name:account.action_account_report_pl
 msgid "Profit and Loss"
-msgstr "损益"
+msgstr "损益表"
 
 #. module: account
 #: view:account.invoice:account.view_account_invoice_filter
@@ -12154,10 +12509,16 @@ msgstr "采购日记账"
 msgid "Purchase Month"
 msgstr "采购月份"
 
-#. module: account_anglo_saxon
+#. modules: account_anglo_saxon, purchase_analytic_plans
 #: model:ir.model,name:account_anglo_saxon.model_purchase_order
+#: model:ir.model,name:purchase_analytic_plans.model_purchase_order
 msgid "Purchase Order"
 msgstr "采购订单"
+
+#. module: purchase_analytic_plans
+#: model:ir.model,name:purchase_analytic_plans.model_purchase_order_line
+msgid "Purchase Order Line"
+msgstr "采购订单明细"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
@@ -12234,12 +12595,13 @@ msgstr "采购"
 msgid "Put Money In"
 msgstr "把钱放入"
 
-#. module: account
+#. modules: account_test, account
 #: field:account.tax,python_compute:0
 #: selection:account.tax,type:0
 #: selection:account.tax.template,applicable_type:0
 #: field:account.tax.template,python_compute:0
 #: selection:account.tax.template,type:0
+#: view:accounting.assert.test:account_test.account_assert_form
 msgid "Python Code"
 msgstr "Python代码"
 
@@ -12248,6 +12610,11 @@ msgstr "Python代码"
 #: field:account.tax.template,python_compute_inv:0
 msgid "Python Code (reverse)"
 msgstr "Python代码(reverse)"
+
+#. module: account_test
+#: field:accounting.assert.test,code_exec:0
+msgid "Python code"
+msgstr "Python代码"
 
 #. modules: analytic, account, account_analytic_analysis, account_analytic_plans
 #: field:account.invoice.line,quantity:0
@@ -12997,9 +13364,10 @@ msgstr "销售日记账"
 msgid "Sales Lines"
 msgstr "销售明细"
 
-#. modules: account_analytic_plans, account_analytic_default
+#. modules: sale_analytic_plans, account_analytic_plans, account_analytic_default
 #: model:ir.model,name:account_analytic_default.model_sale_order_line
 #: model:ir.model,name:account_analytic_plans.model_sale_order_line
+#: model:ir.model,name:sale_analytic_plans.model_sale_order_line
 msgid "Sales Order Line"
 msgstr "销售订单明细"
 
@@ -13126,6 +13494,11 @@ msgstr "搜索资产类别"
 #: view:account.bank.statement:account.view_bank_statement_search
 msgid "Search Bank Statements"
 msgstr "搜索银行对账单"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Search Bank Transactions"
+msgstr "搜索银行交易"
 
 #. module: account
 #: view:account.chart.template:account.view_account_chart_template_seacrh
@@ -13440,7 +13813,7 @@ msgstr "已发送"
 msgid "September"
 msgstr "九月"
 
-#. modules: account_followup, account, account_analytic_default, account_analytic_plans, account_asset
+#. modules: account_test, account, account_analytic_default, account_followup, account_asset, account_analytic_plans
 #: field:account.bank.statement.line,sequence:0
 #: field:account.financial.report,sequence:0
 #: field:account.fiscal.position,sequence:0
@@ -13456,6 +13829,7 @@ msgstr "九月"
 #: field:account.analytic.plan.line,sequence:0
 #: field:account.asset.depreciation.line,sequence:0
 #: field:account_followup.followup.line,sequence:0
+#: field:accounting.assert.test,sequence:0
 msgid "Sequence"
 msgstr "序列"
 
@@ -13771,12 +14145,13 @@ msgstr "资产状态"
 msgid "State of Move Line"
 msgstr "凭证明细的状态"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: view:account.bank.statement:account.view_bank_statement_form2
 #: view:account.bank.statement:account.view_bank_statement_tree
 #: view:account.bank.statement:account.view_cash_statement_tree
 #: field:account.bank.statement.line,statement_id:0
 #: field:account.move.line,statement_id:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Statement"
 msgstr "结算单"
 
@@ -13785,6 +14160,16 @@ msgstr "结算单"
 #, python-format
 msgid "Statement %s confirmed, journal items were created."
 msgstr "结算单 %s 已确认，日记账项目已创建."
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_form
+msgid "Statement Line"
+msgstr "对账单行"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
+msgid "Statement Lines"
+msgstr "单据行"
 
 #. module: account
 #: view:account.statement.operation.template:account.view_account_statement_operation_template_form
@@ -13817,7 +14202,7 @@ msgstr "状态"
 msgid "Statistics"
 msgstr "统计"
 
-#. modules: account, account_analytic_analysis, account_payment, account_voucher, account_asset, analytic, account_budget
+#. modules: account, account_analytic_analysis, account_payment, account_asset, account_voucher, analytic, account_budget, account_bank_statement_extensions
 #: view:account.analytic.account:account.view_account_analytic_account_search
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
@@ -13839,6 +14224,7 @@ msgstr "统计"
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 #: field:account.asset.asset,state:0
 #: field:asset.asset.report,state:0
+#: field:account.bank.statement.line,state:0
 #: field:crossovered.budget,state:0
 #: view:payment.order:account_payment.view_payment_order_search
 #: field:payment.order,state:0
@@ -14531,10 +14917,76 @@ msgstr "条款"
 msgid "Terms and Conditions"
 msgstr "条款和条件"
 
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_01
+msgid "Test 1: General balance"
+msgstr "Test 1: General balance"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_02
+msgid "Test 2: Opening a fiscal year"
+msgstr "测试2: 打开一个会计年度"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_03
+msgid "Test 3: Movement lines"
+msgstr "Test 3: Movement lines"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_04
+msgid "Test 4: Totally reconciled mouvements"
+msgstr "Test 4: Totally reconciled mouvements"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_05
+msgid "Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+msgstr "Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_05_2
+msgid "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
+msgstr "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_06
+msgid "Test 6 : Invoices status"
+msgstr "Test 6 : Invoices status"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_06_1
+msgid "Test 7: « View  » account type"
+msgstr "Test 7: « View  » account type"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_07
+msgid "Test 8 : Closing balance on bank statements"
+msgstr "Test 8 : Closing balance on bank statements"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_08
+msgid "Test 9 : Accounts and partners on account moves"
+msgstr "Test 9 : Accounts and partners on account moves"
+
+#. module: account_test
+#: field:accounting.assert.test,desc:0
+msgid "Test Description"
+msgstr "Test Description"
+
+#. module: account_test
+#: field:accounting.assert.test,name:0
+msgid "Test Name"
+msgstr "Test Name"
+
 #. module: account_followup
 #: field:account_followup.print,test_print:0
 msgid "Test Print"
 msgstr "仅打印"
+
+#. module: account_test
+#: view:accounting.assert.test:account_test.account_assert_form
+#: view:accounting.assert.test:account_test.account_assert_tree
+msgid "Tests"
+msgstr "Tests"
 
 #. module: account
 #. openerp-web
@@ -14644,6 +15096,11 @@ msgstr "该银行对账单用于银行调节"
 msgid "The best practice here is to use a journal dedicated to contain the opening entries of all fiscal years. Note that you should define it with default debit/credit accounts, of type 'situation' and with a centralized counterpart."
 msgstr "最好使用一个专用的分录去控制所有会计年度的开账分录。\n"
 "注意您应该设定默认的借方/贷方科目，类型是 “期初/期末状态”，并且选中“合并对方科目”。"
+
+#. module: account_bank_statement_extensions
+#: sql_constraint:account.bank.statement.line.global:0
+msgid "The code must be unique !"
+msgstr "编号必须唯一！"
 
 #. module: account
 #: sql_constraint:account.account:0
@@ -14936,6 +15393,12 @@ msgstr "讯息的跟进消息"
 #: help:account.invoice.tax,tax_code_id:0
 msgid "The tax basis of the tax declaration."
 msgstr "税说明中的税基"
+
+#. module: account_test
+#: code:addons/account_test/report/account_test_report.py:78
+#, python-format
+msgid "The test was passed successfully"
+msgstr "测试通过"
 
 #. module: account_analytic_plans
 #: code:addons/account_analytic_plans/account_analytic_plans.py:231
@@ -15267,7 +15730,7 @@ msgstr "此字段是用于应付账款和应收账款的会计分录。您可以
 #. module: account
 #: help:account.account.type,report_type:0
 msgid "This field is used to generate legal reports: profit and loss, balance sheet."
-msgstr "这个字段用于生成法定报告：损益，资产负债表"
+msgstr "这个字段用于生成法定报告：损益表，资产负债表"
 
 #. module: account
 #: help:account.bank.statement.line,partner_name:0
@@ -15600,11 +16063,12 @@ msgstr "Total (Currency)"
 msgid "Total Allocation"
 msgstr "分配合计"
 
-#. modules: account, account_voucher
+#. modules: account_bank_statement_extensions, account, account_voucher
 #: view:account.invoice:account.invoice_tree
 #: view:account.move:account.view_account_move_tree
 #: view:account.move:account.view_move_tree
 #: view:report.invoice.created:account.board_view_created_invoice
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
 #: view:account.voucher:account_voucher.view_voucher_form
 #: view:account.voucher:account_voucher.view_voucher_tree
 #: view:account.voucher:account_voucher.view_voucher_tree_nocreate
@@ -15801,8 +16265,9 @@ msgstr "交易信息"
 msgid "Transaction reference number."
 msgstr "交易单号"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: view:account.bank.statement:account.view_bank_statement_form
+#: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
 msgid "Transactions"
 msgstr "交易"
 
@@ -15826,19 +16291,19 @@ msgstr "金库分析"
 #: model:ir.actions.report.xml,name:account.action_report_trial_balance
 #: model:ir.ui.menu,name:account.menu_general_Balance_report
 msgid "Trial Balance"
-msgstr "试算平衡"
+msgstr "试算表"
 
 #. module: account
 #: model:ir.model,name:account.model_account_balance_report
 msgid "Trial Balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: account
 #: selection:account.tax.template,applicable_type:0
 msgid "True"
 msgstr "True"
 
-#. modules: account, account_voucher
+#. modules: account_bank_statement_extensions, account, account_voucher
 #: view:account.analytic.account:account.view_account_analytic_account_search
 #: view:account.analytic.journal:account.view_analytic_journal_search
 #: field:account.analytic.journal,type:0
@@ -15850,6 +16315,7 @@ msgstr "True"
 #: field:account.move.reconcile,type:0
 #: xsl:account.transfer:0
 #: field:report.invoice.created,type:0
+#: field:account.bank.statement.line.global,type:0
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 #: field:sale.receipt.report,type:0
 msgid "Type"
@@ -16237,7 +16703,8 @@ msgstr "已确认"
 msgid "Validated Vouchers"
 msgstr "已确认的凭证"
 
-#. module: account_payment
+#. modules: account_bank_statement_extensions, account_payment
+#: field:account.bank.statement.line,val_date:0
 #: view:website:account_payment.report_paymentorder
 msgid "Value Date"
 msgstr "起息日"
@@ -16344,7 +16811,7 @@ msgstr "警告"
 msgid "Warning !"
 msgstr "警告 !"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: code:addons/account/account.py:671
 #: code:addons/account/account.py:683
 #: code:addons/account/account.py:686
@@ -16367,6 +16834,7 @@ msgstr "警告 !"
 #: code:addons/account/wizard/account_state_open.py:38
 #: code:addons/account/wizard/account_validate_account_move.py:39
 #: code:addons/account/wizard/account_validate_account_move.py:60
+#: code:addons/account_bank_statement_extensions/account_bank_statement.py:133
 #, python-format
 msgid "Warning!"
 msgstr "警告！"
@@ -17103,6 +17571,11 @@ msgstr "在"
 msgid "balance"
 msgstr "余额"
 
+#. module: account_bank_statement_extensions
+#: model:ir.actions.act_window,help:account_bank_statement_extensions.action_cancel_statement_line
+msgid "cancel selected statement lines."
+msgstr "取消所选单据行"
+
 #. modules: account, account_voucher
 #: code:addons/account/account_bank_statement.py:700
 #: code:addons/account_voucher/account_voucher.py:1114
@@ -17176,7 +17649,7 @@ msgstr "月"
 msgid "months"
 msgstr "月"
 
-#. modules: account, account_payment, account_followup, account_asset, account_voucher, account_check_writing, account_budget, account_analytic_plans
+#. modules: account, account_payment, account_followup, account_asset, account_voucher, account_check_writing, account_budget, account_bank_statement_extensions, account_analytic_plans
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 #: view:account.analytic.balance:account.account_analytic_balance_view
 #: view:account.analytic.chart:account.account_analytic_chart_view
@@ -17219,6 +17692,7 @@ msgstr "月"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 #: view:asset.depreciation.confirmation.wizard:account_asset.view_asset_depreciation_confirmation_wizard
 #: view:asset.modify:account_asset.asset_modify_form
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
 #: view:account.budget.analytic:account_budget.account_budget_analytic_view
 #: view:account.budget.crossvered.report:account_budget.account_budget_crossvered_report_view
 #: view:account.budget.crossvered.summary.report:account_budget.account_budget_crossvered_summary_report_view
