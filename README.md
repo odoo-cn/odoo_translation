@@ -158,11 +158,19 @@ Tips：
 
 ## 2.1  git操作概述
 
+增加master repo  
+
+    git remote add  master https://github.com/odoo-cn/odoo_translation.git # 增加 master repo 地址。
+
 同步master repo
+
+    git checkout master  # 切换至master分支
 
     git pull master master  # 第一个master 是指 master repo ; 后一个master 是指 master 分支。
 
 建立翻译工作的分支
+
+    git checkout master  # 切换至master分支
 
     git checkout -b new_branch  # new_branch 是指进行翻译工作的分支，必须建立，否则无法申请pull request
 
@@ -174,6 +182,10 @@ Tips：
 申请pull request...
 
 略，参考 [申请合并到master  repo.](#pull_request)
+
+
+**更详细情况，请阅读下面部分**
+
 
 
 ## 2.2 准备工作
@@ -231,7 +243,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 首先，添加master repo. 到你的库里，执行命令
 
- git remot add https://github.com/odoo-cn/odoo_translation.git
+    git remot add master https://github.com/odoo-cn/odoo_translation.git
 
 如
 
@@ -242,7 +254,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 同步主库，执行命令
 
- git pull master  master    # 后一个master是 分支的名字
+    git pull master  master    # 后一个master是 分支的名字
 
 如
 
@@ -256,7 +268,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 首先为翻译工作建立一个分支，例如 project
 
- git checkout master -b project
+    git checkout master -b project
 
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194474/42ab2ab2-e4e2-11e4-978e-e037bb534f3c.png)
 
@@ -289,9 +301,9 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 翻译成果需要提交到repo里面， 使用以下命令提交修改
 
- git add *.po
+    git add *.po
 
- git commit  -m ‘提交的消息’    # ‘提交的消息’ 为摘要信息，方便其他人查看，以及备将来自己查看。
+    git commit  -m ‘提交的消息’    # ‘提交的消息’ 为摘要信息，方便其他人查看，以及备将来自己查看。
 
 例如
 
