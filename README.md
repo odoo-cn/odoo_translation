@@ -2,6 +2,7 @@ TOC
 
 <!-- MarkdownTOC -->
 
+- 翻译策略
 - 1. 使用翻译
     - 1.1 使用翻译
     - 1.2 导入翻译
@@ -13,6 +14,12 @@ TOC
     - 2.5 申请合并到master  repo.
 
 <!-- /MarkdownTOC -->
+
+# 翻译策略
+
+** 先在 bundle/zh_CN.po的基础上完成翻译；因为有大量重复的词汇、短语，所以这样能节省时间**
+
+**当bundle/zh_CN.po完全翻译之后，再在build/odoo 目录的单个po文件上优化翻译，针对不同的应用，进行优化。**
 
 
 # 1. 使用翻译
@@ -296,7 +303,6 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 你可以看到你提交的工作成果
 
-<a name="pull_request"></a>
 ## 2.5 申请合并到master  repo.
 
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。
