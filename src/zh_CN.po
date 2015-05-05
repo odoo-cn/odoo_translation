@@ -89137,14 +89137,14 @@ msgstr "包装单元的 EAN 条码"
 #, python-format
 msgid ""
 "The Expense Journal \"%s\" has not properly configured the Credit Account!"
-msgstr "费用账簿 \"%s\"未配置正确的贷方科目"
+msgstr "费用日记账 \"%s\"未配置正确的贷方科目"
 
 #. module: hr_payroll_account
 #: code:addons/hr_payroll_account/hr_payroll_account.py:168
 #, python-format
 msgid ""
 "The Expense Journal \"%s\" has not properly configured the Debit Account!"
-msgstr "费用账簿 \"%s\"未配置正确的借方科目"
+msgstr "费用日记账 \"%s\"未配置正确的借方科目"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:88
@@ -93895,7 +93895,7 @@ msgstr ""
 msgid ""
 "This sequence will be used to maintain the internal number for the journal "
 "entries related to this journal."
-msgstr "此序列用于当前账簿的所有会计凭证"
+msgstr "此序列用于当前日记账的所有会计凭证"
 
 #. modules: project, hr_recruitment, crm
 #: help:crm.case.stage,fold:0 help:hr.recruitment.stage,fold:0
