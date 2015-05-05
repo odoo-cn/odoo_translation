@@ -2,32 +2,31 @@ TOC
 
 <!-- MarkdownTOC -->
 
-- # 0. 翻译策略
-- # 1. 使用翻译
-- 1.1 使用翻译
-    - 覆盖po文件
-    - 同步术语
-- 1.2 导入翻译
-    - 图形方式
-    - 命令行方式
-- # 2. 参与翻译
-- 2.1  git操作概述
-- 2.2 准备工作
-    - Fork  翻译项目
-    - 将fork repo 克隆到本地
-        - 克隆repo.
-        - 更新repo
-- 2.3 进行翻译工作
-- 2.4 提交翻译成果
-    - 提交修改
-    - 将本地repo 同步到fork repo
-- 2.5 申请合并到master  repo.
+- [0. 翻译策略](#guide)
+- [1. 使用翻译](#use_it)
+    - 1.1 使用翻译
+        - 覆盖po文件
+        - 同步术语
+    - 1.2 导入翻译
+        - 图形方式
+        - 命令行方式
+- [2. 参与翻译](#improve_it)
+    - [2.1  git操作概述](#git_overview)
+    - [2.2 准备工作](#prepare)
+        - Fork  翻译项目
+        - 将fork repo 克隆到本地
+            - 克隆repo.
+            - 更新repo
+    - [2.3 进行翻译工作](#working)
+    - 2.4 提交翻译成果
+        - 提交修改
+        - 将本地repo 同步到fork repo
+    - 2.5 申请合并到master  repo.
 
 <!-- /MarkdownTOC -->
 
-<a name="None"></a>
-# 0. 翻译策略
----------------
+<a name="guide"></a>
+# 0. 翻译策略 [guide]
 
 **先在 src/zh_CN.po的基础上完成翻译；因为有大量重复的词汇、短语，所以这样能节省时间**
 
@@ -54,9 +53,8 @@ TOC
 **src/zh_CN.po完全翻译之后，再在build/odoo 目录的单个po文件上优化翻译，针对不同的应用，进行优化。**
 
 
-<a name="None"></a>
-# 1. 使用翻译
---------------
+<a name="use_it"></a>
+# 1. 使用翻译  [use_it]
 
 建议使用po bundle，即所有模块的翻译合并在一起的po文件
 
@@ -186,9 +184,8 @@ Tips：
 
 
 
-<a name="None"></a>
-# 2. 参与翻译  
--------------
+<a name="improve_it"></a>
+# 2. 参与翻译  [improve_it]
 
 **翻译时参考 [词汇表](glossary.md)**
 
@@ -198,8 +195,8 @@ Tips：
  
  fork repo 是指你的克隆
 
-<a name="None"></a>
-## 2.1  git操作概述
+<a name="git_overview"></a>
+## 2.1  git操作概述  [git_overview]
 
 增加master repo  
 
@@ -231,8 +228,8 @@ Tips：
 
 
 
-<a name="None"></a>
-## 2.2 准备工作
+<a name="prepare"></a>
+## 2.2 准备工作  [prepare]
 
 申请github账号，略
 
@@ -311,8 +308,8 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 此时，你的本地库与odoo-cn/odoo_translation主库是同步的。
 
-<a name="None"></a>
-## 2.3 进行翻译工作
+<a name="working"></a>
+## 2.3 进行翻译工作  [working]
 
 
 首先为翻译工作建立一个分支，例如 project
