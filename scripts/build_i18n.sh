@@ -5,15 +5,27 @@ OE_DIR=/opt/openerp/server
 CONFIG=/opt/openerp/t.conf
 DB=i18n
 
-for d in `dir $OE_DIR/openerp/addons`; do echo $d >> $HOME_DIR/addons
-for e in `dir $OE_DIR/addons`; do echo $e >> $HOME_DIR/addons
+for d in `dir $OE_DIR/openerp/addons`; do echo $d >> $HOME_DIR/addons ;done
+for e in `dir $OE_DIR/addons`; do echo $e >> $HOME_DIR/addons ;done
+
+if [ -d $HOME_DIR/_build ]; then
+    rm -rf  $HOME_DIR/_build
+fi
 
 if [ ! -d $HOME_DIR/_build ]; then
     mkdir $HOME_DIR/_build
 fi
 
+if [ -d $HOME_DIR/bundle ]; then
+    rm -rf  $HOME_DIR/bundle
+fi
+
 if [ ! -d $HOME_DIR/bundle ]; then
     mkdir $HOME_DIR/bundle
+fi
+
+if [ -d $HOME_DIR/odoo ]; then
+    rm -rf  $HOME_DIR/odoo
 fi
 
 if [ ! -d $HOME_DIR/odoo ]; then
@@ -47,6 +59,8 @@ python $OE_DIR/openerp-server -c $CONFIG --stop-after-init -d $DB --i18n-export=
 
 done
 
+rm  $HOME_DIR/addons
+
 python $OE_DIR/openerp-server -c $CONFIG --stop-after-init -d $DB --i18n-export=$HOME_DIR/bundle/account.po -l zh_CN --modules=account,account_accountant,account_analytic_analysis,account_analytic_default,account_analytic_plans,account_anglo_saxon,account_asset,account_bank_statement_extensions,account_budget,account_cancel,account_chart,account_check_writing,account_followup,account_payment,account_sequence,account_test,account_voucher,analytic,purchase_analytic_plans,sale_analytic_plans
 
 python $OE_DIR/openerp-server -c $CONFIG --stop-after-init -d $DB --i18n-export=$HOME_DIR/bundle/product.po -l zh_CN --modules=product,product_email_template,product_expiry,product_extended,product_margin,product_visible_discount
@@ -72,9 +86,10 @@ cp -rf $HOME_DIR/bundle  $HOME_DIR/_build/
 
 cd $HOME_DIR/_build/ 
 find .  -type f -size -450c -delete
-find .  -empty -delete
+find .  -type d -empty -delete
 
 cd $HOME_DIR/
+rm build.tar
 tar -cf build.tar  _build/
 
 echo done
