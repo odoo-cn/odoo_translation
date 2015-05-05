@@ -5,16 +5,27 @@ TOC
 - # 0. 翻译策略
 - # 1. 使用翻译
 - 1.1 使用翻译
+    - 覆盖po文件
+    - 同步术语
 - 1.2 导入翻译
+    - 图形方式
+    - 命令行方式
 - # 2. 参与翻译
 - 2.1  git操作概述
 - 2.2 准备工作
+    - Fork  翻译项目
+    - 将fork repo 克隆到本地
+        - 克隆repo.
+        - 更新repo
 - 2.3 进行翻译工作
 - 2.4 提交翻译成果
+    - 提交修改
+    - 将本地repo 同步到fork repo
 - 2.5 申请合并到master  repo.
 
 <!-- /MarkdownTOC -->
 
+<a name="None"></a>
 # 0. 翻译策略
 ---------------
 
@@ -43,6 +54,7 @@ TOC
 **src/zh_CN.po完全翻译之后，再在build/odoo 目录的单个po文件上优化翻译，针对不同的应用，进行优化。**
 
 
+<a name="None"></a>
 # 1. 使用翻译
 --------------
 
@@ -52,23 +64,29 @@ src 目录，包含
 
     1. 全部常用模块的中文翻译，po格式，zh_CN.po   **所有的翻译工作都在此文件的基础上进行**
 
-    ~~2. 全部常用模块的中文翻译，csv格式，zh_CN.csv~~
+~~2. 全部常用模块的中文翻译，csv格式，zh_CN.csv~~
 
 build 目录 **翻译成果** ,包含   
 
     1. 模块的po文件, 按odoo addons目录结构 存放在 odoo目录下
 
-    2. 以及业务功能po文件集合，按业务功能命名 存放在 bundle目录下
+    2. 业务功能po文件集合，按业务功能命名 存放在 bundle目录下
 
-script 目录，包含
+scripts 目录，包含
 
     1. po文件 构建脚本
 
     2. po文件 部署脚本
 
+reference 目录，包含
 
+    1. 专业词典 【会计词典】
+
+
+<a name="None"></a>
 ## 1.1 使用翻译
 
+<a name="None"></a>
 ### 覆盖po文件
 
 **build/odoo目录包含了常用模块的i18n 中文翻译包，可以用来直接覆盖系自带的翻译**
@@ -77,6 +95,7 @@ script 目录，包含
 
 
 
+<a name="None"></a>
 ### 同步术语
 
 至菜单 翻译 - 应用程序术语 - 同步术语 
@@ -88,8 +107,10 @@ script 目录，包含
 
 
 
+<a name="None"></a>
 ## 1.2 导入翻译
 
+<a name="None"></a>
 ### 图形方式
 至 导入/导出，选择 导入翻译
 
@@ -148,6 +169,7 @@ Tips：
 >选择全部，然后删除。
 
 
+<a name="None"></a>
 ### 命令行方式
 
   
@@ -164,6 +186,7 @@ Tips：
 
 
 
+<a name="None"></a>
 # 2. 参与翻译  
 -------------
 
@@ -175,6 +198,7 @@ Tips：
  
  fork repo 是指你的克隆
 
+<a name="None"></a>
 ## 2.1  git操作概述
 
 增加master repo  
@@ -207,11 +231,13 @@ Tips：
 
 
 
+<a name="None"></a>
 ## 2.2 准备工作
 
 申请github账号，略
 
 
+<a name="None"></a>
 ### Fork  翻译项目
 
 至master repo.的github页面 https://github.com/odoo-cn/odoo_translation
@@ -239,6 +265,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 
+<a name="None"></a>
 ### 将fork repo 克隆到本地
 
 在github上选择repo的 URL， 最好选择 ssh。 
@@ -248,6 +275,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 
+<a name="None"></a>
 #### 克隆repo.
 
 执行命令 git clone 
@@ -256,6 +284,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194468/34447bb8-e4e2-11e4-9822-3a5acb7f9ccf.png)
 
 
+<a name="None"></a>
 #### 更新repo
 
 因为在你fork   odoo-cn/odoo_translation 之后， master repo.可能已经更新了，为了保持你的repo.为最新，你需要 与master repo.同步
@@ -282,6 +311,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 此时，你的本地库与odoo-cn/odoo_translation主库是同步的。
 
+<a name="None"></a>
 ## 2.3 进行翻译工作
 
 
@@ -302,6 +332,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 翻译好之后，保存
 
 
+<a name="None"></a>
 ## 2.4 提交翻译成果
 
 保存翻译之后，如果执行命令 git status
@@ -316,6 +347,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194495/a2d535ea-e4e2-11e4-99a1-fe614f3d00a2.png)
 
 
+<a name="None"></a>
 ### 提交修改
 
 翻译成果需要提交到repo里面， 使用以下命令提交修改
@@ -329,6 +361,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194505/c23d57d2-e4e2-11e4-9bd0-97f096781dd0.png)
 
 
+<a name="None"></a>
 ### 将本地repo 同步到fork repo
 
 需要将本地的repo 同步到 fork repo，这样其他协作的人才能看到你的工作成果。
@@ -344,6 +377,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 你可以看到你提交的工作成果
 
+<a name="None"></a>
 ## 2.5 申请合并到master  repo.
 
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。
