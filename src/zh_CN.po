@@ -184,7 +184,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-04 16:26+0000\n"
-"PO-Revision-Date: 2015-05-05 20:23+0800\n"
+"PO-Revision-Date: 2015-05-05 20:36+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -26099,7 +26099,7 @@ msgstr "银行对账单余额"
 #. module: account_bank_statement_extensions
 #: view:website:account_bank_statement_extensions.report_bankstatementbalance
 msgid "Bank Statement Balances Report"
-msgstr "银行单据余额报表"
+msgstr "银行对账单余额报表"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_bank_statement_extensions
@@ -26119,7 +26119,7 @@ msgstr "银行对账单明细"
 #: model:ir.actions.act_window,name:account_bank_statement_extensions.action_bank_statement_line
 #: model:ir.ui.menu,name:account_bank_statement_extensions.bank_statement_line
 msgid "Bank Statement Lines"
-msgstr "银行单据行"
+msgstr "银行对账单明细"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
@@ -39260,7 +39260,9 @@ msgstr "Delete its own posts"
 msgid ""
 "Delete operation not allowed.             Please go to the associated bank "
 "statement in order to delete and/or modify bank statement line."
-msgstr "不允许删除。为了删除和(或)修改银行对账单行，请到关联的银行对账单操作。"
+msgstr ""
+"Delete operation not allowed.             Please go to the associated bank "
+"statement in order to delete and/or modify bank statement line."
 
 #. module: website
 #: view:website:website.snippets
@@ -89135,14 +89137,14 @@ msgstr "包装单元的 EAN 条码"
 #, python-format
 msgid ""
 "The Expense Journal \"%s\" has not properly configured the Credit Account!"
-msgstr "费用日记账 \"%s\"未配置正确的贷方科目"
+msgstr "费用账簿 \"%s\"未配置正确的贷方科目"
 
 #. module: hr_payroll_account
 #: code:addons/hr_payroll_account/hr_payroll_account.py:168
 #, python-format
 msgid ""
 "The Expense Journal \"%s\" has not properly configured the Debit Account!"
-msgstr "费用日记账 \"%s\"未配置正确的借方科目"
+msgstr "费用账簿 \"%s\"未配置正确的借方科目"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:88
@@ -89526,7 +89528,7 @@ msgstr ""
 #: code:addons/account/account_bank_statement.py:735
 #, python-format
 msgid "The bank statement line was already reconciled."
-msgstr "银行对账单明细已经被调节。"
+msgstr "银行对账单明细已经调节。"
 
 #. module: account
 #: help:account.move.line,statement_id:0
@@ -92987,8 +92989,9 @@ msgid ""
 "statement in electronic format, when the partner doesn't exist yet in the "
 "database (or cannot be found)."
 msgstr ""
-"当业务伙伴在系统中尚不存在，电子数据导入系统时候，这个字段用于记录第三方名"
-"称。"
+"This field is used to record the third party name when importing bank "
+"statement in electronic format, when the partner doesn't exist yet in the "
+"database (or cannot be found)."
 
 #. module: base
 #: help:res.lang,code:0
@@ -93892,7 +93895,7 @@ msgstr ""
 msgid ""
 "This sequence will be used to maintain the internal number for the journal "
 "entries related to this journal."
-msgstr "此序列用于当前日记账的所有会计凭证"
+msgstr "此序列用于当前账簿的所有会计凭证"
 
 #. modules: project, hr_recruitment, crm
 #: help:crm.case.stage,fold:0 help:hr.recruitment.stage,fold:0
