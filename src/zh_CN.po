@@ -177,7 +177,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-03 09:47+0000\n"
-"PO-Revision-Date: 2015-05-05 16:00+0800\n"
+"PO-Revision-Date: 2015-05-06 10:57+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -102958,7 +102958,7 @@ msgstr "也许你不相信，<br />但是这个应用真的还在加载...."
 #: code:addons/stock/wizard/stock_return_picking.py:69
 #, python-format
 msgid "You may only return pickings that are Done!"
-msgstr "You may only return pickings that are Done!"
+msgstr "完成时你只能返回领料!"
 
 #. module: share
 #: code:addons/share/wizard/share_wizard.py:872
@@ -102970,13 +102970,13 @@ msgstr "你可以使用你当前的登录名(%s)和密码来查阅它们。\n"
 #: code:addons/mrp/stock.py:42 code:addons/stock/stock.py:2184
 #, python-format
 msgid "You must assign a serial number for the product %s"
-msgstr "You must assign a serial number for the product %s"
+msgstr "你必须为你的产品分配一个序列号 %s"
 
 #. module: project
 #: code:addons/project/project.py:435
 #, python-format
 msgid "You must assign members on the project '%s'!"
-msgstr "You must assign members on the project '%s'!"
+msgstr "你必须指定的项目成员 '%s'!"
 
 #. module: account
 #. openerp-web
@@ -103003,7 +103003,7 @@ msgstr "至少选择1个记录。"
 #: code:addons/base_import/models.py:275
 #, python-format
 msgid "You must configure at least one field to import"
-msgstr "You must configure at least one field to import"
+msgstr "你必须至少设置一个字段才能导入"
 
 #. module: pad
 #. openerp-web
@@ -103026,13 +103026,13 @@ msgstr "在使用分享按钮前，你必须在用户首选项处配置你的电
 #: code:addons/crm_partner_assign/wizard/crm_channel_interested.py:44
 #, python-format
 msgid "You must contact the lead before saying that you are interested"
-msgstr "You must contact the lead before saying that you are interested"
+msgstr "在说你感情趣之前,你必须联系领导"
 
 #. module: hr_recruitment
 #: code:addons/hr_recruitment/hr_recruitment.py:512
 #, python-format
 msgid "You must define an Applied Job and a Contact Name for this applicant."
-msgstr "You must define an Applied Job and a Contact Name for this applicant."
+msgstr "你必须定义一个应用任务和联系人姓名作为申请人."
 
 #. module: account
 #: code:addons/account/account_invoice.py:95
@@ -103050,7 +103050,7 @@ msgstr "您必须先取消跟此采购单有关的所有发票"
 #: code:addons/account_analytic_analysis/account_analytic_analysis.py:678
 #, python-format
 msgid "You must first select a Customer for Contract %s!"
-msgstr "You must first select a Customer for Contract %s!"
+msgstr "你首先必须为合同选择一个客户 %s!"
 
 #. module: account
 #: code:addons/account/account_invoice.py:1312
@@ -103113,7 +103113,7 @@ msgstr "你需要一个打开的日记账，集中配置初始余额。"
 #: code:addons/website_blog/wizard/document_page_show_diff.py:50
 #, python-format
 msgid "You need to select minimum one or maximum two history revisions!"
-msgstr "You need to select minimum one or maximum two history revisions!"
+msgstr "你需要选择最小的一个或者最大的2个历史修订版本!"
 
 #. module: report
 #. openerp-web
@@ -103122,9 +103122,7 @@ msgstr "You need to select minimum one or maximum two history revisions!"
 msgid ""
 "You need to start OpenERP with at least two \n"
 "workers to print a pdf version of the reports."
-msgstr ""
-"You need to start OpenERP with at least two \n"
-"workers to print a pdf version of the reports."
+msgstr "你要开始 odoo 至少需两人在报表中打印PDF版本."
 
 #. module: sale_stock
 #: code:addons/sale_stock/sale_stock.py:343
@@ -103146,7 +103144,7 @@ msgstr "你提供了一个错误的  \"EAN13 条码\" 编号。你可能要用 �
 #. module: survey
 #: view:website:survey.sfinished
 msgid "You scored"
-msgstr "You scored"
+msgstr "你的分数"
 
 #. module: sale_stock
 #: code:addons/sale_stock/sale_stock.py:257
@@ -103163,7 +103161,7 @@ msgstr ""
 #. module: website_blog
 #: view:website:website_blog.latest_blogs
 msgid "You should"
-msgstr "You should"
+msgstr "你需要"
 
 #. module: point_of_sale
 #: code:addons/point_of_sale/point_of_sale.py:386
@@ -103194,10 +103192,7 @@ msgid ""
 "You should configure the 'Gain Exchange Rate Account' to manage "
 "automatically the booking of accounting entries related to differences "
 "between exchange rates."
-msgstr ""
-"You should configure the 'Gain Exchange Rate Account' to manage "
-"automatically the booking of accounting entries related to differences "
-"between exchange rates."
+msgstr "要自动管理预订的会计分录相关汇率之间的差异,则需要你配置收益汇率帐户."
 
 #. module: account
 #: code:addons/account/account_bank_statement.py:693
@@ -103216,10 +103211,7 @@ msgid ""
 "You should configure the 'Loss Exchange Rate Account' to manage "
 "automatically the booking of accounting entries related to differences "
 "between exchange rates."
-msgstr ""
-"You should configure the 'Loss Exchange Rate Account' to manage "
-"automatically the booking of accounting entries related to differences "
-"between exchange rates."
+msgstr "要自动管理预订的会计分录相关汇率之间的差异,则需要你配置损失汇率帐户."
 
 #. module: hr_timesheet
 #: model:ir.actions.act_window,help:hr_timesheet.action_define_analytic_structure
@@ -103228,9 +103220,8 @@ msgid ""
 "analyse costs and revenues. In Odoo, analytic accounts are also used to "
 "track customer contracts."
 msgstr ""
-"You should create an analytic account structure depending on your needs to "
-"analyse costs and revenues. In Odoo, analytic accounts are also used to "
-"track customer contracts."
+"你应该创建一个分析账户结构根据你的需求来分析成本和收入。在Odoo，分析账户也被"
+"用来跟踪客户合同."
 
 #. module: account
 #: code:addons/account/wizard/pos_box.py:57
@@ -103253,11 +103244,8 @@ msgid ""
 "wkhtmltopdf.org/\" \n"
 " target=\"_blank\">wkhtmltopdf.org</a>"
 msgstr ""
-"You should upgrade your version of\n"
-" Wkhtmltopdf to at least 0.12.0 in order to get a correct display of headers "
-"and footers as well as\n"
-" support for table-breaking between pages.<br><br><a href=\"http://"
-"wkhtmltopdf.org/\" \n"
+"为了支持表分页之间正确显示页眉页脚,你的Wkhtmltopdf应该至少升级到0.12.0版本."
+"<br><br><a href=\"http://wkhtmltopdf.org/\" \n"
 " target=\"_blank\">wkhtmltopdf.org</a>"
 
 #. module: sale
@@ -103273,9 +103261,7 @@ msgstr "您不可以为下列销售订单 %s 手工开票"
 msgid ""
 "You successfully installed the e-commerce. This guide will help you to "
 "create your product and promote your sales."
-msgstr ""
-"You successfully installed the e-commerce. This guide will help you to "
-"create your product and promote your sales."
+msgstr "你成功地安装了电子商务。本指南将帮助你创造你自己的产品，促进你的销售."
 
 #. module: hr_attendance
 #: code:addons/hr_attendance/hr_attendance.py:179
@@ -103299,8 +103285,8 @@ msgid ""
 "You try to move a product using a UoM that is not compatible with the UoM of "
 "the product moved. Please use an UoM in the same UoM category."
 msgstr ""
-"You try to move a product using a UoM that is not compatible with the UoM of "
-"the product moved. Please use an UoM in the same UoM category."
+"你尝试移动产品的计量单位不兼容,因为这个产品计量单位已被移动.请使用和计量单位"
+"类别相同的计量单位."
 
 #. module: base
 #: code:addons/base/module/module.py:339
@@ -103324,10 +103310,9 @@ msgid ""
 "20% advance invoice (fixed price, based on a sales order), you should "
 "invoice the rest on timesheet with a 80% ratio."
 msgstr ""
-"You usually invoice 100% of the timesheets. But if you mix fixed price and "
-"timesheet invoicing, you may use another ratio. For instance, if you do a "
-"20% advance invoice (fixed price, based on a sales order), you should "
-"invoice the rest on timesheet with a 80% ratio."
+"你通常将工时表中的发票设置为100%.但是如果你要在工时表中的发票与固定价格相混"
+"合,你可以使用其他比例.例如,如果你做一个20%的预付款发票（基于销售订单的固定价"
+"格）,你需要将工时表中的发票重新设置为80%的比例."
 
 #. module: account
 #. openerp-web
@@ -103341,9 +103326,7 @@ msgstr "本人核准"
 msgid ""
 "You will be able to define additional access rights by editing the newly "
 "created user under the Settings / Users menu."
-msgstr ""
-"You will be able to define additional access rights by editing the newly "
-"created user under the Settings / Users menu."
+msgstr "你可以通过编辑新创建的用户设置/用户菜单下定义额外的访问权限。"
 
 #. module: account
 #: view:account.invoice.refund:account.view_account_invoice_refund
@@ -103366,9 +103349,7 @@ msgstr ""
 msgid ""
 "You will be able to register your working hours and\n"
 "                        activities."
-msgstr ""
-"You will be able to register your working hours and\n"
-"                        activities."
+msgstr "你可以注册你的工作时间和活动。"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -103382,22 +103363,22 @@ msgstr "你能在你的公司明细里找到多个选项：用于页首和页脚
 #: code:addons/point_of_sale/static/src/js/widgets.js:985
 #, python-format
 msgid "You will lose any data associated with the current order"
-msgstr "You will lose any data associated with the current order"
+msgstr "你将丢失目前订单相关的任何数据"
 
 #. module: website
 #: view:website:website.themes
 msgid "You'll be able to change the theme at anytime"
-msgstr "You'll be able to change the theme at anytime"
+msgstr "你可以在任何时候更改主题"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.action_lunch_cashmove_form
 msgid "Your Account"
-msgstr "Your Account"
+msgstr "你的账户"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Your Address"
-msgstr "Your Address"
+msgstr "你的地址"
 
 #. module: website
 #. openerp-web
@@ -103405,17 +103386,17 @@ msgstr "Your Address"
 #: view:website:website.snippets
 #, python-format
 msgid "Your Banner Title"
-msgstr "Your Banner Title"
+msgstr "你的横幅标题"
 
 #. module: website_crm
 #: view:website:website.contactus
 msgid "Your Company"
-msgstr "Your Company"
+msgstr "你的公司"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Your Contact:"
-msgstr "Your Contact:"
+msgstr "你的联系人:"
 
 #. modules: website_event_track, auth_signup, website_hr_recruitment
 #: view:website:auth_signup.fields view:website:auth_signup.reset_password
@@ -103429,7 +103410,7 @@ msgstr "您的电子邮件"
 #: code:addons/website_blog/static/src/xml/website_blog.inline.discussion.xml:32
 #, python-format
 msgid "Your Email..."
-msgstr "Your Email..."
+msgstr "你的邮件..."
 
 #. module: point_of_sale
 #. openerp-web
