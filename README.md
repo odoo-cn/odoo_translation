@@ -2,57 +2,89 @@ TOC
 
 <!-- MarkdownTOC -->
 
-- # 0. 翻译策略
-- # 1. 使用翻译
-- 1.1 使用翻译
-- 1.2 导入翻译
-- # 2. 参与翻译
-- 2.1  git操作概述
-- 2.2 准备工作
-- 2.3 进行翻译工作
-- 2.4 提交翻译成果
-- 2.5 申请合并到master  repo.
+- [0. 翻译策略](#guide)
+- [1. 使用翻译](#use_it)
+    - 1.1 使用翻译
+        - 覆盖po文件
+        - 同步术语
+    - 1.2 导入翻译
+        - 图形方式
+        - 命令行方式
+- [2. 参与翻译](#improve_it)
+    - [2.1  git操作概述](#git_overview)
+    - [2.2 准备工作](#prepare)
+        - Fork  翻译项目
+        - 将fork repo 克隆到本地
+            - 克隆repo.
+            - 更新repo
+    - [2.3 进行翻译工作](#working)
+    - 2.4 提交翻译成果
+        - 提交修改
+        - 将本地repo 同步到fork repo
+    - 2.5 申请合并到master  repo.
 
 <!-- /MarkdownTOC -->
 
-# 0. 翻译策略
----------------
+<a name="guide"></a>
+# 0. 翻译策略 [guide]
 
-**先在 bundle/zh_CN.po的基础上完成翻译；因为有大量重复的词汇、短语，所以这样能节省时间**
+**先在 src/zh_CN.po的基础上完成翻译；因为有大量重复的词汇、短语，所以这样能节省时间**
 
 原则
 
+* base 模块里面关于其他模块的说明，无需翻译
+
+* {} 包含的是 JS代码，无需翻译
+
+* [] 包含的是 domain，无需翻译
+
+* 原文里面 包含的html 标签，必须原样保留，无需翻译
+
 * 贴近原文，符合专业标准
+
+* 优先评审现有的中文翻译，评审时，参考 [术语表](glossary.md) 以及其他的翻译
 
 * 优先翻译目前是英文的语句， 翻译之前，参考 [术语表](glossary.md) 以及其他的翻译
 
-* 可以评审现有的中文翻译，评审时，参考 术语表 以及其他的翻译
+* 其次为长语句，长段落
 
-* 优先评审长的语句
+* 第一阶段的任务对象是 src/zh_CN.po 
 
-**当bundle/zh_CN.po完全翻译之后，再在build/odoo 目录的单个po文件上优化翻译，针对不同的应用，进行优化。**
+**src/zh_CN.po完全翻译之后，再在build/odoo 目录的单个po文件上优化翻译，针对不同的应用，进行优化。**
 
 
-# 1. 使用翻译
---------------
-
+<a name="use_it"></a>
+# 1. 使用翻译  [use_it]
 
 建议使用po bundle，即所有模块的翻译合并在一起的po文件
 
-bundle 目录，包含
+src 目录，包含
 
-1. 全部常用模块的中文翻译，po格式，zh_CN.po   **所有的翻译工作都在此文件的基础上进行**
+    1. 全部常用模块的中文翻译，po格式，zh_CN.po   **所有的翻译工作都在此文件的基础上进行**
 
-2. 全部常用模块的中文翻译，csv格式，zh_CN.csv 
+~~2. 全部常用模块的中文翻译，csv格式，zh_CN.csv~~
 
-build 目录 **此目录为翻译成果** ,包含   
+build 目录 **翻译成果** ,包含   
 
-1. 单个模块的po文件
+    1. 模块的po文件, 按odoo addons目录结构 存放在 odoo目录下
 
-2. 以及常用业务功能po文件集合，po budnle
+    2. 业务功能po文件集合，按业务功能命名 存放在 bundle目录下
 
+scripts 目录，包含
+
+    1. po文件 构建脚本
+
+    2. po文件 部署脚本
+
+reference 目录，包含
+
+    1. 专业词典 【会计词典】
+
+
+<a name="None"></a>
 ## 1.1 使用翻译
 
+<a name="None"></a>
 ### 覆盖po文件
 
 **build/odoo目录包含了常用模块的i18n 中文翻译包，可以用来直接覆盖系自带的翻译**
@@ -61,6 +93,7 @@ build 目录 **此目录为翻译成果** ,包含
 
 
 
+<a name="None"></a>
 ### 同步术语
 
 至菜单 翻译 - 应用程序术语 - 同步术语 
@@ -72,8 +105,10 @@ build 目录 **此目录为翻译成果** ,包含
 
 
 
+<a name="None"></a>
 ## 1.2 导入翻译
 
+<a name="None"></a>
 ### 图形方式
 至 导入/导出，选择 导入翻译
 
@@ -132,6 +167,7 @@ Tips：
 >选择全部，然后删除。
 
 
+<a name="None"></a>
 ### 命令行方式
 
   
@@ -148,8 +184,8 @@ Tips：
 
 
 
-# 2. 参与翻译  
--------------
+<a name="improve_it"></a>
+# 2. 参与翻译  [improve_it]
 
 **翻译时参考 [词汇表](glossary.md)**
 
@@ -159,7 +195,8 @@ Tips：
  
  fork repo 是指你的克隆
 
-## 2.1  git操作概述
+<a name="git_overview"></a>
+## 2.1  git操作概述  [git_overview]
 
 增加master repo  
 
@@ -191,11 +228,13 @@ Tips：
 
 
 
-## 2.2 准备工作
+<a name="prepare"></a>
+## 2.2 准备工作  [prepare]
 
 申请github账号，略
 
 
+<a name="None"></a>
 ### Fork  翻译项目
 
 至master repo.的github页面 https://github.com/odoo-cn/odoo_translation
@@ -223,6 +262,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 
+<a name="None"></a>
 ### 将fork repo 克隆到本地
 
 在github上选择repo的 URL， 最好选择 ssh。 
@@ -232,6 +272,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 
 
+<a name="None"></a>
 #### 克隆repo.
 
 执行命令 git clone 
@@ -240,6 +281,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194468/34447bb8-e4e2-11e4-9822-3a5acb7f9ccf.png)
 
 
+<a name="None"></a>
 #### 更新repo
 
 因为在你fork   odoo-cn/odoo_translation 之后， master repo.可能已经更新了，为了保持你的repo.为最新，你需要 与master repo.同步
@@ -266,7 +308,8 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 此时，你的本地库与odoo-cn/odoo_translation主库是同步的。
 
-## 2.3 进行翻译工作
+<a name="working"></a>
+## 2.3 进行翻译工作  [working]
 
 
 首先为翻译工作建立一个分支，例如 project
@@ -286,6 +329,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 翻译好之后，保存
 
 
+<a name="None"></a>
 ## 2.4 提交翻译成果
 
 保存翻译之后，如果执行命令 git status
@@ -300,6 +344,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194495/a2d535ea-e4e2-11e4-99a1-fe614f3d00a2.png)
 
 
+<a name="None"></a>
 ### 提交修改
 
 翻译成果需要提交到repo里面， 使用以下命令提交修改
@@ -313,6 +358,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 ![image](https://cloud.githubusercontent.com/assets/1404460/7194505/c23d57d2-e4e2-11e4-9bd0-97f096781dd0.png)
 
 
+<a name="None"></a>
 ### 将本地repo 同步到fork repo
 
 需要将本地的repo 同步到 fork repo，这样其他协作的人才能看到你的工作成果。
@@ -328,6 +374,7 @@ Fork 好之后，就可以在你的github账号下看到你的fork
 
 你可以看到你提交的工作成果
 
+<a name="None"></a>
 ## 2.5 申请合并到master  repo.
 
 你的本地修改提交到你的fork repo之后，还需要合并到master repo，这样，其他与人协作的人才能使用你的工作成果。

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-03 21:15+0000\n"
-"PO-Revision-Date: 2015-05-03 21:15+0000\n"
+"POT-Creation-Date: 2015-05-04 15:45+0000\n"
+"PO-Revision-Date: 2015-05-04 15:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -719,6 +719,14 @@ msgid "Status"
 msgstr "状态"
 
 #. module: hr_timesheet_invoice
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:329
+#, python-format
+msgid "The analytic account is in pending state.\n"
+"You should not work on this account !"
+msgstr "The analytic account is in pending state.\n"
+"You should not work on this account !"
+
+#. module: hr_timesheet_invoice
 #: help:hr.timesheet.invoice.create,price:0
 msgid "The cost of each work done will be displayed on the invoice. You probably don't want to check this"
 msgstr "工作完成的成本将显示在发票上。你可能不想勾选它。"
@@ -945,6 +953,12 @@ msgstr "用户"
 #: view:website:hr_timesheet_invoice.report_analyticprofit
 msgid "User or Journal Name"
 msgstr "用户或者日记账名称"
+
+#. module: hr_timesheet_invoice
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:328
+#, python-format
+msgid "Warning"
+msgstr "Warning"
 
 #. module: hr_timesheet_invoice
 #: code:addons/hr_timesheet_invoice/wizard/hr_timesheet_invoice_create.py:56

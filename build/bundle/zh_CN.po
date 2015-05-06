@@ -2,10 +2,12 @@
 # This file contains the translation of the following modules:
 #	* account_cancel
 #	* mrp_repair
-#	* edi
+#	* base_iban
 #	* account_voucher
+#	* report
 #	* analytic_contract_hr_expense
 #	* website_event
+#	* crm_project_issue
 #	* web
 #	* website_gengo
 #	* knowledge
@@ -21,7 +23,7 @@
 #	* sale_service
 #	* marketing_campaign
 #	* sale_stock
-#	* portal_claim
+#	* edi
 #	* stock_landed_costs
 #	* hr_expense
 #	* base_import
@@ -30,7 +32,7 @@
 #	* lunch
 #	* website_mail
 #	* account_budget
-#	* report
+#	* account_bank_statement_extensions
 #	* resource
 #	* hr_payroll_account
 #	* crm_profiling
@@ -50,11 +52,12 @@
 #	* crm
 #	* stock_picking_wave
 #	* hr_timesheet_invoice
-#	* website_quote
+#	* purchase_analytic_plans
 #	* fetchmail
 #	* product_email_template
 #	* mass_mailing
 #	* point_of_sale
+#	* base_import_module
 #	* portal_project_issue
 #	* account_accountant
 #	* event
@@ -64,6 +67,7 @@
 #	* gamification_sale_crm
 #	* im_livechat
 #	* portal_sale
+#	* account_test
 #	* account_analytic_default
 #	* account_payment
 #	* marketing
@@ -83,6 +87,7 @@
 #	* website_twitter
 #	* website_livechat
 #	* website_customer
+#	* sale_analytic_plans
 #	* product_expiry
 #	* base_action_rule
 #	* base_geolocalize
@@ -91,15 +96,16 @@
 #	* note_pad
 #	* website_sale
 #	* event_sale
+#	* website_quote
 #	* pos_discount
 #	* email_template
 #	* hr
 #	* bus
 #	* hr_timesheet
 #	* report_intrastat
-#	* account_analytic_plans_fixup
 #	* delivery
 #	* web_kanban_gauge
+#	* anonymization
 #	* project_timesheet
 #	* website_project
 #	* web_view_editor
@@ -158,6 +164,7 @@
 #	* portal
 #	* multi_company
 #	* payment
+#	* portal_claim
 #	* purchase
 #	* account_anglo_saxon
 #	* website_partner
@@ -176,8 +183,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-03 21:50+0000\n"
-"PO-Revision-Date: 2015-05-03 21:50+0000\n"
+"POT-Creation-Date: 2015-05-04 16:26+0000\n"
+"PO-Revision-Date: 2015-05-04 16:26+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -222,10 +229,10 @@ msgstr "\n"
 "\n"
 "=======================\n"
 "\n"
-"This module adds several restaurant features to the Point of Sale:\n"
-"- Bill Printing: Allows you to print a receipt before the order is paid\n"
-"- Bill Splitting: Allows you to split an order into different orders\n"
-"- Kitchen Order Printing: allows you to print orders updates to kitchen or bar printers\n"
+"这个模块增加了几个特色餐饮销售点:\n"
+"- 账单打印：允许您在订单支付之前打印收据\n"
+"- 账单拆分：允许你订单分成不同的订单\n"
+"- 厨房订单打印：允许你把要打印的订单更新到厨房或吧台打印\n"
 "\n"
 ""
 
@@ -243,8 +250,8 @@ msgstr "\n"
 "\n"
 "=======================\n"
 "\n"
-"This module allows the cashier to quickly give a percentage\n"
-"sale discount to a customer.\n"
+"此模块允许出纳快速的给出一个百分比\n"
+"折扣给客户\n"
 "\n"
 ""
 
@@ -264,15 +271,15 @@ msgid "\n"
 " "
 msgstr "\n"
 "\n"
-"Base module for Hungarian localization\n"
+"匈牙利本地化基础模块\n"
 "==========================================\n"
 "\n"
-"This module consists :\n"
+"模块组成：\n"
 "\n"
-" - Generic Hungarian chart of accounts\n"
-" - Hungarian taxes\n"
-" - Hungarian Bank information\n"
-" \n"
+" - 匈牙利通用会计科目表\n"
+" - 匈牙利税收\n"
+" - 匈牙利银行信息\n"
+"\n"
 " "
 
 #. module: base
@@ -288,12 +295,12 @@ msgid "\n"
 "    "
 msgstr "\n"
 "\n"
-"Manage Customer Claims.\n"
+"管理客户索赔\n"
 "=======================\n"
-"This application allows you to track your customers/suppliers claims and grievances.\n"
+"此应用程序允许您跟踪客户/供应商索赔和投诉。\n"
 "\n"
-"It is fully integrated with the email gateway so that you can create\n"
-"automatically new claims based on incoming emails.\n"
+"它和邮件网关完全集成，您可以根据收到的邮件\n"
+"自动创建新的索赔。\n"
 "    "
 
 #. module: base
@@ -331,23 +338,23 @@ msgid "\n"
 "    "
 msgstr "\n"
 "    \n"
-"Belgian localization for in- and outgoing invoices (prereq to account_coda):\n"
+"在外部发票中进行比利时本土化 (前提条件是在账户尾部):\n"
 "============================================================================\n"
-"    - Rename 'reference' field labels to 'Communication'\n"
-"    - Add support for Belgian Structured Communication\n"
+"    - 重命名“参考”字段标签来“通信”\n"
+"    - 添加支持比利时的结构化通信\n"
 "\n"
-"A Structured Communication can be generated automatically on outgoing invoices according to the following algorithms:\n"
+"一个结构化的通信可以根据以下算法对外部发票自动生成:\n"
 "---------------------------------------------------------------------------------------------------------------------\n"
-"    1) Random : +++RRR/RRRR/RRRDD+++\n"
-"        **R..R =** Random Digits, **DD =** Check Digits\n"
-"    2) Date : +++DOY/YEAR/SSSDD+++\n"
-"        **DOY =** Day of the Year, **SSS =** Sequence Number, **DD =** Check Digits\n"
+"    1) 随机 : +++RRR/RRRR/RRRDD+++\n"
+"        **R..R =** 随机数字, **DD =** 校验数字\n"
+"    2) 日期 : +++DOY/YEAR/SSSDD+++\n"
+"        **DOY =** 年中的一天, **SSS =** 序列号, **DD =** 校验数字\n"
 "    3) Customer Reference +++RRR/RRRR/SSSDDD+++\n"
-"        **R..R =** Customer Reference without non-numeric characters, **SSS =** Sequence Number, **DD =** Check Digits  \n"
+"        **R..R =** 客户参考而非数字字符, **SSS =** 序列号, **DD =** 校验数字  \n"
 "        \n"
-"The preferred type of Structured Communication and associated Algorithm can be\n"
-"specified on the Partner records. A 'random' Structured Communication will\n"
-"generated if no algorithm is specified on the Partner record. \n"
+"结构化通信的首选类型和相关的算法可以\n"
+"在合作伙伴指定的记录。如果没有算法在伙伴指定的记录\n"
+"将会生成一个“随机”的结构化通信。\n"
 "\n"
 "    "
 
@@ -5854,6 +5861,13 @@ msgstr "\n"
 "Italian accounting chart and localization.\n"
 "    "
 
+#. module: base_iban
+#: constraint:res.partner.bank:0
+msgid "\n"
+"Please define BIC/Swift code on bank for bank type IBAN Account to make valid payments"
+msgstr "\n"
+"请为 IBAN类型的银行指定 BIC/Swift代码，以便自动付款。"
+
 #. module: base
 #: model:ir.module.module,description:base.module_hw_posbox_homepage
 msgid "\n"
@@ -9515,6 +9529,11 @@ msgstr "% discount"
 msgid "%(bank_name)s: %(acc_number)s"
 msgstr "%(bank_name)s：%(acc_number)s"
 
+#. module: base_iban
+#: model:res.partner.bank.type,format_layout:base_iban.bank_iban
+msgid "%(bank_name)s: IBAN %(acc_number)s - BIC %(bank_bic)s"
+msgstr "%(bank_name)s: IBAN %(acc_number)s - BIC %(bank_bic)s"
+
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
 msgid "%(company_name)s"
@@ -10837,7 +10856,7 @@ msgstr ":业务伙伴名称"
 #. module: account
 #: view:website:account.report_trialbalance
 msgid ": Trial Balance"
-msgstr ":试算平衡"
+msgstr ":试算表"
 
 #. module: account_followup
 #: view:account_followup.followup.line:account_followup.view_account_followup_followup_line_form
@@ -11573,9 +11592,11 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "              </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                单击新增一个产品的发货单。\n"
+"                Click to add a delivery order for this product.\n"
 "              </p><p>\n"
-"                你在此处会发现该产品相关的所有移动历史，以及所有你需要发货给客户的产品。\n"
+"                Here you will find the history of all past deliveries related to\n"
+"                this product, as well as all the products you must deliver to\n"
+"                customers.\n"
 "              </p>\n"
 "            "
 
@@ -11971,6 +11992,17 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                点击添加一个账户.\n"
 "              </p><p>\n"
 "                在处理多币种交易时，由于汇率的变化，可能会产生汇兑收益或者损失。这个菜单提供给你一个假定在今天终结交易预测的损益。只有在账户有多币种时需要配置。\n"
+"              </p>\n"
+"            "
+
+#. module: account_test
+#: model:ir.actions.act_window,help:account_test.action_accounting_assert
+msgid "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create Accounting Test.\n"
+"              </p>\n"
+"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n"
+"                Click to create Accounting Test.\n"
 "              </p>\n"
 "            "
 
@@ -13135,10 +13167,11 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "              </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                创建一个库存移动。\n"
+"                Click to create a stock movement.\n"
 "              </p><p>\n"
-"                此菜单给你在一个特定产品上面的存货作业的完整的可追溯性。\n"
-"                你能筛选该产品，查看该产品所有已经发生和未发生的移库。\n"
+"                This menu gives you the full traceability of inventory\n"
+"                operations on a specific product. You can filter on the product\n"
+"                to see all the past or future movements for the product.\n"
 "              </p>\n"
 "            "
 
@@ -13233,7 +13266,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "              </p><p>\n"
 "                科目类型用来说明在各个日记账中如何使用这个科目。\n"
 "                科目类型的递延方法决定了该账户在年终结账时的处理流程。\n"
-"                财务报告，如资产负债表、利润表，将会使用这个分类。\n"
+"                财务报告，如资产负债表、损益表，将会使用这个分类。\n"
 "              </p>\n"
 "            "
 
@@ -13610,7 +13643,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "              </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                单击 定义一个新的仓库。\n"
+"                Click to define a new warehouse.\n"
 "              </p>\n"
 "            "
 
@@ -13968,9 +14001,12 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "              </p>\n"
 "            "
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                单击开始一次盘存。\n"
+"                Click to start an inventory. \n"
 "              </p><p>\n"
-"                定期盘存通常用于清点每个库位的商品数量。你可以每年定期使用本功能一次来做总体盘存，也可以在任何你需要的时候进行以便符合当前某个产品的存量级别。\n"
+"                Periodical Inventories are used to count the number of products\n"
+"                available per location. You can use it once a year when you do\n"
+"                the general inventory or whenever you need it, to adapt the\n"
+"                current inventory level of a product.\n"
 "              </p>\n"
 "            "
 
@@ -15998,7 +16034,7 @@ msgstr "科目"
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_balance
@@ -16621,6 +16657,13 @@ msgstr "会计报告"
 msgid "Accounting Reports"
 msgstr "会计报告"
 
+#. module: account_test
+#: model:ir.actions.act_window,name:account_test.action_accounting_assert
+#: model:ir.actions.report.xml,name:account_test.account_assert_test_report
+#: model:ir.ui.menu,name:account_test.menu_action_license
+msgid "Accounting Tests"
+msgstr "帐户测试"
+
 #. modules: account_check_writing, account_voucher
 #: model:ir.model,name:account_check_writing.model_account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
@@ -16696,6 +16739,11 @@ msgstr "待调节科目"
 #: model:ir.actions.act_window,name:account.act_account_renew_view
 msgid "Accounts to Renew"
 msgstr "待延续科目"
+
+#. module: account_test
+#: view:website:account_test.report_accounttest
+msgid "Accouting tests on"
+msgstr "Accouting tests on"
 
 #. module: payment
 #: field:payment.transaction,acquirer_id:0
@@ -16950,7 +16998,7 @@ msgstr "激活"
 msgid "Activation Cost"
 msgstr "Activation Cost"
 
-#. modules: sale_journal, fetchmail, hr_evaluation, point_of_sale, crm_claim, calendar, base_action_rule, hr_payroll, procurement, note, gamification, mail, document, stock, product, hr, project_issue, crm_partner_assign, delivery, base, subscription, website_forum, account, resource, mrp, account_asset, hr_recruitment, project, hr_holidays, crm_helpdesk, sales_team, crm
+#. modules: sale_journal, fetchmail, hr_evaluation, point_of_sale, crm_claim, calendar, base_action_rule, hr_payroll, procurement, note, gamification, mail, document, stock, account_test, product, hr, project_issue, crm_partner_assign, delivery, base, subscription, website_forum, account, resource, mrp, account_asset, hr_recruitment, project, hr_holidays, crm_helpdesk, sales_team, crm
 #: field:account.account,active:0
 #: field:account.analytic.journal,active:0
 #: field:account.fiscal.position,active:0
@@ -16958,6 +17006,7 @@ msgstr "Activation Cost"
 #: field:account.payment.term,active:0
 #: field:account.tax,active:0
 #: field:account.asset.asset,active:0
+#: field:accounting.assert.test,active:0
 #: field:ir.cron,active:0
 #: field:ir.mail_server,active:0
 #: field:ir.model.access,active:0
@@ -18318,7 +18367,7 @@ msgstr "所有选择的日记账分录将被确认并过账，这意味着您将
 #: code:addons/stock/procurement.py:241
 #, python-format
 msgid "All stock moves have been cancelled for this procurement."
-msgstr "All stock moves have been cancelled for this procurement."
+msgstr "这个补货的所有库存移动都被取消"
 
 #. module: survey
 #: view:website:survey.result
@@ -18916,7 +18965,7 @@ msgstr "美属萨摩亚"
 msgid "Amharic / አምሃርኛ"
 msgstr "Amharic / አምሃርኛ"
 
-#. modules: account, hr_timesheet_invoice, account_payment, report_intrastat, lunch, account_followup, sale_layout, account_voucher, payment, delivery, analytic, point_of_sale, fleet, account_analytic_plans, calendar, hr_payroll
+#. modules: account, hr_timesheet_invoice, account_payment, report_intrastat, lunch, account_followup, sale_layout, account_voucher, payment, delivery, analytic, point_of_sale, account_bank_statement_extensions, fleet, account_analytic_plans, calendar, hr_payroll
 #. openerp-web
 #: view:account.analytic.line:account.account_analytic_line_extended_form
 #: view:account.analytic.line:account.view_account_analytic_line_form
@@ -18939,6 +18988,7 @@ msgstr "Amharic / አምሃርኛ"
 #: field:cash.box.out,amount:0
 #: view:website:account.report_invoice_document
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
+#: field:account.bank.statement.line.global,amount:0
 #: code:addons/account_followup/account_followup.py:260
 #: view:website:account_followup.report_followup
 #: view:payment.order:account_payment.view_payment_order_form
@@ -19248,7 +19298,7 @@ msgstr "分析"
 msgid "Analytic Acc."
 msgstr "分析账户"
 
-#. modules: project_issue_sheet, account, account_analytic_analysis, hr_timesheet_invoice, sale, hr_timesheet_sheet, purchase_requisition, project_issue, hr_timesheet, purchase, account_voucher, analytic_user_function, account_analytic_plans_fixup, project, analytic, analytic_contract_hr_expense, account_analytic_default, account_budget, l10n_multilang, account_analytic_plans, hr_payroll_account
+#. modules: project_issue_sheet, account, account_analytic_analysis, hr_timesheet_invoice, hr_timesheet_sheet, purchase_requisition, project_issue, hr_timesheet, purchase, account_voucher, analytic_user_function, sale, project, analytic, analytic_contract_hr_expense, account_analytic_default, account_budget, l10n_multilang, account_analytic_plans, hr_payroll_account
 #: view:account.analytic.account:account.view_account_analytic_account_search
 #: view:account.analytic.line:account.view_account_analytic_line_filter
 #: field:account.entries.report,analytic_account_id:0
@@ -19264,7 +19314,6 @@ msgstr "分析账户"
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
 #: field:account.analytic.default,analytic_id:0
 #: field:account.analytic.plan.instance.line,analytic_account_id:0
-#: model:ir.model,name:account_analytic_plans_fixup.model_account_analytic_account
 #: field:crossovered.budget.lines,analytic_account_id:0
 #: model:ir.model,name:account_budget.model_account_analytic_account
 #: view:website:account_budget.report_analyticaccountbudget
@@ -19364,7 +19413,7 @@ msgstr "分析预算"
 msgid "Analytic Defaults"
 msgstr "默认分析"
 
-#. modules: account_analytic_plans, account_analytic_default
+#. modules: sale_analytic_plans, account_analytic_plans, account_analytic_default, purchase_analytic_plans
 #. openerp-web
 #: model:ir.model,name:account_analytic_default.model_account_analytic_default
 #: field:account.analytic.default,analytics_id:0
@@ -19377,6 +19426,8 @@ msgstr "默认分析"
 #: code:addons/account_analytic_plans/static/src/js/account_bank_reconciliation.js:16
 #: code:addons/account_analytic_plans/static/src/js/account_bank_reconciliation.js:23
 #: model:ir.model,name:account_analytic_plans.model_account_analytic_default
+#: field:purchase.order.line,analytics_id:0
+#: field:sale.order.line,analytics_id:0
 #, python-format
 msgid "Analytic Distribution"
 msgstr "分析分配"
@@ -19679,6 +19730,49 @@ msgstr "Announced"
 #: selection:hr.contract,schedule_pay:0
 msgid "Annually"
 msgstr "每年"
+
+#. module: anonymization
+#: model:ir.actions.act_window,name:anonymization.action_ir_model_fields_anonymization_history_tree
+#: view:ir.model.fields.anonymization.history:anonymization.view_ir_model_fields_anonymization_history_form
+#: view:ir.model.fields.anonymization.history:anonymization.view_ir_model_fields_anonymization_history_tree
+#: model:ir.ui.menu,name:anonymization.menu_administration_anonymization_history
+msgid "Anonymization History"
+msgstr "隐藏日志"
+
+#. module: anonymization
+#: model:ir.actions.act_window,name:anonymization.action_ir_model_fields_anonymize_wizard
+#: view:ir.model.fields.anonymize.wizard:anonymization.view_ir_model_fields_anonymize_wizard_form
+msgid "Anonymize Database"
+msgstr "隐藏数据库"
+
+#. module: anonymization
+#: model:ir.ui.menu,name:anonymization.menu_administration_anonymization_wizard
+msgid "Anonymize database"
+msgstr "隐藏数据库"
+
+#. module: anonymization
+#: selection:ir.model.fields.anonymization,state:0
+#: selection:ir.model.fields.anonymize.wizard,state:0
+msgid "Anonymized"
+msgstr "隐藏"
+
+#. module: anonymization
+#: view:ir.model.fields.anonymization:anonymization.view_ir_model_fields_anonymization_form
+msgid "Anonymized Field"
+msgstr "隐藏字段"
+
+#. module: anonymization
+#: model:ir.actions.act_window,name:anonymization.action_ir_model_fields_anonymization_tree
+#: view:ir.model.fields.anonymization:anonymization.view_ir_model_fields_anonymization_tree
+#: model:ir.ui.menu,name:anonymization.menu_administration_anonymization_fields
+msgid "Anonymized Fields"
+msgstr "隐藏的字段"
+
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:448
+#, python-format
+msgid "Anonymized value is None. This cannot happens."
+msgstr "待匿名的值是none，这不可以"
 
 #. module: im_livechat
 #: field:im_chat.session,anonymous_name:0
@@ -20366,6 +20460,11 @@ msgstr "您确认要移除此列？"
 msgid "Are you sure to unreconcile and cancel this record ?"
 msgstr "你确定要反调节并作废这条记录么？"
 
+#. module: account_bank_statement_extensions
+#: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
+msgid "Are you sure you want to cancel the selected Bank Statement lines ?"
+msgstr "你确信要取消所选的银行单据行么？"
+
 #. module: lunch
 #: view:lunch.cancel:lunch.cancel_order_lines_view
 msgid "Are you sure you want to cancel these meals?"
@@ -20376,6 +20475,11 @@ msgstr "Are you sure you want to cancel these meals?"
 #: view:account.voucher:account_voucher.view_sale_receipt_form
 msgid "Are you sure you want to cancel this receipt?"
 msgstr "你确信要取消这个收据？"
+
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+msgid "Are you sure you want to confirm the selected Bank Statement lines ?"
+msgstr "你确定要确认所选银行单据行么？"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
@@ -20778,7 +20882,7 @@ msgstr "已指派"
 #. module: stock
 #: view:stock.picking:stock.view_picking_internal_search
 msgid "Assigned Moves"
-msgstr "Assigned Moves"
+msgstr "指定的移动"
 
 #. module: crm_partner_assign
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
@@ -22135,8 +22239,9 @@ msgstr "银行账户类型"
 msgid "Bank Account for the Payment Mode"
 msgstr "付款方式的银行账户"
 
-#. modules: payment_transfer, account, base
+#. modules: account_bank_statement_extensions, payment_transfer, account, base, base_iban
 #: model:ir.model,name:account.model_res_partner_bank
+#: model:ir.model,name:account_bank_statement_extensions.model_res_partner_bank
 #: code:addons/base/res/res_company.py:175
 #: model:ir.actions.act_window,name:base.action_res_partner_bank_account_form
 #: model:ir.model,name:base.model_res_partner_bank
@@ -22145,6 +22250,7 @@ msgstr "付款方式的银行账户"
 #: field:res.company,bank_ids:0
 #: view:res.partner.bank:base.view_partner_bank_search
 #: view:res.partner.bank:base.view_partner_bank_tree
+#: model:ir.model,name:base_iban.model_res_partner_bank
 #: code:addons/payment_transfer/models/payment_acquirer.py:30
 #, python-format
 msgid "Bank Accounts"
@@ -22182,34 +22288,58 @@ msgstr "银行调节的凭证预制"
 msgid "Bank Reconciliation Move preset"
 msgstr "银行调节的凭证预制"
 
-#. modules: account, account_analytic_plans, point_of_sale
+#. modules: account_bank_statement_extensions, account, account_analytic_plans, point_of_sale
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_form
 #: view:account.bank.statement:account.view_bank_statement_search
 #: model:ir.model,name:account.model_account_bank_statement
 #: model:ir.model,name:account_analytic_plans.model_account_bank_statement
+#: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement
 #: model:ir.model,name:point_of_sale.model_account_bank_statement
 #: field:pos.session,statement_ids:0
 msgid "Bank Statement"
 msgstr "银行对账单"
+
+#. module: account_bank_statement_extensions
+#: model:ir.actions.report.xml,name:account_bank_statement_extensions.action_bank_statement_balance_report
+msgid "Bank Statement Balances"
+msgstr "银行对账单余额"
+
+#. module: account_bank_statement_extensions
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
+msgid "Bank Statement Balances Report"
+msgstr "银行单据余额报表"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_bank_statement_extensions
 msgid "Bank Statement Extensions to Support e-banking"
 msgstr "银行对账单扩展支持电子银行"
 
-#. modules: account, account_analytic_plans, point_of_sale
+#. modules: account_bank_statement_extensions, account, account_analytic_plans, point_of_sale
 #: model:ir.model,name:account.model_account_bank_statement_line
 #: model:ir.model,name:account_analytic_plans.model_account_bank_statement_line
+#: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement_line
 #: model:ir.model,name:point_of_sale.model_account_bank_statement_line
 msgid "Bank Statement Line"
 msgstr "银行对账单明细"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line.global,bank_statement_line_ids:0
+#: model:ir.actions.act_window,name:account_bank_statement_extensions.action_bank_statement_line
+#: model:ir.ui.menu,name:account_bank_statement_extensions.bank_statement_line
+msgid "Bank Statement Lines"
+msgstr "银行单据行"
 
 #. module: account
 #: model:ir.actions.act_window,name:account.action_bank_statement_tree
 #: model:ir.ui.menu,name:account.menu_bank_statement_tree
 msgid "Bank Statements"
 msgstr "银行对账单"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Bank Transaction"
+msgstr "银行交易"
 
 #. module: base
 #: field:res.partner.bank.type.field,bank_type_id:0
@@ -22533,6 +22663,12 @@ msgstr "Basic information"
 msgid "Batch Mode"
 msgstr "Batch Mode"
 
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
+#: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement_line_global
+msgid "Batch Payment Info"
+msgstr "批量付款信息"
+
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_9
 msgid "Battery Inspection"
@@ -22594,6 +22730,12 @@ msgid "Before choosing a product,\n"
 " select a customer in the sales form."
 msgstr "在挑选产品前，\n"
 " 在销售表单中选择一个客户。"
+
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:300
+#, python-format
+msgid "Before executing the anonymization process, you should make a backup of your database."
+msgstr "在进行匿名化处理前，你需要给你的数据库做一个备份"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
@@ -23278,7 +23420,7 @@ msgstr "Brilliant"
 #. module: stock
 #: selection:stock.warehouse,delivery_steps:0
 msgid "Bring goods to output location before shipping (Pick + Ship)"
-msgstr "Bring goods to output location before shipping (Pick + Ship)"
+msgstr "在运送之前将货物送到出货库位（分拣+运送）"
 
 #. module: base
 #: model:res.country,name:base.io
@@ -23695,12 +23837,12 @@ msgstr "如不勾选该项，可以隐藏而不删除此替换规则。"
 #. module: stock
 #: help:stock.location,active:0
 msgid "By unchecking the active field, you may hide a location without deleting it."
-msgstr "通过勾选是否有效字段，您可以隐藏而不是删除库位."
+msgstr "通过取消勾选有效字段，您能隐藏一个库位而不是删除它"
 
 #. module: stock
 #: help:stock.incoterms,active:0
 msgid "By unchecking the active field, you may hide an INCOTERM you will not use."
-msgstr "By unchecking the active field, you may hide an INCOTERM you will not use."
+msgstr "通过取消勾选有效字段，您能隐藏不再使用的INCOTERM"
 
 #. module: point_of_sale
 #: help:pos.config,iface_print_via_proxy:0
@@ -23768,6 +23910,11 @@ msgstr "CO2 Emissions"
 #: help:fleet.vehicle,co2:0
 msgid "CO2 emissions of the vehicle"
 msgstr "CO2 emissions of the vehicle"
+
+#. module: account_bank_statement_extensions
+#: selection:account.bank.statement.line.global,type:0
+msgid "CODA"
+msgstr "CODA"
 
 #. modules: base, base_setup
 #: model:ir.module.module,shortdesc:base.module_crm
@@ -24321,7 +24468,7 @@ msgstr "加拿大"
 msgid "Canada - Accounting"
 msgstr "Canada - Accounting"
 
-#. modules: account_cancel, procurement, hr_timesheet_invoice, mrp_operations, account_followup, product_extended, share, account_voucher, sale, mass_mailing, mrp_repair, base_gengo, point_of_sale, event, hr_payroll, project, base_setup, knowledge, hr_timesheet_sheet, purchase_requisition, stock_picking_wave, gamification, board, website_blog, marketing, mail, crm_profiling, marketing_campaign, stock, website, website_gengo, product, website_quote, stock_landed_costs, account_payment, web, hr, hr_attendance, base_import, hr_timesheet, web_view_editor, crm_partner_assign, lunch, membership, base, portal, account_budget, purchase, account, product_margin, mrp, account_asset, web_kanban, hr_recruitment, account_check_writing, hr_holidays, survey, sale_crm, hr_gamification, account_analytic_plans, stock_account, crm
+#. modules: account_cancel, procurement, hr_timesheet_invoice, mrp_operations, account_followup, product_extended, share, account_voucher, sale, mass_mailing, mrp_repair, base_gengo, point_of_sale, base_import_module, crm_project_issue, event, hr_payroll, project, base_setup, knowledge, hr_timesheet_sheet, purchase_requisition, stock_picking_wave, gamification, board, website_blog, marketing, mail, crm_profiling, marketing_campaign, stock, website, website_gengo, product, website_quote, stock_landed_costs, account_payment, web, hr, hr_attendance, base_import, hr_timesheet, web_view_editor, crm_partner_assign, lunch, membership, base, portal, account_budget, account_bank_statement_extensions, purchase, account, product_margin, mrp, account_asset, web_kanban, hr_recruitment, account_check_writing, hr_holidays, survey, sale_crm, hr_gamification, account_analytic_plans, stock_account, crm
 #. openerp-web
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 #: view:account.analytic.balance:account.account_analytic_balance_view
@@ -24364,6 +24511,7 @@ msgstr "Canada - Accounting"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 #: view:asset.depreciation.confirmation.wizard:account_asset.view_asset_depreciation_confirmation_wizard
 #: view:asset.modify:account_asset.asset_modify_form
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
 #: view:account.budget.analytic:account_budget.account_budget_analytic_view
 #: view:account.budget.crossvered.report:account_budget.account_budget_crossvered_report_view
 #: view:account.budget.crossvered.summary.report:account_budget.account_budget_crossvered_summary_report_view
@@ -24389,6 +24537,7 @@ msgstr "Canada - Accounting"
 #: view:wizard.ir.model.menu.create:base.view_model_menu_create
 #: view:base.gengo.translations:base_gengo.base_gengo_translation_wizard_from
 #: code:addons/base_import/static/src/xml/import.xml:20
+#: view:base.import.module:base_import_module.view_base_module_import
 #: view:base.config.settings:base_setup.view_general_configuration
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 #: view:board.create:board.view_board_create
@@ -24401,6 +24550,7 @@ msgstr "Canada - Accounting"
 #: view:crm.lead.forward.to.partner:crm_partner_assign.crm_lead_forward_to_partner_form
 #: view:open.questionnaire:crm_profiling.open_questionnaire_form
 #: view:open.questionnaire:crm_profiling.view_open_questionnaire_form
+#: view:crm.lead2projectissue.wizard:crm_project_issue.view_crm_lead2projectissue_wizard
 #: view:event.confirm:event.view_event_confirm
 #: view:gamification.badge.user.wizard:gamification.view_badge_wizard_grant
 #: view:gamification.goal.wizard:gamification.view_goal_wizard_update_current
@@ -24601,6 +24751,11 @@ msgstr "取消日记账分录"
 msgid "Cancel Line"
 msgstr "取消明细"
 
+#. module: account_bank_statement_extensions
+#: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
+msgid "Cancel Lines"
+msgstr "取消行"
+
 #. module: membership
 #: field:res.partner,membership_cancel:0
 msgid "Cancel Membership Date"
@@ -24751,6 +24906,13 @@ msgstr "取消食品"
 msgid "Cancel picking"
 msgstr "取消分拣"
 
+#. module: account_bank_statement_extensions
+#: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
+#: model:ir.actions.act_window,name:account_bank_statement_extensions.action_cancel_statement_line
+#: model:ir.model,name:account_bank_statement_extensions.model_cancel_statement_line
+msgid "Cancel selected statement lines"
+msgstr "取消所选的表行"
+
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_cancel
 msgid "Cancel the Selected Invoices"
@@ -24868,6 +25030,12 @@ msgstr "不能 %s 草稿或形式发票或取消 发票"
 #, python-format
 msgid "Cannot %s invoice which is already reconciled, invoice should be unreconciled first. You can only refund this invoice."
 msgstr "不能 %s 已经调节的发票, 发票必须被首先反调节。只能退还这张发票。"
+
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:444
+#, python-format
+msgid "Cannot anonymize fields of these types: binary, many2many, many2one, one2many, reference."
+msgstr "不能匿名化这些字段类型： binary, many2many, many2one, one2many, reference."
 
 #. module: sale
 #: code:addons/sale/sale.py:593
@@ -26038,6 +26206,16 @@ msgstr "支票填写"
 msgid "Check available badges"
 msgstr "Check available badges"
 
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_03
+msgid "Check if movement lines are balanced and have the same date and period"
+msgstr "Check if movement lines are balanced and have the same date and period"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_02
+msgid "Check if the balance of the new opened fiscal year matches with last year's balance"
+msgstr "Check if the balance of the new opened fiscal year matches with last year's balance"
+
 #. module: crm
 #: help:crm.segmentation,exclusif:0
 msgid "Check if the category is limited to partners that match the segmentation criterions.                        \n"
@@ -26064,6 +26242,11 @@ msgstr "检查产品是否适于成员。"
 #: help:product.template,to_weight:0
 msgid "Check if the product should be weighted using the hardware scale integration"
 msgstr "Check if the product should be weighted using the hardware scale integration"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_04
+msgid "Check if the totally reconciled movements are balanced"
+msgstr "Check if the totally reconciled movements are balanced"
 
 #. module: account_check_writing
 #: help:account.journal,use_preprint_check:0
@@ -26115,6 +26298,11 @@ msgstr "Check now and discover more today!"
 msgid "Check on Top"
 msgstr "顶部的支票"
 
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_07
+msgid "Check on bank statement that the Closing Balance = Starting Balance + sum of statement lines"
+msgstr "Check on bank statement that the Closing Balance = Starting Balance + sum of statement lines"
+
 #. module: account_check_writing
 #: selection:res.company,check_layout:0
 msgid "Check on bottom"
@@ -26124,6 +26312,36 @@ msgstr "底部的支票"
 #: help:res.company,check_layout:0
 msgid "Check on top is compatible with Quicken, QuickBooks and Microsoft Money. Check in middle is compatible with Peachtree, ACCPAC and DacEasy. Check on bottom is compatible with Peachtree, ACCPAC and DacEasy only"
 msgstr "顶部的支票与Quicken, QuickBooks 和 Microsoft Money兼容。中间的支票与Peachtree, ACCPAC 和 DacEasy兼容。底部的支票只与Peachtree, ACCPAC 和 DacEasy兼容。"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_08
+msgid "Check that general accounts and partners on account moves are active"
+msgstr "Check that general accounts and partners on account moves are active"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_06
+msgid "Check that paid/reconciled invoices are not in 'Open' state"
+msgstr "Check that paid/reconciled invoices are not in 'Open' state"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_05_2
+msgid "Check that reconciled account moves, that define Payable and Receivable accounts, are belonging to reconciled invoices"
+msgstr "Check that reconciled account moves, that define Payable and Receivable accounts, are belonging to reconciled invoices"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_05
+msgid "Check that reconciled invoice for Sales/Purchases has reconciled entries for Payable and Receivable Accounts"
+msgstr "Check that reconciled invoice for Sales/Purchases has reconciled entries for Payable and Receivable Accounts"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_06_1
+msgid "Check that there's no move for any account with « View » account type"
+msgstr "Check that there's no move for any account with « View » account type"
+
+#. module: account_test
+#: model:accounting.assert.test,desc:account_test.account_test_01
+msgid "Check the balance: Debit sum = Credit sum"
+msgstr "Check the balance: Debit sum = Credit sum"
 
 #. module: sale
 #: help:sale.make.invoice,grouped:0
@@ -26386,6 +26604,11 @@ msgstr "子动作"
 msgid "Child Applications"
 msgstr "子应用"
 
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
+msgid "Child Batch Payments"
+msgstr "子批量付款"
+
 #. modules: hr, product, base
 #: field:res.partner.category,child_ids:0
 #: field:hr.employee.category,child_ids:0
@@ -26393,9 +26616,10 @@ msgstr "子应用"
 msgid "Child Categories"
 msgstr "子分类"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: field:account.tax.code,child_ids:0
 #: field:account.tax.code.template,child_ids:0
+#: field:account.bank.statement.line.global,child_ids:0
 msgid "Child Codes"
 msgstr "子编码"
 
@@ -26928,8 +27152,10 @@ msgstr "索赔管理"
 msgid "Classify and analyze your lead/opportunity categories like: Training, Service"
 msgstr "对线索/商机进行分析和分类， 诸如：培训，服务"
 
-#. modules: web, website_quote
+#. modules: anonymization, website_quote, web
 #. openerp-web
+#: selection:ir.model.fields.anonymization,state:0
+#: selection:ir.model.fields.anonymize.wizard,state:0
 #: code:addons/web/static/src/js/view_form.js:2656
 #: code:addons/web/static/src/xml/base.xml:1310
 #: code:addons/web/static/src/xml/base.xml:1364
@@ -26937,7 +27163,7 @@ msgstr "对线索/商机进行分析和分类， 诸如：培训，服务"
 #: view:website:website_quote.so_quotation
 #, python-format
 msgid "Clear"
-msgstr "清除"
+msgstr "无隐藏"
 
 #. module: survey
 #: view:website:survey.result
@@ -27235,7 +27461,7 @@ msgstr "客户端错误"
 msgid "Client action tag"
 msgstr "客户端动作标签"
 
-#. modules: stock, web, account, website_gengo, website_forum, account_followup, sale_service, share, account_asset, web_view_editor, website, base, survey, point_of_sale, marketing_campaign, hr_payroll, crm
+#. modules: stock, web, account, website_gengo, website_forum, account_followup, sale_service, share, account_asset, web_view_editor, website, base, survey, point_of_sale, base_import_module, marketing_campaign, hr_payroll, crm
 #. openerp-web
 #: view:account.automatic.reconcile:account.account_automatic_reconcile_view1
 #: view:account.bank.statement:account.view_bank_statement_form
@@ -27246,6 +27472,7 @@ msgstr "客户端动作标签"
 #: view:base.language.install:base.view_base_language_install
 #: view:base.module.configuration:base.view_base_module_configuration_form
 #: view:base.module.update:base.view_base_module_update
+#: view:base.import.module:base_import_module.view_base_module_import
 #: view:base.partner.merge.automatic.wizard:crm.base_partner_merge_automatic_wizard_form
 #: view:hr.payslip.run:hr_payroll.hr_payslip_run_form
 #: selection:hr.payslip.run,state:0
@@ -27465,6 +27692,11 @@ msgstr "Closed on"
 msgid "Closed/Dead leads cannot be converted into opportunities."
 msgstr "Closed/Dead leads cannot be converted into opportunities."
 
+#. module: account_bank_statement_extensions
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
+msgid "Closing Balance"
+msgstr "期末余额"
+
 #. modules: account, point_of_sale
 #: view:account.bank.statement:account.view_bank_statement_form2
 #: view:pos.session:point_of_sale.view_pos_session_form
@@ -27532,7 +27764,7 @@ msgstr "师傅"
 msgid "Cocos (Keeling) Islands"
 msgstr "科科斯(基林)群岛"
 
-#. modules: account, resource, mrp_operations, share, mrp, product, base, account_budget, sales_team, account_analytic_plans, hr_payroll, stock
+#. modules: account, resource, mrp_operations, share, mrp, product, base, account_budget, account_bank_statement_extensions, sales_team, account_analytic_plans, hr_payroll, stock
 #: field:account.account,code:0
 #: field:account.account.template,code:0
 #: field:account.account.type,code:0
@@ -27547,6 +27779,7 @@ msgstr "科科斯(基林)群岛"
 #: view:website:account.report_partnerbalance
 #: view:website:account.report_trialbalance
 #: view:website:account_analytic_plans.report_crossoveredanalyticplans
+#: field:account.bank.statement.line.global,code:0
 #: field:account.budget.post,code:0
 #: field:crossovered.budget,code:0
 #: view:base.language.import:base.view_base_import_language
@@ -27572,6 +27805,59 @@ msgstr "科科斯(基林)群岛"
 #: field:stock.incoterms,code:0
 msgid "Code"
 msgstr "编码"
+
+#. module: account_test
+#: view:accounting.assert.test:account_test.account_assert_form
+msgid "Code Help"
+msgstr "Code Help"
+
+#. module: account_test
+#: view:accounting.assert.test:account_test.account_assert_form
+msgid "Code should always set a variable named `result` with the result of your test, that can be a list or\n"
+"a dictionary. If `result` is an empty list, it means that the test was succesful. Otherwise it will\n"
+"try to translate and print what is inside `result`.\n"
+"\n"
+"If the result of your test is a dictionary, you can set a variable named `column_order` to choose in\n"
+"what order you want to print `result`'s content.\n"
+"\n"
+"Should you need them, you can also use the following variables into your code:\n"
+"    * cr: cursor to the database\n"
+"    * uid: ID of the current user\n"
+"\n"
+"In any ways, the code must be legal python statements with correct indentation (if needed).\n"
+"\n"
+"Example: \n"
+"    sql = '''SELECT id, name, ref, date\n"
+"             FROM account_move_line \n"
+"             WHERE account_id IN (SELECT id FROM account_account WHERE type = 'view')\n"
+"          '''\n"
+"    cr.execute(sql)\n"
+"    result = cr.dictfetchall()"
+msgstr "Code should always set a variable named `result` with the result of your test, that can be a list or\n"
+"a dictionary. If `result` is an empty list, it means that the test was succesful. Otherwise it will\n"
+"try to translate and print what is inside `result`.\n"
+"\n"
+"If the result of your test is a dictionary, you can set a variable named `column_order` to choose in\n"
+"what order you want to print `result`'s content.\n"
+"\n"
+"Should you need them, you can also use the following variables into your code:\n"
+"    * cr: cursor to the database\n"
+"    * uid: ID of the current user\n"
+"\n"
+"In any ways, the code must be legal python statements with correct indentation (if needed).\n"
+"\n"
+"Example: \n"
+"    sql = '''SELECT id, name, ref, date\n"
+"             FROM account_move_line \n"
+"             WHERE account_id IN (SELECT id FROM account_account WHERE type = 'view')\n"
+"          '''\n"
+"    cr.execute(sql)\n"
+"    result = cr.dictfetchall()"
+
+#. module: account_bank_statement_extensions
+#: help:account.bank.statement.line,globalisation_id:0
+msgid "Code to identify transactions belonging to the same globalisation level within a batch payment"
+msgstr "此编码用于标识在一次批量付款中属于同一个全局级别的交易"
 
 #. module: account
 #: field:account.tax.code,sign:0
@@ -28877,6 +29163,11 @@ msgstr "确认报销单"
 msgid "Confirm Invoices"
 msgstr "确认发票"
 
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+msgid "Confirm Lines"
+msgstr "确认行"
+
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:337
@@ -28945,6 +29236,13 @@ msgstr "确认管理员密码:"
 msgid "Confirm picking"
 msgstr "确认分拣"
 
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+#: model:ir.actions.act_window,name:account_bank_statement_extensions.action_confirm_statement_line
+#: model:ir.model,name:account_bank_statement_extensions.model_confirm_statement_line
+msgid "Confirm selected statement lines"
+msgstr "确认所选表行"
+
 #. module: account
 #: model:ir.model,name:account.model_account_invoice_confirm
 msgid "Confirm the selected invoices"
@@ -28965,9 +29263,11 @@ msgstr "Confirmation"
 msgid "Confirmation Date"
 msgstr "确认日期"
 
-#. modules: purchase, account, mrp_repair, account_payment, hr_timesheet_sheet, purchase_requisition, website_sale, fetchmail, sale, hr_holidays, procurement, account_budget, lunch, website_event_track, calendar, stock, event, crm
+#. modules: purchase, account, mrp_repair, account_payment, hr_timesheet_sheet, purchase_requisition, website_sale, fetchmail, sale, hr_holidays, procurement, account_budget, lunch, account_bank_statement_extensions, website_event_track, calendar, stock, event, crm
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: selection:account.bank.statement.line,state:0
 #: selection:crossovered.budget,state:0
 #: view:payment.order:account_payment.view_payment_order_search
 #: selection:payment.order,state:0
@@ -29009,6 +29309,11 @@ msgstr "已确认费用"
 msgid "Confirmed Moves"
 msgstr "已确认移动"
 
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Confirmed Statement Lines."
+msgstr "已确认的单据行"
+
 #. module: hr_timesheet_sheet
 #: view:hr_timesheet_sheet.sheet:hr_timesheet_sheet.view_hr_timesheet_sheet_filter
 msgid "Confirmed Timesheets"
@@ -29023,6 +29328,11 @@ msgstr "已确认的工票"
 #: view:event.event:event.view_event_search
 msgid "Confirmed events"
 msgstr "已确认的活动"
+
+#. module: account_bank_statement_extensions
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
+msgid "Confirmed lines cannot be changed anymore."
+msgstr "已确认的单据行不可修改"
 
 #. module: event
 #: view:event.registration:event.view_registration_search
@@ -29861,10 +30171,11 @@ msgstr "计量单位转换只能在同一个类型之间进行。转换基于比
 msgid "Conversion from Product UoM %s to Default UoM %s is not possible as they both belong to different Category!."
 msgstr "产品单位 %s 与默认单位 %s 无法转换，二者属于不同的类别！"
 
-#. module: crm
+#. modules: crm_project_issue, crm
 #: view:crm.phonecall:crm.crm_case_phone_form_view
+#: view:crm.lead:crm_project_issue.crm_case_form_view_leads_project_issue
 msgid "Convert To"
-msgstr "Convert To"
+msgstr "转换为"
 
 #. module: crm
 #: view:crm.phonecall:crm.crm_case_phone_form_view
@@ -29885,6 +30196,13 @@ msgstr "Convert all answers to comments and vice versa"
 #: field:forum.forum,karma_comment_convert_own:0
 msgid "Convert its own answers to comments and vice versa"
 msgstr "Convert its own answers to comments and vice versa"
+
+#. module: crm_project_issue
+#: view:crm.lead:crm_project_issue.crm_case_form_view_leads_project_issue
+#: view:crm.lead2projectissue.wizard:crm_project_issue.view_crm_lead2projectissue_wizard
+#: model:ir.actions.act_window,name:crm_project_issue.convert_lead2projectissue_wizard_action
+msgid "Convert to Issue"
+msgstr "转换为问题"
 
 #. module: crm
 #: view:crm.lead2opportunity.partner.mass:crm.view_crm_lead2opportunity_partner_mass
@@ -30319,6 +30637,26 @@ msgstr "对方科目"
 msgid "Counterpart Comment"
 msgstr "对方备注"
 
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_bic:0
+msgid "Counterparty BIC"
+msgstr "对方BIC"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_currency:0
+msgid "Counterparty Currency"
+msgstr "对方货币"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_name:0
+msgid "Counterparty Name"
+msgstr "对方名称"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,counterparty_number:0
+msgid "Counterparty Number"
+msgstr "对方编号"
+
 #. modules: delivery, base
 #: model:ir.actions.act_window,name:base.action_country
 #: model:ir.ui.menu,name:base.menu_country_partner
@@ -30644,6 +30982,11 @@ msgstr "创建发票"
 msgid "Create Invoices"
 msgstr "创建发票"
 
+#. module: crm_project_issue
+#: view:crm.lead2projectissue.wizard:crm_project_issue.view_crm_lead2projectissue_wizard
+msgid "Create Issue"
+msgstr "创建问题"
+
 #. module: base
 #: model:ir.module.module,summary:base.module_crm_project_issue
 msgid "Create Issues from Leads"
@@ -30820,9 +31163,10 @@ msgstr "Create a new Twitter application on"
 msgid "Create a new contract automatically with all the same informations except for the date that will start at the end of current contract"
 msgstr "Create a new contract automatically with all the same informations except for the date that will start at the end of current contract"
 
-#. module: crm
+#. modules: crm_project_issue, crm
 #: selection:crm.lead2opportunity.partner,action:0
 #: selection:crm.partner.binding,action:0
+#: selection:crm.lead2projectissue.wizard,action:0
 msgid "Create a new customer"
 msgstr "创建新客户"
 
@@ -31054,7 +31398,7 @@ msgstr "创建补货"
 msgid "Created Views"
 msgstr "已创建的视图"
 
-#. modules: mrp_repair, product_extended, account_voucher, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, crm_helpdesk, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, website_event_track, calendar, event, gamification, crm_profiling, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, delivery, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, hr_timesheet_sheet, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, procurement, sales_team, stock_account
+#. modules: mrp_repair, product_extended, account_voucher, account_bank_statement_extensions, crm_project_issue, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, crm_helpdesk, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, base_import_module, website_event_track, calendar, event, gamification, crm_profiling, account_test, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, delivery, anonymization, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, procurement, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, hr_timesheet_sheet, sales_team, stock_account
 #: field:account.account,create_uid:0
 #: field:account.account.template,create_uid:0
 #: field:account.account.type,create_uid:0
@@ -31162,6 +31506,9 @@ msgstr "已创建的视图"
 #: field:account.asset.history,create_uid:0
 #: field:asset.depreciation.confirmation.wizard,create_uid:0
 #: field:asset.modify,create_uid:0
+#: field:account.bank.statement.line.global,create_uid:0
+#: field:cancel.statement.line,create_uid:0
+#: field:confirm.statement.line,create_uid:0
 #: field:account.budget.analytic,create_uid:0
 #: field:account.budget.crossvered.report,create_uid:0
 #: field:account.budget.crossvered.summary.report,create_uid:0
@@ -31181,11 +31528,16 @@ msgstr "已创建的视图"
 #: field:payment.order,create_uid:0
 #: field:payment.order.create,create_uid:0
 #: field:account.sequence.installer,create_uid:0
+#: field:accounting.assert.test,create_uid:0
 #: field:account.voucher,create_uid:0
 #: field:account.voucher.line,create_uid:0
 #: field:account.analytic.account,create_uid:0
 #: field:account.analytic.line,create_uid:0
 #: field:analytic.user.funct.grid,create_uid:0
+#: field:ir.model.fields.anonymization,create_uid:0
+#: field:ir.model.fields.anonymization.history,create_uid:0
+#: field:ir.model.fields.anonymization.migration.fix,create_uid:0
+#: field:ir.model.fields.anonymize.wizard,create_uid:0
 #: field:base.language.export,create_uid:0
 #: field:base.language.import,create_uid:0
 #: field:base.language.install,create_uid:0
@@ -31274,6 +31626,7 @@ msgstr "已创建的视图"
 #: field:base_import.tests.models.o2m,create_uid:0
 #: field:base_import.tests.models.o2m.child,create_uid:0
 #: field:base_import.tests.models.preview,create_uid:0
+#: field:base.import.module,create_uid:0
 #: field:base.config.settings,create_uid:0
 #: field:base.setup.terminology,create_uid:0
 #: field:sale.config.settings,create_uid:0
@@ -31314,6 +31667,7 @@ msgstr "已创建的视图"
 #: field:crm_profiling.questionnaire,create_uid:0
 #: field:open.questionnaire,create_uid:0
 #: field:open.questionnaire.line,create_uid:0
+#: field:crm.lead2projectissue.wizard,create_uid:0
 #: field:decimal.precision,create_uid:0
 #: field:decimal.precision.test,create_uid:0
 #: field:delivery.carrier,create_uid:0
@@ -31632,7 +31986,7 @@ msgstr "创建者"
 msgid "Created by :"
 msgstr "创建者："
 
-#. modules: mrp_repair, product_extended, account_voucher, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, website_event_track, calendar, event, gamification, crm_profiling, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, hr_timesheet, delivery, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, hr_timesheet_sheet, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, procurement, sales_team, stock_account
+#. modules: mrp_repair, product_extended, account_voucher, account_bank_statement_extensions, crm_project_issue, knowledge, purchase_requisition, analytic, website_forum_doc, board, anonymization, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, base_import_module, website_event_track, calendar, event, gamification, crm_profiling, account_test, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, hr_timesheet, delivery, mail, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, procurement, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, hr_timesheet_sheet, sales_team, stock_account
 #: field:account.account,create_date:0
 #: field:account.account.template,create_date:0
 #: field:account.account.type,create_date:0
@@ -31739,6 +32093,9 @@ msgstr "创建者："
 #: field:account.asset.history,create_date:0
 #: field:asset.depreciation.confirmation.wizard,create_date:0
 #: field:asset.modify,create_date:0
+#: field:account.bank.statement.line.global,create_date:0
+#: field:cancel.statement.line,create_date:0
+#: field:confirm.statement.line,create_date:0
 #: field:account.budget.analytic,create_date:0
 #: field:account.budget.crossvered.report,create_date:0
 #: field:account.budget.crossvered.summary.report,create_date:0
@@ -31757,10 +32114,15 @@ msgstr "创建者："
 #: field:payment.order,create_date:0
 #: field:payment.order.create,create_date:0
 #: field:account.sequence.installer,create_date:0
+#: field:accounting.assert.test,create_date:0
 #: field:account.voucher,create_date:0
 #: field:account.voucher.line,create_date:0
 #: field:account.analytic.account,create_date:0
 #: field:analytic.user.funct.grid,create_date:0
+#: field:ir.model.fields.anonymization,create_date:0
+#: field:ir.model.fields.anonymization.history,create_date:0
+#: field:ir.model.fields.anonymization.migration.fix,create_date:0
+#: field:ir.model.fields.anonymize.wizard,create_date:0
 #: field:base.language.export,create_date:0
 #: field:base.language.import,create_date:0
 #: field:base.language.install,create_date:0
@@ -31845,6 +32207,7 @@ msgstr "创建者："
 #: field:base_import.tests.models.o2m,create_date:0
 #: field:base_import.tests.models.o2m.child,create_date:0
 #: field:base_import.tests.models.preview,create_date:0
+#: field:base.import.module,create_date:0
 #: field:base.config.settings,create_date:0
 #: field:base.setup.terminology,create_date:0
 #: field:sale.config.settings,create_date:0
@@ -31880,6 +32243,7 @@ msgstr "创建者："
 #: field:crm_profiling.questionnaire,create_date:0
 #: field:open.questionnaire,create_date:0
 #: field:open.questionnaire.line,create_date:0
+#: field:crm.lead2projectissue.wizard,create_date:0
 #: field:decimal.precision,create_date:0
 #: field:decimal.precision.test,create_date:0
 #: field:delivery.carrier,create_date:0
@@ -32226,7 +32590,7 @@ msgstr "创建日期"
 #. module: stock
 #: help:stock.picking,date:0
 msgid "Creation Date, usually the time of the order"
-msgstr "Creation Date, usually the time of the order"
+msgstr "创建时间,通常是订单时间"
 
 #. module: web
 #. openerp-web
@@ -32292,7 +32656,7 @@ msgstr "创建者"
 msgid "Credible Question"
 msgstr "Credible Question"
 
-#. modules: account_followup, analytic, account, account_voucher
+#. modules: account_bank_statement_extensions, account_followup, account, account_voucher, analytic
 #: field:account.account,credit:0
 #: field:account.entries.report,credit:0
 #: field:account.model.line,credit:0
@@ -32313,6 +32677,7 @@ msgstr "Credible Question"
 #: view:website:account.report_salepurchasejournal
 #: view:website:account.report_trialbalance
 #: view:website:account.report_vat
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: field:account_followup.stat,credit:0
 #: selection:account.voucher.line,type:0
 #: field:account.analytic.account,credit:0
@@ -32345,6 +32710,11 @@ msgstr "信用证"
 #: view:account.tax.template:account.view_account_tax_template_form
 msgid "Credit Notes"
 msgstr "信用证"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Credit Transactions."
+msgstr "贷方交易"
 
 #. module: account
 #: field:account.move.line.reconcile,credit:0
@@ -32415,7 +32785,7 @@ msgstr "Cross-Dock"
 #. module: stock
 #: field:stock.warehouse,crossdock_route_id:0
 msgid "Crossdock Route"
-msgstr "Crossdock Route"
+msgstr "Crossdock 路线"
 
 #. module: account_analytic_plans
 #: view:account.crossovered.analytic:account_analytic_plans.view_account_crossovered_analytic
@@ -32810,7 +33180,7 @@ msgstr "自定义快捷方式"
 msgid "Custom fields must have a name that starts with 'x_' !"
 msgstr "自定义的字段名称必须以“x_”开始！"
 
-#. modules: account, base_setup, project_issue, sale, account_voucher, crm_partner_assign, project, analytic, base, point_of_sale, sale_crm, stock, crm
+#. modules: stock, account, base_setup, project_issue, sale, account_voucher, crm_partner_assign, project, analytic, base, point_of_sale, sale_crm, crm_project_issue, crm
 #: view:account.config.settings:account.view_account_config_settings
 #: view:account.invoice:account.invoice_form
 #: view:account.invoice.report:account.view_account_invoice_report_search
@@ -32836,6 +33206,7 @@ msgstr "自定义的字段名称必须以“x_”开始！"
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_form
 #: view:crm.lead:crm_partner_assign.crm_opportunity_portal_tree
 #: field:crm.lead.report.assign,partner_id:0
+#: field:crm.lead2projectissue.wizard,partner_id:0
 #: view:pos.order:point_of_sale.view_pos_order_filter
 #: field:pos.order,partner_id:0
 #: view:project.project:project.edit_project
@@ -33218,7 +33589,8 @@ msgstr "Data for xml conversion tests"
 msgid "Database"
 msgstr "数据库"
 
-#. module: base
+#. modules: anonymization, base
+#: view:ir.model.fields.anonymize.wizard:anonymization.view_ir_model_fields_anonymize_wizard_form
 #: model:ir.module.module,shortdesc:base.module_anonymization
 msgid "Database Anonymization"
 msgstr "数据库隐藏"
@@ -33256,6 +33628,11 @@ msgstr "Database Name"
 #: model:ir.ui.menu,name:base.next_id_9
 msgid "Database Structure"
 msgstr "数据库结构"
+
+#. module: anonymization
+#: model:ir.ui.menu,name:anonymization.menu_administration_anonymization
+msgid "Database anonymization"
+msgstr "数据库隐藏"
 
 #. module: web
 #. openerp-web
@@ -33296,7 +33673,7 @@ msgstr "Datas checksum"
 msgid "Dataset for type '%s' is not defined."
 msgstr "类型“%s”的数据集未定义。"
 
-#. modules: hr_timesheet_invoice, mrp_operations, account_voucher, hr_evaluation, project_timesheet, point_of_sale, website_event_track, calendar, website_blog, purchase_requisition, sale, analytic, mail, im_livechat, marketing_campaign, stock, stock_landed_costs, hr_attendance, project_issue, hr_timesheet, lunch, base, crm_helpdesk, subscription, hr_expense, account, account_asset, project, hr_timesheet_sheet, survey, fleet, stock_account, website_certification, crm
+#. modules: hr_timesheet_invoice, anonymization, mrp_operations, account_voucher, hr_evaluation, project_timesheet, point_of_sale, website_event_track, calendar, website_blog, purchase_requisition, sale, analytic, mail, im_livechat, marketing_campaign, stock, stock_landed_costs, hr_attendance, project_issue, hr_timesheet, lunch, base, crm_helpdesk, account_bank_statement_extensions, subscription, hr_expense, account, account_asset, project, hr_timesheet_sheet, survey, fleet, stock_account, website_certification, crm
 #. openerp-web
 #: selection:account.aged.trial.balance,filter:0
 #: selection:account.balance.report,filter:0
@@ -33334,10 +33711,12 @@ msgstr "类型“%s”的数据集未定义。"
 #: view:website:account.report_partnerledgerother
 #: view:website:account.report_salepurchasejournal
 #: field:account.asset.history,date:0
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
 #: field:account.voucher,date:0
 #: field:account.voucher.line,date_original:0
 #: field:sale.receipt.report,date:0
 #: field:account.analytic.line,date:0
+#: field:ir.model.fields.anonymization.history,date:0
 #: selection:ir.property,type:0
 #: field:res.currency.rate,name:0
 #: field:res.partner,date:0
@@ -34154,7 +34533,7 @@ msgstr "亲爱的先生/女士,\n"
 "    此致  \n"
 "           敬礼"
 
-#. modules: account_followup, analytic, account, account_voucher
+#. modules: account_bank_statement_extensions, account_followup, account, account_voucher, analytic
 #: field:account.account,debit:0
 #: field:account.entries.report,debit:0
 #: field:account.model.line,debit:0
@@ -34175,6 +34554,7 @@ msgstr "亲爱的先生/女士,\n"
 #: view:website:account.report_salepurchasejournal
 #: view:website:account.report_trialbalance
 #: view:website:account.report_vat
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: field:account_followup.stat,debit:0
 #: selection:account.voucher.line,type:0
 #: field:account.analytic.account,debit:0
@@ -34190,6 +34570,11 @@ msgstr "借方科目"
 #: selection:account.move.line,centralisation:0
 msgid "Debit Centralisation"
 msgstr "借方集中"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Debit Transactions."
+msgstr "借方交易"
 
 #. module: account
 #: field:account.move.line.reconcile,debit:0
@@ -34415,7 +34800,7 @@ msgstr "默认Reply-To"
 #. module: stock
 #: field:stock.warehouse,default_resupply_wh_id:0
 msgid "Default Resupply Warehouse"
-msgstr "默认供应仓库"
+msgstr "默认补给仓库"
 
 #. module: account
 #: field:wizard.multi.charts.accounts,sale_tax:0
@@ -34508,7 +34893,7 @@ msgstr "Default for New Projects"
 #. module: stock
 #: help:stock.warehouse,reception_steps:0
 msgid "Default incoming route to follow"
-msgstr "Default incoming route to follow"
+msgstr "遵循的默认入货路线"
 
 #. module: purchase
 #: field:purchase.config.settings,default_invoice_method:0
@@ -34552,7 +34937,7 @@ msgstr "默认多公司支持"
 #. module: stock
 #: help:stock.warehouse,delivery_steps:0
 msgid "Default outgoing route to follow"
-msgstr "Default outgoing route to follow"
+msgstr "遵循的默认出货路线"
 
 #. module: report
 #: field:report.paperformat,default:0
@@ -34639,12 +35024,12 @@ msgstr "默认："
 #. module: stock
 #: selection:stock.move,procure_method:0
 msgid "Default: Take From Stock"
-msgstr "Default: Take From Stock"
+msgstr "默认:从库存获取"
 
 #. module: stock
 #: help:stock.warehouse,route_ids:0
 msgid "Defaults routes through the warehouse"
-msgstr "Defaults routes through the warehouse"
+msgstr "仓库默认路线"
 
 #. module: account
 #: field:account.account.type,close_method:0
@@ -34827,7 +35212,7 @@ msgstr "延期"
 #. module: stock
 #: field:stock.location.path,delay:0
 msgid "Delay (days)"
-msgstr "延期（天）"
+msgstr "延迟（天）"
 
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
@@ -35014,6 +35399,12 @@ msgstr "Delete all posts"
 #: field:forum.forum,karma_unlink_own:0
 msgid "Delete its own posts"
 msgstr "Delete its own posts"
+
+#. module: account_bank_statement_extensions
+#: code:addons/account_bank_statement_extensions/account_bank_statement.py:133
+#, python-format
+msgid "Delete operation not allowed.             Please go to the associated bank statement in order to delete and/or modify bank statement line."
+msgstr "不允许删除。为了删除和(或)修改银行对账单行，请到关联的银行对账单操作。"
 
 #. module: website
 #: view:website:website.snippets
@@ -35474,7 +35865,7 @@ msgstr "Describe what they did and why it matters (will be public)"
 msgid "Describe why you take money from the cash register:"
 msgstr "请说明从出纳机领取现金的原因。"
 
-#. modules: hr_timesheet_invoice, account_followup, website_quote, account_voucher, mrp_repair, point_of_sale, crm_claim, calendar, event, hr_payroll, project, procurement, purchase_requisition, analytic, gamification, website_blog, mail, crm_profiling, stock, website, product, stock_landed_costs, purchase, project_issue, hr_timesheet, report_intrastat, lunch, base, account_budget, website_forum, hr_expense, account, account_analytic_analysis, mrp, sale, hr_recruitment, account_check_writing, hr_holidays, survey, crm_helpdesk, sale_layout, sales_team, crm
+#. modules: website, hr_timesheet_invoice, account_followup, website_quote, account_voucher, mrp_repair, point_of_sale, crm_claim, calendar, event, hr_payroll, project, procurement, purchase_requisition, analytic, gamification, website_blog, mail, crm_profiling, stock, account_test, product, stock_landed_costs, purchase, project_issue, hr_timesheet, report_intrastat, lunch, base, account_budget, website_forum, hr_expense, account, account_analytic_analysis, mrp, sale, hr_recruitment, account_check_writing, hr_holidays, survey, crm_helpdesk, sale_layout, sales_team, crm
 #. openerp-web
 #: view:account.account.type:account.view_account_type_form
 #: field:account.account.type,note:0
@@ -35497,6 +35888,7 @@ msgstr "请说明从出纳机领取现金的原因。"
 #: field:account_followup.sending.results,description:0
 #: code:addons/account_followup/account_followup.py:257
 #: view:website:account_followup.report_followup
+#: view:accounting.assert.test:account_test.account_assert_form
 #: field:account.voucher.line,name:0
 #: field:account.analytic.account,description:0
 #: field:account.analytic.line,name:0
@@ -35645,8 +36037,9 @@ msgstr "Description that will be added in the message posted for this subtype. I
 msgid "Description..."
 msgstr "说明..."
 
-#. modules: hr_expense, account, website_twitter
+#. modules: account_test, hr_expense, account, website_twitter
 #: view:website:account.report_invoice_document
+#: view:website:account_test.report_accounttest
 #: view:website:hr_expense.report_expense
 #: view:website.config.settings:website_twitter.view_website_config_settings
 msgid "Description:"
@@ -35981,7 +36374,8 @@ msgstr "Direct Sales"
 msgid "Direct link or embed code"
 msgstr "直接链接或者切入代码"
 
-#. module: base
+#. modules: anonymization, base
+#: field:ir.model.fields.anonymization.history,direction:0
 #: field:res.lang,direction:0
 msgid "Direction"
 msgstr "方向"
@@ -36435,9 +36829,8 @@ msgstr "分配代码"
 msgid "Distribution Model Saved"
 msgstr "分配模型已保存"
 
-#. modules: account_analytic_plans, account_analytic_plans_fixup
+#. module: account_analytic_plans
 #: model:ir.actions.act_window,name:account_analytic_plans.account_analytic_instance_model_open
-#: model:ir.actions.act_window,name:account_analytic_plans_fixup.account_analytic_instance_model_open
 msgid "Distribution Models"
 msgstr "分配模型"
 
@@ -36466,10 +36859,11 @@ msgstr "Do Not Use Sales Teams"
 msgid "Do not change message text, if you want to send email in partner language, or configure from company"
 msgstr "如果你想按业务伙伴语言发送电子邮件，请配置公司语言不要改变消息的文本."
 
-#. module: crm
+#. modules: crm_project_issue, crm
 #: selection:crm.lead2opportunity.partner,action:0
 #: selection:crm.lead2opportunity.partner.mass,action:0
 #: selection:crm.partner.binding,action:0
+#: selection:crm.lead2projectissue.wizard,action:0
 msgid "Do not link to a customer"
 msgstr "不要链接到某个客户"
 
@@ -36812,7 +37206,7 @@ msgstr "Don't import"
 msgid "Don't leave yet,<br />it's still loading..."
 msgstr "请不要离开，<br />系统仍然在加载中..."
 
-#. modules: stock_picking_wave, mrp_repair, mrp_operations, hr_evaluation, point_of_sale, event, hr_payroll, web, hr_timesheet_sheet, purchase_requisition, gamification, mail, marketing_campaign, stock, stock_landed_costs, account_payment, purchase, base, account_budget, payment, subscription, hr_expense, account, mrp, sale, project, procurement
+#. modules: stock_picking_wave, mrp_repair, mrp_operations, hr_evaluation, point_of_sale, event, hr_payroll, web, hr_timesheet_sheet, purchase_requisition, gamification, mail, marketing_campaign, stock, stock_landed_costs, account_payment, purchase, base, account_budget, anonymization, payment, subscription, hr_expense, account, mrp, sale, project, procurement
 #. openerp-web
 #: selection:account.invoice.report,state:0
 #: selection:account.journal.period,state:0
@@ -36822,6 +37216,7 @@ msgstr "请不要离开，<br />系统仍然在加载中..."
 #: selection:crossovered.budget,state:0
 #: view:payment.order:account_payment.view_payment_order_search
 #: selection:payment.order,state:0
+#: selection:ir.model.fields.anonymization.history,state:0
 #: selection:ir.actions.todo,state:0
 #: selection:event.event,state:0
 #: selection:report.event.registration,event_state:0
@@ -36907,7 +37302,7 @@ msgstr "完成的转移"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_done_grouped
 msgid "Done Transfers by Date"
-msgstr "Done Transfers by Date"
+msgstr "完成的转移，按日期"
 
 #. module: project
 #: field:project.task.work,user_id:0
@@ -36979,7 +37374,7 @@ msgstr "Dr."
 msgid "Dr/Cr"
 msgstr "借/贷"
 
-#. modules: stock_picking_wave, mrp_repair, mrp_operations, account_voucher, hr_evaluation, account_asset, mass_mailing, event, hr_payroll, purchase_requisition, gamification, marketing_campaign, stock, stock_landed_costs, account_payment, purchase, account_budget, payment, subscription, hr_expense, account, sale, hr_timesheet_sheet, survey, website_forum_doc, crm_helpdesk, crm
+#. modules: stock_picking_wave, mrp_repair, mrp_operations, account_voucher, hr_evaluation, account_asset, mass_mailing, event, hr_payroll, purchase_requisition, gamification, marketing_campaign, stock, stock_landed_costs, account_payment, purchase, account_budget, account_bank_statement_extensions, payment, subscription, hr_expense, account, sale, hr_timesheet_sheet, survey, website_forum_doc, crm_helpdesk, crm
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
 #: view:account.invoice:account.view_account_invoice_filter
@@ -36992,6 +37387,8 @@ msgstr "借/贷"
 #: selection:account.asset.asset,state:0
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 #: selection:asset.asset.report,state:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: selection:account.bank.statement.line,state:0
 #: view:crossovered.budget:account_budget.view_crossovered_budget_search
 #: selection:crossovered.budget,state:0
 #: view:payment.order:account_payment.view_payment_order_search
@@ -37105,6 +37502,11 @@ msgstr "草稿退款单"
 #: view:hr.payslip:hr_payroll.view_hr_payslip_filter
 msgid "Draft Slip"
 msgstr "草稿工资单"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Draft Statement Lines."
+msgstr "单据行草稿"
 
 #. module: account
 #: view:account.subscription:account.view_subscription_search
@@ -38777,7 +39179,7 @@ msgstr "Enter the screen name from which you want to load favorite Tweets (does 
 #: code:addons/stock/wizard/stock_transfer_details.py:115
 #, python-format
 msgid "Enter transfer details"
-msgstr "Enter transfer details"
+msgstr "输入转移详情"
 
 #. module: website_forum
 #: view:website:website_forum.ask_question
@@ -39017,6 +39419,16 @@ msgstr "厄立特里亚"
 #: view:website:website.http_error_debug
 #, python-format
 msgid "Error"
+msgstr "错误！"
+
+#. modules: anonymization, base_import_module
+#: code:addons/anonymization/anonymization.py:389
+#: code:addons/anonymization/anonymization.py:448
+#: code:addons/base_import_module/models/ir_module.py:30
+#: code:addons/base_import_module/models/ir_module.py:82
+#: code:addons/base_import_module/models/ir_module.py:91
+#, python-format
+msgid "Error !"
 msgstr "错误！"
 
 #. module: calendar
@@ -40035,6 +40447,11 @@ msgstr "杰出"
 msgid "Exception"
 msgstr "异常"
 
+#. module: anonymization
+#: selection:ir.model.fields.anonymization.history,state:0
+msgid "Exception occured"
+msgstr "出现异常"
+
 #. modules: procurement, marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
 #: view:procurement.order:procurement.view_procurement_filter
@@ -40506,8 +40923,9 @@ msgstr "价格表明细的详细规则名称"
 msgid "Explicitly associated reports"
 msgstr "Explicitly associated reports"
 
-#. modules: web, base, report_intrastat
+#. modules: anonymization, base, report_intrastat, web
 #. openerp-web
+#: field:ir.model.fields.anonymize.wizard,file_export:0
 #: view:base.language.export:base.wizard_lang_export
 #: field:ir.exports.line,export_id:0
 #: selection:report.intrastat,type:0
@@ -40584,7 +41002,8 @@ msgstr "导出类型："
 msgid "Export all Data"
 msgstr "导出所有数据"
 
-#. modules: base, document
+#. modules: account_test, base, document
+#: view:accounting.assert.test:account_test.account_assert_form
 #: field:ir.actions.server,write_expression:0
 #: field:multi_company.default,expression:0
 #: field:document.directory.dctx,expr:0
@@ -40622,9 +41041,10 @@ msgstr "表达式，如果为 True 则匹配\n"
 msgid "Extended Filters"
 msgstr "扩展的筛选器"
 
-#. modules: hr_expense, account, hr_timesheet_invoice, hr_timesheet, account_asset, hr_evaluation, account_voucher, mass_mailing, mail, crm_claim, crm_helpdesk, crm_partner_assign, event, crm
+#. modules: hr_expense, account, hr_timesheet_invoice, hr_timesheet, account_asset, hr_evaluation, account_voucher, crm_claim, mass_mailing, mail, account_bank_statement_extensions, crm_helpdesk, crm_partner_assign, event, crm
 #: view:account.entries.report:account.view_account_entries_report_search
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
@@ -41008,7 +41428,9 @@ msgstr "女性"
 msgid "Fetch Now"
 msgstr "现在接收"
 
-#. modules: subscription, base, document, email_template
+#. modules: anonymization, subscription, base, document, email_template
+#: field:ir.model.fields.anonymization,field_id:0
+#: field:ir.model.fields.anonymization.migration.fix,field_name:0
 #: field:ir.actions.server,model_object_field:0
 #: view:ir.model.fields:base.view_model_fields_search
 #: field:ir.property,fields_id:0
@@ -41044,7 +41466,8 @@ msgstr "字段映射"
 msgid "Field Mappings"
 msgstr "字段映射"
 
-#. module: base
+#. modules: anonymization, base
+#: field:ir.model.fields.anonymization,field_name:0
 #: field:ir.exports.line,name:0
 #: view:ir.model.fields:base.view_model_fields_form
 #: field:res.partner.bank.type.field,name:0
@@ -41089,7 +41512,9 @@ msgstr "Field used to store error and/or validation messages for information"
 msgid "Field:"
 msgstr "字段："
 
-#. modules: base, document, subscription
+#. modules: anonymization, base, document, subscription
+#: view:ir.model.fields.anonymization.history:anonymization.view_ir_model_fields_anonymization_history_form
+#: field:ir.model.fields.anonymization.history,field_ids:0
 #: model:ir.actions.act_window,name:base.action_model_fields
 #: view:ir.model:base.view_model_form
 #: field:ir.model,field_id:0
@@ -41150,6 +41575,12 @@ msgstr "斐济"
 msgid "File"
 msgstr "文件"
 
+#. module: base_import_module
+#: code:addons/base_import_module/models/ir_module.py:90
+#, python-format
+msgid "File '%s' exceed maximum allowed file size"
+msgstr "文件 '%s' 超过了允许的大小"
+
 #. module: base
 #: field:ir.attachment,datas:0
 msgid "File Content"
@@ -41167,7 +41598,8 @@ msgstr "文件格式"
 msgid "File Format Options…"
 msgstr "文件格式选项"
 
-#. modules: base_import, base, document
+#. modules: anonymization, base_import, base, document
+#: field:ir.model.fields.anonymize.wizard,name:0
 #: field:base.language.export,name:0
 #: field:ir.attachment,datas_fname:0
 #: field:base_import.import,file_name:0
@@ -41212,6 +41644,17 @@ msgstr "文件上传"
 #, python-format
 msgid "File for some Quotations"
 msgstr "引用的文件"
+
+#. module: base_import_module
+#: code:addons/base_import_module/models/ir_module.py:82
+#, python-format
+msgid "File is not a zip file!"
+msgstr "不是一个zip文件！"
+
+#. module: anonymization
+#: field:ir.model.fields.anonymization.history,filepath:0
+msgid "File path"
+msgstr "文件路径"
 
 #. module: base_import
 #: help:base_import.import,file:0
@@ -42538,6 +42981,16 @@ msgstr "Force assignation"
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
 msgid "Force availability"
 msgstr "强制可用"
+
+#. module: base_import_module
+#: field:base.import.module,force:0
+msgid "Force init"
+msgstr "强制初始化"
+
+#. module: base_import_module
+#: help:base.import.module,force:0
+msgid "Force init mode even if installed. (will update `noupdate='1'` records)"
+msgstr "即使已经安装也强制初始化（将更新 `noupdate='1'` 记录）"
 
 #. module: account
 #: field:account.invoice.refund,period:0
@@ -43879,6 +44332,24 @@ msgstr "产生报价单或者销售订单的状态。\n"
 msgid "Gives the type of the analytic journal. When it needs for a document (eg: an invoice) to create analytic entries, Odoo will look for a matching journal of the same type."
 msgstr "定义分析日记账的类型。当为同一类单据(如：发票) 创建分析，Odoo将看成一个相同类型。"
 
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
+msgid "Glob. Am."
+msgstr "全局金额"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: field:account.bank.statement.line,globalisation_amount:0
+msgid "Glob. Amount"
+msgstr "全局金额"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement:account_bank_statement_extensions.view_bank_statement_form_add_fields
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
+msgid "Glob. Id"
+msgstr "全局编号"
+
 #. module: base
 #: view:ir.model.access:base.ir_access_view_search
 #: view:ir.rule:base.view_rule_search
@@ -43903,6 +44374,11 @@ msgstr "全局规则 (没有指定组)约束，不能被忽略。r\n"
 #, python-format
 msgid "Global taxes defined, but they are not in invoice lines !"
 msgstr "定义了全局税，但发票行中没有！"
+
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line,globalisation_id:0
+msgid "Globalisation ID"
+msgstr "全局编号"
 
 #. module: base
 #: model:ir.module.module,description:base.module_website_mail
@@ -44088,7 +44564,7 @@ msgstr "Good social life"
 #. module: stock
 #: help:stock.warehouse,default_resupply_wh_id:0
 msgid "Goods will always be resupplied from this warehouse"
-msgstr "货品总是由此仓库重新供货"
+msgstr "货物总是由此仓库重新供应"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_web_analytics
@@ -44366,7 +44842,7 @@ msgstr "毛重"
 msgid "Group"
 msgstr "组"
 
-#. modules: stock_picking_wave, hr_timesheet_invoice, hr_contract, mrp_operations, account_followup, account_voucher, hr_evaluation, project_timesheet, mass_mailing, mrp_repair, point_of_sale, crm_claim, website_event_track, calendar, event, hr_payroll, hr_timesheet_sheet, purchase_requisition, sale, note, gamification, website_blog, procurement, mail, document, stock, marketing_campaign, account_analytic_default, stock_landed_costs, account_payment, purchase, hr, hr_attendance, project_issue, hr_timesheet, crm_partner_assign, lunch, membership, base, crm_helpdesk, payment, subscription, website_forum, hr_expense, account, account_analytic_analysis, resource, mrp, account_asset, hr_recruitment, project, hr_holidays, survey, fleet, stock_account, website_certification, crm
+#. modules: stock_picking_wave, hr_timesheet_invoice, hr_contract, mrp_operations, account_followup, account_voucher, hr_evaluation, project_timesheet, mass_mailing, mrp_repair, point_of_sale, crm_claim, website_event_track, calendar, event, hr_payroll, hr_timesheet_sheet, purchase_requisition, sale, note, gamification, website_blog, procurement, mail, document, stock, marketing_campaign, account_analytic_default, stock_landed_costs, account_payment, purchase, hr, hr_attendance, project_issue, hr_timesheet, crm_partner_assign, lunch, membership, base, crm_helpdesk, account_bank_statement_extensions, payment, subscription, website_forum, hr_expense, account, account_analytic_analysis, resource, mrp, account_asset, hr_recruitment, project, hr_holidays, survey, fleet, stock_account, website_certification, crm
 #: view:account.account:account.view_account_search
 #: view:account.account.template:account.view_account_template_search
 #: view:account.analytic.account:account.view_account_analytic_account_search
@@ -44392,6 +44868,7 @@ msgstr "组"
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: view:account_followup.stat:account_followup.view_account_followup_stat_search
 #: view:res.partner:account_followup.customer_followup_search_view
 #: view:payment.mode:account_payment.view_payment_mode_search
@@ -44844,8 +45321,9 @@ msgstr "HTTP routing"
 msgid "Haiti"
 msgstr "海地"
 
-#. module: crm
+#. modules: crm_project_issue, crm
 #: model:ir.model,name:crm.model_crm_partner_binding
+#: model:ir.model,name:crm_project_issue.model_crm_lead2projectissue_wizard
 msgid "Handle partner binding or generation in CRM wizards."
 msgstr "在CRM向导中处理业务伙伴的绑定或生成。"
 
@@ -44937,7 +45415,7 @@ msgstr "有附件"
 #. module: stock
 #: field:stock.pack.operation,processed:0
 msgid "Has been processed?"
-msgstr "是否已处理？"
+msgstr "已被处理？"
 
 #. module: account
 #: field:account.config.settings,has_default_company:0
@@ -45853,12 +46331,22 @@ msgstr "I've shared %s with you!\n"
 "\n"
 ""
 
+#. module: base_iban
+#: field:res.partner.bank,iban:0
+msgid "IBAN"
+msgstr "IBAN"
+
+#. module: base_iban
+#: model:res.partner.bank.type,name:base_iban.bank_iban
+msgid "IBAN Account"
+msgstr "IBAN账号"
+
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_base_iban
 msgid "IBAN Bank Accounts"
 msgstr "IBAN银行账户"
 
-#. modules: mrp_repair, edi, account_voucher, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, product_extended, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, crm_helpdesk, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, project_timesheet, mass_mailing, point_of_sale, website_event_track, calendar, event, gamification, crm_profiling, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, report_intrastat, delivery, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, hr_timesheet_sheet, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, procurement, sales_team, stock_account
+#. modules: mrp_repair, edi, account_voucher, account_bank_statement_extensions, crm_project_issue, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, product_extended, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, crm_helpdesk, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, project_timesheet, mass_mailing, point_of_sale, base_import_module, website_event_track, calendar, event, gamification, crm_profiling, account_test, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, report_intrastat, delivery, anonymization, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, procurement, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, hr_timesheet_sheet, sales_team, stock_account
 #. openerp-web
 #: field:account.account,id:0
 #: field:account.account.template,id:0
@@ -45998,6 +46486,10 @@ msgstr "IBAN银行账户"
 #: field:asset.asset.report,id:0
 #: field:asset.depreciation.confirmation.wizard,id:0
 #: field:asset.modify,id:0
+#: field:account.bank.statement.line.global,id:0
+#: field:cancel.statement.line,id:0
+#: field:confirm.statement.line,id:0
+#: field:report.account_bank_statement_extensions.report_bankstatementbalance,id:0
 #: field:account.budget.analytic,id:0
 #: field:account.budget.crossvered.report,id:0
 #: field:account.budget.crossvered.summary.report,id:0
@@ -46025,12 +46517,18 @@ msgstr "IBAN银行账户"
 #: field:payment.order.create,id:0
 #: field:report.account_payment.report_paymentorder,id:0
 #: field:account.sequence.installer,id:0
+#: field:accounting.assert.test,id:0
+#: field:report.account_test.report_accounttest,id:0
 #: field:account.voucher,id:0
 #: field:account.voucher.line,id:0
 #: field:sale.receipt.report,id:0
 #: field:account.analytic.account,id:0
 #: field:account.analytic.line,id:0
 #: field:analytic.user.funct.grid,id:0
+#: field:ir.model.fields.anonymization,id:0
+#: field:ir.model.fields.anonymization.history,id:0
+#: field:ir.model.fields.anonymization.migration.fix,id:0
+#: field:ir.model.fields.anonymize.wizard,id:0
 #: field:_unknown,id:0
 #: field:base.language.export,id:0
 #: field:base.language.import,id:0
@@ -46147,6 +46645,7 @@ msgstr "IBAN银行账户"
 #: field:base_import.tests.models.o2m,id:0
 #: field:base_import.tests.models.o2m.child,id:0
 #: field:base_import.tests.models.preview,id:0
+#: field:base.import.module,id:0
 #: field:base.config.settings,id:0
 #: field:base.setup.terminology,id:0
 #: field:sale.config.settings,id:0
@@ -46197,6 +46696,7 @@ msgstr "IBAN银行账户"
 #: field:crm_profiling.questionnaire,id:0
 #: field:open.questionnaire,id:0
 #: field:open.questionnaire.line,id:0
+#: field:crm.lead2projectissue.wizard,id:0
 #: field:decimal.precision,id:0
 #: field:decimal.precision.test,id:0
 #: field:delivery.carrier,id:0
@@ -46662,12 +47162,17 @@ msgstr "INV:"
 #: code:addons/stock/wizard/stock_change_product_qty.py:97
 #, python-format
 msgid "INV: %s"
-msgstr "盘存:%s"
+msgstr "INV: %s"
 
 #. module: point_of_sale
 #: field:pos.config,proxy_ip:0
 msgid "IP Address"
 msgstr "IP Address"
+
+#. module: account_bank_statement_extensions
+#: selection:account.bank.statement.line.global,type:0
+msgid "ISO 20022"
+msgstr "ISO 20022"
 
 #. module: base
 #: field:base.language.import,code:0
@@ -47078,7 +47583,7 @@ msgstr "If real-time valuation is enabled for a product, the system will automat
 #. module: stock
 #: help:procurement.rule,route_id:0
 msgid "If route_id is False, the rule is global"
-msgstr "If route_id is False, the rule is global"
+msgstr "如果route_id设置为False，则该规则是全局的"
 
 #. module: base
 #: help:ir.actions.act_window.view,multi:0
@@ -47771,8 +48276,9 @@ msgstr "实现者"
 msgid "Implemented by"
 msgstr "实现者"
 
-#. modules: web, base_import, report_intrastat
+#. modules: anonymization, base_import, report_intrastat, web
 #. openerp-web
+#: field:ir.model.fields.anonymize.wizard,file_import:0
 #: code:addons/base_import/static/src/xml/import.xml:18
 #: code:addons/base_import/static/src/xml/import.xml:405
 #: selection:report.intrastat,type:0
@@ -47808,6 +48314,14 @@ msgstr "导入发票"
 msgid "Import Lines"
 msgstr "导入明细"
 
+#. module: base_import_module
+#: view:base.import.module:base_import_module.view_base_module_import
+#: model:ir.actions.act_window,name:base_import_module.action_view_base_module_import
+#: model:ir.model,name:base_import_module.model_base_import_module
+#: model:ir.ui.menu,name:base_import_module.menu_view_base_module_import
+msgid "Import Module"
+msgstr "导入模块"
+
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1939
@@ -47833,6 +48347,16 @@ msgstr "导入翻译"
 #, python-format
 msgid "Import a CSV File"
 msgstr "导入一个CSV文件"
+
+#. module: base_import_module
+#: field:base.import.module,import_message:0
+msgid "Import message"
+msgstr "导入消息"
+
+#. module: base_import_module
+#: view:base.import.module:base_import_module.view_base_module_import
+msgid "Import module"
+msgstr "导入模块"
 
 #. module: base_import
 #. openerp-web
@@ -47944,7 +48468,7 @@ msgstr "送货"
 #. module: stock
 #: field:stock.warehouse,in_type_id:0
 msgid "In Type"
-msgstr "In Type"
+msgstr "入库类型"
 
 #. module: gamification
 #: view:gamification.goal.definition:gamification.goal_definition_form_view
@@ -49004,6 +49528,11 @@ msgstr "内部相关单号它不同与制造商序列号"
 msgid "International Article Number used for product identification."
 msgstr "国际物品编码用于产品标识"
 
+#. module: base_iban
+#: help:res.partner.bank,iban:0
+msgid "International Bank Account Number"
+msgstr "国际银行帐号（IBAN）"
+
 #. modules: purchase, sale_stock
 #: help:purchase.order,incoterm_id:0
 #: help:sale.order,incoterm:0
@@ -49425,7 +49954,7 @@ msgstr "Inventory adjustments will be made by comparing the theoretical and the 
 #. module: stock
 #: model:stock.location,name:stock.location_inventory
 msgid "Inventory loss"
-msgstr "存货盈亏"
+msgstr "盘存盈亏"
 
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
@@ -49533,7 +50062,7 @@ msgstr "Invited"
 msgid "Invited Challenges"
 msgstr "Invited Challenges"
 
-#. modules: purchase, account, hr_timesheet_invoice, account_payment, report_intrastat, account_anglo_saxon, sale, account_voucher, account_asset, account_analytic_plans_fixup, mrp_repair, membership, base, product_email_template, point_of_sale, account_analytic_plans, portal_sale, warning, sale_layout
+#. modules: purchase, account, hr_timesheet_invoice, account_payment, report_intrastat, account_anglo_saxon, sale, product_email_template, account_voucher, account_asset, mrp_repair, membership, base, point_of_sale, account_analytic_plans, portal_sale, warning, sale_layout
 #. openerp-web
 #: view:account.invoice:account.invoice_form
 #: view:account.invoice:account.invoice_supplier_form
@@ -49546,7 +50075,6 @@ msgstr "Invited Challenges"
 #: model:res.request.link,name:account.req_link_invoice
 #: view:website:account.report_invoice_document
 #: model:ir.model,name:account_analytic_plans.model_account_invoice
-#: model:ir.model,name:account_analytic_plans_fixup.model_account_invoice
 #: model:ir.model,name:account_anglo_saxon.model_account_invoice
 #: model:ir.model,name:account_asset.model_account_invoice
 #: model:ir.model,name:account_payment.model_account_invoice
@@ -49641,14 +50169,13 @@ msgstr "发票异常"
 msgid "Invoice Forecast"
 msgstr "发票预测"
 
-#. modules: purchase, account, account_analytic_default, account_anglo_saxon, account_asset, account_analytic_plans_fixup, membership, mrp_repair, account_analytic_plans, sale_layout
+#. modules: purchase, account, account_analytic_default, account_anglo_saxon, account_asset, membership, mrp_repair, account_analytic_plans, sale_layout
 #: view:account.invoice.line:account.view_invoice_line_form
 #: view:account.invoice.line:account.view_invoice_line_tree
 #: field:account.invoice.tax,invoice_id:0
 #: model:ir.model,name:account.model_account_invoice_line
 #: model:ir.model,name:account_analytic_default.model_account_invoice_line
 #: model:ir.model,name:account_analytic_plans.model_account_invoice_line
-#: model:ir.model,name:account_analytic_plans_fixup.model_account_invoice_line
 #: model:ir.model,name:account_anglo_saxon.model_account_invoice_line
 #: model:ir.model,name:account_asset.model_account_invoice_line
 #: model:ir.model,name:membership.model_account_invoice_line
@@ -50315,13 +50842,14 @@ msgstr "Isle of Man"
 msgid "Israel"
 msgstr "以色列"
 
-#. modules: project_issue_sheet, project_issue
+#. modules: project_issue_sheet, project_issue, crm_project_issue
+#: view:crm.lead:crm_project_issue.crm_case_form_view_leads_project_issue
 #: view:project.issue:project_issue.project_issue_form_view
 #: view:project.issue:project_issue.view_project_issue_filter
 #: field:project.issue,name:0
 #: field:hr.analytic.timesheet,issue_id:0
 msgid "Issue"
-msgstr "议题"
+msgstr "问题"
 
 #. module: project_issue
 #: model:mail.message.subtype,name:project_issue.mt_issue_assigned
@@ -50506,6 +51034,12 @@ msgstr "该指示显示成员状态：\n"
 "                    -待付费成员：已经生成付费申请的成员。\n"
 "                    -付费成员：已经付成员费的成员。"
 
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:533
+#, python-format
+msgid "It is not possible to reverse the anonymization process without supplying the anonymization export file."
+msgstr "在没有提供匿名化导出文件前，不可能反转匿名化的进程。"
+
 #. module: account_asset
 #: help:account.asset.asset,salvage_value:0
 msgid "It is the amount you plan to have that you cannot depreciate."
@@ -50618,7 +51152,7 @@ msgstr "项目列表"
 #. module: stock
 #: field:stock.transfer_details,item_ids:0
 msgid "Items"
-msgstr "Items"
+msgstr "项目"
 
 #. module: hr_holidays
 #: selection:hr.holidays.status,color_name:0
@@ -50856,7 +51390,7 @@ msgstr "Join us, we offer you an extraordinary chance to learn, to\n"
 msgid "Jordan"
 msgstr "约旦"
 
-#. modules: website, purchase, account, hr_timesheet_invoice, account_payment, hr_timesheet, account_voucher, account_asset, account_sequence, account_check_writing, point_of_sale, l10n_multilang, account_analytic_plans
+#. modules: website, purchase, account, hr_timesheet_invoice, account_payment, hr_timesheet, account_voucher, account_asset, account_sequence, account_check_writing, point_of_sale, l10n_multilang, account_bank_statement_extensions, account_analytic_plans
 #. openerp-web
 #: view:account.analytic.line:account.view_account_analytic_line_filter
 #: field:account.automatic.reconcile,journal_id:0
@@ -50888,6 +51422,8 @@ msgstr "约旦"
 #: view:website:account.report_journal
 #: model:ir.model,name:account_analytic_plans.model_account_journal
 #: field:account.asset.category,journal_id:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
 #: model:ir.model,name:account_check_writing.model_account_journal
 #: view:payment.mode:account_payment.view_payment_mode_search
 #: field:payment.mode,journal:0
@@ -51207,6 +51743,11 @@ msgstr "及时（JIT）排程"
 #: model:ir.module.module,shortdesc:base.module_procurement_jit_stock
 msgid "Just In Time Scheduling with Stock"
 msgstr "Just In Time Scheduling with Stock"
+
+#. module: base
+#: selection:base.language.install,lang:0
+msgid "Kabyle / Taqbaylit"
+msgstr "Kabyle / Taqbaylit"
 
 #. modules: base, web_kanban
 #. openerp-web
@@ -51613,7 +52154,7 @@ msgstr "持续"
 #. module: stock
 #: view:stock.picking.type:stock.stock_picking_type_kanban
 msgid "Last 10 Done Operations"
-msgstr "Last 10 Done Operations"
+msgstr "最近10笔已完成作业"
 
 #. module: stock
 #: field:stock.picking.type,last_done_picking:0
@@ -51789,7 +52330,7 @@ msgstr "最近同步"
 msgid "Last Update"
 msgstr "Last Update"
 
-#. modules: mrp_repair, product_extended, account_voucher, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, crm_helpdesk, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, website_event_track, calendar, event, gamification, crm_profiling, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, delivery, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, hr_timesheet_sheet, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, procurement, sales_team, stock_account
+#. modules: mrp_repair, product_extended, account_voucher, account_bank_statement_extensions, crm_project_issue, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, crm_helpdesk, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, base_import_module, website_event_track, calendar, event, gamification, crm_profiling, account_test, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, delivery, anonymization, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, procurement, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, hr_timesheet_sheet, sales_team, stock_account
 #: field:account.account,write_uid:0
 #: field:account.account.template,write_uid:0
 #: field:account.account.type,write_uid:0
@@ -51897,6 +52438,9 @@ msgstr "Last Update"
 #: field:account.asset.history,write_uid:0
 #: field:asset.depreciation.confirmation.wizard,write_uid:0
 #: field:asset.modify,write_uid:0
+#: field:account.bank.statement.line.global,write_uid:0
+#: field:cancel.statement.line,write_uid:0
+#: field:confirm.statement.line,write_uid:0
 #: field:account.budget.analytic,write_uid:0
 #: field:account.budget.crossvered.report,write_uid:0
 #: field:account.budget.crossvered.summary.report,write_uid:0
@@ -51916,11 +52460,16 @@ msgstr "Last Update"
 #: field:payment.order,write_uid:0
 #: field:payment.order.create,write_uid:0
 #: field:account.sequence.installer,write_uid:0
+#: field:accounting.assert.test,write_uid:0
 #: field:account.voucher,write_uid:0
 #: field:account.voucher.line,write_uid:0
 #: field:account.analytic.account,write_uid:0
 #: field:account.analytic.line,write_uid:0
 #: field:analytic.user.funct.grid,write_uid:0
+#: field:ir.model.fields.anonymization,write_uid:0
+#: field:ir.model.fields.anonymization.history,write_uid:0
+#: field:ir.model.fields.anonymization.migration.fix,write_uid:0
+#: field:ir.model.fields.anonymize.wizard,write_uid:0
 #: field:base.language.export,write_uid:0
 #: field:base.language.import,write_uid:0
 #: field:base.language.install,write_uid:0
@@ -52010,6 +52559,7 @@ msgstr "Last Update"
 #: field:base_import.tests.models.o2m,write_uid:0
 #: field:base_import.tests.models.o2m.child,write_uid:0
 #: field:base_import.tests.models.preview,write_uid:0
+#: field:base.import.module,write_uid:0
 #: field:base.config.settings,write_uid:0
 #: field:base.setup.terminology,write_uid:0
 #: field:sale.config.settings,write_uid:0
@@ -52050,6 +52600,7 @@ msgstr "Last Update"
 #: field:crm_profiling.questionnaire,write_uid:0
 #: field:open.questionnaire,write_uid:0
 #: field:open.questionnaire.line,write_uid:0
+#: field:crm.lead2projectissue.wizard,write_uid:0
 #: field:decimal.precision,write_uid:0
 #: field:decimal.precision.test,write_uid:0
 #: field:delivery.carrier,write_uid:0
@@ -52363,7 +52914,7 @@ msgstr "Last Update"
 msgid "Last Updated by"
 msgstr "最后更新"
 
-#. modules: mrp_repair, product_extended, account_voucher, knowledge, purchase_requisition, analytic, website_forum_doc, board, mail, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, website_event_track, calendar, event, gamification, crm_profiling, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, delivery, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, hr_timesheet_sheet, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, procurement, sales_team, stock_account
+#. modules: mrp_repair, product_extended, account_voucher, account_bank_statement_extensions, crm_project_issue, knowledge, purchase_requisition, analytic, website_forum_doc, board, anonymization, marketing_campaign, stock_landed_costs, base_import, crm_partner_assign, lunch, account_budget, report, product_margin, im_livechat, account_analytic_analysis, resource, hr_recruitment, account_check_writing, sale_crm, account_analytic_plans, sale_layout, crm, stock_picking_wave, hr_timesheet_invoice, website_quote, fetchmail, mass_mailing, point_of_sale, base_import_module, website_event_track, calendar, event, gamification, crm_profiling, account_test, account_analytic_default, account_payment, marketing, analytic_user_function, base, decimal_precision, survey, website_certification, website_twitter, account_asset, base_action_rule, website_sale, event_sale, email_template, hr, bus, hr_timesheet, delivery, mail, subscription, website_forum, hr_expense, account, project, hr_holidays, fleet, website, hr_contract, sale_journal, mrp_operations, account_followup, share, hr_evaluation, account_sequence, base_gengo, crm_claim, hr_payroll, base_setup, procurement, pos_restaurant, note, pad, website_blog, mrp_byproduct, document, stock, product, im_chat, hr_attendance, project_issue, membership, portal, payment, purchase, mrp, sale, hr_timesheet_sheet, sales_team, stock_account
 #: field:account.account,write_date:0
 #: field:account.account.template,write_date:0
 #: field:account.account.type,write_date:0
@@ -52471,6 +53022,9 @@ msgstr "最后更新"
 #: field:account.asset.history,write_date:0
 #: field:asset.depreciation.confirmation.wizard,write_date:0
 #: field:asset.modify,write_date:0
+#: field:account.bank.statement.line.global,write_date:0
+#: field:cancel.statement.line,write_date:0
+#: field:confirm.statement.line,write_date:0
 #: field:account.budget.analytic,write_date:0
 #: field:account.budget.crossvered.report,write_date:0
 #: field:account.budget.crossvered.summary.report,write_date:0
@@ -52490,11 +53044,16 @@ msgstr "最后更新"
 #: field:payment.order,write_date:0
 #: field:payment.order.create,write_date:0
 #: field:account.sequence.installer,write_date:0
+#: field:accounting.assert.test,write_date:0
 #: field:account.voucher,write_date:0
 #: field:account.voucher.line,write_date:0
 #: field:account.analytic.account,write_date:0
 #: field:account.analytic.line,write_date:0
 #: field:analytic.user.funct.grid,write_date:0
+#: field:ir.model.fields.anonymization,write_date:0
+#: field:ir.model.fields.anonymization.history,write_date:0
+#: field:ir.model.fields.anonymization.migration.fix,write_date:0
+#: field:ir.model.fields.anonymize.wizard,write_date:0
 #: field:base.language.export,write_date:0
 #: field:base.language.import,write_date:0
 #: field:base.language.install,write_date:0
@@ -52583,6 +53142,7 @@ msgstr "最后更新"
 #: field:base_import.tests.models.o2m,write_date:0
 #: field:base_import.tests.models.o2m.child,write_date:0
 #: field:base_import.tests.models.preview,write_date:0
+#: field:base.import.module,write_date:0
 #: field:base.config.settings,write_date:0
 #: field:base.setup.terminology,write_date:0
 #: field:sale.config.settings,write_date:0
@@ -52620,6 +53180,7 @@ msgstr "最后更新"
 #: field:crm_profiling.questionnaire,write_date:0
 #: field:open.questionnaire,write_date:0
 #: field:open.questionnaire.line,write_date:0
+#: field:crm.lead2projectissue.wizard,write_date:0
 #: field:decimal.precision,write_date:0
 #: field:decimal.precision.test,write_date:0
 #: field:delivery.carrier,write_date:0
@@ -52991,12 +53552,12 @@ msgstr "延迟"
 #. module: stock
 #: view:stock.picking.type:stock.stock_picking_type_kanban
 msgid "Late (%)"
-msgstr "Late (%)"
+msgstr "延迟 (%)"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_picking_tree_late
 msgid "Late Transfers"
-msgstr "Late Transfers"
+msgstr "延迟转移"
 
 #. module: note
 #: model:note.stage,name:note.note_stage_03
@@ -53042,7 +53603,7 @@ msgstr "最后的完整调节日期"
 #: model:ir.actions.act_window,name:stock.action_stock_line_date
 #: model:ir.ui.menu,name:stock.menu_report_stock_line_date
 msgid "Latest Inventories & Moves"
-msgstr "Latest Inventories & Moves"
+msgstr "最近的盘存和移动"
 
 #. module: account
 #. openerp-web
@@ -53202,7 +53763,7 @@ msgstr "Layout Your Blog Post"
 msgid "Layout your event"
 msgstr "Layout your event"
 
-#. modules: crm_partner_assign, crm
+#. modules: crm_project_issue, crm_partner_assign, crm
 #: code:addons/crm/crm_lead.py:896
 #: selection:crm.case.stage,type:0
 #: view:crm.lead:crm.crm_case_form_view_oppor
@@ -53213,6 +53774,7 @@ msgstr "Layout your event"
 #: selection:crm.opportunity.report,type:0
 #: field:crm.lead.assignation,lead_id:0
 #: selection:crm.lead.report.assign,type:0
+#: field:crm.lead2projectissue.wizard,lead_id:0
 #, python-format
 msgid "Lead"
 msgstr "线索"
@@ -53944,9 +54506,10 @@ msgstr "Link this project to an analytic account if you need financial managemen
 msgid "Link to"
 msgstr "链接到"
 
-#. module: crm
+#. modules: crm_project_issue, crm
 #: selection:crm.lead2opportunity.partner,action:0
 #: selection:crm.partner.binding,action:0
+#: selection:crm.lead2projectissue.wizard,action:0
 msgid "Link to an existing customer"
 msgstr "链接到现有客户"
 
@@ -53983,7 +54546,7 @@ msgstr "Linked Order Line"
 #. module: stock
 #: field:stock.quant,propagated_from_id:0
 msgid "Linked Quant"
-msgstr "Linked Quant"
+msgstr "链接的份"
 
 #. module: hr_holidays
 #: field:hr.holidays,linked_request_ids:0
@@ -54725,7 +55288,7 @@ msgstr "MRP 副产品"
 #. module: stock
 #: field:stock.warehouse,mto_pull_id:0
 msgid "MTO rule"
-msgstr "MTO rule"
+msgstr "MTO规则"
 
 #. module: base
 #: model:res.country,name:base.mo
@@ -55201,7 +55764,7 @@ msgstr "管理网站和qWeb视图"
 #. module: stock
 #: field:stock.config.settings,group_stock_adv_location:0
 msgid "Manage advanced routes for your warehouse"
-msgstr "Manage advanced routes for your warehouse"
+msgstr "管理仓库的高级路线"
 
 #. module: base
 #: model:ir.actions.act_window,help:base.grant_menu_access
@@ -55409,8 +55972,9 @@ msgstr "强制采用模板。"
 msgid "Mango"
 msgstr "Mango"
 
-#. modules: fleet, account, payment
+#. modules: account_bank_statement_extensions, fleet, account, payment
 #: field:account.invoice.tax,manual:0
+#: selection:account.bank.statement.line.global,type:0
 #: selection:fleet.vehicle,transmission:0
 #: selection:payment.acquirer,validation:0
 msgid "Manual"
@@ -56633,7 +57197,10 @@ msgstr "合并商机"
 msgid "Merged with the following partners:"
 msgstr "Merged with the following partners:"
 
-#. modules: website_mail, im_chat, bus, lunch, base, portal, mail, calendar, payment, website_blog
+#. modules: website_mail, im_chat, bus, lunch, base, portal, mail, anonymization, calendar, payment, website_blog
+#: view:ir.model.fields.anonymization.history:anonymization.view_ir_model_fields_anonymization_history_form
+#: field:ir.model.fields.anonymization.history,msg:0
+#: field:ir.model.fields.anonymize.wizard,msg:0
 #: field:ir.logging,message:0
 #: field:bus.bus,message:0
 #: model:ir.model,name:calendar.model_mail_message
@@ -57197,10 +57764,11 @@ msgstr "付款模式"
 msgid "Mode:"
 msgstr "模式："
 
-#. modules: account, email_template, base_import, base, gamification, mail, fleet, base_action_rule
+#. modules: account, mail, email_template, base_import, base, gamification, fleet, anonymization, base_action_rule
 #: field:account.model.line,model_id:0
 #: view:account.subscription:account.view_subscription_search
 #: field:account.subscription,model_id:0
+#: field:ir.model.fields.anonymization.migration.fix,model_name:0
 #: field:ir.actions.report.xml,model:0
 #: view:ir.actions.server:base.view_server_action_search
 #: view:ir.filters:base.ir_filters_view_search
@@ -57435,7 +58003,7 @@ msgstr "修改资产"
 msgid "Modify: create refund, reconcile and create a new draft invoice"
 msgstr "修改：创建退款，调节并创建一个新的草稿发票"
 
-#. module: base
+#. modules: base, base_import_module
 #: model:ir.model,name:base.model_ir_module_module
 #: field:ir.model.constraint,module:0
 #: view:ir.model.data:base.view_model_data_search
@@ -57446,8 +58014,14 @@ msgstr "修改：创建退款，调节并创建一个新的草稿发票"
 #: field:ir.module.module.dependency,module_id:0
 #: report:ir.module.reference:0
 #: field:ir.translation,module:0
+#: model:ir.model,name:base_import_module.model_ir_module_module
 msgid "Module"
 msgstr "模块"
+
+#. module: base_import_module
+#: field:base.import.module,module_file:0
+msgid "Module .ZIP file"
+msgstr "模块.zip文件"
 
 #. module: base
 #: view:ir.module.category:base.view_module_category_form
@@ -57811,7 +58385,7 @@ msgstr "凭证名称"
 #. module: stock
 #: field:stock.quant,negative_move_id:0
 msgid "Move Negative Quant"
-msgstr "Move Negative Quant"
+msgstr "移动负数份"
 
 #. module: stock
 #: field:stock.move,split_from:0
@@ -58336,7 +58910,7 @@ msgstr "N/A"
 msgid "NEW"
 msgstr "新建"
 
-#. modules: hr_timesheet_invoice, account_followup, fetchmail, hr_evaluation, account_sequence, mass_mailing, point_of_sale, calendar, event, hr_payroll, web, website_certification, gamification, website_blog, mail, document, stock, event_sale, product, stock_landed_costs, account_payment, email_template, hr, base_import, crm_partner_assign, delivery, website_sale, base, account_budget, crm_helpdesk, report, payment, subscription, website_forum, hr_expense, account, marketing_campaign, resource, mrp, account_asset, hr_recruitment, project, procurement, survey, website_forum_doc, fleet, sale_layout, crm
+#. modules: hr_timesheet_invoice, account_followup, fetchmail, hr_evaluation, account_sequence, report, mass_mailing, point_of_sale, calendar, event, hr_payroll, web, website_certification, gamification, website_blog, mail, document, stock, event_sale, product, stock_landed_costs, account_payment, email_template, hr, base_import, crm_partner_assign, delivery, website_sale, base, account_budget, crm_helpdesk, account_bank_statement_extensions, payment, subscription, website_forum, hr_expense, account, marketing_campaign, resource, mrp, account_asset, hr_recruitment, project, procurement, survey, website_forum_doc, fleet, sale_layout, crm
 #. openerp-web
 #: field:account.account,name:0
 #: field:account.account.template,name:0
@@ -58349,6 +58923,7 @@ msgstr "新建"
 #: view:website:account.report_analyticcostledgerquantity
 #: view:website:account.report_financial
 #: field:account.asset.category,name:0
+#: view:website:account_bank_statement_extensions.report_bankstatementbalance
 #: field:account.budget.post,name:0
 #: field:crossovered.budget,name:0
 #: field:account_followup.followup,name:0
@@ -58563,8 +59138,9 @@ msgstr "用于生成报告文件的名称（可以包含占位符）\n"
 msgid "Name/Date"
 msgstr "Name/Date"
 
-#. modules: web, website_twitter
+#. modules: account_test, web, website_twitter
 #. openerp-web
+#: view:website:account_test.report_accounttest
 #: code:addons/web/static/src/xml/base.xml:2008
 #: view:website.config.settings:website_twitter.view_website_config_settings
 #, python-format
@@ -58634,7 +59210,7 @@ msgstr "Negative Bank Payment"
 #. module: stock
 #: field:stock.quant,negative_dest_location_id:0
 msgid "Negative Destination Location"
-msgstr "拒绝目标库位"
+msgstr "负数目标库位"
 
 #. module: stock
 #: view:product.template:stock.product_template_search_form_view_stock
@@ -58723,11 +59299,12 @@ msgstr "从未连接"
 msgid "Never reminded if no value or zero is specified."
 msgstr "Never reminded if no value or zero is specified."
 
-#. modules: hr_evaluation, point_of_sale, crm_claim, event, web, hr_holidays, purchase_requisition, base_action_rule, note, analytic, mail, marketing_campaign, stock, project_issue, lunch, hr_expense, account, mrp, hr_recruitment, project, hr_timesheet_sheet, survey, crm_helpdesk, crm
+#. modules: hr_evaluation, point_of_sale, crm_claim, event, web, hr_holidays, purchase_requisition, base_action_rule, note, analytic, mail, marketing_campaign, stock, project_issue, lunch, anonymization, hr_expense, account, mrp, hr_recruitment, project, hr_timesheet_sheet, survey, crm_helpdesk, crm
 #. openerp-web
 #: selection:account.bank.statement,state:0
 #: code:addons/account/static/src/xml/account_bank_statement_reconciliation.xml:113
 #: selection:account.analytic.account,state:0
+#: selection:ir.model.fields.anonymization,state:0
 #: selection:base.action.rule.lead.test,state:0
 #: model:crm.case.stage,name:crm.stage_lead1
 #: view:crm.lead:crm.view_crm_case_opportunities_filter
@@ -58954,7 +59531,7 @@ msgstr "New Project Based on Template"
 #. module: stock
 #: field:stock.change.product.qty,new_quantity:0
 msgid "New Quantity on Hand"
-msgstr "在手库存调整"
+msgstr "新在手数量"
 
 #. module: website_forum
 #: model:mail.message.subtype,description:website_forum.mt_question_new
@@ -60199,6 +60776,11 @@ msgstr "Not Applicable"
 msgid "Not Confirmed"
 msgstr "未确认"
 
+#. module: anonymization
+#: selection:ir.model.fields.anonymization,state:0
+msgid "Not Existing"
+msgstr "不存在"
+
 #. module: crm
 #: view:crm.phonecall.report:crm.view_report_crm_phonecall_filter
 msgid "Not Held"
@@ -60409,7 +60991,7 @@ msgstr "注意: 如果翻译状态为 '处理中', 则表示翻译需要在递�
 msgid "Note: To hide this page, uncheck it from the top Customize menu."
 msgstr "Note: To hide this page, uncheck it from the top Customize menu."
 
-#. modules: mrp_repair, hr_contract, sale_journal, account_voucher, point_of_sale, hr_payroll, note, stock, purchase, hr, base, crm_helpdesk, subscription, hr_expense, account, mrp, account_asset, project, procurement, fleet, sales_team, crm
+#. modules: mrp_repair, hr_contract, sale_journal, account_voucher, point_of_sale, hr_payroll, note, stock, purchase, hr, base, crm_helpdesk, account_bank_statement_extensions, subscription, hr_expense, account, mrp, account_asset, project, procurement, fleet, sales_team, crm
 #: view:account.account.template:account.view_account_template_form
 #: view:account.bank.statement:account.view_bank_statement_form2
 #: field:account.bank.statement.line,note:0
@@ -60421,6 +61003,7 @@ msgstr "Note: To hide this page, uncheck it from the top Customize menu."
 #: view:account.asset.history:account_asset.view_account_asset_history_form
 #: view:asset.modify:account_asset.asset_modify_form
 #: field:asset.modify,note:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_form
 #: field:account.voucher,narration:0
 #: view:ir.model:base.view_model_form
 #: model:ir.module.module,shortdesc:base.module_note
@@ -60907,6 +61490,11 @@ msgstr "Numerical answer"
 msgid "OAuth2 Authentication"
 msgstr "OAuth2 身份认证"
 
+#. module: account_bank_statement_extensions
+#: field:account.bank.statement.line.global,name:0
+msgid "OBI"
+msgstr "OBI"
+
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_l10n_syscohada
 msgid "OHADA - Accounting"
@@ -60947,7 +61535,8 @@ msgstr "OTAX S"
 msgid "OTAX X"
 msgstr "OTAX X"
 
-#. modules: marketing_campaign, base, subscription
+#. modules: anonymization, base, marketing_campaign, subscription
+#: field:ir.model.fields.anonymization,model_id:0
 #: view:ir.actions.act_window:base.view_window_action_form
 #: field:ir.cron,model:0
 #: field:ir.default,field_tbl:0
@@ -60972,11 +61561,12 @@ msgstr "对象"
 msgid "Object Field"
 msgstr "对象字段"
 
-#. modules: base, crm
+#. modules: anonymization, base, crm
+#: field:ir.model.fields.anonymization,model_name:0
 #: field:ir.model.fields,model:0
 #: field:crm.case.categ,object_id:0
 msgid "Object Name"
-msgstr "对象名称"
+msgstr "对象名"
 
 #. module: base
 #: field:ir.model.fields,relation:0
@@ -61944,8 +62534,9 @@ msgstr "打开市场菜单"
 msgid "Open Messaging Menu"
 msgstr "打开消息菜单"
 
-#. module: base
+#. modules: base, base_import_module
 #: view:base.module.update:base.view_base_module_update
+#: view:base.import.module:base_import_module.view_base_module_import
 msgid "Open Modules"
 msgstr "打开模块"
 
@@ -62799,7 +63390,7 @@ msgstr "订单"
 #. module: stock
 #: view:website:stock.report_picking
 msgid "Order (Origin)"
-msgstr "Order (Origin)"
+msgstr "订单(原始)"
 
 #. modules: purchase_requisition, purchase, point_of_sale, mrp_operations, stock
 #: field:mrp_operations.operation,order_date:0
@@ -63043,7 +63634,7 @@ msgstr "Orders by Supplier"
 #. module: stock
 #: view:stock.move:stock.view_move_search
 msgid "Orders processed Today or planned for Today"
-msgstr "今天处理或计划处理的单据"
+msgstr "今天处理或计划今天处理的订单"
 
 #. module: sales_team
 #: field:sale.config.settings,group_multi_salesteams:0
@@ -63086,7 +63677,7 @@ msgstr "原始"
 #. module: stock
 #: field:stock.move,origin_returned_move_id:0
 msgid "Origin return move"
-msgstr "Origin return move"
+msgstr "原始退回移动"
 
 #. modules: account_check_writing, account_voucher
 #: view:website:account_check_writing.report_check
@@ -63097,7 +63688,7 @@ msgstr "原始总额"
 #. module: stock
 #: field:stock.move,move_orig_ids:0
 msgid "Original Move"
-msgstr "Original Move"
+msgstr "原始移动"
 
 #. module: base
 #: field:ir.ui.view.custom,ref_id:0
@@ -63110,6 +63701,11 @@ msgstr "原始视图"
 #, python-format
 msgid "Original database name:"
 msgstr "原来的数据库名:"
+
+#. module: account_bank_statement_extensions
+#: help:account.bank.statement.line.global,name:0
+msgid "Originator to Beneficiary Information"
+msgstr "发起人到受益人的信息"
 
 #. modules: fleet, base, crm
 #: code:addons/base/res/res_users.py:760
@@ -63362,7 +63958,7 @@ msgstr "Outgoing Mails"
 #. module: stock
 #: field:stock.warehouse,delivery_steps:0
 msgid "Outgoing Shippings"
-msgstr "Outgoing Shippings"
+msgstr "出货货运"
 
 #. modules: marketing_campaign, base
 #: view:workflow.activity:base.view_workflow_activity_form
@@ -63664,7 +64260,7 @@ msgstr "包裹"
 #. module: stock
 #: field:stock.picking,pack_operation_exist:0
 msgid "Pack Operation Exists?"
-msgstr "Pack Operation Exists?"
+msgstr "包裹作业已存在？"
 
 #. module: stock
 #: field:stock.warehouse,pack_type_id:0
@@ -63748,12 +64344,12 @@ msgstr "包装"
 #. module: stock
 #: field:stock.warehouse,wh_pack_stock_loc_id:0
 msgid "Packing Location"
-msgstr "装箱库位"
+msgstr "打包库位"
 
 #. module: stock
 #: model:ir.model,name:stock.model_stock_pack_operation
 msgid "Packing Operation"
-msgstr "装箱作业"
+msgstr "打包作业"
 
 #. module: stock
 #: code:addons/stock/stock.py:3401
@@ -64094,10 +64690,11 @@ msgstr "上级分类"
 msgid "Parent Chart Template"
 msgstr "父科目表模板"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: field:account.tax.code,parent_id:0
 #: view:account.tax.code.template:account.view_tax_code_template_search
 #: field:account.tax.code.template,parent_id:0
+#: field:account.bank.statement.line.global,parent_id:0
 msgid "Parent Code"
 msgstr "上级代码"
 
@@ -68564,7 +69161,7 @@ msgstr "Product Category:"
 #. module: stock
 #: field:stock.inventory.line,product_code:0
 msgid "Product Code"
-msgstr "Product Code"
+msgstr "产品编码"
 
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_view_mrp_product_price_wizard
@@ -69095,7 +69692,7 @@ msgstr "产品数量"
 #. module: stock
 #: view:stock.transfer_details:stock.view_stock_enter_transfer_details
 msgid "Products To Move"
-msgstr "Products To Move"
+msgstr "待移动产品"
 
 #. module: lunch
 #: view:lunch.product:lunch.products_tree_view
@@ -69216,14 +69813,14 @@ msgstr "利润"
 #: code:addons/account/account.py:207
 #, python-format
 msgid "Profit & Loss (Expense account)"
-msgstr "损益（费用科目）"
+msgstr "损益表（费用科目）"
 
 #. module: account
 #: selection:account.account.type,report_type:0
 #: code:addons/account/account.py:206
 #, python-format
 msgid "Profit & Loss (Income account)"
-msgstr "损益（收入科目）"
+msgstr "损益表（收入科目）"
 
 #. module: account
 #: model:account.financial.report,name:account.account_financial_report_profitloss_toreport0
@@ -69238,14 +69835,14 @@ msgstr "利润科目"
 #. module: account
 #: model:ir.ui.menu,name:account.menu_account_report_pl
 msgid "Profit And Loss"
-msgstr "损益"
+msgstr "损益表"
 
 #. module: account
 #: model:account.account.template,name:account.conf_gpf
 #: model:account.financial.report,name:account.account_financial_report_profitandloss0
 #: model:ir.actions.act_window,name:account.action_account_report_pl
 msgid "Profit and Loss"
-msgstr "损益"
+msgstr "损益表"
 
 #. module: account
 #: view:account.invoice:account.view_account_invoice_filter
@@ -69285,11 +69882,12 @@ msgstr "进度（％）"
 msgid "Progressive (using numerical values)"
 msgstr "Progressive (using numerical values)"
 
-#. modules: hr_timesheet_invoice, portal_project, sale_service, project_issue, sale, project_timesheet, project, base, website_project
+#. modules: hr_timesheet_invoice, portal_project, sale_service, project_issue, sale, project_timesheet, project, base, website_project, crm_project_issue
 #: model:ir.module.category,name:base.module_category_project_management
 #: model:ir.ui.menu,name:base.menu_main_pm
 #: model:ir.ui.menu,name:base.menu_project_config
 #: model:ir.ui.menu,name:base.menu_project_report
+#: field:crm.lead2projectissue.wizard,project_id:0
 #: field:report_timesheet.invoice,account_id:0
 #: model:ir.model,name:portal_project.model_project_project
 #: model:ir.model,name:project.model_project_project
@@ -69520,7 +70118,7 @@ msgstr "沿用"
 #: field:stock.location.path,propagate:0
 #: field:stock.move,propagate:0
 msgid "Propagate cancel and split"
-msgstr "Propagate cancel and split"
+msgstr "沿用取消和拆分"
 
 #. module: procurement
 #: view:procurement.rule:procurement.view_procurement_rule_form
@@ -70024,7 +70622,7 @@ msgstr "采购管理"
 msgid "Purchase Month"
 msgstr "采购月份"
 
-#. modules: purchase_requisition, purchase, account_anglo_saxon, warning
+#. modules: purchase_requisition, purchase, account_anglo_saxon, warning, purchase_analytic_plans
 #: model:ir.model,name:account_anglo_saxon.model_purchase_order
 #: model:ir.actions.report.xml,name:purchase.action_report_purchase_order
 #: model:ir.model,name:purchase.model_purchase_order
@@ -70034,6 +70632,7 @@ msgstr "采购月份"
 #: view:purchase.order:purchase.purchase_order_graph
 #: view:purchase.order:purchase.purchase_order_tree
 #: model:res.request.link,name:purchase.req_link_purchase_order
+#: model:ir.model,name:purchase_analytic_plans.model_purchase_order
 #: model:ir.model,name:purchase_requisition.model_purchase_order
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 #: model:ir.model,name:warning.model_purchase_order
@@ -70046,13 +70645,14 @@ msgstr "采购订单"
 msgid "Purchase Order Confirmation N°"
 msgstr "采购订单确认"
 
-#. modules: purchase_requisition, purchase, warning
+#. modules: purchase_requisition, purchase, warning, purchase_analytic_plans
 #: field:account.invoice.line,purchase_line_id:0
 #: model:ir.model,name:purchase.model_purchase_order_line
 #: field:procurement.order,purchase_line_id:0
 #: view:purchase.order.line:purchase.purchase_order_line_form
 #: view:purchase.order.line:purchase.purchase_order_line_form2
 #: field:stock.move,purchase_line_id:0
+#: model:ir.model,name:purchase_analytic_plans.model_purchase_order_line
 #: model:ir.model,name:purchase_requisition.model_purchase_order_line
 #: model:ir.model,name:warning.model_purchase_order_line
 #: field:product.template,purchase_line_warn:0
@@ -70295,7 +70895,7 @@ msgstr "Purple"
 #. module: stock
 #: field:stock.move,push_rule_id:0
 msgid "Push Rule"
-msgstr "Push Rule"
+msgstr "推式规则"
 
 #. module: stock
 #: view:stock.location.route:stock.stock_location_route_form_view
@@ -70342,7 +70942,7 @@ msgstr "Put"
 #. module: stock
 #: field:stock.fixed.putaway.strat,putaway_id:0
 msgid "Put Away Method"
-msgstr "Put Away Method"
+msgstr "上架方法"
 
 #. module: stock
 #: model:ir.model,name:stock.model_product_putaway
@@ -70400,12 +71000,13 @@ msgstr "上架"
 msgid "Python Action"
 msgstr "Python 动作"
 
-#. modules: account, base, gamification, hr_payroll
+#. modules: account_test, account, base, gamification, hr_payroll
 #: field:account.tax,python_compute:0
 #: selection:account.tax,type:0
 #: selection:account.tax.template,applicable_type:0
 #: field:account.tax.template,python_compute:0
 #: selection:account.tax.template,type:0
+#: view:accounting.assert.test:account_test.account_assert_form
 #: view:ir.actions.server:base.view_server_action_form
 #: field:ir.actions.server,code:0
 #: field:gamification.goal.definition,compute_code:0
@@ -70433,6 +71034,11 @@ msgstr "Python 条件"
 #: selection:hr.salary.rule,condition_select:0
 msgid "Python Expression"
 msgstr "Python表达式"
+
+#. module: account_test
+#: field:accounting.assert.test,code_exec:0
+msgid "Python code"
+msgstr "Python代码"
 
 #. module: gamification
 #: help:gamification.goal.definition,compute_code:0
@@ -70495,7 +71101,7 @@ msgstr "数量"
 #. module: stock
 #: field:stock.warehouse.orderpoint,qty_multiple:0
 msgid "Qty Multiple"
-msgstr "Qty Multiple"
+msgstr "数量倍数"
 
 #. module: stock
 #: sql_constraint:stock.warehouse.orderpoint:0
@@ -70526,17 +71132,17 @@ msgstr "Quality Control"
 #. module: stock
 #: field:stock.warehouse,wh_qc_stock_loc_id:0
 msgid "Quality Control Location"
-msgstr "Quality Control Location"
+msgstr "质量管理库位"
 
 #. module: stock
 #: view:stock.quant:stock.view_stock_quant_form
 msgid "Quant History"
-msgstr "Quant History"
+msgstr "份历史"
 
 #. module: stock
 #: field:stock.picking,quant_reserved_exist:0
 msgid "Quant already reserved ?"
-msgstr "Quant already reserved ?"
+msgstr "份早已保留？"
 
 #. module: hr_expense
 #: field:hr.expense.line,unit_quantity:0
@@ -70643,7 +71249,7 @@ msgstr "Quantity (in default UoM)"
 #: field:product.template,virtual_available:0
 #: field:stock.move,availability:0
 msgid "Quantity Available"
-msgstr "Quantity Available"
+msgstr "可用数量"
 
 #. module: purchase_requisition
 #: field:purchase.order.line,quantity_bid:0
@@ -70813,7 +71419,9 @@ msgstr "季"
 msgid "Quarterly"
 msgstr "每季度"
 
-#. module: crm_helpdesk
+#. modules: anonymization, crm_helpdesk
+#: field:ir.model.fields.anonymization.migration.fix,query:0
+#: field:ir.model.fields.anonymization.migration.fix,query_type:0
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_tree_view_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -71480,7 +72088,7 @@ msgstr "Real Price"
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 msgid "Real Quantity"
-msgstr "Real Quantity"
+msgstr "实际数量"
 
 #. module: stock_account
 #: selection:product.template,valuation:0
@@ -71552,7 +72160,7 @@ msgstr "Receipt Ref"
 #. module: stock
 #: field:stock.warehouse,reception_route_id:0
 msgid "Receipt Route"
-msgstr "Receipt Route"
+msgstr "接收路线"
 
 #. module: stock
 #: code:addons/stock/stock.py:3436
@@ -71579,7 +72187,7 @@ msgstr "Receipt in 3 steps"
 #: model:stock.picking.type,name:stock.picking_type_in
 #, python-format
 msgid "Receipts"
-msgstr "Receipts"
+msgstr "接收"
 
 #. module: account
 #: selection:account.account,type:0
@@ -71654,7 +72262,7 @@ msgstr "Receive Translation"
 #. module: stock
 #: selection:stock.warehouse,reception_steps:0
 msgid "Receive goods directly in stock (1 step)"
-msgstr "Receive goods directly in stock (1 step)"
+msgstr "在库存直接接收货物（一步）"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.validate_order_lines
@@ -71693,7 +72301,7 @@ msgstr "已接收比例"
 #. module: stock
 #: view:stock.picking:stock.view_picking_form
 msgid "Recheck Availability"
-msgstr "Recheck Availability"
+msgstr "重检查可用性"
 
 #. modules: mail, mass_mailing, email_template
 #: field:email_template.preview,partner_ids:0
@@ -71722,7 +72330,7 @@ msgstr "Recompute"
 #. module: stock
 #: field:stock.picking,recompute_pack_op:0
 msgid "Recompute pack operation?"
-msgstr "Recompute pack operation?"
+msgstr "重新计算包裹作业？"
 
 #. module: product_extended
 #: view:product.template:product_extended.product_product_ext_form_view2
@@ -72178,7 +72786,7 @@ msgstr "参考指导"
 #. module: stock
 #: field:stock.picking.type,sequence_id:0
 msgid "Reference Sequence"
-msgstr "Reference Sequence"
+msgstr "参考序列"
 
 #. modules: purchase, account
 #: field:account.invoice.report,uom_name:0
@@ -72199,7 +72807,7 @@ msgstr "编号必须在公司内唯一！"
 #. module: stock
 #: sql_constraint:stock.picking:0
 msgid "Reference must be unique per company!"
-msgstr "Reference must be unique per company!"
+msgstr "参考必须在每个公司内是唯一！"
 
 #. module: payment
 #: help:payment.transaction,acquirer_reference:0
@@ -72214,7 +72822,7 @@ msgstr "Reference of the customer in the acquirer database"
 #. module: stock
 #: help:stock.picking,origin:0
 msgid "Reference of the document"
-msgstr "文档的参照"
+msgstr "单据的参考"
 
 #. module: procurement
 #: help:procurement.order,origin:0
@@ -72594,10 +73202,11 @@ msgstr "Related"
 msgid "Related Company"
 msgstr "关联公司"
 
-#. module: crm
+#. modules: crm_project_issue, crm
 #: field:crm.lead2opportunity.partner,action:0
 #: field:crm.lead2opportunity.partner.mass,action:0
 #: field:crm.partner.binding,action:0
+#: field:crm.lead2projectissue.wizard,action:0
 msgid "Related Customer"
 msgstr "相关客户"
 
@@ -72646,7 +73255,7 @@ msgstr "Related Menu"
 #. module: stock
 #: field:stock.picking,pack_operation_ids:0
 msgid "Related Packing Operations"
-msgstr "相关的装箱作业"
+msgstr "相关的打包作业"
 
 #. modules: mail, base
 #: field:res.users,partner_id:0
@@ -72795,12 +73404,12 @@ msgstr "其余业务伙伴"
 #. module: stock
 #: field:stock.pack.operation,remaining_qty:0
 msgid "Remaining Qty"
-msgstr "Remaining Qty"
+msgstr "剩余数量"
 
 #. module: stock
 #: field:stock.move,remaining_qty:0
 msgid "Remaining Quantity"
-msgstr "Remaining Quantity"
+msgstr "剩余数量"
 
 #. module: stock
 #: help:stock.move,remaining_qty:0
@@ -73015,7 +73624,7 @@ msgstr "Rent (Excluding VAT)"
 #. module: stock
 #: field:stock.warehouse.orderpoint,logic:0
 msgid "Reordering Mode"
-msgstr "Reordering Mode"
+msgstr "重订货模式"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.act_stock_warehouse_2_stock_warehouse_orderpoint
@@ -73033,7 +73642,7 @@ msgstr "重订货规则"
 #. module: stock
 #: view:stock.warehouse.orderpoint:stock.warehouse_orderpoint_search
 msgid "Reordering Rules Search"
-msgstr "Reordering Rules Search"
+msgstr "重订货规则搜索"
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_fee
@@ -73564,7 +74173,7 @@ msgstr "保留的座位"
 #. module: stock
 #: field:stock.quant,reservation_id:0
 msgid "Reserved for Move"
-msgstr "保留为移动"
+msgstr "为移动保留"
 
 #. module: stock
 #: field:stock.move,reserved_quant_ids:0
@@ -73969,17 +74578,17 @@ msgstr "Resumes and Letters"
 #. module: stock
 #: field:stock.warehouse,resupply_from_wh:0
 msgid "Resupply From Other Warehouses"
-msgstr "Resupply From Other Warehouses"
+msgstr "从其他仓库补给"
 
 #. module: stock
 #: field:stock.warehouse,resupply_route_ids:0
 msgid "Resupply Routes"
-msgstr "Resupply Routes"
+msgstr "补给路线"
 
 #. module: stock
 #: field:stock.warehouse,resupply_wh_ids:0
 msgid "Resupply Warehouses"
-msgstr "Resupply Warehouses"
+msgstr "补给仓库"
 
 #. module: fleet
 #: model:fleet.service.type,name:fleet.type_service_38
@@ -74034,7 +74643,7 @@ msgstr "退货"
 #. module: stock
 #: model:ir.actions.act_window,name:stock.act_stock_return_picking
 msgid "Return Shipment"
-msgstr "退回件"
+msgstr "退回运送"
 
 #. module: stock
 #: view:stock.return.picking:stock.view_stock_return_picking_form
@@ -74119,6 +74728,11 @@ msgstr "反向转移"
 #: selection:account.financial.report,sign:0
 msgid "Reverse balance sign"
 msgstr "反向余额符号"
+
+#. module: anonymization
+#: view:ir.model.fields.anonymize.wizard:anonymization.view_ir_model_fields_anonymize_wizard_form
+msgid "Reverse the Database Anonymization"
+msgstr "解除数据库隐藏"
 
 #. module: website_forum_doc
 #: model:forum.documentation.stage,name:website_forum_doc.stage_review
@@ -75142,13 +75756,14 @@ msgstr "销售订单"
 msgid "Sales Order Confirmed"
 msgstr "销售订单已经确认"
 
-#. modules: event_sale, account_analytic_default, website_quote, product_visible_discount, sale_service, stock_dropshipping, sale_mrp, sale, sale_margin, delivery, warning, website_sale_options, account_analytic_plans, sale_stock, sale_layout
+#. modules: event_sale, warning, account_analytic_default, website_quote, product_visible_discount, sale_service, stock_dropshipping, sale_mrp, sale, sale_margin, delivery, sale_analytic_plans, website_sale_options, account_analytic_plans, sale_stock, sale_layout
 #: model:ir.model,name:account_analytic_default.model_sale_order_line
 #: model:ir.model,name:account_analytic_plans.model_sale_order_line
 #: model:ir.model,name:delivery.model_sale_order_line
 #: model:ir.model,name:event_sale.model_sale_order_line
 #: model:ir.model,name:product_visible_discount.model_sale_order_line
 #: model:ir.model,name:sale.model_sale_order_line
+#: model:ir.model,name:sale_analytic_plans.model_sale_order_line
 #: model:ir.model,name:sale_layout.model_sale_order_line
 #: model:ir.model,name:sale_margin.model_sale_order_line
 #: model:ir.model,name:sale_mrp.model_sale_order_line
@@ -76017,17 +76632,17 @@ msgstr "Score given for this answer"
 #: view:stock.move:stock.view_move_picking_form
 #: view:stock.move.scrap:stock.view_stock_move_scrap_wizard
 msgid "Scrap"
-msgstr "损耗"
+msgstr "报废"
 
 #. module: stock
 #: view:stock.move.scrap:stock.view_stock_move_scrap_wizard
 msgid "Scrap Location"
-msgstr "损耗库位"
+msgstr "报废库位"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.move_scrap
 msgid "Scrap Move"
-msgstr "损耗移动"
+msgstr "报废移动"
 
 #. modules: mrp, stock
 #: view:mrp.production:mrp.mrp_production_form_view
@@ -76044,7 +76659,7 @@ msgstr "损耗产品"
 #: model:stock.location,name:stock.stock_location_scrapped
 #: field:stock.move,scrapped:0
 msgid "Scrapped"
-msgstr "已损耗"
+msgstr "已报废"
 
 #. module: website_twitter
 #: field:website.twitter.tweet,screen_name:0
@@ -76194,6 +76809,11 @@ msgstr "搜索资产类别"
 #: view:account.bank.statement:account.view_bank_statement_search
 msgid "Search Bank Statements"
 msgstr "搜索银行对账单"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
+msgid "Search Bank Transactions"
+msgstr "搜索银行交易"
 
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
@@ -77128,6 +77748,11 @@ msgstr "Select mailing lists..."
 msgid "Select mailing lists:"
 msgstr "Select mailing lists:"
 
+#. module: base_import_module
+#: view:base.import.module:base_import_module.view_base_module_import
+msgid "Select module package to import (.zip file):"
+msgstr "选择要导入的模块包（.zip文件）"
+
 #. module: purchase_requisition
 #: selection:purchase.requisition,exclusive:0
 msgid "Select multiple RFQ"
@@ -77801,7 +78426,7 @@ msgstr "九月"
 msgid "Seq."
 msgstr "序列"
 
-#. modules: account_followup, hr_evaluation, sale, mass_mailing, point_of_sale, crm_claim, website_event_track, base_action_rule, hr_payroll, note, gamification, mail, document, stock, website, product, account_analytic_default, crm_partner_assign, delivery, website_sale, base, hr_expense, account, mrp, account_asset, hr_recruitment, project, procurement, survey, website_forum_doc, fleet, account_analytic_plans, sale_layout, crm
+#. modules: website, account_followup, hr_evaluation, sale, mass_mailing, point_of_sale, crm_claim, website_event_track, base_action_rule, hr_payroll, note, gamification, mail, document, stock, account_test, product, account_analytic_default, crm_partner_assign, delivery, website_sale, base, anonymization, hr_expense, account, mrp, account_asset, hr_recruitment, project, procurement, survey, website_forum_doc, fleet, account_analytic_plans, sale_layout, crm
 #: field:account.bank.statement.line,sequence:0
 #: field:account.financial.report,sequence:0
 #: field:account.fiscal.position,sequence:0
@@ -77817,6 +78442,8 @@ msgstr "序列"
 #: field:account.analytic.plan.line,sequence:0
 #: field:account.asset.depreciation.line,sequence:0
 #: field:account_followup.followup.line,sequence:0
+#: field:accounting.assert.test,sequence:0
+#: field:ir.model.fields.anonymization.migration.fix,sequence:0
 #: field:ir.actions.act_window.view,sequence:0
 #: field:ir.actions.server,sequence:0
 #: field:ir.actions.todo,sequence:0
@@ -77965,7 +78592,7 @@ msgstr "序列号"
 #. module: stock
 #: field:stock.inventory.line,prodlot_name:0
 msgid "Serial Number Name"
-msgstr "Serial Number Name"
+msgstr "序列号名称"
 
 #. module: stock
 #: model:ir.actions.act_window,name:stock.action_production_lot_form
@@ -80435,7 +81062,7 @@ msgstr "Start DateTime"
 #. module: stock
 #: view:stock.inventory:stock.view_inventory_form
 msgid "Start Inventory"
-msgstr "Start Inventory"
+msgstr "开始盘存"
 
 #. modules: hr_holidays, membership, account_analytic_analysis, event
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -80582,11 +81209,12 @@ msgstr "Start with the customer – find out what they want\n"
 msgid "Start/Stop Barcode"
 msgstr "开始/停止 条码"
 
-#. modules: survey, mrp_operations
+#. modules: anonymization, survey, mrp_operations
+#: selection:ir.model.fields.anonymization.history,state:0
 #: view:mrp.workorder:mrp_operations.view_report_mrp_workorder_filter
 #: view:survey.survey:survey.survey_tree
 msgid "Started"
-msgstr "开始"
+msgstr "已开始"
 
 #. module: website_mail
 #: view:website:website_mail.email_designer_snippets
@@ -80724,12 +81352,13 @@ msgstr "State of the art technology"
 msgid "State: from '%s' to '%s'"
 msgstr "State: from '%s' to '%s'"
 
-#. modules: account, point_of_sale
+#. modules: account_bank_statement_extensions, account, point_of_sale
 #: view:account.bank.statement:account.view_bank_statement_form2
 #: view:account.bank.statement:account.view_bank_statement_tree
 #: view:account.bank.statement:account.view_cash_statement_tree
 #: field:account.bank.statement.line,statement_id:0
 #: field:account.move.line,statement_id:0
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: model:ir.actions.report.xml,name:point_of_sale.action_report_account_statement
 #: view:website:point_of_sale.report_statement
 msgid "Statement"
@@ -80745,6 +81374,16 @@ msgstr "结算单 %s 已确认，日记账项目已创建."
 #: view:website:point_of_sale.report_sessionsummary
 msgid "Statement Details:"
 msgstr "Statement Details:"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_form
+msgid "Statement Line"
+msgstr "对账单行"
+
+#. module: account_bank_statement_extensions
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
+msgid "Statement Lines"
+msgstr "单据行"
 
 #. module: point_of_sale
 #: view:website:point_of_sale.report_statement
@@ -80817,7 +81456,7 @@ msgstr "统计"
 msgid "Stats"
 msgstr "Stats"
 
-#. modules: hr_timesheet_invoice, mrp_operations, fetchmail, account_voucher, hr_evaluation, sale, mass_mailing, mrp_repair, point_of_sale, calendar, event, hr_payroll, hr_timesheet_sheet, purchase_requisition, base_action_rule, analytic, procurement, mail, marketing_campaign, stock, event_sale, product, stock_landed_costs, account_payment, purchase, hr, project_issue, lunch, base, account_budget, crm_helpdesk, payment, subscription, website_forum, hr_expense, account, account_analytic_analysis, mrp, account_asset, project, hr_holidays, survey, fleet, auth_signup, crm
+#. modules: hr_timesheet_invoice, mail, mrp_operations, fetchmail, account_voucher, hr_evaluation, sale, mass_mailing, mrp_repair, point_of_sale, base_import_module, calendar, event, hr_payroll, hr_timesheet_sheet, purchase_requisition, base_action_rule, analytic, procurement, anonymization, marketing_campaign, stock, event_sale, product, stock_landed_costs, account_payment, purchase, hr, project_issue, lunch, base, account_budget, crm_helpdesk, account_bank_statement_extensions, payment, subscription, website_forum, hr_expense, account, account_analytic_analysis, mrp, account_asset, project, hr_holidays, survey, fleet, auth_signup, crm
 #: view:account.analytic.account:account.view_account_analytic_account_search
 #: view:account.bank.statement:account.view_account_bank_statement_filter
 #: view:account.bank.statement:account.view_bank_statement_search
@@ -80839,6 +81478,7 @@ msgstr "Stats"
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 #: field:account.asset.asset,state:0
 #: field:asset.asset.report,state:0
+#: field:account.bank.statement.line,state:0
 #: field:crossovered.budget,state:0
 #: view:payment.order:account_payment.view_payment_order_search
 #: field:payment.order,state:0
@@ -80850,6 +81490,8 @@ msgstr "Stats"
 #: field:account.voucher,state:0
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 #: field:account.analytic.account,state:0
+#: field:ir.model.fields.anonymization.history,state:0
+#: field:ir.model.fields.anonymize.wizard,state:0
 #: field:res.users,state:0
 #: field:base.language.install,state:0
 #: field:base.module.update,state:0
@@ -80860,6 +81502,7 @@ msgstr "Stats"
 #: view:workflow.workitem:base.view_workflow_workitem_search
 #: field:workflow.workitem,state:0
 #: field:base.action.rule.lead.test,state:0
+#: field:base.import.module,state:0
 #: field:calendar.attendee,state:0
 #: field:calendar.event,state:0
 #: field:crm.phonecall,state:0
@@ -81772,12 +82415,13 @@ msgstr "合同已开票的计工单行的汇总"
 msgid "Sum of total hours of all tasks related to this project and its child projects."
 msgstr "此项目极其子项目的所有任务的实际工时数"
 
-#. modules: mrp_repair, account_followup, share, account_voucher, hr_evaluation, mass_mailing, point_of_sale, crm_claim, website_event_track, calendar, event, website_blog, hr_holidays, purchase_requisition, note, analytic, gamification, procurement, mail, stock, product, stock_landed_costs, purchase, hr, project_issue, base, crm_helpdesk, payment, website_forum, hr_expense, account, mrp, sale, hr_recruitment, project, hr_timesheet_sheet, survey, fleet, sales_team, crm
+#. modules: mrp_repair, anonymization, account_followup, share, account_voucher, hr_evaluation, mass_mailing, point_of_sale, crm_claim, website_event_track, calendar, event, website_blog, hr_holidays, purchase_requisition, note, analytic, gamification, procurement, mail, stock, product, stock_landed_costs, purchase, hr, project_issue, base, crm_helpdesk, payment, website_forum, hr_expense, account, mrp, sale, hr_recruitment, project, hr_timesheet_sheet, survey, fleet, sales_team, crm
 #: field:account.bank.statement,message_summary:0
 #: field:account.invoice,message_summary:0
 #: field:account_followup.print,summary:0
 #: field:account.voucher,message_summary:0
 #: field:account.analytic.account,message_summary:0
+#: field:ir.model.fields.anonymize.wizard,summary:0
 #: field:ir.module.module,summary:0
 #: field:calendar.event,message_summary:0
 #: field:crm.lead,message_summary:0
@@ -81880,7 +82524,7 @@ msgstr "补充参数"
 #. module: stock
 #: field:stock.location.route,supplied_wh_id:0
 msgid "Supplied Warehouse"
-msgstr "Supplied Warehouse"
+msgstr "供应的仓库"
 
 #. modules: purchase, product, purchase_requisition, account, account_voucher, lunch, base, fleet, stock
 #: view:account.config.settings:account.view_account_config_settings
@@ -81920,7 +82564,7 @@ msgstr "供应商"
 #. module: stock
 #: view:website:stock.report_picking
 msgid "Supplier Address:"
-msgstr "Supplier Address:"
+msgstr "供应商地址："
 
 #. module: purchase
 #: view:purchase.config.settings:purchase.view_purchase_configuration
@@ -82081,7 +82725,7 @@ msgstr "供应商凭证"
 #. module: stock
 #: field:stock.location.route,supplier_wh_id:0
 msgid "Supplier Warehouse"
-msgstr "Supplier Warehouse"
+msgstr "供应商仓库"
 
 #. module: account
 #: field:account.config.settings,purchase_refund_sequence_prefix:0
@@ -82120,12 +82764,12 @@ msgstr "供应商付款管理"
 #. module: stock
 #: view:product.template:stock.view_template_property_form
 msgid "Supply Chain Information"
-msgstr "Supply Chain Information"
+msgstr "供应链信息"
 
 #. module: stock
 #: field:stock.move,procure_method:0
 msgid "Supply Method"
-msgstr "Supply Method"
+msgstr "供应方式"
 
 #. module: report_intrastat
 #: field:report.intrastat,supply_units:0
@@ -82560,7 +83204,7 @@ msgstr "Take"
 #. module: stock
 #: selection:procurement.rule,procure_method:0
 msgid "Take From Stock"
-msgstr "Take From Stock"
+msgstr "从库存获取"
 
 #. modules: account, point_of_sale
 #: view:cash.box.out:account.cash_box_out_form
@@ -82682,6 +83326,11 @@ msgstr "目标凭证："
 #: field:gamification.challenge.line,target_goal:0
 msgid "Target Value to Reach"
 msgstr "Target Value to Reach"
+
+#. module: anonymization
+#: field:ir.model.fields.anonymization.migration.fix,target_version:0
+msgid "Target Version"
+msgstr "目标版本"
 
 #. module: base
 #: field:ir.actions.act_window,target:0
@@ -83717,10 +84366,65 @@ msgstr "测试 - 直接生成和处理所有活动（不等待事务的延迟）
 "手工确认 - 营销活动正常启动，但是用户必须手工验证所有工作项。\n"
 "正常 - 营销活动正常启动，并自动发送所有邮件和报告（请小心使用这个模式，所有的都是实时的！）"
 
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_01
+msgid "Test 1: General balance"
+msgstr "Test 1: General balance"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_02
+msgid "Test 2: Opening a fiscal year"
+msgstr "测试2: 打开一个会计年度"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_03
+msgid "Test 3: Movement lines"
+msgstr "Test 3: Movement lines"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_04
+msgid "Test 4: Totally reconciled mouvements"
+msgstr "Test 4: Totally reconciled mouvements"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_05
+msgid "Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+msgstr "Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_05_2
+msgid "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
+msgstr "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_06
+msgid "Test 6 : Invoices status"
+msgstr "Test 6 : Invoices status"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_06_1
+msgid "Test 7: « View  » account type"
+msgstr "Test 7: « View  » account type"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_07
+msgid "Test 8 : Closing balance on bank statements"
+msgstr "Test 8 : Closing balance on bank statements"
+
+#. module: account_test
+#: model:accounting.assert.test,name:account_test.account_test_08
+msgid "Test 9 : Accounts and partners on account moves"
+msgstr "Test 9 : Accounts and partners on account moves"
+
 #. module: base
 #: view:ir.mail_server:base.ir_mail_server_form
 msgid "Test Connection"
 msgstr "测试连接"
+
+#. module: account_test
+#: field:accounting.assert.test,desc:0
+msgid "Test Description"
+msgstr "Test Description"
 
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
@@ -83738,6 +84442,11 @@ msgstr "Test Mailing"
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_search
 msgid "Test Mode"
 msgstr "测试模式"
+
+#. module: account_test
+#: field:accounting.assert.test,name:0
+msgid "Test Name"
+msgstr "Test Name"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_test_new_api
@@ -83787,7 +84496,9 @@ msgstr "测试"
 msgid "Testing of access restrictions"
 msgstr "Testing of access restrictions"
 
-#. module: base
+#. modules: account_test, base
+#: view:accounting.assert.test:account_test.account_assert_form
+#: view:accounting.assert.test:account_test.account_assert_tree
 #: model:ir.module.category,name:base.module_category_tests
 #: model:ir.module.module,shortdesc:base.module_web_tests
 msgid "Tests"
@@ -83969,6 +84680,18 @@ msgstr "费用账簿 \"%s\"未配置正确的借方科目"
 #, python-format
 msgid "The Forward Email Template is not in the database"
 msgstr "The Forward Email Template is not in the database"
+
+#. module: base_iban
+#: code:addons/base_iban/base_iban.py:138
+#, python-format
+msgid "The IBAN does not seem to be correct. You should have entered something like this %s"
+msgstr "IBAN格式不对，正确的格式类似 %s"
+
+#. module: base_iban
+#: code:addons/base_iban/base_iban.py:142
+#, python-format
+msgid "The IBAN is invalid, it should begin with the country code"
+msgstr "IBAN编号不正确，应该以国家编号开头"
 
 #. module: pos_restaurant
 #: help:restaurant.printer,proxy_ip:0
@@ -84200,6 +84923,14 @@ msgstr "不含税总额"
 msgid "The amount without tax."
 msgstr "除税后总额。"
 
+#. module: hr_timesheet_invoice
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:329
+#, python-format
+msgid "The analytic account is in pending state.\n"
+"You should not work on this account !"
+msgstr "The analytic account is in pending state.\n"
+"You should not work on this account !"
+
 #. module: sale
 #: help:sale.order,project_id:0
 msgid "The analytic account related to a sales order."
@@ -84324,6 +85055,11 @@ msgstr "选择的公司不属于此用户允许访问的公司。"
 #, python-format
 msgid "The chosen quantity for product %s is not compatible with the UoM rounding. It will be automatically converted at confirmation"
 msgstr "The chosen quantity for product %s is not compatible with the UoM rounding. It will be automatically converted at confirmation"
+
+#. module: account_bank_statement_extensions
+#: sql_constraint:account.bank.statement.line.global:0
+msgid "The code must be unique !"
+msgstr "编号必须唯一！"
 
 #. module: hr_payroll
 #: help:hr.payslip.line,code:0
@@ -84535,12 +85271,37 @@ msgstr "当前用户必须有一个电子邮件地址，配置在用户首选项
 msgid "The database %s has been dropped"
 msgstr "数据库 %s 被删除"
 
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:91
+#, python-format
+msgid "The database anonymization is currently in an unstable state. Some fields are anonymized, while some fields are not anonymized. You should try to solve this problem before trying to create, write or delete fields."
+msgstr "此数据库匿名化处于不稳定状态，有些字段已经匿名，有些没有。你在尝试进行创建、写入或者删除这些字段前，要解决这个问题。"
+
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:358
+#, python-format
+msgid "The database anonymization is currently in an unstable state. Some fields are anonymized, while some fields are not anonymized. You should try to solve this problem before trying to do anything else."
+msgstr "此数据库匿名化处于不稳定状态，有些字段已经匿名，有些没有。你在尝试进行其它任何操作前字段前，要解决这个问题。"
+
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:391
+#: code:addons/anonymization/anonymization.py:526
+#, python-format
+msgid "The database anonymization is currently in an unstable state. Some fields are anonymized, while some fields are not anonymized. You should try to solve this problem before trying to do anything."
+msgstr "数据库匿名化当时在不稳定的状态。 有些字段匿名了，有些没有。你在做任何操作前要解决这个问题。"
+
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:527
 #, python-format
 msgid "The database has been duplicated."
 msgstr "数据库已经被复制"
+
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:389
+#, python-format
+msgid "The database is currently anonymized, you cannot anonymize it again."
+msgstr "此数据库已经匿名化，你不能再次使其匿名。"
 
 #. module: base
 #: help:ir.attachment,res_model:0
@@ -85963,6 +86724,12 @@ msgstr "税说明中的税基"
 msgid "The technical name of the model this field belongs to"
 msgstr "该字段所属模型的技术名称"
 
+#. module: account_test
+#: code:addons/account_test/report/account_test_report.py:78
+#, python-format
+msgid "The test was passed successfully"
+msgstr "测试通过"
+
 #. module: website_event_sale
 #: code:addons/website_event_sale/models/sale_order.py:39
 #, python-format
@@ -86182,7 +86949,7 @@ msgstr "理论的利润"
 #. module: stock
 #: field:stock.inventory.line,theoretical_qty:0
 msgid "Theoretical Quantity"
-msgstr "Theoretical Quantity"
+msgstr "理论数量"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,ca_theorical:0
@@ -86507,6 +87274,12 @@ msgstr "当前会计年度"
 #: view:account_followup.stat:account_followup.view_account_followup_stat_search
 msgid "This Fiscal year"
 msgstr "本会计年度"
+
+#. module: base_iban
+#: code:addons/base_iban/base_iban.py:141
+#, python-format
+msgid "This IBAN does not pass the validation check, please verify it"
+msgstr "这个IBAN没有通过验证，请检查一下"
 
 #. module: base
 #: help:res.lang,iso_code:0
@@ -86964,7 +87737,7 @@ msgstr "此域用于区分用于线索的阶段和用于商机的阶段，或者
 #. module: account
 #: help:account.account.type,report_type:0
 msgid "This field is used to generate legal reports: profit and loss, balance sheet."
-msgstr "这个字段用于生成法定报告：损益，资产负债表"
+msgstr "这个字段用于生成法定报告：损益表，资产负债表"
 
 #. module: account
 #: help:account.bank.statement.line,partner_name:0
@@ -87195,6 +87968,11 @@ msgstr "此序列号所含商品将在该日从库存移除。"
 #: help:stock.production.lot,use_date:0
 msgid "This is the date on which the goods with this Serial Number start deteriorating, without being dangerous yet."
 msgstr "此处表明该序列号的商品开始变质的日期（未变危险）。"
+
+#. module: anonymization
+#: help:ir.model.fields.anonymize.wizard,file_import:0
+msgid "This is the file created by the anonymization process. It should have the '.pickle' extention."
+msgstr "这个文件有匿名进程创建，他没有 '.pickle' 扩展名"
 
 #. module: base
 #: help:ir.actions.report.xml,attachment:0
@@ -88893,11 +89671,12 @@ msgstr "Total (Currency)"
 msgid "Total Allocation"
 msgstr "分配合计"
 
-#. modules: hr_expense, account, account_voucher
+#. modules: account_bank_statement_extensions, hr_expense, account, account_voucher
 #: view:account.invoice:account.invoice_tree
 #: view:account.move:account.view_account_move_tree
 #: view:account.move:account.view_move_tree
 #: view:report.invoice.created:account.board_view_created_invoice
+#: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
 #: view:account.voucher:account_voucher.view_voucher_form
 #: view:account.voucher:account_voucher.view_voucher_tree
 #: view:account.voucher:account_voucher.view_voucher_tree_nocreate
@@ -89303,7 +90082,7 @@ msgstr "总剩余时间，任务执行者可定期重估"
 #. module: stock
 #: field:product.category,total_route_ids:0
 msgid "Total routes"
-msgstr "Total routes"
+msgstr "路线合计"
 
 #. module: hr_timesheet
 #: view:hr.analytic.timesheet:hr_timesheet.hr_timesheet_line_tree
@@ -89512,8 +90291,9 @@ msgstr "交易信息"
 msgid "Transaction reference number."
 msgstr "交易单号"
 
-#. module: account
+#. modules: account_bank_statement_extensions, account
 #: view:account.bank.statement:account.view_bank_statement_form
+#: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
 msgid "Transactions"
 msgstr "交易"
 
@@ -89532,7 +90312,7 @@ msgstr "Transfer Payment Acquirer"
 #. module: stock
 #: view:stock.transfer_details:stock.view_stock_enter_transfer_details
 msgid "Transfer details"
-msgstr "Transfer details"
+msgstr "转移详情"
 
 #. module: stock
 #: selection:stock.picking,state:0
@@ -89751,12 +90531,12 @@ msgstr "树结构"
 #: model:ir.actions.report.xml,name:account.action_report_trial_balance
 #: model:ir.ui.menu,name:account.menu_general_Balance_report
 msgid "Trial Balance"
-msgstr "试算平衡"
+msgstr "试算表"
 
 #. module: account
 #: model:ir.model,name:account.model_account_balance_report
 msgid "Trial Balance Report"
-msgstr "试算平衡报告"
+msgstr "试算表报告"
 
 #. module: hr_contract
 #: field:hr.contract,trial_date_end:0
@@ -90011,7 +90791,7 @@ msgstr "Two Columns"
 msgid "Two sequence object implementations are offered: Standard and 'No gap'. The later is slower than the former but forbids any gap in the sequence (while they are possible in the former)."
 msgstr "提供了两种序列对象的实现方案：标准的和 '无间断'。后者比前者慢，但是后者禁止序列号间断（这可能在后者发生）。"
 
-#. modules: mrp_repair, account_voucher, crm_claim, calendar, website_sale, mail, marketing_campaign, product, im_chat, report_intrastat, crm_partner_assign, base, payment, account, document, resource, mrp, hr_holidays, survey, fleet, website_certification, crm
+#. modules: mrp_repair, account_voucher, crm_claim, calendar, website_sale, mail, marketing_campaign, product, im_chat, report_intrastat, crm_partner_assign, base, account_bank_statement_extensions, payment, account, document, resource, mrp, hr_holidays, survey, fleet, website_certification, crm
 #: view:account.analytic.account:account.view_account_analytic_account_search
 #: view:account.analytic.journal:account.view_analytic_journal_search
 #: field:account.analytic.journal,type:0
@@ -90023,6 +90803,7 @@ msgstr "提供了两种序列对象的实现方案：标准的和 '无间断'。
 #: field:account.move.reconcile,type:0
 #: xsl:account.transfer:0
 #: field:report.invoice.created,type:0
+#: field:account.bank.statement.line.global,type:0
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 #: field:sale.receipt.report,type:0
 #: field:ir.actions.todo,type:0
@@ -90175,7 +90956,7 @@ msgstr "约束类型：`f` 是外键FK , `u` 是其他约束。"
 #. module: stock
 #: field:stock.location.path,picking_type_id:0
 msgid "Type of the new Operation"
-msgstr "Type of the new Operation"
+msgstr "新作业的类型"
 
 #. module: web
 #. openerp-web
@@ -90199,7 +90980,7 @@ msgstr "开票类型"
 #. module: stock
 #: model:ir.ui.menu,name:stock.menu_pickingtype
 msgid "Types of Operation"
-msgstr "Types of Operation"
+msgstr "作业类型"
 
 #. module: survey
 #: field:survey.question,labels_ids:0
@@ -90571,7 +91352,7 @@ msgstr "Unique Owners"
 #. module: stock
 #: help:stock.production.lot,name:0
 msgid "Unique Serial Number"
-msgstr "Unique Serial Number"
+msgstr "唯一序列号码"
 
 #. module: account
 #: help:account.invoice,internal_number:0
@@ -90940,10 +91721,16 @@ msgstr "Unload in input location, go through a quality control before being admi
 msgid "Unmet Dependency!"
 msgstr "Unmet Dependency!"
 
+#. module: base_import_module
+#: code:addons/base_import_module/models/ir_module.py:29
+#, python-format
+msgid "Unmet module dependencies: %s"
+msgstr "未满足的模块依赖：%s"
+
 #. module: stock
 #: view:stock.quant.package:stock.view_quant_package_form
 msgid "Unpack"
-msgstr "Unpack"
+msgstr "拆包"
 
 #. modules: hr_holidays, account
 #: view:account.invoice:account.view_account_invoice_filter
@@ -91128,6 +91915,11 @@ msgstr "不保留"
 #, python-format
 msgid "Unsent Orders"
 msgstr "未送出的订单"
+
+#. module: anonymization
+#: selection:ir.model.fields.anonymize.wizard,state:0
+msgid "Unstable"
+msgstr "不稳定"
 
 #. modules: website_mail_group, website_mail, event
 #: view:event.event:event.view_event_kanban
@@ -92509,7 +93301,8 @@ msgstr "值 '%s' 没在选择的字段 '%%(field)s' 中找到"
 msgid "Value Claims"
 msgstr "索赔总额"
 
-#. module: account_payment
+#. modules: account_bank_statement_extensions, account_payment
+#: field:account.bank.statement.line,val_date:0
 #: view:website:account_payment.report_paymentorder
 msgid "Value Date"
 msgstr "起息日"
@@ -93390,7 +94183,7 @@ msgstr "仓库的路线"
 msgid "Warehouses"
 msgstr "仓库"
 
-#. modules: stock_picking_wave, hr_expense, account, mrp_repair, email_template, hr_attendance, mrp, product, website, analytic, base, base_gengo, web, mrp_byproduct, warning, stock
+#. modules: stock_picking_wave, hr_expense, account, hr_timesheet_invoice, email_template, hr_attendance, website, mrp, product, mrp_repair, analytic, base, base_gengo, web, mrp_byproduct, warning, stock
 #. openerp-web
 #: code:addons/account/account_move_line.py:896
 #: code:addons/account/account_move_line.py:900
@@ -93408,6 +94201,7 @@ msgstr "仓库"
 #: code:addons/email_template/email_template.py:355
 #: code:addons/hr_attendance/hr_attendance.py:179
 #: code:addons/hr_expense/hr_expense.py:446
+#: code:addons/hr_timesheet_invoice/hr_timesheet_invoice.py:328
 #: code:addons/mrp/mrp.py:348
 #: code:addons/mrp/mrp.py:437
 #: code:addons/mrp_byproduct/mrp_byproduct.py:63
@@ -93490,7 +94284,7 @@ msgstr "采购这产品时的警告"
 msgid "Warning when Selling this Product"
 msgstr "销售这产品时的警告"
 
-#. modules: hr_timesheet_invoice, hr_evaluation, mrp_repair, calendar, hr_payroll, hr_holidays, purchase_requisition, gamification, website_blog, mail, stock, product, email_template, project_issue, hr_timesheet, delivery, base, hr_expense, account, mrp, sale, hr_recruitment, project, hr_timesheet_sheet, purchase, survey, hr_gamification, stock_account, crm
+#. modules: hr_timesheet_invoice, hr_evaluation, mrp_repair, calendar, hr_payroll, hr_holidays, purchase_requisition, gamification, website_blog, mail, stock, product, email_template, project_issue, hr_timesheet, delivery, base, account_bank_statement_extensions, hr_expense, account, mrp, sale, hr_recruitment, project, hr_timesheet_sheet, purchase, survey, hr_gamification, stock_account, crm
 #: code:addons/account/account.py:671
 #: code:addons/account/account.py:683
 #: code:addons/account/account.py:686
@@ -93513,6 +94307,7 @@ msgstr "销售这产品时的警告"
 #: code:addons/account/wizard/account_state_open.py:38
 #: code:addons/account/wizard/account_validate_account_move.py:39
 #: code:addons/account/wizard/account_validate_account_move.py:60
+#: code:addons/account_bank_statement_extensions/account_bank_statement.py:133
 #: code:addons/base/ir/ir_sequence.py:134
 #: code:addons/base/ir/ir_sequence.py:160
 #: code:addons/base/res/res_config.py:471
@@ -96508,6 +97303,13 @@ msgstr "同一个模块中不能有两个xml ID相同的记录"
 msgid "You cannot have two cash controls in one Point Of Sale !"
 msgstr "同一个销售点不能使用两个钱箱"
 
+#. module: anonymization
+#: code:addons/anonymization/anonymization.py:65
+#: sql_constraint:ir.model.fields.anonymization:0
+#, python-format
+msgid "You cannot have two fields with the same name on the same object!"
+msgstr "同一个对象上不能有两个同名字段！"
+
 #. module: web
 #: code:addons/web/controllers/main.py:797
 #, python-format
@@ -97753,6 +98555,11 @@ msgstr "and evaluating the following expression:"
 msgid "and generate API Keys."
 msgstr "and generate API Keys."
 
+#. module: anonymization
+#: selection:ir.model.fields.anonymization.history,direction:0
+msgid "anonymized -> clear"
+msgstr "隐藏->无隐藏"
+
 #. module: website_forum
 #: view:website:website_forum.display_post
 msgid "answers"
@@ -97822,8 +98629,9 @@ msgstr "勋章："
 msgid "balance"
 msgstr "余额"
 
-#. module: base
+#. modules: base_iban, base
 #: model:res.partner.bank.type.field,name:base.bank_normal_field_bic
+#: model:res.partner.bank.type.field,name:base_iban.bank_swift_field
 msgid "bank_bic"
 msgstr "bank_bic"
 
@@ -97923,6 +98731,11 @@ msgstr "取消午餐订单"
 msgid "cancel order lines"
 msgstr "取消订单行"
 
+#. module: account_bank_statement_extensions
+#: model:ir.actions.act_window,help:account_bank_statement_extensions.action_cancel_statement_line
+msgid "cancel selected statement lines."
+msgstr "取消所选单据行"
+
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/xml/pos.xml:1078
@@ -97955,6 +98768,11 @@ msgstr "改变"
 #: selection:base.language.export,state:0
 msgid "choose"
 msgstr "选择"
+
+#. module: anonymization
+#: selection:ir.model.fields.anonymization.history,direction:0
+msgid "clear -> anonymized"
+msgstr "无隐藏 -> 隐藏"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
@@ -98149,6 +98967,11 @@ msgstr "copy (select \n"
 msgid "count cannot be negative or 0."
 msgstr "count cannot be negative or 0."
 
+#. module: base_iban
+#: model:res.partner.bank.type.field,name:base_iban.bank_country_field
+msgid "country_id"
+msgstr "country_id"
+
 #. module: base
 #: view:ir.actions.server:base.view_server_action_form
 msgid "cr: database cursor"
@@ -98289,9 +99112,10 @@ msgstr "不要忘记评价"
 msgid "don't worry"
 msgstr "不要担心"
 
-#. module: base
+#. modules: base, base_import_module
 #: selection:base.language.install,state:0
 #: selection:base.module.update,state:0
+#: selection:base.import.module,state:0
 msgid "done"
 msgstr "完成"
 
@@ -98804,11 +99628,12 @@ msgstr "in Function of"
 msgid "inch(es)"
 msgstr "inch(es)"
 
-#. module: base
+#. modules: base, base_import_module
 #: selection:base.language.install,state:0
 #: selection:base.module.update,state:0
+#: selection:base.import.module,state:0
 msgid "init"
-msgstr "init"
+msgstr "初始化"
 
 #. module: website
 #: view:website:website.info
@@ -99396,7 +100221,7 @@ msgstr "商机"
 msgid "opportunity"
 msgstr "商机"
 
-#. modules: stock_picking_wave, procurement, hr_timesheet_invoice, account_followup, product_extended, share, account_voucher, sale, mass_mailing, mrp_repair, base_gengo, point_of_sale, event, hr_payroll, project, base_setup, knowledge, hr_timesheet_sheet, purchase_requisition, gamification, board, marketing, mail, crm_profiling, stock, website, website_gengo, product, website_quote, account_payment, web, hr, hr_attendance, base_import, hr_timesheet, website_sale, crm_partner_assign, lunch, membership, base, portal, account_budget, website_forum, purchase, account, product_margin, mrp, account_asset, web_kanban, hr_recruitment, account_check_writing, hr_holidays, survey, website_forum_doc, sale_crm, hr_gamification, account_analytic_plans, stock_account, crm
+#. modules: stock_picking_wave, procurement, hr_timesheet_invoice, account_followup, product_extended, share, account_voucher, sale, mass_mailing, mrp_repair, base_gengo, point_of_sale, base_import_module, crm_project_issue, event, hr_payroll, project, base_setup, knowledge, hr_timesheet_sheet, purchase_requisition, gamification, board, marketing, mail, crm_profiling, stock, website, website_gengo, product, website_quote, account_payment, web, hr, hr_attendance, base_import, hr_timesheet, website_sale, crm_partner_assign, lunch, membership, base, portal, account_budget, account_bank_statement_extensions, website_forum, purchase, account, product_margin, mrp, account_asset, web_kanban, hr_recruitment, account_check_writing, hr_holidays, survey, website_forum_doc, sale_crm, hr_gamification, account_analytic_plans, stock_account, crm
 #. openerp-web
 #: view:account.aged.trial.balance:account.account_aged_balance_view
 #: view:account.analytic.balance:account.account_analytic_balance_view
@@ -99440,6 +100265,7 @@ msgstr "商机"
 #: view:analytic.plan.create.model:account_analytic_plans.view_analytic_plan_create_model_msg
 #: view:asset.depreciation.confirmation.wizard:account_asset.view_asset_depreciation_confirmation_wizard
 #: view:asset.modify:account_asset.asset_modify_form
+#: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
 #: view:account.budget.analytic:account_budget.account_budget_analytic_view
 #: view:account.budget.crossvered.report:account_budget.account_budget_crossvered_report_view
 #: view:account.budget.crossvered.summary.report:account_budget.account_budget_crossvered_summary_report_view
@@ -99465,6 +100291,7 @@ msgstr "商机"
 #: view:wizard.ir.model.menu.create:base.view_model_menu_create
 #: view:base.gengo.translations:base_gengo.base_gengo_translation_wizard_from
 #: code:addons/base_import/static/src/xml/import.xml:19
+#: view:base.import.module:base_import_module.view_base_module_import
 #: view:base.config.settings:base_setup.view_general_configuration
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 #: view:board.create:board.view_board_create
@@ -99477,6 +100304,7 @@ msgstr "商机"
 #: view:crm.lead.forward.to.partner:crm_partner_assign.crm_lead_forward_to_partner_form
 #: view:open.questionnaire:crm_profiling.open_questionnaire_form
 #: view:open.questionnaire:crm_profiling.view_open_questionnaire_form
+#: view:crm.lead2projectissue.wizard:crm_project_issue.view_crm_lead2projectissue_wizard
 #: view:event.confirm:event.view_event_confirm
 #: view:gamification.badge.user.wizard:gamification.view_badge_wizard_grant
 #: view:gamification.challenge:gamification.view_challenge_wizard
@@ -99759,6 +100587,11 @@ msgstr "pull-left"
 msgid "pull-right"
 msgstr "pull-right"
 
+#. module: anonymization
+#: selection:ir.model.fields.anonymization.migration.fix,query_type:0
+msgid "python"
+msgstr "python"
+
 #. module: product
 #: model:product.uom,name:product.product_uom_qt
 msgid "qt"
@@ -99985,6 +100818,11 @@ msgstr "sitemap.xml"
 #: model:forum.post.reason,name:website_forum.reason_8
 msgid "spam or advertising"
 msgstr "spam or advertising"
+
+#. module: anonymization
+#: selection:ir.model.fields.anonymization.migration.fix,query_type:0
+msgid "sql"
+msgstr "sql"
 
 #. module: website_project
 #: view:website:website_project.index
@@ -100315,7 +101153,7 @@ msgstr "uid：当前用户id"
 msgid "undefined get method !"
 msgstr "未定义“get”方法！"
 
-#. modules: mrp_repair, account_followup, website_quote, share, analytic_contract_hr_expense, point_of_sale, website_event_track, website_partner, decimal_precision, document, base_import, stock, website, product, im_chat, project_issue, lunch, base, payment, website_forum, purchase, account, website_mail, mrp, project, hr_holidays, sales_team, crm
+#. modules: mrp_repair, account_followup, website_quote, share, analytic_contract_hr_expense, point_of_sale, website_event_track, website_partner, decimal_precision, anonymization, document, base_import, stock, website, product, im_chat, project_issue, lunch, base, payment, website_forum, purchase, account, website_mail, mrp, project, hr_holidays, sales_team, crm
 #: field:account.cashbox.line,bank_statement_id:0
 #: field:account.financial.report,balance:0
 #: field:account.financial.report,credit:0
@@ -100325,6 +101163,7 @@ msgstr "未定义“get”方法！"
 #: field:account.analytic.account,expense_invoiced:0
 #: field:account.analytic.account,expense_to_invoice:0
 #: field:account.analytic.account,remaining_expense:0
+#: field:ir.model.fields.anonymization,state:0
 #: field:base.language.export,state:0
 #: field:ir.ui.menu,icon_pict:0
 #: field:ir.ui.view,model_ids:0
@@ -100582,6 +101421,11 @@ msgstr "你的消息"
 #: view:website:survey.datetime
 msgid "yyyy-mm-dd hh:mm:ss"
 msgstr "yyyy-mm-dd hh:mm:ss"
+
+#. module: base_iban
+#: model:res.partner.bank.type.field,name:base_iban.bank_zip_field
+msgid "zip"
+msgstr "邮政编码"
 
 #. module: web
 #. openerp-web
