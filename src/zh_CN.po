@@ -183,13 +183,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-<<<<<<< HEAD
 "POT-Creation-Date: 2015-05-03 09:47+0000\n"
 "PO-Revision-Date: 2015-05-06 10:57+0800\n"
-=======
-"POT-Creation-Date: 2015-05-04 16:26+0000\n"
-"PO-Revision-Date: 2015-05-05 20:36+0800\n"
->>>>>>> 275315a490a14b582c18ba7620d86a2e053c4e45
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -30259,8 +30254,8 @@ msgstr ""
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_06_1
-msgid "Check that there's no move for any account with « View » account type"
-msgstr "Check that there's no move for any account with « View » account type"
+msgid "Check that there's no move for any account with « View » account type"
+msgstr "Check that there's no move for any account with « View » account type"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_01
@@ -88854,24 +88849,24 @@ msgstr "Test 4: Totally reconciled mouvements"
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_05
 msgid ""
-"Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+"Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
 msgstr ""
-"Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
+"Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_05_2
-msgid "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
-msgstr "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
+msgid "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
+msgstr "Test 5.2 : Reconcilied invoices and Payable/Receivable accounts"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_06
-msgid "Test 6 : Invoices status"
-msgstr "Test 6 : Invoices status"
+msgid "Test 6 : Invoices status"
+msgstr "Test 6 : Invoices status"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_06_1
-msgid "Test 7: « View  » account type"
-msgstr "Test 7: « View  » account type"
+msgid "Test 7: « View  » account type"
+msgstr "Test 7: « View  » account type"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_07
@@ -94206,10 +94201,10 @@ msgstr ""
 #. module: base
 #: model:ir.module.module,description:base.module_hr_applicant_document
 msgid ""
-"This module allows you to search job applications by content\n"
+"This module allows you to search job applications by content\n"
 "    of resumes and letters."
 msgstr ""
-"This module allows you to search job applications by content\n"
+"This module allows you to search job applications by content\n"
 "    of resumes and letters."
 
 #. module: website_sale
