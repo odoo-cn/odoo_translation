@@ -184,7 +184,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-04 16:26+0000\n"
-"PO-Revision-Date: 2015-05-07 10:03+0800\n"
+"PO-Revision-Date: 2015-05-07 10:55+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39241,7 +39241,7 @@ msgstr "Delete All Unsent Orders"
 #. module: website
 #: view:website:website.snippets
 msgid "Delete Blocks"
-msgstr "Delete Blocks"
+msgstr "删除块"
 
 #. module: point_of_sale
 #. openerp-web
@@ -39253,12 +39253,12 @@ msgstr "删除未发送订单？"
 #. module: website_forum
 #: field:forum.forum,karma_unlink_all:0
 msgid "Delete all posts"
-msgstr "Delete all posts"
+msgstr "删除所有帖子"
 
 #. module: website_forum
 #: field:forum.forum,karma_unlink_own:0
 msgid "Delete its own posts"
-msgstr "Delete its own posts"
+msgstr "删除所属帖子"
 
 #. module: account_bank_statement_extensions
 #: code:addons/account_bank_statement_extensions/account_bank_statement.py:133
@@ -39521,7 +39521,7 @@ msgstr "Delivery will be updated after choosing a new delivery method"
 #. module: website_sale_delivery
 #: view:website:website_sale.total
 msgid "Delivery:"
-msgstr "Delivery:"
+msgstr "交货："
 
 #. module: base
 #: field:ir.module.module,demo:0
@@ -39598,12 +39598,12 @@ msgstr "部门"
 #: view:ir.module.module:base.module_form
 #: field:ir.module.module,dependencies_id:0
 msgid "Dependencies"
-msgstr "依赖模块"
+msgstr "依赖"
 
 #. module: base
 #: report:ir.module.reference:0
 msgid "Dependencies :"
-msgstr "依赖模块："
+msgstr "依赖："
 
 #. module: base
 #: model:ir.module.category,name:base.module_category_hidden_dependency
@@ -39654,7 +39654,7 @@ msgstr "折旧费用科目"
 #. module: point_of_sale
 #: selection:pos.config,state:0
 msgid "Deprecated"
-msgstr "Deprecated"
+msgstr "废弃的"
 
 #. module: account_asset
 #: field:account.asset.category,account_depreciation_id:0
@@ -39903,7 +39903,7 @@ msgstr "说明："
 #: code:addons/point_of_sale/static/src/js/screens.js:686
 #, python-format
 msgid "Deselect Customer"
-msgstr "Deselect Customer"
+msgstr "取消选择客户"
 
 #. modules: project, mass_mailing, survey, crm
 #: model:crm.case.categ,name:crm.categ_oppor5
@@ -39932,7 +39932,7 @@ msgstr "Design, send and track emails"
 #: view:website:hr_payroll.report_payslip
 #: view:website:hr_payroll.report_payslipdetails
 msgid "Designation"
-msgstr "指定"
+msgstr "目标"
 
 #. module: account_payment
 #: view:payment.line:account_payment.view_payment_line_form
@@ -39947,7 +39947,7 @@ msgstr "Desk space"
 #. module: mrp_repair
 #: field:mrp.repair.line,location_dest_id:0
 msgid "Dest. Location"
-msgstr "Dest. Location"
+msgstr "目的库位"
 
 #. modules: delivery, purchase, stock
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
@@ -40049,7 +40049,7 @@ msgstr "目的路径"
 #: code:addons/point_of_sale/static/src/js/widgets.js:984
 #, python-format
 msgid "Destroy Current Order ?"
-msgstr "Destroy Current Order ?"
+msgstr "销毁当前订单？"
 
 #. module: account
 #: selection:account.account.type,close_method:0
@@ -41039,12 +41039,12 @@ msgstr "您的文件是否包含标题行？"
 #: view:website:website.view_website_form field:website,name:0
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Domain"
-msgstr "筛选条件"
+msgstr "Domain"
 
 #. module: base
 #: field:ir.actions.act_window,domain:0
 msgid "Domain Value"
-msgstr "条件值"
+msgstr "Domain 值"
 
 #. module: gamification
 #: help:gamification.goal.definition,domain:0
@@ -41062,7 +41062,7 @@ msgstr ""
 #: code:addons/web/static/src/xml/base.xml:990
 #, python-format
 msgid "Domain:"
-msgstr "筛选条件"
+msgstr "Domain:"
 
 #. module: base
 #: model:res.country,name:base.dm
@@ -41095,7 +41095,7 @@ msgstr "Don't forget the alerts displayed in the reddish area"
 #: code:addons/base_import/static/src/js/import.js:288
 #, python-format
 msgid "Don't import"
-msgstr "Don't import"
+msgstr "无法导入"
 
 #. module: web
 #. openerp-web
@@ -41424,21 +41424,21 @@ msgstr "草稿、待处理和支付"
 #: code:addons/website/static/src/js/website.tour.banner.js:75
 #, python-format
 msgid "Drag & Drop This Block"
-msgstr "Drag & Drop This Block"
+msgstr "拖放这个块"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:35
 #, python-format
 msgid "Drag & Drop a Banner"
-msgstr "Drag & Drop a Banner"
+msgstr "拖放一个横幅"
 
 #. module: website_blog
 #. openerp-web
 #: code:addons/website_blog/static/src/js/website.tour.blog.js:60
 #, python-format
 msgid "Drag & Drop a Block"
-msgstr "Drag & Drop a Block"
+msgstr "拖放一个块"
 
 #. modules: website_sale, website_event, website_blog
 #. openerp-web
@@ -41448,7 +41448,7 @@ msgstr "Drag & Drop a Block"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:89
 #, python-format
 msgid "Drag & Drop a block"
-msgstr "Drag & Drop a block"
+msgstr "拖放一个块"
 
 #. module: website
 #. openerp-web
@@ -41511,7 +41511,7 @@ msgstr "Drag this block and drop it in your page."
 #: code:addons/website/static/src/xml/website.snippets.xml:34
 #, python-format
 msgid "Drag to Move"
-msgstr "Drag to Move"
+msgstr "拖拽以移动"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
@@ -41629,7 +41629,7 @@ msgstr "到期"
 #. module: base
 #: selection:workflow.activity,kind:0
 msgid "Dummy"
-msgstr "模拟"
+msgstr "Dummy"
 
 #. modules: website, web, mass_mailing, website_blog
 #. openerp-web
@@ -41647,7 +41647,7 @@ msgstr "复制"
 #: code:addons/website/static/src/xml/website.snippets.xml:35
 #, python-format
 msgid "Duplicate Container"
-msgstr "Duplicate Container"
+msgstr "复制容器"
 
 #. module: web
 #. openerp-web
@@ -41659,7 +41659,7 @@ msgstr "复制数据库"
 #. module: website
 #: view:website:website.snippets
 msgid "Duplicate blocks to add more features."
-msgstr "Duplicate blocks to add more features."
+msgstr "复制块并添加更多功能"
 
 #. module: web
 #. openerp-web
@@ -41861,12 +41861,12 @@ msgstr ""
 #. module: point_of_sale
 #: view:pos.ean_wizard:point_of_sale.pos_ean13_generator
 msgid "Ean13 Generator"
-msgstr "条码生成器"
+msgstr "EAN13 生成器"
 
 #. module: membership
 #: field:report.membership,tot_earned:0
 msgid "Earned Amount"
-msgstr "已实现收入"
+msgstr "收入金额"
 
 #. module: base
 #: model:res.country,name:base.tp
@@ -41911,7 +41911,7 @@ msgstr "编辑公司数据"
 #. module: point_of_sale
 #: model:ir.actions.act_window,name:point_of_sale.action_edit_ean
 msgid "Edit Ean"
-msgstr "Edit Ean"
+msgstr "编辑EAN"
 
 #. module: web_calendar
 #. openerp-web
@@ -41934,24 +41934,24 @@ msgstr "编辑布局"
 #: view:website:website.layout
 #, python-format
 msgid "Edit Menu"
-msgstr "Edit Menu"
+msgstr "编辑菜单"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:48
 #, python-format
 msgid "Edit Menu Entry"
-msgstr "Edit Menu Entry"
+msgstr "编辑菜单项"
 
 #. module: survey
 #: view:survey.survey:survey.survey_form
 msgid "Edit Pages and Questions"
-msgstr "Edit Pages and Questions"
+msgstr "编辑页面和问题"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Edit Profile"
-msgstr "Edit Profile"
+msgstr "编辑个人资料"
 
 #. module: web
 #. openerp-web
@@ -41979,12 +41979,12 @@ msgstr "Edit Template"
 #. module: website
 #: view:website:website.layout
 msgid "Edit Top Menu"
-msgstr "Edit Top Menu"
+msgstr "编辑顶部菜单"
 
 #. module: website_event_track
 #: view:event.track:website_event_track.view_event_track_kanban
 msgid "Edit Track"
-msgstr "Edit Track"
+msgstr "编辑跟踪"
 
 #. module: web
 #. openerp-web
@@ -41996,22 +41996,22 @@ msgstr "编辑工作流"
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "Edit Your Bio"
-msgstr "Edit Your Bio"
+msgstr "编辑您的简历"
 
 #. module: website_forum
 #: view:website:website_forum.post_description_full
 msgid "Edit Your Previous Answer"
-msgstr "Edit Your Previous Answer"
+msgstr "编辑您的前一个回答"
 
 #. module: website_forum
 #: field:forum.forum,karma_edit_all:0
 msgid "Edit all posts"
-msgstr "Edit all posts"
+msgstr "编辑所有的帖子"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
 msgid "Edit answer"
-msgstr "Edit answer"
+msgstr "编辑答案"
 
 #. module: web_kanban
 #. openerp-web
@@ -42023,17 +42023,17 @@ msgstr "编辑列"
 #. module: website
 #: view:website:website.publish_management
 msgid "Edit in backend"
-msgstr "Edit in backend"
+msgstr "在后台进行编辑"
 
 #. module: website_forum
 #: field:forum.forum,karma_edit_own:0
 msgid "Edit its own posts"
-msgstr "Edit its own posts"
+msgstr "编辑所属帖子"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
 msgid "Edit question"
-msgstr "Edit question"
+msgstr "编辑问题"
 
 #. module: mail
 #. openerp-web
@@ -42063,12 +42063,12 @@ msgstr "Edit the price of this product by clicking on the amount."
 #: code:addons/website/static/src/js/website.tour.banner.js:21
 #, python-format
 msgid "Edit this page"
-msgstr "Edit this page"
+msgstr "编辑页面"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
 msgid "Edit your Question"
-msgstr "Edit your Question"
+msgstr "编辑您的问题"
 
 #. modules: project_issue, hr_recruitment, project, website_forum_doc, crm, stock
 #: view:crm.lead:crm.crm_case_kanban_view_leads
@@ -42213,13 +42213,13 @@ msgstr "Element '%s' cannot be located in parent view"
 #: view:website:website_forum.edit_profile view:website:website_sale.checkout
 #, python-format
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: base
 #: view:res.users:base.view_users_form
 #: view:res.users:base.view_users_simple_form
 msgid "Email Address"
-msgstr "电子邮件地址"
+msgstr "Email地址"
 
 #. modules: project, mail, hr_recruitment, crm
 #: view:crm.case.section:crm.sales_team_form_view_in_crm
@@ -42259,19 +42259,19 @@ msgstr "Email Error"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_fetchmail
 msgid "Email Gateway"
-msgstr "邮件网关"
+msgstr "Email 网关"
 
 #. module: base
 #: view:res.users:base.view_users_form_simple_modif
 msgid "Email Preferences"
-msgstr "电子邮件选项"
+msgstr "Email 选项"
 
 #. modules: marketing_campaign, email_template
 #: view:email_template.preview:email_template.email_template_preview_form
 #: code:addons/marketing_campaign/marketing_campaign.py:774
 #, python-format
 msgid "Email Preview"
-msgstr "邮件预览"
+msgstr "Email 预览"
 
 #. modules: share, portal
 #: code:addons/portal/wizard/portal_wizard.py:225
@@ -42284,17 +42284,17 @@ msgstr "Email Required"
 #. module: mail
 #: view:mail.mail:mail.view_mail_search
 msgid "Email Search"
-msgstr "电子邮件搜索"
+msgstr "Email 搜索"
 
 #. module: mass_mailing
 #: model:ir.model,name:mass_mailing.model_mail_mail_statistics
 msgid "Email Statistics"
-msgstr "Email Statistics"
+msgstr "Email 统计"
 
 #. module: account_followup
 #: field:account_followup.print,email_subject:0
 msgid "Email Subject"
-msgstr "邮件主题"
+msgstr "Email 主题"
 
 #. modules: email_template, account_followup, product_email_template, survey, crm_partner_assign, marketing_campaign
 #: field:account_followup.followup.line,email_template_id:0
@@ -42304,18 +42304,18 @@ msgstr "邮件主题"
 #: view:email.template:product_email_template.email_template_form_simplified
 #: field:survey.survey,email_template_id:0
 msgid "Email Template"
-msgstr "电子邮件模板"
+msgstr "Email 模板"
 
 #. module: crm_partner_assign
 #: code:addons/crm_partner_assign/wizard/crm_forward_to_partner.py:87
 #, python-format
 msgid "Email Template Error"
-msgstr "Email Template Error"
+msgstr "Email 模板错误"
 
 #. module: email_template
 #: model:ir.model,name:email_template.model_email_template_preview
 msgid "Email Template Preview"
-msgstr "邮件模板预览"
+msgstr "Email 模板预览"
 
 #. modules: purchase, account, website_mail, email_template, sale, base, marketing_campaign
 #: model:ir.actions.act_window,name:account.action_email_templates
@@ -42327,7 +42327,7 @@ msgstr "邮件模板预览"
 #: model:ir.actions.act_window,name:sale.action_email_templates
 #: model:ir.model,name:website_mail.model_email_template
 msgid "Email Templates"
-msgstr "电子邮件模板"
+msgstr "Email 模板"
 
 #. modules: mail, mass_mailing, website_mail, portal
 #: model:ir.model,name:mail.model_mail_thread
@@ -42349,7 +42349,7 @@ msgstr ""
 #. module: crm
 #: help:crm.lead,email_from:0
 msgid "Email address of the contact"
-msgstr "联系人邮箱地址"
+msgstr "联系人Email地址"
 
 #. modules: mail, survey
 #: help:mail.compose.message,email_from:0 help:mail.message,email_from:0
@@ -42370,7 +42370,7 @@ msgstr "Email address to redirect replies..."
 #: code:addons/calendar/calendar.py:1399
 #, python-format
 msgid "Email addresses not found"
-msgstr "电子邮件地址未找到"
+msgstr "Email地址未找到"
 
 #. module: hr_recruitment
 #: help:hr.job,alias_id:0
@@ -42432,7 +42432,7 @@ msgstr "Email:"
 #: code:addons/share/wizard/share_wizard.py:77 field:share.wizard,new_users:0
 #, python-format
 msgid "Emails"
-msgstr "电子邮件"
+msgstr "Emails"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
@@ -42442,7 +42442,7 @@ msgstr "Email 集成"
 #. module: mass_mailing
 #: field:mail.mass_mailing,statistics_ids:0
 msgid "Emails Statistics"
-msgstr "Emails Statistics"
+msgstr "Email 统计"
 
 #. module: share
 #. openerp-web
@@ -42507,7 +42507,7 @@ msgstr "Emissions"
 #: model:ir.model,name:hr_timesheet_sheet.model_hr_employee
 #: model:ir.model,name:website_hr.model_hr_employee
 msgid "Employee"
-msgstr "雇员"
+msgstr "员工"
 
 #. module: hr_evaluation
 #: model:ir.model,name:hr_evaluation.model_hr_evaluation_evaluation
@@ -42518,7 +42518,7 @@ msgstr "员工评估"
 #: model:survey.page,title:hr_evaluation.appraisal_1
 #: model:survey.survey,title:hr_evaluation.appraisal_form
 msgid "Employee Appraisal Form"
-msgstr "Employee Appraisal Form"
+msgstr "员工考核表"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_evaluation
@@ -42528,12 +42528,12 @@ msgstr "员工评估"
 #. module: hr_gamification
 #: field:hr.employee,badge_ids:0
 msgid "Employee Badges"
-msgstr "Employee Badges"
+msgstr "员工勋章"
 
 #. module: fleet
 #: model:fleet.vehicle.tag,name:fleet.vehicle_tag_leasing
 msgid "Employee Car"
-msgstr "Employee Car"
+msgstr "员工用车"
 
 #. module: hr
 #: view:hr.employee.category:hr.view_employee_category_form
@@ -42544,7 +42544,7 @@ msgstr "员工分类"
 #. module: hr_evaluation
 #: model:survey.page,title:hr_evaluation.appraisal_5
 msgid "Employee Comments"
-msgstr "Employee Comments"
+msgstr "员工意见"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_hr_contract
@@ -42575,12 +42575,12 @@ msgstr "员工ID"
 #. module: hr_evaluation
 #: model:survey.survey,title:hr_evaluation.opinion_form
 msgid "Employee Opinion Form"
-msgstr "Employee Opinion Form"
+msgstr "员工意见表"
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_cashmove
 msgid "Employee Payments"
-msgstr "Employee Payments"
+msgstr "员工付款"
 
 #. module: hr_payroll
 #: model:ir.actions.act_window,name:hr_payroll.action_view_hr_payslip_form
@@ -42614,7 +42614,7 @@ msgstr "员工考勤"
 #. module: hr
 #: help:hr.employee,bank_account_id:0
 msgid "Employee bank salary account"
-msgstr "银行支付员工工资的科目"
+msgstr "薪资银行账户"
 
 #. module: hr_timesheet
 #: code:addons/hr_timesheet/hr_timesheet.py:152
@@ -42634,7 +42634,7 @@ msgstr "Employee linked to the applicant."
 #. module: hr_evaluation
 #: field:hr.evaluation.interview,user_to_review_id:0
 msgid "Employee to evaluate"
-msgstr "Employee to evaluate"
+msgstr "待评估的员工"
 
 #. modules: hr_expense, hr_timesheet
 #: field:hr.expense.report,employee_id:0 field:hr.sign.in.project,name:0
@@ -42650,7 +42650,7 @@ msgstr "员工"
 #. module: hr_expense
 #: view:website:hr_expense.report_expense
 msgid "Employee:"
-msgstr "Employee:"
+msgstr "员工："
 
 #. modules: hr, hr_timesheet_sheet, base, hr_payroll
 #: model:ir.actions.act_window,name:base.action_partner_employee_form
@@ -42715,7 +42715,7 @@ msgstr "科目留空？ "
 #: code:addons/point_of_sale/static/src/js/screens.js:1260
 #, python-format
 msgid "Empty Order"
-msgstr "Empty Order"
+msgstr "空订单"
 
 #. module: product
 #: field:product.ul,weight:0
@@ -42997,7 +42997,7 @@ msgstr "Ending Month Of Membership"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "Ending at"
-msgstr "Ending at"
+msgstr "结束于"
 
 #. module: account_asset
 #: field:account.asset.category,method_end:0
@@ -43096,7 +43096,7 @@ msgstr "输入转移详情"
 #. module: website_forum
 #: view:website:website_forum.ask_question
 msgid "Enter your Question"
-msgstr "Enter your Question"
+msgstr "输入你的问题"
 
 #. modules: website, website_mail
 #: view:website:website.snippets
@@ -43149,7 +43149,7 @@ msgstr "分录月份"
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_sequence
 msgid "Entries Sequence Numbering"
-msgstr "凭证号"
+msgstr "分类序列编号"
 
 #. module: account
 #: view:website:account.report_journal
@@ -43352,7 +43352,7 @@ msgstr "错误！签入（或签出）动作必须在签出（或签入）动作
 #. module: project
 #: constraint:project.task:0
 msgid "Error ! Task end-date must be greater than task start-date"
-msgstr "Error ! Task end-date must be greater than task start-date"
+msgstr "错误！任务结束日期必须大于任务开始日期"
 
 #. module: base
 #: code:addons/base/ir/ir_ui_menu.py:458
@@ -43373,7 +43373,7 @@ msgstr "错误！您不能创建递归的薪资结构。"
 #. module: sales_team
 #: constraint:crm.case.section:0
 msgid "Error ! You cannot create recursive Sales team."
-msgstr "Error ! You cannot create recursive Sales team."
+msgstr "错误！您不能创建递归的销售团队。"
 
 #. module: account_asset
 #: constraint:account.asset.asset:0
@@ -43399,12 +43399,12 @@ msgstr "错误！您不能创建循环的档案。"
 #. module: project
 #: constraint:project.task:0
 msgid "Error ! You cannot create recursive tasks."
-msgstr "Error ! You cannot create recursive tasks."
+msgstr "错误！您不能创建循环引用的任务"
 
 #. module: report
 #: constraint:report.paperformat:0
 msgid "Error ! You cannot select a format AND speficic page width/height."
-msgstr "Error ! You cannot select a format AND speficic page width/height."
+msgstr "错误！您不能选择格式又指定页面宽度/高度。"
 
 #. module: marketing_campaign
 #: view:marketing.campaign.workitem:marketing_campaign.view_marketing_campaign_workitem_form
@@ -43744,12 +43744,12 @@ msgstr "错误！休假的开始日期必须小于结束日期。"
 #. module: project
 #: constraint:project.project:0
 msgid "Error! project start-date must be lower than project end-date."
-msgstr "Error! project start-date must be lower than project end-date."
+msgstr "错误！项目的开始日期必须小于项目的结束日期。"
 
 #. module: mail
 #: sql_constraint:mail.followers:0
 msgid "Error, a partner cannot follow twice the same object."
-msgstr "Error, a partner cannot follow twice the same object."
+msgstr "错误，一个业务伙伴不能对一个对象关注两次。"
 
 #. module: web
 #: code:addons/web/controllers/main.py:765
@@ -43761,14 +43761,14 @@ msgstr "错误，密码未改变！"
 #. module: membership
 #: constraint:membership.membership_line:0
 msgid "Error, this membership product is out of date"
-msgstr "错误，这个会员产品已过期"
+msgstr "错误，这个会员产品已超期"
 
 #. module: point_of_sale
 #. openerp-web
 #: code:addons/point_of_sale/static/src/js/screens.js:757
 #, python-format
 msgid "Error: Could not Save Changes"
-msgstr "Error: Could not Save Changes"
+msgstr "错误：不能保存更改"
 
 #. modules: product, point_of_sale
 #: constraint:res.partner:0 constraint:res.users:0
@@ -43804,7 +43804,7 @@ msgstr "错误：默认的计量单位和采购计量单位必须是相同的类
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 #: view:res.partner:crm_partner_assign.view_crm_partner_assign_form
 msgid "Escalate"
-msgstr "提升"
+msgstr "升级"
 
 #. module: crm
 #: help:crm.lead,date_deadline:0
@@ -44743,7 +44743,7 @@ msgstr "%s的费用"
 #. module: hr_expense
 #: view:hr.expense.expense:hr_expense.view_hr_expense_filter
 msgid "Expenses to Invoice"
-msgstr "要开票的报销单"
+msgstr "要开票的费用"
 
 #. module: analytic_contract_hr_expense
 #: code:addons/analytic_contract_hr_expense/analytic_contract_hr_expense.py:143
@@ -44793,12 +44793,12 @@ msgstr "过期或消耗"
 #. module: website_payment
 #: view:website:website_payment.cc_form
 msgid "Expires"
-msgstr "有效期"
+msgstr "有效"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 msgid "Expiring soon"
-msgstr "Expiring soon"
+msgstr "即将过期"
 
 #. module: website_quote
 #: field:sale.order,validity_date:0
@@ -44842,7 +44842,7 @@ msgstr "价格表明细的详细规则名称"
 #. module: report
 #: help:report.paperformat,report_ids:0
 msgid "Explicitly associated reports"
-msgstr "Explicitly associated reports"
+msgstr "明确关联的报表"
 
 #. modules: anonymization, base, report_intrastat, web
 #. openerp-web
@@ -45233,7 +45233,7 @@ msgstr "传真"
 #: view:res.partner:base.view_partner_form
 #: view:website:report.external_layout_footer
 msgid "Fax:"
-msgstr "Fax:"
+msgstr "传真："
 
 #. module: website
 #: view:website:website.snippets
@@ -45260,7 +45260,7 @@ msgstr "Feature Title"
 #. module: project_issue
 #: view:project.issue:project_issue.project_feature_tree_view
 msgid "Feature Tracker Tree"
-msgstr "缺陷列表"
+msgstr "Feature Tracker Tree"
 
 #. modules: website, website_mail
 #: view:website:website.snippets
@@ -45321,18 +45321,18 @@ msgstr "会议反馈"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Feedback of interviews..."
-msgstr "Feedback of interviews..."
+msgstr "面谈反馈..."
 
 #. modules: mrp_repair, payment
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 #: field:mrp.repair,fees_lines:0 field:payment.transaction,fees:0
 msgid "Fees"
-msgstr "Fees"
+msgstr "费用"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Fees Line(s)"
-msgstr "Fees Line(s)"
+msgstr "费用明细"
 
 #. module: payment
 #: help:payment.transaction,fees:0
@@ -45408,7 +45408,7 @@ msgstr "Field `%(field_name)s` does not exist"
 #. module: gamification
 #: field:gamification.goal.definition,field_id:0
 msgid "Field to Sum"
-msgstr "Field to Sum"
+msgstr "求和字段"
 
 #. module: document
 #: help:document.directory,resource_field:0
@@ -45554,7 +45554,7 @@ msgstr "文件类型"
 #. module: mail
 #: field:ir.attachment,file_type_icon:0
 msgid "File Type Icon"
-msgstr "File Type Icon"
+msgstr "文件类型图标"
 
 #. module: web
 #. openerp-web
@@ -45796,7 +45796,7 @@ msgstr "筛选器名称必须是唯一的"
 #. module: website_forum
 #: view:website:website_forum.forum_index
 msgid "Filter on"
-msgstr "Filter on"
+msgstr "筛选 于"
 
 #. modules: base, document
 #: view:ir.attachment:base.view_attachment_search
@@ -46031,7 +46031,7 @@ msgstr "产成品库位"
 #. module: survey
 #: view:website:survey.result
 msgid "Finished surveys"
-msgstr "Finished surveys"
+msgstr "已完成的调查"
 
 #. module: base
 #: model:res.country,name:base.fi
@@ -46266,7 +46266,7 @@ msgstr "固定总额"
 #. module: account
 #: model:account.account.template,name:account.conf_xfa
 msgid "Fixed Asset Account"
-msgstr "固定资产账户"
+msgstr "固定资产科目"
 
 #. module: account
 #: model:account.account.template,name:account.conf_fas
@@ -46693,22 +46693,22 @@ msgstr "催款等级"
 #. module: base
 #: field:res.company,font:0
 msgid "Font"
-msgstr "Font"
+msgstr "字体"
 
 #. module: base
 #: field:res.font,name:0
 msgid "Font Name"
-msgstr "Font Name"
+msgstr "字体名称"
 
 #. module: base
 #: field:res.font,family:0
 msgid "Font family"
-msgstr "Font family"
+msgstr "字体集"
 
 #. module: base
 #: model:ir.model,name:base.model_res_font
 msgid "Fonts available"
-msgstr "Fonts available"
+msgstr "可用字体"
 
 #. module: base
 #: help:res.company,rml_footer:0
@@ -46961,7 +46961,7 @@ msgstr "强制会计期间"
 #. module: hr_timesheet_invoice
 #: field:hr.timesheet.invoice.create,product:0
 msgid "Force Product"
-msgstr "Force Product"
+msgstr "强制产品"
 
 #. module: stock
 #: field:product.category,removal_strategy_id:0
@@ -46981,7 +46981,7 @@ msgstr "强制计价期间"
 #. module: crm
 #: field:crm.lead2opportunity.partner.mass,force_assignation:0
 msgid "Force assignation"
-msgstr "Force assignation"
+msgstr "强制分配"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
@@ -105396,7 +105396,7 @@ msgstr "转储一个 PostgreSQL 数据库"
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_1
 msgid "duplicate question"
-msgstr "重复的问题"
+msgstr "复制问题"
 
 #. module: calendar
 #: field:calendar.alarm,duration_minutes:0
