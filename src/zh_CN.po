@@ -184,7 +184,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-04 16:26+0000\n"
-"PO-Revision-Date: 2015-05-07 09:48+0800\n"
+"PO-Revision-Date: 2015-05-07 10:03+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19487,7 +19487,7 @@ msgstr "Accept terms of use and click on the Create button at the bottom"
 #: selection:calendar.event,attendee_status:0
 #: selection:hr.expense.report,state:0
 msgid "Accepted"
-msgstr "已接受"
+msgstr "已同意"
 
 #. module: website_event_track
 #: field:event.event,allowed_track_tag_ids:0
@@ -19497,7 +19497,7 @@ msgstr "Accepted Tags"
 #. module: base
 #: field:res.company,user_ids:0
 msgid "Accepted Users"
-msgstr "接受的用户"
+msgstr "同意的用户"
 
 #. module: website_forum
 #: field:forum.forum,karma_gen_answer_accept:0
@@ -19588,7 +19588,7 @@ msgstr "已获得共享文档的访问权限"
 #. module: website_sale
 #: field:product.template,accessory_product_ids:0
 msgid "Accessory Products"
-msgstr "Accessory Products"
+msgstr "配套产品"
 
 #. module: base_import
 #. openerp-web
@@ -19647,27 +19647,27 @@ msgstr "科目"
 #. module: account
 #: model:ir.model,name:account.model_account_aged_trial_balance
 msgid "Account Aged Trial balance Report"
-msgstr "试算表报告"
+msgstr "到期的科目试算表报告"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_balance
 msgid "Account Analytic Balance"
-msgstr "分析余额"
+msgstr "科目分析余额"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_chart
 msgid "Account Analytic Chart"
-msgstr "分析表"
+msgstr "科目分析表"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_cost_ledger
 msgid "Account Analytic Cost Ledger"
-msgstr "分析成本总账"
+msgstr "分析成本分类账"
 
 #. module: account
 #: model:ir.model,name:account.model_account_analytic_cost_ledger_journal_report
 msgid "Account Analytic Cost Ledger For Journal Report"
-msgstr "分析成本总账的日记账报告"
+msgstr "分析成本分类账的日记账报告"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_account_analytic_default
@@ -19773,7 +19773,7 @@ msgstr "替代科目"
 #: model:ir.model,name:account_sequence.model_account_move
 #: field:account.voucher,move_id:0
 msgid "Account Entry"
-msgstr "分录"
+msgstr "科目分录"
 
 #. module: account_followup
 #: model:ir.model,name:account_followup.model_account_followup_followup
@@ -19799,7 +19799,7 @@ msgstr "账户 ID"
 #. module: membership
 #: field:membership.membership_line,account_invoice_line:0
 msgid "Account Invoice line"
-msgstr "帐户发票明细"
+msgstr "科目发票明细"
 
 #. modules: account, stock_landed_costs
 #: view:account.journal:account.view_account_journal_form
@@ -19865,7 +19865,7 @@ msgstr "科目名称"
 #. module: base
 #: field:res.company,account_no:0
 msgid "Account No."
-msgstr "科目号"
+msgstr "科目号码"
 
 #. module: base
 #: view:res.partner.bank:base.view_partner_bank_form
@@ -19886,7 +19886,7 @@ msgstr "账户所有者名称"
 #. module: account
 #: model:ir.model,name:account.model_account_partner_ledger
 msgid "Account Partner Ledger"
-msgstr "业务伙伴总账"
+msgstr "业务伙伴分类账"
 
 #. module: account
 #: field:res.partner,property_account_payable:0
@@ -19931,13 +19931,13 @@ msgstr "科目调节"
 #: field:account.financial.report,children_ids:0
 #: model:ir.model,name:account.model_account_financial_report
 msgid "Account Report"
-msgstr "科目报告"
+msgstr "会计报告"
 
 #. module: account
 #: field:accounting.report,account_report_id:0
 #: model:ir.ui.menu,name:account.menu_account_financial_reports_tree
 msgid "Account Reports"
-msgstr "财务报告"
+msgstr "会计报告"
 
 #. module: account
 #: view:account.financial.report:account.view_account_report_tree_hierarchy
@@ -19949,7 +19949,7 @@ msgstr "会计报告层级"
 #: view:account.sequence.installer:account_sequence.view_account_sequence_installer
 #: model:ir.actions.act_window,name:account_sequence.action_account_seq_installer
 msgid "Account Sequence Application Configuration"
-msgstr "序列模块配置"
+msgstr "Account Sequence Application Configuration"
 
 #. module: account
 #: field:account.fiscal.position.account,account_src_id:0
@@ -19961,7 +19961,7 @@ msgstr "源科目"
 #: model:ir.actions.act_window,name:account.action_account_state_open
 #: model:ir.model,name:account.model_account_state_open
 msgid "Account State Open"
-msgstr "科目状态打开"
+msgstr "科目状态开放"
 
 #. module: account
 #: view:account.account:account.account_account_graph
@@ -19990,7 +19990,7 @@ msgstr "订阅明细"
 #: view:account.tax:account.view_tax_form
 #: view:account.tax:account.view_tax_tree
 msgid "Account Tax"
-msgstr "税"
+msgstr "税金"
 
 #. module: account
 #: field:account.tax,tax_code_id:0
@@ -20088,17 +20088,17 @@ msgstr "VAT声明"
 #. module: account
 #: constraint:account.move.line:0
 msgid "Account and Period must belong to the same company."
-msgstr "帐户和帐期必须属于同一家公司。"
+msgstr "科目和期间必须属于同一家公司。"
 
 #. module: account
 #: model:ir.model,name:account.model_account_chart
 msgid "Account chart"
-msgstr "科目一览表"
+msgstr "科目表"
 
 #. module: account
 #: view:account.chart:account.view_account_chart
 msgid "Account charts"
-msgstr "科目一览表"
+msgstr "科目表"
 
 #. module: account
 #: view:account.account:account.view_account_form
@@ -20138,7 +20138,7 @@ msgstr "会计期间"
 #. module: account
 #: model:ir.actions.report.xml,name:account.action_report_vat
 msgid "Account tax"
-msgstr "税"
+msgstr "税金"
 
 #. module: account
 #: model:ir.model,name:account.model_account_tax_chart
@@ -20355,7 +20355,7 @@ msgstr "待调节科目"
 #. module: account
 #: model:ir.actions.act_window,name:account.act_account_renew_view
 msgid "Accounts to Renew"
-msgstr "待延续科目"
+msgstr "待更新科目"
 
 #. module: account_test
 #: view:website:account_test.report_accounttest
@@ -20365,17 +20365,17 @@ msgstr "Accouting tests on"
 #. module: payment
 #: field:payment.transaction,acquirer_id:0
 msgid "Acquirer"
-msgstr "Acquirer"
+msgstr "托收方"
 
 #. module: payment
 #: field:payment.transaction,acquirer_reference:0
 msgid "Acquirer Order Reference"
-msgstr "Acquirer Order Reference"
+msgstr "托收单参考"
 
 #. module: fleet
 #: field:fleet.vehicle,acquisition_date:0
 msgid "Acquisition Date"
-msgstr "Acquisition Date"
+msgstr "托收日期"
 
 #. modules: hr_attendance, hr_evaluation, procurement, base, gamification, marketing_campaign, crm
 #: view:ir.actions.act_window:base.view_window_action_search
