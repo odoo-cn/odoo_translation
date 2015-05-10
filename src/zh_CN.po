@@ -184,7 +184,7 @@ msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-05-04 16:26+0000\n"
-"PO-Revision-Date: 2015-05-07 10:55+0800\n"
+"PO-Revision-Date: 2015-05-10 14:04+0800\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -11913,7 +11913,7 @@ msgstr ""
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%X - Appropriate time representation."
-msgstr "%X - 时间表示方式"
+msgstr "%X - Appropriate time representation."
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -11933,7 +11933,7 @@ msgstr "%b - 月份缩写。"
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%c - Appropriate date and time representation."
-msgstr "%c - 日期时间表示"
+msgstr "%c - Appropriate date and time representation."
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -12126,7 +12126,7 @@ msgstr "%w - 星期 [0(周日),6]."
 #. module: base
 #: view:res.lang:base.res_lang_form
 msgid "%x - Appropriate date representation."
-msgstr "%x - 使用日期表示"
+msgstr "%x - Appropriate date representation."
 
 #. module: base
 #: view:res.lang:base.res_lang_form
@@ -17823,10 +17823,10 @@ msgid ""
 "            "
 msgstr ""
 "<p>\n"
-"                                 <b>做得不错！</b>您的收件箱是空的.\n"
+"                                 <b>干得不错！</b>您的收件箱是空的.\n"
 "                          </p><p>\n"
-"                                    您的收件箱包含了您的私人消息或者发给您的"
-"邮件 ，\n"
+"                                    您的收件箱包含了您的私人消息或者发送给您"
+"的邮件 ，\n"
 "                                    包括您关注的文档或者个人的信息。\n"
 "                          </p>\n"
 "            "
@@ -17845,7 +17845,7 @@ msgstr ""
 "               <b>没有私人消息</b>\n"
 "                </p>\n"
 "                <p>\n"
-"                    这个列表包含了发给您的消息.\n"
+"                    这个列表包含了发送给您的消息.\n"
 "                </p>\n"
 "            "
 
@@ -19125,7 +19125,7 @@ msgstr "需要分配特定产品的业务伙伴"
 msgid ""
 "A password reset has been requested for this user. An email containing the "
 "following link has been sent:"
-msgstr "当前用户密码重置的请求已提交，一封包含重置密码链接的邮件已被发送"
+msgstr "当前用户密码重置的请求已提交，一封包含重置密码链接的邮件已送出"
 
 #. module: account
 #: model:ir.actions.act_window,help:account.action_account_period_tree
@@ -22954,7 +22954,7 @@ msgstr ""
 #: code:addons/auth_signup/controllers/main.py:78
 #, python-format
 msgid "An email has been sent with credentials to reset your password"
-msgstr "一封包含验证证书以重置您的密码的电子邮件已经发送"
+msgstr "重置密码的电子邮件已经发出"
 
 #. module: share
 #: view:share.wizard:share.share_step2_form
@@ -22994,7 +22994,7 @@ msgstr "An introductory text to your page"
 #: view:res.users:auth_signup.res_users_form_view
 msgid ""
 "An invitation email containing the following subscription link has been sent:"
-msgstr "含有下列订阅链接邀请邮件已被发送："
+msgstr "含有下列订阅链接邀请邮件已送出："
 
 #. module: calendar
 #: code:addons/calendar/calendar.py:1114
@@ -42412,7 +42412,7 @@ msgstr "邮件内容"
 #: code:addons/account_followup/account_followup.py:216
 #, python-format
 msgid "Email not sent because of email address of partner not filled in"
-msgstr "邮件未发出，因为业务伙伴的Email地址没填写"
+msgstr "邮件未送出，因为没填写业务伙伴的Email地址"
 
 #. module: calendar
 #: help:calendar.attendee,email:0
@@ -46564,7 +46564,7 @@ msgstr "催款明细"
 #: view:account_followup.stat:account_followup.view_account_followup_stat_search
 #: model:ir.actions.act_window,name:account_followup.action_followup_stat
 msgid "Follow-ups Sent"
-msgstr "已发送催款"
+msgstr "已送出催款"
 
 #. module: account_followup
 #: view:res.partner:account_followup.customer_followup_search_view
@@ -49533,7 +49533,7 @@ msgid ""
 "specific criteria such as the processing time, number of requests answered, "
 "emails sent and costs."
 msgstr ""
-"为所有的支持请求排序指定具体标准如：处理时间，请求回复的次数，发送的邮件，成"
+"为所有的支持请求排序指定具体标准如：处理时间，请求回复的次数，送出的邮件，成"
 "本."
 
 #. module: website
@@ -54850,7 +54850,7 @@ msgstr "已收到的发票"
 #: code:addons/account/account_invoice.py:1642
 #, python-format
 msgid "Invoice sent"
-msgstr "已发送的发票"
+msgstr "已送出的发票"
 
 #. module: account
 #: field:account.config.settings,sale_sequence_prefix:0
@@ -55399,7 +55399,7 @@ msgstr ""
 #. module: account
 #: help:account.invoice,sent:0
 msgid "It indicates that the invoice has been sent."
-msgstr "提示发票已寄出。"
+msgstr "提示发票已送出。"
 
 #. module: membership
 #: help:res.partner,membership_state:0
@@ -75364,11 +75364,11 @@ msgid ""
 "   - transitions: list of campaign transitions outgoing from this activity\n"
 "...- re: Python regular expression module"
 msgstr ""
-"由Python表达式决定活动是否被执行的，或者被删除，或者被取消。表达式可以用以下"
+"由Python表达式决定活动是否能被执行，或者被删除，或者被取消。表达式可以用以下"
 "[browsable]变量：\n"
 "   -activity：营销活动项\n"
-"   -workitem：营销活动工作项\n"
-"   -resource：营销活动代表的资源对象\n"
+"   -workitem：营销工作项\n"
+"   -resource：营销工作项代表的资源对象\n"
 "   -transitions：从此活动转出的营销活动列表\n"
 "...-re：Python正则表达式模块"
 
@@ -75921,7 +75921,7 @@ msgstr "Quotation Send"
 #. module: sale
 #: selection:sale.order,state:0 selection:sale.report,state:0
 msgid "Quotation Sent"
-msgstr "报价单发送"
+msgstr "报价单送出"
 
 #. module: website_quote
 #: field:sale.quote.template,name:0
@@ -75959,7 +75959,7 @@ msgstr "Quotation created"
 #: model:mail.message.subtype,description:sale.mt_order_sent
 #: model:mail.message.subtype,name:sale.mt_order_sent
 msgid "Quotation sent"
-msgstr "报价单发送"
+msgstr "报价单送出"
 
 #. module: website_quote
 #: code:addons/website_quote/controllers/main.py:47
@@ -82735,7 +82735,7 @@ msgstr "Senior"
 #: field:mail.statistics.report,sent:0
 #: selection:mail.statistics.report,state:0
 msgid "Sent"
-msgstr "已发送"
+msgstr "送出"
 
 #. module: mass_mailing
 #: view:mail.mass_mailing:mass_mailing.view_mail_mass_mailing_search
@@ -104495,12 +104495,12 @@ msgstr ""
 #. module: website_crm
 #: view:website:website_crm.contactus_thanks
 msgid "Your message has been sent successfully."
-msgstr "您的消息已成功发出。"
+msgstr "您的消息已成功送出。"
 
 #. module: website_quote
 #: view:website:website_quote.so_quotation
 msgid "Your message has been successfully sent!"
-msgstr "您的消息已成功发送！"
+msgstr "您的消息已成功送出！"
 
 #. module: website_blog
 #. openerp-web
