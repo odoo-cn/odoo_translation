@@ -11642,7 +11642,7 @@ msgstr "# 商机"
 #. module: product
 #: field:product.template,product_variant_count:0
 msgid "# of Product Variants"
-msgstr "# 产品变体"
+msgstr "# 产品变型"
 
 #. modules: hr_expense, stock_account
 #: field:hr.expense.report,no_of_products:0
@@ -55146,7 +55146,7 @@ msgstr "Is designed?"
 #: field:product.product,is_product_variant:0
 #: field:product.template,is_product_variant:0
 msgid "Is product variant"
-msgstr "是产品变体"
+msgstr "是产品变型"
 
 #. module: delivery
 #: help:delivery.carrier,available:0
@@ -58712,7 +58712,7 @@ msgstr "List of Features"
 #. module: product
 #: view:product.template:product.product_template_only_form_view
 msgid "List of Variants"
-msgstr "变体列表"
+msgstr "变型列表"
 
 #. module: account
 #: help:account.chart.template,tax_template_ids:0
@@ -73611,7 +73611,7 @@ msgstr "产品启用时间"
 #: view:product.product:product.product_normal_form_view
 #: view:product.template:product.product_template_search_view
 msgid "Product Variant"
-msgstr "产品变体"
+msgstr "产品变型"
 
 #. modules: product, stock
 #: model:ir.actions.act_window,name:product.product_normal_action
@@ -73622,7 +73622,7 @@ msgstr "产品变体"
 #: view:product.product:product.product_product_tree_view
 #: model:ir.ui.menu,name:stock.menu_product_variant_config_stock
 msgid "Product Variants"
-msgstr "产品变体"
+msgstr "产品变型"
 
 #. module: base
 #: model:ir.module.module,shortdesc:base.module_product_extended
@@ -98860,22 +98860,22 @@ msgstr "Variable international fees (in percents)"
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
 msgid "Variant"
-msgstr "变体"
+msgstr "变型"
 
 #. module: product
 #: field:product.product,price_extra:0
 msgid "Variant Extra Price"
-msgstr "变体额外价格"
+msgstr "变型额外价格"
 
 #. module: product
 #: field:product.product,image_variant:0
 msgid "Variant Image"
-msgstr "变体图片"
+msgstr "变型图片"
 
 #. module: product
 #: view:product.template:product.product_template_only_form_view
 msgid "Variant Prices"
-msgstr "变体价格"
+msgstr "变型价格"
 
 #. module: product
 #: model:ir.actions.act_window,name:product.variants_template_action
@@ -98883,7 +98883,7 @@ msgstr "变体价格"
 #: view:product.attribute.value:product.variants_template_tree_view
 #: view:product.attribute.value:product.variants_tree_view
 msgid "Variant Values"
-msgstr "变体值"
+msgstr "变型值"
 
 #. modules: product, mrp
 #: field:mrp.bom.line,attribute_value_ids:0
@@ -98891,7 +98891,7 @@ msgstr "变体值"
 #: view:product.template:product.product_template_kanban_view
 #: view:product.template:product.product_template_only_form_view
 msgid "Variants"
-msgstr "变体"
+msgstr "变型"
 
 #. module: website
 #: view:website:website.snippet_options
