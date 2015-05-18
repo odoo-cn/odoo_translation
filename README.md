@@ -25,6 +25,10 @@ TOC
 
 <!-- /MarkdownTOC -->
 
+可以在此查看安装了此汉化成果的odoo实例 [odoouse.cn](http://demo.odoouse.cn)
+用户名 demo
+密码 demo
+
 <a name="guide"></a>
 # 0. 翻译策略 [guide]
 
