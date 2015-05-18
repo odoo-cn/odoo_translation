@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 16:14+0000\n"
-"PO-Revision-Date: 2015-05-04 16:14+0000\n"
+"POT-Creation-Date: 2015-05-17 01:21+0000\n"
+"PO-Revision-Date: 2015-05-17 01:21+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: view:website:website_sale.cart
 #: view:website:website_sale.products_item
 msgid "&nbsp;"
-msgstr "不能有空格"
+msgstr "&nbsp;"
 
 #. module: website_sale
 #: view:website:website_sale.products
@@ -64,7 +64,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: website_sale
 #: field:product.template,accessory_product_ids:0
 msgid "Accessory Products"
-msgstr "Accessory Products"
+msgstr "配套产品"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -75,7 +75,7 @@ msgstr "Add to Cart"
 #. module: website_sale
 #: view:website:website_sale.products
 msgid "All Products"
-msgstr "All Products"
+msgstr "所有产品"
 
 #. module: website_sale
 #: field:product.template,alternative_product_ids:0
@@ -106,7 +106,7 @@ msgstr "Available in the website"
 #: view:website:website_sale.confirmation
 #: view:website:website_sale.payment
 msgid "Bill To:"
-msgstr "账单到："
+msgstr "票据到："
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -262,26 +262,26 @@ msgstr "国家"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Country..."
-msgstr "Country..."
+msgstr "国家..."
 
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Coupon Code"
-msgstr "Coupon Code"
+msgstr "优惠券代码"
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:41
 #, python-format
 msgid "Create Product"
-msgstr "Create Product"
+msgstr "创建产品"
 
 #. module: website_sale
 #. openerp-web
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:26
 #, python-format
 msgid "Create a new product"
-msgstr "Create a new product"
+msgstr "创建新产品"
 
 #. module: website_sale
 #. openerp-web
@@ -295,7 +295,7 @@ msgstr "Create a product"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:19
 #, python-format
 msgid "Create your first product"
-msgstr "Create your first product"
+msgstr "创建您的首个产品"
 
 #. module: website_sale
 #: field:product.public.category,create_uid:0
@@ -343,7 +343,7 @@ msgstr "Drag & Drop a block"
 #: code:addons/website_sale/static/src/js/website_sale_tour_shop.js:90
 #, python-format
 msgid "Drag the 'Big Picture' block and drop it in your page."
-msgstr "Drag the 'Big Picture' block and drop it in your page."
+msgstr "拖曳 '大图' 区块并放置在你的页面"
 
 #. module: website_sale
 #. openerp-web
@@ -355,7 +355,7 @@ msgstr "Edit the price of this product by clicking on the amount."
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: website_sale
 #. openerp-web
@@ -367,7 +367,7 @@ msgstr "Enter a name for your new product then click 'Continue'."
 #. module: website_sale
 #: constraint:product.public.category:0
 msgid "Error ! You cannot create recursive categories."
-msgstr "错误！您不能创建循环分类。"
+msgstr "错误！您不能创建循环类别。"
 
 #. module: website_sale
 #: view:website:website_sale.product
@@ -523,14 +523,14 @@ msgstr "其它"
 #. module: website_sale
 #: field:product.public.category,parent_id:0
 msgid "Parent Category"
-msgstr "上级分类"
+msgstr "父级分类"
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:658
 #: view:website:website_sale.payment
 #, python-format
 msgid "Pay Now"
-msgstr "Pay Now"
+msgstr "现在支付"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -553,7 +553,7 @@ msgstr "付款方法："
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_payment_transaction
 msgid "Payment Transaction"
-msgstr "Payment Transaction"
+msgstr "付款交易"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -642,13 +642,13 @@ msgstr "Promotional Code"
 #. module: website_sale
 #: view:product.public.category:website_sale.product_public_category_form_view
 msgid "Public Categories"
-msgstr "Public Categories"
+msgstr "公开类别"
 
 #. module: website_sale
 #: model:ir.model,name:website_sale.model_product_public_category
 #: field:product.template,public_categ_ids:0
 msgid "Public Category"
-msgstr "Public Category"
+msgstr "公开类别"
 
 #. module: website_sale
 #: model:ir.actions.act_window,name:website_sale.product_public_category_action
@@ -697,12 +697,12 @@ msgstr "Radio"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Return to Cart"
-msgstr "Return to Cart"
+msgstr "退回到购物车"
 
 #. module: website_sale
 #: view:website:website_sale.404
 msgid "Return to the product list."
-msgstr "Return to the product list."
+msgstr "退回到产品列表"
 
 #. module: website_sale
 #: view:website:website_sale.cart
@@ -885,12 +885,12 @@ msgstr "Start Tutorial"
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "State / Province"
-msgstr "State / Province"
+msgstr "州 / 省"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "State / Province..."
-msgstr "State / Province..."
+msgstr "州 / 省..."
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -1070,7 +1070,7 @@ msgstr "You successfully installed the e-commerce. This guide will help you to c
 #. module: website_sale
 #: view:website:website_sale.checkout
 msgid "Your Address"
-msgstr "Your Address"
+msgstr "您的地址"
 
 #. module: website_sale
 #: view:website:website_sale.checkout
@@ -1085,13 +1085,13 @@ msgstr "您的订单"
 #. module: website_sale
 #: view:website:website_sale.cart
 msgid "Your cart is empty!"
-msgstr "Your cart is empty!"
+msgstr "您的购物车是空的！"
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:754
 #, python-format
 msgid "Your payment has been received."
-msgstr "Your payment has been received."
+msgstr "您的付款已经收到"
 
 #. module: website_sale
 #: code:addons/website_sale/controllers/main.py:758

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:03+0000\n"
-"PO-Revision-Date: 2015-05-04 15:03+0000\n"
+"POT-Creation-Date: 2015-05-17 00:26+0000\n"
+"PO-Revision-Date: 2015-05-17 00:26+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -261,7 +261,7 @@ msgstr "创建于"
 #. module: marketing_campaign
 #: selection:marketing.campaign.activity,type:0
 msgid "Custom Action"
-msgstr "自定义操作"
+msgstr "自定义动作"
 
 #. module: marketing_campaign
 #: field:campaign.analysis,date:0
@@ -306,7 +306,7 @@ msgstr "目录"
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,keep_if_condition_not_met:0
 msgid "Don't Delete Workitems"
-msgstr "Don't Delete Workitems"
+msgstr "不要删除工作项"
 
 #. module: marketing_campaign
 #: view:campaign.analysis:marketing_campaign.view_campaign_analysis_search
@@ -327,23 +327,23 @@ msgstr "草稿"
 #. module: marketing_campaign
 #: selection:marketing.campaign.activity,type:0
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: marketing_campaign
 #: code:addons/marketing_campaign/marketing_campaign.py:774
 #, python-format
 msgid "Email Preview"
-msgstr "邮件预览"
+msgstr "Email 预览"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.activity,email_template_id:0
 msgid "Email Template"
-msgstr "电子邮件模板"
+msgstr "Email 模板"
 
 #. module: marketing_campaign
 #: model:ir.model,name:marketing_campaign.model_email_template
 msgid "Email Templates"
-msgstr "电子邮件模板"
+msgstr "Email 模板"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.segment,date_done:0
@@ -409,7 +409,7 @@ msgstr "固定成本"
 #. module: marketing_campaign
 #: help:marketing.campaign,fixed_cost:0
 msgid "Fixed cost for running this campaign. You may also specify variable cost and revenue on each campaign activity. Cost and Revenue statistics are included in Campaign Reporting."
-msgstr "开展此营销活动的固定成本。你也可以为每个营销活动指定可变成本和收入。成本和收入统计包含在营销活动报告中。"
+msgstr "开展此营销活动的固定成本。您也可以为每个营销活动指定可变成本和收入。成本和收入统计包含在营销活动报告中。"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
@@ -732,10 +732,10 @@ msgid "Python expression to decide whether the activity can be executed, otherwi
 "   - resource: the resource object this campaign item represents\n"
 "   - transitions: list of campaign transitions outgoing from this activity\n"
 "...- re: Python regular expression module"
-msgstr "由Python表达式决定活动是否被执行的，或者被删除，或者被取消。表达式可以用以下[browsable]变量：\n"
+msgstr "由Python表达式决定活动是否能被执行，或者被删除，或者被取消。表达式可以用以下[browsable]变量：\n"
 "   -activity：营销活动项\n"
-"   -workitem：营销活动工作项\n"
-"   -resource：营销活动代表的资源对象\n"
+"   -workitem：营销工作项\n"
+"   -resource：营销工作项代表的资源对象\n"
 "   -transitions：从此活动转出的营销活动列表\n"
 "...-re：Python正则表达式模块"
 
@@ -821,12 +821,12 @@ msgstr "九月"
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,variable_cost:0
 msgid "Set a variable cost if you consider that every campaign item that has reached this point has entailed a certain cost. You can get cost statistics in the Reporting section"
-msgstr "配置一个可变成本，如果你认为每项到达这个点的营销活动项就会需要一定的成本。你可以在报告栏查看成本统计分析结果。"
+msgstr "配置一个可变成本，如果您认为每项到达这个点的营销活动项就会需要一定的成本。您可以在报告栏查看成本统计分析结果。"
 
 #. module: marketing_campaign
 #: help:marketing.campaign.activity,revenue:0
 msgid "Set an expected revenue if you consider that every campaign item that has reached this point has generated a certain revenue. You can get revenue statistics in the Reporting section"
-msgstr "配置一个期望的收入，即如果你认为每个达到这个点的活动项会产生一定的收入。你可以在报告里面查看到收入统计。"
+msgstr "配置一个期望的收入，即如果您认为每个达到这个点的活动项会产生一定的收入。您可以在报告里面查看到收入统计。"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_form
@@ -874,7 +874,7 @@ msgstr "同步模式：只同步上次同步之后创建的记录"
 #. module: marketing_campaign
 #: view:marketing.campaign.segment:marketing_campaign.view_marketing_campaign_segment_search
 msgid "Sync mode: only records updated after last sync"
-msgstr "同步模式：只同步上次同步后修改了的记录"
+msgstr "同步模式：只同步上次同步后修改的记录"
 
 #. module: marketing_campaign
 #: field:marketing.campaign.segment,sync_mode:0
@@ -900,7 +900,7 @@ msgstr "测试 - 直接生成和处理所有活动（不等待事务的延迟）
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
 msgid "Test Directly"
-msgstr "直接检验"
+msgstr "直接测试"
 
 #. module: marketing_campaign
 #: view:marketing.campaign:marketing_campaign.view_marketing_campaign_search
@@ -910,7 +910,7 @@ msgstr "测试模式"
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
 msgid "Test in Realtime"
-msgstr "实时检验"
+msgstr "实时测试"
 
 #. module: marketing_campaign
 #: constraint:marketing.campaign.transition:0
@@ -1025,7 +1025,7 @@ msgstr "可变成本"
 #. module: marketing_campaign
 #: selection:marketing.campaign,mode:0
 msgid "With Manual Confirmation"
-msgstr "通过手工确认"
+msgstr "手工确认"
 
 #. module: marketing_campaign
 #: model:ir.actions.act_window,name:marketing_campaign.act_marketing_campaing_followup

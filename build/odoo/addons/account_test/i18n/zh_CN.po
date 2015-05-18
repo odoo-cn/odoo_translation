@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:08+0000\n"
-"PO-Revision-Date: 2015-05-04 15:08+0000\n"
+"POT-Creation-Date: 2015-05-17 00:29+0000\n"
+"PO-Revision-Date: 2015-05-17 00:29+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -41,7 +41,7 @@ msgstr "Accouting tests on"
 #. module: account_test
 #: field:accounting.assert.test,active:0
 msgid "Active"
-msgstr "Active"
+msgstr "有效"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_03
@@ -144,17 +144,17 @@ msgstr "Code should always set a variable named `result` with the result of your
 #. module: account_test
 #: field:accounting.assert.test,create_uid:0
 msgid "Created by"
-msgstr "Created by"
+msgstr "创建者"
 
 #. module: account_test
 #: field:accounting.assert.test,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: account_test
 #: view:accounting.assert.test:account_test.account_assert_form
 msgid "Description"
-msgstr "描述"
+msgstr "说明"
 
 #. module: account_test
 #: view:website:account_test.report_accounttest
@@ -164,28 +164,28 @@ msgstr "说明："
 #. module: account_test
 #: view:accounting.assert.test:account_test.account_assert_form
 msgid "Expression"
-msgstr "Expression"
+msgstr "表达式"
 
 #. module: account_test
 #: field:accounting.assert.test,id:0
 #: field:report.account_test.report_accounttest,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: account_test
 #: field:accounting.assert.test,write_uid:0
 msgid "Last Updated by"
-msgstr "Last Updated by"
+msgstr "最后更新"
 
 #. module: account_test
 #: field:accounting.assert.test,write_date:0
 msgid "Last Updated on"
-msgstr "Last Updated on"
+msgstr "最后更新"
 
 #. module: account_test
 #: view:website:account_test.report_accounttest
 msgid "Name:"
-msgstr "Name:"
+msgstr "名称："
 
 #. module: account_test
 #: view:accounting.assert.test:account_test.account_assert_form
@@ -200,7 +200,7 @@ msgstr "Python代码"
 #. module: account_test
 #: field:accounting.assert.test,sequence:0
 msgid "Sequence"
-msgstr "Sequence"
+msgstr "序列"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_01
@@ -266,11 +266,11 @@ msgstr "Test Name"
 #: view:accounting.assert.test:account_test.account_assert_form
 #: view:accounting.assert.test:account_test.account_assert_tree
 msgid "Tests"
-msgstr "Tests"
+msgstr "测试"
 
 #. module: account_test
 #: code:addons/account_test/report/account_test_report.py:78
 #, python-format
 msgid "The test was passed successfully"
-msgstr "测试通过"
+msgstr "测试成功通过"
 

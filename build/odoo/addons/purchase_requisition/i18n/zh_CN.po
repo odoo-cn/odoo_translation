@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:34+0000\n"
-"PO-Revision-Date: 2015-05-04 15:34+0000\n"
+"POT-Creation-Date: 2015-05-17 00:50+0000\n"
+"PO-Revision-Date: 2015-05-17 00:50+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -47,7 +47,7 @@ msgstr "分析账户"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "Approved by Supplier"
-msgstr "供应商已核审批"
+msgstr "供应商已批准"
 
 #. module: purchase_requisition
 #: model:ir.actions.act_window,name:purchase_requisition.action_bid_line_qty
@@ -217,7 +217,7 @@ msgstr "已确认"
 #. module: purchase_requisition
 #: view:purchase.requisition.partner:purchase_requisition.view_purchase_requisition_partner
 msgid "Create Request for Quotation"
-msgstr "Create Request for Quotation"
+msgstr "创建询价"
 
 #. module: purchase_requisition
 #: field:bid.line.qty,create_uid:0
@@ -432,7 +432,7 @@ msgstr "产品，按供应商"
 #. module: purchase_requisition
 #: field:purchase.requisition,line_ids:0
 msgid "Products to Purchase"
-msgstr "采购的产品"
+msgstr "待采购的产品"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_order
@@ -458,7 +458,7 @@ msgstr "采购订单"
 #. module: purchase_requisition
 #: view:purchase.order:purchase_requisition.purchase_order_search_inherit
 msgid "Purchase Orders with requisition"
-msgstr "具有请购的采购单"
+msgstr "请购的采购订单"
 
 #. module: purchase_requisition
 #: model:ir.model,name:purchase_requisition.model_purchase_requisition
@@ -524,22 +524,22 @@ msgstr "参考"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "Request a Quotation"
-msgstr "请求询价"
+msgstr "请求报价"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
 msgid "Requests for Quotation"
-msgstr "询价单"
+msgstr "请求报价"
 
 #. module: purchase_requisition
 #: view:website:purchase_requisition.report_purchaserequisitions
 msgid "Requests for Quotation Details"
-msgstr "Requests for Quotation Details"
+msgstr "请求报价细节"
 
 #. module: purchase_requisition
 #: view:purchase.order:purchase_requisition.purchase_order_search_inherit
 msgid "Requisition"
-msgstr "采购申请"
+msgstr "申请"
 
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_form
@@ -657,7 +657,7 @@ msgstr "未指派"
 #. module: purchase_requisition
 #: view:purchase.requisition:purchase_requisition.view_purchase_requisition_filter
 msgid "Unassigned  Requisition"
-msgstr "未指派的请购单"
+msgstr "未指派的请购"
 
 #. module: purchase_requisition
 #: field:purchase.requisition,message_unread:0
@@ -700,7 +700,7 @@ msgstr "网站消息"
 #. module: purchase_requisition
 #: help:purchase.requisition,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/purchase_requisition.py:241
@@ -712,7 +712,7 @@ msgstr "You have already generate the purchase order(s)."
 #: code:addons/purchase_requisition/purchase_requisition.py:190
 #, python-format
 msgid "You have already one %s purchase order for this partner, you must cancel this purchase order to create a new quotation."
-msgstr "你对这个供应商已经有个一个 %s 采购单 ,  你必须取消采购订单再创建新的请购单."
+msgstr "您对这个供应商已经有个一个 %s 采购单 ,  您必须取消采购订单再创建新的请购单."
 
 #. module: purchase_requisition
 #: code:addons/purchase_requisition/purchase_requisition.py:250

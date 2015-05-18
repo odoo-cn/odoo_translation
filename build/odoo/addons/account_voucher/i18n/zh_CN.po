@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:09+0000\n"
-"PO-Revision-Date: 2015-05-04 15:09+0000\n"
+"POT-Creation-Date: 2015-05-17 00:30+0000\n"
+"PO-Revision-Date: 2015-05-17 00:30+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -139,7 +139,7 @@ msgstr "科目"
 #. module: account_voucher
 #: field:account.voucher,move_id:0
 msgid "Account Entry"
-msgstr "分录"
+msgstr "科目分录"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
@@ -167,13 +167,13 @@ msgstr "分析账户"
 #: view:account.voucher:account_voucher.view_vendor_payment_form
 #: view:account.voucher:account_voucher.view_vendor_receipt_form
 msgid "Are you sure to unreconcile and cancel this record ?"
-msgstr "你确定要反调节并作废这条记录么？"
+msgstr "您确定要反调节并取消这条记录么？"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 #: view:account.voucher:account_voucher.view_sale_receipt_form
 msgid "Are you sure you want to cancel this receipt?"
-msgstr "你确信要取消这个收据？"
+msgstr "您确定要取消这个收据？"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_form
@@ -191,28 +191,28 @@ msgstr "At the operation date, the exchange rate was\n"
 #. module: account_voucher
 #: field:sale.receipt.report,delay_to_pay:0
 msgid "Avg. Delay To Pay"
-msgstr "延迟付款平均时间"
+msgstr "待支付平均延迟"
 
 #. module: account_voucher
 #: field:sale.receipt.report,due_delay:0
 msgid "Avg. Due Delay"
-msgstr "平均延误"
+msgstr "平均到期延迟"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 msgid "Bill Date"
-msgstr "账单日期"
+msgstr "票据日期"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_purchase_receipt_form
 msgid "Bill Information"
-msgstr "账单信息"
+msgstr "票据信息"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_low_priority_payment_form
 #: model:ir.actions.act_window,name:account_voucher.act_pay_bills
 msgid "Bill Payment"
-msgstr "账单付款"
+msgstr "票据付款"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_vendor_receipt_dialog_form
@@ -242,7 +242,7 @@ msgstr "已取消"
 #: code:addons/account_voucher/account_voucher.py:959
 #, python-format
 msgid "Cannot delete voucher(s) which are already opened or paid."
-msgstr "不能删除已经开启或者支付的单据。"
+msgstr "不能删除已经开启或者已付的单据。"
 
 #. module: account_voucher
 #: help:account.voucher,audit:0
@@ -401,17 +401,17 @@ msgstr "草稿凭证"
 #: field:account.voucher.line,date_due:0
 #: field:sale.receipt.report,date_due:0
 msgid "Due Date"
-msgstr "到期日期"
+msgstr "截止日期"
 
 #. module: account_voucher
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 msgid "Due Month"
-msgstr "到期月份"
+msgstr "截止月份"
 
 #. module: account_voucher
 #: help:account.voucher,date:0
 msgid "Effective date for accounting entries"
-msgstr "会计分录的生效日期"
+msgstr "会计分录的实际日期"
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:518
@@ -598,7 +598,7 @@ msgstr "多币种凭证"
 #. module: account_voucher
 #: field:account.voucher,narration:0
 msgid "Notes"
-msgstr "备注"
+msgstr "便签"
 
 #. module: account_voucher
 #: field:account.voucher,number:0
@@ -654,7 +654,7 @@ msgstr "已付总额"
 #. module: account_voucher
 #: field:account.voucher,paid_amount_in_company_currency:0
 msgid "Paid Amount in Company Currency"
-msgstr "按公司本位币计的付款总额"
+msgstr "按公司本位币计的支付总额"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_voucher_filter
@@ -805,7 +805,7 @@ msgstr "前面的付款？"
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
 #: selection:sale.receipt.report,state:0
 msgid "Pro-forma"
-msgstr "形式发票"
+msgstr "形式"
 
 #. module: account_voucher
 #: view:sale.receipt.report:account_voucher.view_sale_receipt_report_search
@@ -849,7 +849,7 @@ msgstr "调节付款余额"
 #. module: account_voucher
 #: field:account.voucher,reference:0
 msgid "Ref #"
-msgstr "单号"
+msgstr "参考#"
 
 #. module: account_voucher
 #: view:account.invoice:account_voucher.view_invoice_customer
@@ -934,7 +934,7 @@ msgstr "状态"
 #. module: account_voucher
 #: model:mail.message.subtype,name:account_voucher.mt_voucher_state_change
 msgid "Status Change"
-msgstr "状态更改"
+msgstr "状态变更"
 
 #. module: account_voucher
 #: model:mail.message.subtype,description:account_voucher.mt_voucher_state_change
@@ -988,7 +988,7 @@ msgstr "税金总额"
 #. module: account_voucher
 #: help:account.voucher,paid:0
 msgid "The Voucher has been totally paid."
-msgstr "这张凭证已全部付完"
+msgstr "这张凭证已完全已付"
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:1202
@@ -1015,7 +1015,7 @@ msgstr "This sentence helps you to know how to specify the payment rate by givin
 #: view:account.voucher:account_voucher.view_voucher_filter
 #: field:account.voucher,audit:0
 msgid "To Review"
-msgstr "待复核"
+msgstr "待审查"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_sale_receipt_form
@@ -1133,7 +1133,7 @@ msgstr "凭证明细"
 #. module: account_voucher
 #: view:account.voucher:account_voucher.view_vendor_payment_form
 msgid "Voucher Payment"
-msgstr "付款凭证"
+msgstr "凭证付款"
 
 #. module: account_voucher
 #: view:account.voucher:account_voucher.account_cash_statement_graph
@@ -1158,7 +1158,7 @@ msgstr "网站消息"
 #. module: account_voucher
 #: help:account.voucher,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: account_voucher
 #: code:addons/account_voucher/account_voucher.py:377

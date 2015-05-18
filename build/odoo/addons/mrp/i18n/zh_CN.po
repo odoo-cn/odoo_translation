@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:06+0000\n"
-"PO-Revision-Date: 2015-05-04 15:06+0000\n"
+"POT-Creation-Date: 2015-05-17 00:28+0000\n"
+"PO-Revision-Date: 2015-05-17 00:28+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -210,7 +210,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "               单击 创建工艺路线.\n"
 "              </p><p>\n"
-"                工艺路线允许你建立和管理为生产产品而在工作中心进行的制造作业. \n"
+"                工艺路线允许您建立和管理为生产产品而在工作中心进行的制造作业. \n"
 "                他们附加在定义了所需原材料的BOM中。\n"
 "              </p>\n"
 "            "
@@ -267,17 +267,17 @@ msgstr "Active Id 找不到"
 msgid "All product quantities must be greater than 0.\n"
 "You should install the mrp_byproduct module if you want to manage extra products on BoMs !"
 msgstr "所有的产品数量必须大于0。\n"
-"如果你要在BOM上面管理额外的产品，你要安装mrp_byproduct模块。"
+"如果您要在BOM上面管理额外的产品，您要安装mrp_byproduct模块。"
 
 #. module: mrp
 #: field:mrp.config.settings,module_mrp_operations:0
 msgid "Allow detailed planning of work order"
-msgstr "运行工作中心的详细计划"
+msgstr "允许工作中心的详细计划"
 
 #. module: mrp
 #: field:mrp.config.settings,group_mrp_properties:0
 msgid "Allow several bill of materials per products using properties"
-msgstr "使用属性，每个产品允许几个bom"
+msgstr "允许使用属性，每个产品具有几个bom"
 
 #. module: mrp
 #: help:mrp.config.settings,module_mrp_repair:0
@@ -410,7 +410,7 @@ msgstr "物料清单结构"
 #. module: mrp
 #: help:mrp.production,bom_id:0
 msgid "Bill of Materials allow you to define the list of required raw materials to make a finished product."
-msgstr "BOM 允许你定义生产成品所需原料的列表。"
+msgstr "BOM 允许您定义生产成品所需原料的列表。"
 
 #. module: mrp
 #: field:procurement.order,bom_id:0
@@ -486,14 +486,14 @@ msgstr "不能删除'%s'状态的制造订单。"
 #: code:addons/mrp/mrp.py:695
 #, python-format
 msgid "Cannot find a bill of material for this product."
-msgstr "找不到这个产品的BOM"
+msgstr "找不到这个产品的物料清单"
 
 #. module: mrp
 #: code:addons/mrp/wizard/change_production_qty.py:83
 #: code:addons/mrp/wizard/change_production_qty.py:88
 #, python-format
 msgid "Cannot find bill of material for this product."
-msgstr "不能找到这个产品的BOM"
+msgstr "找不到这个产品的BOM"
 
 #. module: mrp
 #: view:mrp.workcenter:mrp.mrp_workcenter_view
@@ -750,17 +750,17 @@ msgstr "说明"
 #. module: mrp
 #: help:mrp.workcenter,note:0
 msgid "Description of the Work Center. Explain here what's a cycle according to this Work Center."
-msgstr "工作中心的描述。在这里输入这个工作中心的简介。"
+msgstr "工作中心的说明。在这里输入这个工作中心的简介。"
 
 #. module: mrp
 #: view:mrp.production:mrp.mrp_production_form_view
 msgid "Destination Loc."
-msgstr "目标库位"
+msgstr "目的库位"
 
 #. module: mrp
 #: view:website:mrp.report_mrporder
 msgid "Destination Location"
-msgstr "目标库位"
+msgstr "目的库位"
 
 #. module: mrp
 #: selection:mrp.production,state:0
@@ -791,12 +791,12 @@ msgstr "额外信息"
 #: help:mrp.workcenter,costs_cycle_account_id:0
 #: help:mrp.workcenter,costs_hour_account_id:0
 msgid "Fill this only if you want automatic analytic accounting entries on production orders."
-msgstr "如果你要自动在生产订单进行分析会计，只需填入这里"
+msgstr "如果您要自动在生产订单进行分析会计，只需填入这里"
 
 #. module: mrp
 #: help:mrp.workcenter,product_id:0
 msgid "Fill this product to easily track your production costs in the analytic accounting."
-msgstr "填入产品将更容易在分析会计中跟踪你的生产成本。"
+msgstr "填入产品将更容易在分析会计中跟踪您的生产成本。"
 
 #. module: mrp
 #: view:mrp.production:mrp.mrp_production_form_view
@@ -967,7 +967,7 @@ msgstr "是一个关注者"
 #. module: mrp
 #: help:mrp.routing,location_id:0
 msgid "Keep empty if you produce at the location where the finished products are needed.Set a location if you produce at a fixed location. This can be a partner location if you subcontract the manufacturing operations."
-msgstr "如果你在本地生产这成品你需要留空"
+msgstr "如果您在本地生产这成品您需要留空"
 
 #. module: mrp
 #: field:mrp.bom,message_last_post:0
@@ -1250,7 +1250,7 @@ msgstr "不是用来计算.仅仅是信息"
 #. module: mrp
 #: view:mrp.routing:mrp.mrp_routing_form_view
 msgid "Notes"
-msgstr "备注"
+msgstr "便签"
 
 #. module: mrp
 #: field:mrp.production.workcenter.line,cycle:0
@@ -1304,22 +1304,22 @@ msgstr "订单数量不能是负数或者0！"
 #. module: mrp
 #: field:mrp.bom.line,bom_id:0
 msgid "Parent BoM"
-msgstr "上级物料清单"
+msgstr "父级物料清单"
 
 #. module: mrp
 #: field:mrp.routing.workcenter,routing_id:0
 msgid "Parent Routing"
-msgstr "上级工艺路线"
+msgstr "父级工艺路线"
 
 #. module: mrp
 #: view:website:mrp.report_mrporder
 msgid "Partner Ref:"
-msgstr "Partner Ref:"
+msgstr "业务伙伴参考："
 
 #. module: mrp
 #: view:mrp.production:mrp.view_mrp_production_filter
 msgid "Pending"
-msgstr "等待中"
+msgstr "待定"
 
 #. module: mrp
 #: selection:mrp.workcenter.load,time_unit:0
@@ -1481,12 +1481,12 @@ msgstr "销售单位是用于开发票和推销产品的计量单位"
 #. module: mrp
 #: field:mrp.bom.line,product_uos_qty:0
 msgid "Product UOS Qty"
-msgstr "产品的销售单位数量"
+msgstr "产品销售单位数量"
 
 #. module: mrp
 #: field:mrp.production.product.line,product_uos_qty:0
 msgid "Product UOS Quantity"
-msgstr "产品的销售单位数量"
+msgstr "产品销售单位数量"
 
 #. module: mrp
 #: field:mrp.bom,product_uom:0
@@ -1505,12 +1505,12 @@ msgstr "产品销售单位"
 #. module: mrp
 #: field:mrp.production,product_uos_qty:0
 msgid "Product UoS Quantity"
-msgstr "产品的销售单位数量"
+msgstr "产品销售单位数量"
 
 #. module: mrp
 #: field:mrp.bom,product_id:0
 msgid "Product Variant"
-msgstr "产品变体"
+msgstr "产品变型"
 
 #. module: mrp
 #: view:website:mrp.report_mrporder
@@ -1526,7 +1526,7 @@ msgstr "生产"
 #: view:mrp.routing:mrp.mrp_routing_search_view
 #: field:mrp.routing,location_id:0
 msgid "Production Location"
-msgstr "生产库位"
+msgstr "生产位置"
 
 #. module: mrp
 #: model:ir.actions.report.xml,name:mrp.action_report_production_order
@@ -1625,7 +1625,7 @@ msgstr "属性"
 #. module: mrp
 #: view:mrp.property.group:mrp.mrp_property_group_form_view
 msgid "Properties categories"
-msgstr "属性分类"
+msgstr "属性类别"
 
 #. module: mrp
 #: field:mrp.property,composition:0
@@ -1686,7 +1686,7 @@ msgstr "准备好"
 #. module: mrp
 #: selection:mrp.production,state:0
 msgid "Ready to Produce"
-msgstr "已准备生产"
+msgstr "准备生产"
 
 #. module: mrp
 #: view:mrp.bom:mrp.mrp_bom_form_view
@@ -1698,7 +1698,7 @@ msgstr "参考"
 #. module: mrp
 #: sql_constraint:mrp.production:0
 msgid "Reference must be unique per Company!"
-msgstr "编号必须在公司内唯一！"
+msgstr "参考在每个公司内必须唯一！"
 
 #. module: mrp
 #: help:mrp.production,origin:0
@@ -1955,7 +1955,7 @@ msgstr "Technical field used to make the traceability of produced products"
 #: code:addons/mrp/mrp.py:437
 #, python-format
 msgid "The Product Unit of Measure you chose has a different category than in the product form."
-msgstr "你选择的计量单位跟产品表单的计量单位在不同的类别。"
+msgstr "您选择的计量单位跟产品表单的计量单位在不同的类别。"
 
 #. module: mrp
 #: constraint:mrp.workcenter:0
@@ -2018,17 +2018,17 @@ msgstr "一个循环的时间(小时)"
 #. module: mrp
 #: help:mrp.workcenter,time_cycle:0
 msgid "Time in hours for doing one cycle."
-msgstr "一个循环的工作小时数"
+msgstr "完成一个循环的时间"
 
 #. module: mrp
 #: help:mrp.workcenter,time_stop:0
 msgid "Time in hours for the cleaning."
-msgstr "清理的小时数"
+msgstr "清理的时间"
 
 #. module: mrp
 #: help:mrp.workcenter,time_start:0
 msgid "Time in hours for the setup."
-msgstr "配置的小时数"
+msgstr "设置的时间"
 
 #. module: mrp
 #: help:mrp.routing.workcenter,hour_nbr:0
@@ -2158,12 +2158,12 @@ msgstr "Validity of this BoM. Keep empty if it's always valid."
 #. module: mrp
 #: view:mrp.bom:mrp.view_mrp_bom_filter
 msgid "Variant"
-msgstr "变体"
+msgstr "变型"
 
 #. module: mrp
 #: field:mrp.bom.line,attribute_value_ids:0
 msgid "Variants"
-msgstr "变体"
+msgstr "变型"
 
 #. module: mrp
 #: selection:mrp.production,priority:0
@@ -2203,7 +2203,7 @@ msgstr "网站消息"
 #: help:mrp.production,website_message_ids:0
 #: help:mrp.production.workcenter.line,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: mrp
 #: field:report.mrp.inout,date:0
@@ -2215,7 +2215,7 @@ msgstr "周"
 #. module: mrp
 #: model:ir.actions.act_window,name:mrp.action_report_in_out_picking_tree
 msgid "Weekly Stock Value Variation"
-msgstr "每周库存值变动"
+msgstr "每周库存价值变化"
 
 #. module: mrp
 #: model:ir.actions.act_window,help:mrp.action_report_in_out_picking_tree

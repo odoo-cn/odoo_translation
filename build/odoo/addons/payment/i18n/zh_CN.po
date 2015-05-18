@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:12+0000\n"
-"PO-Revision-Date: 2015-05-04 15:12+0000\n"
+"POT-Creation-Date: 2015-05-17 00:32+0000\n"
+"PO-Revision-Date: 2015-05-17 00:32+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "-安装模块“payment_adyen”。"
 #. module: payment
 #: help:account.config.settings,module_payment_authorize:0
 msgid "-It installs the module payment_authorize."
-msgstr "-It installs the module payment_authorize."
+msgstr "-安装模块“payment_authorize”."
 
 #. module: payment
 #: help:account.config.settings,module_payment_buckaroo:0
@@ -43,12 +43,12 @@ msgstr "-安装模块“payment_paypal”。"
 #. module: payment
 #: field:payment.transaction,acquirer_id:0
 msgid "Acquirer"
-msgstr "Acquirer"
+msgstr "托收方"
 
 #. module: payment
 #: field:payment.transaction,acquirer_reference:0
 msgid "Acquirer Order Reference"
-msgstr "Acquirer Order Reference"
+msgstr "托收单参考"
 
 #. module: payment
 #: field:payment.transaction,partner_address:0
@@ -135,7 +135,7 @@ msgstr "草稿"
 #. module: payment
 #: field:payment.transaction,partner_email:0
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: payment
 #: field:payment.acquirer,environment:0
@@ -145,12 +145,12 @@ msgstr "环境"
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Error"
-msgstr "错误！"
+msgstr "错误"
 
 #. module: payment
 #: field:payment.transaction,fees:0
 msgid "Fees"
-msgstr "Fees"
+msgstr "费用"
 
 #. module: payment
 #: help:payment.transaction,fees:0
@@ -314,13 +314,13 @@ msgstr "业务伙伴名称"
 #. module: payment
 #: field:payment.transaction,partner_reference:0
 msgid "Partner Reference"
-msgstr "Partner Reference"
+msgstr "业务伙伴参考"
 
 #. module: payment
 #: code:addons/payment/models/payment_acquirer.py:274
 #, python-format
 msgid "Pay safely online"
-msgstr "Pay safely online"
+msgstr "在线安全支付"
 
 #. module: payment
 #: model:ir.model,name:payment.model_payment_acquirer
@@ -338,7 +338,7 @@ msgstr "Payment Acquirers"
 #. module: payment
 #: model:ir.model,name:payment.model_payment_transaction
 msgid "Payment Transaction"
-msgstr "Payment Transaction"
+msgstr "付款交易"
 
 #. module: payment
 #: model:ir.actions.act_window,name:payment.action_payment_transaction
@@ -346,7 +346,7 @@ msgstr "Payment Transaction"
 #: view:payment.transaction:payment.transaction_form
 #: view:payment.transaction:payment.transaction_list
 msgid "Payment Transactions"
-msgstr "Payment Transactions"
+msgstr "付款交易"
 
 #. module: payment
 #: model:ir.ui.menu,name:payment.root_payment_menu
@@ -356,7 +356,7 @@ msgstr "付款"
 #. module: payment
 #: selection:payment.transaction,state:0
 msgid "Pending"
-msgstr "等待中"
+msgstr "待定"
 
 #. module: payment
 #: field:payment.transaction,partner_phone:0
@@ -392,7 +392,7 @@ msgstr "Reference of the customer in the acquirer database"
 #. module: payment
 #: constraint:payment.acquirer:0
 msgid "Required fields not filled"
-msgstr "Required fields not filled"
+msgstr "必须的字段没有填写"
 
 #. module: payment
 #: view:payment.transaction:payment.transaction_form
@@ -427,7 +427,7 @@ msgstr "Test"
 #. module: payment
 #: field:payment.acquirer,post_msg:0
 msgid "Thanks Message"
-msgstr "Thanks Message"
+msgstr "感谢消息"
 
 #. module: payment
 #: constraint:payment.transaction:0
@@ -479,7 +479,7 @@ msgstr "网站消息"
 #. module: payment
 #: help:payment.transaction,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: payment
 #: field:payment.transaction,partner_zip:0

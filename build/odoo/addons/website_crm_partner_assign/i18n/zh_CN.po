@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 16:01+0000\n"
-"PO-Revision-Date: 2015-05-04 16:01+0000\n"
+"POT-Creation-Date: 2015-05-17 01:10+0000\n"
+"PO-Revision-Date: 2015-05-17 01:10+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,13 +19,13 @@ msgstr ""
 #: code:addons/website_crm_partner_assign/controllers/main.py:57
 #, python-format
 msgid "All Categories"
-msgstr "All Categories"
+msgstr "全部类别"
 
 #. module: website_crm_partner_assign
 #: code:addons/website_crm_partner_assign/controllers/main.py:76
 #, python-format
 msgid "All Countries"
-msgstr "所有国家"
+msgstr "全部国家"
 
 #. module: website_crm_partner_assign
 #: view:website:website_crm_partner_assign.index

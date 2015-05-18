@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 16:03+0000\n"
-"PO-Revision-Date: 2015-05-04 16:03+0000\n"
+"POT-Creation-Date: 2015-05-17 01:11+0000\n"
+"PO-Revision-Date: 2015-05-17 01:11+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -42,7 +42,7 @@ msgstr "All Countries"
 #. module: website_event
 #: view:website:website_event.layout
 msgid "All Events"
-msgstr "All Events"
+msgstr "所有活动"
 
 #. module: website_event
 #: view:website:website_event.index
@@ -89,7 +89,7 @@ msgstr "继续"
 #: code:addons/website_event/static/src/js/website.tour.event.js:41
 #, python-format
 msgid "Create Event"
-msgstr "Create Event"
+msgstr "创建活动"
 
 #. module: website_event
 #. openerp-web
@@ -103,21 +103,21 @@ msgstr "Create a name for your new event and click <em>'Continue'</em>. e.g: Tec
 #: code:addons/website_event/static/src/js/website.tour.event.js:12
 #, python-format
 msgid "Create an Event"
-msgstr "Create an Event"
+msgstr "创建活动"
 
 #. module: website_event
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:34
 #, python-format
 msgid "Create an Event Name"
-msgstr "Create an Event Name"
+msgstr "创建活动名称"
 
 #. module: website_event
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:9
 #, python-format
 msgid "Create an event"
-msgstr "Create an event"
+msgstr "创建活动"
 
 #. module: website_event
 #. openerp-web
@@ -144,14 +144,14 @@ msgstr "Drag & Drop a block"
 #: code:addons/website_event/static/src/js/website.tour.event.js:61
 #, python-format
 msgid "Drag the 'Image-Text' block and drop it in your page."
-msgstr "Drag the 'Image-Text' block and drop it in your page."
+msgstr "拖曳'图文'  区块并放置在你的页面"
 
 #. module: website_event
 #. openerp-web
 #: code:addons/website_event/static/src/js/website.tour.event.js:76
 #, python-format
 msgid "Drag the 'Text Block' in your event page."
-msgstr "Drag the 'Text Block' in your event page."
+msgstr "拖曳'文本'你的页面"
 
 #. module: website_event
 #: model:ir.model,name:website_event.model_event_event
@@ -161,7 +161,7 @@ msgstr "活动"
 #. module: website_event
 #: view:website:website_event.template_intro
 msgid "Event Introduction"
-msgstr "活动说明"
+msgstr "活动介绍"
 
 #. module: website_event
 #: view:website:website_event.template_location
@@ -171,24 +171,24 @@ msgstr "活动地点"
 #. module: website_event
 #: field:event.event,menu_id:0
 msgid "Event Menu"
-msgstr "Event Menu"
+msgstr "活动菜单"
 
 #. module: website_event
 #: view:website:website_event.404
 msgid "Event not found!"
-msgstr "Event not found!"
+msgstr "活动没有找到！"
 
 #. module: website_event
 #: model:mail.message.subtype,description:website_event.mt_event_published
 #: model:mail.message.subtype,name:website_event.mt_event_published
 msgid "Event published"
-msgstr "Event published"
+msgstr "活动已发布"
 
 #. module: website_event
 #: model:mail.message.subtype,description:website_event.mt_event_unpublished
 #: model:mail.message.subtype,name:website_event.mt_event_unpublished
 msgid "Event unpublished"
-msgstr "Event unpublished"
+msgstr "活动未发布"
 
 #. module: website_event
 #: view:website:website.layout
@@ -313,7 +313,7 @@ msgstr "No event found"
 #: code:addons/website_event/controllers/main.py:76
 #, python-format
 msgid "Old Events"
-msgstr "历史活动"
+msgstr "旧活动"
 
 #. module: website_event
 #. openerp-web
@@ -373,12 +373,12 @@ msgstr "Publish your event"
 #: code:addons/website_event/models/event.py:67
 #, python-format
 msgid "Register"
-msgstr "发起者"
+msgstr "出纳机"
 
 #. module: website_event
 #: view:website:website_event.404
 msgid "Return to the event list."
-msgstr "Return to the event list."
+msgstr "退回到活动列表"
 
 #. module: website_event
 #. openerp-web
@@ -461,12 +461,12 @@ msgstr "Twitter Hashtag"
 #. module: website_event
 #: view:website:website_event.country_events_list
 msgid "Upcoming Events"
-msgstr "Upcoming Events"
+msgstr "即将的活动"
 
 #. module: website_event
 #: view:website:website_event.index
 msgid "Use the top menu"
-msgstr "Use the top menu"
+msgstr "使用顶部菜单"
 
 #. module: website_event
 #: view:website:website_event.event_description_full
@@ -491,7 +491,7 @@ msgstr "网站消息"
 #. module: website_event
 #: help:event.event,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: website_event
 #: field:event.event,website_meta_description:0
@@ -556,5 +556,5 @@ msgstr "到"
 #. module: website_event
 #: view:website:website_event.index
 msgid "to create your first event."
-msgstr "创建你的第一个事件"
+msgstr "创建您的第一个事件"
 

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:40+0000\n"
-"PO-Revision-Date: 2015-05-04 15:40+0000\n"
+"POT-Creation-Date: 2015-05-17 00:55+0000\n"
+"PO-Revision-Date: 2015-05-17 00:55+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: sale_margin
 #: field:sale.order.line,purchase_price:0
 msgid "Cost Price"
-msgstr "成本价"
+msgstr "成本价格"
 
 #. module: sale_margin
 #: help:sale.order,margin:0

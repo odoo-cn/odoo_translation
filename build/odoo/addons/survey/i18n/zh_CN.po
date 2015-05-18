@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:49+0000\n"
-"PO-Revision-Date: 2015-05-04 15:49+0000\n"
+"POT-Creation-Date: 2015-05-17 01:01+0000\n"
+"PO-Revision-Date: 2015-05-17 01:01+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -104,17 +104,17 @@ msgstr "A positive score indicates a correct answer; a negative or null score in
 #. module: survey
 #: view:website:survey.page
 msgid "A problem has occured"
-msgstr "A problem has occured"
+msgstr "发生一个问题"
 
 #. module: survey
 #: constraint:survey.user_input_line:0
 msgid "A question cannot be unanswered and skipped"
-msgstr "A question cannot be unanswered and skipped"
+msgstr "问题不能不回答并跳过"
 
 #. module: survey
 #: sql_constraint:survey.user_input:0
 msgid "A token must be unique!"
-msgstr "A token must be unique!"
+msgstr "令牌必须唯一！"
 
 #. module: survey
 #: field:survey.mail.compose.message,active_domain:0
@@ -134,17 +134,17 @@ msgstr "Add list of existing contacts..."
 #. module: survey
 #: view:website:survey.result_number
 msgid "All Data"
-msgstr "All Data"
+msgstr "全部数据"
 
 #. module: survey
 #: view:website:survey.result
 msgid "All surveys"
-msgstr "All surveys"
+msgstr "所有调查"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
 msgid "Allow Comments"
-msgstr "Allow Comments"
+msgstr "允许评论"
 
 #. module: survey
 #: help:survey.page,description:0
@@ -165,12 +165,12 @@ msgstr "Answer Choices"
 #: field:survey.user_input,type:0
 #: field:survey.user_input_line,answer_type:0
 msgid "Answer Type"
-msgstr "回复类型"
+msgstr "答案类型"
 
 #. module: survey
 #: view:website:survey.result
 msgid "Answered"
-msgstr "已答复"
+msgstr "已回答"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.action_survey_user_input
@@ -403,7 +403,7 @@ msgstr "发布到记录上的最后信息的日期"
 #. module: survey
 #: field:survey.user_input,deadline:0
 msgid "Deadline"
-msgstr "截止日期"
+msgstr "截止"
 
 #. module: survey
 #: help:survey.mail.compose.message,date_deadline:0
@@ -446,23 +446,23 @@ msgstr "草稿"
 #. module: survey
 #: field:survey.user_input,email:0
 msgid "E-mail"
-msgstr "电子邮件"
+msgstr "E-mail"
 
 #. module: survey
 #: view:survey.survey:survey.survey_form
 msgid "Edit Pages and Questions"
-msgstr "Edit Pages and Questions"
+msgstr "编辑页面和问题"
 
 #. module: survey
 #: selection:survey.mail.compose.message,type:0
 #: view:survey.user_input:survey.survey_user_input_search
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: survey
 #: field:survey.survey,email_template_id:0
 msgid "Email Template"
-msgstr "电子邮件模板"
+msgstr "Email 模板"
 
 #. module: survey
 #: help:survey.mail.compose.message,email_from:0
@@ -472,7 +472,7 @@ msgstr "Email address of the sender. This field is set when no matching partner 
 #. module: survey
 #: model:ir.model,name:survey.model_survey_mail_compose_message
 msgid "Email composition wizard for Survey"
-msgstr "Email composition wizard for Survey"
+msgstr "调查的Email撰写向导"
 
 #. module: survey
 #: field:survey.question,constr_error_msg:0
@@ -499,7 +499,7 @@ msgstr "筛选"
 #. module: survey
 #: view:website:survey.result
 msgid "Finished surveys"
-msgstr "Finished surveys"
+msgstr "已完成的调查"
 
 #. module: survey
 #: field:survey.stage,fold:0
@@ -930,7 +930,7 @@ msgstr "Numerical answer"
 #. module: survey
 #: view:website:survey.result_number
 msgid "Occurence"
-msgstr "Occurence"
+msgstr "发生"
 
 #. module: survey
 #: selection:survey.question,matrix_subtype:0
@@ -941,7 +941,7 @@ msgstr "每行一个选择"
 #: code:addons/survey/wizard/survey_email_compose_message.py:95
 #, python-format
 msgid "One email at least is incorrect: %s"
-msgstr "最少有一个邮件是不正确的： %s"
+msgstr "至少有一个邮件是不正确的： %s"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
@@ -969,7 +969,7 @@ msgstr "页面标题"
 #. module: survey
 #: field:survey.page,sequence:0
 msgid "Page number"
-msgstr "Page number"
+msgstr "页面号码"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.act_survey_pages
@@ -982,13 +982,13 @@ msgstr "页面"
 #. module: survey
 #: field:survey.mail.compose.message,parent_id:0
 msgid "Parent Message"
-msgstr "Parent Message"
+msgstr "父级消息"
 
 #. module: survey
 #: view:survey.user_input:survey.survey_user_input_search
 #: selection:survey.user_input,state:0
 msgid "Partially completed"
-msgstr "Partially completed"
+msgstr "部分完成"
 
 #. module: survey
 #: view:survey.user_input:survey.survey_user_input_search
@@ -1010,7 +1010,7 @@ msgstr "Partners that have a notification pushing this message in their mailboxe
 #. module: survey
 #: model:survey.stage,name:survey.stage_permanent
 msgid "Permanent"
-msgstr "Permanent"
+msgstr "永久"
 
 #. module: survey
 #: view:website:survey.result_choice
@@ -1092,12 +1092,12 @@ msgstr "问题"
 #. module: survey
 #: field:survey.question,question:0
 msgid "Question Name"
-msgstr "Question Name"
+msgstr "问题名称"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form
 msgid "Question name"
-msgstr "Question name"
+msgstr "问题名称"
 
 #. module: survey
 #: model:ir.actions.act_window,name:survey.act_survey_page_question
@@ -1121,12 +1121,12 @@ msgstr "Radio Buttons/Checkboxes"
 #. module: survey
 #: field:survey.mail.compose.message,res_id:0
 msgid "Related Document ID"
-msgstr "Related Document ID"
+msgstr "相关单据ID"
 
 #. module: survey
 #: field:survey.mail.compose.message,model:0
 msgid "Related Document Model"
-msgstr "相关的文档模型"
+msgstr "相关单据模型"
 
 #. module: survey
 #: help:survey.mail.compose.message,reply_to:0
@@ -1136,7 +1136,7 @@ msgstr "Reply email address. Setting the reply_to bypasses the automatic thread 
 #. module: survey
 #: field:survey.mail.compose.message,reply_to:0
 msgid "Reply-To"
-msgstr "回复:"
+msgstr "Reply-To"
 
 #. module: survey
 #: field:survey.survey,result_url:0
@@ -1304,12 +1304,12 @@ msgstr "加星的邮件"
 #. module: survey
 #: view:website:survey.survey_init
 msgid "Start Survey"
-msgstr "Start Survey"
+msgstr "开始调查"
 
 #. module: survey
 #: view:survey.survey:survey.survey_tree
 msgid "Started"
-msgstr "开始"
+msgstr "已开始"
 
 #. module: survey
 #: field:survey.user_input,state:0
@@ -1454,7 +1454,7 @@ msgstr "调查"
 #. module: survey
 #: selection:survey.mail.compose.message,type:0
 msgid "System notification"
-msgstr "System notification"
+msgstr "系统通知"
 
 #. module: survey
 #: help:survey.mail.compose.message,notification_ids:0
@@ -1470,7 +1470,7 @@ msgstr "Test"
 #. module: survey
 #: view:survey.survey:survey.survey_form
 msgid "Test Survey"
-msgstr "测试问卷"
+msgstr "测试调查"
 
 #. module: survey
 #: field:survey.user_input,test_entry:0
@@ -1500,7 +1500,7 @@ msgstr "Thank you message"
 #. module: survey
 #: view:website:survey.sfinished
 msgid "Thank you!"
-msgstr "Thank you!"
+msgstr "谢谢您！"
 
 #. module: survey
 #: constraint:survey.user_input_line:0
@@ -1597,7 +1597,7 @@ msgstr "类型"
 #. module: survey
 #: field:survey.question,type:0
 msgid "Type of Question"
-msgstr "Type of Question"
+msgstr "问题类型"
 
 #. module: survey
 #: view:survey.question:survey.survey_question_form

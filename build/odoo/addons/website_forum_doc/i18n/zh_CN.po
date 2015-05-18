@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 16:05+0000\n"
-"PO-Revision-Date: 2015-05-04 16:05+0000\n"
+"POT-Creation-Date: 2015-05-17 01:13+0000\n"
+"PO-Revision-Date: 2015-05-17 01:13+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: website_forum_doc
 #: view:website:website_forum_doc.documentation_post
 msgid "&nbsp;"
-msgstr "不能有空格"
+msgstr "&nbsp;"
 
 #. module: website_forum_doc
 #: view:website:website_forum.post_description_full
@@ -28,12 +28,12 @@ msgstr "&times;"
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
 msgid "Bad answer structure"
-msgstr "Bad answer structure"
+msgstr "错误的答案结构"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
 msgid "Bad questions"
-msgstr "Bad questions"
+msgstr "错误的问题"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
@@ -77,7 +77,7 @@ msgstr "删除"
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
 msgid "Describe the business solution"
-msgstr "描述业务方案"
+msgstr "描述业务解决方案"
 
 #. module: website_forum_doc
 #: model:ir.actions.act_url,name:website_forum_doc.action_open_documentation
@@ -85,7 +85,7 @@ msgstr "描述业务方案"
 #: view:website:website.layout
 #: model:website.menu,name:website_forum_doc.menu_questions
 msgid "Documentation"
-msgstr "Documentation"
+msgstr "文档"
 
 #. module: website_forum_doc
 #: model:ir.actions.act_window,name:website_forum_doc.action_forum_doc_post
@@ -123,7 +123,7 @@ msgstr "编辑..."
 #. module: website_forum_doc
 #: constraint:forum.documentation.toc:0
 msgid "Error ! You cannot create recursive categories."
-msgstr "错误！您不能创建循环分类。"
+msgstr "错误！您不能创建循环类别。"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
@@ -216,7 +216,7 @@ msgstr "No business benefit"
 #. module: website_forum_doc
 #: field:forum.documentation.toc,parent_id:0
 msgid "Parent Table Of Content"
-msgstr "Parent Table Of Content"
+msgstr "父级目录"
 
 #. module: website_forum_doc
 #: model:ir.model,name:website_forum_doc.model_forum_documentation_stage
@@ -256,7 +256,7 @@ msgstr "Push to documentation"
 #. module: website_forum_doc
 #: view:website:website_forum_doc.promote_question
 msgid "Question:"
-msgstr "Question:"
+msgstr "问题:"
 
 #. module: website_forum_doc
 #: view:website:website_forum_doc.documentation_post
@@ -271,7 +271,7 @@ msgstr "Related topics"
 #. module: website_forum_doc
 #: model:forum.documentation.stage,name:website_forum_doc.stage_review
 msgid "Review"
-msgstr "Review"
+msgstr "审查"
 
 #. module: website_forum_doc
 #: field:forum.documentation.toc,parent_right:0

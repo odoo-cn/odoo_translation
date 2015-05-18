@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:08+0000\n"
-"PO-Revision-Date: 2015-05-04 15:08+0000\n"
+"POT-Creation-Date: 2015-05-17 00:29+0000\n"
+"PO-Revision-Date: 2015-05-17 00:29+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -82,7 +82,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #: code:addons/mrp_repair/wizard/cancel_repair.py:41
 #, python-format
 msgid "Active ID not Found"
-msgstr "Active ID not Found"
+msgstr "Active Id 找不到"
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,type:0
@@ -92,7 +92,7 @@ msgstr "添加"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Add internal notes..."
-msgstr "Add internal notes..."
+msgstr "添加内部备注..."
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
@@ -107,7 +107,7 @@ msgstr "After Repair"
 #. module: mrp_repair
 #: selection:mrp.repair,invoice_method:0
 msgid "Before Repair"
-msgstr "Before Repair"
+msgstr "维修前"
 
 #. module: mrp_repair
 #: view:mrp.repair.cancel:mrp_repair.view_cancel_repair
@@ -197,7 +197,7 @@ msgstr "创建于"
 #. module: mrp_repair
 #: field:mrp.repair,location_id:0
 msgid "Current Location"
-msgstr "Current Location"
+msgstr "当前库位"
 
 #. module: mrp_repair
 #: help:mrp.repair,message_last_post:0
@@ -224,12 +224,12 @@ msgstr "说明"
 #. module: mrp_repair
 #: field:mrp.repair.line,location_dest_id:0
 msgid "Dest. Location"
-msgstr "Dest. Location"
+msgstr "目的库位"
 
 #. module: mrp_repair
 #: view:mrp.repair.make_invoice:mrp_repair.view_make_invoice
 msgid "Do you really want to create the invoice(s)?"
-msgstr "你真的要生成发票吗 ？"
+msgstr "您真的要创建发票吗 ？"
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,state:0
@@ -244,7 +244,7 @@ msgstr "草稿"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "End Repair"
-msgstr "End Repair"
+msgstr "终止维修"
 
 #. module: mrp_repair
 #: code:addons/mrp_repair/mrp_repair.py:339
@@ -263,12 +263,12 @@ msgstr "额外信息"
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 #: field:mrp.repair,fees_lines:0
 msgid "Fees"
-msgstr "Fees"
+msgstr "费用"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Fees Line(s)"
-msgstr "Fees Line(s)"
+msgstr "费用明细"
 
 #. module: mrp_repair
 #: field:mrp.repair,message_follower_ids:0
@@ -496,7 +496,7 @@ msgstr "No valid pricelist line found !"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Notes"
-msgstr "备注"
+msgstr "便签"
 
 #. module: mrp_repair
 #: view:website:mrp_repair.report_mrprepairorder
@@ -594,43 +594,43 @@ msgstr "报价单"
 #. module: mrp_repair
 #: model:ir.actions.report.xml,name:mrp_repair.action_report_mrp_repair_order
 msgid "Quotation / Order"
-msgstr "报价单/订单"
+msgstr "报价/订单"
 
 #. module: mrp_repair
 #: field:mrp.repair,quotation_notes:0
 msgid "Quotation Notes"
-msgstr "Quotation Notes"
+msgstr "报价备注"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
 msgid "Quotations"
-msgstr "报价单"
+msgstr "报价"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
 msgid "Ready To Repair"
-msgstr "Ready To Repair"
+msgstr "准备维修"
 
 #. module: mrp_repair
 #: selection:mrp.repair,state:0
 msgid "Ready to Repair"
-msgstr "Ready to Repair"
+msgstr "准备维修"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
 msgid "Reair Orders"
-msgstr "Reair Orders"
+msgstr "维修订单"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Recreate Invoice"
-msgstr "重新生成发票"
+msgstr "重建发票"
 
 #. module: mrp_repair
 #: selection:mrp.repair.line,type:0
 #: view:website:mrp_repair.report_mrprepairorder
 msgid "Remove"
-msgstr "删除"
+msgstr "移除"
 
 #. module: mrp_repair
 #: model:ir.model,name:mrp_repair.model_mrp_repair_fee
@@ -703,7 +703,7 @@ msgstr "Repaired Lot"
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 #: view:mrp.repair:mrp_repair.view_repair_order_tree
 msgid "Repairs order"
-msgstr "Repairs order"
+msgstr "维修订单"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
@@ -739,7 +739,7 @@ msgstr "源库位"
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form
 msgid "Start Repair"
-msgstr "Start Repair"
+msgstr "开始维修"
 
 #. module: mrp_repair
 #: view:mrp.repair:mrp_repair.view_repair_order_form_filter
@@ -885,7 +885,7 @@ msgstr "网站消息"
 #. module: mrp_repair
 #: help:mrp.repair,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: mrp_repair
 #: view:mrp.repair.cancel:mrp_repair.view_cancel_repair

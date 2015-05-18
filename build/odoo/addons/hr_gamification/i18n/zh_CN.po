@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:41+0000\n"
-"PO-Revision-Date: 2015-05-04 15:41+0000\n"
+"POT-Creation-Date: 2015-05-17 00:56+0000\n"
+"PO-Revision-Date: 2015-05-17 00:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -91,17 +91,17 @@ msgstr "Describe what they did and why it matters (will be public)"
 #: field:gamification.badge.user.wizard,employee_id:0
 #: model:ir.model,name:hr_gamification.model_hr_employee
 msgid "Employee"
-msgstr "雇员"
+msgstr "员工"
 
 #. module: hr_gamification
 #: field:hr.employee,badge_ids:0
 msgid "Employee Badges"
-msgstr "Employee Badges"
+msgstr "员工勋章"
 
 #. module: hr_gamification
 #: field:hr.employee,goal_ids:0
 msgid "Employee HR Goals"
-msgstr "Employee HR Goals"
+msgstr "员工HR目标"
 
 #. module: hr_gamification
 #: model:ir.ui.menu,name:hr_gamification.menu_hr_gamification
@@ -147,7 +147,7 @@ msgstr "Has Badges"
 #. module: hr_gamification
 #: view:hr.employee:hr_gamification.hr_hr_employee_view_form
 msgid "Received Badges"
-msgstr "Received Badges"
+msgstr "收到的勋章"
 
 #. module: hr_gamification
 #: view:gamification.badge.user.wizard:hr_gamification.view_badge_wizard_reward

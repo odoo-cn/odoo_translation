@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:52+0000\n"
-"PO-Revision-Date: 2015-05-04 15:52+0000\n"
+"POT-Creation-Date: 2015-05-17 01:03+0000\n"
+"PO-Revision-Date: 2015-05-17 01:03+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -105,42 +105,42 @@ msgstr "%s (%d)"
 #: code:addons/web/static/src/js/formats.js:298
 #, python-format
 msgid "'%s' is not a correct date"
-msgstr "'%s'格式错，不是正确的日期"
+msgstr "'%s'不是正确的日期"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/formats.js:321
 #, python-format
 msgid "'%s' is not a correct date, datetime nor time"
-msgstr "'%s'格式错， 不是正确的日期，日期时间，也不是时间"
+msgstr "'%s'不是正确的日期，日期时间，时间"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/formats.js:285
 #, python-format
 msgid "'%s' is not a correct datetime"
-msgstr "'%s' 格式错误，不是一个正确的日期时间"
+msgstr "'%s' 不是一个正确的日期时间"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/formats.js:249
 #, python-format
 msgid "'%s' is not a correct float"
-msgstr "'%s' 不是一个正确的实数格式"
+msgstr "'%s' 不是一个正确的浮点数"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/formats.js:238
 #, python-format
 msgid "'%s' is not a correct integer"
-msgstr "'%s' 不是正确的证书格式"
+msgstr "'%s' 不是正确的整数"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/formats.js:306
 #, python-format
 msgid "'%s' is not a correct time"
-msgstr "'%s' 是个正确的时间"
+msgstr "'%s' 不是正确的时间"
 
 #. module: web
 #. openerp-web
@@ -283,7 +283,7 @@ msgstr "动作按钮"
 #: code:addons/web/static/src/xml/base.xml:1484
 #, python-format
 msgid "Action ID:"
-msgstr "动作标识："
+msgstr "动作ID："
 
 #. module: web
 #. openerp-web
@@ -327,7 +327,7 @@ msgstr "添加一个项目"
 #: code:addons/web/static/src/xml/base.xml:660
 #, python-format
 msgid "Add..."
-msgstr "添加附件..."
+msgstr "添加..."
 
 #. module: web
 #. openerp-web
@@ -342,7 +342,7 @@ msgstr "添加： "
 #: code:addons/web/static/src/js/search.js:2028
 #, python-format
 msgid "Advanced"
-msgstr "高级"
+msgstr "高级的"
 
 #. module: web
 #. openerp-web
@@ -398,7 +398,7 @@ msgstr "返回登录页面"
 #: code:addons/web/static/src/js/chrome.js:555
 #, python-format
 msgid "Backed"
-msgstr "已备份"
+msgstr "已返回"
 
 #. module: web
 #. openerp-web
@@ -577,7 +577,7 @@ msgstr "选择一个密码："
 #: code:addons/web/static/src/xml/base.xml:1366
 #, python-format
 msgid "Clear"
-msgstr "清除"
+msgstr "无隐藏"
 
 #. module: web
 #. openerp-web
@@ -657,7 +657,7 @@ msgstr "上下文："
 #: code:addons/web/static/src/xml/base.xml:271
 #, python-format
 msgid "Copy of an existing database"
-msgstr "复制现有数据库"
+msgstr "现有数据库的复制"
 
 #. module: web
 #. openerp-web
@@ -671,7 +671,7 @@ msgstr "版权所有 © 2004-TODAY OpenERP SA。保留所有权利。"
 #: code:addons/web/static/src/js/view_form.js:5780
 #, python-format
 msgid "Could not display the selected image."
-msgstr "无法显示选择的图片。"
+msgstr "不能显示选择的图片。"
 
 #. module: web
 #: code:addons/web/controllers/main.py:725
@@ -684,14 +684,14 @@ msgstr "不能删除数据库！"
 #: code:addons/web/static/src/js/view_list.js:1054
 #, python-format
 msgid "Could not find id in dataset"
-msgstr "无法在数据集中找到此 ID"
+msgstr "不能在数据集中找到此 ID"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/chrome.js:586
 #, python-format
 msgid "Could not restore the database"
-msgstr "不能恢复数据库"
+msgstr "不能还原数据库"
 
 #. module: web
 #. openerp-web
@@ -710,7 +710,7 @@ msgstr "不能序列化 XML"
 #: code:addons/web/static/src/xml/base.xml:2013
 #, python-format
 msgid "Create"
-msgstr "新建"
+msgstr "创建"
 
 #. module: web
 #. openerp-web
@@ -745,7 +745,7 @@ msgstr "创建新数据库"
 #: code:addons/web/static/src/js/view_form.js:3404
 #, python-format
 msgid "Create and Edit..."
-msgstr "创建并编辑"
+msgstr "创建并编辑..."
 
 #. module: web
 #. openerp-web
@@ -896,49 +896,49 @@ msgstr "发现世界范围里的 Odoo 活动..."
 #: code:addons/web/static/src/js/chrome.js:537
 #, python-format
 msgid "Do you really want to delete the database: %s ?"
-msgstr "你确信要删除数据库: %s ?"
+msgstr "您真的要删除数据库: %s ?"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views.js:1356
 #, python-format
 msgid "Do you really want to delete this attachment ?"
-msgstr "请确认是否要删除这个附件？"
+msgstr "你真的要删除此附件？"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:781
 #, python-format
 msgid "Do you really want to delete this record?"
-msgstr "您确认要删除该记录吗？"
+msgstr "你真的要删除此记录？"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_list.js:612
 #, python-format
 msgid "Do you really want to remove these records?"
-msgstr "您确定要删除这些记录吗？"
+msgstr "你真的要删除这些记录？"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1943
 #, python-format
 msgid "Does your file have titles?"
-msgstr "您的文件是否包含标题行？"
+msgstr "您的文件有标题行？"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:990
 #, python-format
 msgid "Domain:"
-msgstr "筛选条件"
+msgstr "Domain:"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core.js:705
 #, python-format
 msgid "Don't leave yet,<br />it's still loading..."
-msgstr "请不要离开，<br />系统仍然在加载中..."
+msgstr "请不要离开，<br />加载中..."
 
 #. module: web
 #. openerp-web
@@ -1014,7 +1014,7 @@ msgstr "复制数据库"
 #: code:addons/web/static/src/js/view_form.js:2491
 #, python-format
 msgid "E-mail Error"
-msgstr "E-mail 错误"
+msgstr "E-mail错误"
 
 #. module: web
 #. openerp-web
@@ -1054,7 +1054,7 @@ msgstr "编辑工作流"
 #. module: web
 #: view:website:web.login
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: web
 #. openerp-web
@@ -1068,7 +1068,7 @@ msgstr "Encoding:"
 #: code:addons/web/static/src/xml/website.tour.xml:25
 #, python-format
 msgid "End This Tutorial"
-msgstr "结束引导"
+msgstr "结束此教程"
 
 #. module: web
 #. openerp-web
@@ -1153,7 +1153,7 @@ msgstr "计算搜索条件失败"
 #: code:addons/web/static/src/xml/base.xml:1737
 #, python-format
 msgid "Favorites"
-msgstr "收藏夹"
+msgstr "收藏"
 
 #. module: web
 #. openerp-web
@@ -1213,8 +1213,8 @@ msgid "Fill in this form to create an Odoo database. You can\n"
 "                    create databases for different companies or for different\n"
 "                    goals (testing, production). Once the database is created,\n"
 "                    you will be able to install your first application."
-msgstr "请填写此表单以创建数据库。你可以：\n"
-"                    为不同的公司或不同的目的（测试环境、生产环境）。当数据库创建完成以后就可以安装你的第一个应用。"
+msgstr "请填写此表单以创建数据库。您可以：\n"
+"                    为不同的公司或不同的目的（测试环境、生产环境）。当数据库创建完成以后就可以安装您的第一个应用。"
 
 #. module: web
 #. openerp-web
@@ -1356,7 +1356,7 @@ msgstr "图像"
 #: code:addons/web/static/src/xml/base.xml:1922
 #, python-format
 msgid "Import"
-msgstr "Import"
+msgstr "导入"
 
 #. module: web
 #. openerp-web
@@ -1806,7 +1806,7 @@ msgstr "变更时动作："
 #: code:addons/web/static/src/xml/base.xml:899
 #, python-format
 msgid "Only you"
-msgstr "仅用于你个人"
+msgstr "仅用于您个人"
 
 #. module: web
 #. openerp-web
@@ -1874,7 +1874,7 @@ msgstr "密码被成功修改"
 #: code:addons/web/static/src/js/chrome.js:464
 #, python-format
 msgid "Please confirm your new password"
-msgstr "请确认你的新密码"
+msgstr "请确认您的新密码"
 
 #. module: web
 #. openerp-web
@@ -1895,7 +1895,7 @@ msgstr "请输入您的新密码"
 #: code:addons/web/static/src/js/chrome.js:461
 #, python-format
 msgid "Please enter your previous password"
-msgstr "请输入你以前的密码："
+msgstr "请输入您以前的密码："
 
 #. module: web
 #. openerp-web
@@ -1964,14 +1964,14 @@ msgstr "关系："
 #: code:addons/web/static/src/xml/base.xml:1852
 #, python-format
 msgid "Remove"
-msgstr "删除"
+msgstr "移除"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/xml/base.xml:1853
 #, python-format
 msgid "Remove All"
-msgstr "全部移除"
+msgstr "移除全部"
 
 #. module: web
 #. openerp-web
@@ -2387,7 +2387,7 @@ msgstr "o2m记录必须先保存才能被一个动作使用"
 #: code:addons/web/controllers/main.py:805
 #, python-format
 msgid "The old password you provided is incorrect, your password was not changed."
-msgstr "你提供的原密码是错误的，密码没有改变"
+msgstr "您提供的原密码是错误的，密码没有改变"
 
 #. module: web
 #. openerp-web
@@ -2494,7 +2494,7 @@ msgstr "树形列表"
 #: code:addons/web/static/src/xml/base.xml:974
 #, python-format
 msgid "Type:"
-msgstr "类型："
+msgstr "类型:"
 
 #. module: web
 #. openerp-web
@@ -2531,28 +2531,28 @@ msgstr "未知的"
 #: code:addons/web/static/src/js/view_form.js:1698
 #, python-format
 msgid "Unknown field %s in domain %s"
-msgstr "发现未知字段 %s ，筛选条件 %s 有误"
+msgstr "未知字段 %s 在筛选条件 %s 里"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_list.js:1114
 #, python-format
 msgid "Unknown m2m command %s"
-msgstr "未知的 m2m命令%s"
+msgstr "未知 m2m命令%s"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/pyeval.js:961
 #, python-format
 msgid "Unknown nonliteral type "
-msgstr "未知的 nonliteral 类型 "
+msgstr "未知 nonliteral 类型 "
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/view_form.js:1690
 #, python-format
 msgid "Unknown operator %s in domain %s"
-msgstr "发现未知操作符 %s ，筛选条件 %s 有误"
+msgstr "未知操作符 %s 在筛选条件 %s 里"
 
 #. module: web
 #. openerp-web
@@ -2714,14 +2714,14 @@ msgstr "正要创建新的 %s，确认它真的不存在吗？"
 #: code:addons/web/controllers/main.py:797
 #, python-format
 msgid "You cannot leave any password empty."
-msgstr "你不能让任何密码为空。"
+msgstr "您不能让任何密码为空。"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/core.js:706
 #, python-format
 msgid "You may not believe it,<br />but the application is actually loading..."
-msgstr "也许你不相信，<br />但是这个应用真的还在加载...."
+msgstr "也许您不相信，<br />但是这个应用真的还在加载...."
 
 #. module: web
 #. openerp-web

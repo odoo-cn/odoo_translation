@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:59+0000\n"
-"PO-Revision-Date: 2015-05-04 15:59+0000\n"
+"POT-Creation-Date: 2015-05-17 01:08+0000\n"
+"PO-Revision-Date: 2015-05-17 01:08+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgstr "\"OpenERP\""
 #: code:addons/website/static/src/xml/website.snippets.xml:36
 #, python-format
 msgid "&nbsp;"
-msgstr "不能有空格"
+msgstr "&nbsp;"
 
 #. module: website
 #: view:website:website.info
@@ -81,7 +81,7 @@ msgstr ".xml"
 #: code:addons/website/static/src/xml/website.seo.xml:22
 #, python-format
 msgid "1. Define Keywords"
-msgstr "1. 定义关键字"
+msgstr "1. 定义关键词"
 
 #. module: website
 #. openerp-web
@@ -134,7 +134,7 @@ msgstr "A Punchy Headline"
 #. module: website
 #: view:website:website.snippets
 msgid "A Section Subtitle"
-msgstr "A Section Subtitle"
+msgstr "章节子标题"
 
 #. module: website
 #: view:website:website.snippets
@@ -243,7 +243,7 @@ msgstr "添加图片URL"
 #: code:addons/website/static/src/xml/website.seo.xml:25
 #, python-format
 msgid "Add keyword:"
-msgstr "添加关键字:"
+msgstr "添加关键词:"
 
 #. module: website
 #. openerp-web
@@ -652,12 +652,12 @@ msgstr "Consider telling\n"
 #: view:website:website.403
 #: view:website:website.404
 msgid "Contact Us"
-msgstr "联络我们"
+msgstr "联系我们"
 
 #. module: website
 #: view:website:website.snippets
 msgid "Contact Us Now"
-msgstr "Contact Us Now"
+msgstr "现在联系我们"
 
 #. module: website
 #: view:website:website.contactus
@@ -665,7 +665,7 @@ msgstr "Contact Us Now"
 #: view:website:website.snippets
 #: model:website.menu,name:website.menu_contactus
 msgid "Contact us"
-msgstr "联络我们"
+msgstr "联系我们"
 
 #. module: website
 #: view:website:website.contactus
@@ -675,7 +675,7 @@ msgstr "Contact us about anything related to our company or services."
 #. module: website
 #: view:website:website.snippets
 msgid "Contact us »"
-msgstr "Contact us »"
+msgstr "联系我们 »"
 
 #. module: website
 #: view:website:website.layout
@@ -713,14 +713,14 @@ msgstr "Cosmo"
 #. module: website
 #: view:website:website.page_404
 msgid "Create Page"
-msgstr "Create Page"
+msgstr "创建网页"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.editor.js:987
 #, python-format
 msgid "Create page '%s'"
-msgstr "Create page '%s'"
+msgstr "创建网页 '%s'"
 
 #. module: website
 #: field:website,create_uid:0
@@ -830,7 +830,7 @@ msgstr "默认语言代码"
 #. module: website
 #: view:website:website.snippets
 msgid "Delete Blocks"
-msgstr "Delete Blocks"
+msgstr "删除区块"
 
 #. module: website
 #: view:website:website.snippets
@@ -881,7 +881,7 @@ msgstr "取消"
 #: code:addons/website/static/src/xml/website.editor.xml:298
 #, python-format
 msgid "Discard edition"
-msgstr "Discard edition"
+msgstr "取消编辑"
 
 #. module: website
 #: view:website:website.snippets
@@ -905,49 +905,49 @@ msgstr "Does it works offline?"
 #: field:website,name:0
 #: view:website.config.settings:website.view_website_config_settings
 msgid "Domain"
-msgstr "筛选条件"
+msgstr "Domain"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:75
 #, python-format
 msgid "Drag & Drop This Block"
-msgstr "Drag & Drop This Block"
+msgstr "拖放这个区块"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:35
 #, python-format
 msgid "Drag & Drop a Banner"
-msgstr "Drag & Drop a Banner"
+msgstr "拖放一个横幅"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:34
 #, python-format
 msgid "Drag a menu to the right to create a sub-menu"
-msgstr "Drag a menu to the right to create a sub-menu"
+msgstr "拖曳菜单到右边创建子菜单"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:76
 #, python-format
 msgid "Drag the <em>'Features'</em> block and drop it below the banner."
-msgstr "Drag the <em>'Features'</em> block and drop it below the banner."
+msgstr "拖曳<em>'功能'</em> 区块，并放置在横幅的下面"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/js/website.tour.banner.js:36
 #, python-format
 msgid "Drag the Banner block and drop it in your page."
-msgstr "Drag the Banner block and drop it in your page."
+msgstr "拖曳横幅区块并放置在你的页面"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.snippets.xml:34
 #, python-format
 msgid "Drag to Move"
-msgstr "Drag to Move"
+msgstr "拖曳以移动"
 
 #. module: website
 #: view:website:website.snippets
@@ -959,12 +959,12 @@ msgstr "复制"
 #: code:addons/website/static/src/xml/website.snippets.xml:35
 #, python-format
 msgid "Duplicate Container"
-msgstr "Duplicate Container"
+msgstr "复制容器"
 
 #. module: website
 #: view:website:website.snippets
 msgid "Duplicate blocks to add more features."
-msgstr "Duplicate blocks to add more features."
+msgstr "复制区块并添加更多功能"
 
 #. module: website
 #: view:website:website.layout
@@ -978,24 +978,24 @@ msgstr "编辑"
 #: view:website:website.layout
 #, python-format
 msgid "Edit Menu"
-msgstr "Edit Menu"
+msgstr "编辑菜单"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.contentMenu.xml:48
 #, python-format
 msgid "Edit Menu Entry"
-msgstr "Edit Menu Entry"
+msgstr "编辑菜单项"
 
 #. module: website
 #: view:website:website.layout
 msgid "Edit Top Menu"
-msgstr "Edit Top Menu"
+msgstr "编辑顶部菜单"
 
 #. module: website
 #: view:website:website.publish_management
 msgid "Edit in backend"
-msgstr "Edit in backend"
+msgstr "在后台编辑"
 
 #. module: website
 #: view:website:website.page_404
@@ -1007,29 +1007,29 @@ msgstr "Edit the content below this line to adapt the default \"page not found\"
 #: code:addons/website/static/src/js/website.tour.banner.js:21
 #, python-format
 msgid "Edit this page"
-msgstr "Edit this page"
+msgstr "编辑页面"
 
 #. module: website
 #: view:website:website.snippets
 msgid "Effects"
-msgstr "Effects"
+msgstr "特效"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:378
 #, python-format
 msgid "Embed Video (HTML)"
-msgstr "Embed Video (HTML)"
+msgstr "嵌入的视频 (HTML)"
 
 #. module: website
 #: view:website:website.snippets
 msgid "Enterprise package"
-msgstr "Enterprise package"
+msgstr "企业包"
 
 #. module: website
 #: view:website:website.http_error_debug
 msgid "Error"
-msgstr "错误！"
+msgstr "错误"
 
 #. module: website
 #: view:website:website.http_error_debug
@@ -1058,19 +1058,19 @@ msgstr "Explain the benefits you offer. Don't write about products or\n"
 #. module: website
 #: field:ir.actions.server,xml_id:0
 msgid "External ID"
-msgstr "外部标识"
+msgstr "外部ID"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:117
 #, python-format
 msgid "Extra Small"
-msgstr "Extra Small"
+msgstr "超小"
 
 #. module: website
 #: view:website:website.snippet_options
 msgid "Extra-Large"
-msgstr "Extra-Large"
+msgstr "超大"
 
 #. module: website
 #: view:website:website.snippets
@@ -1081,12 +1081,12 @@ msgstr "FAQ"
 #: field:website,social_facebook:0
 #: field:website.config.settings,social_facebook:0
 msgid "Facebook Account"
-msgstr "Facebook Account"
+msgstr "Facebook账号"
 
 #. module: website
 #: view:website:website.snippet_options
 msgid "Fast"
-msgstr "Fast"
+msgstr "快速"
 
 #. module: website
 #: view:website:website.snippets
@@ -1116,7 +1116,7 @@ msgstr "Feature Two"
 #. module: website
 #: view:website:website.snippets
 msgid "Features"
-msgstr "特性"
+msgstr "功能"
 
 #. module: website
 #: view:website:website.snippets
@@ -1163,7 +1163,7 @@ msgstr "Free shipping, satisfied or reimbursed."
 #. module: website
 #: view:website:website.snippets
 msgid "From the main container, you can change the background to highlight features."
-msgstr "通过主容器，你可以将背景改成高亮的特性"
+msgstr "通过主容器，您可以将背景改成高亮的特性"
 
 #. module: website
 #. openerp-web
@@ -1776,7 +1776,7 @@ msgstr "Odoo Members"
 #. module: website
 #: view:website:website.info
 msgid "Odoo Version"
-msgstr "Odoo Version"
+msgstr "Odoo版本"
 
 #. module: website
 #: view:website:website.snippets
@@ -1926,7 +1926,7 @@ msgstr "页面标题"
 #. module: website
 #: view:website:website.snippets
 msgid "Panel"
-msgstr "Panel"
+msgstr "面板"
 
 #. module: website
 #: view:website:website.snippets
@@ -1948,7 +1948,7 @@ msgstr "Parallax Slider"
 #. module: website
 #: field:website.menu,parent_left:0
 msgid "Parent Left"
-msgstr "上级左"
+msgstr "父级左"
 
 #. module: website
 #: field:website.menu,parent_id:0
@@ -1958,7 +1958,7 @@ msgstr "上级菜单"
 #. module: website
 #: field:website.menu,parent_right:0
 msgid "Parent Right"
-msgstr "上级右"
+msgstr "父级右"
 
 #. module: website
 #: model:ir.model,name:website.model_res_partner
@@ -1968,7 +1968,7 @@ msgstr "业务伙伴"
 #. module: website
 #: view:website:website.snippet_options
 msgid "People"
-msgstr "用户"
+msgstr "人员"
 
 #. module: website
 #. openerp-web
@@ -2092,7 +2092,7 @@ msgstr "QWeb"
 #: view:website:website.snippet_options
 #: view:website:website.snippets
 msgid "Quote"
-msgstr "Quote"
+msgstr "报价"
 
 #. module: website
 #: view:website:website.snippets
@@ -2102,7 +2102,7 @@ msgstr "Quotes Slider"
 #. module: website
 #: view:website:website.themes
 msgid "Readable"
-msgstr "Readable"
+msgstr "可阅读"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -2119,19 +2119,19 @@ msgstr "参考"
 #: code:addons/website/static/src/xml/website.snippets.xml:36
 #, python-format
 msgid "Remove Block"
-msgstr "Remove Block"
+msgstr "移除区块"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:37
 #, python-format
 msgid "Remove Link"
-msgstr "Remove Link"
+msgstr "移除链接"
 
 #. module: website
 #: view:website:website.snippet_options
 msgid "Remove Slide"
-msgstr "Remove Slide"
+msgstr "移除幻灯片"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -2141,7 +2141,7 @@ msgstr "Reset Transformation"
 #. module: website
 #: view:website:website.500
 msgid "Reset selected templates"
-msgstr "重置选择模板"
+msgstr "重置选择的模板"
 
 #. module: website
 #: view:website:website.500
@@ -2153,12 +2153,12 @@ msgstr "重置模板"
 #: code:addons/website/static/src/xml/website.snippets.xml:45
 #, python-format
 msgid "Resize"
-msgstr "Resize"
+msgstr "调整大小"
 
 #. module: website
 #: field:ir.attachment,datas_big:0
 msgid "Resized file content"
-msgstr "Resized file content"
+msgstr "文件内容调整大小"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -2388,7 +2388,7 @@ msgstr "Spin"
 #: code:addons/website/static/src/js/website.tour.banner.js:15
 #, python-format
 msgid "Start Tutorial"
-msgstr "Start Tutorial"
+msgstr "开始教程"
 
 #. module: website
 #: view:website:website.snippets
@@ -2405,7 +2405,7 @@ msgstr "Starter package"
 #. module: website
 #: view:website:website.snippet_options
 msgid "Static"
-msgstr "静态目录"
+msgstr "静态"
 
 #. module: website
 #: view:website:website.snippets
@@ -2419,29 +2419,29 @@ msgstr "结构"
 #: view:website:website.snippet_options
 #, python-format
 msgid "Style"
-msgstr "Style"
+msgstr "样式"
 
 #. module: website
 #: view:website:website.layout
 msgid "Subtitle"
-msgstr "Subtitle"
+msgstr "子标题"
 
 #. module: website
 #: view:website:website.layout
 msgid "Subtitle 2"
-msgstr "Subtitle 2"
+msgstr "子标题 2"
 
 #. module: website
 #: view:website:website.layout
 msgid "Subtitle 3"
-msgstr "Subtitle 3"
+msgstr "子标题 3"
 
 #. module: website
 #. openerp-web
 #: code:addons/website/static/src/xml/website.editor.xml:95
 #, python-format
 msgid "Success"
-msgstr "Success"
+msgstr "成功"
 
 #. module: website
 #: view:website:website.snippet_options
@@ -2559,7 +2559,7 @@ msgstr "The selected templates will be reset to their factory settings."
 #. module: website
 #: view:website:website.snippets
 msgid "The top of the top"
-msgstr "The top of the top"
+msgstr "顶部的上面"
 
 #. module: website
 #. openerp-web
@@ -2667,7 +2667,7 @@ msgstr "Twitter Account"
 #. module: website
 #: view:website:website.500
 msgid "Type '"
-msgstr "Type '"
+msgstr "类型 '"
 
 #. module: website
 #: view:website:website.view_website_form
@@ -2700,7 +2700,7 @@ msgstr "United"
 #. module: website
 #: view:website:website.snippets
 msgid "Unlimited support"
-msgstr "Unlimited support"
+msgstr "无限支持"
 
 #. module: website
 #: view:website:website.publish_management
@@ -3036,7 +3036,7 @@ msgstr "Yellow Green"
 #. module: website
 #: view:website:website.snippets
 msgid "Yes."
-msgstr "Yes."
+msgstr "是."
 
 #. module: website
 #: view:website:website.themes
@@ -3068,7 +3068,7 @@ msgstr "You'll be able to change the theme at anytime"
 #: view:website:website.snippets
 #, python-format
 msgid "Your Banner Title"
-msgstr "Your Banner Title"
+msgstr "您的横幅标题"
 
 #. module: website
 #: view:website:website.snippets
@@ -3110,7 +3110,7 @@ msgstr "customer for this feature."
 #: code:addons/website/static/src/xml/website.seo.xml:22
 #, python-format
 msgid "describing your page content"
-msgstr "描述你的页面内容"
+msgstr "描述您的页面内容"
 
 #. module: website
 #: view:website:website.snippets
@@ -3234,7 +3234,7 @@ msgstr "is and always will be\n"
 #. module: website
 #: view:website:website.snippets
 msgid "not what you want to show."
-msgstr "不是你想要展示的。"
+msgstr "不是您想要展示的。"
 
 #. module: website
 #. openerp-web
@@ -3326,7 +3326,7 @@ msgstr "是"
 #. module: website
 #: view:website:website.themes
 msgid "your homepage"
-msgstr "你的首页"
+msgstr "您的首页"
 
 #. module: website
 #. openerp-web

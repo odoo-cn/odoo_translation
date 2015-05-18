@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:01+0000\n"
-"PO-Revision-Date: 2015-05-04 15:01+0000\n"
+"POT-Creation-Date: 2015-05-17 00:24+0000\n"
+"PO-Revision-Date: 2015-05-17 00:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -220,7 +220,7 @@ msgstr "Administrate Orders"
 #: model:ir.ui.menu,name:lunch.menu_lunch_alert
 #: field:lunch.order,alerts:0
 msgid "Alerts"
-msgstr "Alerts"
+msgstr "警示"
 
 #. module: lunch
 #: field:lunch.cashmove,amount:0
@@ -283,7 +283,7 @@ msgstr "取消"
 #. module: lunch
 #: view:lunch.cancel:lunch.cancel_order_lines_view
 msgid "Cancel Orders"
-msgstr "取消订餐"
+msgstr "取消订单"
 
 #. module: lunch
 #: view:lunch.cancel:lunch.cancel_order_lines_view
@@ -409,12 +409,12 @@ msgstr "Don't forget the alerts displayed in the reddish area"
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_cashmove
 msgid "Employee Payments"
-msgstr "Employee Payments"
+msgstr "员工付款"
 
 #. module: lunch
 #: selection:lunch.alert,alter_type:0
 msgid "Every Day"
-msgstr "Every Day"
+msgstr "每一天"
 
 #. module: lunch
 #: selection:lunch.alert,alter_type:0
@@ -601,7 +601,7 @@ msgstr "Not Received"
 #: field:lunch.order.line,note:0
 #: field:report.lunch.order.line,note:0
 msgid "Note"
-msgstr "备注"
+msgstr "便签"
 
 #. module: lunch
 #: selection:report.lunch.order.line,month:0
@@ -683,7 +683,7 @@ msgstr "Orders by Supplier"
 #. module: lunch
 #: selection:lunch.order,state:0
 msgid "Partially Confirmed"
-msgstr "Partially Confirmed"
+msgstr "部分确认"
 
 #. module: lunch
 #: view:lunch.cashmove:lunch.view_lunch_employee_payment_filter
@@ -740,12 +740,12 @@ msgstr "Products Tree"
 #. module: lunch
 #: view:lunch.validation:lunch.validate_order_lines_view
 msgid "Receive Meals"
-msgstr "Receive Meals"
+msgstr "接收食品"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.validate_order_lines
 msgid "Receive meals"
-msgstr "Receive meals"
+msgstr "接收食品"
 
 #. module: lunch
 #: view:lunch.order.line:lunch.lunch_order_line_search_view
@@ -756,12 +756,12 @@ msgstr "已接收"
 #. module: lunch
 #: field:lunch.alert,alter_type:0
 msgid "Recurrency"
-msgstr "循环"
+msgstr "定期"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.action_lunch_cashmove
 msgid "Register Cash Moves"
-msgstr "Register Cash Moves"
+msgstr "出纳机现金凭证"
 
 #. module: lunch
 #: field:lunch.alert,saturday:0
@@ -825,7 +825,7 @@ msgstr "供应商"
 #. module: lunch
 #: view:lunch.order.line:lunch.lunch_order_line_search_view
 msgid "Supplier Order by Month"
-msgstr "Supplier Order by Month"
+msgstr "供应商订单按月份"
 
 #. module: lunch
 #: code:addons/lunch/lunch.py:190
@@ -914,12 +914,12 @@ msgstr "年"
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.action_lunch_cashmove_form
 msgid "Your Account"
-msgstr "Your Account"
+msgstr "您的帐户"
 
 #. module: lunch
 #: model:ir.ui.menu,name:lunch.menu_lunch_cashmove_form
 msgid "Your Lunch Account"
-msgstr "Your Lunch Account"
+msgstr "您的午餐账户"
 
 #. module: lunch
 #: model:ir.actions.act_window,name:lunch.action_lunch_order_tree

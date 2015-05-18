@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:17+0000\n"
-"PO-Revision-Date: 2015-05-04 15:17+0000\n"
+"POT-Creation-Date: 2015-05-17 00:35+0000\n"
+"PO-Revision-Date: 2015-05-17 00:35+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "有效"
 #. module: base_action_rule
 #: field:base.action.rule,act_followers:0
 msgid "Add Followers"
-msgstr "增加关注者"
+msgstr "添加关注者"
 
 #. module: base_action_rule
 #: model:ir.actions.act_window,name:base_action_rule.base_action_rule_act
@@ -114,7 +114,7 @@ msgstr "创建于"
 #. module: base_action_rule
 #: selection:base.action.rule,trg_date_range_type:0
 msgid "Days"
-msgstr "日"
+msgstr "天"
 
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
@@ -124,7 +124,7 @@ msgstr "触发日期后的延迟"
 #. module: base_action_rule
 #: help:base.action.rule,trg_date_range:0
 msgid "Delay after the trigger date.You can put a negative number if you need a delay before thetrigger date, like sending a reminder 15 minutes before a meeting."
-msgstr "延迟触发日期。如果在触发日期你需要一个延迟，你可以输入一个负数，如在会议前15分钟发送提醒"
+msgstr "延迟触发日期。如果在触发日期您需要一个延迟，您可以输入一个负数，如在会议前15分钟发送提醒"
 
 #. module: base_action_rule
 #: field:base.action.rule,trg_date_range:0
@@ -144,7 +144,7 @@ msgstr "如：电子邮件提醒，调用对象的服务等。"
 #. module: base_action_rule
 #: view:base.action.rule:base_action_rule.view_base_action_rule_form
 msgid "Fields to Change"
-msgstr "会更改的字段"
+msgstr "要更改的字段"
 
 #. module: base_action_rule
 #: field:base.action.rule,filter_id:0
@@ -247,7 +247,7 @@ msgstr "创建时"
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
 msgid "On Creation & Update"
-msgstr "创建或更新时"
+msgstr "创建和更新时"
 
 #. module: base_action_rule
 #: selection:base.action.rule,kind:0
@@ -262,12 +262,12 @@ msgstr "业务伙伴"
 #. module: base_action_rule
 #: selection:base.action.rule.lead.test,state:0
 msgid "Pending"
-msgstr "等待中"
+msgstr "待定"
 
 #. module: base_action_rule
 #: field:base.action.rule,model_id:0
 msgid "Related Document Model"
-msgstr "相关的文档模型"
+msgstr "相关单据模型"
 
 #. module: base_action_rule
 #: field:base.action.rule.lead.test,user_id:0

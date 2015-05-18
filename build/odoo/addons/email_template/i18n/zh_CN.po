@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:31+0000\n"
-"PO-Revision-Date: 2015-05-04 15:31+0000\n"
+"POT-Creation-Date: 2015-05-17 00:47+0000\n"
+"PO-Revision-Date: 2015-05-17 00:47+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -35,7 +35,7 @@ msgstr "添加签名"
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Advanced Settings"
-msgstr "高级配置"
+msgstr "高级设置"
 
 #. module: email_template
 #: field:email.template,model_id:0
@@ -184,32 +184,32 @@ msgstr "Dynamic Placeholder Generator"
 #. module: email_template
 #: view:ir.actions.server:email_template.view_server_action_form_template
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Email Configuration"
-msgstr "Email Configuration"
+msgstr "Email配置"
 
 #. module: email_template
 #: view:email_template.preview:email_template.email_template_preview_form
 msgid "Email Preview"
-msgstr "邮件预览"
+msgstr "Email 预览"
 
 #. module: email_template
 #: field:ir.actions.server,template_id:0
 msgid "Email Template"
-msgstr "电子邮件模板"
+msgstr "Email 模板"
 
 #. module: email_template
 #: model:ir.model,name:email_template.model_email_template_preview
 msgid "Email Template Preview"
-msgstr "邮件模板预览"
+msgstr "Email 模板预览"
 
 #. module: email_template
 #: model:ir.model,name:email_template.model_email_template
 msgid "Email Templates"
-msgstr "电子邮件模板"
+msgstr "Email 模板"
 
 #. module: email_template
 #: model:ir.model,name:email_template.model_mail_compose_message
@@ -391,12 +391,12 @@ msgstr "收件人"
 #: field:email.template,model:0
 #: field:email_template.preview,model:0
 msgid "Related Document Model"
-msgstr "相关的文档模型"
+msgstr "相关单据模型"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
 msgid "Remove"
-msgstr "删除"
+msgstr "移除"
 
 #. module: email_template
 #: view:email.template:email_template.email_template_form
@@ -407,7 +407,7 @@ msgstr "移除上下文内容，以将模板用于相关的文档。"
 #: field:email.template,reply_to:0
 #: field:email_template.preview,reply_to:0
 msgid "Reply-To"
-msgstr "回复:"
+msgstr "Reply-To"
 
 #. module: email_template
 #: field:email.template,report_name:0
@@ -447,7 +447,7 @@ msgstr "另存为新模版"
 msgid "Select target field from the related document model.\n"
 "If it is a relationship field you will be able to select a target field at the destination of the relationship."
 msgstr "从相关单据模型中选择目标字段。\n"
-"如果这是个关系型字段，你可以选择关系型字段的目标字段。"
+"如果这是个关系型字段，您可以选择关系型字段的目标字段。"
 
 #. module: email_template
 #: code:addons/email_template/email_template.py:318
@@ -597,7 +597,7 @@ msgstr "如果关系型字段被选为第一个字段，这个字段显示这个
 #: help:email.template,attachment_ids:0
 #: help:email_template.preview,attachment_ids:0
 msgid "You may attach files to this template, to be added to all emails created from this template"
-msgstr "你可以对这个模版附加文件，可以附加到所有基于此模版生成的邮件中"
+msgstr "您可以对这个模版附加文件，可以附加到所有基于此模版生成的邮件中"
 
 #. module: email_template
 #: view:ir.actions.server:email_template.view_server_action_form_template

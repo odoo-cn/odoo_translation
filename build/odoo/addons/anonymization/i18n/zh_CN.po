@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:11+0000\n"
-"PO-Revision-Date: 2015-05-04 15:11+0000\n"
+"POT-Creation-Date: 2015-05-17 00:32+0000\n"
+"PO-Revision-Date: 2015-05-17 00:32+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -62,7 +62,7 @@ msgstr "待匿名的值是none，这不可以"
 #: code:addons/anonymization/anonymization.py:300
 #, python-format
 msgid "Before executing the anonymization process, you should make a backup of your database."
-msgstr "在进行匿名化处理前，你需要给你的数据库做一个备份"
+msgstr "在进行匿名化处理前，您需要给您的数据库做一个备份"
 
 #. module: anonymization
 #: code:addons/anonymization/anonymization.py:444
@@ -82,7 +82,7 @@ msgstr "无隐藏"
 #: field:ir.model.fields.anonymization.migration.fix,create_uid:0
 #: field:ir.model.fields.anonymize.wizard,create_uid:0
 msgid "Created by"
-msgstr "创建人"
+msgstr "创建者"
 
 #. module: anonymization
 #: field:ir.model.fields.anonymization,create_date:0
@@ -90,7 +90,7 @@ msgstr "创建人"
 #: field:ir.model.fields.anonymization.migration.fix,create_date:0
 #: field:ir.model.fields.anonymize.wizard,create_date:0
 msgid "Created on"
-msgstr "Created on"
+msgstr "创建于"
 
 #. module: anonymization
 #: view:ir.model.fields.anonymize.wizard:anonymization.view_ir_model_fields_anonymize_wizard_form
@@ -167,7 +167,7 @@ msgstr "文件路径"
 #: field:ir.model.fields.anonymization.migration.fix,id:0
 #: field:ir.model.fields.anonymize.wizard,id:0
 msgid "ID"
-msgstr "ID"
+msgstr "标识"
 
 #. module: anonymization
 #: field:ir.model.fields.anonymize.wizard,file_import:0
@@ -186,7 +186,7 @@ msgstr "在没有提供匿名化导出文件前，不可能反转匿名化的进
 #: field:ir.model.fields.anonymization.migration.fix,write_uid:0
 #: field:ir.model.fields.anonymize.wizard,write_uid:0
 msgid "Last Updated by"
-msgstr "最后更新者"
+msgstr "最后更新"
 
 #. module: anonymization
 #: field:ir.model.fields.anonymization,write_date:0
@@ -194,7 +194,7 @@ msgstr "最后更新者"
 #: field:ir.model.fields.anonymization.migration.fix,write_date:0
 #: field:ir.model.fields.anonymize.wizard,write_date:0
 msgid "Last Updated on"
-msgstr "最后一次更新于"
+msgstr "最后更新"
 
 #. module: anonymization
 #: view:ir.model.fields.anonymization.history:anonymization.view_ir_model_fields_anonymization_history_form
@@ -242,7 +242,7 @@ msgstr "解除数据库隐藏"
 #. module: anonymization
 #: field:ir.model.fields.anonymization.migration.fix,sequence:0
 msgid "Sequence"
-msgstr "编号"
+msgstr "序列"
 
 #. module: anonymization
 #: selection:ir.model.fields.anonymization.history,state:0
@@ -258,7 +258,7 @@ msgstr "状态"
 #. module: anonymization
 #: field:ir.model.fields.anonymize.wizard,summary:0
 msgid "Summary"
-msgstr "概要"
+msgstr "摘要"
 
 #. module: anonymization
 #: field:ir.model.fields.anonymization.migration.fix,target_version:0
@@ -269,26 +269,26 @@ msgstr "目标版本"
 #: code:addons/anonymization/anonymization.py:91
 #, python-format
 msgid "The database anonymization is currently in an unstable state. Some fields are anonymized, while some fields are not anonymized. You should try to solve this problem before trying to create, write or delete fields."
-msgstr "此数据库匿名化处于不稳定状态，有些字段已经匿名，有些没有。你在尝试进行创建、写入或者删除这些字段前，要解决这个问题。"
+msgstr "此数据库匿名化处于不稳定状态，有些字段已经匿名，有些没有。您在尝试进行创建、写入或者删除这些字段前，要解决这个问题。"
 
 #. module: anonymization
 #: code:addons/anonymization/anonymization.py:358
 #, python-format
 msgid "The database anonymization is currently in an unstable state. Some fields are anonymized, while some fields are not anonymized. You should try to solve this problem before trying to do anything else."
-msgstr "此数据库匿名化处于不稳定状态，有些字段已经匿名，有些没有。你在尝试进行其它任何操作前字段前，要解决这个问题。"
+msgstr "此数据库匿名化处于不稳定状态，有些字段已经匿名，有些没有。您在尝试进行其它任何操作前字段前，要解决这个问题。"
 
 #. module: anonymization
 #: code:addons/anonymization/anonymization.py:391
 #: code:addons/anonymization/anonymization.py:526
 #, python-format
 msgid "The database anonymization is currently in an unstable state. Some fields are anonymized, while some fields are not anonymized. You should try to solve this problem before trying to do anything."
-msgstr "数据库匿名化当时在不稳定的状态。 有些字段匿名了，有些没有。你在做任何操作前要解决这个问题。"
+msgstr "数据库匿名化当时在不稳定的状态。 有些字段匿名了，有些没有。您在做任何操作前要解决这个问题。"
 
 #. module: anonymization
 #: code:addons/anonymization/anonymization.py:389
 #, python-format
 msgid "The database is currently anonymized, you cannot anonymize it again."
-msgstr "此数据库已经匿名化，你不能再次使其匿名。"
+msgstr "此数据库已经匿名化，您不能再次使其匿名。"
 
 #. module: anonymization
 #: help:ir.model.fields.anonymize.wizard,file_import:0
@@ -330,5 +330,5 @@ msgstr "sql"
 #. module: anonymization
 #: field:ir.model.fields.anonymization,state:0
 msgid "unknown"
-msgstr "状态"
+msgstr "未知的"
 

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:09+0000\n"
-"PO-Revision-Date: 2015-05-04 15:09+0000\n"
+"POT-Creation-Date: 2015-05-17 00:30+0000\n"
+"PO-Revision-Date: 2015-05-17 00:30+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,10 +34,10 @@ msgstr "单击增加一个个人便签。\n"
 "          \n"
 "            使用便签来组织个人的任务或者是事项。所有的便器都是私有的。\n"
 "            没有其他人看到它们。\n"
-"           然后，你能通过在便签上邀请关注者来分享你的一些便签\n"
-"           (对于会议记录非常有用，特别是当你激活了便签簿的 合作书写模式)。\n"
+"           然后，您能通过在便签上邀请关注者来分享您的一些便签\n"
+"           (对于会议记录非常有用，特别是当您激活了便签簿的 合作书写模式)。\n"
 "          \n"
-"           通过增加、删除或者修改列，你可以个性化你对便签和任务的处理。\n"
+"           通过增加、删除或者修改列，您可以个性化您对便签和任务的处理。\n"
 "        "
 
 #. module: note
@@ -171,7 +171,7 @@ msgstr "新建"
 #: view:note.note:note.view_note_note_filter
 #: view:note.note:note.view_note_note_form
 msgid "Note"
-msgstr "备注"
+msgstr "便签"
 
 #. module: note
 #: field:note.note,memo:0
@@ -200,7 +200,7 @@ msgstr "便签标签"
 #: view:note.note:note.view_note_note_filter
 #: model:note.stage,name:note.note_stage_04
 msgid "Notes"
-msgstr "备注"
+msgstr "便签"
 
 #. module: note
 #: model:res.groups,name:note.group_note_fancy

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:32+0000\n"
-"PO-Revision-Date: 2015-05-04 15:32+0000\n"
+"POT-Creation-Date: 2015-05-17 00:48+0000\n"
+"PO-Revision-Date: 2015-05-17 00:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,11 +39,11 @@ msgid "\n"
 "        <p>Thank you for your participation!</p>\n"
 "        <p>Best regards</p>"
 msgstr "\n"
-"        &nbsp:&nbsp:&nbsp:&nbsp:&nbsp:&nbsp:<p>你好，${object.name},</p>\n"
-"&nbsp:&nbsp:&nbsp:&nbsp:&nbsp:&nbsp:<p>你注册的活动${object.event_id.name} 已经被正式记录了，一旦活动确认\n"
-"你将自动接收电子邮件提供您更多的实用信息(如进度、议程…)。\n"
-"&nbsp:&nbsp:&nbsp:&nbsp:&nbsp:&nbsp:<p>谢谢参与!</p>\n"
-"&nbsp:&nbsp:&nbsp:&nbsp:&nbsp:&nbsp:<p>此致敬礼</p>"
+"        <p>Hello ${object.name},</p>\n"
+"        <p>We confirm that your registration to the event ${object.event_id.name} has been recorded.\n"
+"        You will automatically receive an email providing you more practical information (such as the schedule, the agenda...) as soon as the event is confirmed.</p>\n"
+"        <p>Thank you for your participation!</p>\n"
+"        <p>Best regards</p>"
 
 #. module: event
 #: field:report.event.registration,confirm_state:0
@@ -223,12 +223,12 @@ msgstr "发布到记录上的最后信息的日期"
 #. module: event
 #: field:event.type,default_registration_max:0
 msgid "Default Maximum Registration"
-msgstr "默认最多的注册者"
+msgstr "默认最多的登记"
 
 #. module: event
 #: field:event.type,default_registration_min:0
 msgid "Default Minimum Registration"
-msgstr "默认最小登记数"
+msgstr "默认最小登记"
 
 #. module: event
 #: field:event.type,default_reply_to:0
@@ -261,7 +261,7 @@ msgstr "草稿"
 #. module: event
 #: field:event.registration,email:0
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: event
 #: field:event.event,date_end:0
@@ -307,12 +307,12 @@ msgstr "活动日期"
 #. module: event
 #: view:event.event:event.view_event_form
 msgid "Event Description..."
-msgstr "活动描述..."
+msgstr "活动说明..."
 
 #. module: event
 #: view:event.event:event.view_event_form
 msgid "Event Details"
-msgstr "活动详情"
+msgstr "活动细节"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
@@ -341,7 +341,7 @@ msgstr "活动登记"
 #: code:addons/event/event.py:348
 #, python-format
 msgid "Event Registration confirmed."
-msgstr "Event Registration confirmed."
+msgstr "活动登记已确认"
 
 #. module: event
 #: field:report.event.registration,user_id:0
@@ -369,7 +369,7 @@ msgstr "活动类型"
 #: view:report.event.registration:event.report_event_registration_graph
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Event on Registration"
-msgstr "登记记录的活动"
+msgstr "活动登记"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -398,12 +398,12 @@ msgstr "在新建状态的活动"
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Events which are in New state"
-msgstr "新建状态的活动"
+msgstr "在新建状态的活动"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Events which are in confirm state"
-msgstr "已确认状态的活动"
+msgstr "在已确认状态的活动"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
@@ -431,7 +431,7 @@ msgstr "分组于"
 #. module: event
 #: model:ir.module.category,description:event.module_category_event_management
 msgid "Helps you manage your Events."
-msgstr "帮你管理你的活动"
+msgstr "帮您管理您的活动"
 
 #. module: event
 #: help:event.event,message_summary:0
@@ -462,7 +462,7 @@ msgstr "If event is created, the status is 'Draft'. If event is confirmed for th
 #. module: event
 #: help:event.event,email_confirmation_id:0
 msgid "If you set an email template, each participant will receive this email announcing the confirmation of the event."
-msgstr "如果你设定了邮件模板，每个参与者将收到邮件公告确认次次活动。"
+msgstr "如果您设定了邮件模板，每个参与者将收到邮件公告确认次次活动。"
 
 #. module: event
 #: field:event.event,message_is_follower:0
@@ -473,22 +473,22 @@ msgstr "是一个关注者"
 #. module: event
 #: help:event.type,default_email_event:0
 msgid "It will select this default confirmation event mail value when you choose this event"
-msgstr "当你选择了这个活动，它将选择这个默认确认事件邮件价值"
+msgstr "当您选择了这个活动，它将选择这个默认确认事件邮件价值"
 
 #. module: event
 #: help:event.type,default_email_registration:0
 msgid "It will select this default confirmation registration mail value when you choose this event"
-msgstr "当你选择这个活动，将选择确认登记邮件值"
+msgstr "当您选择这个活动，将选择确认登记邮件值"
 
 #. module: event
 #: help:event.type,default_registration_max:0
 msgid "It will select this default maximum value when you choose this event"
-msgstr "当你选择这个活动，将选择默认最大值"
+msgstr "当您选择这个活动，将选择默认最大值"
 
 #. module: event
 #: help:event.type,default_registration_min:0
 msgid "It will select this default minimum value when you choose this event"
-msgstr "当你选择这个活动，将选择默认最小值"
+msgstr "当您选择这个活动，将选择默认最小值"
 
 #. module: event
 #: field:event.event,message_last_post:0
@@ -671,12 +671,12 @@ msgstr "创建该项注册的销售订单的参考值"
 #. module: event
 #: field:report.event.registration,user_id_registration:0
 msgid "Register"
-msgstr "发起者"
+msgstr "出纳机"
 
 #. module: event
 #: view:event.event:event.view_event_form
 msgid "Register with this event"
-msgstr "注册这次活动"
+msgstr "登记这次活动"
 
 #. module: event
 #: view:event.event:event.view_event_form
@@ -684,7 +684,7 @@ msgstr "注册这次活动"
 #: view:event.registration:event.view_event_registration_graph
 #: view:event.registration:event.view_event_registration_tree
 msgid "Registration"
-msgstr "登记记录"
+msgstr "登记"
 
 #. module: event
 #: field:event.event,email_registration_id:0
@@ -695,22 +695,22 @@ msgstr "登记确认Email"
 #. module: event
 #: field:event.registration,date_open:0
 msgid "Registration Date"
-msgstr "活动日期"
+msgstr "登记日期"
 
 #. module: event
 #: view:event.registration:event.view_registration_search
 msgid "Registration Day"
-msgstr "Registration Day"
+msgstr "登记日"
 
 #. module: event
 #: view:event.registration:event.view_registration_search
 msgid "Registration Month"
-msgstr "Registration Month"
+msgstr "登记月"
 
 #. module: event
 #: field:report.event.registration,registration_state:0
 msgid "Registration State"
-msgstr "等级状态"
+msgstr "登记状态"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
@@ -724,22 +724,22 @@ msgstr "登记联系人"
 #: model:ir.actions.act_window,name:event.action_registration
 #: model:ir.ui.menu,name:event.menu_action_registration
 msgid "Registrations"
-msgstr "登记记录"
+msgstr "登记"
 
 #. module: event
 #: view:report.event.registration:event.view_report_event_registration_search
 msgid "Registrations in confirmed or done state"
-msgstr "在已确认或已完成状态的报名者"
+msgstr "在已确认或已完成状态的登记"
 
 #. module: event
 #: view:event.registration:event.view_registration_search
 msgid "Registrations in unconfirmed state"
-msgstr "未确认状态的报名者"
+msgstr "未确认状态的登记"
 
 #. module: event
 #: field:event.event,reply_to:0
 msgid "Reply-To Email"
-msgstr "回复Email"
+msgstr "Reply-To Email"
 
 #. module: event
 #: field:event.event,seats_reserved:0
@@ -755,7 +755,7 @@ msgstr "负责人"
 #. module: event
 #: field:event.event,user_id:0
 msgid "Responsible User"
-msgstr "负责人"
+msgstr "责任用户"
 
 #. module: event
 #: view:event.registration:event.view_event_registration_form
@@ -795,7 +795,7 @@ msgstr "开始日期"
 #. module: event
 #: view:event.event:event.view_event_search
 msgid "Start Month"
-msgstr "Start Month"
+msgstr "开始月份"
 
 #. module: event
 #: view:event.event:event.view_event_search
@@ -825,12 +825,12 @@ msgstr "摘要"
 #. module: event
 #: help:event.event,reply_to:0
 msgid "The email address of the organizer is likely to be put here, with the effect to be in the 'Reply-To' of the mails sent automatically at event or registrations confirmation. You can also put the email address of your mail gateway if you use one."
-msgstr "在这里添写组织者的邮件地址,当活动或注册确认时，它会自动出现在在邮件的‘回复给’一栏里。如果你电子邮件地址使用的不是默认网关的话，则需要添写邮件网关。"
+msgstr "在这里添写组织者的邮件地址,当活动或注册确认时，它会自动出现在在邮件的‘回复给’一栏里。如果您电子邮件地址使用的不是默认网关的话，则需要添写邮件网关。"
 
 #. module: event
 #: help:event.type,default_reply_to:0
 msgid "The email address of the organizer which is put in the 'Reply-To' of all emails sent automatically at event or registrations confirmation. You can also put your email address of your mail gateway if you use one."
-msgstr "在自动发送的活动或者登记确认的email中，组织者的email地址放在'Reply-To' 。你也能放你用的邮件网关的Email地址"
+msgstr "在自动发送的活动或者登记确认的email中，组织者的email地址放在'Reply-To' 。您也能放您用的邮件网关的Email地址"
 
 #. module: event
 #: help:event.event,seats_max:0
@@ -891,7 +891,7 @@ msgstr "即将"
 #. module: event
 #: view:event.event:event.view_event_search
 msgid "Upcoming events from today"
-msgstr "今天将开始的活动"
+msgstr "今天即将开始的活动"
 
 #. module: event
 #: field:event.registration,user_id:0
@@ -902,30 +902,30 @@ msgstr "用户"
 #. module: event
 #: view:event.confirm:event.view_event_confirm
 msgid "Warning: This Event has not reached its Minimum Registration Limit. Are you sure you want to confirm it?"
-msgstr "警告：这活动没有达到最低登记记录的规定，你肯定要确认它？"
+msgstr "警告：这活动没有达到最低登记记录的规定，您肯定要确认它？"
 
 #. module: event
 #: help:event.event,seats_min:0
 msgid "You can for each event define a minimum registration level. If you do not enough registrations you are not able to confirm your event. (put 0 to ignore this rule )"
-msgstr "你能为每个活动定义一个最小的注册量。如果没有足够的注册量，你不能确认此项活动（使用0将忽略此规则）"
+msgstr "您能为每个活动定义一个最小的注册量。如果没有足够的注册量，您不能确认此项活动（使用0将忽略此规则）"
 
 #. module: event
 #: code:addons/event/event.py:229
 #, python-format
 msgid "You have already set a registration for this event as 'Attended'. Please reset it to draft if you want to cancel this event."
-msgstr "鉴于你已经注册该事件为“参加”。如果你想取消这次活动。请首先将其状态改为草稿。"
+msgstr "鉴于您已经注册该事件为“参加”。如果您想取消这次活动。请首先将其状态改为草稿。"
 
 #. module: event
 #: code:addons/event/event.py:364
 #, python-format
 msgid "You must wait for the starting day of the event to do this action."
-msgstr "你必须等待活动开始才能做这些动作"
+msgstr "您必须等待活动开始才能做这些动作"
 
 #. module: event
 #: model:email.template,subject:event.confirmation_event
 #: model:email.template,subject:event.confirmation_registration
 msgid "Your registration at ${object.event_id.name}"
-msgstr "你的登记在${object.event_id.name}"
+msgstr "您的登记在${object.event_id.name}"
 
 #. module: event
 #: view:event.event:event.view_event_kanban

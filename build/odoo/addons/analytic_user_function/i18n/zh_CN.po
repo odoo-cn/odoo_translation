@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:11+0000\n"
-"PO-Revision-Date: 2015-05-04 15:11+0000\n"
+"POT-Creation-Date: 2015-05-17 00:31+0000\n"
+"PO-Revision-Date: 2015-05-17 00:31+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -118,7 +118,7 @@ msgstr "产品 \"%s\" (id:%d)未定义费用科目"
 #. module: analytic_user_function
 #: model:ir.model,name:analytic_user_function.model_hr_analytic_timesheet
 msgid "Timesheet Line"
-msgstr "计工单明细"
+msgstr "工时单明细"
 
 #. module: analytic_user_function
 #: field:analytic.user.funct.grid,uom_id:0

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:32+0000\n"
-"PO-Revision-Date: 2015-05-04 15:32+0000\n"
+"POT-Creation-Date: 2015-05-17 00:48+0000\n"
+"PO-Revision-Date: 2015-05-17 00:48+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -27,7 +27,7 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "               单击添加 客户合同 联系人。\n"
 "              </p><p>\n"
-"                为了跟踪开票进程，你将在这里找到跟客户项目相关的合同.\n"
+"                为了跟踪开票进程，您将在这里找到跟客户项目相关的合同.\n"
 "              </p>\n"
 "            "
 
@@ -35,7 +35,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #: code:addons/project_timesheet/project_timesheet.py:56
 #, python-format
 msgid "<p class=\"oe_view_nocontent_create\">Record your timesheets for the project '%s'.</p>"
-msgstr "<p class=\"oe_view_nocontent_create\">记录你为项目所做的计工单 '%s'.</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">记录您为项目所做的工时单 '%s'.</p>"
 
 #. module: project_timesheet
 #: model:ir.actions.act_window,help:project_timesheet.action_project_timesheet_bill_task
@@ -45,8 +45,8 @@ msgid "<p>\n"
 "              </p>\n"
 "            "
 msgstr "<p>\n"
-"                你可以在这里找到为了合同而产生的计工单和采购，并可以由此重开发票给客人。\n"
-"                如果你要记录新的任务到发票，你必须使用计工单菜单替代。\n"
+"                您可以在这里找到为了合同而产生的计工单和采购，并可以由此重开发票给客人。\n"
+"                如果您要记录新的任务到发票，您必须使用工时单菜单替代。\n"
 "              </p>\n"
 "            "
 
@@ -54,7 +54,7 @@ msgstr "<p>\n"
 #: code:addons/project_timesheet/project_timesheet.py:59
 #, python-format
 msgid "<p>Timesheets on this project may be invoiced to %s, according to the terms defined in the contract.</p>"
-msgstr "<p>根据合同的条款，项目的计工单可开票给 %s </p>"
+msgstr "<p>根据合同的条款，项目的工时单可开票给 %s </p>"
 
 #. module: project_timesheet
 #: view:account.analytic.line:project_timesheet.view_account_analytic_line_form_inherit_account_id
@@ -89,7 +89,7 @@ msgstr "8月"
 #: code:addons/project_timesheet/project_timesheet.py:97
 #, python-format
 msgid "Bad Configuration!"
-msgstr "Bad Configuration!"
+msgstr "错误的配置!"
 
 #. module: project_timesheet
 #: view:project.project:project_timesheet.project_invoice_search
@@ -220,7 +220,7 @@ msgstr "业务伙伴"
 #: code:addons/project_timesheet/project_timesheet.py:83
 #, python-format
 msgid "Please define employee for user \"%s\". You must create one."
-msgstr "请为用户 \"%s\"定义员工。你必须创建一个。"
+msgstr "请为用户 \"%s\"定义员工。您必须创建一个。"
 
 #. module: project_timesheet
 #: code:addons/project_timesheet/project_timesheet.py:91
@@ -291,19 +291,19 @@ msgstr "每月的任务工时"
 #. module: project_timesheet
 #: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
 msgid "Tasks by User"
-msgstr "按用户打印任务"
+msgstr "任务按用户"
 
 #. module: project_timesheet
 #: field:report.timesheet.task.user,timesheet_hrs:0
 msgid "Timesheet Hours"
-msgstr "计工单工时"
+msgstr "工时单工时"
 
 #. module: project_timesheet
 #: code:addons/project_timesheet/project_timesheet.py:67
 #: view:project.project:project_timesheet.project_invoice_form
 #, python-format
 msgid "Timesheets"
-msgstr "计工单"
+msgstr "工时单"
 
 #. module: project_timesheet
 #: view:report.timesheet.task.user:project_timesheet.view_report_timesheet_task_user_search
@@ -321,11 +321,11 @@ msgstr "年"
 #: code:addons/project_timesheet/project_timesheet.py:297
 #, python-format
 msgid "You cannot delete a partner which is assigned to project, but you can uncheck the active box."
-msgstr "你不能删除被指派给项目的业务伙伴，但你能不选中“可用”。"
+msgstr "您不能删除被指派给项目的业务伙伴，但您能不选中“可用”。"
 
 #. module: project_timesheet
 #: code:addons/project_timesheet/project_timesheet.py:324
 #, python-format
 msgid "You cannot select a Analytic Account which is in Close or Cancelled state."
-msgstr "你不能选择关闭或者取消状态的分析账户"
+msgstr "您不能选择关闭或者取消状态的分析账户"
 

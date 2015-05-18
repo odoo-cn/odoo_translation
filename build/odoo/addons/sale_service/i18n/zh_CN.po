@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:41+0000\n"
-"PO-Revision-Date: 2015-05-04 15:41+0000\n"
+"POT-Creation-Date: 2015-05-17 00:56+0000\n"
+"PO-Revision-Date: 2015-05-17 00:56+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "关闭"
 #. module: sale_service
 #: field:product.template,auto_create_task:0
 msgid "Create Task Automatically"
-msgstr "Create Task Automatically"
+msgstr "自动创建任务"
 
 #. module: sale_service
 #: view:project.task:sale_service.view_sale_service_inherit_form2

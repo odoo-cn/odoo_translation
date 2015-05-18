@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 16:07+0000\n"
-"PO-Revision-Date: 2015-05-04 16:07+0000\n"
+"POT-Creation-Date: 2015-05-17 01:14+0000\n"
+"PO-Revision-Date: 2015-05-17 01:14+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -23,7 +23,7 @@ msgstr "Available in the website"
 #. module: website_hr
 #: model:ir.model,name:website_hr.model_hr_employee
 msgid "Employee"
-msgstr "雇员"
+msgstr "员工"
 
 #. module: website_hr
 #: view:website:website.aboutus
@@ -33,7 +33,7 @@ msgstr "Our Team"
 #. module: website_hr
 #: field:hr.employee,public_info:0
 msgid "Public Info"
-msgstr "Public Info"
+msgstr "公开信息"
 
 #. module: website_hr
 #: model:ir.actions.act_url,name:website_hr.action_open_website

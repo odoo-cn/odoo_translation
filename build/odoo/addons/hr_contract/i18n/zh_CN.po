@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:39+0000\n"
-"PO-Revision-Date: 2015-05-04 15:39+0000\n"
+"POT-Creation-Date: 2015-05-17 00:54+0000\n"
+"PO-Revision-Date: 2015-05-17 00:54+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -53,7 +53,7 @@ msgstr "合同"
 #: view:hr.contract:hr_contract.hr_contract_view_form
 #: field:hr.contract,name:0
 msgid "Contract Reference"
-msgstr "合同编码"
+msgstr "合同参考"
 
 #. module: hr_contract
 #: view:hr.contract:hr_contract.hr_contract_view_search
@@ -111,7 +111,7 @@ msgstr "持续时间"
 #: field:hr.contract,employee_id:0
 #: model:ir.model,name:hr_contract.model_hr_employee
 msgid "Employee"
-msgstr "雇员"
+msgstr "员工"
 
 #. module: hr_contract
 #: field:hr.contract,date_end:0
@@ -195,7 +195,7 @@ msgstr "体检日期"
 #: view:hr.contract:hr_contract.hr_contract_view_form
 #: field:hr.contract,notes:0
 msgid "Notes"
-msgstr "备注"
+msgstr "便签"
 
 #. module: hr_contract
 #: field:hr.employee,children:0

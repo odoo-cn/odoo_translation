@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:16+0000\n"
-"PO-Revision-Date: 2015-05-04 15:16+0000\n"
+"POT-Creation-Date: 2015-05-17 00:34+0000\n"
+"PO-Revision-Date: 2015-05-17 00:34+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -48,16 +48,16 @@ msgstr "\n"
 "                        ${object.name},\n"
 "                    </p>\n"
 "                    <p>\n"
-"                        您被邀请链接到 \"${object.company_id.name}\"为了获取您在 Odoo的文件.\n"
+"                        You have been invited to connect to \"${object.company_id.name}\" in order to get access to your documents in Odoo.\n"
 "                    </p>\n"
 "                    <p>\n"
-"                        接收邀请, 点击下面的链接:\n"
+"                        To accept the invitation, click on the following link:\n"
 "                    </p>\n"
 "                    <ul>\n"
 "                        <li><a href=\"${object.signup_url}\">Accept invitation to \"${object.company_id.name}\"</a></li>\n"
 "                    </ul>\n"
 "                    <p>\n"
-"                        谢谢,\n"
+"                        Thanks,\n"
 "                    </p>\n"
 "                    <pre>\n"
 "--\n"
@@ -86,12 +86,12 @@ msgstr "\n"
 #. module: auth_signup
 #: model:email.template,subject:auth_signup.set_password_email
 msgid "${object.company_id.name} invitation to connect on Odoo"
-msgstr "${object.company_id.name} 邀请链接到Odoo"
+msgstr "${object.company_id.name} invitation to connect on Odoo"
 
 #. module: auth_signup
 #: view:res.users:auth_signup.res_users_form_view
 msgid "A password reset has been requested for this user. An email containing the following link has been sent:"
-msgstr "当前用户密码重置的请求已提交，一封包含重置密码链接的邮件已被发送"
+msgstr "当前用户密码重置的请求已提交，一封包含重置密码链接的邮件已送出"
 
 #. module: auth_signup
 #: selection:res.users,state:0
@@ -107,12 +107,12 @@ msgstr "允许外部用户注册"
 #: code:addons/auth_signup/controllers/main.py:78
 #, python-format
 msgid "An email has been sent with credentials to reset your password"
-msgstr "一封包含验证证书以重置您的密码的电子邮件已经发送"
+msgstr "重置密码的电子邮件已经发出"
 
 #. module: auth_signup
 #: view:res.users:auth_signup.res_users_form_view
 msgid "An invitation email containing the following subscription link has been sent:"
-msgstr "含有下列订阅链接邀请邮件已被发送："
+msgstr "含有下列订阅链接邀请邮件已送出："
 
 #. module: auth_signup
 #: code:addons/auth_signup/controllers/main.py:125
@@ -141,7 +141,7 @@ msgstr "确认密码"
 #: code:addons/auth_signup/controllers/main.py:80
 #, python-format
 msgid "Could not reset your password"
-msgstr "无法重置您的密码"
+msgstr "不能重置您的密码"
 
 #. module: auth_signup
 #: field:base.config.settings,auth_signup_reset_password:0

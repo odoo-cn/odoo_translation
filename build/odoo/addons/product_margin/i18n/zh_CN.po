@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:29+0000\n"
-"PO-Revision-Date: 2015-05-04 15:29+0000\n"
+"POT-Creation-Date: 2015-05-17 00:45+0000\n"
+"PO-Revision-Date: 2015-05-17 00:45+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -38,7 +38,7 @@ msgstr "分析准则"
 #. module: product_margin
 #: help:product.product,sale_avg_price:0
 msgid "Avg. Price in Customer Invoices."
-msgstr "客户发票中的平均价格"
+msgstr "客户发票平均价格"
 
 #. module: product_margin
 #: help:product.product,purchase_avg_price:0
@@ -75,7 +75,7 @@ msgstr "创建于"
 #: selection:product.margin,invoice_state:0
 #: selection:product.product,invoice_state:0
 msgid "Draft, Open and Paid"
-msgstr "草稿、待处理和支付"
+msgstr "草稿、开放和已付"
 
 #. module: product_margin
 #: field:product.product,expected_margin:0
@@ -204,12 +204,12 @@ msgstr "产品利润"
 #. module: product_margin
 #: view:product.margin:product_margin.product_margin_form_view
 msgid "Properties categories"
-msgstr "属性分类"
+msgstr "属性类别"
 
 #. module: product_margin
 #: field:product.product,purchase_gap:0
 msgid "Purchase Gap"
-msgstr "采购差额"
+msgstr "采购差距"
 
 #. module: product_margin
 #: view:product.product:product_margin.view_product_margin_form

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 16:07+0000\n"
-"PO-Revision-Date: 2015-05-04 16:07+0000\n"
+"POT-Creation-Date: 2015-05-17 01:14+0000\n"
+"PO-Revision-Date: 2015-05-17 01:14+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,17 +18,17 @@ msgstr ""
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "All Countries"
-msgstr "所有国家"
+msgstr "全部国家"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "All Departments"
-msgstr "All Departments"
+msgstr "所有部门"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "All Offices"
-msgstr "All Offices"
+msgstr "所有办公室"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.detail
@@ -38,7 +38,7 @@ msgstr "应用"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Apply Job"
-msgstr "Apply Job"
+msgstr "申请工作"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
@@ -120,7 +120,7 @@ msgstr "Published"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Resume"
-msgstr "重新开始"
+msgstr "继续"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
@@ -135,7 +135,7 @@ msgstr "Submit"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.thankyou
 msgid "Thank you!"
-msgstr "Thank you!"
+msgstr "谢谢您！"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:00+0000\n"
-"PO-Revision-Date: 2015-05-04 15:00+0000\n"
+"POT-Creation-Date: 2015-05-17 00:23+0000\n"
+"PO-Revision-Date: 2015-05-17 00:23+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -19,7 +19,7 @@ msgstr ""
 #: field:product.product,rules_count:0
 #: field:product.template,rules_count:0
 msgid "# Analytic Rules"
-msgstr "# Analytic Rules"
+msgstr "# 分析规则"
 
 #. module: account_analytic_default
 #: view:account.analytic.default:account_analytic_default.view_account_analytic_default_form_search

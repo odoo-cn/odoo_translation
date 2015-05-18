@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:23+0000\n"
-"PO-Revision-Date: 2015-05-04 15:23+0000\n"
+"POT-Creation-Date: 2015-05-17 00:41+0000\n"
+"PO-Revision-Date: 2015-05-17 00:41+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -749,12 +749,12 @@ msgstr "${object.event_id.name}"
 #. module: calendar
 #: model:email.template,subject:calendar.calendar_template_meeting_changedate
 msgid "${object.event_id.name} - Date has been updated"
-msgstr "${object.event_id.name} - 被更新的日期"
+msgstr "${object.event_id.name} - Date has been updated"
 
 #. module: calendar
 #: model:email.template,subject:calendar.calendar_template_meeting_reminder
 msgid "${object.event_id.name} - Reminder"
-msgstr "${object.event_id.name} - 提醒"
+msgstr "${object.event_id.name} - Reminder"
 
 #. module: calendar
 #: model:ir.actions.act_window,help:calendar.action_calendar_event
@@ -782,13 +782,13 @@ msgstr "A email has been send to specify that the date has been changed !"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "Accept"
-msgstr "同意"
+msgstr "接受"
 
 #. module: calendar
 #: selection:calendar.attendee,state:0
 #: selection:calendar.event,attendee_status:0
 msgid "Accepted"
-msgstr "已接受"
+msgstr "已同意"
 
 #. module: calendar
 #: field:calendar.event,active:0
@@ -892,14 +892,14 @@ msgstr "日历"
 #: model:ir.actions.act_window,name:calendar.action_calendar_alarm
 #: model:ir.ui.menu,name:calendar.menu_calendar_alarm
 msgid "Calendar Alarm"
-msgstr "Calendar Alarm"
+msgstr "日历警报"
 
 #. module: calendar
 #. openerp-web
 #: code:addons/calendar/static/src/xml/base_calendar.xml:42
 #, python-format
 msgid "Calendar Invitation"
-msgstr "Calendar Invitation"
+msgstr "日历邀请"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
@@ -954,7 +954,7 @@ msgstr "日期"
 #: field:calendar.event,day:0
 #: selection:calendar.event,month_by:0
 msgid "Date of month"
-msgstr "每月的指定日期"
+msgstr "每月日期"
 
 #. module: calendar
 #: help:calendar.event,message_last_post:0
@@ -964,12 +964,12 @@ msgstr "发布到记录上的最后信息的日期"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "Day of Month"
-msgstr "月内日期"
+msgstr "月份的天"
 
 #. module: calendar
 #: selection:calendar.event,month_by:0
 msgid "Day of month"
-msgstr "日期"
+msgstr "月份的天"
 
 #. module: calendar
 #: selection:calendar.event,rrule_type:0
@@ -979,7 +979,7 @@ msgstr "天"
 #. module: calendar
 #: selection:calendar.alarm,interval:0
 msgid "Days"
-msgstr "日"
+msgstr "天"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
@@ -1021,23 +1021,23 @@ msgstr "持续时间"
 #: selection:calendar.alarm,type:0
 #: field:calendar.attendee,email:0
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: calendar
 #: code:addons/calendar/calendar.py:1399
 #, python-format
 msgid "Email addresses not found"
-msgstr "电子邮件地址未找到"
+msgstr "Email地址未找到"
 
 #. module: calendar
 #: help:calendar.attendee,email:0
 msgid "Email of Invited Person"
-msgstr "被邀请者邮件"
+msgstr "被邀请者的Email"
 
 #. module: calendar
 #: field:calendar.contacts,partner_id:0
 msgid "Employee"
-msgstr "雇员"
+msgstr "员工"
 
 #. module: calendar
 #: field:calendar.event,stop_date:0
@@ -1057,12 +1057,12 @@ msgstr "结束日期"
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
 msgid "Ending at"
-msgstr "Ending at"
+msgstr "结束于"
 
 #. module: calendar
 #: constraint:calendar.event:0
 msgid "Error ! End date cannot be set before start date."
-msgstr "错误！结束日期不能配置为早于开始日期。"
+msgstr "错误！结束日期不能设置为早于开始日期。"
 
 #. module: calendar
 #: code:addons/calendar/calendar.py:1278
@@ -1078,7 +1078,7 @@ msgstr "活动"
 #. module: calendar
 #: field:calendar.event,display_time:0
 msgid "Event Time"
-msgstr "事件时间"
+msgstr "活动时间"
 
 #. module: calendar
 #: model:ir.model,name:calendar.model_calendar_alarm
@@ -1188,7 +1188,7 @@ msgstr "查看是否有需要留意的新信息。"
 #. module: calendar
 #: help:calendar.event,active:0
 msgid "If the active field is set to true, it will allow you to hide the event alarm information without removing it."
-msgstr "如果有效字段设为True，它将允许你隐藏提醒信息而不需要删除事件"
+msgstr "如果有效字段设为True，它将允许您隐藏提醒信息而不需要删除事件"
 
 #. module: calendar
 #: model:calendar.event.type,name:calendar.categ_meet2
@@ -1415,7 +1415,7 @@ msgstr "OK"
 #. module: calendar
 #: model:calendar.event.type,name:calendar.categ_meet3
 msgid "Off-site Meeting"
-msgstr "离席会议"
+msgstr "外出会议"
 
 #. module: calendar
 #: model:calendar.event.type,name:calendar.categ_meet4
@@ -1462,32 +1462,32 @@ msgstr "公开"
 #. module: calendar
 #: selection:calendar.event,class:0
 msgid "Public for Employees"
-msgstr "全员可见"
+msgstr "公开给员工"
 
 #. module: calendar
 #: field:calendar.event,end_type:0
 msgid "Recurrence Termination"
-msgstr "重复终止"
+msgstr "定期终止"
 
 #. module: calendar
 #: field:calendar.event,rrule_type:0
 msgid "Recurrency"
-msgstr "循环"
+msgstr "定期"
 
 #. module: calendar
 #: field:calendar.event,recurrency:0
 msgid "Recurrent"
-msgstr "循环"
+msgstr "定期"
 
 #. module: calendar
 #: field:calendar.event,recurrent_id:0
 msgid "Recurrent ID"
-msgstr "循环ID"
+msgstr "定期ID"
 
 #. module: calendar
 #: field:calendar.event,recurrent_id_date:0
 msgid "Recurrent ID date"
-msgstr "循环日期"
+msgstr "定期ID日期"
 
 #. module: calendar
 #: help:calendar.event,recurrency:0
@@ -1497,7 +1497,7 @@ msgstr "定期会议"
 #. module: calendar
 #: field:calendar.event,rrule:0
 msgid "Recurrent Rule"
-msgstr "重复规则"
+msgstr "定期规则"
 
 #. module: calendar
 #: field:calendar.event,alarm_ids:0
@@ -1509,7 +1509,7 @@ msgstr "Reminders"
 #: code:addons/calendar/static/src/xml/base_calendar.xml:80
 #, python-format
 msgid "Remove this favorite from the list"
-msgstr "Remove this favorite from the list"
+msgstr "从列表移除这个收藏"
 
 #. module: calendar
 #: field:calendar.event,count:0
@@ -1592,7 +1592,7 @@ msgstr "开始日期"
 #. module: calendar
 #: field:calendar.event,start_datetime:0
 msgid "Start DateTime"
-msgstr "Start DateTime"
+msgstr "开始日期时间"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_form
@@ -1697,7 +1697,7 @@ msgstr "未确认"
 #. module: calendar
 #: field:calendar.alarm,interval:0
 msgid "Unit"
-msgstr "单件"
+msgstr "单元"
 
 #. module: calendar
 #: view:calendar.event:calendar.view_calendar_event_search
@@ -1785,7 +1785,7 @@ msgstr "Yes I'm going."
 #: code:addons/calendar/calendar.py:105
 #, python-format
 msgid "You cannot duplicate a calendar attendee."
-msgstr "你不能复制日程参与者"
+msgstr "您不能复制日程参与者"
 
 #. module: calendar
 #: field:calendar.contacts,active:0

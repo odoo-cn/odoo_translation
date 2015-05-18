@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:25+0000\n"
-"PO-Revision-Date: 2015-05-04 15:25+0000\n"
+"POT-Creation-Date: 2015-05-17 00:43+0000\n"
+"PO-Revision-Date: 2015-05-17 00:43+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,17 +18,17 @@ msgstr ""
 #. module: crm_claim
 #: field:res.partner,claim_count:0
 msgid "# Claims"
-msgstr "# Claims"
+msgstr "# 索赔"
 
 #. module: crm_claim
 #: field:crm.claim.report,email:0
 msgid "# Emails"
-msgstr "# 电子邮件"
+msgstr "# Emails"
 
 #. module: crm_claim
 #: field:crm.claim.report,nbr:0
 msgid "# of Claims"
-msgstr "# of Claims"
+msgstr "# 议题"
 
 #. module: crm_claim
 #: code:addons/crm_claim/crm_claim.py:167
@@ -107,7 +107,7 @@ msgstr "有效"
 #. module: crm_claim
 #: model:ir.model,name:crm_claim.model_crm_claim_report
 msgid "CRM Claim Report"
-msgstr "客户关系管理索赔报告"
+msgstr "CRM索赔报告"
 
 #. module: crm_claim
 #: model:ir.ui.menu,name:crm_claim.menu_crm_case_claim-act
@@ -241,7 +241,7 @@ msgstr "纠正"
 #: selection:crm.claim,type_action:0
 #: selection:crm.claim.report,type_action:0
 msgid "Corrective Action"
-msgstr "纠正的动作"
+msgstr "纠正动作"
 
 #. module: crm_claim
 #: field:crm.claim.report,create_date:0
@@ -284,7 +284,7 @@ msgstr "日期"
 #: field:crm.claim,date_deadline:0
 #: field:crm.claim.report,date_deadline:0
 msgid "Deadline"
-msgstr "截止日期"
+msgstr "截止"
 
 #. module: crm_claim
 #: field:crm.claim.report,delay_close:0
@@ -304,7 +304,7 @@ msgstr "目的邮件地址"
 #. module: crm_claim
 #: field:crm.claim,email_from:0
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: crm_claim
 #: view:crm.claim.report:crm_claim.view_report_crm_claim_filter
@@ -363,7 +363,7 @@ msgstr "查看是否有需要留意的新信息。"
 #. module: crm_claim
 #: help:crm.claim.stage,case_default:0
 msgid "If you check this field, this stage will be proposed by default on each sales team. It will not assign this stage to existing teams."
-msgstr "如果你勾选了这里，这个阶段会作为每个销售团队的默认阶段。对已有的销售团队无效。"
+msgstr "如果您勾选了这里，这个阶段会作为每个销售团队的默认阶段。对已有的销售团队无效。"
 
 #. module: crm_claim
 #: model:crm.claim.stage,name:crm_claim.stage_claim5
@@ -519,17 +519,17 @@ msgstr "已拒绝"
 #. module: crm_claim
 #: field:crm.claim,resolution:0
 msgid "Resolution"
-msgstr "解决方案"
+msgstr "决议"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
 msgid "Resolution Actions"
-msgstr "决定采取的行动"
+msgstr "决议行动"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.crm_case_claims_form_view
 msgid "Responsibilities"
-msgstr "责任人"
+msgstr "职责"
 
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
@@ -540,7 +540,7 @@ msgstr "负责人"
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 msgid "Responsible User"
-msgstr "负责人"
+msgstr "责任用户"
 
 #. module: crm_claim
 #: help:crm.claim,section_id:0
@@ -640,7 +640,7 @@ msgstr "类型"
 #. module: crm_claim
 #: view:crm.claim:crm_claim.view_crm_case_claims_filter
 msgid "Unassigned Claims"
-msgstr "未指派的抱怨"
+msgstr "未指派的索赔"
 
 #. module: crm_claim
 #: field:crm.claim,message_unread:0
@@ -680,7 +680,7 @@ msgstr "网站消息"
 #. module: crm_claim
 #: help:crm.claim,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: crm_claim
 #: model:ir.filters,name:crm_claim.filter_report_crm_claim_workload

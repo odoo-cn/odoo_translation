@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:28+0000\n"
-"PO-Revision-Date: 2015-05-04 15:28+0000\n"
+"POT-Creation-Date: 2015-05-17 00:44+0000\n"
+"PO-Revision-Date: 2015-05-17 00:44+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: product_expiry
 #: field:stock.production.lot,alert_date:0
 msgid "Alert Date"
-msgstr "警告日期"
+msgstr "警示日期"
 
 #. module: product_expiry
 #: field:stock.production.lot,use_date:0
@@ -34,7 +34,7 @@ msgstr "日期"
 #. module: product_expiry
 #: field:stock.production.lot,life_date:0
 msgid "End of Life Date"
-msgstr "生命结束日期"
+msgstr "生命终止日期"
 
 #. module: product_expiry
 #: model:ir.model,name:product_expiry.model_stock_production_lot

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:01+0000\n"
-"PO-Revision-Date: 2015-05-04 15:01+0000\n"
+"POT-Creation-Date: 2015-05-17 00:24+0000\n"
+"PO-Revision-Date: 2015-05-17 00:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,7 +18,7 @@ msgstr ""
 #. module: account_asset
 #: field:account.asset.asset,entry_count:0
 msgid "# Asset Entries"
-msgstr "# Asset Entries"
+msgstr "# 资产条目"
 
 #. module: account_asset
 #: field:asset.asset.report,nbr:0
@@ -41,7 +41,7 @@ msgstr "<p>\n"
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_search
 msgid "Account Asset"
-msgstr "资产科目"
+msgstr "资产"
 
 #. module: account_asset
 #: field:account.asset.asset,active:0
@@ -107,7 +107,7 @@ msgstr "资产类别"
 #. module: account_asset
 #: view:asset.modify:account_asset.asset_modify_form
 msgid "Asset Durations to Modify"
-msgstr "要修改的资产持续时间"
+msgstr "待修改的资产持续时间"
 
 #. module: account_asset
 #: model:ir.actions.act_window,name:account_asset.action_account_asset_asset_tree
@@ -171,7 +171,7 @@ msgstr "资产分析"
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_search
 msgid "Assets in closed state"
-msgstr "处于结束状态的资产"
+msgstr "处于关闭状态的资产"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_search
@@ -181,7 +181,7 @@ msgstr "处于草稿或打开状态的资产"
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
 msgid "Assets in draft state"
-msgstr "处于草稿状态的分录"
+msgstr "处于草稿状态的资产"
 
 #. module: account_asset
 #: view:asset.asset.report:account_asset.view_asset_asset_report_search
@@ -202,7 +202,7 @@ msgstr "变更周期"
 #. module: account_asset
 #: help:account.asset.category,open_asset:0
 msgid "Check this if you want to automatically confirm the assets of this category when created by invoices."
-msgstr "如果你像让这类固定资产在开发票之后自动确认为“运行”状态，勾选这里。"
+msgstr "如果您像让这类固定资产在开发票之后自动确认为“运行”状态，勾选这里。"
 
 #. module: account_asset
 #: field:account.asset.asset,child_ids:0
@@ -284,13 +284,13 @@ msgstr "确认资产"
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
 msgid "Create Move"
-msgstr "新建会计凭证"
+msgstr "创建会计凭证"
 
 #. module: account_asset
 #: code:addons/account_asset/wizard/wizard_asset_compute.py:49
 #, python-format
 msgid "Created Asset Moves"
-msgstr "新建资产凭证"
+msgstr "创建的资产凭证"
 
 #. module: account_asset
 #: field:account.asset.asset,create_uid:0
@@ -404,7 +404,7 @@ msgstr "折旧月份"
 #. module: account_asset
 #: field:account.asset.depreciation.line,name:0
 msgid "Depreciation Name"
-msgstr "折旧说明"
+msgstr "折旧名称"
 
 #. module: account_asset
 #: selection:account.asset.asset,state:0
@@ -438,7 +438,7 @@ msgstr "分录"
 #. module: account_asset
 #: constraint:account.asset.asset:0
 msgid "Error ! You cannot create recursive assets."
-msgstr "错误！你不能创建循环的资产."
+msgstr "错误！您不能创建循环的资产."
 
 #. module: account_asset
 #: code:addons/account_asset/account_asset.py:81
@@ -579,7 +579,7 @@ msgstr "下一个期间的折旧"
 #: field:account.asset.category,note:0
 #: field:account.asset.history,note:0
 msgid "Note"
-msgstr "备注"
+msgstr "便签"
 
 #. module: account_asset
 #: view:account.asset.asset:account_asset.view_account_asset_asset_form
@@ -588,7 +588,7 @@ msgstr "备注"
 #: view:asset.modify:account_asset.asset_modify_form
 #: field:asset.modify,note:0
 msgid "Notes"
-msgstr "备注"
+msgstr "便签"
 
 #. module: account_asset
 #: field:account.asset.asset,method_number:0
@@ -609,7 +609,7 @@ msgstr "在一个周期内的月数"
 #. module: account_asset
 #: field:account.asset.asset,parent_id:0
 msgid "Parent Asset"
-msgstr "上级资产"
+msgstr "父级资产"
 
 #. module: account_asset
 #: field:account.asset.asset,partner_id:0

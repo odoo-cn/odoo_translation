@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:06+0000\n"
-"PO-Revision-Date: 2015-05-04 15:06+0000\n"
+"POT-Creation-Date: 2015-05-17 00:27+0000\n"
+"PO-Revision-Date: 2015-05-17 00:27+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,22 +33,22 @@ msgstr "# 等待中"
 #. module: membership
 #: help:res.partner,associate_member:0
 msgid "A member with whom you want to associate your membership.It will consider the membership state of the associated member."
-msgstr "你将作为哪个客户的附属会员。你的会员资格会随着主会员的状态变化。"
+msgstr "您将作为哪个客户的附属会员。您的会员资格会随着主会员的状态变化。"
 
 #. module: membership
 #: field:membership.membership_line,account_invoice_line:0
 msgid "Account Invoice line"
-msgstr "帐户发票明细"
+msgstr "发票明细"
 
 #. module: membership
 #: view:product.template:membership.membership_products_form
 msgid "Add a description..."
-msgstr "Add a description..."
+msgstr "添加描述..."
 
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
 msgid "All Members"
-msgstr "全部会员"
+msgstr "所有会员"
 
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
@@ -75,7 +75,7 @@ msgstr "相关联的业务伙伴"
 #. module: membership
 #: view:res.partner:membership.view_partner_form
 msgid "Buy Membership"
-msgstr "购买会员资格"
+msgstr "购买会员"
 
 #. module: membership
 #: view:membership.invoice:membership.view_membership_invoice_view
@@ -179,7 +179,7 @@ msgstr "会员资格到哪一天结束"
 #. module: membership
 #: field:report.membership,tot_earned:0
 msgid "Earned Amount"
-msgstr "已实现收入"
+msgstr "收入总额"
 
 #. module: membership
 #: field:report.membership,date_to:0
@@ -189,7 +189,7 @@ msgstr "结束日期"
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
 msgid "End Membership Date"
-msgstr "会员资格结束日期"
+msgstr "终止会员日期"
 
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
@@ -199,22 +199,22 @@ msgstr "结束月份"
 #. module: membership
 #: help:report.membership,date_to:0
 msgid "End membership date"
-msgstr "会员资格结束日期"
+msgstr "终止会员日期"
 
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
 msgid "Ending Month Of Membership"
-msgstr "Ending Month Of Membership"
+msgstr "会员的终止月份"
 
 #. module: membership
 #: sql_constraint:product.template:0
 msgid "Error ! Ending Date cannot be set before Beginning Date."
-msgstr "错误！失效日期不能早于开始日期"
+msgstr "错误！终止日期不能设置早于启动日期"
 
 #. module: membership
 #: constraint:res.partner:0
 msgid "Error ! You cannot create recursive associated members."
-msgstr "错误！您不能创建循环引用的会员用户"
+msgstr "错误！您不能创建循环的关联会员"
 
 #. module: membership
 #: code:addons/membership/membership.py:402
@@ -226,7 +226,7 @@ msgstr "Error!"
 #. module: membership
 #: constraint:membership.membership_line:0
 msgid "Error, this membership product is out of date"
-msgstr "错误，这个会员产品已过期"
+msgstr "错误，这个会员产品已超期"
 
 #. module: membership
 #: view:report.membership:membership.view_report_membership_search
@@ -526,7 +526,7 @@ msgstr "业务伙伴为免费会员。"
 #. module: membership
 #: field:report.membership,tot_pending:0
 msgid "Pending Amount"
-msgstr "未决总额"
+msgstr "待定总额"
 
 #. module: membership
 #: model:ir.model,name:membership.model_product_template
@@ -541,7 +541,7 @@ msgstr "数量"
 #. module: membership
 #: view:report.membership:membership.view_report_membership_search
 msgid "Revenue Done"
-msgstr "已实现收入"
+msgstr "已完成收入"
 
 #. module: membership
 #: view:report.membership:membership.view_report_membership_search
@@ -563,7 +563,7 @@ msgstr "开始日期"
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter
 msgid "Start Month"
-msgstr "Start Month"
+msgstr "开始月份"
 
 #. module: membership
 #: view:res.partner:membership.view_res_partner_member_filter

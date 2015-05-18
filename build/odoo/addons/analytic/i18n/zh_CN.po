@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:10+0000\n"
-"PO-Revision-Date: 2015-05-04 15:10+0000\n"
+"POT-Creation-Date: 2015-05-17 00:30+0000\n"
+"PO-Revision-Date: 2015-05-17 00:30+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -113,7 +113,7 @@ msgstr "合同信息"
 #. module: analytic
 #: model:mail.message.subtype,name:analytic.mt_account_opened
 msgid "Contract Opened"
-msgstr "进行中的合同"
+msgstr "开放的合同"
 
 #. module: analytic
 #: model:mail.message.subtype,description:analytic.mt_account_closed
@@ -123,7 +123,7 @@ msgstr "关闭的合同"
 #. module: analytic
 #: model:mail.message.subtype,description:analytic.mt_account_opened
 msgid "Contract opened"
-msgstr "合同已开启"
+msgstr "开放的合同"
 
 #. module: analytic
 #: selection:account.analytic.account,type:0
@@ -133,12 +133,12 @@ msgstr "合同或项目"
 #. module: analytic
 #: model:mail.message.subtype,description:analytic.mt_account_pending
 msgid "Contract pending"
-msgstr "合同待定中"
+msgstr "待定的合同"
 
 #. module: analytic
 #: model:mail.message.subtype,name:analytic.mt_account_pending
 msgid "Contract to Renew"
-msgstr "需续签的合同"
+msgstr "待续签的合同"
 
 #. module: analytic
 #: code:addons/analytic/analytic.py:238
@@ -212,7 +212,7 @@ msgstr "Error!"
 #. module: analytic
 #: constraint:account.analytic.account:0
 msgid "Error! You cannot create recursive analytic accounts."
-msgstr "错误！你不能创建循环分析账户"
+msgstr "错误！您不能创建循环分析账户"
 
 #. module: analytic
 #: field:account.analytic.account,date:0
@@ -319,7 +319,7 @@ msgstr "当合同结束日期已过，或已达到最大服务次数（如支持
 #. module: analytic
 #: field:account.analytic.account,parent_id:0
 msgid "Parent Analytic Account"
-msgstr "上级分析账户"
+msgstr "父级分析账户"
 
 #. module: analytic
 #: field:account.analytic.account,quantity_max:0
@@ -423,5 +423,5 @@ msgstr "Warning"
 #. module: analytic
 #: constraint:account.analytic.line:0
 msgid "You cannot create analytic line on view account."
-msgstr "你不能在视图类型的科目上创建分析明细"
+msgstr "您不能在视图类型的科目上创建分析明细"
 

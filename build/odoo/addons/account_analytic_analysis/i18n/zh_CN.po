@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 14:59+0000\n"
-"PO-Revision-Date: 2015-05-04 14:59+0000\n"
+"POT-Creation-Date: 2015-05-17 00:22+0000\n"
+"PO-Revision-Date: 2015-05-17 00:22+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -234,7 +234,7 @@ msgid "<p>\n"
 "              </p>\n"
 "            "
 msgstr "<p>\n"
-"                此处显示可以根据合同向顾客发单的时间计划及采购项目。若想记录创建新的发单活动，你应该使用时间计划菜单。\n"
+"                此处显示可以根据合同向顾客发单的时间计划及采购项目。若想记录创建新的发单活动，您应该使用时间计划菜单。\n"
 "              </p>\n"
 "            "
 
@@ -251,7 +251,7 @@ msgstr "客户经理"
 #. module: account_analytic_analysis
 #: help:sale.config.settings,group_template_required:0
 msgid "Allows you to set the template field as required when creating an analytic account or a contract."
-msgstr "创建成本管理分析或合同时，允许按照需要配置模板域。"
+msgstr "允许在创建分析账户或合同时，按照需要设置模板字段。"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.invoice.line,analytic_account_id:0
@@ -335,7 +335,7 @@ msgstr "合同模版"
 #. module: account_analytic_analysis
 #: model:email.template,subject:account_analytic_analysis.account_analytic_cron_email_template
 msgid "Contract expiration reminder ${user.company_id.name}"
-msgstr "Contract expiration reminder ${user.company_id.name}"
+msgstr "合同到期提醒 ${user.company_id.name}"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -357,7 +357,7 @@ msgstr "Contracts in progress (open, draft)"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 msgid "Contracts not assigned"
-msgstr "合同没指定"
+msgstr "没指派的合同"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -388,12 +388,12 @@ msgstr "客户合同"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,last_worked_date:0
 msgid "Date of Last Cost/Work"
-msgstr "最近日期的工作成本"
+msgstr "最近费用/工作的日期"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,last_worked_invoiced_date:0
 msgid "Date of Last Invoiced Cost"
-msgstr "最近的已发票日期"
+msgstr "最近已开票费用的日期"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,recurring_next_date:0
@@ -459,7 +459,7 @@ msgstr "过期或消耗"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 msgid "Expiring soon"
-msgstr "Expiring soon"
+msgstr "即将过期"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,fix_price_invoices:0
@@ -496,7 +496,7 @@ msgstr "标识"
 #. module: account_analytic_analysis
 #: help:account.analytic.account,ca_to_invoice:0
 msgid "If invoice from analytic account, the remaining amount you can invoice to the customer based on the total costs."
-msgstr "如果是分析账户的发票, 剩余总额你能给客户开基于总成本的发票"
+msgstr "如果是分析账户的发票, 剩余总额您能给客户开基于总成本的发票"
 
 #. module: account_analytic_analysis
 #: help:account.analytic.account,last_invoice_date:0
@@ -608,12 +608,12 @@ msgstr "可以开发票的工时 加上 已经开发票的工时"
 #. module: account_analytic_analysis
 #: help:account.analytic.account,hours_quantity:0
 msgid "Number of time you spent on the analytic account (from timesheet). It computes quantities on all journal of type 'general'."
-msgstr "你在这个成本科目上花费的时间总数（数据来自计工单）。仅计算类型为“普通”的凭证簿。"
+msgstr "您在这个成本科目上花费的时间总数（数据来自工时单）。仅计算类型为“普通”的凭证簿。"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,invoice_on_timesheets:0
 msgid "On Timesheets"
-msgstr "按计工单"
+msgstr "按工时单"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,is_overdue_quantity:0
@@ -623,7 +623,7 @@ msgstr "超期数量"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 msgid "Parent"
-msgstr "上级科目"
+msgstr "父级"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -633,7 +633,7 @@ msgstr "业务伙伴"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 msgid "Pending contracts"
-msgstr "Pending contracts"
+msgstr "待定合同"
 
 #. module: account_analytic_analysis
 #: code:addons/account_analytic_analysis/account_analytic_analysis.py:684
@@ -664,17 +664,17 @@ msgstr "实际利润"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,real_margin_rate:0
 msgid "Real Margin Rate (%)"
-msgstr "实际利润(%)"
+msgstr "实际利润比率(%)"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,recurring_rule_type:0
 msgid "Recurrency"
-msgstr "循环"
+msgstr "定期"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid "Recurring Invoices"
-msgstr "周期性的账单"
+msgstr "周期性发票"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
@@ -684,7 +684,7 @@ msgstr "剩余"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,remaining_ca:0
 msgid "Remaining Revenue"
-msgstr "剩余的收入"
+msgstr "剩余收入"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.account,fix_price_to_invoice:0
@@ -724,7 +724,7 @@ msgstr "销售订单"
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
 msgid "Start Month"
-msgstr "Start Month"
+msgstr "开始月份"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -744,7 +744,7 @@ msgstr "合同的报价单汇总"
 #. module: account_analytic_analysis
 #: help:account.analytic.account,timesheet_ca_invoiced:0
 msgid "Sum of timesheet lines invoiced for this contract."
-msgstr "合同已开票的计工单行的汇总"
+msgstr "合同已开票的工时单行的汇总"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.view_account_analytic_account_overdue_search
@@ -765,12 +765,12 @@ msgstr "理论收益"
 #: model:ir.actions.act_window,name:account_analytic_analysis.action_hr_tree_invoiced_all
 #: model:ir.ui.menu,name:account_analytic_analysis.menu_action_hr_tree_invoiced_all
 msgid "Time & Materials to Invoice"
-msgstr "待开票的工时和材料"
+msgstr "待开票的时间和材料"
 
 #. module: account_analytic_analysis
 #: view:account.analytic.account:account_analytic_analysis.account_analytic_account_form_form
 msgid "Timesheets"
-msgstr "计工单"
+msgstr "工时单"
 
 #. module: account_analytic_analysis
 #: code:addons/account_analytic_analysis/account_analytic_analysis.py:659
@@ -847,7 +847,7 @@ msgstr "未开票总额"
 #. module: account_analytic_analysis
 #: field:account.analytic.account,hours_qtt_non_invoiced:0
 msgid "Uninvoiced Time"
-msgstr "未开票的工时"
+msgstr "未开票的时间"
 
 #. module: account_analytic_analysis
 #: field:account.analytic.invoice.line,price_unit:0

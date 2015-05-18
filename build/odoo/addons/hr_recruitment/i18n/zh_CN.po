@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:43+0000\n"
-"PO-Revision-Date: 2015-05-04 15:43+0000\n"
+"POT-Creation-Date: 2015-05-17 00:57+0000\n"
+"PO-Revision-Date: 2015-05-17 00:57+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -251,7 +251,7 @@ msgstr "别名域"
 #. module: hr_recruitment
 #: field:hr.config.settings,module_document:0
 msgid "Allow the automatic indexation of resumes"
-msgstr "Allow the automatic indexation of resumes"
+msgstr "允许简历的自动索引"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
@@ -327,7 +327,7 @@ msgstr "Application refused"
 #: model:ir.actions.act_window,name:hr_recruitment.crm_case_categ0_act_job
 #: model:ir.ui.menu,name:hr_recruitment.menu_crm_case_categ0_act_job
 msgid "Applications"
-msgstr "求职申请"
+msgstr "申请"
 
 #. module: hr_recruitment
 #: field:hr.applicant,job_id:0
@@ -339,7 +339,7 @@ msgstr "申请的职位"
 #: field:hr.applicant,priority:0
 #: field:hr.recruitment.report,priority:0
 msgid "Appreciation"
-msgstr "考评"
+msgstr "评价"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
@@ -366,7 +366,7 @@ msgstr "平均"
 #. module: hr_recruitment
 #: field:hr.recruitment.report,delay_close:0
 msgid "Avg. Delay to Close"
-msgstr "平均耗用天数"
+msgstr "待关闭的平均延迟"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,salary_exp_avg:0
@@ -381,7 +381,7 @@ msgstr "Avg. Proposed Salary"
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_bachelor
 msgid "Bachelor Degree"
-msgstr "本科"
+msgstr "本科学历"
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0
@@ -392,7 +392,7 @@ msgstr "错误"
 #. module: hr_recruitment
 #: model:survey.page,title:hr_recruitment.recruitment_1
 msgid "Basic information"
-msgstr "Basic information"
+msgstr "基本信息"
 
 #. module: hr_recruitment
 #: selection:hr.applicant,priority:0
@@ -433,12 +433,12 @@ msgstr "Category of applicant"
 #. module: hr_recruitment
 #: model:ir.actions.act_window,help:hr_recruitment.hr_recruitment_stage_form_installer
 msgid "Check if the following stages are matching your recruitment process. Don't forget to specify the department if your recruitment process is different according to the job position."
-msgstr "检查以下阶段是否复核你的招聘流程。如果您每个岗位的招聘过程不同，别忘了输入部门"
+msgstr "检查以下阶段是否审查您的招聘流程。如果您每个岗位的招聘过程不同，别忘了输入部门"
 
 #. module: hr_recruitment
 #: help:hr.job,survey_id:0
 msgid "Choose an interview form for this job position and you will be able to print/answer this interview from all applicants who apply for this job"
-msgstr "选择一个此岗位的面试表格，你可以把它打印出来让所有此岗位的应聘者回答这个表格的问题"
+msgstr "选择一个此岗位的面试表格，您可以把它打印出来让所有此岗位的应聘者回答这个表格的问题"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.partner.create,close:0
@@ -495,12 +495,12 @@ msgstr "合同"
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job4
 msgid "Contract Proposed"
-msgstr "合同建议"
+msgstr "提议的合同"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.stage,name:hr_recruitment.stage_job5
 msgid "Contract Signed"
-msgstr "签订合同"
+msgstr "签订的合同"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
@@ -511,7 +511,7 @@ msgstr "转为业务伙伴"
 #: view:hr.recruitment.partner.create:hr_recruitment.view_hr_recruitment_partner_create
 #: model:ir.actions.act_window,name:hr_recruitment.action_hr_recruitment_partner_create
 msgid "Create Contact"
-msgstr "新建联系人"
+msgstr "创建联系人"
 
 #. module: hr_recruitment
 #: field:hr.recruitment.report,date_create:0
@@ -521,12 +521,12 @@ msgstr "创建日期"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Create Employee"
-msgstr "新建员工"
+msgstr "创建员工"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_partner_create
 msgid "Create Partner from job application"
-msgstr "建立业务伙伴的职位申请"
+msgstr "从工作申请创建业务伙伴"
 
 #. module: hr_recruitment
 #: field:hr.applicant,create_uid:0
@@ -556,7 +556,7 @@ msgstr "创建日期"
 #. module: hr_recruitment
 #: view:hr.recruitment.report:hr_recruitment.view_hr_recruitment_report_search
 msgid "Creation Week"
-msgstr "Creation Week"
+msgstr "创建周"
 
 #. module: hr_recruitment
 #: help:hr.applicant,message_last_post:0
@@ -571,12 +571,12 @@ msgstr "天"
 #. module: hr_recruitment
 #: field:hr.applicant,day_close:0
 msgid "Days to Close"
-msgstr "结束日期"
+msgstr "结束的天数"
 
 #. module: hr_recruitment
 #: field:hr.applicant,day_open:0
 msgid "Days to Open"
-msgstr "开启天数"
+msgstr "开启的天数"
 
 #. module: hr_recruitment
 #: field:hr.config.settings,alias_prefix:0
@@ -650,12 +650,12 @@ msgstr "说明"
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_4
 msgid "Desk space"
-msgstr "Desk space"
+msgstr "桌面空间"
 
 #. module: hr_recruitment
 #: model:hr.recruitment.degree,name:hr_recruitment.degree_bac5
 msgid "Doctoral Degree"
-msgstr "博士"
+msgstr "博士学历"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
@@ -684,22 +684,22 @@ msgstr "编辑..."
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_2_2
 msgid "Education"
-msgstr "Education"
+msgstr "教育"
 
 #. module: hr_recruitment
 #: model:survey.page,title:hr_recruitment.recruitment_2
 msgid "Education and Activities"
-msgstr "Education and Activities"
+msgstr "教育和活动"
 
 #. module: hr_recruitment
 #: field:hr.applicant,email_from:0
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.hr_job_survey
 msgid "Email Alias"
-msgstr "Email Alias"
+msgstr "Email别名"
 
 #. module: hr_recruitment
 #: help:hr.job,alias_id:0
@@ -709,7 +709,7 @@ msgstr "Email alias for this job position. New emails will automatically create 
 #. module: hr_recruitment
 #: field:hr.applicant,emp_id:0
 msgid "Employee"
-msgstr "雇员"
+msgstr "员工"
 
 #. module: hr_recruitment
 #: help:hr.applicant,emp_id:0
@@ -752,12 +752,12 @@ msgstr "扩展的筛选器"
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Extra advantages..."
-msgstr "额外奖金或补贴..."
+msgstr "额外奖金..."
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.crm_case_form_view_job
 msgid "Feedback of interviews..."
-msgstr "Feedback of interviews..."
+msgstr "面谈反馈..."
 
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.recruitment_1_2_2
@@ -1228,17 +1228,17 @@ msgstr "招聘分析"
 #. module: hr_recruitment
 #: view:hr.job:hr_recruitment.view_hr_job_kanban
 msgid "Recruitment Done"
-msgstr "Recruitment Done"
+msgstr "招聘已完成"
 
 #. module: hr_recruitment
 #: model:survey.survey,title:hr_recruitment.recruitment_form
 msgid "Recruitment Form"
-msgstr "Recruitment Form"
+msgstr "招聘表单"
 
 #. module: hr_recruitment
 #: field:hr.job,user_id:0
 msgid "Recruitment Responsible"
-msgstr "Recruitment Responsible"
+msgstr "招聘负责人"
 
 #. module: hr_recruitment
 #: model:ir.model,name:hr_recruitment.model_hr_recruitment_report
@@ -1258,7 +1258,7 @@ msgstr "已拒绝"
 #. module: hr_recruitment
 #: model:survey.label,value:hr_recruitment.rrow_2_1_12
 msgid "Regular meetings"
-msgstr "Regular meetings"
+msgstr "常规会议"
 
 #. module: hr_recruitment
 #: view:hr.recruitment.stage:hr_recruitment.hr_recruitment_stage_form
@@ -1274,7 +1274,7 @@ msgstr "Reserve"
 #. module: hr_recruitment
 #: field:hr.applicant,response_id:0
 msgid "Response"
-msgstr "回复"
+msgstr "回应"
 
 #. module: hr_recruitment
 #: view:hr.applicant:hr_recruitment.view_crm_case_jobs_filter
@@ -1583,7 +1583,7 @@ msgstr "网站消息"
 #. module: hr_recruitment
 #: help:hr.applicant,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: hr_recruitment
 #: model:survey.question,question:hr_recruitment.recruitment_1_3

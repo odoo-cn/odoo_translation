@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:54+0000\n"
-"PO-Revision-Date: 2015-05-04 15:54+0000\n"
+"POT-Creation-Date: 2015-05-17 01:05+0000\n"
+"PO-Revision-Date: 2015-05-17 01:05+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -55,14 +55,14 @@ msgstr "日历视图未定义 'date_start'属性"
 #: code:addons/web_calendar/static/src/js/web_calendar.js:956
 #, python-format
 msgid "Create"
-msgstr "新建"
+msgstr "创建"
 
 #. module: web_calendar
 #. openerp-web
 #: code:addons/web_calendar/static/src/xml/web_fullcalendar.xml:66
 #, python-format
 msgid "Create event"
-msgstr "创建事件"
+msgstr "创建活动"
 
 #. module: web_calendar
 #. openerp-web
@@ -98,14 +98,14 @@ msgstr "删除"
 #: code:addons/web_calendar/static/src/xml/web_fullcalendar.xml:67
 #, python-format
 msgid "Edit Event"
-msgstr "编辑事件"
+msgstr "编辑活动"
 
 #. module: web_calendar
 #. openerp-web
 #: code:addons/web_calendar/static/src/xml/web_fullcalendar.xml:60
 #, python-format
 msgid "Event summary:"
-msgstr "事件摘要："
+msgstr "活动摘要："
 
 #. module: web_calendar
 #. openerp-web

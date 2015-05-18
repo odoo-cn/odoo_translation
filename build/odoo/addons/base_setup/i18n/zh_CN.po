@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:21+0000\n"
-"PO-Revision-Date: 2015-05-04 15:21+0000\n"
+"POT-Creation-Date: 2015-05-17 00:39+0000\n"
+"PO-Revision-Date: 2015-05-17 00:39+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -33,7 +33,7 @@ msgstr "允许分享单据"
 #. module: base_setup
 #: field:base.config.settings,module_google_calendar:0
 msgid "Allow the users to synchronize their calendar  with Google Calendar"
-msgstr "Allow the users to synchronize their calendar  with Google Calendar"
+msgstr "允许用户将他们的日历与Google日历同步"
 
 #. module: base_setup
 #: field:base.config.settings,module_base_import:0
@@ -115,7 +115,7 @@ msgstr "客户"
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
 msgid "Customer Features"
-msgstr "客户特性"
+msgstr "客户功能"
 
 #. module: base_setup
 #: selection:base.setup.terminology,partner:0
@@ -125,7 +125,7 @@ msgstr "捐助者"
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: base_setup
 #: view:sale.config.settings:base_setup.view_sale_config_settings
@@ -152,7 +152,7 @@ msgstr "自动获取LinkedIn联系人"
 #. module: base_setup
 #: help:base.config.settings,module_portal:0
 msgid "Give your customers access to their documents."
-msgstr "让你的客户访问他们的单据"
+msgstr "让您的客户访问他们的单据"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -172,7 +172,7 @@ msgstr "访客"
 #. module: base_setup
 #: field:base.setup.terminology,partner:0
 msgid "How do you call a Customer"
-msgstr "你如何称呼您的客户"
+msgstr "您如何称呼您的客户"
 
 #. module: base_setup
 #: field:base.config.settings,id:0
@@ -231,7 +231,7 @@ msgstr "Odoo allows to automatically create leads (or others documents)\n"
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "Once installed, you can configure your API credentials for \"Google calendar\""
-msgstr "当安装，你能够为谷歌日历配置你的API凭据"
+msgstr "当安装，您能够为谷歌日历配置您的API凭据"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
@@ -261,7 +261,7 @@ msgstr "报价和销售订单"
 #. module: base_setup
 #: field:base.config.settings,font:0
 msgid "Report Font"
-msgstr "Report Font"
+msgstr "报告字体"
 
 #. module: base_setup
 #: field:sale.config.settings,module_sale:0
@@ -330,7 +330,7 @@ msgid "When you send a document to a customer\n"
 "                                    able to signup to get all his documents,\n"
 "                                    read your company news, check his projects,\n"
 "                                    etc."
-msgstr "当你发送单据给客户（报价单，发票），你的可能能登录，获取他单据，阅读你的公司新闻，检查他的项目等。"
+msgstr "当您发送单据给客户（报价单，发票），您的可能能登录，获取他单据，阅读您的公司新闻，检查他的项目等。"
 
 #. module: base_setup
 #: help:base.config.settings,module_multi_company:0
@@ -342,12 +342,12 @@ msgstr "Work in multi-company environments, with appropriate security access bet
 #. module: base_setup
 #: view:base.setup.terminology:base_setup.base_setup_terminology_form
 msgid "You can use this wizard to change the terminologies for customers in the whole application."
-msgstr "你用这个向导能在整个系统中用其他称谓来标识客户"
+msgstr "您用这个向导能在整个系统中用其他称谓来标识客户"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration
 msgid "You will find more options in your company details: address for the header and footer, overdue payments texts, etc."
-msgstr "你能在你的公司明细里找到多个选项：用于页首和页脚的地址，逾期支付文本等"
+msgstr "您能在您的公司明细里找到多个选项：用于页首和页脚的地址，逾期支付文本等"
 
 #. module: base_setup
 #: view:base.config.settings:base_setup.view_general_configuration

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:57+0000\n"
-"PO-Revision-Date: 2015-05-04 15:57+0000\n"
+"POT-Creation-Date: 2015-05-17 01:06+0000\n"
+"PO-Revision-Date: 2015-05-17 01:06+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -34,7 +34,7 @@ msgstr "添加新列"
 #: code:addons/web_kanban/static/src/js/kanban.js:209
 #, python-format
 msgid "Add column"
-msgstr "增加列"
+msgstr "添加列"
 
 #. module: web_kanban
 #. openerp-web
@@ -48,7 +48,7 @@ msgstr "当移动当前记录到这个组时发生错误。 "
 #: code:addons/web_kanban/static/src/js/kanban.js:814
 #, python-format
 msgid "Are you sure to remove this column ?"
-msgstr "您确认要移除此列？"
+msgstr "您确定要移除此列？"
 
 #. module: web_kanban
 #. openerp-web

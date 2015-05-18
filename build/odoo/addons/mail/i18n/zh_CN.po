@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:02+0000\n"
-"PO-Revision-Date: 2015-05-04 15:02+0000\n"
+"POT-Creation-Date: 2015-05-17 00:24+0000\n"
+"PO-Revision-Date: 2015-05-17 00:24+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -44,7 +44,7 @@ msgstr "%s 加入到 %s 网络."
 #: code:addons/mail/static/src/xml/mail.xml:29
 #, python-format
 msgid "&ograve"
-msgstr "&o 严重"
+msgstr "&ograve"
 
 #. module: mail
 #. openerp-web
@@ -57,13 +57,13 @@ msgstr "（没有电子邮件地址）"
 #: code:addons/mail/wizard/invite.py:44
 #, python-format
 msgid "<div><p>Hello,</p><p>%s invited you to follow %s document: %s.<p></div>"
-msgstr "<div><p>你好，</p><p>%s 邀请你关注 %s 文档: %s.<p></div>"
+msgstr "<div><p>您好，</p><p>%s 邀请您关注 %s 文档: %s.<p></div>"
 
 #. module: mail
 #: code:addons/mail/wizard/invite.py:47
 #, python-format
 msgid "<div><p>Hello,</p><p>%s invited you to follow a new document.</p></div>"
-msgstr "<div><p>你好，</p><p>%s 邀请你关注新文档。</p></div>"
+msgstr "<div><p>您好，</p><p>%s 邀请您关注新文档。</p></div>"
 
 #. module: mail
 #: code:addons/mail/mail_thread.py:137
@@ -94,10 +94,10 @@ msgid "<p>\n"
 "                </p>\n"
 "            "
 msgstr "<p>\n"
-"                                 <b>做得不错！</b>你的收件箱是空的.\n"
+"                                 <b>干得不错！</b>您的收件箱是空的.\n"
 "                          </p><p>\n"
-"                                    你的收件箱包含了你的私人消息或者发给你的邮件 ，\n"
-"                                    包括你关注的文档或者个人的信息。\n"
+"                                    您的收件箱包含了您的私人消息或者发送给您的邮件 ，\n"
+"                                    包括您关注的文档或者个人的信息。\n"
 "                          </p>\n"
 "            "
 
@@ -113,7 +113,7 @@ msgstr "<p>\n"
 "               <b>没有私人消息</b>\n"
 "                </p>\n"
 "                <p>\n"
-"                    这个列表包含了发给你的消息.\n"
+"                    这个列表包含了发送给您的消息.\n"
 "                </p>\n"
 "            "
 
@@ -129,8 +129,8 @@ msgid "<p>\n"
 msgstr "<p>\n"
 "                    <b>没有待办事项</b>\n"
 "                </p><p>\n"
-"                    当你处理收件箱里的消息时，你能标记一些消息作为<i>待办事项</i>. \n"
-"                    从这个菜单，你能处理你所有的待办事项。\n"
+"                    当您处理收件箱里的消息时，您能标记一些消息作为<i>待办事项</i>. \n"
+"                    从这个菜单，您能处理您所有的待办事项。\n"
 "                </p>\n"
 "            "
 
@@ -176,7 +176,7 @@ msgstr "Access Denied"
 #. module: mail
 #: model:ir.model,name:mail.model_res_groups
 msgid "Access Groups"
-msgstr "访问用户组"
+msgstr "访问组"
 
 #. module: mail
 #: help:mail.message.subtype,default:0
@@ -196,7 +196,7 @@ msgstr "Active domain"
 #. module: mail
 #: view:mail.wizard.invite:mail.mail_wizard_invite_form
 msgid "Add Followers"
-msgstr "增加关注者"
+msgstr "添加关注者"
 
 #. module: mail
 #. openerp-web
@@ -216,17 +216,17 @@ msgstr "添加一个联系人到通知中  ..."
 #: code:addons/mail/static/src/xml/mail_followers.xml:28
 #, python-format
 msgid "Add others"
-msgstr "加入其它的"
+msgstr "添加其它的"
 
 #. module: mail
 #: field:mail.compose.message,partner_ids:0
 msgid "Additional Contacts"
-msgstr "Additional Contacts"
+msgstr "额外的联系人"
 
 #. module: mail
 #: view:mail.mail:mail.view_mail_form
 msgid "Advanced"
-msgstr "高级"
+msgstr "高级的"
 
 #. module: mail
 #: view:mail.alias:mail.view_mail_alias_form
@@ -259,7 +259,7 @@ msgstr "别名名称"
 #. module: mail
 #: field:mail.alias,alias_domain:0
 msgid "Alias domain"
-msgstr "Alias domain"
+msgstr "别名域"
 
 #. module: mail
 #: field:mail.alias,alias_model_id:0
@@ -275,7 +275,7 @@ msgstr "别名"
 #. module: mail
 #: selection:res.partner,notify_email:0
 msgid "All Messages"
-msgstr "All Messages"
+msgstr "所有消息"
 
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
@@ -356,7 +356,7 @@ msgstr "Author's Avatar"
 #. module: mail
 #: field:mail.group,group_public_id:0
 msgid "Authorized Group"
-msgstr "Authorized Group"
+msgstr "验证的群组"
 
 #. module: mail
 #: field:mail.mail,auto_delete:0
@@ -366,12 +366,12 @@ msgstr "自动删除"
 #. module: mail
 #: field:mail.group,group_ids:0
 msgid "Auto Subscription"
-msgstr "Auto Subscription"
+msgstr "自动订阅"
 
 #. module: mail
 #: view:mail.message.subtype:mail.view_mail_message_subtype_form
 msgid "Auto subscription"
-msgstr "Auto subscription"
+msgstr "自动订阅"
 
 #. module: mail
 #: help:mail.compose.message,body:0
@@ -536,7 +536,7 @@ msgstr "默认值"
 #: code:addons/mail/static/src/xml/mail.xml:110
 #, python-format
 msgid "Delete this attachment"
-msgstr "删除这个附件"
+msgstr "删除此附件"
 
 #. module: mail
 #: selection:mail.mail,state:0
@@ -558,12 +558,12 @@ msgstr "Description that will be added in the message posted for this subtype. I
 #. module: mail
 #: model:ir.actions.client,name:mail.action_mail_group_feeds
 msgid "Discussion Group"
-msgstr "讨论群组"
+msgstr "讨论组"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_group
 msgid "Discussion group"
-msgstr "讨论群组"
+msgstr "讨论组"
 
 #. module: mail
 #: model:mail.message.subtype,name:mail.mt_comment
@@ -573,7 +573,7 @@ msgstr "讨论"
 #. module: mail
 #: field:res.users,display_groups_suggestions:0
 msgid "Display Groups Suggestions"
-msgstr "Display Groups Suggestions"
+msgstr "显示分组建议"
 
 #. module: mail
 #. openerp-web
@@ -599,41 +599,41 @@ msgstr "完成"
 #: code:addons/mail/static/src/js/mail_followers.js:100
 #, python-format
 msgid "Edit Subscription of "
-msgstr "Edit Subscription of "
+msgstr "编辑订阅 "
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail_followers.xml:40
 #, python-format
 msgid "Edit subscription"
-msgstr "Edit subscription"
+msgstr "编辑订阅"
 
 #. module: mail
 #: selection:mail.compose.message,type:0
 #: view:mail.mail:mail.view_mail_search
 #: selection:mail.message,type:0
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: mail
 #: view:mail.group:mail.view_group_form
 msgid "Email Alias"
-msgstr "Email Alias"
+msgstr "Email别名"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_alias
 msgid "Email Aliases"
-msgstr "Email 别名"
+msgstr "Email别名"
 
 #. module: mail
 #: view:mail.mail:mail.view_mail_search
 msgid "Email Search"
-msgstr "电子邮件搜索"
+msgstr "Email 搜索"
 
 #. module: mail
 #: model:ir.model,name:mail.model_mail_thread
 msgid "Email Thread"
-msgstr "Email Thread"
+msgstr "Email 线程"
 
 #. module: mail
 #: help:res.users,alias_id:0
@@ -659,20 +659,20 @@ msgstr "Email撰写向导"
 #. module: mail
 #: view:mail.compose.message:mail.email_compose_message_wizard_form
 msgid "Email mass mailing"
-msgstr "Email mass mailing"
+msgstr "Email邮件群发"
 
 #. module: mail
 #: view:mail.mail:mail.view_mail_form
 #: view:mail.message.subtype:mail.view_mail_message_subtype_form
 msgid "Email message"
-msgstr "邮件内容"
+msgstr "Email消息"
 
 #. module: mail
 #: model:ir.actions.act_window,name:mail.action_view_mail_mail
 #: model:ir.ui.menu,name:mail.menu_mail_mail
 #: view:mail.mail:mail.view_mail_tree
 msgid "Emails"
-msgstr "电子邮件"
+msgstr "Emails"
 
 #. module: mail
 #: code:addons/mail/update.py:91
@@ -689,7 +689,7 @@ msgstr "Error during communication with the publisher warranty server."
 #. module: mail
 #: sql_constraint:mail.followers:0
 msgid "Error, a partner cannot follow twice the same object."
-msgstr "Error, a partner cannot follow twice the same object."
+msgstr "错误，一个业务伙伴不能对一个对象关注两次。"
 
 #. module: mail
 #: selection:mail.alias,alias_contact:0
@@ -714,7 +714,7 @@ msgstr "使用自动注册相关文档时用来关联模型和子模型的域。
 #. module: mail
 #: field:ir.attachment,file_type_icon:0
 msgid "File Type Icon"
-msgstr "File Type Icon"
+msgstr "文件类型图标"
 
 #. module: mail
 #. openerp-web
@@ -1334,18 +1334,18 @@ msgstr "所有者"
 #. module: mail
 #: field:mail.message.subtype,parent_id:0
 msgid "Parent"
-msgstr "上级科目"
+msgstr "父级"
 
 #. module: mail
 #: field:mail.compose.message,parent_id:0
 #: field:mail.message,parent_id:0
 msgid "Parent Message"
-msgstr "Parent Message"
+msgstr "父级消息"
 
 #. module: mail
 #: field:mail.alias,alias_parent_model_id:0
 msgid "Parent Model"
-msgstr "上级模型"
+msgstr "父级模型"
 
 #. module: mail
 #: field:mail.alias,alias_parent_thread_id:0
@@ -1375,7 +1375,7 @@ msgstr "业务伙伴"
 #: code:addons/mail/res_partner.py:51
 #, python-format
 msgid "Partner Profile"
-msgstr "Partner Profile"
+msgstr "业务伙伴特征"
 
 #. module: mail
 #: help:mail.compose.message,notified_partner_ids:0
@@ -1460,12 +1460,12 @@ msgstr "Re:"
 #. module: mail
 #: field:mail.notification,is_read:0
 msgid "Read"
-msgstr "Read"
+msgstr "读"
 
 #. module: mail
 #: field:res.partner,notify_email:0
 msgid "Receive Inbox Notifications by Email"
-msgstr "Receive Inbox Notifications by Email"
+msgstr "通过Email接收收件箱通知"
 
 #. module: mail
 #: view:mail.mail:mail.view_mail_search
@@ -1483,7 +1483,7 @@ msgstr "收件人"
 #. module: mail
 #: field:mail.alias,alias_force_thread_id:0
 msgid "Record Thread ID"
-msgstr "Record Thread ID"
+msgstr "记录线索ID"
 
 #. module: mail
 #: field:mail.mail,references:0
@@ -1496,7 +1496,7 @@ msgstr "参考"
 #: field:mail.message,res_id:0
 #: field:mail.wizard.invite,res_id:0
 msgid "Related Document ID"
-msgstr "Related Document ID"
+msgstr "相关单据ID"
 
 #. module: mail
 #: field:mail.compose.message,model:0
@@ -1504,7 +1504,7 @@ msgstr "Related Document ID"
 #: field:mail.message,model:0
 #: field:mail.wizard.invite,res_model:0
 msgid "Related Document Model"
-msgstr "相关的文档模型"
+msgstr "相关单据模型"
 
 #. module: mail
 #: field:mail.group,menu_id:0
@@ -1519,14 +1519,14 @@ msgstr "相关的业务伙伴"
 #. module: mail
 #: field:mail.message.subtype,relation_field:0
 msgid "Relation field"
-msgstr "Relation field"
+msgstr "关系字段"
 
 #. module: mail
 #. openerp-web
 #: code:addons/mail/static/src/xml/mail_followers.xml:41
 #, python-format
 msgid "Remove this follower"
-msgstr "Remove this follower"
+msgstr "移除此关注者"
 
 #. module: mail
 #. openerp-web
@@ -1546,7 +1546,7 @@ msgstr "Reply email address. Setting the reply_to bypasses the automatic thread 
 #: field:mail.compose.message,reply_to:0
 #: field:mail.message,reply_to:0
 msgid "Reply-To"
-msgstr "回复:"
+msgstr "Reply-To"
 
 #. module: mail
 #: view:mail.mail:mail.view_mail_form
@@ -1621,7 +1621,7 @@ msgstr "发送信息到该组"
 #: view:mail.mail:mail.view_mail_search
 #: selection:mail.mail,state:0
 msgid "Sent"
-msgstr "已发送"
+msgstr "送出"
 
 #. module: mail
 #: code:addons/mail/mail_followers.py:158
@@ -1725,7 +1725,7 @@ msgstr "摘要"
 #: selection:mail.compose.message,type:0
 #: selection:mail.message,type:0
 msgid "System notification"
-msgstr "System notification"
+msgstr "系统通知"
 
 #. module: mail
 #: help:mail.compose.message,notification_ids:0
@@ -1851,7 +1851,7 @@ msgstr "Unable to send email, please configure the sender's email address or ali
 #: view:mail.group:mail.view_group_kanban
 #, python-format
 msgid "Unfollow"
-msgstr "取消关注"
+msgstr "不关注"
 
 #. module: mail
 #: sql_constraint:mail.alias:0
@@ -2096,7 +2096,7 @@ msgstr "其它..."
 #: code:addons/mail/static/src/xml/mail.xml:273
 #, python-format
 msgid "read less"
-msgstr "read less"
+msgstr "阅读更少"
 
 #. module: mail
 #. openerp-web
@@ -2162,5 +2162,5 @@ msgstr "上传中"
 #: code:addons/mail/mail_mail.py:162
 #, python-format
 msgid "your messages"
-msgstr "你的消息"
+msgstr "您的消息"
 

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:30+0000\n"
-"PO-Revision-Date: 2015-05-04 15:30+0000\n"
+"POT-Creation-Date: 2015-05-17 00:46+0000\n"
+"PO-Revision-Date: 2015-05-17 00:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -106,12 +106,12 @@ msgstr "8月"
 msgid "Check this field if you want that the name of the file to contain the record name.\n"
 "If set, the directory will have to be a resource one."
 msgstr "如果需要文件名包含记录的名称值，勾这个勾\n"
-"要让这个选项生效，你的目录必须是对应的对象"
+"要让这个选项生效，您的目录必须是对应的对象"
 
 #. module: document
 #: help:document.directory,ressource_tree:0
 msgid "Check this if you want to use the same tree structure as the object selected in the system."
-msgstr "如果你想在系统中对选择的对象使用树结构, 请选择这"
+msgstr "如果您想在系统中对选择的对象使用树结构, 请选择这"
 
 #. module: document
 #: field:document.directory,child_ids:0
@@ -177,7 +177,7 @@ msgstr "创建者"
 #: field:document.directory,create_date:0
 #: field:report.document.user,create_date:0
 msgid "Date Created"
-msgstr "创建时间"
+msgstr "创建日期"
 
 #. module: document
 #: field:document.directory,write_date:0
@@ -237,7 +237,7 @@ msgstr "目录内容"
 #. module: document
 #: model:ir.model,name:document.model_document_directory_content_type
 msgid "Directory Content Type"
-msgstr "目录里内容的类型"
+msgstr "目录里内容类型"
 
 #. module: document
 #: model:ir.model,name:document.model_document_directory_dctx
@@ -253,7 +253,7 @@ msgstr "目录类型"
 #. module: document
 #: sql_constraint:document.directory:0
 msgid "Directory cannot be parent of itself!"
-msgstr "目录不能设为自己的父目录。"
+msgstr "目录不能设为自己的父级目录。"
 
 #. module: document
 #: code:addons/document/document.py:353
@@ -291,7 +291,7 @@ msgstr "文档"
 #. module: document
 #: field:document.directory,domain:0
 msgid "Domain"
-msgstr "筛选条件"
+msgstr "Domain"
 
 #. module: document
 #: view:document.directory:document.view_document_directory_form
@@ -307,12 +307,12 @@ msgstr "每个目录都可以是静态的或者链接到其它资源。静态的
 #: code:addons/document/document.py:579
 #, python-format
 msgid "Error at doc write!"
-msgstr "写入文档时发生错误！"
+msgstr "文档写入时错误！"
 
 #. module: document
 #: constraint:document.directory:0
 msgid "Error! You cannot create recursive directories."
-msgstr "错误！你不能创建循环目录。"
+msgstr "错误！您不能创建循环目录。"
 
 #. module: document
 #: field:document.directory.dctx,expr:0
@@ -360,7 +360,7 @@ msgstr "文件大小"
 #: view:report.document.file:document.view_size_month
 #: view:report.document.file:document.view_size_month_tree
 msgid "File Size by Month"
-msgstr "月度文件大小"
+msgstr "文件大小，按月份"
 
 #. module: document
 #: field:document.directory,file_ids:0
@@ -374,23 +374,23 @@ msgstr "文件"
 #: view:report.document.user:document.view_files_by_month_graph
 #: view:report.document.user:document.view_files_by_month_tree
 msgid "Files by Month"
-msgstr "月度文件"
+msgstr "文件，按月份"
 
 #. module: document
 #: model:ir.actions.act_window,name:document.action_view_files_by_user_graph
 #: view:report.document.user:document.view_files_by_user_graph
 msgid "Files by User"
-msgstr "用户文件"
+msgstr "文件，按用户"
 
 #. module: document
 #: model:ir.model,name:document.model_report_document_file
 msgid "Files details by Directory"
-msgstr "文件详细目录"
+msgstr "文件细节，按目录"
 
 #. module: document
 #: model:ir.model,name:document.model_report_document_user
 msgid "Files details by Users"
-msgstr "用户的文件详情"
+msgstr "文件细节，按用户"
 
 #. module: document
 #: view:ir.attachment:document.view_attach_filter_inherit0
@@ -447,7 +447,7 @@ msgstr "如勾选，所有与该记录匹配的附件都会被找到。如不选
 #. module: document
 #: help:document.directory,ressource_parent_type_id:0
 msgid "If you put an object here, this directory template will appear bellow all of these objects. Such directories are \"attached\" to the specific model or record, just like attachments. Don't put a parent directory if you select a parent model."
-msgstr "你在这里输入一个对象，这个目录模版会在所有这个对象的记录上出现。这些目录附加在对应的对象或记录上，就像附件一样。如果选择了上级模式就不要输入上级目录。"
+msgstr "您在这里输入一个对象，这个目录模版会在所有这个对象的记录上出现。这些目录附加在对应的对象或记录上，就像附件一样。如果选择了上级模式就不要输入上级目录。"
 
 #. module: document
 #: field:document.directory.content,include_name:0
@@ -591,12 +591,12 @@ msgstr "PDF报告"
 #. module: document
 #: field:document.directory,parent_id:0
 msgid "Parent Directory"
-msgstr "父目录"
+msgstr "上级目录"
 
 #. module: document
 #: field:document.directory,ressource_parent_type_id:0
 msgid "Parent Model"
-msgstr "上级模型"
+msgstr "父级模型"
 
 #. module: document
 #: view:ir.attachment:document.view_attach_filter_inherit2
@@ -613,7 +613,7 @@ msgstr "前缀"
 #: model:ir.actions.act_window,name:document.act_res_partner_document
 #: model:ir.actions.act_window,name:document.zoom_directory
 msgid "Related Documents"
-msgstr "关联的文档"
+msgstr "相关单据"
 
 #. module: document
 #: field:document.directory.content,report_id:0
@@ -668,7 +668,7 @@ msgstr "序列"
 #. module: document
 #: view:document.directory:document.view_document_directory_filter
 msgid "Static"
-msgstr "静态目录"
+msgstr "静态"
 
 #. module: document
 #: selection:document.directory,type:0
@@ -703,7 +703,7 @@ msgstr "字段名称"
 #. module: document
 #: view:document.directory:document.view_document_directory_form
 msgid "These groups, however, do NOT apply to children directories, which must define their own groups."
-msgstr "这个组不会带到下级目录，你需要为它们单独定义组。"
+msgstr "这个组不会带到下级目录，您需要为它们单独定义组。"
 
 #. module: document
 #: field:document.directory,ressource_tree:0

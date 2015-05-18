@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:04+0000\n"
-"PO-Revision-Date: 2015-05-04 15:04+0000\n"
+"POT-Creation-Date: 2015-05-17 00:26+0000\n"
+"PO-Revision-Date: 2015-05-17 00:26+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -35,11 +35,11 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                点击创建一个新的预算。\n"
 "              </p><p>\n"
-"                预算是预测你公司未来一个期间里预期的收入和（或）费用.\n"
+"                预算是预测您公司未来一个期间里预期的收入和（或）费用.\n"
 "                预算顶了一些财务科目和（或）分析科目(可能代表项目、\n"
 "                部门、产品类别等等）\n"
 "              </p><p>\n"
-"                通过跟踪你资金的去向，你不太可能超支, 并更有可能完成你的理财目标。\n"
+"                通过跟踪您资金的去向，您不太可能超支, 并更有可能完成您的理财目标。\n"
 "                通过详细列出每个分析科目的预期收入并基于每个期间中实际的发生\n"
 "               额监控它的真实的变化，从而实现预算.\n"
 "              </p>\n"
@@ -233,7 +233,7 @@ msgstr "币别"
 #: view:website:account_budget.report_budget
 #: view:website:account_budget.report_crossoveredbudget
 msgid "Currency:"
-msgstr "Currency:"
+msgstr "币别:"
 
 #. module: account_budget
 #: view:website:account_budget.report_analyticaccountbudget
@@ -405,7 +405,7 @@ msgstr "重置为草稿"
 #. module: account_budget
 #: field:crossovered.budget,creating_user_id:0
 msgid "Responsible User"
-msgstr "负责人"
+msgstr "责任用户"
 
 #. module: account_budget
 #: view:account.budget.analytic:account_budget.account_budget_analytic_view
@@ -427,7 +427,7 @@ msgstr "开始日期"
 #: field:account.budget.crossvered.summary.report,date_from:0
 #: field:account.budget.report,date_from:0
 msgid "Start of period"
-msgstr "期初日期"
+msgstr "期间开始于"
 
 #. module: account_budget
 #: field:crossovered.budget,state:0
@@ -438,7 +438,7 @@ msgstr "状态"
 #: code:addons/account_budget/account_budget.py:124
 #, python-format
 msgid "The Budget '%s' has no accounts!"
-msgstr "预算 '%s'  没有指定科目！"
+msgstr "预算 '%s'  没有科目！"
 
 #. module: account_budget
 #: view:account.budget.post:account_budget.view_budget_post_form

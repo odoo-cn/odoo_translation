@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:30+0000\n"
-"PO-Revision-Date: 2015-05-04 15:30+0000\n"
+"POT-Creation-Date: 2015-05-17 00:46+0000\n"
+"PO-Revision-Date: 2015-05-17 00:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -36,7 +36,7 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 "                单击 为指定区域创建运输价格表.\n"
 "              </p><p>\n"
 "                运输价格表允许 根据产品的重量和其他条件，计算运输的成本和销售价格.\n"
-"               你能为每种运输方法定义几种价格表:为每个国家，或者在特定国家根据邮政编码的定义的一个区域.\n"
+"               您能为每种运输方法定义几种价格表:为每个国家，或者在特定国家根据邮政编码的定义的一个区域.\n"
 "              </p>\n"
 "            "
 
@@ -91,7 +91,7 @@ msgstr "高级定价"
 #. module: delivery
 #: field:delivery.carrier,use_detailed_pricelist:0
 msgid "Advanced Pricing per Destination"
-msgstr "根据目的地定价"
+msgstr "根据目的地高级定价"
 
 #. module: delivery
 #: field:delivery.carrier,amount:0
@@ -146,7 +146,7 @@ msgstr "条件"
 #. module: delivery
 #: field:delivery.grid.line,standard_price:0
 msgid "Cost Price"
-msgstr "成本价"
+msgstr "成本价格"
 
 #. module: delivery
 #: view:delivery.grid:delivery.view_delivery_grid_form
@@ -199,13 +199,13 @@ msgstr "交货网络"
 #: field:res.partner,property_delivery_carrier:0
 #: field:sale.order,carrier_id:0
 msgid "Delivery Method"
-msgstr "交货方式"
+msgstr "交货方法"
 
 #. module: delivery
 #: model:ir.actions.act_window,name:delivery.action_delivery_carrier_form
 #: model:ir.ui.menu,name:delivery.menu_action_delivery_carrier_form
 msgid "Delivery Methods"
-msgstr "交货方式"
+msgstr "交货方法"
 
 #. module: delivery
 #: model:ir.actions.act_window,name:delivery.action_delivery_grid_form
@@ -216,7 +216,7 @@ msgstr "交货价格表"
 #. module: delivery
 #: field:delivery.carrier,product_id:0
 msgid "Delivery Product"
-msgstr "送货服务"
+msgstr "交货产品"
 
 #. module: delivery
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
@@ -229,7 +229,7 @@ msgstr "交货网络"
 #: view:delivery.carrier:delivery.view_delivery_carrier_form
 #: view:delivery.grid:delivery.view_delivery_grid_form
 msgid "Destination"
-msgstr "目标库位"
+msgstr "目的"
 
 #. module: delivery
 #: selection:delivery.grid.line,price_type:0
@@ -314,7 +314,7 @@ msgstr "如果订单总额高于某个特定总额，客户可以享受免费送
 #. module: delivery
 #: view:sale.order:delivery.view_order_withcarrier_form
 msgid "If you don't 'Add in Quote', the exact price will be computed when invoicing based on delivery order(s)."
-msgstr "如果你没有“添加引用”，当基于送货单开票时，将计算精确的价格。"
+msgstr "如果您没有“添加引用”，当基于送货单开票时，将计算精确的价格。"
 
 #. module: delivery
 #: field:sale.order.line,is_delivery:0
@@ -466,7 +466,7 @@ msgstr "序列"
 #. module: delivery
 #: field:delivery.grid,zip_from:0
 msgid "Start Zip"
-msgstr "开始邮编"
+msgstr "起始邮编"
 
 #. module: delivery
 #: view:delivery.grid:delivery.view_delivery_grid_form

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:39+0000\n"
-"PO-Revision-Date: 2015-05-04 15:39+0000\n"
+"POT-Creation-Date: 2015-05-17 00:54+0000\n"
+"PO-Revision-Date: 2015-05-17 00:54+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -18,12 +18,12 @@ msgstr ""
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
 msgid "(*) A negative delay means that the employee worked more than encoded."
-msgstr "(*)负数延期表示员工的工作时间超过记录的时间"
+msgstr "(*)负数延迟表示员工的工作时间超过记录的时间"
 
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
 msgid "(*) A positive delay means that the employee worked less than recorded."
-msgstr "(*)正数表示员工工作时间小于记录的时间"
+msgstr "(*)正数延迟表示员工工作时间小于记录的时间"
 
 #. module: hr_attendance
 #: selection:hr.employee,state:0
@@ -40,7 +40,7 @@ msgstr "动作"
 #: field:hr.attendance,action_desc:0
 #: model:ir.model,name:hr_attendance.model_hr_action_reason
 msgid "Action Reason"
-msgstr "动作原因"
+msgstr "行动原因"
 
 #. module: hr_attendance
 #: field:hr.action.reason,action_type:0
@@ -139,7 +139,7 @@ msgstr "创建于"
 #. module: hr_attendance
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
 msgid "Current Month"
-msgstr "Current Month"
+msgstr "当月"
 
 #. module: hr_attendance
 #: field:hr.attendance,name:0
@@ -159,19 +159,19 @@ msgstr "签到日期"
 #. module: hr_attendance
 #: view:hr.action.reason:hr_attendance.edit_attendance_reason
 msgid "Define attendance reason"
-msgstr "定义考勤的原因"
+msgstr "定义考勤原因"
 
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
 msgid "Delay"
-msgstr "延期"
+msgstr "延迟"
 
 #. module: hr_attendance
 #: view:hr.attendance:hr_attendance.view_hr_attendance_filter
 #: field:hr.attendance,employee_id:0
 #: model:ir.model,name:hr_attendance.model_hr_employee
 msgid "Employee"
-msgstr "雇员"
+msgstr "员工"
 
 #. module: hr_attendance
 #: view:hr.attendance:hr_attendance.view_attendance_form
@@ -264,7 +264,7 @@ msgstr "No Data Available!"
 #: code:addons/hr_attendance/wizard/hr_attendance_error.py:50
 #, python-format
 msgid "No records are found for your selection!"
-msgstr "你搜索的结果为空！"
+msgstr "您搜索的结果为空！"
 
 #. module: hr_attendance
 #: view:website:hr_attendance.report_attendanceerrors
@@ -378,7 +378,7 @@ msgstr "已工作时数"
 #, python-format
 msgid "You tried to %s with a date anterior to another event !\n"
 "Try to contact the HR Manager to correct attendances."
-msgstr "你试图%s  前面的日期到另外的事件！尝试联系 人力资源主管纠正考勤"
+msgstr "您试图%s  前面的日期到另外的事件！尝试联系 人力资源主管纠正考勤"
 
 #. module: hr_attendance
 #: view:hr.attendance.error:hr_attendance.view_hr_attendance_error

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:38+0000\n"
-"PO-Revision-Date: 2015-05-04 15:38+0000\n"
+"POT-Creation-Date: 2015-05-17 00:53+0000\n"
+"PO-Revision-Date: 2015-05-17 00:53+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,11 +39,11 @@ msgstr "索引内容"
 #. module: hr_applicant_document
 #: view:hr.applicant:hr_applicant_document.view_crm_case_jobs_filter_inherit
 msgid "Resume Content"
-msgstr "Resume Content"
+msgstr "简历内容"
 
 #. module: hr_applicant_document
 #: model:ir.actions.act_window,name:hr_applicant_document.hr_applicant_resumes
 #: model:ir.ui.menu,name:hr_applicant_document.menu_crm_case_categ0_act_job02
 msgid "Resumes and Letters"
-msgstr "Resumes and Letters"
+msgstr "简历和信件"
 

@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:30+0000\n"
-"PO-Revision-Date: 2015-05-04 15:30+0000\n"
+"POT-Creation-Date: 2015-05-17 00:46+0000\n"
+"PO-Revision-Date: 2015-05-17 00:46+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -124,7 +124,7 @@ msgstr "A task's kanban state indicates special situations affecting it:\n"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Accept Emails From"
-msgstr "Accept Emails From"
+msgstr "接受电子邮件从"
 
 #. module: project
 #: field:project.project,active:0
@@ -134,12 +134,12 @@ msgstr "有效"
 #. module: project
 #: view:project.task:project.view_task_form2
 msgid "Add a Description..."
-msgstr "Add a Description..."
+msgstr "添加描述..."
 
 #. module: project
 #: view:project.task.type:project.task_type_edit
 msgid "Add a description..."
-msgstr "Add a description..."
+msgstr "添加描述..."
 
 #. module: project
 #: view:project.project:project.edit_project
@@ -154,27 +154,27 @@ msgstr "别名"
 #. module: project
 #: field:project.project,alias_model:0
 msgid "Alias Model"
-msgstr "Alias Model"
+msgstr "别名模型"
 
 #. module: project
 #: field:project.config.settings,group_manage_delegation_task:0
 msgid "Allow task delegation"
-msgstr "Allow task delegation"
+msgstr "允许任务委托"
 
 #. module: project
 #: help:project.config.settings,group_time_work_estimation_tasks:0
 msgid "Allows you to compute Time Estimation on tasks."
-msgstr "Allows you to compute Time Estimation on tasks."
+msgstr "允许你在任务上计算时间估算"
 
 #. module: project
 #: help:project.config.settings,group_tasks_work_on_tasks:0
 msgid "Allows you to compute work on tasks."
-msgstr "Allows you to compute work on tasks."
+msgstr "允许你在任务上计算工作"
 
 #. module: project
 #: help:project.config.settings,group_manage_delegation_task:0
 msgid "Allows you to delegate tasks to other users."
-msgstr "Allows you to delegate tasks to other users."
+msgstr "允许你委托任务给其他用户"
 
 #. module: project
 #: model:project.task.type,name:project.project_tt_analysis
@@ -204,7 +204,7 @@ msgstr "分配到"
 #. module: project
 #: field:report.project.task.user,date_start:0
 msgid "Assignation Date"
-msgstr "指定日期"
+msgstr "指派日期"
 
 #. module: project
 #: view:project.task:project.view_task_search_form
@@ -215,12 +215,12 @@ msgstr "指派月份"
 #. module: project
 #: model:ir.actions.act_window,name:project.act_res_users_2_project_task_opened
 msgid "Assigned Tasks"
-msgstr "已指派任务"
+msgstr "指定的任务"
 
 #. module: project
 #: field:report.project.task.user,user_id:0
 msgid "Assigned To"
-msgstr "已指派给"
+msgstr "指派给"
 
 #. module: project
 #: view:project.task:project.view_task_search_form
@@ -228,7 +228,7 @@ msgstr "已指派给"
 #: view:project.task.history.cumulative:project.view_task_history_search
 #: view:report.project.task.user:project.view_task_project_user_search
 msgid "Assigned to"
-msgstr "已指派给"
+msgstr "指派给"
 
 #. module: project
 #: code:addons/project/project.py:212
@@ -371,7 +371,7 @@ msgstr "联系人"
 #. module: project
 #: field:project.project,analytic_account_id:0
 msgid "Contract/Analytic"
-msgstr "Contract/Analytic"
+msgstr "合同/分析"
 
 #. module: project
 #: field:project.task,create_date:0
@@ -410,7 +410,7 @@ msgstr "创建日期"
 #: model:ir.actions.act_window,name:project.action_view_task_history_cumulative
 #: model:ir.ui.menu,name:project.menu_action_view_task_history_cumulative
 msgid "Cumulative Flow"
-msgstr "渐进过程"
+msgstr "累计流量"
 
 #. module: project
 #: view:project.project:project.edit_project
@@ -439,13 +439,13 @@ msgstr "Days to Assign"
 #. module: project
 #: field:report.project.task.user,closing_days:0
 msgid "Days to Close"
-msgstr "结束日期"
+msgstr "结束的天数"
 
 #. module: project
 #: field:project.task,date_deadline:0
 #: field:report.project.task.user,date_deadline:0
 msgid "Deadline"
-msgstr "截止日期"
+msgstr "截止"
 
 #. module: project
 #: field:project.task.type,case_default:0
@@ -486,7 +486,7 @@ msgstr "委托给"
 #: code:addons/project/project.py:946
 #, python-format
 msgid "Delegated User should be specified"
-msgstr "Delegated User should be specified"
+msgstr "委托的用户应该是特定的"
 
 #. module: project
 #: view:project.task:project.view_task_form2
@@ -536,7 +536,7 @@ msgstr "完成"
 #. module: project
 #: field:project.task.work,user_id:0
 msgid "Done by"
-msgstr "Done by"
+msgstr "完成人"
 
 #. module: project
 #: view:project.task:project.view_task_kanban
@@ -546,12 +546,12 @@ msgstr "编辑..."
 #. module: project
 #: field:report.project.task.user,hours_effective:0
 msgid "Effective Hours"
-msgstr "Effective Hours"
+msgstr "实际小时数"
 
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Email Alias"
-msgstr "Email Alias"
+msgstr "Email别名"
 
 #. module: project
 #: view:project.project:project.edit_project
@@ -569,17 +569,17 @@ msgstr "期末日期"
 #. module: project
 #: constraint:project.task:0
 msgid "Error ! Task end-date must be greater than task start-date"
-msgstr "Error ! Task end-date must be greater than task start-date"
+msgstr "错误！任务结束日期必须大于任务开始日期"
 
 #. module: project
 #: constraint:project.task:0
 msgid "Error ! You cannot create recursive tasks."
-msgstr "Error ! You cannot create recursive tasks."
+msgstr "错误！您不能创建循环的任务"
 
 #. module: project
 #: constraint:project.project:0
 msgid "Error! project start-date must be lower than project end-date."
-msgstr "Error! project start-date must be lower than project end-date."
+msgstr "错误！项目的开始日期必须小于项目的结束日期。"
 
 #. module: project
 #: help:project.task.delegate,planned_hours_me:0
@@ -989,7 +989,7 @@ msgstr "Not a Template Task"
 #. module: project
 #: field:project.task,notes:0
 msgid "Notes"
-msgstr "备注"
+msgstr "便签"
 
 #. module: project
 #: help:report.project.task.user,opening_days:0
@@ -1036,13 +1036,13 @@ msgstr "拖期任务"
 #: view:project.project:project.view_project
 #: view:project.project:project.view_project_project_filter
 msgid "Parent"
-msgstr "上级科目"
+msgstr "父级"
 
 #. module: project
 #: view:project.task:project.view_task_form2
 #: field:project.task,parent_ids:0
 msgid "Parent Tasks"
-msgstr "Parent Tasks"
+msgstr "父级任务"
 
 #. module: project
 #: model:ir.model,name:project.model_res_partner
@@ -1055,7 +1055,7 @@ msgstr "业务伙伴"
 #: selection:project.project,state:0
 #: selection:project.task.delegate,state:0
 msgid "Pending"
-msgstr "等待中"
+msgstr "待定"
 
 #. module: project
 #: help:project.project,progress_rate:0
@@ -1153,7 +1153,7 @@ msgstr "项目名称"
 #. module: project
 #: view:project.project:project.view_project_kanban
 msgid "Project Settings"
-msgstr "项目配置"
+msgstr "项目设置"
 
 #. module: project
 #: view:project.project:project.edit_project
@@ -1175,12 +1175,12 @@ msgstr "项目任务工作"
 #: view:project.task:project.view_project_task_graph
 #: view:project.task.history.cumulative:project.view_task_history_graph
 msgid "Project Tasks"
-msgstr "项目任务列表"
+msgstr "项目任务"
 
 #. module: project
 #: field:res.company,project_time_mode_id:0
 msgid "Project Time Unit"
-msgstr "项目时间单位"
+msgstr "项目时间单元"
 
 #. module: project
 #: model:res.request.link,name:project.req_link_task
@@ -1251,7 +1251,7 @@ msgstr "准备好下一个进程"
 #. module: project
 #: field:project.config.settings,module_project_timesheet:0
 msgid "Record timesheet lines per tasks"
-msgstr "记录每个任务的时间表线"
+msgstr "记录每个任务的工时单明细"
 
 #. module: project
 #: help:project.task.delegate,new_task_description:0
@@ -1268,7 +1268,7 @@ msgstr "剩余"
 #: field:project.task,remaining_hours:0
 #: field:report.project.task.user,remaining_hours:0
 msgid "Remaining Hours"
-msgstr "剩余的小时数"
+msgstr "剩余小时数"
 
 #. module: project
 #: view:project.task:project.view_task_kanban
@@ -1556,7 +1556,7 @@ msgstr "任务进程"
 #. module: project
 #: model:ir.model,name:project.model_report_project_task_user
 msgid "Tasks by user and project"
-msgstr "项目和用户的任务"
+msgstr "任务按用户和项目"
 
 #. module: project
 #: view:project.project:project.edit_project
@@ -1606,7 +1606,7 @@ msgstr "这个字段由系统自动更新。功能类似“启用”字段：如
 #. module: project
 #: model:ir.actions.act_window,help:project.action_project_task_user_tree
 msgid "This report allows you to analyse the performance of your projects and users. You can analyse the quantities of tasks, the hours spent compared to the planned hours, the average number of days to open or close a task, etc."
-msgstr "这个报告用于分析你项目和成员的效率。可以分析任务数量、计划工时和实际工时的对比、任务的平均花费天数"
+msgstr "这个报告用于分析您项目和成员的效率。可以分析任务数量、计划工时和实际工时的对比、任务的平均花费天数"
 
 #. module: project
 #: help:project.task.type,fold:0
@@ -1698,12 +1698,12 @@ msgstr "未读消息"
 #. module: project
 #: view:project.project:project.edit_project
 msgid "Use Tasks"
-msgstr "Use Tasks"
+msgstr "使用任务"
 
 #. module: project
 #: field:project.config.settings,module_pad:0
 msgid "Use integrated collaborative note pads on task"
-msgstr "使用集成的协作记事簿任务"
+msgstr "在任务上使用集成的协作笔记贴"
 
 #. module: project
 #: model:res.groups,name:project.group_project_user
@@ -1719,7 +1719,7 @@ msgstr "用户电子邮件"
 #: help:project.task.delegate,project_id:0
 #: help:project.task.delegate,user_id:0
 msgid "User you want to delegate this task to"
-msgstr "你要分派这个任务给哪个用户"
+msgstr "您要分派这个任务给哪个用户"
 
 #. module: project
 #: field:project.task.delegate,state:0

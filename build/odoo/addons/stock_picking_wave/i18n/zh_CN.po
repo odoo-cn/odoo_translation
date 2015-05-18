@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:48+0000\n"
-"PO-Revision-Date: 2015-05-04 15:48+0000\n"
+"POT-Creation-Date: 2015-05-17 01:00+0000\n"
+"PO-Revision-Date: 2015-05-17 01:00+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -39,12 +39,12 @@ msgstr "<p class=\"oe_view_nocontent_create\">\n"
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking_to_wave
 msgid "Add pickings to a picking wave"
-msgstr "添加分拣作业到一个分拣波次"
+msgstr "添加分拣到一个分拣波次"
 
 #. module: stock_picking_wave
 #: view:stock.picking.to.wave:stock_picking_wave.picking_to_wave_form
 msgid "Add pickings to wave"
-msgstr "添加分拣作业到一个波次"
+msgstr "添加分拣到一个波次"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_to_wave
@@ -159,7 +159,7 @@ msgstr "分拣波次名称"
 #: code:addons/stock_picking_wave/stock_picking_wave.py:40
 #, python-format
 msgid "Nothing to print."
-msgstr "没有需要打印的项目"
+msgstr "没有需要打印"
 
 #. module: stock_picking_wave
 #: help:stock.picking.wave,user_id:0
@@ -241,7 +241,7 @@ msgstr "部分捡货作业还在等待可用，请检查或者强制可用以便
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
 #: field:stock.picking.wave,state:0
 msgid "State"
-msgstr "省"
+msgstr "州"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form

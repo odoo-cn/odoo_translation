@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 15:36+0000\n"
-"PO-Revision-Date: 2015-05-04 15:36+0000\n"
+"POT-Creation-Date: 2015-05-17 00:51+0000\n"
+"PO-Revision-Date: 2015-05-17 00:51+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -78,7 +78,7 @@ msgstr "折扣(%)"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Document:"
-msgstr "Document:"
+msgstr "文档:"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -211,7 +211,7 @@ msgstr "形式"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Partner Ref.:"
-msgstr "Partner Ref.:"
+msgstr "业务伙伴参考："
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -256,7 +256,7 @@ msgstr "供应商退款"
 #. module: report_intrastat
 #: field:report.intrastat,supply_units:0
 msgid "Supply Units"
-msgstr "供应单位"
+msgstr "供应单元"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document

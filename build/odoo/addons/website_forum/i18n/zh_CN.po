@@ -6,8 +6,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Odoo Server 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-04 16:05+0000\n"
-"PO-Revision-Date: 2015-05-04 16:05+0000\n"
+"POT-Creation-Date: 2015-05-17 01:12+0000\n"
+"PO-Revision-Date: 2015-05-17 01:12+0000\n"
 "Last-Translator: <>\n"
 "Language-Team: \n"
 "MIME-Version: 1.0\n"
@@ -121,7 +121,7 @@ msgstr "A tag is a label that categorizes your question with other,\n"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "About This Forum"
-msgstr "About This Forum"
+msgstr "关于本论坛"
 
 #. module: website_forum
 #: field:forum.forum,karma_answer_accept_own:0
@@ -249,12 +249,12 @@ msgstr "Autobiographer"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "Back to"
-msgstr "Back to"
+msgstr "返回"
 
 #. module: website_forum
 #: view:website:website_forum.badge_user
 msgid "Badge \""
-msgstr "Badge \""
+msgstr "勋章 \""
 
 #. module: website_forum
 #: field:res.users,badge_ids:0
@@ -281,27 +281,27 @@ msgstr "Biography"
 #. module: website_forum
 #: field:forum.post,can_accept:0
 msgid "Can Accept"
-msgstr "Can Accept"
+msgstr "能接受"
 
 #. module: website_forum
 #: field:forum.post,can_answer:0
 msgid "Can Answer"
-msgstr "Can Answer"
+msgstr "能回答"
 
 #. module: website_forum
 #: field:forum.post,can_ask:0
 msgid "Can Ask"
-msgstr "Can Ask"
+msgstr "能要求"
 
 #. module: website_forum
 #: field:forum.post,can_close:0
 msgid "Can Close"
-msgstr "Can Close"
+msgstr "能关闭"
 
 #. module: website_forum
 #: field:forum.post,can_comment:0
 msgid "Can Comment"
-msgstr "Can Comment"
+msgstr "能备注"
 
 #. module: website_forum
 #: field:forum.post,can_comment_convert:0
@@ -316,7 +316,7 @@ msgstr "Can Downvote"
 #. module: website_forum
 #: field:forum.post,can_edit:0
 msgid "Can Edit"
-msgstr "Can Edit"
+msgstr "能编辑"
 
 #. module: website_forum
 #: field:forum.post,can_unlink:0
@@ -476,7 +476,7 @@ msgstr "国家"
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Country..."
-msgstr "Country..."
+msgstr "国家..."
 
 #. module: website_forum
 #: field:forum.post.vote,create_date:0
@@ -521,12 +521,12 @@ msgstr "发布到记录上的最后信息的日期"
 #. module: website_forum
 #: field:forum.forum,karma_unlink_all:0
 msgid "Delete all posts"
-msgstr "Delete all posts"
+msgstr "删除全部帖子"
 
 #. module: website_forum
 #: field:forum.forum,karma_unlink_own:0
 msgid "Delete its own posts"
-msgstr "Delete its own posts"
+msgstr "删除它自己的帖子"
 
 #. module: website_forum
 #: field:forum.forum,description:0
@@ -543,59 +543,59 @@ msgstr "Disciplined"
 #. module: website_forum
 #: field:forum.forum,karma_downvote:0
 msgid "Downvote"
-msgstr "Downvote"
+msgstr "反对票"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Edit Profile"
-msgstr "Edit Profile"
+msgstr "编辑个人资料"
 
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "Edit Your Bio"
-msgstr "Edit Your Bio"
+msgstr "编辑您的简历"
 
 #. module: website_forum
 #: view:website:website_forum.post_description_full
 msgid "Edit Your Previous Answer"
-msgstr "Edit Your Previous Answer"
+msgstr "编辑您的前一个答案"
 
 #. module: website_forum
 #: field:forum.forum,karma_edit_all:0
 msgid "Edit all posts"
-msgstr "Edit all posts"
+msgstr "编辑所有的帖子"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
 msgid "Edit answer"
-msgstr "Edit answer"
+msgstr "编辑答案"
 
 #. module: website_forum
 #: field:forum.forum,karma_edit_own:0
 msgid "Edit its own posts"
-msgstr "Edit its own posts"
+msgstr "编辑所有的帖子"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
 msgid "Edit question"
-msgstr "Edit question"
+msgstr "编辑问题"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
 msgid "Edit your Question"
-msgstr "Edit your Question"
+msgstr "编辑您的问题"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_7
 #: model:gamification.challenge,name:website_forum.challenge_editor
 #: model:gamification.goal.definition,name:website_forum.definition_editor
 msgid "Editor"
-msgstr "Editor"
+msgstr "编辑器"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Email"
-msgstr "电子邮件"
+msgstr "Email"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_a_5
@@ -607,13 +607,13 @@ msgstr "Enlightened"
 #. module: website_forum
 #: view:website:website_forum.ask_question
 msgid "Enter your Question"
-msgstr "Enter your Question"
+msgstr "输入你的问题"
 
 #. module: website_forum
 #: model:gamification.badge,name:website_forum.badge_q_3
 #: model:gamification.challenge,name:website_forum.challenge_famous_question
 msgid "Famous Question"
-msgstr "Famous Question"
+msgstr "著名的问题"
 
 #. module: website_forum
 #: field:forum.post,favourite_count:0
@@ -654,7 +654,7 @@ msgstr "Favourite Questions"
 #. module: website_forum
 #: view:website:website_forum.forum_index
 msgid "Filter on"
-msgstr "Filter on"
+msgstr "筛选 于"
 
 #. module: website_forum
 #: field:forum.forum,karma_flag:0
@@ -1102,7 +1102,7 @@ msgstr "Peer Pressure"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "People"
-msgstr "用户"
+msgstr "人员"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
@@ -1215,32 +1215,32 @@ msgstr "问题"
 #: model:mail.message.subtype,name:website_forum.mt_question_edit
 #, python-format
 msgid "Question Edited"
-msgstr "Question Edited"
+msgstr "问题已编辑"
 
 #. module: website_forum
 #: field:forum.forum,karma_gen_question_downvote:0
 msgid "Question downvoted"
-msgstr "Question downvoted"
+msgstr "问题反对票"
 
 #. module: website_forum
 #: view:website:website_forum.404
 msgid "Question not found!"
-msgstr "Question not found!"
+msgstr "问题没有找到！"
 
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "Question tools"
-msgstr "Question tools"
+msgstr "问题工具"
 
 #. module: website_forum
 #: field:forum.forum,karma_gen_question_upvote:0
 msgid "Question upvoted"
-msgstr "Question upvoted"
+msgstr "问题赞成票"
 
 #. module: website_forum
 #: view:website:website_forum.close_question
 msgid "Question:"
-msgstr "Question:"
+msgstr "问题:"
 
 #. module: website_forum
 #: view:website:website_forum.forum_index
@@ -1258,12 +1258,12 @@ msgstr "Re: %s"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "Read Guidelines"
-msgstr "Read Guidelines"
+msgstr "阅读指南"
 
 #. module: website_forum
 #: view:website:website_forum.edit_profile
 msgid "Real name"
-msgstr "Real name"
+msgstr "真实姓名"
 
 #. module: website_forum
 #: field:forum.post,closed_reason_id:0
@@ -1279,7 +1279,7 @@ msgstr "原因："
 #: view:website:website_forum.404
 #: view:website:website_forum.private_profile
 msgid "Return to the question list."
-msgstr "Return to the question list."
+msgstr "退回到问题列表"
 
 #. module: website_forum
 #: view:website:website_forum.edit_post
@@ -1339,7 +1339,7 @@ msgstr "排序"
 #. module: website_forum
 #: view:website:website_forum.header
 msgid "Stats"
-msgstr "Stats"
+msgstr "统计"
 
 #. module: website_forum
 #: field:forum.post,state:0
@@ -1356,7 +1356,7 @@ msgstr "Stellar Question"
 #: model:gamification.badge,name:website_forum.badge_q_7
 #: model:gamification.challenge,name:website_forum.challenge_student
 msgid "Student"
-msgstr "Student"
+msgstr "学生"
 
 #. module: website_forum
 #: field:forum.forum,message_summary:0
@@ -1514,7 +1514,7 @@ msgstr "View Your Badges"
 #. module: website_forum
 #: view:website:website_forum.post_description_full
 msgid "Views"
-msgstr "视图"
+msgstr "查看"
 
 #. module: website_forum
 #: field:forum.post.vote,vote:0
@@ -1542,7 +1542,7 @@ msgstr "网站消息"
 #. module: website_forum
 #: help:forum.forum,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通记录"
+msgstr "网站沟通历史"
 
 #. module: website_forum
 #: field:forum.forum,website_meta_description:0
@@ -1657,17 +1657,17 @@ msgstr "contains offensive or malicious remarks"
 #. module: website_forum
 #: view:website:website_forum.user_detail_full
 msgid "contributions"
-msgstr "contributions"
+msgstr "供款"
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
 msgid "don't forget to vote"
-msgstr "不要忘记评价"
+msgstr "不要忘记投票"
 
 #. module: website_forum
 #: model:forum.post.reason,name:website_forum.reason_1
 msgid "duplicate question"
-msgstr "重复的问题"
+msgstr "复制问题"
 
 #. module: website_forum
 #: view:website:website_forum.header
@@ -1754,7 +1754,7 @@ msgstr "provide enough details and, if possible, give an example"
 #. module: website_forum
 #: view:website:website_forum.badge_user
 msgid "received this badge:"
-msgstr "received this badge:"
+msgstr "收到此勋章："
 
 #. module: website_forum
 #: view:website:website_forum.post_answer
@@ -1819,7 +1819,7 @@ msgstr "用户"
 #. module: website_forum
 #: view:website:website_forum.display_post
 msgid "views"
-msgstr "视图"
+msgstr "查看"
 
 #. module: website_forum
 #: view:website:website_forum.display_post
