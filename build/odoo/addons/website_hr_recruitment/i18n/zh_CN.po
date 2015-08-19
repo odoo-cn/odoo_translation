@@ -1,24 +1,27 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* website_hr_recruitment
-#
+# * website_hr_recruitment
+# 
+# Translators:
+# mrshelly <mrshelly@hotmail.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 01:14+0000\n"
-"PO-Revision-Date: 2015-05-17 01:14+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-08-17 14:13+0000\n"
+"Last-Translator: leangjia <liangjia@qq.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "All Countries"
-msgstr "全部国家"
+msgstr "所有国家"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
@@ -28,7 +31,7 @@ msgstr "所有部门"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "All Offices"
-msgstr "所有办公室"
+msgstr "所有办事处"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.detail
@@ -38,27 +41,29 @@ msgstr "应用"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Apply Job"
-msgstr "申请工作"
+msgstr "申请职位"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
-msgid "Click on \"Content\" to define a new job offer or \"Help\" for more informations."
-msgstr "Click on \"Content\" to define a new job offer or \"Help\" for more informations."
+msgid ""
+"Click on \"Content\" to define a new job offer or \"Help\" for more "
+"informations."
+msgstr "点击 “内容” 来定义一个新的工作机会或点击 “帮助” 获得更多信息。"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.thankyou
 msgid "Continue To Our Website"
-msgstr "Continue To Our Website"
+msgstr "请继续浏览我们的网站"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Job Application Form"
-msgstr "Job Application Form"
+msgstr "职位申请表"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.detail
 msgid "Job Detail"
-msgstr "Job Detail"
+msgstr "职位详情"
 
 #. module: website_hr_recruitment
 #: model:ir.model,name:website_hr_recruitment.model_hr_job
@@ -74,116 +79,112 @@ msgstr "工作"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "Join us and help disrupt the enterprise market!"
-msgstr "Join us and help disrupt the enterprise market!"
+msgstr "加入我们，帮助获得企业的市场！"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
-msgid "Join us, we offer you an extraordinary chance to learn, to\n"
+msgid ""
+"Join us, we offer you an extraordinary chance to learn, to\n"
 "                                    develop and to be part of an exciting experience and\n"
 "                                    team."
-msgstr "Join us, we offer you an extraordinary chance to learn, to\n"
-"                                    develop and to be part of an exciting experience and\n"
-"                                    team."
+msgstr "加入我们，我们为您提供了非同寻常的机会来学习、和发展，这是令人兴奋的经验和团队的一部分。"
 
 #. module: website_hr_recruitment
 #: code:addons/website_hr_recruitment/controllers/main.py:69
 #: view:website:website.layout
 #, python-format
 msgid "New Job Offer"
-msgstr "New Job Offer"
+msgstr "新职位"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "No job offer found"
-msgstr "No job offer found"
+msgstr "没有工作机会发现"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "Our Job Offers"
-msgstr "Our Job Offers"
+msgstr "我们的工作机会"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.detail
 msgid "Our Jobs"
-msgstr "Our Jobs"
+msgstr "我们的工作"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Please send again your resume."
-msgstr "Please send again your resume."
+msgstr "请重新发送简历。"
 
 #. module: website_hr_recruitment
 #: field:hr.job,website_published:0
 msgid "Published"
-msgstr "Published"
+msgstr "已发布"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Resume"
-msgstr "继续"
+msgstr "重新开始"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Short Introduction"
-msgstr "Short Introduction"
+msgstr "简短的介绍"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
 msgid "Submit"
-msgstr "Submit"
+msgstr "提交"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.thankyou
 msgid "Thank you!"
-msgstr "谢谢您！"
+msgstr "非常感谢！"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "There isn't job offer published now, click"
-msgstr "There isn't job offer published now, click"
+msgstr "没有现在发布的工作机会，请点击"
 
 #. module: website_hr_recruitment
 #: model:ir.actions.act_url,name:website_hr_recruitment.action_open_website
 msgid "Website Recruitment Form"
-msgstr "Website Recruitment Form"
+msgstr "网站招聘表格"
 
 #. module: website_hr_recruitment
 #: field:hr.job,website_url:0
 msgid "Website URL"
-msgstr "Website URL"
+msgstr "网站网址"
 
 #. module: website_hr_recruitment
 #: field:hr.job,website_description:0
 msgid "Website description"
-msgstr "Website description"
+msgstr "网站描述"
 
 #. module: website_hr_recruitment
 #: field:hr.job,website_meta_description:0
 msgid "Website meta description"
-msgstr "Website meta description"
+msgstr "网站meta描述"
 
 #. module: website_hr_recruitment
 #: field:hr.job,website_meta_keywords:0
 msgid "Website meta keywords"
-msgstr "Website meta keywords"
+msgstr "网站meta关键词"
 
 #. module: website_hr_recruitment
 #: field:hr.job,website_meta_title:0
 msgid "Website meta title"
-msgstr "Website meta title"
+msgstr "网站meta标题"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
-msgid "With a small team of smart people, we released the most\n"
+msgid ""
+"With a small team of smart people, we released the most\n"
 "                                    disruptive enterprise management software in the world.\n"
 "                                    Odoo is fully open source, super easy, full featured\n"
 "                                    (3000+ apps) and its online offer is 3 times cheaper than\n"
 "                                    traditional competitors like SAP and Ms Dynamics."
-msgstr "With a small team of smart people, we released the most\n"
-"                                    disruptive enterprise management software in the world.\n"
-"                                    Odoo is fully open source, super easy, full featured\n"
-"                                    (3000+ apps) and its online offer is 3 times cheaper than\n"
-"                                    traditional competitors like SAP and Ms Dynamics."
+msgstr "与一群聪明人组成的小团队一起，我们发布了世界上最具破坏性的企业管理软件。             \n                       Odoo 是完全开源、超级简单、功能齐全的（3000 + 应用程序），\n它的在线报价比传统的竞争者，比如 SAP 和 MS Dynamics 便宜 3 倍。"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.apply
@@ -202,20 +203,10 @@ msgstr "您的电话"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.thankyou
-msgid "Your job application has been successfully registered,\n"
+msgid ""
+"Your job application has been successfully registered,\n"
 "                        we will get back to you soon."
-msgstr "Your job application has been successfully registered,\n"
-"                        we will get back to you soon."
-
-#. module: website_hr_recruitment
-#: view:website:website_hr_recruitment.index
-msgid "col-md-3"
-msgstr "col-md-3"
-
-#. module: website_hr_recruitment
-#: view:website:website_hr_recruitment.index
-msgid "col-md-9"
-msgstr "col-md-9"
+msgstr "你的工作申请已注册成功，我们将尽快给你回复。"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
@@ -230,10 +221,9 @@ msgstr "未发布"
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "open positions"
-msgstr "打开位置"
+msgstr "开启"
 
 #. module: website_hr_recruitment
 #: view:website:website_hr_recruitment.index
 msgid "to contact us"
 msgstr "联系我们"
-

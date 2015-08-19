@@ -1,39 +1,42 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* report_intrastat
-#
+# * report_intrastat
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2012,2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 00:51+0000\n"
-"PO-Revision-Date: 2015-05-17 00:51+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-08-18 20:30+0000\n"
+"Last-Translator: leangjia <liangjia@qq.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Amount"
-msgstr "总额"
+msgstr "金额"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "April"
-msgstr "4月"
+msgstr "四月"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "August"
-msgstr "8月"
+msgstr "八月"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Base"
-msgstr "基础"
+msgstr "基于"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -43,7 +46,7 @@ msgstr "已取消的发票"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Comment:"
-msgstr "注释："
+msgstr "注释"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_res_country
@@ -56,19 +59,30 @@ msgid "Country code"
 msgstr "国家代码"
 
 #. module: report_intrastat
+#: field:report.intrastat.code,create_uid:0
+msgid "Created by"
+msgstr "创建人"
+
+#. module: report_intrastat
+#: field:report.intrastat.code,create_date:0
+msgid "Created on"
+msgstr "创建"
+
+#. module: report_intrastat
 #: field:report.intrastat,currency_id:0
 msgid "Currency"
-msgstr "币别"
+msgstr "货币"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "December"
-msgstr "12月"
+msgstr "十二月"
 
 #. module: report_intrastat
+#: field:report.intrastat.code,description:0
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Description"
-msgstr "说明"
+msgstr "描述"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -78,12 +92,12 @@ msgstr "折扣(%)"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Document:"
-msgstr "文档:"
+msgstr "文档："
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Draft Invoice"
-msgstr "草稿发票"
+msgstr "发票草稿"
 
 #. module: report_intrastat
 #: selection:report.intrastat,type:0
@@ -93,15 +107,15 @@ msgstr "导出"
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "February"
-msgstr "2月"
+msgstr "二月"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Fiscal Position:"
-msgstr "财政位置："
+msgstr "财务状况:"
 
 #. module: report_intrastat
-#: field:report.intrastat,id:0
+#: field:report.intrastat,id:0 field:report.intrastat.code,id:0
 msgid "ID"
 msgstr "标识"
 
@@ -115,43 +129,43 @@ msgstr "导入"
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_all
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Intrastat"
-msgstr "Intrastat"
+msgstr "内部统计"
 
 #. module: report_intrastat
 #: model:ir.actions.act_window,name:report_intrastat.action_report_intrastat_code_tree
 #: model:ir.ui.menu,name:report_intrastat.menu_report_intrastat_code
 #: view:report.intrastat.code:report_intrastat.view_report_intrastat_code_form
+#: field:report.intrastat.code,name:0
 msgid "Intrastat Code"
-msgstr "Intrastat Code"
+msgstr "欧盟内部代码"
 
 #. module: report_intrastat
 #: view:report.intrastat:report_intrastat.view_report_intrastat_search
 #: view:report.intrastat:report_intrastat.view_report_intrastat_tree
 msgid "Intrastat Data"
-msgstr "Intrastat Data"
+msgstr "欧盟内部数据"
 
 #. module: report_intrastat
 #: model:ir.actions.report.xml,name:report_intrastat.account_intrastatinvoices
 msgid "Intrastat Invoices"
-msgstr "Intrastat Invoices"
+msgstr "内部发票"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat_code
-#: field:product.template,intrastat_id:0
-#: field:report.intrastat,intrastat_id:0
+#: field:product.template,intrastat_id:0 field:report.intrastat,intrastat_id:0
 #: view:report.intrastat.code:report_intrastat.view_report_intrastat_code_tree
 msgid "Intrastat code"
-msgstr "Intrastat code"
+msgstr "欧盟内部代码"
 
 #. module: report_intrastat
 #: field:res.country,intrastat:0
 msgid "Intrastat member"
-msgstr "Intrastat member"
+msgstr "欧盟内部成员"
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_report_intrastat
 msgid "Intrastat report"
-msgstr "Intrastat report"
+msgstr "内部统计报告"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -166,47 +180,57 @@ msgstr "发票日期："
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "January"
-msgstr "1"
+msgstr "一月"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "July"
-msgstr "7月"
+msgstr "七月"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "June"
-msgstr "6月"
+msgstr "六月"
+
+#. module: report_intrastat
+#: field:report.intrastat.code,write_uid:0
+msgid "Last Updated by"
+msgstr "最后更新"
+
+#. module: report_intrastat
+#: field:report.intrastat.code,write_date:0
+msgid "Last Updated on"
+msgstr "最后一次更新"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "March"
-msgstr "3月"
+msgstr "三月"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "May"
-msgstr "5月"
+msgstr "五月"
 
 #. module: report_intrastat
 #: field:report.intrastat,month:0
 msgid "Month"
-msgstr "月"
+msgstr "月份"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "November"
-msgstr "11月"
+msgstr "十一月"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
 msgid "October"
-msgstr "10月"
+msgstr "十月"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "PRO-FORMA"
-msgstr "形式"
+msgstr "形式发票"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -216,7 +240,7 @@ msgstr "业务伙伴参考："
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Payment Term:"
-msgstr "付款条款："
+msgstr "支付条款："
 
 #. module: report_intrastat
 #: model:ir.model,name:report_intrastat.model_product_template
@@ -231,7 +255,7 @@ msgstr "数量"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Refund"
-msgstr "退款"
+msgstr "退还"
 
 #. module: report_intrastat
 #: selection:report.intrastat,month:0
@@ -251,22 +275,22 @@ msgstr "供应商发票"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Supplier Refund"
-msgstr "供应商退款"
+msgstr "供应商退还"
 
 #. module: report_intrastat
 #: field:report.intrastat,supply_units:0
 msgid "Supply Units"
-msgstr "供应单元"
+msgstr "供应单位"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Tax"
-msgstr "税金"
+msgstr "税"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Taxes"
-msgstr "税金"
+msgstr "税"
 
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
@@ -276,7 +300,7 @@ msgstr "合计"
 #. module: report_intrastat
 #: view:website:report_intrastat.report_intrastatinvoice_document
 msgid "Total Without Taxes"
-msgstr "Total Without Taxes"
+msgstr "不含税总金额"
 
 #. module: report_intrastat
 #: field:report.intrastat,type:0
@@ -296,7 +320,7 @@ msgstr "计量单位"
 #. module: report_intrastat
 #: field:report.intrastat,value:0
 msgid "Value"
-msgstr "值"
+msgstr "价格"
 
 #. module: report_intrastat
 #: field:report.intrastat,weight:0
@@ -308,4 +332,3 @@ msgstr "重量"
 #: field:report.intrastat,name:0
 msgid "Year"
 msgstr "年"
-

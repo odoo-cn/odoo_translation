@@ -1,19 +1,22 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* web_diagram
-#
+# * web_diagram
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 01:05+0000\n"
-"PO-Revision-Date: 2015-05-17 01:05+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-07-17 08:12+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: web_diagram
 #. openerp-web
@@ -42,25 +45,22 @@ msgstr "创建："
 #. openerp-web
 #: code:addons/web_diagram/static/src/js/diagram.js:209
 #, python-format
-msgid "Deleting this node cannot be undone.\n"
+msgid ""
+"Deleting this node cannot be undone.\n"
 "It will also delete all connected transitions.\n"
 "\n"
 "Are you sure ?"
-msgstr "删除此节点的操作无法撤消。\n"
-"该删除操作将连带删除所有连接的状态迁移。\n"
-"\n"
-"您确定吗？"
+msgstr "删除此节点的操作无法撤消。\n该删除操作将连带删除所有连接的状态迁移。\n\n您确定吗？"
 
 #. module: web_diagram
 #. openerp-web
 #: code:addons/web_diagram/static/src/js/diagram.js:227
 #, python-format
-msgid "Deleting this transition cannot be undone.\n"
+msgid ""
+"Deleting this transition cannot be undone.\n"
 "\n"
 "Are you sure ?"
-msgstr "删除此状态迁移的操作无法撤消。\n"
-"\n"
-"您确定吗？"
+msgstr "删除此状态迁移的操作无法撤消。\n\n您确定吗？"
 
 #. module: web_diagram
 #. openerp-web
@@ -82,7 +82,7 @@ msgstr "新建节点"
 #: code:addons/web_diagram/static/src/js/diagram.js:311
 #, python-format
 msgid "Open: "
-msgstr "Open: "
+msgstr "打开： "
 
 #. module: web_diagram
 #. openerp-web
@@ -91,4 +91,3 @@ msgstr "Open: "
 #, python-format
 msgid "Transition"
 msgstr "迁移"
-

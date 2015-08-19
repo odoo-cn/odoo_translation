@@ -1,23 +1,30 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* stock_picking_wave
-#
+# * stock_picking_wave
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# jeffery chen fan <jeffery9@gmail.com>, 2015
+# leangjia <liangjia@qq.com>, 2015
+# Talway <9010446@qq.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 01:00+0000\n"
-"PO-Revision-Date: 2015-05-17 01:00+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-08-17 14:15+0000\n"
+"Last-Translator: leangjia <liangjia@qq.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,help:stock_picking_wave.action_picking_wave
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a Picking Wave. \n"
 "              </p><p>\n"
 "                The Goal of the picking waves is to group operations that may \n"
@@ -26,25 +33,17 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                help the timing management of operations (tasks to be done at 1pm).\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to create a Picking Wave. \n"
-"              </p><p>\n"
-"                The Goal of the picking waves is to group operations that may \n"
-"                (needs to) be done together in order to increase their efficiency.\n"
-"                It may also be useful to assign jobs (one person = one wave) or\n"
-"                help the timing management of operations (tasks to be done at 1pm).\n"
-"              </p>\n"
-"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n                点击创建分拣波次. \n              </p><p>\n                采用分拣波次的目的是使用团体作战的方式来提高分拣的效率。\n                它也用来分配工作(1人=1波)或者有益于分拣的时序管理(譬如任务\n                必须在1点完成)。\n              </p>\n            "
 
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking_to_wave
 msgid "Add pickings to a picking wave"
-msgstr "添加分拣到一个分拣波次"
+msgstr "添加捡货作业到一个捡货波次"
 
 #. module: stock_picking_wave
 #: view:stock.picking.to.wave:stock_picking_wave.picking_to_wave_form
 msgid "Add pickings to wave"
-msgstr "添加分拣到一个波次"
+msgstr "添加捡货作业到一个波次"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_to_wave
@@ -87,19 +86,19 @@ msgstr "确认分拣"
 #: field:stock.picking.to.wave,create_uid:0
 #: field:stock.picking.wave,create_uid:0
 msgid "Created by"
-msgstr "创建者"
+msgstr "创建人"
 
 #. module: stock_picking_wave
 #: field:stock.picking.to.wave,create_date:0
 #: field:stock.picking.wave,create_date:0
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
 #: selection:stock.picking.wave,state:0
 msgid "Done"
-msgstr "完成"
+msgstr "已完成"
 
 #. module: stock_picking_wave
 #: selection:stock.picking.wave,state:0
@@ -107,10 +106,15 @@ msgid "Draft"
 msgstr "草稿"
 
 #. module: stock_picking_wave
+#: model:product.category,name:stock_picking_wave.product_category_dry
+msgid "Dry"
+msgstr "干"
+
+#. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:40
 #, python-format
 msgid "Error!"
-msgstr "Error!"
+msgstr "错误！"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
@@ -120,18 +124,38 @@ msgstr "强制可用"
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
 msgid "Group By"
-msgstr "分组于"
+msgstr "分组于..."
 
 #. module: stock_picking_wave
-#: field:stock.picking.to.wave,id:0
-#: field:stock.picking.wave,id:0
+#: field:stock.picking.to.wave,id:0 field:stock.picking.wave,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
+
+#. module: stock_picking_wave
+#: model:product.category,name:stock_picking_wave.product_category_icecream
+msgid "Ice Cream"
+msgstr "冰淇淋"
+
+#. module: stock_picking_wave
+#: model:product.template,name:stock_picking_wave.product_product_ice_cream_choco_product_template
+msgid "Ice Cream Chocolate"
+msgstr "冰激凌巧克力"
+
+#. module: stock_picking_wave
+#: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_choco_product_template
+msgid "Ice Cream Chocolate with stucks"
+msgstr "冰激凌粘有巧克力"
+
+#. module: stock_picking_wave
+#: model:product.template,description_sale:stock_picking_wave.product_product_ice_cream_vani_product_template
+#: model:product.template,name:stock_picking_wave.product_product_ice_cream_vani_product_template
+msgid "Ice Cream Vanilla"
+msgstr "香草冰激凌"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
 msgid "In Progress"
-msgstr "进行中"
+msgstr "处理中"
 
 #. module: stock_picking_wave
 #: field:stock.picking.to.wave,write_uid:0
@@ -148,18 +172,18 @@ msgstr "最后更新"
 #. module: stock_picking_wave
 #: help:stock.picking.wave,picking_ids:0
 msgid "List of picking associated to this wave"
-msgstr "关联到这个波次的分拣列表"
+msgstr "该波次捡货人列表"
 
 #. module: stock_picking_wave
 #: help:stock.picking.wave,name:0
 msgid "Name of the picking wave"
-msgstr "分拣波次名称"
+msgstr "捡货波次名称"
 
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:40
 #, python-format
 msgid "Nothing to print."
-msgstr "没有需要打印"
+msgstr "没有需要打印的项目"
 
 #. module: stock_picking_wave
 #: help:stock.picking.wave,user_id:0
@@ -173,32 +197,31 @@ msgstr "分拣清单"
 
 #. module: stock_picking_wave
 #: model:ir.model,name:stock_picking_wave.model_stock_picking_wave
-#: field:stock.picking,wave_id:0
-#: field:stock.picking.to.wave,wave_id:0
+#: field:stock.picking,wave_id:0 field:stock.picking.to.wave,wave_id:0
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
 msgid "Picking Wave"
-msgstr "分拣波次"
+msgstr "捡货波次"
 
 #. module: stock_picking_wave
 #: field:stock.picking.wave,name:0
 msgid "Picking Wave Name"
-msgstr "分拣波次名称"
+msgstr "捡货波次名称"
 
 #. module: stock_picking_wave
 #: model:ir.actions.act_window,name:stock_picking_wave.action_picking_wave
 #: model:ir.ui.menu,name:stock_picking_wave.menu_action_picking_wave
 msgid "Picking Waves"
-msgstr "分拣波次"
+msgstr "捡货波次"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
 msgid "Picking Waves not finished"
-msgstr "分拣波次没有完成"
+msgstr "捡货波次没有结束"
 
 #. module: stock_picking_wave
 #: help:stock.picking,wave_id:0
 msgid "Picking wave associated to this picking"
-msgstr "关联到此分拣的分拣波次"
+msgstr "这次分拣相关的分拣波次"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
@@ -209,7 +232,7 @@ msgstr "分拣"
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
 msgid "Print all pickings"
-msgstr "打印所有分拣"
+msgstr "打印所有分检单"
 
 #. module: stock_picking_wave
 #: field:stock.picking.wave,user_id:0
@@ -224,7 +247,7 @@ msgstr "运行中"
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
 msgid "Search Picking Waves"
-msgstr "搜索分拣波次"
+msgstr "搜索捡货波次"
 
 #. module: stock_picking_wave
 #: view:stock.picking.to.wave:stock_picking_wave.picking_to_wave_form
@@ -234,14 +257,26 @@ msgstr "选择一个波次"
 #. module: stock_picking_wave
 #: code:addons/stock_picking_wave/stock_picking_wave.py:57
 #, python-format
-msgid "Some pickings are still waiting for goods. Please check or force their availability before setting this wave to done."
+msgid ""
+"Some pickings are still waiting for goods. Please check or force their "
+"availability before setting this wave to done."
 msgstr "部分捡货作业还在等待可用，请检查或者强制可用以便完成本次捡货作业。"
+
+#. module: stock_picking_wave
+#: model:product.template,name:stock_picking_wave.product_product_dry_specu_product_template
+msgid "Speculoos"
+msgstr "Speculoos"
+
+#. module: stock_picking_wave
+#: model:product.template,description_sale:stock_picking_wave.product_product_dry_specu_product_template
+msgid "Speculoos - A belgian speciality"
+msgstr "Speculoos - A belgian speciality"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_filter
 #: field:stock.picking.wave,state:0
 msgid "State"
-msgstr "州"
+msgstr "状态"
 
 #. module: stock_picking_wave
 #: view:stock.picking.wave:stock_picking_wave.view_picking_wave_form
@@ -258,7 +293,7 @@ msgstr "用户"
 #: code:addons/stock_picking_wave/stock_picking_wave.py:57
 #, python-format
 msgid "Warning"
-msgstr "Warning"
+msgstr "警告"
 
 #. module: stock_picking_wave
 #: view:stock.picking:stock_picking_wave.view_stock_picking_wave_search_inherit
@@ -268,5 +303,4 @@ msgstr "波次"
 #. module: stock_picking_wave
 #: view:stock.picking.to.wave:stock_picking_wave.picking_to_wave_form
 msgid "or"
-msgstr "或"
-
+msgstr "or"

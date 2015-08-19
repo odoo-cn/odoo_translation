@@ -1,19 +1,23 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* base_gengo
-#
+# * base_gengo
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# leangjia <liangjia@qq.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 00:36+0000\n"
-"PO-Revision-Date: 2015-05-17 00:36+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-08-17 14:14+0000\n"
+"Last-Translator: leangjia <liangjia@qq.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: base_gengo
 #: view:res.company:base_gengo.view_company_inherit_base_gengo_form
@@ -33,7 +37,7 @@ msgstr "添加您的评论在这里翻译...."
 #. module: base_gengo
 #: field:res.company,gengo_auto_approve:0
 msgid "Auto Approve Translation ?"
-msgstr "自动批准翻译 ?"
+msgstr "自动审核翻译 ?"
 
 #. module: base_gengo
 #: selection:base.gengo.translations,sync_type:0
@@ -47,7 +51,9 @@ msgstr "取消"
 
 #. module: base_gengo
 #: help:res.company,gengo_sandbox:0
-msgid "Check this box if you're using the sandbox mode of Gengo, mainly used for testing purpose."
+msgid ""
+"Check this box if you're using the sandbox mode of Gengo, mainly used for "
+"testing purpose."
 msgstr "如果您使用Gengo沙盒模式 选中这个框,主要是用于测试目的."
 
 #. module: base_gengo
@@ -73,12 +79,12 @@ msgstr "公司"
 #. module: base_gengo
 #: field:base.gengo.translations,create_uid:0
 msgid "Created by"
-msgstr "创建者"
+msgstr "创建人"
 
 #. module: base_gengo
 #: field:base.gengo.translations,create_date:0
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建"
 
 #. module: base_gengo
 #: code:addons/base_gengo/ir_translation.py:76
@@ -95,12 +101,12 @@ msgstr "Gengo 意见及活动..."
 #. module: base_gengo
 #: field:ir.translation,order_id:0
 msgid "Gengo Order ID"
-msgstr "Gengo Order ID"
+msgstr "Gengo 订单ID"
 
 #. module: base_gengo
 #: view:res.company:base_gengo.view_company_inherit_base_gengo_form
 msgid "Gengo Parameters"
-msgstr "Gengo 参数"
+msgstr "Gengo参数"
 
 #. module: base_gengo
 #: field:res.company,gengo_private_key:0
@@ -110,17 +116,17 @@ msgstr "Gengo 私人密匙"
 #. module: base_gengo
 #: field:res.company,gengo_public_key:0
 msgid "Gengo Public Key"
-msgstr "Gengo 共密钥"
+msgstr "Gengo公共密钥"
 
 #. module: base_gengo
 #: view:base.gengo.translations:base_gengo.base_gengo_translation_wizard_from
 msgid "Gengo Request Form"
-msgstr "Gengo Request Form"
+msgstr "Gengo 申请书"
 
 #. module: base_gengo
 #: view:ir.translation:base_gengo.view_ir_translation_inherit_base_gengo_form
 msgid "Gengo Translation Service"
-msgstr "Gengo Translation Service"
+msgstr "Gengo 翻译服务"
 
 #. module: base_gengo
 #: field:ir.translation,gengo_translation:0
@@ -130,22 +136,24 @@ msgstr "Gengo 翻译服务级别"
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:80
 #, python-format
-msgid "Gengo `Public Key` or `Private Key` are missing. Enter your Gengo authentication parameters under `Settings > Companies > Gengo Parameters`."
-msgstr "缺少Gengo `公共密匙` 或 `私人密匙`. 在 `配置> 公司 > Gengo参数`中输入Gengo授权参数."
+msgid ""
+"Gengo `Public Key` or `Private Key` are missing. Enter your Gengo "
+"authentication parameters under `Settings > Companies > Gengo Parameters`."
+msgstr "缺少Gengo `公共密匙` 或 `私人密匙`. 在 `设置> 公司 > Gengo参数`中输入Gengo授权参数."
 
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:91
 #, python-format
-msgid "Gengo connection failed with this message:\n"
+msgid ""
+"Gengo connection failed with this message:\n"
 "``%s``"
-msgstr "Gengo 连接失败时显示的信息:\n"
-"``%s``"
+msgstr "Gengo 连接失败时显示的信息:\n``%s``"
 
 #. module: base_gengo
 #: model:ir.actions.act_window,name:base_gengo.action_wizard_base_gengo_translations
 #: model:ir.ui.menu,name:base_gengo.menu_action_wizard_base_gengo_translations
 msgid "Gengo: Manual Request of Translation"
-msgstr "Gengo: Manual Request of Translation"
+msgstr "Gengo: 手册翻译要求"
 
 #. module: base_gengo
 #: field:base.gengo.translations,id:0
@@ -170,17 +178,20 @@ msgstr "最后更新"
 #. module: base_gengo
 #: field:base.gengo.translations,write_date:0
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "最后一次更新"
 
 #. module: base_gengo
 #: field:base.gengo.translations,sync_limit:0
 msgid "No. of terms to sync"
-msgstr "No. of terms to sync"
+msgstr "条款编号同步"
 
 #. module: base_gengo
 #: view:ir.translation:base_gengo.view_ir_translation_inherit_base_gengo_form
-msgid "Note: If the translation state is 'In Progress', it means that the translation has to be approved to be uploaded in this system. You are supposed to do that directly by using your Gengo Account"
-msgstr "注意: 如果翻译状态为 '处理中', 则表示翻译需要在递交到系统之前通过审核. 您应该通过您的Gengo帐户直接完成这一操作"
+msgid ""
+"Note: If the translation state is 'In Progress', it means that the "
+"translation has to be approved to be uploaded in this system. You are "
+"supposed to do that directly by using your Gengo Account"
+msgstr "注意: 如果翻译状态为 '处理中', 则表示翻译需要在递交到系统之前通过审核. 你应该通过你的Gengo帐户直接完成这一操作"
 
 #. module: base_gengo
 #: view:res.company:base_gengo.view_company_inherit_base_gengo_form
@@ -195,7 +206,7 @@ msgstr "Pro"
 #. module: base_gengo
 #: view:res.company:base_gengo.view_company_inherit_base_gengo_form
 msgid "Public Key"
-msgstr "Public Key"
+msgstr "公共密钥"
 
 #. module: base_gengo
 #: selection:base.gengo.translations,sync_type:0
@@ -205,7 +216,7 @@ msgstr "接收翻译"
 #. module: base_gengo
 #: field:res.company,gengo_sandbox:0
 msgid "Sandbox Mode"
-msgstr "Sandbox Mode"
+msgstr "沙盒模式"
 
 #. module: base_gengo
 #: view:base.gengo.translations:base_gengo.base_gengo_translation_wizard_from
@@ -215,7 +226,7 @@ msgstr "发送"
 #. module: base_gengo
 #: selection:base.gengo.translations,sync_type:0
 msgid "Send New Terms"
-msgstr "Send New Terms"
+msgstr "发送新术语"
 
 #. module: base_gengo
 #: selection:ir.translation,gengo_translation:0
@@ -231,12 +242,14 @@ msgstr "同步类型"
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:112
 #, python-format
 msgid "Sync limit should between 1 to 200 for Gengo translation services."
-msgstr "Sync limit should between 1 to 200 for Gengo translation services."
+msgstr "Gengo翻译服务限制1至200之间的同步数量。"
 
 #. module: base_gengo
 #: help:res.company,gengo_comment:0
-msgid "This comment will be automatically be enclosed in each an every request sent to Gengo"
-msgstr "This comment will be automatically be enclosed in each an every request sent to Gengo"
+msgid ""
+"This comment will be automatically be enclosed in each an every request sent"
+" to Gengo"
+msgstr "此评论将在每次提交时自动封闭并发给Gengo。"
 
 #. module: base_gengo
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:107
@@ -252,7 +265,7 @@ msgstr "通过Gengo审核"
 #. module: base_gengo
 #: selection:ir.translation,gengo_translation:0
 msgid "Translation By Machine"
-msgstr "由机器翻译"
+msgstr "机器翻译"
 
 #. module: base_gengo
 #: view:ir.translation:base_gengo.view_translation_search
@@ -269,15 +282,16 @@ msgstr "Ultra"
 #: code:addons/base_gengo/wizard/base_gengo_translations.py:112
 #, python-format
 msgid "Warning"
-msgstr "Warning"
+msgstr "警告"
 
 #. module: base_gengo
 #: help:ir.translation,gengo_translation:0
-msgid "You can select here the service level you want for an automatic translation using Gengo."
-msgstr "您可以在这里选择您所需要的Gengo自动翻译级别."
+msgid ""
+"You can select here the service level you want for an automatic translation "
+"using Gengo."
+msgstr "你可以在这里选择你所需要的Gengo自动翻译级别."
 
 #. module: base_gengo
 #: view:base.gengo.translations:base_gengo.base_gengo_translation_wizard_from
 msgid "or"
-msgstr "或"
-
+msgstr "or"

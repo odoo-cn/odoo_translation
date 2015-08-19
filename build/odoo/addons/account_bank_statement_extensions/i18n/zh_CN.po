@@ -1,44 +1,47 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* account_bank_statement_extensions
-#
+# * account_bank_statement_extensions
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 00:24+0000\n"
-"PO-Revision-Date: 2015-05-17 00:24+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-08-12 18:20+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,amount:0
 msgid "Amount"
-msgstr "总额"
+msgstr "金额"
 
 #. module: account_bank_statement_extensions
 #: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
 msgid "Are you sure you want to cancel the selected Bank Statement lines ?"
-msgstr "您确定要取消所选的银行对账单明细么？"
+msgstr "你确信要取消所选的银行单据行么？"
 
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
 msgid "Are you sure you want to confirm the selected Bank Statement lines ?"
-msgstr "您确定要确认所选银行单据行么？"
+msgstr "你确定要确认所选银行单据行么？"
 
 #. module: account_bank_statement_extensions
 #: model:ir.model,name:account_bank_statement_extensions.model_res_partner_bank
 msgid "Bank Accounts"
-msgstr "银行帐户"
+msgstr "银行帐号"
 
 #. module: account_bank_statement_extensions
 #: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement
 msgid "Bank Statement"
-msgstr "银行对账单"
+msgstr "银行单据"
 
 #. module: account_bank_statement_extensions
 #: model:ir.actions.report.xml,name:account_bank_statement_extensions.action_bank_statement_balance_report
@@ -48,19 +51,19 @@ msgstr "银行对账单余额"
 #. module: account_bank_statement_extensions
 #: view:website:account_bank_statement_extensions.report_bankstatementbalance
 msgid "Bank Statement Balances Report"
-msgstr "银行对账单余额报报告"
+msgstr "银行单据余额报表"
 
 #. module: account_bank_statement_extensions
 #: model:ir.model,name:account_bank_statement_extensions.model_account_bank_statement_line
 msgid "Bank Statement Line"
-msgstr "银行对账单明细"
+msgstr "银行单据明细"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,bank_statement_line_ids:0
 #: model:ir.actions.act_window,name:account_bank_statement_extensions.action_bank_statement_line
 #: model:ir.ui.menu,name:account_bank_statement_extensions.bank_statement_line
 msgid "Bank Statement Lines"
-msgstr "银行对账单明细"
+msgstr "银行单据行"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
@@ -86,14 +89,14 @@ msgstr "取消"
 #. module: account_bank_statement_extensions
 #: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
 msgid "Cancel Lines"
-msgstr "取消明细"
+msgstr "取消行"
 
 #. module: account_bank_statement_extensions
 #: view:cancel.statement.line:account_bank_statement_extensions.view_cancel_statement_line
 #: model:ir.actions.act_window,name:account_bank_statement_extensions.action_cancel_statement_line
 #: model:ir.model,name:account_bank_statement_extensions.model_cancel_statement_line
 msgid "Cancel selected statement lines"
-msgstr "取消所选的对账单明细"
+msgstr "取消所选的表行"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
@@ -103,7 +106,7 @@ msgstr "子批量付款"
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,child_ids:0
 msgid "Child Codes"
-msgstr "子编码"
+msgstr "下级编码"
 
 #. module: account_bank_statement_extensions
 #: view:website:account_bank_statement_extensions.report_bankstatementbalance
@@ -113,11 +116,13 @@ msgstr "期末余额"
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,code:0
 msgid "Code"
-msgstr "编码"
+msgstr "编号"
 
 #. module: account_bank_statement_extensions
 #: help:account.bank.statement.line,globalisation_id:0
-msgid "Code to identify transactions belonging to the same globalisation level within a batch payment"
+msgid ""
+"Code to identify transactions belonging to the same globalisation level "
+"within a batch payment"
 msgstr "此编码用于标识在一次批量付款中属于同一个全局级别的交易"
 
 #. module: account_bank_statement_extensions
@@ -156,7 +161,7 @@ msgstr "对方BIC"
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,counterparty_currency:0
 msgid "Counterparty Currency"
-msgstr "对方币别"
+msgstr "对方货币"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,counterparty_name:0
@@ -166,26 +171,26 @@ msgstr "对方名称"
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,counterparty_number:0
 msgid "Counterparty Number"
-msgstr "对方号码"
+msgstr "对方编号"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,create_uid:0
 #: field:cancel.statement.line,create_uid:0
 #: field:confirm.statement.line,create_uid:0
 msgid "Created by"
-msgstr "创建者"
+msgstr "创建人"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,create_date:0
 #: field:cancel.statement.line,create_date:0
 #: field:confirm.statement.line,create_date:0
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Credit"
-msgstr "贷方"
+msgstr "贷"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
@@ -200,7 +205,7 @@ msgstr "日期"
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Debit"
-msgstr "借方"
+msgstr "借"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
@@ -210,8 +215,10 @@ msgstr "借方交易"
 #. module: account_bank_statement_extensions
 #: code:addons/account_bank_statement_extensions/account_bank_statement.py:133
 #, python-format
-msgid "Delete operation not allowed.             Please go to the associated bank statement in order to delete and/or modify bank statement line."
-msgstr "Delete operation not allowed.             Please go to the associated bank statement in order to delete and/or modify bank statement line."
+msgid ""
+"Delete operation not allowed.             Please go to the associated bank "
+"statement in order to delete and/or modify bank statement line."
+msgstr "不允许删除。为了删除和(或)修改银行对账单行，请到关联的银行对账单操作。"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
@@ -222,12 +229,12 @@ msgstr "草稿"
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Draft Statement Lines."
-msgstr "草稿对账单明细"
+msgstr "单据行草稿"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Extended Filters..."
-msgstr "扩展的筛选器..."
+msgstr "增加筛选条件"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
@@ -255,15 +262,14 @@ msgstr "全局编号"
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Group By"
-msgstr "分组于"
+msgstr "分组按"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,id:0
-#: field:cancel.statement.line,id:0
-#: field:confirm.statement.line,id:0
+#: field:cancel.statement.line,id:0 field:confirm.statement.line,id:0
 #: field:report.account_bank_statement_extensions.report_bankstatementbalance,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: account_bank_statement_extensions
 #: selection:account.bank.statement.line.global,type:0
@@ -274,26 +280,26 @@ msgstr "ISO 20022"
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 #: view:website:account_bank_statement_extensions.report_bankstatementbalance
 msgid "Journal"
-msgstr "日记账"
+msgstr "凭证簿"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,write_uid:0
 #: field:cancel.statement.line,write_uid:0
 #: field:confirm.statement.line,write_uid:0
 msgid "Last Updated by"
-msgstr "最后更新"
+msgstr "最近更新人"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,write_date:0
 #: field:cancel.statement.line,write_date:0
 #: field:confirm.statement.line,write_date:0
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "最近更新日期"
 
 #. module: account_bank_statement_extensions
 #: selection:account.bank.statement.line.global,type:0
 msgid "Manual"
-msgstr "手动"
+msgstr "手工"
 
 #. module: account_bank_statement_extensions
 #: view:website:account_bank_statement_extensions.report_bankstatementbalance
@@ -303,7 +309,7 @@ msgstr "名称"
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_form
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,name:0
@@ -318,7 +324,7 @@ msgstr "发起人到受益人的信息"
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line.global,parent_id:0
 msgid "Parent Code"
-msgstr "父级代码"
+msgstr "上级编码"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
@@ -328,7 +334,7 @@ msgstr "搜索银行交易"
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_filter
 msgid "Statement"
-msgstr "结算单"
+msgstr "银行单据"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_form
@@ -338,7 +344,7 @@ msgstr "对账单行"
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
 msgid "Statement Lines"
-msgstr "对账单明细"
+msgstr "单据行"
 
 #. module: account_bank_statement_extensions
 #: field:account.bank.statement.line,state:0
@@ -348,12 +354,12 @@ msgstr "状态"
 #. module: account_bank_statement_extensions
 #: sql_constraint:account.bank.statement.line.global:0
 msgid "The code must be unique !"
-msgstr "代码必须唯一！"
+msgstr "编号必须唯一！"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line:account_bank_statement_extensions.view_bank_statement_line_list
 msgid "Total Amount"
-msgstr "总额合计"
+msgstr "合计金额"
 
 #. module: account_bank_statement_extensions
 #: view:account.bank.statement.line.global:account_bank_statement_extensions.view_statement_line_global_form
@@ -374,7 +380,7 @@ msgstr "起息日"
 #: code:addons/account_bank_statement_extensions/account_bank_statement.py:133
 #, python-format
 msgid "Warning!"
-msgstr "Warning!"
+msgstr "警告！"
 
 #. module: account_bank_statement_extensions
 #: model:ir.actions.act_window,help:account_bank_statement_extensions.action_cancel_statement_line
@@ -384,5 +390,4 @@ msgstr "取消所选单据行"
 #. module: account_bank_statement_extensions
 #: view:confirm.statement.line:account_bank_statement_extensions.view_confirm_statement_line
 msgid "or"
-msgstr "或"
-
+msgstr "or"

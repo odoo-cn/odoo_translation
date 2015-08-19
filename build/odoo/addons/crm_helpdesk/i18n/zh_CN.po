@@ -1,33 +1,40 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* crm_helpdesk
-#
+# * crm_helpdesk
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014
+# mrshelly <mrshelly@hotmail.com>, 2015
+# 卓忆科技 <zhanghao@jointd.com>, 2015
+# 卓忆科技 <zhanghao@jointd.com>, 2015
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 00:43+0000\n"
-"PO-Revision-Date: 2015-05-17 00:43+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:07+0000\n"
+"PO-Revision-Date: 2015-08-18 20:44+0000\n"
+"Last-Translator: leangjia <liangjia@qq.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,email:0
 msgid "# Emails"
-msgstr "# Emails"
+msgstr "电子邮件"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,nbr:0
 msgid "# of Requests"
-msgstr "# 请求"
+msgstr "# 要求"
 
 #. module: crm_helpdesk
 #: model:ir.actions.act_window,help:crm_helpdesk.crm_case_helpdesk_act111
-msgid "<p class=\"oe_view_nocontent_create\">\n"
+msgid ""
+"<p class=\"oe_view_nocontent_create\">\n"
 "                Click to create a new request. \n"
 "              </p><p>\n"
 "                Helpdesk and Support allow you to track your interventions.\n"
@@ -38,27 +45,17 @@ msgid "<p class=\"oe_view_nocontent_create\">\n"
 "                history of the conversation with the customer.\n"
 "              </p>\n"
 "            "
-msgstr "<p class=\"oe_view_nocontent_create\">\n"
-"                Click to create a new request. \n"
-"              </p><p>\n"
-"                Helpdesk and Support allow you to track your interventions.\n"
-"              </p><p>\n"
-"                Use the Odoo Issues system to manage your support\n"
-"                activities. Issues can be connected to the email gateway: new\n"
-"                emails may create issues, each of them automatically gets the\n"
-"                history of the conversation with the customer.\n"
-"              </p>\n"
-"            "
+msgstr "<p class=\"oe_view_nocontent_create\">\n点击创建新的请求. \n</p><p>\n服务台和支持服务允许您跟踪自己的的操作。\n</p><p>\n使用Odoo的问题系统来管理你的服务活动。\n所有问题都可以通过邮件服务器连接: 所有新的问题都会创建邮件, 这些邮件自动获取用户的交流记录.\n</p>"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,active:0
 msgid "Active"
-msgstr "有效"
+msgstr "生效"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 msgid "All pending Helpdesk Request"
-msgstr "所有待定的服务请求"
+msgstr "所有暂停的服务请求"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -66,46 +63,42 @@ msgid "Assigned to Me or My Sales Team(s)"
 msgstr "指派给我或者我的销售团队"
 
 #. module: crm_helpdesk
-#: selection:crm.helpdesk,state:0
-#: selection:crm.helpdesk.report,state:0
+#: selection:crm.helpdesk,state:0 selection:crm.helpdesk.report,state:0
 msgid "Cancelled"
 msgstr "已取消"
 
 #. module: crm_helpdesk
 #: model:ir.ui.menu,name:crm_helpdesk.menu_crm_case_helpdesk-act
 msgid "Categories"
-msgstr "类别"
+msgstr "分类"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 msgid "Categorization"
-msgstr "归类"
+msgstr "分类"
 
 #. module: crm_helpdesk
-#: field:crm.helpdesk,categ_id:0
-#: field:crm.helpdesk.report,categ_id:0
+#: field:crm.helpdesk,categ_id:0 field:crm.helpdesk.report,categ_id:0
 msgid "Category"
-msgstr "类别"
+msgstr "分类"
 
 #. module: crm_helpdesk
-#: field:crm.helpdesk,channel_id:0
-#: field:crm.helpdesk.report,channel_id:0
+#: field:crm.helpdesk,channel_id:0 field:crm.helpdesk.report,channel_id:0
 msgid "Channel"
-msgstr "渠道"
+msgstr "途径"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 #: field:crm.helpdesk.report,date_closed:0
 msgid "Close Date"
-msgstr "关闭日期"
+msgstr "结束日期"
 
 #. module: crm_helpdesk
-#: field:crm.helpdesk,date_closed:0
-#: selection:crm.helpdesk,state:0
+#: field:crm.helpdesk,date_closed:0 selection:crm.helpdesk,state:0
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 #: selection:crm.helpdesk.report,state:0
 msgid "Closed"
-msgstr "已关闭"
+msgstr "已结束"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
@@ -115,7 +108,7 @@ msgstr "沟通"
 #. module: crm_helpdesk
 #: help:crm.helpdesk,channel_id:0
 msgid "Communication channel."
-msgstr "沟通渠道"
+msgstr "通讯渠道"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,company_id:0
@@ -126,24 +119,24 @@ msgstr "公司"
 
 #. module: crm_helpdesk
 #: model:ir.actions.act_window,help:crm_helpdesk.crm_helpdesk_categ_action
-msgid "Create and manage helpdesk categories to better manage and classify your support requests."
-msgstr "创建和管理服务台类别更好管理和分类您的支持请求"
+msgid ""
+"Create and manage helpdesk categories to better manage and classify your "
+"support requests."
+msgstr "创建和管理服务台类型去更好管理和分类你的支持的请求"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,create_uid:0
 msgid "Created by"
-msgstr "创建者"
+msgstr "创建人"
 
 #. module: crm_helpdesk
-#: field:crm.helpdesk,create_date:0
-#: field:crm.helpdesk.report,create_date:0
+#: field:crm.helpdesk,create_date:0 field:crm.helpdesk.report,create_date:0
 msgid "Creation Date"
 msgstr "创建日期"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_tree_view_helpdesk
-#: field:crm.helpdesk,date:0
-#: field:crm.helpdesk.report,date:0
+#: field:crm.helpdesk,date:0 field:crm.helpdesk.report,date:0
 msgid "Date"
 msgstr "日期"
 
@@ -162,7 +155,7 @@ msgstr "日期"
 #: field:crm.helpdesk,date_deadline:0
 #: field:crm.helpdesk.report,date_deadline:0
 msgid "Deadline"
-msgstr "截止"
+msgstr "截止日期"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,delay_close:0
@@ -192,18 +185,18 @@ msgstr "持续时间"
 #. module: crm_helpdesk
 #: field:crm.helpdesk,email_from:0
 msgid "Email"
-msgstr "Email"
+msgstr "电子邮件"
 
 #. module: crm_helpdesk
 #: code:addons/crm_helpdesk/crm_helpdesk.py:117
 #, python-format
 msgid "Error!"
-msgstr "Error!"
+msgstr "错误！"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 msgid "Escalate"
-msgstr "升级"
+msgstr "提升"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
@@ -213,7 +206,7 @@ msgstr "估计"
 #. module: crm_helpdesk
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 msgid "Extended Filters..."
-msgstr "扩展的筛选器..."
+msgstr "增加筛选条件"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
@@ -228,18 +221,21 @@ msgstr "关注者"
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 msgid "General"
-msgstr "通用"
+msgstr "一般"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 msgid "Group By"
-msgstr "分组于"
+msgstr "分组"
 
 #. module: crm_helpdesk
 #: model:ir.actions.act_window,help:crm_helpdesk.action_report_crm_helpdesk
-msgid "Have a general overview of all support requests by sorting them with specific criteria such as the processing time, number of requests answered, emails sent and costs."
-msgstr "为所有的支持请求排序指定具体标准如：处理时间，请求回复的次数，送出的邮件，成本."
+msgid ""
+"Have a general overview of all support requests by sorting them with "
+"specific criteria such as the processing time, number of requests answered, "
+"emails sent and costs."
+msgstr "为所有的支持请求排序指定具体标准如：处理时间，请求回复的次数，发送的邮件，成本."
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_graph
@@ -287,16 +283,17 @@ msgstr "服务台和支持"
 #. module: crm_helpdesk
 #: model:ir.model,name:crm_helpdesk.model_crm_helpdesk_report
 msgid "Helpdesk report after Sales Services"
-msgstr "售后服务服务台报告"
+msgstr "售后服务服务台报表"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
-msgid "Helpdesk requests that are assigned to me or to one of the sale teams I manage"
+msgid ""
+"Helpdesk requests that are assigned to me or to one of the sale teams I "
+"manage"
 msgstr "帮助台请求被指派给我或者我管理的销售团队中的一个"
 
 #. module: crm_helpdesk
-#: selection:crm.helpdesk,priority:0
-#: selection:crm.helpdesk.report,priority:0
+#: selection:crm.helpdesk,priority:0 selection:crm.helpdesk.report,priority:0
 msgid "High"
 msgstr "高"
 
@@ -307,19 +304,20 @@ msgstr "最高"
 
 #. module: crm_helpdesk
 #: help:crm.helpdesk,message_summary:0
-msgid "Holds the Chatter summary (number of messages, ...). This summary is directly in html format in order to be inserted in kanban views."
-msgstr "记住交谈者的主要特征（信息的编号，。。。），此主要特征为html格式，以便插入看板视图。"
+msgid ""
+"Holds the Chatter summary (number of messages, ...). This summary is "
+"directly in html format in order to be inserted in kanban views."
+msgstr "保存复杂的摘要(消息数量,……等)。为了插入到看板视图，这一摘要直接是是HTML格式。"
 
 #. module: crm_helpdesk
-#: field:crm.helpdesk,id:0
-#: field:crm.helpdesk.report,id:0
+#: field:crm.helpdesk,id:0 field:crm.helpdesk.report,id:0
 msgid "ID"
-msgstr "标识"
+msgstr "ID"
 
 #. module: crm_helpdesk
 #: help:crm.helpdesk,message_unread:0
 msgid "If checked new messages require your attention."
-msgstr "查看是否有需要留意的新信息。"
+msgstr "如果要求你关注新消息，勾选此项"
 
 #. module: crm_helpdesk
 #: selection:crm.helpdesk,state:0
@@ -347,8 +345,7 @@ msgid "Last Updated by"
 msgstr "最后更新"
 
 #. module: crm_helpdesk
-#: selection:crm.helpdesk,priority:0
-#: selection:crm.helpdesk.report,priority:0
+#: selection:crm.helpdesk,priority:0 selection:crm.helpdesk.report,priority:0
 msgid "Low"
 msgstr "低"
 
@@ -365,7 +362,7 @@ msgstr "消息"
 #. module: crm_helpdesk
 #: help:crm.helpdesk,message_ids:0
 msgid "Messages and communication history"
-msgstr "消息和通信历史"
+msgstr "信息和通讯记录"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
@@ -375,7 +372,7 @@ msgstr "杂项"
 #. module: crm_helpdesk
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 msgid "Month"
-msgstr "月"
+msgstr "月份"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
@@ -417,31 +414,30 @@ msgstr "新建服务请求"
 #. module: crm_helpdesk
 #: field:crm.helpdesk,date_action_next:0
 msgid "Next Action"
-msgstr "下个行动日期"
+msgstr "下一动作"
 
 #. module: crm_helpdesk
 #: code:addons/crm_helpdesk/crm_helpdesk.py:134
 #, python-format
 msgid "No Subject"
-msgstr "No Subject"
+msgstr "无主题"
 
 #. module: crm_helpdesk
-#: selection:crm.helpdesk,priority:0
-#: selection:crm.helpdesk.report,priority:0
+#: selection:crm.helpdesk,priority:0 selection:crm.helpdesk.report,priority:0
 msgid "Normal"
 msgstr "普通"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 #: selection:crm.helpdesk.report,state:0
 msgid "Open"
-msgstr "打开"
+msgstr "开启"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -451,7 +447,7 @@ msgstr "打开服务请求"
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,delay_expected:0
 msgid "Overpassed Deadline"
-msgstr "超越截止日期"
+msgstr "超过截止日期"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_tree_view_helpdesk
@@ -464,21 +460,19 @@ msgstr "业务伙伴"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
-#: selection:crm.helpdesk,state:0
-#: selection:crm.helpdesk.report,state:0
+#: selection:crm.helpdesk,state:0 selection:crm.helpdesk.report,state:0
 msgid "Pending"
-msgstr "待定"
+msgstr "待处理"
 
 #. module: crm_helpdesk
-#: field:crm.helpdesk,planned_cost:0
-#: field:crm.helpdesk.report,planned_cost:0
+#: field:crm.helpdesk,planned_cost:0 field:crm.helpdesk.report,planned_cost:0
 msgid "Planned Costs"
 msgstr "计划成本"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,planned_revenue:0
 msgid "Planned Revenue"
-msgstr "计划收益"
+msgstr "计划收入"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -486,7 +480,7 @@ msgstr "计划收益"
 #: view:crm.helpdesk.report:crm_helpdesk.view_report_crm_helpdesk_filter
 #: field:crm.helpdesk.report,priority:0
 msgid "Priority"
-msgstr "优先级(0=紧急)"
+msgstr "优先级"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,probability:0
@@ -503,27 +497,27 @@ msgstr "查询"
 #. module: crm_helpdesk
 #: field:crm.helpdesk,ref:0
 msgid "Reference"
-msgstr "参考"
+msgstr "关联"
 
 #. module: crm_helpdesk
 #: field:crm.helpdesk,ref2:0
 msgid "Reference 2"
-msgstr "参考2"
+msgstr "关联2"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.crm_case_form_view_helpdesk
 msgid "References"
-msgstr "参考"
+msgstr "关联"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 msgid "Request Date by Month"
-msgstr "Request Date by Month"
+msgstr "请求日期按月"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 msgid "Request Month"
-msgstr "Request Month"
+msgstr "请求月"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -534,11 +528,13 @@ msgstr "负责人"
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
 msgid "Responsible User"
-msgstr "责任用户"
+msgstr "负责用户"
 
 #. module: crm_helpdesk
 #: help:crm.helpdesk,section_id:0
-msgid "Responsible sales team. Define Responsible user and Email account for mail gateway."
+msgid ""
+"Responsible sales team. Define Responsible user and Email account for mail "
+"gateway."
 msgstr "负责的销售团队。定义一个负责的用户和Email 账户"
 
 #. module: crm_helpdesk
@@ -566,7 +562,7 @@ msgstr "搜索服务台"
 #. module: crm_helpdesk
 #: field:crm.helpdesk.report,section_id:0
 msgid "Section"
-msgstr "章节"
+msgstr "划分"
 
 #. module: crm_helpdesk
 #: view:crm.helpdesk:crm_helpdesk.view_crm_case_helpdesk_filter
@@ -579,22 +575,23 @@ msgstr "状态"
 #. module: crm_helpdesk
 #: field:crm.helpdesk,message_summary:0
 msgid "Summary"
-msgstr "摘要"
+msgstr "概要"
 
 #. module: crm_helpdesk
 #: help:crm.helpdesk,state:0
-msgid "The status is set to 'Draft', when a case is created.                                  \n"
+msgid ""
+"The status is set to 'Draft', when a case is created.                                  \n"
 "If the case is in progress the status is set to 'Open'.                                  \n"
 "When the case is over, the status is set to 'Done'.                                  \n"
 "If the case needs to be reviewed then the status is set to 'Pending'."
-msgstr "当一个“case(事件)\"被新创建后，这个“case(事件)\"的状态为“草稿”状态。                                  \n"
-"若这个“case(事件)\"正在处理中，这个“case(事件)\"的状态为“开启”状态。\n"
-"若这个“case(事件)\"已处理完结，这个“case(事件)\"的状态为“结单”状态。                                  \n"
-"若这个“case(事件)\"需暂停再议，这个“case(事件)\"的状态为“挂起”状态。"
+msgstr "当一个“case(事件)\"被新创建后，这个“case(事件)\"的状态为“草稿”状态。                                  \n若这个“case(事件)\"正在处理中，这个“case(事件)\"的状态为“开启”状态。\n若这个“case(事件)\"已处理完结，这个“case(事件)\"的状态为“结单”状态。                                  \n若这个“case(事件)\"需暂停再议，这个“case(事件)\"的状态为“挂起”状态。"
 
 #. module: crm_helpdesk
 #: help:crm.helpdesk,email_cc:0
-msgid "These email addresses will be added to the CC field of all inbound and outbound emails for this record before being sent. Separate multiple email addresses with a comma"
+msgid ""
+"These email addresses will be added to the CC field of all inbound and "
+"outbound emails for this record before being sent. Separate multiple email "
+"addresses with a comma"
 msgstr "这些邮件地址将添加到之前发送记录的发送和接收邮件的抄送字段，分隔多个邮件地址有逗号。"
 
 #. module: crm_helpdesk
@@ -625,11 +622,12 @@ msgstr "网站消息"
 #. module: crm_helpdesk
 #: help:crm.helpdesk,website_message_ids:0
 msgid "Website communication history"
-msgstr "网站沟通历史"
+msgstr "网站沟通记录"
 
 #. module: crm_helpdesk
 #: code:addons/crm_helpdesk/crm_helpdesk.py:117
 #, python-format
-msgid "You can not escalate, you are already at the top level regarding your sales-team category."
-msgstr "You can not escalate, you are already at the top level regarding your sales-team category."
-
+msgid ""
+"You can not escalate, you are already at the top level regarding your sales-"
+"team category."
+msgstr "不能上报，你已经在您销售团队类别中的最高级了。"

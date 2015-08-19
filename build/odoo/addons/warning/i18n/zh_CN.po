@@ -1,27 +1,28 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* warning
-#
+# * warning
+# 
+# Translators:
+# FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 01:03+0000\n"
-"PO-Revision-Date: 2015-05-17 01:03+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-07-18 03:34+0000\n"
+"Last-Translator: Martin Trigaux\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/p/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: warning
 #: selection:product.template,purchase_line_warn:0
 #: selection:product.template,sale_line_warn:0
-#: selection:res.partner,invoice_warn:0
-#: selection:res.partner,picking_warn:0
-#: selection:res.partner,purchase_warn:0
-#: selection:res.partner,sale_warn:0
+#: selection:res.partner,invoice_warn:0 selection:res.partner,picking_warn:0
+#: selection:res.partner,purchase_warn:0 selection:res.partner,sale_warn:0
 msgid "Blocking Message"
 msgstr "受阻消息"
 
@@ -64,22 +65,20 @@ msgstr "库存分拣单消息"
 #. module: warning
 #: selection:product.template,purchase_line_warn:0
 #: selection:product.template,sale_line_warn:0
-#: selection:res.partner,invoice_warn:0
-#: selection:res.partner,picking_warn:0
-#: selection:res.partner,purchase_warn:0
-#: selection:res.partner,sale_warn:0
+#: selection:res.partner,invoice_warn:0 selection:res.partner,picking_warn:0
+#: selection:res.partner,purchase_warn:0 selection:res.partner,sale_warn:0
 msgid "No Message"
 msgstr "没消息"
 
 #. module: warning
 #: model:ir.model,name:warning.model_res_partner
 msgid "Partner"
-msgstr "业务伙伴"
+msgstr "合作伙伴"
 
 #. module: warning
 #: model:ir.model,name:warning.model_stock_picking
 msgid "Picking List"
-msgstr "分拣清单"
+msgstr "分拣单"
 
 #. module: warning
 #: model:ir.model,name:warning.model_product_template
@@ -99,8 +98,7 @@ msgid "Purchase Order Line"
 msgstr "采购订单明细"
 
 #. module: warning
-#: model:ir.model,name:warning.model_sale_order
-#: field:res.partner,sale_warn:0
+#: model:ir.model,name:warning.model_sale_order field:res.partner,sale_warn:0
 msgid "Sales Order"
 msgstr "销售订单"
 
@@ -113,16 +111,15 @@ msgstr "销售订单明细"
 #. module: warning
 #: code:addons/warning/warning.py:31
 #: help:product.template,purchase_line_warn:0
-#: help:product.template,sale_line_warn:0
-#: help:res.partner,invoice_warn:0
-#: help:res.partner,picking_warn:0
-#: help:res.partner,purchase_warn:0
+#: help:product.template,sale_line_warn:0 help:res.partner,invoice_warn:0
+#: help:res.partner,picking_warn:0 help:res.partner,purchase_warn:0
 #: help:res.partner,sale_warn:0
 #, python-format
-msgid "Selecting the \"Warning\" option will notify user with the message, Selecting \"Blocking Message\" will throw an exception with the message and block the flow. The Message has to be written in the next field."
-msgstr "选择此“警告“选项，将通知用户此消息。r\n"
-"选择“受阻消息“选项，将在流程受阻时将抛出一个消息。r\n"
-"消息写入下一个字段。"
+msgid ""
+"Selecting the \"Warning\" option will notify user with the message, "
+"Selecting \"Blocking Message\" will throw an exception with the message and "
+"block the flow. The Message has to be written in the next field."
+msgstr "选择此“警告“选项，将通知用户此消息。\r\n选择“受阻消息“选项，将在流程受阻时将抛出一个消息。\r\n消息写入下一个字段。"
 
 #. module: warning
 #: field:res.partner,picking_warn:0
@@ -132,20 +129,15 @@ msgstr "库存分拣"
 #. module: warning
 #: selection:product.template,purchase_line_warn:0
 #: selection:product.template,sale_line_warn:0
-#: selection:res.partner,invoice_warn:0
-#: selection:res.partner,picking_warn:0
-#: selection:res.partner,purchase_warn:0
-#: selection:res.partner,sale_warn:0
+#: selection:res.partner,invoice_warn:0 selection:res.partner,picking_warn:0
+#: selection:res.partner,purchase_warn:0 selection:res.partner,sale_warn:0
 msgid "Warning"
 msgstr "警告"
 
 #. module: warning
-#: code:addons/warning/warning.py:64
-#: code:addons/warning/warning.py:94
-#: code:addons/warning/warning.py:132
-#: code:addons/warning/warning.py:166
-#: code:addons/warning/warning.py:213
-#: code:addons/warning/warning.py:247
+#: code:addons/warning/warning.py:64 code:addons/warning/warning.py:94
+#: code:addons/warning/warning.py:132 code:addons/warning/warning.py:166
+#: code:addons/warning/warning.py:216 code:addons/warning/warning.py:250
 #, python-format
 msgid "Warning for %s"
 msgstr "%s 的警告"
@@ -158,7 +150,7 @@ msgstr "发票警告"
 #. module: warning
 #: view:res.partner:warning.view_partner_warning_form
 msgid "Warning on the Picking"
-msgstr "分拣单警告"
+msgstr "分拣单的警告"
 
 #. module: warning
 #: view:res.partner:warning.view_partner_warning_form
@@ -185,9 +177,3 @@ msgstr "销售这产品时的警告"
 #: view:res.partner:warning.view_partner_warning_form
 msgid "Warnings"
 msgstr "警告"
-
-#. module: warning
-#: view:stock.picking:warning.view_picking_form
-msgid "onchange_partner_in(partner_id)"
-msgstr "onchange_partner_in(partner_id)"
-

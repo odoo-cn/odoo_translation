@@ -1,19 +1,21 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
-#	* website_certification
-#
+# * website_certification
+# 
+# Translators:
 msgid ""
 msgstr ""
-"Project-Id-Version: Odoo Server 8.0\n"
+"Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2015-05-17 01:09+0000\n"
-"PO-Revision-Date: 2015-05-17 01:09+0000\n"
-"Last-Translator: <>\n"
-"Language-Team: \n"
+"POT-Creation-Date: 2015-01-21 14:08+0000\n"
+"PO-Revision-Date: 2015-08-17 14:08+0000\n"
+"Last-Translator: leangjia <liangjia@qq.com>\n"
+"Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: \n"
-"Plural-Forms: \n"
+"Language: zh_CN\n"
+"Plural-Forms: nplurals=1; plural=0;\n"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -22,15 +24,15 @@ msgstr "全部"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "Before trying the certification, you can\n"
+msgid ""
+"Before trying the certification, you can\n"
 "                                    assess your skills with the sample test."
-msgstr "Before trying the certification, you can\n"
-"                                    assess your skills with the sample test."
+msgstr "在认证之前,你可以\n通过测试示例评估你的技能。"
 
 #. module: website_certification
 #: field:certification.certification,type_id:0
 msgid "Certification"
-msgstr "认证"
+msgstr "认证类型"
 
 #. module: website_certification
 #: field:certification.certification,certification_date:0
@@ -40,7 +42,7 @@ msgstr "认证日期"
 #. module: website_certification
 #: field:certification.certification,certification_score:0
 msgid "Certification Score"
-msgstr "认证分数"
+msgstr "认证积分"
 
 #. module: website_certification
 #: field:certification.type,name:0
@@ -58,13 +60,13 @@ msgstr "认证"
 #: field:certification.certification,create_uid:0
 #: field:certification.type,create_uid:0
 msgid "Created by"
-msgstr "创建者"
+msgstr "创建人"
 
 #. module: website_certification
 #: field:certification.certification,create_date:0
 #: field:certification.type,create_date:0
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -74,7 +76,7 @@ msgstr "日期"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Filter by Certification:"
-msgstr "按认证筛选:"
+msgstr "通过认证筛选:"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -84,26 +86,25 @@ msgstr "获得认证"
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_form
 msgid "Granted Certification"
-msgstr "Granted Certification"
+msgstr "授予认证"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_tree
 msgid "Granted Certifications"
-msgstr "Granted Certifications"
+msgstr "授予的证书"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
 msgid "Group By"
-msgstr "分组于"
+msgstr "分组"
 
 #. module: website_certification
 #: field:certification.certification,certification_hidden_score:0
 msgid "Hide score on website?"
-msgstr "Hide score on website?"
+msgstr "在网站上隐藏评分？"
 
 #. module: website_certification
-#: field:certification.certification,id:0
-#: field:certification.type,id:0
+#: field:certification.certification,id:0 field:certification.type,id:0
 msgid "ID"
 msgstr "标识"
 
@@ -117,7 +118,7 @@ msgstr "最后更新"
 #: field:certification.certification,write_date:0
 #: field:certification.type,write_date:0
 msgid "Last Updated on"
-msgstr "最后更新"
+msgstr "最后一次更新"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
@@ -127,12 +128,12 @@ msgstr "名称"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Odoo Certifications"
-msgstr "Odoo Certifications"
+msgstr "Odoo认证"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Odoo Certified Experts"
-msgstr "Odoo Certified Experts"
+msgstr "Odoo认证专家"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
@@ -143,37 +144,34 @@ msgstr "业务伙伴"
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Sample Examination"
-msgstr "Sample Examination"
+msgstr "抽样检验"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Score"
-msgstr "Score"
+msgstr "评分"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
 msgid "Search Certification"
-msgstr "Search Certification"
+msgstr "搜索认证"
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
-msgid "The Odoo certification program allows companies\n"
+msgid ""
+"The Odoo certification program allows companies\n"
 "                                    to identify certified professionals and get\n"
 "                                    the guarantee that their contractors are\n"
 "                                    qualified to offer Odoo services."
-msgstr "The Odoo certification program allows companies\n"
-"                                    to identify certified professionals and get\n"
-"                                    the guarantee that their contractors are\n"
-"                                    qualified to offer Odoo services."
+msgstr " Odoo认证程序允许公司\n           识别认证的专业人员和获得\n           保证他们的承包商\n           提供合格的Odoo服务."
 
 #. module: website_certification
 #: view:website:website_certification.certified_partners
 msgid "Try The Test"
-msgstr "Try The Test"
+msgstr "尝试测试"
 
 #. module: website_certification
 #: view:certification.certification:website_certification.certification_certification_search
 #: view:website:website_certification.certified_partners
 msgid "Type"
 msgstr "类型"
-
