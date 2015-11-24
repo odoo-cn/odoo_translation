@@ -909,12 +909,12 @@ msgstr "开票类型"
 #: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_invoice_factor_form
 #: model:ir.ui.menu,name:hr_timesheet_invoice.hr_timesheet_invoice_factor_view
 msgid "Types of Invoicing"
-msgstr "发票类型"
+msgstr "开票类型"
 
 #. module: hr_timesheet_invoice
 #: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_tree
-msgid "Types of invoicing"
-msgstr "发票类型"
+msgid "Types of Invoicing"
+msgstr "开票类型"
 
 #. module: hr_timesheet_invoice
 #: field:report.account.analytic.line.to.invoice,product_uom_id:0
