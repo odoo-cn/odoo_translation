@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet_invoice
-# 
+#
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2012,2014
 # mrshelly <mrshelly@hotmail.com>, 2015
@@ -903,7 +903,7 @@ msgstr "合计:"
 #: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_form
 #: view:hr_timesheet_invoice.factor:hr_timesheet_invoice.view_hr_timesheet_invoice_factor_search
 msgid "Type of invoicing"
-msgstr "发票类型"
+msgstr "开票类型"
 
 #. module: hr_timesheet_invoice
 #: model:ir.actions.act_window,name:hr_timesheet_invoice.action_hr_timesheet_invoice_factor_form

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet_sheet
-# 
+#
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 # mrshelly <mrshelly@hotmail.com>, 2015
@@ -694,8 +694,8 @@ msgstr "总计工单"
 #. module: hr_timesheet_sheet
 #: view:hr.timesheet.report:hr_timesheet_sheet.view_timesheet_report_search
 #: field:hr.timesheet.report,to_invoice:0
-msgid "Type of Invoicing"
-msgstr "发票类型"
+msgid "Type of invoicing"
+msgstr "开票类型"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,message_unread:0
