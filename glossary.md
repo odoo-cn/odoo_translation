@@ -5,6 +5,7 @@
 
 <!-- /MarkdownTOC -->
 
+<a name="None"></a>
 # 词汇表
 
 英文 |  中文    | 备注
@@ -208,6 +209,7 @@ worke Order|工单|
 work|工作|
 write off|注销|
 
+<a name="None"></a>
 # 固定句式 
 
 序号|句式|例句|译作|备注
@@ -218,6 +220,7 @@ write off|注销|
 4|Gives the sequence order when|Gives the sequence order when displaying a list of Projects.|按序列顺序显示项目列表 【当显示项目列表时，给出序列顺序】|
 5|Click here to |Click here to access the post.|点击这儿访问帖子|
 6|Check this box if |Check this box if this company is a legal entity.|如果此公司是一个法律实体，勾选此框。|
+7|Specify XXX|Specify Cost of Work Center per hour.|指定xxx |
 
 
 
