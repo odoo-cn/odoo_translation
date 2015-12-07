@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_timesheet_sheet
-#
+# 
 # Translators:
 # FIRST AUTHOR <EMAIL@ADDRESS>, 2014
 # mrshelly <mrshelly@hotmail.com>, 2015
@@ -12,7 +12,7 @@ msgstr ""
 "Project-Id-Version: Odoo 8.0\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2015-01-21 14:07+0000\n"
-"PO-Revision-Date: 2015-11-24 11:07+0000\n"
+"PO-Revision-Date: 2015-12-07 04:07+0000\n"
 "Last-Translator: 珠海-老天 <liangjia@qq.com>\n"
 "Language-Team: Chinese (China) (http://www.transifex.com/odoo/odoo-8/language/zh_CN/)\n"
 "MIME-Version: 1.0\n"
@@ -694,8 +694,8 @@ msgstr "总计工单"
 #. module: hr_timesheet_sheet
 #: view:hr.timesheet.report:hr_timesheet_sheet.view_timesheet_report_search
 #: field:hr.timesheet.report,to_invoice:0
-msgid "Type of invoicing"
-msgstr "开票类型"
+msgid "Type of Invoicing"
+msgstr "发票类型"
 
 #. module: hr_timesheet_sheet
 #: field:hr_timesheet_sheet.sheet,message_unread:0
