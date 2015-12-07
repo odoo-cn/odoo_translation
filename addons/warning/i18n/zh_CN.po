@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * warning
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -126,7 +126,7 @@ msgstr "库存分拣"
 #. module: warning
 #: model:ir.model,name:warning.model_stock_picking
 msgid "Transfer"
-msgstr "转移"
+msgstr "调拨"
 
 #. module: warning
 #: selection:product.template,purchase_line_warn:0

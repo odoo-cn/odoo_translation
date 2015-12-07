@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_partner
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -45,7 +45,7 @@ msgstr "在网站可见"
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner_website_description
 msgid "Website Partner Full Description"
-msgstr "网站业务伙伴的详细描述"
+msgstr "网站业务伙伴的详细说明"
 
 #. module: website_partner
 #: model:ir.model.fields,field_description:website_partner.field_res_partner_website_short_description

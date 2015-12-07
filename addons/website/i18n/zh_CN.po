@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website
-# 
+#
 # Translators:
 # fausthuang, 2015
 msgid ""
@@ -632,7 +632,7 @@ msgid ""
 "                                the page that gets the most visitors.<br/>\n"
 "                                It's good practice to try to engage with your visitors on the homepage:\n"
 "                                Contact Us, Subscribe to Get More Information, Check the Catalog, etc."
-msgstr "<STRONG>鼓励采取行动</ STRONG><BR/>添加一个，只有一个，号召性的行动在您的主页。您是通过主页来获取大多数游客<BR/>这是很好的做法，试图在主页上邀请您的访客：联系我们，订阅获取更多信息，请查看目录，等等。"
+msgstr "<STRONG>鼓励采取动作</ STRONG><BR/>添加一个，只有一个，号召性的动作在您的主页。您是通过主页来获取大多数游客<BR/>这是很好的做法，试图在主页上邀请您的访客：联系我们，订阅获取更多信息，请查看目录，等等。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.http_error_debug
@@ -799,7 +799,7 @@ msgid ""
 "                        Because of that, your visitors won't see it immediately so it's very useful for linking\n"
 "                        pages you don't want in your main menu e.g. social media, terms and conditions, privacy\n"
 "                        terms, etc."
-msgstr "页脚，正如它的名字所暗示的，是位于你的网页的最底部，您的访客将不会立即看到它，所以它是非常有用的链接，如果你不想显示在你的主菜单的东西例如社会化媒体，条款和条件，隐私条款等。"
+msgstr "页脚，正如它的名称所暗示的，是位于你的网页的最底部，您的访客将不会立即看到它，所以它是非常有用的链接，如果你不想显示在你的主菜单的东西例如社会化媒体，条款和条件，隐私条款等。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.s_text_block
@@ -1465,7 +1465,7 @@ msgstr "创建 '%s' 页"
 #: model:ir.model.fields,field_description:website.field_website_menu_create_uid
 #: model:ir.model.fields,field_description:website.field_website_seo_metadata_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_config_settings_create_date
@@ -1473,7 +1473,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:website.field_website_menu_create_date
 #: model:ir.model.fields,field_description:website.field_website_seo_metadata_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2178,13 +2178,13 @@ msgid ""
 "                        We have decided to change the\n"
 "                        name because <b>\"OpenERP\"</b> didn't reflect the offering\n"
 "                        of the company anymore. With our newest apps, such\n"
-"                        as Website Builder, PoS or eCommerce, we have\n"
+"                        as Website Builder, POS or eCommerce, we have\n"
 "                        moved beyond the ERP territory. <br/>\n"
 "                        But <u>don't worry</u>, <b>Odoo</b> is and always will be\n"
 "                        fully open source. You can read more about the new name here.\n"
 "                        We have also prepared a short FAQ to explain all these changes\n"
 "                        to all of you. <br/>"
-msgstr "如果你还是对我们所有的昨天的公告觉得有点疑惑，这里有一个小小的总结。我们决定改名字，因为OpenERP没有反映出公司的产品了。随着我们最新的应用程序，如网站制作，销售点或电子商务，我们已经超越了ERP领域。但不用担心，Odoo是而且将永远是完全开源。你可以阅读更多有关新的名称这里。我们也准备了一个简短的常见问题，解释所有这些变化给大家。"
+msgstr "如果你还是对我们所有的昨天的公告觉得有点疑惑，这里有一个小小的总结。我们决定改名称，因为OpenERP没有反映出公司的产品了。随着我们最新的应用程序，如网站制作，销售点或电子商务，我们已经超越了ERP领域。但不用担心，Odoo是而且将永远是完全开源。你可以阅读更多有关新的名称这里。我们也准备了一个简短的常见问题，解释所有这些变化给大家。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2286,7 +2286,7 @@ msgstr "有人搜索此关键字来会购买我的产品或服务？或者更有
 msgid ""
 "It might be possible to edit the relevant items\n"
 "                                or fix the issue in"
-msgstr "编辑相关条目或修复问题是可能的"
+msgstr "编辑相关分录或修复问题是可能的"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2373,7 +2373,7 @@ msgstr "午餐"
 msgid ""
 "Launching your website is an important step.<br/>\n"
 "                        Here is a checklist of actions to help you launch a new website efficiently:"
-msgstr "启动你的网站是一个重要的步骤这里的行动清单，以帮助您高效地推出一个新的网站。"
+msgstr "启动你的网站是一个重要的步骤这里的动作清单，以帮助您高效地推出一个新的网站。"
 
 #. module: website
 #: model:ir.ui.view,arch_db:website.website_planner
@@ -2557,7 +2557,7 @@ msgstr "变窄"
 #: code:addons/website/static/src/xml/website.xml:150
 #, python-format
 msgid "New Name"
-msgstr "新名字"
+msgstr "新名称"
 
 #. module: website
 #. openerp-web
@@ -2577,7 +2577,7 @@ msgstr "新窗口"
 #: code:addons/website/static/src/xml/website.xml:148
 #, python-format
 msgid "New name"
-msgstr "新名字"
+msgstr "新名称"
 
 #. module: website
 #. openerp-web
@@ -2830,7 +2830,7 @@ msgstr "页面标题"
 msgid ""
 "Panels are a great tool to compare offers or to emphasize on\n"
 "                key features. To compare products, use the inside columns."
-msgstr "仪表盘是一个很棒的工具，它可以用来比较价格或突出关键指标。可以使用柱状图来进行产品比较。"
+msgstr "仪表板是一个很棒的工具，它可以用来比较价格或突出关键指标。可以使用柱状图来进行产品比较。"
 
 #. module: website
 #: model:ir.model.fields,field_description:website.field_website_menu_parent_left

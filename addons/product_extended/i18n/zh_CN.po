@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * product_extended
-# 
+#
 # Translators:
 # Gary Wei <Gary.wei@elico-corp.com>, 2015
 msgid ""
@@ -75,12 +75,12 @@ msgstr "只是对生产的产品用产品和和物料表相关的操作计算产
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: product_extended
 #: model:ir.model.fields,field_description:product_extended.field_wizard_price_display_name

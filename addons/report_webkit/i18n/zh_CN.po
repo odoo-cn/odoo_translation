@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * report_webkit
-# 
+#
 # Translators:
 # liyes <bodetools@gmail.com>, 2015
 msgid ""
@@ -205,14 +205,14 @@ msgstr "设置（Webkit）"
 #: model:ir.model.fields,field_description:report_webkit.field_ir_header_webkit_create_uid
 #: model:ir.model.fields,field_description:report_webkit.field_report_webkit_actions_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: report_webkit
 #: model:ir.model.fields,field_description:report_webkit.field_ir_header_img_create_date
 #: model:ir.model.fields,field_description:report_webkit.field_ir_header_webkit_create_date
 #: model:ir.model.fields,field_description:report_webkit.field_report_webkit_actions_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: report_webkit
 #: selection:ir.header_webkit,format:0

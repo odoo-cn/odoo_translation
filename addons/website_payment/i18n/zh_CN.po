@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_payment
-# 
+#
 # Translators:
 # fausthuang, 2015
 msgid ""
@@ -31,7 +31,7 @@ msgstr "采购方"
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.pay_methods
 msgid "Add a new payment method:"
-msgstr "添加新的付款方式："
+msgstr "添加新的付款方法："
 
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.confirm
@@ -54,7 +54,7 @@ msgstr "默认收款方"
 msgid ""
 "Default payment acquirer for website payments; your provider needs to be "
 "visible in the website."
-msgstr "默认网站付款的付款方式;你的供应商需要在该网站上看到。"
+msgstr "默认网站付款的付款方法;你的供应商需要在该网站上看到。"
 
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.pay_methods
@@ -64,7 +64,7 @@ msgstr "删除"
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.pay_methods
 msgid "Delete a payment method:"
-msgstr "删除付款方式："
+msgstr "删除付款方法："
 
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.website_settings_payment
@@ -79,7 +79,7 @@ msgstr "从"
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.pay_meth_link
 msgid "Manage your payment methods"
-msgstr "管理您的付款方式"
+msgstr "管理您的付款方法"
 
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.pay_methods
@@ -106,7 +106,7 @@ msgstr "付款 托收方"
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.header_footer_custom_payment
 msgid "Payment Method"
-msgstr "付款方式"
+msgstr "付款方法"
 
 #. module: website_payment
 #: model:ir.ui.view,arch_db:website_payment.pay_methods

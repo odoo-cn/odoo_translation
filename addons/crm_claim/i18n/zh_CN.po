@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * crm_claim
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -46,7 +46,7 @@ msgstr "动作描述..."
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_report_type_action
@@ -237,13 +237,13 @@ msgstr "创建投诉种类更好的管理和分类投诉\n例如有些投诉是�
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_create_uid
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_category_create_date
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_stage_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_create_date
@@ -464,12 +464,12 @@ msgstr "新建"
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_action_next
 msgid "Next Action"
-msgstr "下一行动"
+msgstr "下一动作"
 
 #. module: crm_claim
 #: model:ir.model.fields,field_description:crm_claim.field_crm_claim_date_action_next
 msgid "Next Action Date"
-msgstr "下一行动日期"
+msgstr "下一动作日期"
 
 #. module: crm_claim
 #: code:addons/crm_claim/crm_claim.py:158
@@ -570,7 +570,7 @@ msgstr "解决方案"
 #. module: crm_claim
 #: model:ir.ui.view,arch_db:crm_claim.crm_case_claims_form_view
 msgid "Resolution Actions"
-msgstr "决定采取的行动"
+msgstr "决定采取的动作"
 
 #. module: crm_claim
 #: model:ir.ui.view,arch_db:crm_claim.crm_case_claims_form_view

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale
-# 
+#
 # Translators:
 # odoo9yzj <odoo9yzj@guerrillamail.com>, 2015
 # zhangpeiqing <zpq001@live.com>, 2015
@@ -191,7 +191,7 @@ msgstr "存款帐号"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_config_settings_group_sale_delivery_address
@@ -242,7 +242,7 @@ msgstr "允许为产品选择和维护不同的计量单位"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_account_config_settings_group_analytic_account_for_sales
 msgid "Allows you to specify an analytic account on sales orders."
-msgstr "允许你在销售订单指定一个辅助核算项"
+msgstr "允许你在销售订单指定一个分析会计账户"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_crm_team_sales_to_invoice_amount
@@ -258,7 +258,7 @@ msgstr "分析账户"
 #. module: sale
 #: model:res.groups,name:sale.group_analytic_accounting
 msgid "Analytic Accounting for Sales"
-msgstr "销售辅助核算"
+msgstr "销售分析会计"
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_analytic_line
@@ -268,7 +268,7 @@ msgstr "分析行"
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_account_config_settings_group_analytic_account_for_sales
 msgid "Analytic accounting for sales"
-msgstr "销售辅助核算项"
+msgstr "销售分析会计账户"
 
 #. module: sale
 #: model:ir.filters,name:sale.filter_isale_report_product
@@ -373,13 +373,13 @@ msgstr "创建和查看发票"
 #: model:ir.model.fields,field_description:sale.field_sale_order_create_uid
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_advance_payment_inv_create_date
 #: model:ir.model.fields,field_description:sale.field_sale_order_line_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: sale
 #: model:ir.model.fields,field_description:sale.field_sale_order_create_date
@@ -449,7 +449,7 @@ msgstr "默认条款"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_config_settings_deposit_product_id_setting
 msgid "Default product used for payment advances"
-msgstr "默认使用预付款方式的产品"
+msgstr "默认使用预付款方法的产品"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_company_inherit_form2
@@ -770,7 +770,7 @@ msgstr "基于成本 ( 时间和材料，费用 ) 的发票"
 #. module: sale
 #: selection:product.template,invoice_policy:0
 msgid "Invoice based on time and material"
-msgstr "基于时间和物料的发票"
+msgstr "基于时间和物料开票"
 
 #. module: sale
 #: selection:sale.config.settings,default_invoice_policy:0
@@ -851,7 +851,7 @@ msgstr "开票"
 #: model:ir.model.fields,field_description:sale.field_product_product_invoice_policy
 #: model:ir.model.fields,field_description:sale.field_product_template_invoice_policy
 msgid "Invoicing Policy"
-msgstr "发票开具策略"
+msgstr "开票策略"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.report_saleorder_document
@@ -1075,12 +1075,12 @@ msgstr "订单状态"
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Ordered Qty"
-msgstr "已订数量"
+msgstr "订购数量"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_form
 msgid "Ordered Quantity"
-msgstr "已订数量"
+msgstr "订购数量"
 
 #. module: sale
 #: model:ir.ui.view,arch_db:sale.view_order_product_search
@@ -1090,7 +1090,7 @@ msgstr "销售订单的订购日期"
 #. module: sale
 #: selection:product.template,invoice_policy:0
 msgid "Ordered quantities"
-msgstr "已订数量"
+msgstr "订购数量"
 
 #. module: sale
 #: model:ir.actions.act_window,name:sale.action_orders_upselling
@@ -1637,7 +1637,7 @@ msgstr "预付款发票金额，不含税。"
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_order_project_id
 msgid "The analytic account related to a sales order."
-msgstr "销售订单相关的辅助核算项。"
+msgstr "销售订单相关的分析会计账户。"
 
 #. module: sale
 #: model:ir.model.fields,help:sale.field_sale_config_settings_group_display_incoterm
@@ -1853,7 +1853,7 @@ msgstr "你只能删除草稿状态的询价！"
 msgid ""
 "Your next actions should flow efficiently: confirm the Quotation \n"
 "                to a Sale Order, then create the Invoice and collect the Payment."
-msgstr "你的下一步行动应该为：确认报价单\n并转为销售订单，然后创建发票和收取款项。"
+msgstr "你的下一步动作应该为：确认报价单\n并转为销售订单，然后创建发票和收取款项。"
 
 #. module: sale
 #: model:ir.actions.act_window,help:sale.act_res_partner_2_sale_order
@@ -1862,7 +1862,7 @@ msgstr "你的下一步行动应该为：确认报价单\n并转为销售订单�
 msgid ""
 "Your next actions should flow efficiently: confirm the Quotation to a Sale "
 "Order, then create the Invoice and collect the Payment."
-msgstr "你的下一步行动应该为：确认报价单并转为销售订单，然后创建发票和收取款项。"
+msgstr "你的下一步动作应该为：确认报价单并转为销售订单，然后创建发票和收取款项。"
 
 #. module: sale
 #: model:ir.model,name:sale.model_account_config_settings

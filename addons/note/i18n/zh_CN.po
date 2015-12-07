@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * note
-# 
+#
 # Translators:
 # patrick liao <patrickliao@189.cn>, 2015
 msgid ""
@@ -21,7 +21,7 @@ msgstr ""
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note_open
@@ -32,7 +32,7 @@ msgstr "有效"
 #. module: note
 #: model:ir.ui.view,arch_db:note.view_note_note_filter
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: note
 #: model:ir.ui.view,arch_db:note.view_note_note_filter
@@ -60,14 +60,14 @@ msgstr "配置"
 #: model:ir.model.fields,field_description:note.field_note_stage_create_uid
 #: model:ir.model.fields,field_description:note.field_note_tag_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note_create_date
 #: model:ir.model.fields,field_description:note.field_note_stage_create_date
 #: model:ir.model.fields,field_description:note.field_note_tag_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: note
 #: model:ir.model.fields,field_description:note.field_note_note_date_done

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * base
-# 
+#
 # Translators:
 # fausthuang, 2015
 # fausthuang, 2015
@@ -3935,7 +3935,7 @@ msgid ""
 "      module, but this will also install the CRM application as it depends on\n"
 "      CRM Leads.\n"
 "    "
-msgstr "\n这个模块使用营销活动自动化销售线索（实际在任何资源上都能够定义活动，而不仅仅是对CRM中的销售线索）.\n=========================================================================================================================================\n\n活动是动态且多渠道的.流程如下:\n------------------------------------------------------------------------\n *像工作流那样设计营销活动，包括要发送的邮件模板\n要打印的报表和定制的行动\n * 定义能够选取应该填入活动的项目的输入片段\n （例如：一些国家的销售线索）\n * 在模拟模式中运行活动以测试它的实际表现和增速\n然后适当的做适当的调整\n * 你也可以在手工模式下开始真实的活动，\n 这就需要手工做些验证\n * 最终正式开始你的活动，\n当活动自动的做所有事情时，你可以查看相应的统计信息.\n\n当活动在运行的时候，\n你当然可以继续调整参数，输入片段和工作流以优化它.\n\n**注意：** 如果你需要示例数据，你可以安装marketing_campaign_crm_demo模块\n 但是这样系统也会安装CRM程序，\n 因为它依赖与CRM销售线索."
+msgstr "\n这个模块使用营销活动自动化销售线索（实际在任何资源上都能够定义活动，而不仅仅是对CRM中的销售线索）.\n=========================================================================================================================================\n\n活动是动态且多渠道的.流程如下:\n------------------------------------------------------------------------\n *像工作流那样设计营销活动，包括要发送的邮件模板\n要打印的报表和定制的动作\n * 定义能够选取应该填入活动的项目的输入片段\n （例如：一些国家的销售线索）\n * 在模拟模式中运行活动以测试它的实际表现和增速\n然后适当的做适当的调整\n * 你也可以在手工模式下开始真实的活动，\n 这就需要手工做些验证\n * 最终正式开始你的活动，\n当活动自动的做所有事情时，你可以查看相应的统计信息.\n\n当活动在运行的时候，\n你当然可以继续调整参数，输入片段和工作流以优化它.\n\n**注意：** 如果你需要示例数据，你可以安装marketing_campaign_crm_demo模块\n 但是这样系统也会安装CRM程序，\n 因为它依赖与CRM销售线索."
 
 #. module: base
 #: model:ir.module.module,description:base.module_l10n_at
@@ -4934,7 +4934,7 @@ msgstr "会计和财务"
 #: model:ir.ui.view,arch_db:base.view_window_action_search
 #: selection:ir.values,key:0
 msgid "Action"
-msgstr "行动"
+msgstr "动作"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_values_action_id
@@ -4974,7 +4974,7 @@ msgstr "动作目标"
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_server_state
 msgid "Action To Do"
-msgstr "待办的行动"
+msgstr "待办的动作"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_ir_act_client_type
@@ -7285,7 +7285,7 @@ msgstr "创建的视图"
 #: model:ir.model.fields,field_description:base.field_wkf_create_uid
 #: model:ir.model.fields,field_description:base.field_wkf_transition_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: base
 #: model:ir.model.fields,field_description:base.field_base_language_export_create_date
@@ -7353,7 +7353,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:base.field_wkf_create_date
 #: model:ir.model.fields,field_description:base.field_wkf_transition_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: base
 #: model:ir.ui.view,arch_db:base.view_attachment_form

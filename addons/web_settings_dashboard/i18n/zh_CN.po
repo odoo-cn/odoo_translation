@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web_settings_dashboard
-# 
+#
 # Translators:
 # Xia Fajin <xia.fajin@elico-corp.com>, 2015
 msgid ""
@@ -59,7 +59,7 @@ msgstr "浏览文档."
 #: model:ir.actions.client,name:web_settings_dashboard.web_settings_dashboard_action
 #: model:ir.ui.menu,name:web_settings_dashboard.web_dashboard_menu
 msgid "Dashboard"
-msgstr "仪表盘"
+msgstr "仪表板"
 
 #. module: web_settings_dashboard
 #. openerp-web

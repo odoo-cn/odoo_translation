@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * claim_from_delivery
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -36,4 +36,4 @@ msgstr "送货单"
 #. module: claim_from_delivery
 #: model:ir.model,name:claim_from_delivery.model_stock_picking
 msgid "Transfer"
-msgstr "转移"
+msgstr "调拨"

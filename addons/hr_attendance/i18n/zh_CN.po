@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr_attendance
-# 
+#
 # Translators:
 # fausthuang, 2015
 # fausthuang, 2015
@@ -40,7 +40,7 @@ msgstr "缺勤"
 #: selection:hr.attendance,action:0
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_action
 msgid "Action"
-msgstr "行动"
+msgstr "动作"
 
 #. module: hr_attendance
 #: model:ir.model,name:hr_attendance.model_hr_action_reason
@@ -144,14 +144,14 @@ msgstr "配置"
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_create_uid
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: hr_attendance
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_action_reason_create_date
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_create_date
 #: model:ir.model.fields,field_description:hr_attendance.field_hr_attendance_error_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: hr_attendance
 #: model:ir.ui.view,arch_db:hr_attendance.view_hr_attendance_filter

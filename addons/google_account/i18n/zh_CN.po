@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * google_account
-# 
+#
 # Translators:
 # liulixia <liu.lixia@elico-corp.com>, 2015
 msgid ""
@@ -21,12 +21,12 @@ msgstr ""
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: google_account
 #: model:ir.model.fields,field_description:google_account.field_google_service_display_name

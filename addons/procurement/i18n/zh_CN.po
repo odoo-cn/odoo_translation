@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * procurement
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -38,7 +38,7 @@ msgid ""
 "fulfill a procurement. Some exceptions will resolve themselves "
 "automatically, but others require manual intervention (those are identified "
 "by a specific error message in the chatter)."
-msgstr "一个<b>补货异常</b发生在：当系统找不到一种方式来完成补货的时候>有些异常会自行修复，但是其余的需要人工干预（这些会在chatter中被标识为特定的错误信息）"
+msgstr "一个<b>补货异常</b发生在：当系统找不到一种方式来完成补货的时候>有些异常会自行修复，但是其他的需要人工干预（这些会在chatter中被标识为特定的错误信息）"
 
 #. module: procurement
 #: model:ir.actions.act_window,help:procurement.procurement_action
@@ -54,12 +54,12 @@ msgstr "一个<b>补货订单</b>被用来记录一个特定位置的特定产�
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_action
 msgid "Action"
-msgstr "行动"
+msgstr "动作"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_active
@@ -146,7 +146,7 @@ msgstr "已确认"
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_create_uid
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_group_create_date
@@ -154,7 +154,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_create_date
 #: model:ir.model.fields,field_description:procurement.field_procurement_rule_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: procurement
 #: model:ir.model.fields,help:procurement.field_procurement_order_message_last_post
@@ -356,7 +356,7 @@ msgstr "不紧急"
 #. module: procurement
 #: model:ir.ui.view,arch_db:procurement.procurement_form_view
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_message_needaction_counter
@@ -395,7 +395,7 @@ msgstr "补货"
 #: model:ir.actions.act_window,name:procurement.procurement_order_action_exceptions
 #: model:ir.ui.view,arch_db:procurement.view_procurement_filter
 msgid "Procurement Exceptions"
-msgstr "需求异常"
+msgstr "补货异常"
 
 #. module: procurement
 #: model:ir.model.fields,field_description:procurement.field_procurement_order_group_id

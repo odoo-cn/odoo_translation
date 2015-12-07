@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_event
-# 
+#
 # Translators:
 # fausthuang, 2015
 # liulixia <liu.lixia@elico-corp.com>, 2015
@@ -177,7 +177,7 @@ msgstr "创建活动"
 msgid ""
 "Create a name for your new event and click <em>'Continue'</em>. e.g: "
 "Technical Training"
-msgstr "为您的新事件创建一个名字,然后单击“继续”。比如:技术培训"
+msgstr "为您的新事件创建一个名称,然后单击“继续”。比如:技术培训"
 
 #. module: website_event
 #. openerp-web

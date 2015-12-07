@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_test
-# 
+#
 # Translators:
 # 珠海-老天 <liangjia@qq.com>, 2015
 msgid ""
@@ -69,14 +69,14 @@ msgstr "检查支付/对账发票并未在'开启'状态"
 msgid ""
 "Check that reconciled account moves, that define Payable and Receivable "
 "accounts, are belonging to reconciled invoices"
-msgstr "检查已核销的科目的变动，包括属于已核销发票的应付科目和应收科目"
+msgstr "检查已调节的会计凭证，属于已调节发票的应付科目和应收科目"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_05
 msgid ""
 "Check that reconciled invoice for Sales/Purchases has reconciled entries for"
 " Payable and Receivable Accounts"
-msgstr "检查已收和已付科目中已被核销的条目相关的销售/采购发票"
+msgstr "检查已收和已付科目中已被核销的分录相关的销售/采购发票"
 
 #. module: account_test
 #: model:accounting.assert.test,desc:account_test.account_test_01
@@ -121,12 +121,12 @@ msgstr "代码应该总是设​置一个名为\"result\"变量来保存你的�
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: account_test
 #: model:ir.model.fields,field_description:account_test.field_accounting_assert_test_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: account_test
 #: model:ir.ui.view,arch_db:account_test.account_assert_form
@@ -195,7 +195,7 @@ msgstr "测试 3: 凭证行"
 #: model:accounting.assert.test,name:account_test.account_test_05
 msgid ""
 "Test 5.1 : Payable and Receivable accountant lines of reconciled invoices"
-msgstr "测试 5.1 : 已核销发票的应收及应付条目"
+msgstr "测试 5.1 : 已核销发票的应收及应付分录"
 
 #. module: account_test
 #: model:accounting.assert.test,name:account_test.account_test_05_2

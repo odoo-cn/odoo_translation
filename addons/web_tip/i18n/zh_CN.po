@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web_tip
-# 
+#
 # Translators:
 # liulixia <liu.lixia@elico-corp.com>, 2015
 msgid ""
@@ -21,7 +21,7 @@ msgstr ""
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_action_id
 msgid "Action"
-msgstr "行动"
+msgstr "动作"
 
 #. module: web_tip
 #: model:ir.model.fields,help:web_tip.field_web_tip_highlight_selector
@@ -47,12 +47,12 @@ msgstr "消耗"
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: web_tip
 #: model:ir.model.fields,field_description:web_tip.field_web_tip_display_name

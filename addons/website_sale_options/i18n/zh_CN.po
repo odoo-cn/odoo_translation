@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_sale_options
-# 
+#
 # Translators:
 # Gary Wei <Gary.wei@elico-corp.com>, 2015
 # liulixia <liu.lixia@elico-corp.com>, 2015
@@ -155,7 +155,7 @@ msgid ""
 "Warranty, issued to the purchaser of an article by its manufacturer, "
 "promising to repair or replace it if necessary within a specified period of "
 "time."
-msgstr "保修，商品发给生产厂家，厂家承诺在指定时间内对商品进行维修或更换."
+msgstr "保修，商品发给生产厂家，厂家承诺在指定时间内对商品进行修理或更换."
 
 #. module: website_sale_options
 #. openerp-web

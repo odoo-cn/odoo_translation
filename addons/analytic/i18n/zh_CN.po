@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * analytic
-# 
+#
 # Translators:
 # Rona Lin <ssauapw@qq.com>, 2015
 msgid ""
@@ -36,7 +36,7 @@ msgstr "会计币种"
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_amount
@@ -132,7 +132,7 @@ msgstr "分析账户表"
 #. module: analytic
 #: model:ir.actions.act_window,help:analytic.action_analytic_account_form
 msgid "Click to add an analytic account."
-msgstr "辅助核算项"
+msgstr "分析会计账户"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag_color
@@ -161,7 +161,7 @@ msgstr "收支情况"
 msgid ""
 "Costs will be created automatically when you register supplier\n"
 "                invoices, expenses or timesheets."
-msgstr "当你登记供应商发票，费用或者记工单的时候成本会自动的生成"
+msgstr "当你登记供应商发票，费用或者工时单的时候成本会自动的生成"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_create_uid
@@ -169,7 +169,7 @@ msgstr "当你登记供应商发票，费用或者记工单的时候成本会自
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_create_uid
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_create_date
@@ -177,7 +177,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_line_create_date
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_tag_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_credit
@@ -373,7 +373,7 @@ msgid ""
 "                invoices. Customer invoices can be created based on sale orders\n"
 "                (fixed price invoices), on timesheets (based on the work done) or\n"
 "                on expenses (e.g. reinvoicing of travel costs)."
-msgstr "当你创建客户发票的时候，应收自动生成\n客户发票可以根据销售订单（固定价格发票），\n记工单（已经完成的工作）或者费用（例如出差成本的再开票）"
+msgstr "当你创建客户发票的时候，应收自动生成\n客户发票可以根据销售订单（固定价格发票），\n工时单（已经完成的工作）或者费用（例如出差成本的再开票）"
 
 #. module: analytic
 #: model:ir.ui.view,arch_db:analytic.view_account_analytic_line_filter
@@ -383,7 +383,7 @@ msgstr "搜索分析行"
 #. module: analytic
 #: model:ir.ui.view,arch_db:analytic.account_analytic_chart_view
 msgid "Select the Period for Analysis"
-msgstr "选择辅助核算的会计期间"
+msgstr "选择分析会计的会计期间"
 
 #. module: analytic
 #: model:ir.model.fields,field_description:analytic.field_account_analytic_account_tag_ids

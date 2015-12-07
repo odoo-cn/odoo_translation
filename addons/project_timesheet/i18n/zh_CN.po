@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * project_timesheet
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -23,7 +23,7 @@ msgstr ""
 msgid ""
 "<p class=\"oe_view_nocontent_create\">Record your timesheets for the project"
 " '%s'.</p>"
-msgstr "<p class=\"oe_view_nocontent_create\">记录你为项目所做的计工单 '%s'.</p>"
+msgstr "<p class=\"oe_view_nocontent_create\">记录你为项目所做的工时单 '%s'.</p>"
 
 #. module: project_timesheet
 #: model:ir.model.fields,field_description:project_timesheet.field_project_config_settings_group_tasks_work_on_tasks

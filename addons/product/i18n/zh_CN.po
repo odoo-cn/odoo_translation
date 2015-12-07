@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * product
-# 
+#
 # Translators:
 # fausthuang, 2015
 # fausthuang, 2015
@@ -264,7 +264,7 @@ msgstr "是目前最薄的iPod，仅5.4mm厚度\n2.5英寸Multi-Touch显示屏�
 #: model:ir.model.fields,field_description:product.field_product_product_message_needaction
 #: model:ir.model.fields,field_description:product.field_product_template_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_pricelist_active
@@ -277,7 +277,7 @@ msgstr "有效"
 #. module: product
 #: model:product.category,name:product.product_category_all
 msgid "All"
-msgstr "全选"
+msgstr "All"
 
 #. module: product
 #: code:addons/product/pricelist.py:283
@@ -342,7 +342,7 @@ msgstr "应用于"
 #: model:ir.ui.view,arch_db:product.product_pricelist_view_search
 #: model:ir.ui.view,arch_db:product.product_template_search_view
 msgid "Archived"
-msgstr "存档"
+msgstr "归档"
 
 #. module: product
 #: model:product.product,name:product.product_assembly
@@ -716,7 +716,7 @@ msgid ""
 "Cost of the product template used for standard stock valuation in accounting"
 " and used as a base price on purchase orders. Expressed in the default unit "
 "of measure of the product."
-msgstr "用于标准库存估值科目中和采购订单中的基础价格的产品模板成本。以产品的默认计量单位表示。"
+msgstr "用于标准库存计价科目中和采购订单中的基础价格的产品模板成本。以产品的默认计量单位表示。"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_template_standard_price
@@ -740,7 +740,7 @@ msgstr "产品的成本，以产品的默认计量单位表示。"
 #: model:ir.model.fields,field_description:product.field_product_uom_categ_create_uid
 #: model:ir.model.fields,field_description:product.field_product_uom_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_attribute_create_date
@@ -759,7 +759,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:product.field_product_uom_categ_create_date
 #: model:ir.model.fields,field_description:product.field_product_uom_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: product
 #: model:product.product,website_description:product.product_product_8
@@ -1477,7 +1477,7 @@ msgstr "内部分类"
 #: model:ir.model.fields,field_description:product.field_product_product_default_code
 #: model:ir.model.fields,field_description:product.field_product_template_default_code
 msgid "Internal Reference"
-msgstr "位置"
+msgstr "内部参考"
 
 #. module: product
 #: model:ir.model.fields,help:product.field_product_product_barcode
@@ -1822,7 +1822,7 @@ msgstr "一般"
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_message_needaction_counter
@@ -2996,7 +2996,7 @@ msgstr "超薄设计"
 #. module: product
 #: model:product.uom.categ,name:product.product_uom_categ_unit
 msgid "Unit"
-msgstr "单件"
+msgstr "单位"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_uom_id
@@ -3121,7 +3121,7 @@ msgstr "系列值"
 #: model:ir.ui.view,arch_db:product.product_template_kanban_view
 #: model:ir.ui.view,arch_db:product.product_template_only_form_view
 msgid "Variants"
-msgstr "变动"
+msgstr "系列"
 
 #. module: product
 #: model:ir.model.fields,field_description:product.field_product_product_seller_ids
@@ -3203,7 +3203,7 @@ msgstr "网络摄像头"
 #: model:ir.ui.view,arch_db:product.product_template_form_view
 #: model:product.uom.categ,name:product.product_uom_categ_kgm
 msgid "Weight"
-msgstr "重要性"
+msgstr "重量"
 
 #. module: product
 #: model:ir.ui.view,arch_db:product.product_variant_easy_edit_view

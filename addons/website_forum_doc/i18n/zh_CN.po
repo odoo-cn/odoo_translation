@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_forum_doc
-# 
+#
 # Translators:
 # fausthuang, 2015
 msgid ""
@@ -79,13 +79,13 @@ msgstr "颜色索引"
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_stage_create_uid
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: website_forum_doc
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_stage_create_date
 #: model:ir.model.fields,field_description:website_forum_doc.field_forum_documentation_toc_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: website_forum_doc
 #: model:forum.documentation.toc,name:website_forum_doc.toc_crm

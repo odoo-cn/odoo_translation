@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_crm_claim
-# 
+#
 # Translators:
 # liulixia <liu.lixia@elico-corp.com>, 2015
 msgid ""
@@ -40,4 +40,4 @@ msgstr "点击注册一个新的索赔."
 msgid ""
 "You can track your claims from this menu and the action we\n"
 "                will take."
-msgstr "你可以根据这个菜单和我们将采取的行动跟踪你的索赔."
+msgstr "你可以根据这个菜单和我们将采取的动作跟踪你的索赔."

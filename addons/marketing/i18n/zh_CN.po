@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * marketing
-# 
+#
 # Translators:
 msgid ""
 msgstr ""
@@ -35,12 +35,12 @@ msgstr "配置营销"
 #. module: marketing
 #: model:ir.model.fields,field_description:marketing.field_marketing_config_settings_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: marketing
 #: model:ir.model.fields,field_description:marketing.field_marketing_config_settings_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: marketing
 #: model:ir.model.fields,field_description:marketing.field_marketing_config_settings_display_name

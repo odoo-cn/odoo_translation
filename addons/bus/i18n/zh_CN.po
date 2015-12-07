@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * bus
-# 
+#
 # Translators:
 # zhangpeiqing <zpq001@live.com>, 2015
 msgid ""
@@ -42,12 +42,12 @@ msgstr "创建日期"
 #: model:ir.model.fields,field_description:bus.field_bus_bus_create_uid
 #: model:ir.model.fields,field_description:bus.field_bus_presence_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_presence_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: bus
 #: model:ir.model.fields,field_description:bus.field_bus_bus_display_name

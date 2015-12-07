@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * sale_timesheet
-# 
+#
 # Translators:
 # Gary Wei <Gary.wei@elico-corp.com>, 2015
 msgid ""
@@ -51,7 +51,7 @@ msgstr "销售订单行"
 #. module: sale_timesheet
 #: model:ir.ui.view,arch_db:sale_timesheet.view_order_form_inherit_sale_timesheet
 msgid "Timesheet"
-msgstr "计工单"
+msgstr "工时单"
 
 #. module: sale_timesheet
 #: model:ir.model.fields,field_description:sale_timesheet.field_hr_employee_timesheet_cost

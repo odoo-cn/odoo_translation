@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_tax_cash_basis
-# 
+#
 # Translators:
 # Connie Xiao <connie.xiao@elico-corp.com>, 2015
 # wxb <bd5dml@gmail.com>, 2015
@@ -22,7 +22,7 @@ msgstr ""
 #. module: account_tax_cash_basis
 #: model:ir.model,name:account_tax_cash_basis.model_account_move
 msgid "Account Entry"
-msgstr "科目条目"
+msgstr "科目分录"
 
 #. module: account_tax_cash_basis
 #: model:ir.model.fields,help:account_tax_cash_basis.field_account_tax_cash_basis_account

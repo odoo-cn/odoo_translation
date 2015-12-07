@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * crm
-# 
+#
 # Translators:
 # fausthuang, 2015
 # fausthuang, 2015
@@ -424,7 +424,7 @@ msgstr "<strong>报价模板</strong> <span class=\"small\">（打包服务）</
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
 msgid "<strong>Recommended actions:</strong>"
-msgstr "<strong>推荐的行动：</strong>"
+msgstr "<strong>推荐的动作：</strong>"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -569,12 +569,12 @@ msgstr "接收邮件来自"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_view_search
 msgid "Action Search"
-msgstr "行动查找"
+msgstr "动作查找"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -708,14 +708,14 @@ msgstr "应用删除重复"
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_case_kanban_view_leads
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_opportunity_report_view_search
 #: model:ir.ui.view,arch_db:crm.view_crm_case_leads_filter
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid "Archived"
-msgstr "存档"
+msgstr "归档"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.base_partner_merge_automatic_wizard_form
@@ -1051,7 +1051,7 @@ msgstr "联系人"
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_mass_name
 #: model:ir.model.fields,field_description:crm.field_crm_lead2opportunity_partner_name
 msgid "Conversion Action"
-msgstr "转换行动"
+msgstr "转换动作"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_conversion
@@ -1176,7 +1176,7 @@ msgstr "创建报价模板"
 #: model:ir.model.fields,field_description:crm.field_crm_partner_binding_create_uid
 #: model:ir.model.fields,field_description:crm.field_crm_stage_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_base_partner_merge_automatic_wizard_create_date
@@ -1191,7 +1191,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:crm.field_crm_partner_binding_create_date
 #: model:ir.model.fields,field_description:crm.field_crm_stage_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_create_date
@@ -1473,7 +1473,7 @@ msgstr "直接与您的网站访问者吸引，以吸引和促进在线销售。
 msgid ""
 "Enter here the internal requirements for this stage (ex: Offer sent to "
 "customer). It will appear as a tooltip over the stage's name."
-msgstr "在这里输入这个阶段的内部需求（例如：报价发给客户）它将会显示为阶段名字上面的工具箱"
+msgstr "在这里输入这个阶段的内部需求（例如：报价发给客户）它将会显示为阶段名称上面的工具箱"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_date_deadline
@@ -1950,7 +1950,7 @@ msgstr "关键绩效指标"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_action_last
 msgid "Last Action"
-msgstr "最近行动"
+msgstr "最近动作"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_last_activity_id
@@ -2479,12 +2479,12 @@ msgstr "新商机"
 #: model:ir.model.fields,field_description:crm.field_crm_lead_date_action_next
 #: model:ir.model.fields,field_description:crm.field_res_users_payment_next_action
 msgid "Next Action"
-msgstr "下一行动"
+msgstr "下一动作"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_res_users_payment_next_action_date
 msgid "Next Action Date"
-msgstr "下次行动日期"
+msgstr "下次动作日期"
 
 #. module: crm
 #: model:ir.actions.act_window,name:crm.crm_lead_action_activities
@@ -2546,7 +2546,7 @@ msgstr "一般"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_users_payment_next_action
 msgid "Note regarding the next action."
-msgstr "关于下行动的说明."
+msgstr "关于下动作的说明."
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_planner
@@ -2556,12 +2556,12 @@ msgstr "注意：要使用这些功能，您需要安装"
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_description
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: crm
 #: model:ir.model.fields,field_description:crm.field_crm_lead_message_needaction_counter
 msgid "Number of Actions"
-msgstr "行动数量"
+msgstr "动作数量"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_opportunity_report_delay_close
@@ -2588,12 +2588,12 @@ msgstr "天数"
 msgid ""
 "Number of days before executing the action, allowing you to plan the date of"
 " the action."
-msgstr "在执行该行动前几天，让您计划行动的日期。"
+msgstr "在执行该动作前几天，让您计划动作的日期。"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_message_needaction_counter
 msgid "Number of messages which requires an action"
-msgstr "需要行动的消息编号"
+msgstr "需要动作的消息编号"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_lead_message_unread_counter
@@ -3267,7 +3267,7 @@ msgstr "通过点击搜索栏旁边的放大镜图标显示高级过滤器和选
 #: model:ir.ui.view,arch_db:crm.view_crm_case_opportunities_filter
 msgid ""
 "Show all opportunities for which the next action date is today or before"
-msgstr "显示下一个行动日期是今天还是以前的所有机会"
+msgstr "显示下一个动作日期是今天还是以前的所有机会"
 
 #. module: crm
 #: model:ir.ui.view,arch_db:crm.crm_activity_report_view_search
@@ -3460,7 +3460,7 @@ msgstr "报价单模板（用在线报价实现）"
 #. module: crm
 #: model:ir.model.fields,help:crm.field_res_users_payment_next_action_date
 msgid "The date before which no action should be taken."
-msgstr "没有采取行动之前的日期"
+msgstr "没有采取动作之前的日期"
 
 #. module: crm
 #: model:ir.model.fields,help:crm.field_crm_team_alias_id

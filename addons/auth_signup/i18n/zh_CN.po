@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * auth_signup
-# 
+#
 # Translators:
 # Xia Fajin <xia.fajin@elico-corp.com>, 2015
 msgid ""
@@ -259,7 +259,7 @@ msgstr "在网站可见"
 #. module: auth_signup
 #: model:ir.model.fields,field_description:auth_signup.field_res_users_website_description
 msgid "Website Partner Full Description"
-msgstr "网站业务伙伴的详细描述"
+msgstr "网站业务伙伴的详细说明"
 
 #. module: auth_signup
 #: model:ir.model.fields,field_description:auth_signup.field_res_users_website_short_description

@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * subscription
-# 
+#
 # Translators:
 # 卓忆科技 <zhanghao@jointd.com>, 2015
 msgid ""
@@ -38,7 +38,7 @@ msgstr "创建者"
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_create_date
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_history_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: subscription
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_cron_id
@@ -201,7 +201,7 @@ msgstr "名称"
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_note
 #: model:ir.ui.view,arch_db:subscription.view_subscription_form
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: subscription
 #: model:ir.model.fields,field_description:subscription.field_subscription_subscription_exec_init

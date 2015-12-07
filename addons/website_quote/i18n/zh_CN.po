@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_quote
-# 
+#
 # Translators:
 # fausthuang, 2015
 msgid ""
@@ -257,7 +257,7 @@ msgstr "<SPAN>推荐产品</ SPAN>"
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation
 msgid "<span>with payment terms: </span>"
-msgstr "<SPAN>付款方式：</ SPAN>"
+msgstr "<SPAN>付款条款：</ SPAN>"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.opt_quotation_signature
@@ -514,7 +514,7 @@ msgstr "课程总结"
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_option_create_uid
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: website_quote
 #: model:ir.model.fields,field_description:website_quote.field_sale_order_option_create_date
@@ -522,7 +522,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_option_create_date
 #: model:ir.model.fields,field_description:website_quote.field_sale_quote_template_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation_content
@@ -1435,7 +1435,7 @@ msgid ""
 " recorded webinars and live sessions by our senior instructors. At the end "
 "of the training, you can pass the Odoo Certification exam in one of the "
 "5000+ Pearson VUE test centers worldwide."
-msgstr "这些课程特点在我们传统的课堂培训，发现相同的高品质课程内容，辅以模块化会议和基于云的实验室。我们的许多在线学习课程，还包括几十个记录的网络研讨会和活动的会话由我们的资深讲师。在训练结束后，你可以通过Odoo认证考试在全球范围内5000+的Pearson VUE考试中心之一。"
+msgstr "这些课程特点在我们传统的课堂培训，发现相同的高品质课程内容，辅以模块化会议和基于云的实验室。我们的许多在线学习课程，还包括几十个记录的网络研讨会和活动的会话由我们的资深讲师。在训练结束后，你可以通过Odoo认证考试在全局范围内5000+的Pearson VUE考试中心之一。"
 
 #. module: website_quote
 #: model:ir.ui.view,arch_db:website_quote.so_quotation

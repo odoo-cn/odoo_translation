@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * account_budget
-# 
+#
 # Translators:
 # Connie Xiao <connie.xiao@elico-corp.com>, 2015
 # fausthuang, 2015
@@ -105,7 +105,7 @@ msgstr "成就"
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: account_budget
 #: model:ir.model,name:account_budget.model_account_analytic_account
@@ -116,7 +116,7 @@ msgstr "分析账户"
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.report_analyticaccountbudget
 msgid "Analytic Budget"
-msgstr "辅助核算预算"
+msgstr "分析会计预算"
 
 #. module: account_budget
 #: model:ir.ui.view,arch_db:account_budget.crossovered_budget_view_form
@@ -248,7 +248,7 @@ msgstr "已确认"
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_create_uid
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: account_budget
 #: model:ir.model.fields,field_description:account_budget.field_account_budget_analytic_create_date
@@ -259,7 +259,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_create_date
 #: model:ir.model.fields,field_description:account_budget.field_crossovered_budget_lines_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: account_budget
 #: model:ir.model.fields,help:account_budget.field_crossovered_budget_message_last_post

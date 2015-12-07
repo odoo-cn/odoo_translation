@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * hr
-# 
+#
 # Translators:
 # fausthuang, 2015
 # fausthuang, 2015
@@ -119,7 +119,7 @@ msgstr "一个好的工作是在一个年轻而充满活力的团队"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_message_needaction
 #: model:ir.model.fields,field_description:hr.field_hr_job_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_active
@@ -134,7 +134,7 @@ msgstr "分析需求，编写规范文件和报价"
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_employee_filter
 msgid "Archived"
-msgstr "存档"
+msgstr "归档"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_bank_account_id
@@ -297,7 +297,7 @@ msgstr "创建您的部门"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_create_uid
 #: model:ir.model.fields,field_description:hr.field_hr_job_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_create_date
@@ -305,7 +305,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:hr.field_hr_employee_create_date
 #: model:ir.model.fields,field_description:hr.field_hr_job_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_job_no_of_employee
@@ -394,7 +394,7 @@ msgstr "员工分类"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_category_name
 msgid "Employee Tag"
-msgstr "员工类型"
+msgstr "员工标签"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_categ_form
@@ -426,7 +426,7 @@ msgstr "员工姓名"
 #: model:ir.ui.view,arch_db:hr.view_employee_tree
 #: model:ir.ui.view,arch_db:hr.view_partner_tree2
 msgid "Employees"
-msgstr "员工目录"
+msgstr "员工"
 
 #. module: hr
 #: model:ir.actions.act_window,name:hr.open_view_employee_tree
@@ -913,7 +913,7 @@ msgstr "笔记"
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_employee_notes
 msgid "Notes"
-msgstr "便签"
+msgstr "备注"
 
 #. module: hr
 #: model:ir.model.fields,field_description:hr.field_hr_department_message_needaction_counter
@@ -958,7 +958,7 @@ msgid ""
 "Odoo's department structure is used to manage all documents\n"
 "                related to employees by departments: expenses, timesheets,\n"
 "                leaves and holidays, recruitments, etc."
-msgstr "Odoo的部门结构用来管理所有不同部门员工的文档：费用，记工单，请假和假期，招聘等等"
+msgstr "Odoo的部门结构用来管理所有不同部门员工的文档：费用，工时单，请假和假期，招聘等等"
 
 #. module: hr
 #: model:ir.actions.client,name:hr.action_client_hr_menu
@@ -1582,7 +1582,7 @@ msgid ""
 "Your departments structure is used to manage all documents\n"
 "                related to employees by departments: expenses and timesheets,\n"
 "                leaves and holidays, recruitments, etc."
-msgstr "部门结构用来管理所有的不同部门员工的相关文档：费用和记工单，请假和假期，招聘等等"
+msgstr "部门结构用来管理所有的不同部门员工的相关文档：费用和工时单，请假和假期，招聘等等"
 
 #. module: hr
 #: model:ir.ui.view,arch_db:hr.view_department_form

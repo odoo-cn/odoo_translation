@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * web
-# 
+#
 # Translators:
 # fausthuang, 2015
 # liyes <bodetools@gmail.com>, 2015
@@ -241,7 +241,7 @@ msgstr "访问错误"
 #: code:addons/web/static/src/js/widgets/sidebar.js:24
 #, python-format
 msgid "Action"
-msgstr "行动"
+msgstr "动作"
 
 #. module: web
 #. openerp-web
@@ -357,14 +357,14 @@ msgstr "应用"
 #: code:addons/web/static/src/js/views/list_view.js:308
 #, python-format
 msgid "Archive"
-msgstr "存档"
+msgstr "归档"
 
 #. module: web
 #. openerp-web
 #: code:addons/web/static/src/js/views/form_widgets.js:671
 #, python-format
 msgid "Archived"
-msgstr "存档"
+msgstr "归档"
 
 #. module: web
 #. openerp-web
@@ -600,7 +600,7 @@ msgstr "创建： "
 #: code:addons/web/static/src/xml/base.xml:249
 #, python-format
 msgid "Created by :"
-msgstr "创建于："
+msgstr "创建人："
 
 #. module: web
 #. openerp-web
@@ -979,7 +979,7 @@ msgstr "表单"
 #: code:addons/web/static/src/js/framework/crash_manager.js:24
 #, python-format
 msgid "Global Business Error"
-msgstr "全球商业错误"
+msgstr "全局商业错误"
 
 #. module: web
 #. openerp-web
@@ -1406,7 +1406,7 @@ msgstr "一般"
 #: code:addons/web/static/src/js/views/form_widgets.js:669
 #, python-format
 msgid "Not Archived"
-msgstr "没有存档"
+msgstr "没有归档"
 
 #. module: web
 #. openerp-web

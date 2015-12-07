@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * website_slides
-# 
+#
 # Translators:
 # fausthuang, 2015
 # Siyuan Gu <siyuancn@hotmail.com>, 2015
@@ -324,7 +324,7 @@ msgstr "标签必须唯一!"
 #: model:ir.model.fields,field_description:website_slides.field_slide_channel_message_needaction
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_message_needaction
 msgid "Action Needed"
-msgstr "所需行动"
+msgstr "所需动作"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view
@@ -446,7 +446,7 @@ msgid ""
 "This is a new open source application in Python/Javascript based on Bootstrap and OpenERP.\n"
 "\n"
 "Download or use online on http://openerp.com"
-msgstr "创建企业级的网站，使用我们的超级容易的建设者。使用精心设计的构建模块和编辑所有在线。受益于外的开箱即用的商务功能;电子商务，事件，博客，就业宣布，客户推荐，号召性的行动等，这是一种基于引导和OpenERP的在Python/ Javascript的一个新的开源应用程序。下载或 http://openerp.com 在线使用"
+msgstr "创建企业级的网站，使用我们的超级容易的建设者。使用精心设计的构建模块和编辑所有在线。受益于外的开箱即用的商务功能;电子商务，事件，博客，就业宣布，客户推荐，号召性的动作等，这是一种基于引导和OpenERP的在Python/ Javascript的一个新的开源应用程序。下载或 http://openerp.com 在线使用"
 
 #. module: website_slides
 #. openerp-web
@@ -462,7 +462,7 @@ msgstr "创建新的标签 '%s'"
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_create_uid
 #: model:ir.model.fields,field_description:website_slides.field_slide_tag_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: website_slides
 #: model:ir.model.fields,field_description:website_slides.field_slide_category_create_date
@@ -471,7 +471,7 @@ msgstr "创建于"
 #: model:ir.model.fields,field_description:website_slides.field_slide_slide_create_date
 #: model:ir.model.fields,field_description:website_slides.field_slide_tag_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: website_slides
 #: model:ir.model.fields,help:website_slides.field_slide_channel_message_last_post
@@ -1607,7 +1607,7 @@ msgstr "发现对于给定的标准结果"
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.embed_slide
 msgid "suggest_slide.name"
-msgstr "建议_幻灯片.名字"
+msgstr "建议_幻灯片.名称"
 
 #. module: website_slides
 #: model:ir.ui.view,arch_db:website_slides.slide_detail_view

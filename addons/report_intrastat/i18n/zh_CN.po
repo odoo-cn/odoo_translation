@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * report_intrastat
-# 
+#
 # Translators:
 # jeffery chen fan <jeffery9@gmail.com>, 2015
 # 珠海-老天 <liangjia@qq.com>, 2015
@@ -316,7 +316,7 @@ msgstr "供应商退款"
 #: model:ir.model.fields,field_description:report_intrastat.field_report_intrastat_weight
 #: model:ir.ui.view,arch_db:report_intrastat.report_intrastatinvoice_document
 msgid "Weight"
-msgstr "重要性"
+msgstr "重量"
 
 #. module: report_intrastat
 #: model:ir.model.fields,field_description:report_intrastat.field_report_intrastat_name

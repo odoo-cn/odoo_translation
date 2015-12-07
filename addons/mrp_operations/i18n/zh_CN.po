@@ -1,7 +1,7 @@
 # Translation of Odoo Server.
 # This file contains the translation of the following modules:
 # * mrp_operations
-# 
+#
 # Translators:
 # 卓忆科技 <zhanghao@jointd.com>, 2015
 msgid ""
@@ -103,13 +103,13 @@ msgstr "已确认的工票"
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_create_uid
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_create_uid
 msgid "Created by"
-msgstr "创建于"
+msgstr "创建人"
 
 #. module: mrp_operations
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_code_create_date
 #: model:ir.model.fields,field_description:mrp_operations.field_mrp_operations_operation_create_date
 msgid "Created on"
-msgstr "创建于"
+msgstr "创建时间"
 
 #. module: mrp_operations
 #: model:ir.ui.view,arch_db:mrp_operations.view_report_mrp_workorder_filter
